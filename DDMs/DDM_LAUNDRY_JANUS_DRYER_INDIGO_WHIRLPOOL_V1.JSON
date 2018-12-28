@@ -1,0 +1,3064 @@
+{
+  "_id": "DDM_LAUNDRY_JANUS_DRYER_INDIGO_WHIRLPOOL_V1",
+  "_rev": "80-c09956ba78367dd481e20a72c1a3c74c",
+  "DDM": {
+    "_id": "DDM_LAUNDRY_JANUS_DRYER_INDIGO_WHIRLPOOL_V1",
+    "ddmName": "DDM_LAUNDRY_JANUS_DRYER_INDIGO_WHIRLPOOL_V1",
+    "modelNumber": "WED9620H,WGD9620H,YWED9620H,WED9620HW0,WED9620HC0,WED9620HBK0,WGD9620HW0,WGD9620HC0,WGD9620HBK0,YWED9620HW0,YWED9620HC0, WED9620HC0, WED9120HC, WED9620HW0",
+    "createdAt": "Dec 12, 2018 3:00:23 PM",
+    "createdBy": "Preethy",
+    "brandName": "Whirlpool",
+    "category": "FabricCare",
+    "version": "1.0",
+    "ccuriVersion": "1.0",
+    "ccURI": "API144_LAUNDRY_V17"
+  },
+  "DataModel": {
+    "Key": "DDM_LAUNDRY_JANUS_DRYER_INDIGO_WHIRLPOOL_V1",
+    "attributes": [
+      {
+        "IsTemplate": false,
+        "M2MAttributeName": "XCat_PersistentInfoVersion",
+        "Instance": "XCat_PersistentInfo",
+        "IsTimeSeries": false,
+        "DataType": "BEIntegerUnsigned16Bit",
+        "AttributeName": "Version",
+        "RangeValues": {
+          "StepSize": 1,
+          "Min": 12,
+          "Max": 12
+        },
+        "DeviceIO": "RO",
+        "MappedAttributeName": "XCat_PersistentInfoVersion",
+        "Default": 12,
+        "Key": "0x01010001"
+      },
+      {
+        "IsTemplate": false,
+        "M2MAttributeName": "XCat_PersistentInfoSaid",
+        "Instance": "XCat_PersistentInfo",
+        "IsTimeSeries": false,
+        "DataType": "String",
+        "AttributeName": "Said",
+        "DeviceIO": "RO",
+        "MappedAttributeName": "XCat_PersistentInfoSaid",
+        "Key": "0x01010002"
+      },
+      {
+        "IsTemplate": false,
+        "M2MAttributeName": "XCat_PersistentInfoMacAddress",
+        "Instance": "XCat_PersistentInfo",
+        "IsTimeSeries": false,
+        "DataType": "String",
+        "AttributeName": "MacAddress",
+        "DeviceIO": "RO",
+        "MappedAttributeName": "XCat_PersistentInfoMacAddress",
+        "Key": "0x01010003"
+      },
+      {
+        "IsTemplate": false,
+        "M2MAttributeName": "XCat_WifiStatusRssiAntennaDiversity",
+        "Instance": "XCat_WifiStatus",
+        "IsTimeSeries": false,
+        "DataType": "IntegerSigned8Bit",
+        "AttributeName": "RssiAntennaDiversity",
+        "RangeValues": {
+          "StepSize": 1,
+          "Min": -128,
+          "Max": 127
+        },
+        "DeviceIO": "RO",
+        "MappedAttributeName": "XCat_WifiStatusRssiAntennaDiversity",
+        "Default": -99,
+        "Key": "0x01020001"
+      },
+      {
+        "IsTemplate": false,
+        "M2MAttributeName": "XCat_PowerStatusPowerOutage",
+        "Instance": "XCat_PowerStatus",
+        "IsTimeSeries": false,
+        "DataType": "Boolean",
+        "AttributeName": "PowerOutage",
+        "DeviceIO": "RO",
+        "MappedAttributeName": "XCat_PowerStatusPowerOutage",
+        "Default": false,
+        "Key": "0x01030006"
+      },
+      {
+        "IsTemplate": false,
+        "M2MAttributeName": "XCat_SmartGridStatusSmartGridCompliant",
+        "Instance": "XCat_SmartGridStatus",
+        "IsTimeSeries": false,
+        "DataType": "enum",
+        "AttributeName": "SmartGridCompliant",
+        "DeviceIO": "RO",
+        "MappedAttributeName": "XCat_SmartGridStatusSmartGridCompliant",
+        "Default": "0",
+        "EnumValues": {
+          "0": "None",
+          "1": "UserOverride",
+          "2": "ApplianceOverride"
+        },
+        "Key": "0x01040001"
+      },
+      {
+        "IsTemplate": false,
+        "M2MAttributeName": "XCat_OdometerStatusRunningHours",
+        "Instance": "XCat_OdometerStatus",
+        "IsTimeSeries": false,
+        "DataType": "BEIntegerUnsigned32Bit",
+        "AttributeName": "RunningHours",
+        "RangeValues": {
+          "StepSize": 1,
+          "Min": 0,
+          "Max": 4294967295
+        },
+        "DeviceIO": "RO",
+        "MappedAttributeName": "XCat_OdometerStatusRunningHours",
+        "Default": 0,
+        "Key": "0x01050001"
+      },
+      {
+        "IsTemplate": false,
+        "M2MAttributeName": "XCat_OdometerStatusTotalHours",
+        "Instance": "XCat_OdometerStatus",
+        "IsTimeSeries": false,
+        "DataType": "BEIntegerUnsigned32Bit",
+        "AttributeName": "TotalHours",
+        "RangeValues": {
+          "StepSize": 1,
+          "Min": 0,
+          "Max": 4294967295
+        },
+        "DeviceIO": "RO",
+        "MappedAttributeName": "XCat_OdometerStatusTotalHours",
+        "Default": 0,
+        "Key": "0x01050002"
+      },
+      {
+        "IsTemplate": false,
+        "M2MAttributeName": "XCat_OdometerStatusCycleCount",
+        "Instance": "XCat_OdometerStatus",
+        "IsTimeSeries": false,
+        "DataType": "BEIntegerUnsigned32Bit",
+        "AttributeName": "CycleCount",
+        "RangeValues": {
+          "StepSize": 1,
+          "Min": 0,
+          "Max": 4294967295
+        },
+        "DeviceIO": "RO",
+        "MappedAttributeName": "XCat_OdometerStatusCycleCount",
+        "Default": 0,
+        "Key": "0x01050003"
+      },
+      {
+        "IsTemplate": false,
+        "M2MAttributeName": "XCat_ApplianceInfoSetModelNumber",
+        "Instance": "XCat_ApplianceInfoSet",
+        "IsTimeSeries": false,
+        "DataType": "String",
+        "AttributeName": "ModelNumber",
+        "DeviceIO": "RW",
+        "MappedAttributeName": "XCat_ApplianceInfoSetModelNumber",
+        "Key": "0x01060001"
+      },
+      {
+        "IsTemplate": false,
+        "M2MAttributeName": "XCat_ApplianceInfoSetSerialNumber",
+        "Instance": "XCat_ApplianceInfoSet",
+        "IsTimeSeries": false,
+        "DataType": "String",
+        "AttributeName": "SerialNumber",
+        "DeviceIO": "RW",
+        "MappedAttributeName": "XCat_ApplianceInfoSetSerialNumber",
+        "Key": "0x01060002"
+      },
+      {
+        "IsTemplate": false,
+        "M2MAttributeName": "XCat_DateTimeSetDateTimeSet",
+        "Instance": "XCat_DateTimeSet",
+        "IsTimeSeries": false,
+        "DataType": "String",
+        "AttributeName": "DateTimeSet",
+        "DeviceIO": "RW",
+        "MappedAttributeName": "XCat_DateTimeSetDateTimeSet",
+        "Key": "0x01070001"
+      },
+      {
+        "IsTemplate": false,
+        "M2MAttributeName": "XCat_RemoteSetRemoteControlEnable",
+        "Instance": "XCat_RemoteSet",
+        "IsTimeSeries": false,
+        "DataType": "Boolean",
+        "AttributeName": "RemoteControlEnable",
+        "DeviceIO": "RW",
+        "MappedAttributeName": "XCat_RemoteSetRemoteControlEnable",
+        "Default": false,
+        "Key": "0x01080001"
+      },
+      {
+        "IsTemplate": false,
+        "M2MAttributeName": "XCat_RemoteSetRemoteDiagnosticsEnable",
+        "Instance": "XCat_RemoteSet",
+        "IsTimeSeries": false,
+        "DataType": "enum",
+        "AttributeName": "RemoteDiagnosticsEnable",
+        "DeviceIO": "RW",
+        "MappedAttributeName": "XCat_RemoteSetRemoteDiagnosticsEnable",
+        "Default": "0",
+        "EnumValues": {
+          "0": "DisableAutoTest",
+          "1": "EnableAutoTest"
+        },
+        "Key": "0x01080002"
+      },
+      {
+        "IsTemplate": false,
+        "M2MAttributeName": "XCat_RemoteSetRebootAppliance",
+        "Instance": "XCat_RemoteSet",
+        "IsTimeSeries": false,
+        "DataType": "enum",
+        "AttributeName": "RebootAppliance",
+        "DeviceIO": "WO",
+        "MappedAttributeName": "XCat_RemoteSetRebootAppliance",
+        "Default": "0",
+        "EnumValues": {
+          "0": "CancelResetRequest",
+          "1": "ResetRequest",
+          "2": "ExecuteReset"
+        },
+        "Key": "0x01080003"
+      },
+      {
+        "IsTemplate": false,
+        "M2MAttributeName": "XCat_WifiSetPublishApplianceState",
+        "Instance": "XCat_WifiSet",
+        "IsTimeSeries": false,
+        "DataType": "Boolean",
+        "AttributeName": "PublishApplianceState",
+        "DeviceIO": "WO",
+        "MappedAttributeName": "XCat_WifiSetPublishApplianceState",
+        "Default": false,
+        "Key": "0x01090001"
+      },
+      {
+        "IsTemplate": false,
+        "M2MAttributeName": "XCat_WifiSetIspAuthorized",
+        "Instance": "XCat_WifiSet",
+        "IsTimeSeries": false,
+        "DataType": "enum",
+        "AttributeName": "IspAuthorized",
+        "DeviceIO": "RW",
+        "MappedAttributeName": "XCat_WifiSetIspAuthorized",
+        "Default": "0",
+        "EnumValues": {
+          "0": "IspAuthorizedNotAuthorized",
+          "1": "IspAuthorizedSchedule",
+          "2": "IspAuthorizedImmediate"
+        },
+        "Key": "0x01090005"
+      },
+      {
+        "IsTemplate": false,
+        "M2MAttributeName": "XCat_SmartGridSetSmartGridEnable",
+        "Instance": "XCat_SmartGridSet",
+        "IsTimeSeries": false,
+        "DataType": "Boolean",
+        "AttributeName": "SmartGridEnable",
+        "DeviceIO": "RW",
+        "MappedAttributeName": "XCat_SmartGridSetSmartGridEnable",
+        "Default": true,
+        "Key": "0x010B0001"
+      },
+      {
+        "IsTemplate": false,
+        "M2MAttributeName": "XCat_SmartGridSetSmartGridMode",
+        "Instance": "XCat_SmartGridSet",
+        "IsTimeSeries": false,
+        "DataType": "String",
+        "AttributeName": "SmartGridMode",
+        "DeviceIO": "RW",
+        "MappedAttributeName": "XCat_SmartGridSetSmartGridMode",
+        "Key": "0x010B0002"
+      },
+      {
+        "IsTemplate": false,
+        "M2MAttributeName": "XCat_ConfigSetMaxMessageLength",
+        "Instance": "XCat_ConfigSet",
+        "IsTimeSeries": false,
+        "DataType": "BEIntegerUnsigned16Bit",
+        "AttributeName": "MaxMessageLength",
+        "RangeValues": {
+          "StepSize": 1,
+          "Min": 0,
+          "Max": 0
+        },
+        "DeviceIO": "RO",
+        "MappedAttributeName": "XCat_ConfigSetMaxMessageLength",
+        "Default": 0,
+        "Key": "0x010C0001"
+      },
+      {
+        "IsTemplate": false,
+        "M2MAttributeName": "XCat_ConfigSetMaxRelationalSteps",
+        "Instance": "XCat_ConfigSet",
+        "IsTimeSeries": false,
+        "DataType": "BEIntegerUnsigned16Bit",
+        "AttributeName": "MaxRelationalSteps",
+        "RangeValues": {
+          "StepSize": 1,
+          "Min": 0,
+          "Max": 0
+        },
+        "DeviceIO": "RO",
+        "MappedAttributeName": "XCat_ConfigSetMaxRelationalSteps",
+        "Default": 0,
+        "Key": "0x010C0002"
+      },
+      {
+        "IsTemplate": false,
+        "M2MAttributeName": "XCat_ConfigSetMaxRelationalMemory",
+        "Instance": "XCat_ConfigSet",
+        "IsTimeSeries": false,
+        "DataType": "BEIntegerUnsigned32Bit",
+        "AttributeName": "MaxRelationalMemory",
+        "RangeValues": {
+          "StepSize": 1,
+          "Min": 0,
+          "Max": 0
+        },
+        "DeviceIO": "RO",
+        "MappedAttributeName": "XCat_ConfigSetMaxRelationalMemory",
+        "Default": 0,
+        "Key": "0x010C0003"
+      },
+      {
+        "IsTemplate": false,
+        "M2MAttributeName": "XCat_ConfigSetMaxFavorites",
+        "Instance": "XCat_ConfigSet",
+        "IsTimeSeries": false,
+        "DataType": "IntegerUnsigned8Bit",
+        "AttributeName": "MaxFavorites",
+        "RangeValues": {
+          "StepSize": 1,
+          "Min": 0,
+          "Max": 30
+        },
+        "DeviceIO": "RO",
+        "MappedAttributeName": "XCat_ConfigSetMaxFavorites",
+        "Default": 0,
+        "Key": "0x010C0007"
+      },
+      {
+        "IsTemplate": false,
+        "M2MAttributeName": "XCat_ConfigSetNumberEnvelopes",
+        "Instance": "XCat_ConfigSet",
+        "IsTimeSeries": false,
+        "DataType": "IntegerUnsigned8Bit",
+        "AttributeName": "NumberEnvelopes",
+        "RangeValues": {
+          "StepSize": 1,
+          "Min": 0,
+          "Max": 0
+        },
+        "DeviceIO": "RO",
+        "MappedAttributeName": "XCat_ConfigSetNumberEnvelopes",
+        "Default": 0,
+        "Key": "0x010C0008"
+      },
+      {
+        "IsTemplate": false,
+        "M2MAttributeName": "Sys_AlertStatusCustomerFaultCode",
+        "Instance": "Sys_AlertStatus",
+        "IsTimeSeries": true,
+        "DataType": "String",
+        "AttributeName": "CustomerFaultCode",
+        "DeviceIO": "RO",
+        "MappedAttributeName": "Sys_AlertStatusCustomerFaultCode",
+        "Key": "0x02010001"
+      },
+      {
+        "IsTemplate": false,
+        "M2MAttributeName": "Sys_DisplaySetLanguage",
+        "Instance": "Sys_DisplaySet",
+        "IsTimeSeries": false,
+        "DataType": "enum",
+        "AttributeName": "Language",
+        "DeviceIO": "RW",
+        "MappedAttributeName": "Sys_DisplaySetLanguage",
+        "Default": "0",
+        "EnumValues": {
+          "0": "LanguageEnglish",
+          "33": "LanguageFrench",
+          "34": "LanguageSpanish"
+        },
+        "Key": "0x02020002"
+      },
+      {
+        "IsTemplate": false,
+        "M2MAttributeName": "Sys_DisplaySetEnable24Hour",
+        "Instance": "Sys_DisplaySet",
+        "IsTimeSeries": false,
+        "DataType": "Boolean",
+        "AttributeName": "Enable24Hour",
+        "DeviceIO": "RW",
+        "MappedAttributeName": "Sys_DisplaySetEnable24Hour",
+        "Default": false,
+        "Key": "0x02020007"
+      },
+      {
+        "IsTemplate": false,
+        "M2MAttributeName": "Sys_DisplaySetBrightnessPercent",
+        "Instance": "Sys_DisplaySet",
+        "IsTimeSeries": false,
+        "DataType": "IntegerUnsigned8Bit",
+        "AttributeName": "BrightnessPercent",
+        "RangeValues": {
+          "StepSize": 1,
+          "Min": 0,
+          "Max": 100
+        },
+        "DeviceIO": "RW",
+        "MappedAttributeName": "Sys_DisplaySetBrightnessPercent",
+        "Default": 90,
+        "Key": "0x02020009"
+      },
+      {
+        "IsTemplate": false,
+        "M2MAttributeName": "Sys_OpSetControlLock",
+        "Instance": "Sys_OpSet",
+        "IsTimeSeries": false,
+        "DataType": "Boolean",
+        "AttributeName": "ControlLock",
+        "DeviceIO": "RW",
+        "MappedAttributeName": "Sys_OpSetControlLock",
+        "Default": false,
+        "Key": "0x02030002"
+      },
+      {
+        "IsTemplate": false,
+        "M2MAttributeName": "Sys_OpSetAlertToneVolume",
+        "Instance": "Sys_OpSet",
+        "IsTimeSeries": false,
+        "DataType": "enum",
+        "AttributeName": "AlertToneVolume",
+        "DeviceIO": "RW",
+        "MappedAttributeName": "Sys_OpSetAlertToneVolume",
+        "Default": "2",
+        "EnumValues": {
+          "0": "VolumeValueOff",
+          "1": "VolumeValueLow",
+          "2": "VolumeValueMedium",
+          "3": "VolumeValueHigh",
+          "4": "VolumeValueMax"
+        },
+        "Key": "0x02030004"
+      },
+      {
+        "IsTemplate": false,
+        "M2MAttributeName": "Sys_OpSetKeyPressToneVolume",
+        "Instance": "Sys_OpSet",
+        "IsTimeSeries": false,
+        "DataType": "enum",
+        "AttributeName": "KeyPressToneVolume",
+        "DeviceIO": "RW",
+        "MappedAttributeName": "Sys_OpSetKeyPressToneVolume",
+        "Default": "2",
+        "EnumValues": {
+          "0": "VolumeValueOff",
+          "1": "VolumeValueLow",
+          "2": "VolumeValueMedium",
+          "3": "VolumeValueHigh",
+          "4": "VolumeValueMax"
+        },
+        "Key": "0x02030006"
+      },
+      {
+        "IsTemplate": false,
+        "M2MAttributeName": "Cavity_TimeStatusEstTimeRemaining",
+        "Instance": "Cavity_TimeStatus",
+        "IsTimeSeries": false,
+        "DataType": "BEIntegerUnsigned32Bit",
+        "AttributeName": "EstTimeRemaining",
+        "RangeValues": {
+          "StepSize": 1,
+          "Min": 0,
+          "Max": 4294967295
+        },
+        "DeviceIO": "RO",
+        "MappedAttributeName": "Cavity_TimeStatusEstTimeRemaining",
+        "Default": 0,
+        "Key": "0x03010001"
+      },
+      {
+        "IsTemplate": false,
+        "M2MAttributeName": "Cavity_OpStatusDoorOpen",
+        "Instance": "Cavity_OpStatus",
+        "IsTimeSeries": false,
+        "DataType": "Boolean",
+        "AttributeName": "DoorOpen",
+        "DeviceIO": "RO",
+        "MappedAttributeName": "Cavity_OpStatusDoorOpen",
+        "Default": false,
+        "Key": "0x03020002"
+      },
+      {
+        "IsTemplate": false,
+        "M2MAttributeName": "Cavity_CycleStatusMachineState",
+        "Instance": "Cavity_CycleStatus",
+        "IsTimeSeries": false,
+        "DataType": "enum",
+        "AttributeName": "MachineState",
+        "DeviceIO": "RO",
+        "MappedAttributeName": "Cavity_CycleStatusMachineState",
+        "Default": "0",
+        "EnumValues": {
+          "0": "MachineStateStandby",
+          "1": "MachineStateSetting",
+          "4": "MachineStateSmartDelay",
+          "5": "MachineStateSmartGridPause",
+          "6": "MachineStatePause",
+          "7": "MachineStateRunningMainCycle",
+          "8": "MachineStateRunningPostCycle",
+          "10": "MachineStateComplete",
+          "11": "MachineStatePowerFailure",
+          "12": "MachineStateServiceDiagnostic",
+          "13": "MachineStateFactoryDiagnostic",
+          "17": "MachineStateHardStopOrError"
+        },
+        "Key": "0x03040001"
+      },
+      {
+        "IsTemplate": false,
+        "M2MAttributeName": "Cavity_OpSetOperations",
+        "Instance": "Cavity_OpSet",
+        "IsTimeSeries": false,
+        "DataType": "enum",
+        "AttributeName": "Operations",
+        "DeviceIO": "WO",
+        "MappedAttributeName": "Cavity_OpSetOperations",
+        "Default": "0",
+        "EnumValues": {
+          "0": "OperationsNone",
+          "1": "OperationsCancel",
+          "2": "OperationsStart",
+          "3": "OperationsSetOnDisplay",
+          "5": "OperationsPause",
+          "6": "OperationsResume"
+        },
+        "Key": "0x03070001"
+      },
+      {
+        "IsTemplate": false,
+        "M2MAttributeName": "Cavity_CycleSetDownloadAndGo",
+        "Instance": "Cavity_CycleSet",
+        "IsTimeSeries": false,
+        "DataType": "IntegerUnsigned8Bit",
+        "AttributeName": "DownloadAndGo",
+        "RangeValues": {
+          "StepSize": 1,
+          "Min": 0,
+          "Max": 1
+        },
+        "DeviceIO": "RW",
+        "MappedAttributeName": "Cavity_CycleSetDownloadAndGo",
+        "Default": 0,
+        "Key": "0x03080001"
+      },
+      {
+        "IsTemplate": false,
+        "M2MAttributeName": "Cavity_CycleSetCycleName",
+        "Instance": "Cavity_CycleSet",
+        "IsTimeSeries": false,
+        "DataType": "String",
+        "AttributeName": "CycleName",
+        "DeviceIO": "RW",
+        "MappedAttributeName": "Cavity_CycleSetCycleName",
+        "Key": "0x03080006"
+      },
+      {
+        "IsTemplate": false,
+        "M2MAttributeName": "Cavity_CycleSetSpecialtyCycleId",
+        "Instance": "Cavity_CycleSet",
+        "IsTimeSeries": false,
+        "DataType": "IntegerUnsigned8Bit",
+        "AttributeName": "SpecialtyCycleId",
+        "RangeValues": {
+          "StepSize": 1,
+          "Min": 0,
+          "Max": 255
+        },
+        "DeviceIO": "RW",
+        "MappedAttributeName": "Cavity_CycleSetSpecialtyCycleId",
+        "Default": 0,
+        "Key": "0x03080007"
+      },
+      {
+        "IsTemplate": false,
+        "M2MAttributeName": "DrySys_OpSetDampNotificationToneVolume",
+        "Instance": "DrySys_OpSet",
+        "IsTimeSeries": false,
+        "DataType": "enum",
+        "AttributeName": "DampNotificationToneVolume",
+        "DeviceIO": "RW",
+        "MappedAttributeName": "DrySys_OpSetDampNotificationToneVolume",
+        "Default": "2",
+        "EnumValues": {
+          "0": "VolumeValueOff",
+          "2": "VolumeValueMedium",
+          "4": "VolumeValueMax"
+        },
+        "Key": "0x06020001"
+      },
+      {
+        "IsTemplate": false,
+        "M2MAttributeName": "DryCavity_ChangeStatusCycleSelect",
+        "Instance": "DryCavity_ChangeStatus",
+        "IsTimeSeries": false,
+        "DataType": "Boolean",
+        "AttributeName": "CycleSelect",
+        "DeviceIO": "RO",
+        "MappedAttributeName": "DryCavity_ChangeStatusCycleSelect",
+        "Default": true,
+        "Key": "0x07020001"
+      },
+      {
+        "IsTemplate": false,
+        "M2MAttributeName": "DryCavity_ChangeStatusDryness",
+        "Instance": "DryCavity_ChangeStatus",
+        "IsTimeSeries": false,
+        "DataType": "Boolean",
+        "AttributeName": "Dryness",
+        "DeviceIO": "RO",
+        "MappedAttributeName": "DryCavity_ChangeStatusDryness",
+        "Default": true,
+        "Key": "0x07020002"
+      },
+      {
+        "IsTemplate": false,
+        "M2MAttributeName": "DryCavity_ChangeStatusEcoBoost",
+        "Instance": "DryCavity_ChangeStatus",
+        "IsTimeSeries": false,
+        "DataType": "Boolean",
+        "AttributeName": "EcoBoost",
+        "DeviceIO": "RO",
+        "MappedAttributeName": "DryCavity_ChangeStatusEcoBoost",
+        "Default": true,
+        "Key": "0x07020003"
+      },
+      {
+        "IsTemplate": false,
+        "M2MAttributeName": "DryCavity_ChangeStatusManualDryTime",
+        "Instance": "DryCavity_ChangeStatus",
+        "IsTimeSeries": false,
+        "DataType": "Boolean",
+        "AttributeName": "ManualDryTime",
+        "DeviceIO": "RO",
+        "MappedAttributeName": "DryCavity_ChangeStatusManualDryTime",
+        "Default": true,
+        "Key": "0x07020005"
+      },
+      {
+        "IsTemplate": false,
+        "M2MAttributeName": "DryCavity_ChangeStatusStaticGuard",
+        "Instance": "DryCavity_ChangeStatus",
+        "IsTimeSeries": false,
+        "DataType": "Boolean",
+        "AttributeName": "StaticGuard",
+        "DeviceIO": "RO",
+        "MappedAttributeName": "DryCavity_ChangeStatusStaticGuard",
+        "Default": true,
+        "Key": "0x07020007"
+      },
+      {
+        "IsTemplate": false,
+        "M2MAttributeName": "DryCavity_ChangeStatusTemperature",
+        "Instance": "DryCavity_ChangeStatus",
+        "IsTimeSeries": false,
+        "DataType": "Boolean",
+        "AttributeName": "Temperature",
+        "DeviceIO": "RO",
+        "MappedAttributeName": "DryCavity_ChangeStatusTemperature",
+        "Default": true,
+        "Key": "0x07020008"
+      },
+      {
+        "IsTemplate": false,
+        "M2MAttributeName": "DryCavity_ChangeStatusWrinkleShield",
+        "Instance": "DryCavity_ChangeStatus",
+        "IsTimeSeries": false,
+        "DataType": "Boolean",
+        "AttributeName": "WrinkleShield",
+        "DeviceIO": "RO",
+        "MappedAttributeName": "DryCavity_ChangeStatusWrinkleShield",
+        "Default": true,
+        "Key": "0x07020009"
+      },
+      {
+        "IsTemplate": false,
+        "M2MAttributeName": "DryCavity_CycleStatusAirFlowStatus",
+        "Instance": "DryCavity_CycleStatus",
+        "IsTimeSeries": false,
+        "DataType": "enum",
+        "AttributeName": "AirFlowStatus",
+        "DeviceIO": "RO",
+        "MappedAttributeName": "DryCavity_CycleStatusAirFlowStatus",
+        "Default": "0",
+        "EnumValues": {
+          "0": "AirFlowGood",
+          "1": "AirFlowBad"
+        },
+        "Key": "0x07030001"
+      },
+      {
+        "IsTemplate": false,
+        "M2MAttributeName": "DryCavity_CycleStatusCoolDown",
+        "Instance": "DryCavity_CycleStatus",
+        "IsTimeSeries": false,
+        "DataType": "Boolean",
+        "AttributeName": "CoolDown",
+        "DeviceIO": "RO",
+        "MappedAttributeName": "DryCavity_CycleStatusCoolDown",
+        "Default": false,
+        "Key": "0x07030002"
+      },
+      {
+        "IsTemplate": false,
+        "M2MAttributeName": "DryCavity_CycleStatusDrying",
+        "Instance": "DryCavity_CycleStatus",
+        "IsTimeSeries": false,
+        "DataType": "Boolean",
+        "AttributeName": "Drying",
+        "DeviceIO": "RO",
+        "MappedAttributeName": "DryCavity_CycleStatusDrying",
+        "Default": false,
+        "Key": "0x07030004"
+      },
+      {
+        "IsTemplate": false,
+        "M2MAttributeName": "DryCavity_CycleStatusSensing",
+        "Instance": "DryCavity_CycleStatus",
+        "IsTimeSeries": false,
+        "DataType": "Boolean",
+        "AttributeName": "Sensing",
+        "DeviceIO": "RO",
+        "MappedAttributeName": "DryCavity_CycleStatusSensing",
+        "Default": false,
+        "Key": "0x07030006"
+      },
+      {
+        "IsTemplate": false,
+        "M2MAttributeName": "DryCavity_CycleStatusLimitedCycle",
+        "Instance": "DryCavity_CycleStatus",
+        "IsTimeSeries": false,
+        "DataType": "Boolean",
+        "AttributeName": "LimitedCycle",
+        "DeviceIO": "RO",
+        "MappedAttributeName": "DryCavity_CycleStatusLimitedCycle",
+        "Default": false,
+        "Key": "0x0703000C"
+      },
+      {
+        "IsTemplate": false,
+        "M2MAttributeName": "DryCavity_CycleSetCycleSelect",
+        "Instance": "DryCavity_CycleSet",
+        "IsTimeSeries": false,
+        "DataType": "enum",
+        "AttributeName": "CycleSelect",
+        "DeviceIO": "RW",
+        "MappedAttributeName": "DryCavity_CycleSetCycleSelect",
+        "Default": "0",
+        "EnumValues": {
+          "0": "DryCycleNone",
+          "1": "DryCycleNormal",
+          "2": "DryCycleHeavyDuty",
+          "4": "DryCycleDelicate",
+          "5": "DryCycleWrinkleControlCasual",
+          "6": "DryCycleBeddingBulky",
+          "7": "DryCycleRapidDryExpress",
+          "9": "DryCycleSanitize",
+          "10": "DryCycleSteamRefresh",
+          "11": "DryCycleTimedDry",
+          "13": "DryCycleColorsBrights",
+          "15": "DryCycleTowels",
+          "16": "DryCycleWhites",
+          "17": "DryCycleWhatToColorsBrightsHowToHeavyDuty",
+          "18": "DryCycleWhatToColorsBrightsHowToQuick",
+          "19": "DryCycleWhatToColorsBrightsHowToSanitize",
+          "20": "DryCycleWhatToColorsBrightsHowToTimed",
+          "21": "DryCycleWhatToColorsBrightsHowToWrinkleControl",
+          "22": "DryCycleWhatToBulkyHowToHeavyDuty",
+          "23": "DryCycleWhatToBulkyHowToQuick",
+          "24": "DryCycleWhatToBulkyHowToSanitize",
+          "25": "DryCycleWhatToBulkyHowToTimed",
+          "26": "DryCycleWhatToBulkyHowToWrinkleControl",
+          "27": "DryCycleWhatToDelicatesHowToHeavyDuty",
+          "28": "DryCycleWhatToDelicatesHowToQuick",
+          "29": "DryCycleWhatToDelicatesHowToTimed",
+          "30": "DryCycleWhatToDelicatesHowToWrinkleControl",
+          "31": "DryCycleWhatToTowelsHowToHeavyDuty",
+          "32": "DryCycleWhatToTowelsHowToQuick",
+          "33": "DryCycleWhatToTowelsHowToSanitize",
+          "34": "DryCycleWhatToTowelsHowToTimed",
+          "35": "DryCycleWhatToTowelsHowToWrinkleControl",
+          "36": "DryCycleWhatToWhitesHowToHeavyDuty",
+          "37": "DryCycleWhatToWhitesHowToQuick",
+          "38": "DryCycleWhatToWhitesHowToSanitize",
+          "39": "DryCycleWhatToWhitesHowToTimed",
+          "40": "DryCycleWhatToWhitesHowToWrinkleControl"
+        },
+        "Key": "0x07040001"
+      },
+      {
+        "IsTemplate": false,
+        "M2MAttributeName": "DryCavity_CycleSetDryness",
+        "Instance": "DryCavity_CycleSet",
+        "IsTimeSeries": false,
+        "DataType": "enum",
+        "AttributeName": "Dryness",
+        "DeviceIO": "RW",
+        "MappedAttributeName": "DryCavity_CycleSetDryness",
+        "Default": "0",
+        "EnumValues": {
+          "1": "DrynessLessMid",
+          "4": "DrynessNormMid",
+          "7": "DrynessMoreMid",
+          "10": "DrynessNone"
+        },
+        "Key": "0x07040002"
+      },
+      {
+        "IsTemplate": false,
+        "M2MAttributeName": "DryCavity_CycleSetEcoBoostEnable",
+        "Instance": "DryCavity_CycleSet",
+        "IsTimeSeries": false,
+        "DataType": "Boolean",
+        "AttributeName": "EcoBoostEnable",
+        "DeviceIO": "RW",
+        "MappedAttributeName": "DryCavity_CycleSetEcoBoostEnable",
+        "Default": false,
+        "Key": "0x07040003"
+      },
+      {
+        "IsTemplate": false,
+        "M2MAttributeName": "DryCavity_CycleSetManualDryTime",
+        "Instance": "DryCavity_CycleSet",
+        "IsTimeSeries": false,
+        "DataType": "BEIntegerUnsigned16Bit",
+        "AttributeName": "ManualDryTime",
+        "List": [
+          0,
+          30,
+          60,
+          120,
+          180,
+          240
+        ],
+        "DeviceIO": "RW",
+        "MappedAttributeName": "DryCavity_CycleSetManualDryTime",
+        "Default": 0,
+        "Key": "0x07040005"
+      },
+      {
+        "IsTemplate": false,
+        "M2MAttributeName": "DryCavity_CycleSetStaticGuardEnable",
+        "Instance": "DryCavity_CycleSet",
+        "IsTimeSeries": false,
+        "DataType": "Boolean",
+        "AttributeName": "StaticGuardEnable",
+        "DeviceIO": "RW",
+        "MappedAttributeName": "DryCavity_CycleSetStaticGuardEnable",
+        "Default": false,
+        "Key": "0x07040007"
+      },
+      {
+        "IsTemplate": false,
+        "M2MAttributeName": "DryCavity_CycleSetTemperature",
+        "Instance": "DryCavity_CycleSet",
+        "IsTimeSeries": false,
+        "DataType": "enum",
+        "AttributeName": "Temperature",
+        "DeviceIO": "RW",
+        "MappedAttributeName": "DryCavity_CycleSetTemperature",
+        "Default": "0",
+        "EnumValues": {
+          "0": "DryTempAir",
+          "1": "DryTempCoolLow",
+          "2": "DryTempCoolMid",
+          "5": "DryTempWarmMid",
+          "8": "DryTempHotMid"
+        },
+        "Key": "0x07040008"
+      },
+      {
+        "IsTemplate": false,
+        "M2MAttributeName": "DryCavity_CycleSetWrinkleShield",
+        "Instance": "DryCavity_CycleSet",
+        "IsTimeSeries": false,
+        "DataType": "enum",
+        "AttributeName": "WrinkleShield",
+        "DeviceIO": "RW",
+        "MappedAttributeName": "DryCavity_CycleSetWrinkleShield",
+        "Default": "0",
+        "EnumValues": {
+          "0": "WrinkleShieldOff",
+          "1": "WrinkleShieldOn",
+          "2": "WrinkleShieldOnWithSteam"
+        },
+        "Key": "0x07040009"
+      },
+      {
+        "IsTemplate": false,
+        "M2MAttributeName": "PushTrigger",
+        "Instance": "",
+        "IsTimeSeries": false,
+        "DataType": "BEIntegerSigned32Bit",
+        "AttributeName": "PushTrigger",
+        "RangeValues": {
+          "StepSize": 1,
+          "Min": -2147483648,
+          "Max": 2147483647
+        },
+        "DeviceIO": "WO",
+        "MappedAttributeName": "PushTrigger",
+        "Default": 0,
+        "Key": "0x00000000"
+      },
+      {
+        "IsTemplate": false,
+        "M2MAttributeName": "Relational_to_Appliance",
+        "Instance": "",
+        "IsTimeSeries": false,
+        "DataType": "String",
+        "AttributeName": "Relational_to_Appliance",
+        "DeviceIO": "RW",
+        "MappedAttributeName": "Relational_to_Appliance",
+        "Key": "0x00000000"
+      },
+      {
+        "IsTemplate": false,
+        "M2MAttributeName": "GetSubscribeListVersion",
+        "Instance": "",
+        "IsTimeSeries": false,
+        "DataType": "BEIntegerUnsigned32Bit",
+        "AttributeName": "GetSubscribeListVersion",
+        "RangeValues": {
+          "StepSize": 1,
+          "Min": 0,
+          "Max": 4294967295
+        },
+        "DeviceIO": "WO",
+        "MappedAttributeName": "GetSubscribeListVersion",
+        "Default": 0,
+        "Key": "0x00000000"
+      },
+      {
+        "IsTemplate": false,
+        "M2MAttributeName": "M2MSubList",
+        "Instance": "",
+        "IsTimeSeries": false,
+        "DataType": "String",
+        "AttributeName": "M2MSubList",
+        "DeviceIO": "WO",
+        "MappedAttributeName": "M2MSubList",
+        "Key": "0x00000000"
+      },
+      {
+        "IsTemplate": false,
+        "M2MAttributeName": "M2MSubscribeListVersion",
+        "Instance": "",
+        "IsTimeSeries": false,
+        "DataType": "String",
+        "AttributeName": "M2MSubscribeListVersion",
+        "DeviceIO": "WO",
+        "MappedAttributeName": "M2MSubscribeListVersion",
+        "Key": "0x00000000"
+      },
+      {
+        "IsTemplate": false,
+        "M2MAttributeName": "SetDNSNames",
+        "Instance": "",
+        "IsTimeSeries": false,
+        "DataType": "String",
+        "AttributeName": "SetDNSNames",
+        "DeviceIO": "WO",
+        "MappedAttributeName": "SetDNSNames",
+        "Key": "0x00000000"
+      },
+      {
+        "IsTemplate": false,
+        "M2MAttributeName": "sys-parser-type",
+        "Instance": "",
+        "IsTimeSeries": false,
+        "DataType": "String",
+        "AttributeName": "sys-parser-type",
+        "DeviceIO": "WO",
+        "MappedAttributeName": "sys-parser-type",
+        "Key": "0x00000000"
+      },
+      {
+        "IsTemplate": false,
+        "M2MAttributeName": "MAC_Address",
+        "Instance": "",
+        "IsTimeSeries": false,
+        "DataType": "String",
+        "AttributeName": "MAC_Address",
+        "DeviceIO": "WO",
+        "MappedAttributeName": "MAC_Address",
+        "Key": "0x00000000"
+      },
+      {
+        "IsTemplate": false,
+        "M2MAttributeName": "uid",
+        "Instance": "",
+        "IsTimeSeries": false,
+        "DataType": "String",
+        "AttributeName": "uid",
+        "DeviceIO": "WO",
+        "MappedAttributeName": "uid",
+        "Key": "0x00000000"
+      },
+      {
+        "IsTemplate": false,
+        "M2MAttributeName": "ModelNumber",
+        "Instance": "",
+        "IsTimeSeries": false,
+        "DataType": "String",
+        "AttributeName": "ModelNumber",
+        "DeviceIO": "WO",
+        "MappedAttributeName": "ModelNumber",
+        "Key": "0x00000000"
+      },
+      {
+        "IsTemplate": false,
+        "M2MAttributeName": "SerialNumber",
+        "Instance": "",
+        "IsTimeSeries": false,
+        "DataType": "String",
+        "AttributeName": "SerialNumber",
+        "DeviceIO": "WO",
+        "MappedAttributeName": "SerialNumber",
+        "Key": "0x00000000"
+      },
+      {
+        "IsTemplate": false,
+        "M2MAttributeName": "ISPReasonCode",
+        "Instance": "",
+        "IsTimeSeries": false,
+        "DataType": "String",
+        "AttributeName": "ISPReasonCode",
+        "DeviceIO": "WO",
+        "MappedAttributeName": "ISPReasonCode",
+        "Key": "0x00000000"
+      },
+      {
+        "IsTemplate": false,
+        "M2MAttributeName": "GetApplianceVersionNumber",
+        "Instance": "",
+        "IsTimeSeries": false,
+        "DataType": "Boolean",
+        "AttributeName": "GetApplianceVersionNumber",
+        "DeviceIO": "WO",
+        "MappedAttributeName": "GetApplianceVersionNumber",
+        "Default": false,
+        "Key": "0x00000000"
+      },
+      {
+        "IsTemplate": false,
+        "M2MAttributeName": "ProjectReleaseNumber",
+        "Instance": "",
+        "IsTimeSeries": false,
+        "DataType": "String",
+        "AttributeName": "ProjectReleaseNumber",
+        "DeviceIO": "RW",
+        "MappedAttributeName": "ProjectReleaseNumber",
+        "Key": "0x00000000"
+      },
+      {
+        "IsTemplate": false,
+        "M2MAttributeName": "ISPStep",
+        "Instance": "",
+        "IsTimeSeries": false,
+        "DataType": "IntegerUnsigned8Bit",
+        "AttributeName": "ISPStep",
+        "RangeValues": {
+          "StepSize": 1,
+          "Min": 0,
+          "Max": 255
+        },
+        "DeviceIO": "WO",
+        "MappedAttributeName": "ISPStep",
+        "Default": 0,
+        "Key": "0x00000000"
+      },
+      {
+        "IsTemplate": false,
+        "M2MAttributeName": "CustomerFaultCodeNotification",
+        "Instance": "",
+        "IsTimeSeries": false,
+        "DataType": "String",
+        "AttributeName": "CustomerFaultCodeNotification",
+        "DeviceIO": "WO",
+        "MappedAttributeName": "CustomerFaultCodeNotification",
+        "Key": "0x00000000"
+      },
+      {
+        "IsTemplate": false,
+        "M2MAttributeName": "ControlLockChangedByAppliance",
+        "Instance": "",
+        "IsTimeSeries": false,
+        "DataType": "Boolean",
+        "AttributeName": "ControlLockChangedByAppliance",
+        "DeviceIO": "WO",
+        "MappedAttributeName": "ControlLockChangedByAppliance",
+        "Default": false,
+        "Key": "0x00000000"
+      },
+      {
+        "IsTemplate": false,
+        "M2MAttributeName": "ApplianceVersionNumber",
+        "Instance": "",
+        "IsTimeSeries": false,
+        "DataType": "BEIntegerUnsigned16Bit",
+        "AttributeName": "ApplianceVersionNumber",
+        "RangeValues": {
+          "StepSize": 1,
+          "Min": 0,
+          "Max": 65535
+        },
+        "DeviceIO": "RW",
+        "MappedAttributeName": "ApplianceVersionNumber",
+        "Default": 0,
+        "Key": "0x00000000"
+      },
+      {
+        "IsTemplate": false,
+        "M2MAttributeName": "EnergyProfileSetting",
+        "Instance": "",
+        "IsTimeSeries": false,
+        "DataType": "BEIntegerUnsigned32Bit",
+        "AttributeName": "EnergyProfileSetting",
+        "RangeValues": {
+          "StepSize": 1,
+          "Min": 0,
+          "Max": 4294967295
+        },
+        "DeviceIO": "WO",
+        "MappedAttributeName": "EnergyProfileSetting",
+        "Default": 0,
+        "Key": "0x00000000"
+      },
+      {
+        "IsTemplate": false,
+        "M2MAttributeName": "ISPBundleAttributes",
+        "Instance": "",
+        "IsTimeSeries": false,
+        "DataType": "String",
+        "AttributeName": "ISPBundleAttributes",
+        "DeviceIO": "WO",
+        "MappedAttributeName": "ISPBundleAttributes",
+        "Key": "0x00000000"
+      },
+      {
+        "IsTemplate": false,
+        "M2MAttributeName": "RatePlanID",
+        "Instance": "",
+        "IsTimeSeries": false,
+        "DataType": "String",
+        "AttributeName": "RatePlanID",
+        "DeviceIO": "RW",
+        "MappedAttributeName": "RatePlanID",
+        "Key": "0x00000000"
+      },
+      {
+        "IsTemplate": false,
+        "M2MAttributeName": "UtilityID",
+        "Instance": "",
+        "IsTimeSeries": false,
+        "DataType": "String",
+        "AttributeName": "UtilityID",
+        "DeviceIO": "RW",
+        "MappedAttributeName": "UtilityID",
+        "Key": "0x00000000"
+      },
+      {
+        "IsTemplate": false,
+        "M2MAttributeName": "SmartID",
+        "Instance": "",
+        "IsTimeSeries": false,
+        "DataType": "String",
+        "AttributeName": "SmartID",
+        "DeviceIO": "WO",
+        "MappedAttributeName": "SmartID",
+        "Key": "0x00000000"
+      },
+      {
+        "IsTemplate": false,
+        "M2MAttributeName": "Zip",
+        "Instance": "",
+        "IsTimeSeries": false,
+        "DataType": "String",
+        "AttributeName": "Zip",
+        "DeviceIO": "RW",
+        "MappedAttributeName": "Zip",
+        "Key": "0x00000000"
+      },
+      {
+        "IsTemplate": false,
+        "M2MAttributeName": "cc_uri",
+        "Instance": "",
+        "IsTimeSeries": false,
+        "DataType": "String",
+        "AttributeName": "cc_uri",
+        "DeviceIO": "WO",
+        "MappedAttributeName": "cc_uri",
+        "Key": "0x00000000"
+      },
+      {
+        "IsTemplate": false,
+        "M2MAttributeName": "InServiceDate",
+        "Instance": "",
+        "IsTimeSeries": false,
+        "DataType": "String",
+        "AttributeName": "InServiceDate",
+        "DeviceIO": "RW",
+        "MappedAttributeName": "InServiceDate",
+        "Key": "0x00000000"
+      },
+      {
+        "IsTemplate": false,
+        "M2MAttributeName": "trid_result",
+        "Instance": "",
+        "IsTimeSeries": false,
+        "DataType": "String",
+        "AttributeName": "trid_result",
+        "DeviceIO": "RO",
+        "MappedAttributeName": "trid_result",
+        "Key": "0x00000000"
+      },
+      {
+        "IsTemplate": false,
+        "M2MAttributeName": "trid",
+        "Instance": "",
+        "IsTimeSeries": false,
+        "DataType": "BEIntegerUnsigned16Bit",
+        "AttributeName": "trid",
+        "RangeValues": {
+          "StepSize": 1,
+          "Min": 0,
+          "Max": 65535
+        },
+        "DeviceIO": "RW",
+        "MappedAttributeName": "trid",
+        "Default": 0,
+        "Key": "0x00000000"
+      },
+      {
+        "IsTemplate": false,
+        "M2MAttributeName": "online",
+        "Instance": "",
+        "IsTimeSeries": false,
+        "DataType": "Boolean",
+        "AttributeName": "online",
+        "DeviceIO": "RO",
+        "MappedAttributeName": "online",
+        "Default": false,
+        "Key": "0x00000000"
+      },
+      {
+        "IsTemplate": false,
+        "M2MAttributeName": "UtcOffset",
+        "Instance": "",
+        "IsTimeSeries": false,
+        "DataType": "BEIntegerSigned32Bit",
+        "AttributeName": "UtcOffset",
+        "RangeValues": {
+          "StepSize": 1,
+          "Min": -2147483648,
+          "Max": 2147483647
+        },
+        "DeviceIO": "RW",
+        "MappedAttributeName": "UtcOffset",
+        "Default": 0,
+        "Key": "0x00000000"
+      },
+      {
+        "IsTemplate": false,
+        "M2MAttributeName": "DstOffset",
+        "Instance": "",
+        "IsTimeSeries": false,
+        "DataType": "BEIntegerSigned32Bit",
+        "AttributeName": "DstOffset",
+        "RangeValues": {
+          "StepSize": 1,
+          "Min": -2147483648,
+          "Max": 2147483647
+        },
+        "DeviceIO": "RW",
+        "MappedAttributeName": "DstOffset",
+        "Default": 0,
+        "Key": "0x00000000"
+      },
+      {
+        "IsTemplate": false,
+        "M2MAttributeName": "TimeZoneId",
+        "Instance": "",
+        "IsTimeSeries": false,
+        "DataType": "String",
+        "AttributeName": "TimeZoneId",
+        "DeviceIO": "RW",
+        "MappedAttributeName": "TimeZoneId",
+        "Key": "0x00000000"
+      },
+      {
+        "IsTemplate": false,
+        "M2MAttributeName": "DateTimeMode",
+        "Instance": "",
+        "IsTimeSeries": false,
+        "DataType": "BEIntegerUnsigned16Bit",
+        "AttributeName": "DateTimeMode",
+        "RangeValues": {
+          "StepSize": 1,
+          "Min": 0,
+          "Max": 65535
+        },
+        "DeviceIO": "RW",
+        "MappedAttributeName": "DateTimeMode",
+        "Default": 0,
+        "Key": "0x00000000"
+      }
+    ]
+  },
+  "Personality": {
+    "Key": "DDM_LAUNDRY_JANUS_DRYER_INDIGO_WHIRLPOOL_V1",
+    "Capability": [
+      {
+        "WhatToDryHowToDryCycleSelection": {
+          "Colors": {
+            "DryCavity_CycleSetCycleSelect": {
+              "Enumeration": [
+                "DryCycleColorsBrights",
+                "DryCycleWhatToColorsBrightsHowToWrinkleControl",
+                "DryCycleWhatToColorsBrightsHowToHeavyDuty",
+                "DryCycleWhatToColorsBrightsHowToSanitize",
+                "DryCycleWhatToColorsBrightsHowToTimed",
+                "DryCycleWhatToColorsBrightsHowToQuick"
+              ]
+            },
+            "Default": "DryCycleColorsBrights"
+          },
+          "Delicates": {
+            "DryCavity_CycleSetCycleSelect": {
+              "Enumeration": [
+                "DryCycleDelicate",
+                "DryCycleWhatToDelicatesHowToWrinkleControl",
+                "DryCycleWhatToDelicatesHowToHeavyDuty",
+                "DryCycleWhatToDelicatesHowToTimed",
+                "DryCycleWhatToDelicatesHowToQuick"
+              ]
+            },
+            "Default": "DryCycleWhatToDelicatesHowToWrinkleControl"
+          },
+          "Regular": {
+            "DryCavity_CycleSetCycleSelect": {
+              "Enumeration": [
+                "DryCycleNormal",
+                "DryCycleWrinkleControlCasual",
+                "DryCycleHeavyDuty",
+                "DryCycleSanitize",
+                "DryCycleTimedDry",
+                "DryCycleRapidDryExpress"
+              ]
+            },
+            "Default": "DryCycleNormal"
+          },
+          "Whites": {
+            "DryCavity_CycleSetCycleSelect": {
+              "Enumeration": [
+                "DryCycleWhites",
+                "DryCycleWhatToWhitesHowToWrinkleControl",
+                "DryCycleWhatToWhitesHowToHeavyDuty",
+                "DryCycleWhatToWhitesHowToSanitize",
+                "DryCycleWhatToWhitesHowToTimed",
+                "DryCycleWhatToWhitesHowToQuick"
+              ]
+            },
+            "Default": "DryCycleWhatToWhitesHowToHeavyDuty"
+          },
+          "Towels": {
+            "DryCavity_CycleSetCycleSelect": {
+              "Enumeration": [
+                "DryCycleTowels",
+                "DryCycleWhatToTowelsHowToWrinkleControl",
+                "DryCycleWhatToTowelsHowToHeavyDuty",
+                "DryCycleWhatToTowelsHowToSanitize",
+                "DryCycleWhatToTowelsHowToTimed",
+                "DryCycleWhatToTowelsHowToQuick"
+              ]
+            },
+            "Default": "DryCycleWhatToTowelsHowToHeavyDuty"
+          },
+          "BulkyItems": {
+            "DryCavity_CycleSetCycleSelect": {
+              "Enumeration": [
+                "DryCycleBeddingBulky",
+                "DryCycleWhatToBulkyHowToWrinkleControl",
+                "DryCycleWhatToBulkyHowToHeavyDuty",
+                "DryCycleWhatToBulkyHowToSanitize",
+                "DryCycleWhatToBulkyHowToTimed",
+                "DryCycleWhatToBulkyHowToQuick"
+              ]
+            },
+            "Default": "DryCycleBeddingBulky"
+          }
+        },
+        "UtilityCycleSelection": [
+          "DryCycleSteamRefresh"
+        ],
+        "GlobalGoverningStates": [
+          {
+            "ResetCommands": [
+              {
+                "Sys_OpSetControlLock": "0"
+              }
+            ],
+            "GlobalGoverningState": "Control",
+            "SetCommands": [
+              {
+                "Sys_OpSetControlLock": "1"
+              }
+            ],
+            "Enabled": true,
+            "Compatibility": [
+              {
+                "Vacation": "false",
+                "Party": "false",
+                "Quiet": "false"
+              }
+            ]
+          },
+          {
+            "ResetCommands": [
+              {
+                "Sys_OpSetKeyPressToneVolume": "2",
+                "Sys_OpSetAlertToneVolume": "2"
+              }
+            ],
+            "GlobalGoverningState": "Quiet",
+            "SetCommands": [
+              {
+                "Sys_OpSetKeyPressToneVolume": "0",
+                "Sys_OpSetAlertToneVolume": "0"
+              }
+            ],
+            "Enabled": true,
+            "Compatibility": [
+              {
+                "Control": "false",
+                "Vacation": "false",
+                "Party": "false"
+              }
+            ]
+          },
+          {
+            "GlobalGoverningState": "Vacation",
+            "Enabled": true,
+            "Compatibility": [
+              {
+                "Control": "true",
+                "Party": "false",
+                "Quiet": "false"
+              }
+            ]
+          }
+        ],
+        "Version": 1.4,
+        "DryCavity_CycleSetCycleSelect": [
+          {
+            "DryCycleNone": {}
+          },
+          {
+            "DryCycleNormal": {
+              "DryCavity_CycleSetDryness": {
+                "Enumeration": [
+                  "DrynessLessMid",
+                  "DrynessNormMid",
+                  "DrynessMoreMid"
+                ],
+                "Default": "DrynessNormMid"
+              },
+              "DrySys_OpSetDampNotificationToneVolume": {
+                "Enumeration": [
+                  "VolumeValueOff",
+                  "VolumeValueMedium",
+                  "VolumeValueMax"
+                ],
+                "Default": "VolumeValueOff"
+              },
+              "DryCavity_CycleSetStaticGuardEnable": {
+                "Default": false,
+                "Allowed": [
+                  false,
+                  true
+                ]
+              },
+              "DryCavity_CycleSetWrinkleShield": {
+                "Enumeration": [
+                  "WrinkleShieldOff",
+                  "WrinkleShieldOn",
+                  "WrinkleShieldOnWithSteam"
+                ],
+                "Default": "WrinkleShieldOff"
+              },
+              "DryCavity_CycleSetTemperature": {
+                "Enumeration": [
+                  "DryTempCoolLow",
+                  "DryTempCoolMid",
+                  "DryTempWarmMid",
+                  "DryTempHotMid"
+                ],
+                "Default": "DryTempWarmMid"
+              },
+              "DryCavity_CycleSetEcoBoostEnable": {
+                "Default": true,
+                "Allowed": [
+                  false,
+                  true
+                ]
+              }
+            }
+          },
+          {
+            "DryCycleWrinkleControlCasual": {
+              "DryCavity_CycleSetDryness": {
+                "Enumeration": [
+                  "DrynessLessMid",
+                  "DrynessNormMid",
+                  "DrynessMoreMid"
+                ],
+                "Default": "DrynessNormMid"
+              },
+              "DrySys_OpSetDampNotificationToneVolume": {
+                "Enumeration": [
+                  "VolumeValueOff",
+                  "VolumeValueMedium",
+                  "VolumeValueMax"
+                ],
+                "Default": "VolumeValueOff"
+              },
+              "DryCavity_CycleSetStaticGuardEnable": {
+                "Default": false,
+                "Allowed": [
+                  false,
+                  true
+                ]
+              },
+              "DryCavity_CycleSetWrinkleShield": {
+                "Enumeration": [
+                  "WrinkleShieldOff",
+                  "WrinkleShieldOn",
+                  "WrinkleShieldOnWithSteam"
+                ],
+                "Default": "WrinkleShieldOn"
+              },
+              "DryCavity_CycleSetTemperature": {
+                "Enumeration": [
+                  "DryTempCoolLow",
+                  "DryTempCoolMid",
+                  "DryTempWarmMid",
+                  "DryTempHotMid"
+                ],
+                "Default": "DryTempCoolMid"
+              }
+            }
+          },
+          {
+            "DryCycleHeavyDuty": {
+              "DryCavity_CycleSetDryness": {
+                "Enumeration": [
+                  "DrynessLessMid",
+                  "DrynessNormMid",
+                  "DrynessMoreMid"
+                ],
+                "Default": "DrynessNormMid"
+              },
+              "DrySys_OpSetDampNotificationToneVolume": {
+                "Enumeration": [
+                  "VolumeValueOff",
+                  "VolumeValueMedium",
+                  "VolumeValueMax"
+                ],
+                "Default": "VolumeValueOff"
+              },
+              "DryCavity_CycleSetStaticGuardEnable": {
+                "Default": false,
+                "Allowed": [
+                  false,
+                  true
+                ]
+              },
+              "DryCavity_CycleSetWrinkleShield": {
+                "Enumeration": [
+                  "WrinkleShieldOff",
+                  "WrinkleShieldOn",
+                  "WrinkleShieldOnWithSteam"
+                ],
+                "Default": "WrinkleShieldOff"
+              },
+              "DryCavity_CycleSetTemperature": {
+                "Enumeration": [
+                  "DryTempCoolLow",
+                  "DryTempCoolMid",
+                  "DryTempWarmMid",
+                  "DryTempHotMid"
+                ],
+                "Default": "DryTempHotMid"
+              }
+            }
+          },
+          {
+            "DryCycleSanitize": {
+              "DryCavity_CycleSetDryness": {
+                "Enumeration": [
+                  "DrynessMoreMid"
+                ],
+                "Default": "DrynessMoreMid"
+              },
+              "DryCavity_CycleSetWrinkleShield": {
+                "Enumeration": [
+                  "WrinkleShieldOff",
+                  "WrinkleShieldOn"
+                ],
+                "Default": "WrinkleShieldOff"
+              },
+              "DryCavity_CycleSetTemperature": {
+                "Enumeration": [
+                  "DryTempHotMid"
+                ],
+                "Default": "DryTempHotMid"
+              }
+            }
+          },
+          {
+            "DryCycleTimedDry": {
+              "DryCavity_CycleSetManualDryTime": {
+                "List": [
+                  1800,
+                  3600,
+                  5400
+                ],
+                "Default": 3600
+              },
+              "DryCavity_CycleSetWrinkleShield": {
+                "Enumeration": [
+                  "WrinkleShieldOff",
+                  "WrinkleShieldOn",
+                  "WrinkleShieldOnWithSteam"
+                ],
+                "Default": "WrinkleShieldOff"
+              },
+              "DryCavity_CycleSetTemperature": {
+                "Enumeration": [
+                  "DryTempAir",
+                  "DryTempCoolLow",
+                  "DryTempCoolMid",
+                  "DryTempWarmMid",
+                  "DryTempHotMid"
+                ],
+                "Default": "DryTempWarmMid"
+              }
+            }
+          },
+          {
+            "DryCycleRapidDryExpress": {
+              "DryCavity_CycleSetManualDryTime": {
+                "List": [
+                  900,
+                  1800,
+                  2700
+                ],
+                "Default": 900
+              },
+              "DryCavity_CycleSetWrinkleShield": {
+                "Enumeration": [
+                  "WrinkleShieldOff",
+                  "WrinkleShieldOn",
+                  "WrinkleShieldOnWithSteam"
+                ],
+                "Default": "WrinkleShieldOff"
+              },
+              "DryCavity_CycleSetTemperature": {
+                "Enumeration": [
+                  "DryTempAir",
+                  "DryTempCoolLow",
+                  "DryTempCoolMid",
+                  "DryTempWarmMid",
+                  "DryTempHotMid"
+                ],
+                "Default": "DryTempHotMid"
+              }
+            }
+          },
+          {
+            "DryCycleDelicate": {
+              "DryCavity_CycleSetDryness": {
+                "Enumeration": [
+                  "DrynessLessMid",
+                  "DrynessNormMid",
+                  "DrynessMoreMid"
+                ],
+                "Default": "DrynessNormMid"
+              },
+              "DrySys_OpSetDampNotificationToneVolume": {
+                "Enumeration": [
+                  "VolumeValueOff",
+                  "VolumeValueMedium",
+                  "VolumeValueMax"
+                ],
+                "Default": "VolumeValueOff"
+              },
+              "DryCavity_CycleSetStaticGuardEnable": {
+                "Default": false,
+                "Allowed": [
+                  false,
+                  true
+                ]
+              },
+              "DryCavity_CycleSetWrinkleShield": {
+                "Enumeration": [
+                  "WrinkleShieldOff",
+                  "WrinkleShieldOn"
+                ],
+                "Default": "WrinkleShieldOff"
+              },
+              "DryCavity_CycleSetTemperature": {
+                "Enumeration": [
+                  "DryTempCoolLow",
+                  "DryTempCoolMid",
+                  "DryTempWarmMid",
+                  "DryTempHotMid"
+                ],
+                "Default": "DryTempCoolMid"
+              }
+            }
+          },
+          {
+            "DryCycleWhatToDelicatesHowToWrinkleControl": {
+              "DryCavity_CycleSetDryness": {
+                "Enumeration": [
+                  "DrynessLessMid",
+                  "DrynessNormMid",
+                  "DrynessMoreMid"
+                ],
+                "Default": "DrynessNormMid"
+              },
+              "DrySys_OpSetDampNotificationToneVolume": {
+                "Enumeration": [
+                  "VolumeValueOff",
+                  "VolumeValueMedium",
+                  "VolumeValueMax"
+                ],
+                "Default": "VolumeValueOff"
+              },
+              "DryCavity_CycleSetStaticGuardEnable": {
+                "Default": false,
+                "Allowed": [
+                  false,
+                  true
+                ]
+              },
+              "DryCavity_CycleSetWrinkleShield": {
+                "Enumeration": [
+                  "WrinkleShieldOff",
+                  "WrinkleShieldOn"
+                ],
+                "Default": "WrinkleShieldOn"
+              },
+              "DryCavity_CycleSetTemperature": {
+                "Enumeration": [
+                  "DryTempCoolLow",
+                  "DryTempCoolMid",
+                  "DryTempWarmMid",
+                  "DryTempHotMid"
+                ],
+                "Default": "DryTempCoolLow"
+              }
+            }
+          },
+          {
+            "DryCycleWhatToDelicatesHowToHeavyDuty": {
+              "DryCavity_CycleSetDryness": {
+                "Enumeration": [
+                  "DrynessLessMid",
+                  "DrynessNormMid",
+                  "DrynessMoreMid"
+                ],
+                "Default": "DrynessNormMid"
+              },
+              "DrySys_OpSetDampNotificationToneVolume": {
+                "Enumeration": [
+                  "VolumeValueOff",
+                  "VolumeValueMedium",
+                  "VolumeValueMax"
+                ],
+                "Default": "VolumeValueOff"
+              },
+              "DryCavity_CycleSetStaticGuardEnable": {
+                "Default": false,
+                "Allowed": [
+                  false,
+                  true
+                ]
+              },
+              "DryCavity_CycleSetWrinkleShield": {
+                "Enumeration": [
+                  "WrinkleShieldOff",
+                  "WrinkleShieldOn"
+                ],
+                "Default": "WrinkleShieldOff"
+              },
+              "DryCavity_CycleSetTemperature": {
+                "Enumeration": [
+                  "DryTempCoolLow",
+                  "DryTempCoolMid",
+                  "DryTempWarmMid",
+                  "DryTempHotMid"
+                ],
+                "Default": "DryTempWarmMid"
+              }
+            }
+          },
+          {
+            "DryCycleWhatToDelicatesHowToTimed": {
+              "DryCavity_CycleSetManualDryTime": {
+                "List": [
+                  1800,
+                  3600,
+                  5400
+                ],
+                "Default": 3600
+              },
+              "DryCavity_CycleSetWrinkleShield": {
+                "Enumeration": [
+                  "WrinkleShieldOff",
+                  "WrinkleShieldOn"
+                ],
+                "Default": "WrinkleShieldOff"
+              },
+              "DryCavity_CycleSetTemperature": {
+                "Enumeration": [
+                  "DryTempAir",
+                  "DryTempCoolLow",
+                  "DryTempCoolMid",
+                  "DryTempWarmMid",
+                  "DryTempHotMid"
+                ],
+                "Default": "DryTempCoolLow"
+              }
+            }
+          },
+          {
+            "DryCycleWhatToDelicatesHowToQuick": {
+              "DryCavity_CycleSetManualDryTime": {
+                "List": [
+                  900,
+                  1800,
+                  2700
+                ],
+                "Default": 900
+              },
+              "DryCavity_CycleSetWrinkleShield": {
+                "Enumeration": [
+                  "WrinkleShieldOff",
+                  "WrinkleShieldOn"
+                ],
+                "Default": "WrinkleShieldOff"
+              },
+              "DryCavity_CycleSetTemperature": {
+                "Enumeration": [
+                  "DryTempAir",
+                  "DryTempCoolLow",
+                  "DryTempCoolMid",
+                  "DryTempWarmMid",
+                  "DryTempHotMid"
+                ],
+                "Default": "DryTempHotMid"
+              }
+            }
+          },
+          {
+            "DryCycleBeddingBulky": {
+              "DryCavity_CycleSetDryness": {
+                "Enumeration": [
+                  "DrynessLessMid",
+                  "DrynessNormMid",
+                  "DrynessMoreMid"
+                ],
+                "Default": "DrynessNormMid"
+              },
+              "DrySys_OpSetDampNotificationToneVolume": {
+                "Enumeration": [
+                  "VolumeValueOff",
+                  "VolumeValueMedium",
+                  "VolumeValueMax"
+                ],
+                "Default": "VolumeValueMax"
+              },
+              "DryCavity_CycleSetStaticGuardEnable": {
+                "Default": false,
+                "Allowed": [
+                  false,
+                  true
+                ]
+              },
+              "DryCavity_CycleSetWrinkleShield": {
+                "Enumeration": [
+                  "WrinkleShieldOff",
+                  "WrinkleShieldOn",
+                  "WrinkleShieldOnWithSteam"
+                ],
+                "Default": "WrinkleShieldOff"
+              },
+              "DryCavity_CycleSetTemperature": {
+                "Enumeration": [
+                  "DryTempCoolLow",
+                  "DryTempCoolMid",
+                  "DryTempWarmMid",
+                  "DryTempHotMid"
+                ],
+                "Default": "DryTempWarmMid"
+              }
+            }
+          },
+          {
+            "DryCycleWhatToBulkyHowToWrinkleControl": {
+              "DryCavity_CycleSetDryness": {
+                "Enumeration": [
+                  "DrynessLessMid",
+                  "DrynessNormMid",
+                  "DrynessMoreMid"
+                ],
+                "Default": "DrynessNormMid"
+              },
+              "DrySys_OpSetDampNotificationToneVolume": {
+                "Enumeration": [
+                  "VolumeValueOff",
+                  "VolumeValueMedium",
+                  "VolumeValueMax"
+                ],
+                "Default": "VolumeValueMax"
+              },
+              "DryCavity_CycleSetStaticGuardEnable": {
+                "Default": false,
+                "Allowed": [
+                  false,
+                  true
+                ]
+              },
+              "DryCavity_CycleSetWrinkleShield": {
+                "Enumeration": [
+                  "WrinkleShieldOff",
+                  "WrinkleShieldOn",
+                  "WrinkleShieldOnWithSteam"
+                ],
+                "Default": "WrinkleShieldOn"
+              },
+              "DryCavity_CycleSetTemperature": {
+                "Enumeration": [
+                  "DryTempCoolLow",
+                  "DryTempCoolMid",
+                  "DryTempWarmMid",
+                  "DryTempHotMid"
+                ],
+                "Default": "DryTempCoolMid"
+              }
+            }
+          },
+          {
+            "DryCycleWhatToBulkyHowToHeavyDuty": {
+              "DryCavity_CycleSetDryness": {
+                "Enumeration": [
+                  "DrynessLessMid",
+                  "DrynessNormMid",
+                  "DrynessMoreMid"
+                ],
+                "Default": "DrynessNormMid"
+              },
+              "DrySys_OpSetDampNotificationToneVolume": {
+                "Enumeration": [
+                  "VolumeValueOff",
+                  "VolumeValueMedium",
+                  "VolumeValueMax"
+                ],
+                "Default": "VolumeValueMax"
+              },
+              "DryCavity_CycleSetStaticGuardEnable": {
+                "Default": false,
+                "Allowed": [
+                  false,
+                  true
+                ]
+              },
+              "DryCavity_CycleSetWrinkleShield": {
+                "Enumeration": [
+                  "WrinkleShieldOff",
+                  "WrinkleShieldOn",
+                  "WrinkleShieldOnWithSteam"
+                ],
+                "Default": "WrinkleShieldOff"
+              },
+              "DryCavity_CycleSetTemperature": {
+                "Enumeration": [
+                  "DryTempCoolLow",
+                  "DryTempCoolMid",
+                  "DryTempWarmMid",
+                  "DryTempHotMid"
+                ],
+                "Default": "DryTempWarmMid"
+              }
+            }
+          },
+          {
+            "DryCycleWhatToBulkyHowToSanitize": {
+              "DryCavity_CycleSetDryness": {
+                "Enumeration": [
+                  "DrynessMoreMid"
+                ],
+                "Default": "DrynessMoreMid"
+              },
+              "DryCavity_CycleSetWrinkleShield": {
+                "Enumeration": [
+                  "WrinkleShieldOff",
+                  "WrinkleShieldOn"
+                ],
+                "Default": "WrinkleShieldOff"
+              },
+              "DryCavity_CycleSetTemperature": {
+                "Enumeration": [
+                  "DryTempHotMid"
+                ],
+                "Default": "DryTempHotMid"
+              }
+            }
+          },
+          {
+            "DryCycleWhatToBulkyHowToTimed": {
+              "DryCavity_CycleSetManualDryTime": {
+                "List": [
+                  1800,
+                  3600,
+                  5400
+                ],
+                "Default": 3600
+              },
+              "DryCavity_CycleSetWrinkleShield": {
+                "Enumeration": [
+                  "WrinkleShieldOff",
+                  "WrinkleShieldOn",
+                  "WrinkleShieldOnWithSteam"
+                ],
+                "Default": "WrinkleShieldOff"
+              },
+              "DryCavity_CycleSetTemperature": {
+                "Enumeration": [
+                  "DryTempAir",
+                  "DryTempCoolLow",
+                  "DryTempCoolMid",
+                  "DryTempWarmMid",
+                  "DryTempHotMid"
+                ],
+                "Default": "DryTempCoolMid"
+              }
+            }
+          },
+          {
+            "DryCycleWhatToBulkyHowToQuick": {
+              "DryCavity_CycleSetManualDryTime": {
+                "List": [
+                  900,
+                  1800,
+                  2700
+                ],
+                "Default": 900
+              },
+              "DryCavity_CycleSetWrinkleShield": {
+                "Enumeration": [
+                  "WrinkleShieldOff",
+                  "WrinkleShieldOn",
+                  "WrinkleShieldOnWithSteam"
+                ],
+                "Default": "WrinkleShieldOff"
+              },
+              "DryCavity_CycleSetTemperature": {
+                "Enumeration": [
+                  "DryTempAir",
+                  "DryTempCoolLow",
+                  "DryTempCoolMid",
+                  "DryTempWarmMid",
+                  "DryTempHotMid"
+                ],
+                "Default": "DryTempHotMid"
+              }
+            }
+          },
+          {
+            "DryCycleWhites": {
+              "DryCavity_CycleSetDryness": {
+                "Enumeration": [
+                  "DrynessLessMid",
+                  "DrynessNormMid",
+                  "DrynessMoreMid"
+                ],
+                "Default": "DrynessNormMid"
+              },
+              "DrySys_OpSetDampNotificationToneVolume": {
+                "Enumeration": [
+                  "VolumeValueOff",
+                  "VolumeValueMedium",
+                  "VolumeValueMax"
+                ],
+                "Default": "VolumeValueOff"
+              },
+              "DryCavity_CycleSetStaticGuardEnable": {
+                "Default": false,
+                "Allowed": [
+                  false,
+                  true
+                ]
+              },
+              "DryCavity_CycleSetWrinkleShield": {
+                "Enumeration": [
+                  "WrinkleShieldOff",
+                  "WrinkleShieldOn",
+                  "WrinkleShieldOnWithSteam"
+                ],
+                "Default": "WrinkleShieldOff"
+              },
+              "DryCavity_CycleSetTemperature": {
+                "Enumeration": [
+                  "DryTempCoolLow",
+                  "DryTempCoolMid",
+                  "DryTempWarmMid",
+                  "DryTempHotMid"
+                ],
+                "Default": "DryTempHotMid"
+              }
+            }
+          },
+          {
+            "DryCycleWhatToWhitesHowToWrinkleControl": {
+              "DryCavity_CycleSetDryness": {
+                "Enumeration": [
+                  "DrynessLessMid",
+                  "DrynessNormMid",
+                  "DrynessMoreMid"
+                ],
+                "Default": "DrynessNormMid"
+              },
+              "DrySys_OpSetDampNotificationToneVolume": {
+                "Enumeration": [
+                  "VolumeValueOff",
+                  "VolumeValueMedium",
+                  "VolumeValueMax"
+                ],
+                "Default": "VolumeValueOff"
+              },
+              "DryCavity_CycleSetStaticGuardEnable": {
+                "Default": false,
+                "Allowed": [
+                  false,
+                  true
+                ]
+              },
+              "DryCavity_CycleSetWrinkleShield": {
+                "Enumeration": [
+                  "WrinkleShieldOff",
+                  "WrinkleShieldOn",
+                  "WrinkleShieldOnWithSteam"
+                ],
+                "Default": "WrinkleShieldOn"
+              },
+              "DryCavity_CycleSetTemperature": {
+                "Enumeration": [
+                  "DryTempCoolLow",
+                  "DryTempCoolMid",
+                  "DryTempWarmMid",
+                  "DryTempHotMid"
+                ],
+                "Default": "DryTempWarmMid"
+              }
+            }
+          },
+          {
+            "DryCycleWhatToWhitesHowToHeavyDuty": {
+              "DryCavity_CycleSetDryness": {
+                "Enumeration": [
+                  "DrynessLessMid",
+                  "DrynessNormMid",
+                  "DrynessMoreMid"
+                ],
+                "Default": "DrynessNormMid"
+              },
+              "DrySys_OpSetDampNotificationToneVolume": {
+                "Enumeration": [
+                  "VolumeValueOff",
+                  "VolumeValueMedium",
+                  "VolumeValueMax"
+                ],
+                "Default": "VolumeValueOff"
+              },
+              "DryCavity_CycleSetStaticGuardEnable": {
+                "Default": false,
+                "Allowed": [
+                  false,
+                  true
+                ]
+              },
+              "DryCavity_CycleSetWrinkleShield": {
+                "Enumeration": [
+                  "WrinkleShieldOff",
+                  "WrinkleShieldOn",
+                  "WrinkleShieldOnWithSteam"
+                ],
+                "Default": "WrinkleShieldOff"
+              },
+              "DryCavity_CycleSetTemperature": {
+                "Enumeration": [
+                  "DryTempCoolLow",
+                  "DryTempCoolMid",
+                  "DryTempWarmMid",
+                  "DryTempHotMid"
+                ],
+                "Default": "DryTempHotMid"
+              }
+            }
+          },
+          {
+            "DryCycleWhatToWhitesHowToSanitize": {
+              "DryCavity_CycleSetDryness": {
+                "Enumeration": [
+                  "DrynessMoreMid"
+                ],
+                "Default": "DrynessMoreMid"
+              },
+              "DryCavity_CycleSetWrinkleShield": {
+                "Enumeration": [
+                  "WrinkleShieldOff",
+                  "WrinkleShieldOn"
+                ],
+                "Default": "WrinkleShieldOff"
+              },
+              "DryCavity_CycleSetTemperature": {
+                "Enumeration": [
+                  "DryTempHotMid"
+                ],
+                "Default": "DryTempHotMid"
+              }
+            }
+          },
+          {
+            "DryCycleWhatToWhitesHowToTimed": {
+              "DryCavity_CycleSetManualDryTime": {
+                "List": [
+                  1800,
+                  3600,
+                  5400
+                ],
+                "Default": 3600
+              },
+              "DryCavity_CycleSetWrinkleShield": {
+                "Enumeration": [
+                  "WrinkleShieldOff",
+                  "WrinkleShieldOn",
+                  "WrinkleShieldOnWithSteam"
+                ],
+                "Default": "WrinkleShieldOff"
+              },
+              "DryCavity_CycleSetTemperature": {
+                "Enumeration": [
+                  "DryTempAir",
+                  "DryTempCoolLow",
+                  "DryTempCoolMid",
+                  "DryTempWarmMid",
+                  "DryTempHotMid"
+                ],
+                "Default": "DryTempWarmMid"
+              }
+            }
+          },
+          {
+            "DryCycleWhatToWhitesHowToQuick": {
+              "DryCavity_CycleSetManualDryTime": {
+                "List": [
+                  900,
+                  1800,
+                  2700
+                ],
+                "Default": 900
+              },
+              "DryCavity_CycleSetWrinkleShield": {
+                "Enumeration": [
+                  "WrinkleShieldOff",
+                  "WrinkleShieldOn",
+                  "WrinkleShieldOnWithSteam"
+                ],
+                "Default": "WrinkleShieldOff"
+              },
+              "DryCavity_CycleSetTemperature": {
+                "Enumeration": [
+                  "DryTempAir",
+                  "DryTempCoolLow",
+                  "DryTempCoolMid",
+                  "DryTempWarmMid",
+                  "DryTempHotMid"
+                ],
+                "Default": "DryTempHotMid"
+              }
+            }
+          },
+          {
+            "DryCycleColorsBrights": {
+              "DryCavity_CycleSetDryness": {
+                "Enumeration": [
+                  "DrynessLessMid",
+                  "DrynessNormMid",
+                  "DrynessMoreMid"
+                ],
+                "Default": "DrynessNormMid"
+              },
+              "DrySys_OpSetDampNotificationToneVolume": {
+                "Enumeration": [
+                  "VolumeValueOff",
+                  "VolumeValueMedium",
+                  "VolumeValueMax"
+                ],
+                "Default": "VolumeValueOff"
+              },
+              "DryCavity_CycleSetStaticGuardEnable": {
+                "Default": false,
+                "Allowed": [
+                  false,
+                  true
+                ]
+              },
+              "DryCavity_CycleSetWrinkleShield": {
+                "Enumeration": [
+                  "WrinkleShieldOff",
+                  "WrinkleShieldOn",
+                  "WrinkleShieldOnWithSteam"
+                ],
+                "Default": "WrinkleShieldOff"
+              },
+              "DryCavity_CycleSetTemperature": {
+                "Enumeration": [
+                  "DryTempCoolLow",
+                  "DryTempCoolMid",
+                  "DryTempWarmMid",
+                  "DryTempHotMid"
+                ],
+                "Default": "DryTempCoolMid"
+              }
+            }
+          },
+          {
+            "DryCycleWhatToColorsBrightsHowToWrinkleControl": {
+              "DryCavity_CycleSetDryness": {
+                "Enumeration": [
+                  "DrynessLessMid",
+                  "DrynessNormMid",
+                  "DrynessMoreMid"
+                ],
+                "Default": "DrynessNormMid"
+              },
+              "DrySys_OpSetDampNotificationToneVolume": {
+                "Enumeration": [
+                  "VolumeValueOff",
+                  "VolumeValueMedium",
+                  "VolumeValueMax"
+                ],
+                "Default": "VolumeValueOff"
+              },
+              "DryCavity_CycleSetStaticGuardEnable": {
+                "Default": false,
+                "Allowed": [
+                  false,
+                  true
+                ]
+              },
+              "DryCavity_CycleSetWrinkleShield": {
+                "Enumeration": [
+                  "WrinkleShieldOff",
+                  "WrinkleShieldOn",
+                  "WrinkleShieldOnWithSteam"
+                ],
+                "Default": "WrinkleShieldOn"
+              },
+              "DryCavity_CycleSetTemperature": {
+                "Enumeration": [
+                  "DryTempCoolLow",
+                  "DryTempCoolMid",
+                  "DryTempWarmMid",
+                  "DryTempHotMid"
+                ],
+                "Default": "DryTempCoolMid"
+              }
+            }
+          },
+          {
+            "DryCycleWhatToColorsBrightsHowToHeavyDuty": {
+              "DryCavity_CycleSetDryness": {
+                "Enumeration": [
+                  "DrynessLessMid",
+                  "DrynessNormMid",
+                  "DrynessMoreMid"
+                ],
+                "Default": "DrynessNormMid"
+              },
+              "DrySys_OpSetDampNotificationToneVolume": {
+                "Enumeration": [
+                  "VolumeValueOff",
+                  "VolumeValueMedium",
+                  "VolumeValueMax"
+                ],
+                "Default": "VolumeValueOff"
+              },
+              "DryCavity_CycleSetStaticGuardEnable": {
+                "Default": false,
+                "Allowed": [
+                  false,
+                  true
+                ]
+              },
+              "DryCavity_CycleSetWrinkleShield": {
+                "Enumeration": [
+                  "WrinkleShieldOff",
+                  "WrinkleShieldOn",
+                  "WrinkleShieldOnWithSteam"
+                ],
+                "Default": "WrinkleShieldOff"
+              },
+              "DryCavity_CycleSetTemperature": {
+                "Enumeration": [
+                  "DryTempCoolLow",
+                  "DryTempCoolMid",
+                  "DryTempWarmMid",
+                  "DryTempHotMid"
+                ],
+                "Default": "DryTempWarmMid"
+              }
+            }
+          },
+          {
+            "DryCycleWhatToColorsBrightsHowToSanitize": {
+              "DryCavity_CycleSetDryness": {
+                "Enumeration": [
+                  "DrynessMoreMid"
+                ],
+                "Default": "DrynessMoreMid"
+              },
+              "DryCavity_CycleSetWrinkleShield": {
+                "Enumeration": [
+                  "WrinkleShieldOff",
+                  "WrinkleShieldOn"
+                ],
+                "Default": "WrinkleShieldOff"
+              },
+              "DryCavity_CycleSetTemperature": {
+                "Enumeration": [
+                  "DryTempHotMid"
+                ],
+                "Default": "DryTempHotMid"
+              }
+            }
+          },
+          {
+            "DryCycleWhatToColorsBrightsHowToTimed": {
+              "DryCavity_CycleSetManualDryTime": {
+                "List": [
+                  1800,
+                  3600,
+                  5400
+                ],
+                "Default": 3600
+              },
+              "DryCavity_CycleSetWrinkleShield": {
+                "Enumeration": [
+                  "WrinkleShieldOff",
+                  "WrinkleShieldOn",
+                  "WrinkleShieldOnWithSteam"
+                ],
+                "Default": "WrinkleShieldOff"
+              },
+              "DryCavity_CycleSetTemperature": {
+                "Enumeration": [
+                  "DryTempAir",
+                  "DryTempCoolLow",
+                  "DryTempCoolMid",
+                  "DryTempWarmMid",
+                  "DryTempHotMid"
+                ],
+                "Default": "DryTempCoolMid"
+              }
+            }
+          },
+          {
+            "DryCycleWhatToColorsBrightsHowToQuick": {
+              "DryCavity_CycleSetManualDryTime": {
+                "List": [
+                  900,
+                  1800,
+                  2700
+                ],
+                "Default": 900
+              },
+              "DryCavity_CycleSetWrinkleShield": {
+                "Enumeration": [
+                  "WrinkleShieldOff",
+                  "WrinkleShieldOn",
+                  "WrinkleShieldOnWithSteam"
+                ],
+                "Default": "WrinkleShieldOff"
+              },
+              "DryCavity_CycleSetTemperature": {
+                "Enumeration": [
+                  "DryTempAir",
+                  "DryTempCoolLow",
+                  "DryTempCoolMid",
+                  "DryTempWarmMid",
+                  "DryTempHotMid"
+                ],
+                "Default": "DryTempHotMid"
+              }
+            }
+          },
+          {
+            "DryCycleTowels": {
+              "DryCavity_CycleSetDryness": {
+                "Enumeration": [
+                  "DrynessLessMid",
+                  "DrynessNormMid",
+                  "DrynessMoreMid"
+                ],
+                "Default": "DrynessNormMid"
+              },
+              "DrySys_OpSetDampNotificationToneVolume": {
+                "Enumeration": [
+                  "VolumeValueOff",
+                  "VolumeValueMedium",
+                  "VolumeValueMax"
+                ],
+                "Default": "VolumeValueOff"
+              },
+              "DryCavity_CycleSetStaticGuardEnable": {
+                "Default": false,
+                "Allowed": [
+                  false,
+                  true
+                ]
+              },
+              "DryCavity_CycleSetWrinkleShield": {
+                "Enumeration": [
+                  "WrinkleShieldOff",
+                  "WrinkleShieldOn",
+                  "WrinkleShieldOnWithSteam"
+                ],
+                "Default": "WrinkleShieldOff"
+              },
+              "DryCavity_CycleSetTemperature": {
+                "Enumeration": [
+                  "DryTempCoolLow",
+                  "DryTempCoolMid",
+                  "DryTempWarmMid",
+                  "DryTempHotMid"
+                ],
+                "Default": "DryTempWarmMid"
+              }
+            }
+          },
+          {
+            "DryCycleWhatToTowelsHowToWrinkleControl": {
+              "DryCavity_CycleSetDryness": {
+                "Enumeration": [
+                  "DrynessLessMid",
+                  "DrynessNormMid",
+                  "DrynessMoreMid"
+                ],
+                "Default": "DrynessNormMid"
+              },
+              "DrySys_OpSetDampNotificationToneVolume": {
+                "Enumeration": [
+                  "VolumeValueOff",
+                  "VolumeValueMedium",
+                  "VolumeValueMax"
+                ],
+                "Default": "VolumeValueOff"
+              },
+              "DryCavity_CycleSetStaticGuardEnable": {
+                "Default": false,
+                "Allowed": [
+                  false,
+                  true
+                ]
+              },
+              "DryCavity_CycleSetWrinkleShield": {
+                "Enumeration": [
+                  "WrinkleShieldOff",
+                  "WrinkleShieldOn",
+                  "WrinkleShieldOnWithSteam"
+                ],
+                "Default": "WrinkleShieldOn"
+              },
+              "DryCavity_CycleSetTemperature": {
+                "Enumeration": [
+                  "DryTempCoolLow",
+                  "DryTempCoolMid",
+                  "DryTempWarmMid",
+                  "DryTempHotMid"
+                ],
+                "Default": "DryTempWarmMid"
+              }
+            }
+          },
+          {
+            "DryCycleWhatToTowelsHowToHeavyDuty": {
+              "DryCavity_CycleSetDryness": {
+                "Enumeration": [
+                  "DrynessLessMid",
+                  "DrynessNormMid",
+                  "DrynessMoreMid"
+                ],
+                "Default": "DrynessNormMid"
+              },
+              "DrySys_OpSetDampNotificationToneVolume": {
+                "Enumeration": [
+                  "VolumeValueOff",
+                  "VolumeValueMedium",
+                  "VolumeValueMax"
+                ],
+                "Default": "VolumeValueOff"
+              },
+              "DryCavity_CycleSetStaticGuardEnable": {
+                "Default": false,
+                "Allowed": [
+                  false,
+                  true
+                ]
+              },
+              "DryCavity_CycleSetWrinkleShield": {
+                "Enumeration": [
+                  "WrinkleShieldOff",
+                  "WrinkleShieldOn",
+                  "WrinkleShieldOnWithSteam"
+                ],
+                "Default": "WrinkleShieldOff"
+              },
+              "DryCavity_CycleSetTemperature": {
+                "Enumeration": [
+                  "DryTempCoolLow",
+                  "DryTempCoolMid",
+                  "DryTempWarmMid",
+                  "DryTempHotMid"
+                ],
+                "Default": "DryTempHotMid"
+              }
+            }
+          },
+          {
+            "DryCycleWhatToTowelsHowToSanitize": {
+              "DryCavity_CycleSetDryness": {
+                "Enumeration": [
+                  "DrynessMoreMid"
+                ],
+                "Default": "DrynessMoreMid"
+              },
+              "DryCavity_CycleSetWrinkleShield": {
+                "Enumeration": [
+                  "WrinkleShieldOff",
+                  "WrinkleShieldOn"
+                ],
+                "Default": "WrinkleShieldOff"
+              },
+              "DryCavity_CycleSetTemperature": {
+                "Enumeration": [
+                  "DryTempHotMid"
+                ],
+                "Default": "DryTempHotMid"
+              }
+            }
+          },
+          {
+            "DryCycleWhatToTowelsHowToTimed": {
+              "DryCavity_CycleSetManualDryTime": {
+                "List": [
+                  1800,
+                  3600,
+                  5400
+                ],
+                "Default": 3600
+              },
+              "DryCavity_CycleSetWrinkleShield": {
+                "Enumeration": [
+                  "WrinkleShieldOff",
+                  "WrinkleShieldOn",
+                  "WrinkleShieldOnWithSteam"
+                ],
+                "Default": "WrinkleShieldOff"
+              },
+              "DryCavity_CycleSetTemperature": {
+                "Enumeration": [
+                  "DryTempAir",
+                  "DryTempCoolLow",
+                  "DryTempCoolMid",
+                  "DryTempWarmMid",
+                  "DryTempHotMid"
+                ],
+                "Default": "DryTempWarmMid"
+              }
+            }
+          },
+          {
+            "DryCycleWhatToTowelsHowToQuick": {
+              "DryCavity_CycleSetManualDryTime": {
+                "List": [
+                  900,
+                  1800,
+                  2700
+                ],
+                "Default": 900
+              },
+              "DryCavity_CycleSetWrinkleShield": {
+                "Enumeration": [
+                  "WrinkleShieldOff",
+                  "WrinkleShieldOn",
+                  "WrinkleShieldOnWithSteam"
+                ],
+                "Default": "WrinkleShieldOff"
+              },
+              "DryCavity_CycleSetTemperature": {
+                "Enumeration": [
+                  "DryTempAir",
+                  "DryTempCoolLow",
+                  "DryTempCoolMid",
+                  "DryTempWarmMid",
+                  "DryTempHotMid"
+                ],
+                "Default": "DryTempHotMid"
+              }
+            }
+          },
+          {
+            "DryCycleSteamRefresh": {
+              "DryCavity_CycleSetWrinkleShield": {
+                "Enumeration": [
+                  "WrinkleShieldOff",
+                  "WrinkleShieldOn",
+                  "WrinkleShieldOnWithSteam"
+                ],
+                "Default": "WrinkleShieldOff"
+              },
+              "DryCavity_CycleSetTemperature": {
+                "Enumeration": [
+                  "DryTempWarmMid",
+                  "DryTempHotMid"
+                ],
+                "Default": "DryTempWarmMid"
+              }
+            }
+          }
+        ],
+        "CycleHandoffs": [
+          {
+            "WasherCycle": {
+              "WhatToHowTo": "WashCycleNormal"
+            },
+            "DryerCycle": {
+              "WhatToHowTo": "DryCycleNormal"
+            }
+          },
+          {
+            "WasherCycle": {
+              "WhatToHowTo": "WashCycleWhatToColorsBrightsHowToQuick"
+            },
+            "DryerCycle": {
+              "WhatToHowTo": "DryCycleWhatToColorsBrightsHowToQuick"
+            }
+          },
+          {
+            "WasherCycle": {
+              "WhatToHowTo": "WashCycleWhatToWhitesHowToHeavyDuty"
+            },
+            "DryerCycle": {
+              "WhatToHowTo": "DryCycleWhatToWhitesHowToHeavyDuty"
+            }
+          },
+          {
+            "WasherCycle": {
+              "WhatToHowTo": "WashCycleWhatToTowelsHowToWrinkleControl"
+            },
+            "DryerCycle": {
+              "WhatToHowTo": "DryCycleWhatToTowelsHowToWrinkleControl"
+            }
+          },
+          {
+            "WasherCycle": {
+              "WhatToHowTo": "WashCycleWhatToDelicatesHowToColdWash"
+            },
+            "DryerCycle": {
+              "WhatToHowTo": "DryCycleDelicate"
+            }
+          }
+        ]
+      }
+    ],
+    "Rulesets": [
+      {
+        "CycleStartPauseAllowed": {
+          "State": {
+            "Pause": {
+              "Cavity_CycleStatusMachineState": [
+                "MachineStateRunningMainCycle",
+                "MachineStateRunningPostCycle"
+              ],
+              "online": true
+            },
+            "Start": {
+              "XCat_RemoteSetRemoteControlEnable": true,
+              "Cavity_CycleStatusMachineState": [
+                "MachineStateStandby",
+                "MachineStateSetting",
+                "MachineStateComplete",
+                "MachineStateDelayCountdownMode"
+              ],
+              "online": true
+            },
+            "None": {
+              "Cavity_CycleStatusMachineState": [],
+              "online": false
+            },
+            "Resume": {
+              "Cavity_CycleStatusMachineState": [
+                "MachineStatePause"
+              ],
+              "online": true
+            }
+          }
+        },
+        "CycleDelayStartAllowed": {
+          "State": {
+            "Start": {
+              "XCat_RemoteSetRemoteControlEnable": true,
+              "Cavity_CycleStatusMachineState": [
+                "MachineStateSetting",
+                "MachineStateSmartDelay",
+                "MachineStateDelayCountdownMode"
+              ],
+              "online": true
+            },
+            "Update": {
+              "XCat_RemoteSetRemoteControlEnable": true,
+              "Cavity_CycleStatusMachineState": [
+                "MachineStateSmartDelay",
+                "MachineStateDelayCountdownMode"
+              ],
+              "online": true
+            },
+            "None": {
+              "XCat_RemoteSetRemoteControlEnable": false,
+              "Cavity_CycleStatusMachineState": [],
+              "online": false
+            }
+          }
+        },
+        "CycleWrinkleRelease": {
+          "State": {
+            "DryCavity_CycleSetWrinkleShield": {
+              "XCat_RemoteSetRemoteControlEnable": true,
+              "Cavity_CycleStatusMachineState": [
+                "MachineStateComplete"
+              ],
+              "online": true
+            }
+          }
+        },
+        "CycleHistory": {
+          "groupBy": "XCat_OdometerStatusCycleCount",
+          "attributes": "DryCavity_CycleSetCycleSelect,DryCavity_CycleSetWrinkleShield,DryCavity_CycleSetManualDryTime,DryCavity_CycleSetDryness",
+          "maxRows": 5
+        },
+        "FaultCodeHistory": {
+          "groupBy": "Sys_AlertStatusCustomerFaultCode",
+          "attributes": "Sys_AlertStatusCustomerFaultCode",
+          "maxRows": 25
+        },
+        "History_Ignore_Attributes": {
+          "Sys_AlertStatusCustomerFaultCode": [
+            "F0,E0,0"
+          ]
+        },
+        "FilterCriteria": {
+          "key": "DryCavity_CycleSetCycleSelect"
+        }
+      }
+    ]
+  },
+  "Alerts": {
+    "Key": "DDM_LAUNDRY_JANUS_DRYER_INDIGO_WHIRLPOOL_V1",
+    "Alerts": [
+      {
+        "ApplianceAlerts": [
+          {
+            "alertId": 876,
+            "name": "MachineState",
+            "attribute": "Cavity_CycleStatusMachineState",
+            "type": "push",
+            "category": "FabricCare",
+            "autodelete": false,
+            "autodisarm": true,
+            "autodisable": false,
+            "visible": true,
+            "enable": true
+          },
+          {
+            "alertId": 877,
+            "name": "ControlLock",
+            "attribute": "Sys_OpSetControlLock",
+            "type": "push",
+            "category": "FabricCare",
+            "autodelete": false,
+            "autodisarm": true,
+            "autodisable": false,
+            "visible": true,
+            "enable": false
+          },
+          {
+            "alertId": 1157,
+            "name": "CustomerFaultCode",
+            "attribute": "Sys_AlertStatusCustomerFaultCode",
+            "type": "push",
+            "category": "FabricCare",
+            "autodelete": false,
+            "autodisarm": false,
+            "autodisable": false,
+            "visible": true,
+            "enable": true
+          },
+          {
+            "alertId": 1158,
+            "name": "LaundryOnWhileAway",
+            "attribute": "Online",
+            "type": "push",
+            "category": "FabricCare",
+            "autodelete": false,
+            "autodisarm": false,
+            "autodisable": false,
+            "visible": false,
+            "enable": false
+          }
+        ]
+      }
+    ]
+  },
+  "Services": {
+    "_id": "DDM_LAUNDRY_JANUS_DRYER_INDIGO_WHIRLPOOL_V1",
+    "thirdPartyServices": [
+      {
+        "name": "Replenishment",
+        "enabled": false,
+        "serviceProvider": [
+          {
+            "name": "ADRS",
+            "enabled": false,
+            "config": {}
+          },
+          {
+            "name": "Wallmart",
+            "enabled": false,
+            "config": {}
+          },
+          {
+            "name": "Whirlpool",
+            "enabled": false,
+            "config": {}
+          }
+        ]
+      },
+      {
+        "name": "Thermostat",
+        "enabled": true,
+        "serviceProvider": [
+          {
+            "name": "Nest",
+            "enabled": true,
+            "config": [
+              {
+                "Key": "WrinkleShield",
+                "Type": "home_away",
+                "value": true,
+                "commandName ": "",
+                "commandValue ": ""
+              },
+              {
+                "Key": "QuietWhileHome",
+                "Type": "home_away",
+                "value": true,
+                "commandName": "",
+                "commandValue": ""
+              },
+              {
+                "Key": "SmartEnergy",
+                "Type": "rush_hour_rewards",
+                "value": true,
+                "commandName": "",
+                "commandValue": ""
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Energy Management",
+        "enabled": false,
+        "serviceProvider": [
+          {
+            "name": "National Grid",
+            "enabled": false,
+            "config": {}
+          },
+          {
+            "name": "Genability",
+            "enabled": false,
+            "config": {}
+          }
+        ]
+      },
+      {
+        "name": "Voice Integration",
+        "enabled": false,
+        "serviceProvider": [
+          {
+            "name": "Amazon Alexa",
+            "enabled": false,
+            "config": {}
+          },
+          {
+            "name": "Google Home",
+            "enabled": false,
+            "config": {}
+          }
+        ]
+      },
+      {
+        "name": "localizeDateTime",
+        "enabled": true,
+        "serviceProvider": [
+          {
+            "name": "WCloud",
+            "enabled": true,
+            "config": ""
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,1459 @@
+{
+  "_id": "DDM_MX_AIRCONDITIONER_AIRCONNECT_V1",
+  "_rev": "69-12be0e0be110da5dd76959c4bb94fe84",
+  "DDM": {
+    "_id": "DDM_MX_AIRCONDITIONER_AIRCONNECT_V1",
+    "ddmName": "DDM_MX_AIRCONDITIONER_AIRCONNECT_V1",
+    "modelNumber": "0000WA6178Q,0000WA6078Q,WA6178Q,WA6078Q",
+    "createdAt": "Jul 10, 2018 6:30:00 PM",
+    "createdBy": "Tushar Ranjan",
+    "brandName": "Whirlpool",
+    "category": "AirConditioner",
+    "version": "1.0",
+    "ccuriVersion": "1.0",
+    "ccURI": "API144_AC_V3"
+  },
+  "DataModel": {
+    "Key": "DDM_MX_AIRCONDITIONER_AIRCONNECT_V1",
+    "attributes": [
+      {
+        "IsTemplate": false,
+        "M2MAttributeName": "XCat_PersistentInfoVersion",
+        "Instance": "XCat_PersistentInfo",
+        "IsTimeSeries": false,
+        "DataType": "BEIntegerUnsigned16Bit",
+        "AttributeName": "Version",
+        "RangeValues": {
+          "StepSize": "1",
+          "Min": "0",
+          "Max": "65535"
+        },
+        "DeviceIO": "RO",
+        "MappedAttributeName": "XCat_PersistentInfoVersion",
+        "Default": "0",
+        "Key": "0x01010001"
+      },
+      {
+        "IsTemplate": false,
+        "M2MAttributeName": "XCat_PersistentInfoSaid",
+        "Instance": "XCat_PersistentInfo",
+        "IsTimeSeries": false,
+        "DataType": "String",
+        "AttributeName": "Said",
+        "DeviceIO": "RO",
+        "MappedAttributeName": "XCat_PersistentInfoSaid",
+        "Default": "0",
+        "Key": "0x01010002"
+      },
+      {
+        "IsTemplate": false,
+        "M2MAttributeName": "XCat_PersistentInfoMacAddress",
+        "Instance": "XCat_PersistentInfo",
+        "IsTimeSeries": false,
+        "DataType": "String",
+        "AttributeName": "MacAddress",
+        "DeviceIO": "RO",
+        "MappedAttributeName": "XCat_PersistentInfoMacAddress",
+        "Default": "0",
+        "Key": "0x01010003"
+      },
+      {
+        "IsTemplate": false,
+        "M2MAttributeName": "XCat_WifiStatusRssiAntennaDiversity",
+        "Instance": "XCat_WifiStatus",
+        "IsTimeSeries": false,
+        "DataType": "IntegerSigned8Bit",
+        "AttributeName": "RssiAntennaDiversity",
+        "RangeValues": {
+          "StepSize": "1",
+          "Min": "-128",
+          "Max": "127"
+        },
+        "DeviceIO": "RO",
+        "MappedAttributeName": "XCat_WifiStatusRssiAntennaDiversity",
+        "Default": "-99",
+        "Key": "0x01020001"
+      },
+      {
+        "IsTemplate": false,
+        "M2MAttributeName": "XCat_PowerStatusRealTimePower",
+        "Instance": "XCat_PowerStatus",
+        "IsTimeSeries": true,
+        "DataType": "BEIntegerUnsigned32Bit",
+        "AttributeName": "RealTimePower",
+        "RangeValues": {
+          "StepSize": "1",
+          "Min": "0",
+          "Max": "2147483647"
+        },
+        "DeviceIO": "RO",
+        "MappedAttributeName": "XCat_PowerStatusRealTimePower",
+        "Default": "0",
+        "Key": "0x01030003"
+      },
+      {
+        "IsTemplate": false,
+        "M2MAttributeName": "XCat_PowerStatusRealTimeVoltage",
+        "Instance": "XCat_PowerStatus",
+        "IsTimeSeries": false,
+        "DataType": "BEIntegerUnsigned32Bit",
+        "AttributeName": "RealTimeVoltage",
+        "RangeValues": {
+          "StepSize": "1",
+          "Min": "0",
+          "Max": "2147483647"
+        },
+        "DeviceIO": "RO",
+        "MappedAttributeName": "XCat_PowerStatusRealTimeVoltage",
+        "Default": "0",
+        "Key": "0x01030004"
+      },
+      {
+        "IsTemplate": false,
+        "M2MAttributeName": "XCat_PowerStatusRealTimeCurrent",
+        "Instance": "XCat_PowerStatus",
+        "IsTimeSeries": false,
+        "DataType": "BEIntegerUnsigned32Bit",
+        "AttributeName": "RealTimeCurrent",
+        "RangeValues": {
+          "StepSize": "1",
+          "Min": "0",
+          "Max": "2147483647"
+        },
+        "DeviceIO": "RO",
+        "MappedAttributeName": "XCat_PowerStatusRealTimeCurrent",
+        "Default": "0",
+        "Key": "0x01030005"
+      },
+      {
+        "IsTemplate": false,
+        "M2MAttributeName": "XCat_OdometerStatusRunningHours",
+        "Instance": "XCat_OdometerStatus",
+        "IsTimeSeries": false,
+        "DataType": "BEIntegerUnsigned32Bit",
+        "AttributeName": "RunningHours",
+        "RangeValues": {
+          "StepSize": "1",
+          "Min": "0",
+          "Max": "2147483647"
+        },
+        "DeviceIO": "RO",
+        "MappedAttributeName": "XCat_OdometerStatusRunningHours",
+        "Default": "0",
+        "Key": "0x01050001"
+      },
+      {
+        "IsTemplate": false,
+        "M2MAttributeName": "XCat_OdometerStatusTotalHours",
+        "Instance": "XCat_OdometerStatus",
+        "IsTimeSeries": false,
+        "DataType": "BEIntegerUnsigned32Bit",
+        "AttributeName": "TotalHours",
+        "RangeValues": {
+          "StepSize": "1",
+          "Min": "0",
+          "Max": "2147483647"
+        },
+        "DeviceIO": "RO",
+        "MappedAttributeName": "XCat_OdometerStatusTotalHours",
+        "Default": "0",
+        "Key": "0x01050002"
+      },
+      {
+        "IsTemplate": false,
+        "M2MAttributeName": "XCat_OdometerStatusCycleCount",
+        "Instance": "XCat_OdometerStatus",
+        "IsTimeSeries": false,
+        "DataType": "BEIntegerUnsigned32Bit",
+        "AttributeName": "CycleCount",
+        "RangeValues": {
+          "StepSize": "1",
+          "Min": "0",
+          "Max": "2147483647"
+        },
+        "DeviceIO": "RO",
+        "MappedAttributeName": "XCat_OdometerStatusCycleCount",
+        "Default": "0",
+        "Key": "0x01050003"
+      },
+      {
+        "IsTemplate": false,
+        "M2MAttributeName": "XCat_ApplianceInfoSetModelNumber",
+        "Instance": "XCat_ApplianceInfoSet",
+        "IsTimeSeries": false,
+        "DataType": "String",
+        "AttributeName": "ModelNumber",
+        "DeviceIO": "RW",
+        "MappedAttributeName": "XCat_ApplianceInfoSetModelNumber",
+        "Default": "0",
+        "Key": "0x01060001"
+      },
+      {
+        "IsTemplate": false,
+        "M2MAttributeName": "XCat_ApplianceInfoSetSerialNumber",
+        "Instance": "XCat_ApplianceInfoSet",
+        "IsTimeSeries": false,
+        "DataType": "String",
+        "AttributeName": "SerialNumber",
+        "DeviceIO": "RW",
+        "MappedAttributeName": "XCat_ApplianceInfoSetSerialNumber",
+        "Default": "0",
+        "Key": "0x01060002"
+      },
+      {
+        "IsTemplate": false,
+        "M2MAttributeName": "XCat_WifiSetPublishApplianceState",
+        "Instance": "XCat_WifiSet",
+        "IsTimeSeries": false,
+        "DataType": "Boolean",
+        "AttributeName": "PublishApplianceState",
+        "DeviceIO": "WO",
+        "MappedAttributeName": "XCat_WifiSetPublishApplianceState",
+        "Default": "0",
+        "Key": "0x01090001"
+      },
+      {
+        "IsTemplate": false,
+        "M2MAttributeName": "XCat_WifiSetRebootWifiCommModule",
+        "Instance": "XCat_WifiSet",
+        "IsTimeSeries": false,
+        "DataType": "Boolean",
+        "AttributeName": "RebootWifiCommModule",
+        "DeviceIO": "RW",
+        "MappedAttributeName": "XCat_WifiSetRebootWifiCommModule",
+        "Default": "0",
+        "Key": "0x01090002"
+      },
+      {
+        "IsTemplate": false,
+        "M2MAttributeName": "XCat_WifiSetDeprovisionWifiCommModule",
+        "Instance": "XCat_WifiSet",
+        "IsTimeSeries": false,
+        "DataType": "Boolean",
+        "AttributeName": "DeprovisionWifiCommModule",
+        "DeviceIO": "RW",
+        "MappedAttributeName": "XCat_WifiSetDeprovisionWifiCommModule",
+        "Default": "0",
+        "Key": "0x01090003"
+      },
+      {
+        "IsTemplate": false,
+        "M2MAttributeName": "XCat_WifiSetDisableWifiCommModule",
+        "Instance": "XCat_WifiSet",
+        "IsTimeSeries": false,
+        "DataType": "Boolean",
+        "AttributeName": "DisableWifiCommModule",
+        "DeviceIO": "RW",
+        "MappedAttributeName": "XCat_WifiSetDisableWifiCommModule",
+        "Default": "0",
+        "Key": "0x01090004"
+      },
+      {
+        "IsTemplate": false,
+        "M2MAttributeName": "XCat_PowerSetRealTimePowerPublishTiming",
+        "Instance": "XCat_PowerSet",
+        "IsTimeSeries": false,
+        "DataType": "BEIntegerUnsigned16Bit",
+        "AttributeName": "RealTimePowerPublishTiming",
+        "RangeValues": {
+          "StepSize": "1",
+          "Min": "0",
+          "Max": "65535"
+        },
+        "DeviceIO": "WO",
+        "MappedAttributeName": "XCat_PowerSetRealTimePowerPublishTiming",
+        "Default": "0",
+        "Key": "0x010A0002"
+      },
+      {
+        "IsTemplate": false,
+        "M2MAttributeName": "XCat_PowerSetRealTimePowerPublishStart",
+        "Instance": "XCat_PowerSet",
+        "IsTimeSeries": false,
+        "DataType": "Boolean",
+        "AttributeName": "RealTimePowerPublishStart",
+        "DeviceIO": "WO",
+        "MappedAttributeName": "XCat_PowerSetRealTimePowerPublishStart",
+        "Default": "0",
+        "Key": "0x010A0003"
+      },
+      {
+        "IsTemplate": false,
+        "M2MAttributeName": "Sys_AlertStatusCustomerFaultCode",
+        "Instance": "Sys_AlertStatus",
+        "IsTimeSeries": false,
+        "DataType": "String",
+        "AttributeName": "CustomerFaultCode",
+        "DeviceIO": "RO",
+        "MappedAttributeName": "Sys_AlertStatusCustomerFaultCode",
+        "Default": "0",
+        "Key": "0x02010001"
+      },
+      {
+        "IsTemplate": false,
+        "M2MAttributeName": "Sys_OpStatusDisplayTemp",
+        "Instance": "Sys_OpStatus",
+        "IsTimeSeries": false,
+        "DataType": "BEIntegerUnsigned16Bit",
+        "AttributeName": "DisplayTemp",
+        "RangeValues": {
+          "StepSize": "1",
+          "Min": "0",
+          "Max": "65535"
+        },
+        "DeviceIO": "RO",
+        "MappedAttributeName": "Sys_OpStatusDisplayTemp",
+        "Default": "0",
+        "Key": "0x02020001"
+      },
+      {
+        "IsTemplate": false,
+        "M2MAttributeName": "Sys_OpStatusDisplayHumidity",
+        "Instance": "Sys_OpStatus",
+        "IsTimeSeries": false,
+        "DataType": "IntegerUnsigned8Bit",
+        "AttributeName": "DisplayHumidity",
+        "RangeValues": {
+          "StepSize": "1",
+          "Min": "0",
+          "Max": "255"
+        },
+        "DeviceIO": "RO",
+        "MappedAttributeName": "Sys_OpStatusDisplayHumidity",
+        "Default": "0",
+        "Key": "0x02020002"
+      },
+      {
+        "IsTemplate": false,
+        "M2MAttributeName": "Sys_DisplaySetBrightness",
+        "Instance": "Sys_DisplaySet",
+        "IsTimeSeries": false,
+        "DataType": "enum",
+        "AttributeName": "Brightness",
+        "DeviceIO": "RW",
+        "MappedAttributeName": "Sys_DisplaySetBrightness",
+        "Default": "4",
+        "EnumValues": {
+          "0": "Off",
+          "4": "High"
+        },
+        "Key": "0x02030001"
+      },
+      {
+        "IsTemplate": false,
+        "M2MAttributeName": "Sys_OpSetPowerOn",
+        "Instance": "Sys_OpSet",
+        "IsTimeSeries": false,
+        "DataType": "Boolean",
+        "AttributeName": "PowerOn",
+        "DeviceIO": "RW",
+        "MappedAttributeName": "Sys_OpSetPowerOn",
+        "Key": "0x02040001"
+      },
+      {
+        "IsTemplate": false,
+        "M2MAttributeName": "Sys_OpSetTargetTemp",
+        "Instance": "Sys_OpSet",
+        "IsTimeSeries": false,
+        "DataType": "BEIntegerUnsigned16Bit",
+        "AttributeName": "TargetTemp",
+        "RangeValues": {
+          "StepSize": "1",
+          "Min": "0",
+          "Max": "65535"
+        },
+        "DeviceIO": "RW",
+        "MappedAttributeName": "Sys_OpSetTargetTemp",
+        "Default": "0",
+        "Key": "0x02040002"
+      },
+      {
+        "IsTemplate": false,
+        "M2MAttributeName": "Sys_OpSetTargetHumidity",
+        "Instance": "Sys_OpSet",
+        "IsTimeSeries": false,
+        "DataType": "IntegerUnsigned8Bit",
+        "AttributeName": "TargetHumidity",
+        "RangeValues": {
+          "StepSize": "1",
+          "Min": "0",
+          "Max": "255"
+        },
+        "DeviceIO": "RW",
+        "MappedAttributeName": "Sys_OpSetTargetHumidity",
+        "Default": "0",
+        "Key": "0x02040003"
+      },
+      {
+        "IsTemplate": false,
+        "M2MAttributeName": "Sys_OpSetTargetTime",
+        "Instance": "Sys_OpSet",
+        "IsTimeSeries": false,
+        "DataType": "BEIntegerUnsigned32Bit",
+        "AttributeName": "TargetTime",
+        "RangeValues": {
+          "StepSize": "1",
+          "Min": "0",
+          "Max": "2147483647"
+        },
+        "DeviceIO": "RW",
+        "MappedAttributeName": "Sys_OpSetTargetTime",
+        "Default": "0",
+        "Key": "0x02040004"
+      },
+      {
+        "IsTemplate": false,
+        "M2MAttributeName": "Sys_OpSetEcoModeEnabled",
+        "Instance": "Sys_OpSet",
+        "IsTimeSeries": false,
+        "DataType": "Boolean",
+        "AttributeName": "EcoModeEnabled",
+        "DeviceIO": "RW",
+        "MappedAttributeName": "Sys_OpSetEcoModeEnabled",
+        "Default": "0",
+        "Key": "0x02040005"
+      },
+      {
+        "IsTemplate": false,
+        "M2MAttributeName": "Sys_OpSetQuietModeEnabled",
+        "Instance": "Sys_OpSet",
+        "IsTimeSeries": false,
+        "DataType": "Boolean",
+        "AttributeName": "QuietModeEnabled",
+        "DeviceIO": "RW",
+        "MappedAttributeName": "Sys_OpSetQuietModeEnabled",
+        "Default": "0",
+        "Key": "0x02040006"
+      },
+      {
+        "IsTemplate": false,
+        "M2MAttributeName": "Sys_OpSetSleepMode",
+        "Instance": "Sys_OpSet",
+        "IsTimeSeries": false,
+        "DataType": "enum",
+        "AttributeName": "SleepMode",
+        "DeviceIO": "RW",
+        "MappedAttributeName": "Sys_OpSetSleepMode",
+        "Default": "0",
+        "EnumValues": {
+          "0": "SleepModeOff",
+          "1": "SleepMode1",
+          "2": "SleepMode2",
+          "3": "SleepMode3",
+          "4": "SleepMode4"
+        },
+        "Key": "0x02040007"
+      },
+      {
+        "IsTemplate": false,
+        "M2MAttributeName": "Cavity_OpStatusAirFilterStatus",
+        "Instance": "Cavity_OpStatus",
+        "IsTimeSeries": false,
+        "DataType": "enum",
+        "AttributeName": "AirFilterStatus",
+        "DeviceIO": "RO",
+        "MappedAttributeName": "Cavity_OpStatusAirFilterStatus",
+        "Default": "0",
+        "EnumValues": {
+          "0": "GoodFilter",
+          "2": "ReplaceFilter",
+          "5": "CleanFilter"
+        },
+        "Key": "0x03010001"
+      },
+      {
+        "IsTemplate": false,
+        "M2MAttributeName": "Cavity_OpStatusMode",
+        "Instance": "Cavity_OpStatus",
+        "IsTimeSeries": false,
+        "DataType": "enum",
+        "AttributeName": "Mode",
+        "DeviceIO": "RO",
+        "MappedAttributeName": "Cavity_OpStatusMode",
+        "Default": "0",
+        "EnumValues": {
+          "1": "AcModeCooling",
+          "2": "AcModeAir",
+          "3": "AcModeHeating",
+          "5": "AcModeSixthSenseAir",
+          "6": "AcModeSixthSenseHeating",
+          "7": "AcModeSixthSenseCooling"
+        },
+        "Key": "0x03010002"
+      },
+      {
+        "IsTemplate": false,
+        "M2MAttributeName": "Cavity_OpSetMode",
+        "Instance": "Cavity_OpSet",
+        "IsTimeSeries": false,
+        "DataType": "enum",
+        "AttributeName": "Mode",
+        "DeviceIO": "RW",
+        "MappedAttributeName": "Cavity_OpSetMode",
+        "Default": "0",
+        "EnumValues": {
+          "1": "AcModeCooling",
+          "2": "AcModeAir",
+          "3": "AcModeHeating",
+          "4": "AcModeSixthSenseAuto"
+        },
+        "Key": "0x03020001"
+      },
+      {
+        "IsTemplate": false,
+        "M2MAttributeName": "Cavity_OpSetFanSpeed",
+        "Instance": "Cavity_OpSet",
+        "IsTimeSeries": false,
+        "DataType": "enum",
+        "AttributeName": "FanSpeed",
+        "DeviceIO": "RW",
+        "MappedAttributeName": "Cavity_OpSetFanSpeed",
+        "Default": "0",
+        "EnumValues": {
+          "0": "Off",
+          "1": "Automatic",
+          "2": "Low",
+          "4": "Medium",
+          "6": "High"
+        },
+        "Key": "0x03020002"
+      },
+      {
+        "IsTemplate": false,
+        "M2MAttributeName": "Cavity_OpSetTurboMode",
+        "Instance": "Cavity_OpSet",
+        "IsTimeSeries": false,
+        "DataType": "Boolean",
+        "AttributeName": "TurboMode",
+        "DeviceIO": "RW",
+        "MappedAttributeName": "Cavity_OpSetTurboMode",
+        "Default": "0",
+        "Key": "0x03020003"
+      },
+      {
+        "IsTemplate": false,
+        "M2MAttributeName": "Cavity_OpSetHorzLouverSwing",
+        "Instance": "Cavity_OpSet",
+        "IsTimeSeries": false,
+        "DataType": "enum",
+        "AttributeName": "HorzLouverSwing",
+        "DeviceIO": "RW",
+        "MappedAttributeName": "Cavity_OpSetHorzLouverSwing",
+        "Default": "0",
+        "EnumValues": {
+          "0": "HorzLouverSwingOff",
+          "1": "HorzLouverSwingFull"
+        },
+        "Key": "0x03020004"
+      },
+      {
+        "IsTemplate": false,
+        "M2MAttributeName": "Cavity_OpSetVertLouverSwing",
+        "Instance": "Cavity_OpSet",
+        "IsTimeSeries": false,
+        "DataType": "enum",
+        "AttributeName": "VertLouverSwing",
+        "DeviceIO": "RW",
+        "MappedAttributeName": "Cavity_OpSetVertLouverSwing",
+        "Default": "0",
+        "EnumValues": {
+          "0": "VertLouverSwingOff",
+          "1": "VertLouverSwingFull"
+        },
+        "Key": "0x03020005"
+      },
+      {
+        "IsTemplate": false,
+        "M2MAttributeName": "Cavity_OpSetAirFilterTime",
+        "Instance": "Cavity_OpSet",
+        "IsTimeSeries": false,
+        "DataType": "BEIntegerUnsigned16Bit",
+        "AttributeName": "AirFilterTime",
+        "RangeValues": {
+          "StepSize": "1",
+          "Min": "0",
+          "Max": "65535"
+        },
+        "DeviceIO": "RW",
+        "MappedAttributeName": "Cavity_OpSetAirFilterTime",
+        "Default": "720",
+        "Key": "0x03020006"
+      },
+      {
+        "IsTemplate": false,
+        "M2MAttributeName": "Cavity_OpSetResetAirFilterTime",
+        "Instance": "Cavity_OpSet",
+        "IsTimeSeries": false,
+        "DataType": "Boolean",
+        "AttributeName": "ResetAirFilterTime",
+        "DeviceIO": "RW",
+        "MappedAttributeName": "Cavity_OpSetResetAirFilterTime",
+        "Default": "0",
+        "Key": "0x03020007"
+      },
+      {
+        "IsTemplate": false,
+        "M2MAttributeName": "XCatOnline",
+        "Instance": "XCat",
+        "IsTimeSeries": false,
+        "DataType": "Boolean",
+        "AttributeName": "Online",
+        "DeviceIO": "RO",
+        "MappedAttributeName": "XCatOnline",
+        "Default": "0",
+        "Key": "0x00000000"
+      }
+    ]
+  },
+  "Personality": {
+    "Key": "DDM_MX_AIRCONDITIONER_AIRCONNECT_V1",
+    "Capability": [
+      {
+        "device": {
+          "-id": "Control_unit",
+          "label": "Control Capability",
+          "class": {
+            "name": "options",
+            "char": {
+              "name": "Sys_OpSetPowerOn",
+              "setting": [
+                {
+                  "incompatibility": {
+                    "char": [
+                      {
+                        "name": "Sys_OpSetTargetTemp"
+                      },
+                      {
+                        "name": "Sys_OpSetTargetHumidity"
+                      },
+                      {
+                        "name": "Sys_OpSetEcoModeEnabled"
+                      },
+                      {
+                        "name": "Sys_OpSetQuietModeEnabled"
+                      },
+                      {
+                        "name": "Sys_OpSetSleepMode"
+                      },
+                      {
+                        "name": "Cavity_OpSetMode"
+                      },
+                      {
+                        "name": "Cavity_OpSetFanSpeed"
+                      },
+                      {
+                        "name": "Cavity_OpSetTurboMode"
+                      },
+                      {
+                        "name": "Cavity_OpSetHorzLouverSwing"
+                      },
+                      {
+                        "name": "Cavity_OpSetAirFilterTime"
+                      },
+                      {
+                        "name": "Cavity_OpSetResetAirFilterTime"
+                      },
+                      {
+                        "name": "Sys_DisplaySetBrightness"
+                      }
+                    ]
+                  },
+                  "name": "0",
+                  "label": "Off"
+                },
+                {
+                  "name": "1",
+                  "char": {
+                    "name": "Cavity_OpStatusMode",
+                    "label": "Mode",
+                    "setting": [
+                      {
+                        "incompatibility": {
+                          "char": {
+                            "name": "Sys_OpSetTargetHumidity"
+                          }
+                        },
+                        "name": "1",
+                        "char": {
+                          "default": "0",
+                          "name": "Cavity_OpSetTurboMode",
+                          "setting": [
+                            {
+                              "name": "0",
+                              "char": [
+                                {
+                                  "default": "1",
+                                  "name": "Cavity_OpSetFanSpeed",
+                                  "setting": [
+                                    {
+                                      "name": "1",
+                                      "label": "Automatic"
+                                    },
+                                    {
+                                      "name": "2",
+                                      "label": "Low"
+                                    },
+                                    {
+                                      "name": "4",
+                                      "label": "Medium"
+                                    },
+                                    {
+                                      "name": "6",
+                                      "label": "High"
+                                    }
+                                  ]
+                                },
+                                {
+                                  "default": "0",
+                                  "name": "Sys_OpSetQuietModeEnabled",
+                                  "setting": [
+                                    {
+                                      "name": "0",
+                                      "label": "Disabled"
+                                    },
+                                    {
+                                      "incompatibility": {
+                                        "char": {
+                                          "name": "Cavity_OpSetFanSpeed"
+                                        }
+                                      },
+                                      "name": "1",
+                                      "label": "Enabled"
+                                    }
+                                  ]
+                                },
+                                {
+                                  "default": "0",
+                                  "name": "Sys_OpSetEcoModeEnabled",
+                                  "setting": [
+                                    {
+                                      "name": "0",
+                                      "label": "Disabled"
+                                    },
+                                    {
+                                      "incompatibility": {
+                                        "char": [
+                                          {
+                                            "name": "Sys_OpSetTargetTemp"
+                                          },
+                                          {
+                                            "name": "Cavity_OpSetFanSpeed"
+                                          }
+                                        ]
+                                      },
+                                      "name": "1",
+                                      "label": "Enabled"
+                                    }
+                                  ]
+                                },
+                                {
+                                  "default": "0",
+                                  "name": "Sys_OpSetSleepMode",
+                                  "label": "Sleep Mode",
+                                  "setting": [
+                                    {
+                                      "name": "0",
+                                      "label": "SleepModeOff"
+                                    },
+                                    {
+                                      "incompatibility": {
+                                        "char": {
+                                          "name": "Cavity_OpSetFanSpeed"
+                                        }
+                                      },
+                                      "name": "1",
+                                      "label": "SleepMode1"
+                                    },
+                                    {
+                                      "incompatibility": {
+                                        "char": {
+                                          "name": "Cavity_OpSetFanSpeed"
+                                        }
+                                      },
+                                      "name": "2",
+                                      "label": "SleepMode2"
+                                    },
+                                    {
+                                      "incompatibility": {
+                                        "char": {
+                                          "name": "Cavity_OpSetFanSpeed"
+                                        }
+                                      },
+                                      "name": "3",
+                                      "label": "SleepMode3"
+                                    },
+                                    {
+                                      "incompatibility": {
+                                        "char": {
+                                          "name": "Cavity_OpSetFanSpeed"
+                                        }
+                                      },
+                                      "name": "4",
+                                      "label": "SleepMode4"
+                                    }
+                                  ]
+                                }
+                              ],
+                              "range": {
+                                "default": "240",
+                                "min": "160",
+                                "max": "300",
+                                "name": "Sys_OpSetTargetTemp",
+                                "units": "tenths of a degree C",
+                                "inc": "10"
+                              },
+                              "label": "TurboModeOff"
+                            },
+                            {
+                              "incompatibility": {
+                                "char": [
+                                  {
+                                    "default": "160",
+                                    "name": "Sys_OpSetTargetTemp"
+                                  },
+                                  {
+                                    "default": "0",
+                                    "name": "Sys_OpSetEcoModeEnabled"
+                                  },
+                                  {
+                                    "default": "0",
+                                    "name": "Sys_OpSetQuietModeEnabled"
+                                  },
+                                  {
+                                    "default": "0",
+                                    "name": "Sys_OpSetSleepMode"
+                                  },
+                                  {
+                                    "default": "6",
+                                    "name": "Cavity_OpSetFanSpeed"
+                                  },
+                                  {
+                                    "name": "Cavity_OpSetMode",
+                                    "setting": {
+                                      "name": "4",
+                                      "label": "AcModeSixthSenseAuto"
+                                    }
+                                  }
+                                ]
+                              },
+                              "name": "1",
+                              "label": "TurboModeOn"
+                            }
+                          ]
+                        },
+                        "label": "AcModeCooling"
+                      },
+                      {
+                        "incompatibility": {
+                          "char": [
+                            {
+                              "name": "Sys_OpSetTargetTemp"
+                            },
+                            {
+                              "name": "Sys_OpSetTargetHumidity"
+                            },
+                            {
+                              "name": "Cavity_OpSetTurboMode"
+                            },
+                            {
+                              "name": "Sys_OpSetSleepMode"
+                            }
+                          ]
+                        },
+                        "name": "2",
+                        "char": [
+                          {
+                            "default": "1",
+                            "name": "Cavity_OpSetFanSpeed",
+                            "setting": [
+                              {
+                                "name": "2",
+                                "label": "Low"
+                              },
+                              {
+                                "name": "4",
+                                "label": "Medium"
+                              },
+                              {
+                                "name": "6",
+                                "label": "High"
+                              }
+                            ]
+                          },
+                          {
+                            "default": "0",
+                            "name": "Sys_OpSetQuietModeEnabled",
+                            "setting": [
+                              {
+                                "name": "0",
+                                "label": "Disabled"
+                              },
+                              {
+                                "incompatibility": {
+                                  "char": {
+                                    "name": "Cavity_OpSetFanSpeed"
+                                  }
+                                },
+                                "name": "1",
+                                "label": "Enabled"
+                              }
+                            ]
+                          },
+                          {
+                            "default": "0",
+                            "name": "Sys_OpSetEcoModeEnabled",
+                            "setting": [
+                              {
+                                "name": "0",
+                                "label": "Disabled"
+                              },
+                              {
+                                "incompatibility": {
+                                  "char": {
+                                    "name": "Cavity_OpSetFanSpeed"
+                                  }
+                                },
+                                "name": "1",
+                                "label": "Enabled"
+                              }
+                            ]
+                          }
+                        ],
+                        "label": "AcModeAir"
+                      },
+                      {
+                        "incompatibility": {
+                          "char": {
+                            "name": "Sys_OpSetTargetHumidity"
+                          }
+                        },
+                        "name": "3",
+                        "char": {
+                          "default": "0",
+                          "name": "Cavity_OpSetTurboMode",
+                          "setting": [
+                            {
+                              "name": "0",
+                              "char": [
+                                {
+                                  "default": "1",
+                                  "name": "Cavity_OpSetFanSpeed",
+                                  "setting": [
+                                    {
+                                      "name": "1",
+                                      "label": "Automatic"
+                                    },
+                                    {
+                                      "name": "2",
+                                      "label": "Low"
+                                    },
+                                    {
+                                      "name": "4",
+                                      "label": "Medium"
+                                    },
+                                    {
+                                      "name": "6",
+                                      "label": "High"
+                                    }
+                                  ]
+                                },
+                                {
+                                  "default": "0",
+                                  "name": "Sys_OpSetQuietModeEnabled",
+                                  "setting": [
+                                    {
+                                      "name": "0",
+                                      "label": "Disabled"
+                                    },
+                                    {
+                                      "incompatibility": {
+                                        "char": {
+                                          "name": "Cavity_OpSetFanSpeed"
+                                        }
+                                      },
+                                      "name": "1",
+                                      "label": "Enabled"
+                                    }
+                                  ]
+                                },
+                                {
+                                  "default": "0",
+                                  "name": "Sys_OpSetEcoModeEnabled",
+                                  "setting": [
+                                    {
+                                      "name": "0",
+                                      "label": "Disabled"
+                                    },
+                                    {
+                                      "incompatibility": {
+                                        "char": [
+                                          {
+                                            "name": "Sys_OpSetTargetTemp"
+                                          },
+                                          {
+                                            "name": "Cavity_OpSetFanSpeed"
+                                          }
+                                        ]
+                                      },
+                                      "name": "1",
+                                      "label": "Enabled"
+                                    }
+                                  ]
+                                },
+                                {
+                                  "default": "0",
+                                  "name": "Sys_OpSetSleepMode",
+                                  "label": "Sleep Mode",
+                                  "setting": [
+                                    {
+                                      "name": "0",
+                                      "label": "SleepModeOff"
+                                    },
+                                    {
+                                      "incompatibility": {
+                                        "char": {
+                                          "name": "Cavity_OpSetFanSpeed"
+                                        }
+                                      },
+                                      "name": "1",
+                                      "label": "SleepMode1"
+                                    },
+                                    {
+                                      "incompatibility": {
+                                        "char": {
+                                          "name": "Cavity_OpSetFanSpeed"
+                                        }
+                                      },
+                                      "name": "2",
+                                      "label": "SleepMode2"
+                                    },
+                                    {
+                                      "incompatibility": {
+                                        "char": {
+                                          "name": "Cavity_OpSetFanSpeed"
+                                        }
+                                      },
+                                      "name": "3",
+                                      "label": "SleepMode3"
+                                    },
+                                    {
+                                      "incompatibility": {
+                                        "char": {
+                                          "name": "Cavity_OpSetFanSpeed"
+                                        }
+                                      },
+                                      "name": "4",
+                                      "label": "SleepMode4"
+                                    }
+                                  ]
+                                }
+                              ],
+                              "range": {
+                                "default": "210",
+                                "min": "160",
+                                "max": "300",
+                                "name": "Sys_OpSetTargetTemp",
+                                "units": "tenths of a degree C",
+                                "inc": "10"
+                              },
+                              "label": "TurboModeOff"
+                            },
+                            {
+                              "incompatibility": {
+                                "char": [
+                                  {
+                                    "default": "300",
+                                    "name": "Sys_OpSetTargetTemp"
+                                  },
+                                  {
+                                    "default": "0",
+                                    "name": "Sys_OpSetEcoModeEnabled"
+                                  },
+                                  {
+                                    "default": "0",
+                                    "name": "Sys_OpSetQuietModeEnabled"
+                                  },
+                                  {
+                                    "default": "0",
+                                    "name": "Sys_OpSetSleepMode"
+                                  },
+                                  {
+                                    "default": "1",
+                                    "name": "Cavity_OpSetFanSpeed"
+                                  },
+                                  {
+                                    "name": "Cavity_OpSetMode",
+                                    "setting": {
+                                      "name": "4",
+                                      "label": "AcModeSixthSenseAuto"
+                                    }
+                                  }
+                                ]
+                              },
+                              "name": "1",
+                              "label": "TurboModeOn"
+                            }
+                          ]
+                        },
+                        "label": "AcModeHeating"
+                      },
+                      {
+                        "feedback": {
+                          "name": "Sys_OpSetTargetTemp",
+                          "type": "feedback",
+                          "setting": [
+                            {
+                              "name": "220",
+                              "char": {
+                                "name": "Sys_OpSetTargetTemp",
+                                "type": "command",
+                                "setting": [
+                                  {
+                                    "name": "250",
+                                    "range": {
+                                      "default": "40",
+                                      "min": "40",
+                                      "max": "55",
+                                      "name": "Sys_OpSetTargetHumidity",
+                                      "label": "Target Humidity",
+                                      "units": "% Relative Humidity",
+                                      "inc": "5"
+                                    }
+                                  },
+                                  {
+                                    "name": "240",
+                                    "range": {
+                                      "default": "40",
+                                      "min": "40",
+                                      "max": "55",
+                                      "name": "Sys_OpSetTargetHumidity",
+                                      "label": "Target Humidity",
+                                      "units": "% Relative Humidity",
+                                      "inc": "5"
+                                    }
+                                  },
+                                  {
+                                    "name": "230",
+                                    "range": {
+                                      "default": "40",
+                                      "min": "40",
+                                      "max": "55",
+                                      "name": "Sys_OpSetTargetHumidity",
+                                      "label": "Target Humidity",
+                                      "units": "% Relative Humidity",
+                                      "inc": "5"
+                                    }
+                                  },
+                                  {
+                                    "name": "220",
+                                    "range": {
+                                      "default": "40",
+                                      "min": "40",
+                                      "max": "55",
+                                      "name": "Sys_OpSetTargetHumidity",
+                                      "label": "Target Humidity",
+                                      "units": "% Relative Humidity",
+                                      "inc": "5"
+                                    }
+                                  },
+                                  {
+                                    "name": "210",
+                                    "range": {
+                                      "default": "45",
+                                      "min": "40",
+                                      "max": "60",
+                                      "name": "Sys_OpSetTargetHumidity",
+                                      "label": "Target Humidity",
+                                      "units": "% Relative Humidity",
+                                      "inc": "5"
+                                    }
+                                  },
+                                  {
+                                    "name": "200",
+                                    "range": {
+                                      "default": "50",
+                                      "min": "40",
+                                      "max": "65",
+                                      "name": "Sys_OpSetTargetHumidity",
+                                      "label": "Target Humidity",
+                                      "units": "% Relative Humidity",
+                                      "inc": "5"
+                                    }
+                                  },
+                                  {
+                                    "name": "190",
+                                    "range": {
+                                      "default": "55",
+                                      "min": "40",
+                                      "max": "70",
+                                      "name": "Sys_OpSetTargetHumidity",
+                                      "label": "Target Humidity",
+                                      "units": "% Relative Humidity",
+                                      "inc": "5"
+                                    }
+                                  }
+                                ]
+                              }
+                            },
+                            {
+                              "name": "210",
+                              "char": {
+                                "name": "Sys_OpSetTargetTemp",
+                                "type": "command",
+                                "setting": [
+                                  {
+                                    "name": "240",
+                                    "range": {
+                                      "default": "40",
+                                      "min": "40",
+                                      "max": "55",
+                                      "name": "Sys_OpSetTargetHumidity",
+                                      "label": "Target Humidity",
+                                      "units": "% Relative Humidity",
+                                      "inc": "5"
+                                    }
+                                  },
+                                  {
+                                    "name": "230",
+                                    "range": {
+                                      "default": "40",
+                                      "min": "40",
+                                      "max": "55",
+                                      "name": "Sys_OpSetTargetHumidity",
+                                      "label": "Target Humidity",
+                                      "units": "% Relative Humidity",
+                                      "inc": "5"
+                                    }
+                                  },
+                                  {
+                                    "name": "220",
+                                    "range": {
+                                      "default": "40",
+                                      "min": "40",
+                                      "max": "55",
+                                      "name": "Sys_OpSetTargetHumidity",
+                                      "label": "Target Humidity",
+                                      "units": "% Relative Humidity",
+                                      "inc": "5"
+                                    }
+                                  },
+                                  {
+                                    "name": "210",
+                                    "range": {
+                                      "default": "45",
+                                      "min": "40",
+                                      "max": "60",
+                                      "name": "Sys_OpSetTargetHumidity",
+                                      "label": "Target Humidity",
+                                      "units": "% Relative Humidity",
+                                      "inc": "5"
+                                    }
+                                  },
+                                  {
+                                    "name": "200",
+                                    "range": {
+                                      "default": "50",
+                                      "min": "40",
+                                      "max": "65",
+                                      "name": "Sys_OpSetTargetHumidity",
+                                      "label": "Target Humidity",
+                                      "units": "% Relative Humidity",
+                                      "inc": "5"
+                                    }
+                                  },
+                                  {
+                                    "name": "190",
+                                    "range": {
+                                      "default": "55",
+                                      "min": "40",
+                                      "max": "70",
+                                      "name": "Sys_OpSetTargetHumidity",
+                                      "label": "Target Humidity",
+                                      "units": "% Relative Humidity",
+                                      "inc": "5"
+                                    }
+                                  },
+                                  {
+                                    "name": "180",
+                                    "range": {
+                                      "default": "60",
+                                      "min": "45",
+                                      "max": "75",
+                                      "name": "Sys_OpSetTargetHumidity",
+                                      "label": "Target Humidity",
+                                      "units": "% Relative Humidity",
+                                      "inc": "5"
+                                    }
+                                  }
+                                ]
+                              }
+                            }
+                          ]
+                        },
+                        "incompatibility": {
+                          "char": [
+                            {
+                              "name": "Cavity_OpSetFanSpeed"
+                            },
+                            {
+                              "name": "Cavity_OpSetTurboMode"
+                            },
+                            {
+                              "name": "Cavity_OpSetQuietModeEnabled"
+                            },
+                            {
+                              "name": "Sys_OpSetEcoModeEnabled"
+                            },
+                            {
+                              "name": "Sys_OpSetSleepMode"
+                            }
+                          ]
+                        },
+                        "name": "7",
+                        "label": "AcModeSixthSenseCooling"
+                      },
+                      {
+                        "incompatibility": {
+                          "char": [
+                            {
+                              "name": "Sys_OpSetTargetTemp"
+                            },
+                            {
+                              "name": "Sys_OpSetTargetHumidity"
+                            },
+                            {
+                              "name": "Cavity_OpSetTurboMode"
+                            },
+                            {
+                              "name": "Cavity_OpSetQuietModeEnabled"
+                            },
+                            {
+                              "name": "Sys_OpSetQuietModeEnabled"
+                            },
+                            {
+                              "name": "Sys_OpSetEcoModeEnabled"
+                            },
+                            {
+                              "name": "Sys_OpSetSleepMode"
+                            }
+                          ]
+                        },
+                        "name": "5",
+                        "char": {
+                          "name": "Cavity_OpSetFanSpeed",
+                          "setting": [
+                            {
+                              "name": "2",
+                              "label": "Low"
+                            },
+                            {
+                              "name": "4",
+                              "label": "Medium"
+                            },
+                            {
+                              "name": "6",
+                              "label": "High"
+                            }
+                          ]
+                        },
+                        "label": "AcModeSixthSenseAir"
+                      },
+                      {
+                        "incompatibility": {
+                          "char": [
+                            {
+                              "name": "Sys_OpSetTargetHumidity"
+                            },
+                            {
+                              "name": "Cavity_OpSetTurboMode"
+                            },
+                            {
+                              "name": "Cavity_OpSetQuietModeEnabled"
+                            },
+                            {
+                              "name": "Sys_OpSetEcoModeEnabled"
+                            },
+                            {
+                              "name": "Sys_OpSetSleepMode"
+                            }
+                          ]
+                        },
+                        "name": "6",
+                        "char": {
+                          "name": "Cavity_OpSetFanSpeed",
+                          "setting": [
+                            {
+                              "name": "1",
+                              "label": "Automatic"
+                            },
+                            {
+                              "name": "2",
+                              "label": "Low"
+                            },
+                            {
+                              "name": "4",
+                              "label": "Medium"
+                            },
+                            {
+                              "name": "6",
+                              "label": "High"
+                            }
+                          ]
+                        },
+                        "range": {
+                          "default": "220",
+                          "min": "190",
+                          "max": "250",
+                          "name": "Sys_OpSetTargetTemp",
+                          "units": "tenths of a degree C",
+                          "inc": "10"
+                        },
+                        "label": "AcModeSixthSenseHeating"
+                      }
+                    ]
+                  },
+                  "label": "On"
+                }
+              ]
+            },
+            "label": "available settings",
+            "type": "cross_availability"
+          }
+        }
+      }
+    ]
+  },
+  "Alerts": {
+    "Key": "DDM_MX_AIRCONDITIONER_AIRCONNECT_V1",
+    "Alerts": [
+      {
+        "ApplianceAlerts": [
+          {
+            "alertId": 1264,
+            "name": "CleanAirFilter",
+            "attribute": "Cavity_OpStatusAirFilterStatus",
+            "type": "push",
+            "category": "AirConditioner",
+            "autodelete": false,
+            "autodisarm": false,
+            "autodisable": false,
+            "visible": true,
+            "enable": false
+          },
+          {
+            "alertId": 1295,
+            "name": "ErrorNotification",
+            "attribute": "Sys_AlertStatusCustomerFaultCode",
+            "type": "push",
+            "category": "AirConditioner",
+            "autodelete": false,
+            "autodisarm": false,
+            "autodisable": false,
+            "visible": true,
+            "enable": false
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,3445 @@
+{
+  "_id": "DDM_COOKING_MHC76_V0",
+  "_rev": "23-3c6e03f231933adba50d07efba684e58",
+  "DDM": {
+    "_id": "DDM_COOKING_MHC76_V0",
+    "ddmName": "DDM_COOKING_MHC76_V0",
+    "modelNumber": "WMH78019HW,WMH78019HB,WMH78019HZ,WMH78019HV,YWMH78019HW,YWMH78019HB,YWMH78019HZ,YWMH78019HV,WMH78019HW00,WMH78019HB00,WMH78019HZ00,WMH78019HV00,YWMH78019HW0,YWMH78019HB0,YWMH78019HZ0,YWMH78019HV0,WMH78019HW01,WMH78019HB01,WMH78019HZ01,WMH78019HV01,YWMH78019HW1,YWMH78019HB1,YWMH78019HZ1,YWMH78019HV1, YWMH78019HV2, YWMH78019HZ2, YWMH78019HB2, YWMH78019HW2, WMH78019HV02, WMH78019HZ02, WMH78019HB02, WMH78019HW02",
+    "createdAt": "Apr 1, 2018 6:30:00 PM",
+    "createdBy": "Akash Karhale",
+    "brandName": "Whirlpool",
+    "category": "Cooking",
+    "version": "1",
+    "ccuriVersion": "7",
+    "ccURI": "API144_COOKING_V7"
+  },
+  "DataModel": {
+    "Key": "DDM_COOKING_MHC76_V0",
+    "attributes": [
+      {
+        "IsTemplate": false,
+        "M2MAttributeName": "XCat_PersistentInfoVersion",
+        "Instance": "XCat_PersistentInfo",
+        "IsTimeSeries": false,
+        "DataType": "BEIntegerUnsigned16Bit",
+        "AttributeName": "Version",
+        "RangeValues": {
+          "StepSize": "1",
+          "Min": "0",
+          "Max": "65535"
+        },
+        "DeviceIO": "RO",
+        "MappedAttributeName": "XCat_PersistentInfoVersion",
+        "Default": "0",
+        "Key": "0x01010001"
+      },
+      {
+        "IsTemplate": false,
+        "M2MAttributeName": "XCat_PersistentInfoSaid",
+        "Instance": "XCat_PersistentInfo",
+        "IsTimeSeries": false,
+        "DataType": "String",
+        "AttributeName": "Said",
+        "DeviceIO": "RO",
+        "MappedAttributeName": "XCat_PersistentInfoSaid",
+        "Default": "0",
+        "Key": "0x01010002"
+      },
+      {
+        "IsTemplate": false,
+        "M2MAttributeName": "XCat_PersistentInfoMacAddress",
+        "Instance": "XCat_PersistentInfo",
+        "IsTimeSeries": false,
+        "DataType": "String",
+        "AttributeName": "MacAddress",
+        "DeviceIO": "RO",
+        "MappedAttributeName": "XCat_PersistentInfoMacAddress",
+        "Default": "0",
+        "Key": "0x01010003"
+      },
+      {
+        "IsTemplate": false,
+        "M2MAttributeName": "XCat_WifiStatusRssiAntennaDiversity",
+        "Instance": "XCat_WifiStatus",
+        "IsTimeSeries": false,
+        "DataType": "IntegerSigned8Bit",
+        "AttributeName": "RssiAntennaDiversity",
+        "RangeValues": {
+          "StepSize": "1",
+          "Min": "-128",
+          "Max": "127"
+        },
+        "DeviceIO": "RO",
+        "MappedAttributeName": "XCat_WifiStatusRssiAntennaDiversity",
+        "Default": "-99",
+        "Key": "0x01020001"
+      },
+      {
+        "IsTemplate": false,
+        "M2MAttributeName": "XCat_WifiStatusIspCheck",
+        "Instance": "XCat_WifiStatus",
+        "IsTimeSeries": false,
+        "DataType": "Boolean",
+        "AttributeName": "IspCheck",
+        "DeviceIO": "",
+        "MappedAttributeName": "XCat_WifiStatusIspCheck",
+        "Default": "0",
+        "Key": "0x01020006"
+      },
+      {
+        "IsTemplate": false,
+        "M2MAttributeName": "XCat_PowerStatusEnergyConsumption",
+        "Instance": "XCat_PowerStatus",
+        "IsTimeSeries": false,
+        "DataType": "BEIntegerUnsigned32Bit",
+        "AttributeName": "EnergyConsumption",
+        "RangeValues": {
+          "StepSize": "1",
+          "Min": "0",
+          "Max": "4294967295"
+        },
+        "DeviceIO": "RO",
+        "MappedAttributeName": "XCat_PowerStatusEnergyConsumption",
+        "Default": "0",
+        "Key": "0x01030001"
+      },
+      {
+        "IsTemplate": false,
+        "M2MAttributeName": "XCat_PowerStatusEnergyMeasurementResults",
+        "Instance": "XCat_PowerStatus",
+        "IsTimeSeries": false,
+        "DataType": "BEIntegerUnsigned16Bit",
+        "AttributeName": "EnergyMeasurementResults",
+        "RangeValues": {
+          "StepSize": "1",
+          "Min": "0",
+          "Max": "65535"
+        },
+        "DeviceIO": "RO",
+        "MappedAttributeName": "XCat_PowerStatusEnergyMeasurementResults",
+        "Default": "0",
+        "Key": "0x01030002"
+      },
+      {
+        "IsTemplate": false,
+        "M2MAttributeName": "XCat_PowerStatusRealTimePower",
+        "Instance": "XCat_PowerStatus",
+        "IsTimeSeries": false,
+        "DataType": "BEIntegerUnsigned32Bit",
+        "AttributeName": "RealTimePower",
+        "RangeValues": {
+          "StepSize": "1",
+          "Min": "0",
+          "Max": "4294967295"
+        },
+        "DeviceIO": "RO",
+        "MappedAttributeName": "XCat_PowerStatusRealTimePower",
+        "Default": "0",
+        "Key": "0x01030003"
+      },
+      {
+        "IsTemplate": false,
+        "M2MAttributeName": "XCat_PowerStatusRealTimeVoltage",
+        "Instance": "XCat_PowerStatus",
+        "IsTimeSeries": false,
+        "DataType": "BEIntegerUnsigned32Bit",
+        "AttributeName": "RealTimeVoltage",
+        "RangeValues": {
+          "StepSize": "1",
+          "Min": "0",
+          "Max": "4294967295"
+        },
+        "DeviceIO": "RO",
+        "MappedAttributeName": "XCat_PowerStatusRealTimeVoltage",
+        "Default": "0",
+        "Key": "0x01030004"
+      },
+      {
+        "IsTemplate": false,
+        "M2MAttributeName": "XCat_PowerStatusPowerOutage",
+        "Instance": "XCat_PowerStatus",
+        "IsTimeSeries": false,
+        "DataType": "Boolean",
+        "AttributeName": "PowerOutage",
+        "DeviceIO": "RO",
+        "MappedAttributeName": "XCat_PowerStatusPowerOutage",
+        "Default": "0",
+        "Key": "0x01030006"
+      },
+      {
+        "IsTemplate": false,
+        "M2MAttributeName": "XCat_OdometerStatusRunningHours",
+        "Instance": "XCat_OdometerStatus",
+        "IsTimeSeries": false,
+        "DataType": "BEIntegerUnsigned32Bit",
+        "AttributeName": "RunningHours",
+        "RangeValues": {
+          "StepSize": "1",
+          "Min": "0",
+          "Max": "4294967295"
+        },
+        "DeviceIO": "RO",
+        "MappedAttributeName": "XCat_OdometerStatusRunningHours",
+        "Default": "0",
+        "Key": "0x01050001"
+      },
+      {
+        "IsTemplate": false,
+        "M2MAttributeName": "XCat_OdometerStatusTotalHours",
+        "Instance": "XCat_OdometerStatus",
+        "IsTimeSeries": false,
+        "DataType": "BEIntegerUnsigned32Bit",
+        "AttributeName": "TotalHours",
+        "RangeValues": {
+          "StepSize": "1",
+          "Min": "0",
+          "Max": "4294967295"
+        },
+        "DeviceIO": "RO",
+        "MappedAttributeName": "XCat_OdometerStatusTotalHours",
+        "Default": "0",
+        "Key": "0x01050002"
+      },
+      {
+        "IsTemplate": false,
+        "M2MAttributeName": "XCat_OdometerStatusCycleCount",
+        "Instance": "XCat_OdometerStatus",
+        "IsTimeSeries": false,
+        "DataType": "BEIntegerUnsigned32Bit",
+        "AttributeName": "CycleCount",
+        "RangeValues": {
+          "StepSize": "1",
+          "Min": "0",
+          "Max": "4294967295"
+        },
+        "DeviceIO": "RO",
+        "MappedAttributeName": "XCat_OdometerStatusCycleCount",
+        "Default": "0",
+        "Key": "0x01050003"
+      },
+      {
+        "IsTemplate": false,
+        "M2MAttributeName": "XCat_ApplianceInfoSetModelNumber",
+        "Instance": "XCat_ApplianceInfoSet",
+        "IsTimeSeries": false,
+        "DataType": "String",
+        "AttributeName": "ModelNumber",
+        "DeviceIO": "RW",
+        "MappedAttributeName": "XCat_ApplianceInfoSetModelNumber",
+        "Default": "0",
+        "Key": "0x01060001"
+      },
+      {
+        "IsTemplate": false,
+        "M2MAttributeName": "XCat_ApplianceInfoSetSerialNumber",
+        "Instance": "XCat_ApplianceInfoSet",
+        "IsTimeSeries": false,
+        "DataType": "String",
+        "AttributeName": "SerialNumber",
+        "DeviceIO": "RW",
+        "MappedAttributeName": "XCat_ApplianceInfoSetSerialNumber",
+        "Default": "0",
+        "Key": "0x01060002"
+      },
+      {
+        "IsTemplate": false,
+        "M2MAttributeName": "XCat_DateTimeSetDateTimeSet",
+        "Instance": "XCat_DateTimeSet",
+        "IsTimeSeries": false,
+        "DataType": "String",
+        "AttributeName": "DateTimeSet",
+        "DeviceIO": "RW",
+        "MappedAttributeName": "XCat_DateTimeSetDateTimeSet",
+        "Default": "0",
+        "Key": "0x01070001"
+      },
+      {
+        "IsTemplate": false,
+        "M2MAttributeName": "XCat_RemoteSetRemoteControlEnable",
+        "Instance": "XCat_RemoteSet",
+        "IsTimeSeries": false,
+        "DataType": "Boolean",
+        "AttributeName": "RemoteControlEnable",
+        "DeviceIO": "RW",
+        "MappedAttributeName": "XCat_RemoteSetRemoteControlEnable",
+        "Default": "0",
+        "Key": "0x01080001"
+      },
+      {
+        "IsTemplate": false,
+        "M2MAttributeName": "XCat_RemoteSetRemoteDiagnosticsEnable",
+        "Instance": "XCat_RemoteSet",
+        "IsTimeSeries": false,
+        "DataType": "enum",
+        "AttributeName": "RemoteDiagnosticsEnable",
+        "DeviceIO": "RW",
+        "MappedAttributeName": "XCat_RemoteSetRemoteDiagnosticsEnable",
+        "Default": "0",
+        "EnumValues": {
+          "0": "DisableAutoTest",
+          "1": "EnableAutoTest"
+        },
+        "Key": "0x01080002"
+      },
+      {
+        "IsTemplate": false,
+        "M2MAttributeName": "XCat_RemoteSetRebootAppliance",
+        "Instance": "XCat_RemoteSet",
+        "IsTimeSeries": false,
+        "DataType": "enum",
+        "AttributeName": "RebootAppliance",
+        "DeviceIO": "RW",
+        "MappedAttributeName": "XCat_RemoteSetRebootAppliance",
+        "Default": "0",
+        "EnumValues": {
+          "0": "CancelResetRequest",
+          "1": "ResetRequest",
+          "2": "ExecuteReset"
+        },
+        "Key": "0x01080003"
+      },
+      {
+        "IsTemplate": false,
+        "M2MAttributeName": "XCat_WifiSetPublishApplianceState",
+        "Instance": "XCat_WifiSet",
+        "IsTimeSeries": false,
+        "DataType": "Boolean",
+        "AttributeName": "PublishApplianceState",
+        "DeviceIO": "RW",
+        "MappedAttributeName": "XCat_WifiSetPublishApplianceState",
+        "Default": "0",
+        "Key": "0x01090001"
+      },
+      {
+        "IsTemplate": false,
+        "M2MAttributeName": "XCat_WifiSetRebootWifiCommModule",
+        "Instance": "XCat_WifiSet",
+        "IsTimeSeries": false,
+        "DataType": "Boolean",
+        "AttributeName": "RebootWifiCommModule",
+        "DeviceIO": "RW",
+        "MappedAttributeName": "XCat_WifiSetRebootWifiCommModule",
+        "Default": "0",
+        "Key": "0x01090002"
+      },
+      {
+        "IsTemplate": false,
+        "M2MAttributeName": "XCat_WifiSetDeprovisionWifiCommModule",
+        "Instance": "XCat_WifiSet",
+        "IsTimeSeries": false,
+        "DataType": "Boolean",
+        "AttributeName": "DeprovisionWifiCommModule",
+        "DeviceIO": "RW",
+        "MappedAttributeName": "XCat_WifiSetDeprovisionWifiCommModule",
+        "Default": "0",
+        "Key": "0x01090003"
+      },
+      {
+        "IsTemplate": false,
+        "M2MAttributeName": "XCat_WifiSetDisableWifiCommModule",
+        "Instance": "XCat_WifiSet",
+        "IsTimeSeries": false,
+        "DataType": "Boolean",
+        "AttributeName": "DisableWifiCommModule",
+        "DeviceIO": "RW",
+        "MappedAttributeName": "XCat_WifiSetDisableWifiCommModule",
+        "Default": "0",
+        "Key": "0x01090004"
+      },
+      {
+        "IsTemplate": false,
+        "M2MAttributeName": "XCat_PowerSetEnergyMeasurementStart",
+        "Instance": "XCat_PowerSet",
+        "IsTimeSeries": false,
+        "DataType": "Boolean",
+        "AttributeName": "EnergyMeasurementStart",
+        "DeviceIO": "RW",
+        "MappedAttributeName": "XCat_PowerSetEnergyMeasurementStart",
+        "Default": "0",
+        "Key": "0x010A0001"
+      },
+      {
+        "IsTemplate": false,
+        "M2MAttributeName": "XCat_PowerSetRealTimePowerPublishTiming",
+        "Instance": "XCat_PowerSet",
+        "IsTimeSeries": false,
+        "DataType": "BEIntegerUnsigned16Bit",
+        "AttributeName": "RealTimePowerPublishTiming",
+        "RangeValues": {
+          "StepSize": "1",
+          "Min": "0",
+          "Max": "65535"
+        },
+        "DeviceIO": "RW",
+        "MappedAttributeName": "XCat_PowerSetRealTimePowerPublishTiming",
+        "Default": "0",
+        "Key": "0x010A0002"
+      },
+      {
+        "IsTemplate": false,
+        "M2MAttributeName": "XCat_PowerSetRealTimePowerPublishStart",
+        "Instance": "XCat_PowerSet",
+        "IsTimeSeries": false,
+        "DataType": "Boolean",
+        "AttributeName": "RealTimePowerPublishStart",
+        "DeviceIO": "RW",
+        "MappedAttributeName": "XCat_PowerSetRealTimePowerPublishStart",
+        "Default": "0",
+        "Key": "0x010A0003"
+      },
+      {
+        "IsTemplate": false,
+        "M2MAttributeName": "XCat_ConfigSetApplianceCapability",
+        "Instance": "XCat_ConfigSet",
+        "IsTimeSeries": false,
+        "DataType": "String",
+        "AttributeName": "ApplianceCapability",
+        "DeviceIO": "RO",
+        "MappedAttributeName": "XCat_ConfigSetApplianceCapability",
+        "Default": "0",
+        "Key": "0x010C0004"
+      },
+      {
+        "IsTemplate": false,
+        "M2MAttributeName": "Sys_AlertStatusCustomerFaultCode",
+        "Instance": "Sys_AlertStatus",
+        "IsTimeSeries": true,
+        "DataType": "String",
+        "AttributeName": "CustomerFaultCode",
+        "DeviceIO": "RO",
+        "MappedAttributeName": "Sys_AlertStatusCustomerFaultCode",
+        "Default": "0",
+        "Key": "0x02020001"
+      },
+      {
+        "IsTemplate": false,
+        "M2MAttributeName": "Sys_AlertStatusRemoteDiagnosticsResults",
+        "Instance": "Sys_AlertStatus",
+        "IsTimeSeries": false,
+        "DataType": "enum",
+        "AttributeName": "RemoteDiagnosticsResults",
+        "DeviceIO": "RO",
+        "MappedAttributeName": "Sys_AlertStatusRemoteDiagnosticsResults",
+        "Default": "0",
+        "EnumValues": {
+          "0": "DiagnosticsFail",
+          "1": "DiagnosticsPass"
+        },
+        "Key": "0x02020002"
+      },
+      {
+        "IsTemplate": false,
+        "M2MAttributeName": "Sys_AlertStatusNotification",
+        "Instance": "Sys_AlertStatus",
+        "IsTimeSeries": false,
+        "DataType": "enum",
+        "AttributeName": "Notification",
+        "DeviceIO": "RO",
+        "MappedAttributeName": "Sys_AlertStatusNotification",
+        "Default": "0",
+        "EnumValues": {
+          "0": "None",
+          "1": "PreheatMinus25",
+          "2": "PreheatComplete"
+        },
+        "Key": "0x02020003"
+      },
+      {
+        "IsTemplate": false,
+        "M2MAttributeName": "Sys_DisplaySetLanguage",
+        "Instance": "Sys_DisplaySet",
+        "IsTimeSeries": false,
+        "DataType": "enum",
+        "AttributeName": "Language",
+        "DeviceIO": "RW",
+        "MappedAttributeName": "Sys_DisplaySetLanguage",
+        "Default": "0",
+        "EnumValues": {
+          "0": "English",
+          "1": "CanadianFrench"
+        },
+        "Key": "0x02030001"
+      },
+      {
+        "IsTemplate": false,
+        "M2MAttributeName": "Sys_DisplaySetClockOn",
+        "Instance": "Sys_DisplaySet",
+        "IsTimeSeries": false,
+        "DataType": "Boolean",
+        "AttributeName": "ClockOn",
+        "DeviceIO": "RW",
+        "MappedAttributeName": "Sys_DisplaySetClockOn",
+        "Default": "0",
+        "Key": "0x02030005"
+      },
+      {
+        "IsTemplate": false,
+        "M2MAttributeName": "Sys_DisplaySetEnable24Hour",
+        "Instance": "Sys_DisplaySet",
+        "IsTimeSeries": false,
+        "DataType": "Boolean",
+        "AttributeName": "Enable24Hour",
+        "DeviceIO": "RW",
+        "MappedAttributeName": "Sys_DisplaySetEnable24Hour",
+        "Default": "0",
+        "Key": "0x02030006"
+      },
+      {
+        "IsTemplate": false,
+        "M2MAttributeName": "Sys_DisplaySetZonedMessage",
+        "Instance": "Sys_DisplaySet",
+        "IsTimeSeries": false,
+        "DataType": "String",
+        "AttributeName": "ZonedMessage",
+        "DeviceIO": "RW",
+        "MappedAttributeName": "Sys_DisplaySetZonedMessage",
+        "Default": "0",
+        "Key": "0x0203000B"
+      },
+      {
+        "IsTemplate": false,
+        "M2MAttributeName": "Sys_DisplaySetCycleCompleteMessage",
+        "Instance": "Sys_DisplaySet",
+        "IsTimeSeries": false,
+        "DataType": "String",
+        "AttributeName": "CycleCompleteMessage",
+        "DeviceIO": "RW",
+        "MappedAttributeName": "Sys_DisplaySetCycleCompleteMessage",
+        "Default": "0",
+        "Key": "0x0203000C"
+      },
+      {
+        "IsTemplate": false,
+        "M2MAttributeName": "Sys_OperationSetControlLock",
+        "Instance": "Sys_OperationSet",
+        "IsTimeSeries": false,
+        "DataType": "Boolean",
+        "AttributeName": "ControlLock",
+        "DeviceIO": "RW",
+        "MappedAttributeName": "Sys_OperationSetControlLock",
+        "Default": "0",
+        "Key": "0x02040002"
+      },
+      {
+        "IsTemplate": false,
+        "M2MAttributeName": "Sys_OperationSetGlobalToneVolume",
+        "Instance": "Sys_OperationSet",
+        "IsTimeSeries": false,
+        "DataType": "enum",
+        "AttributeName": "GlobalToneVolume",
+        "DeviceIO": "RW",
+        "MappedAttributeName": "Sys_OperationSetGlobalToneVolume",
+        "Default": "0",
+        "EnumValues": {
+          "0": "VolumeOff",
+          "1": "VolumeOn"
+        },
+        "Key": "0x02040003"
+      },
+      {
+        "IsTemplate": false,
+        "M2MAttributeName": "Sys_OperationSetSabbathModeEnabled",
+        "Instance": "Sys_OperationSet",
+        "IsTimeSeries": false,
+        "DataType": "Boolean",
+        "AttributeName": "SabbathModeEnabled",
+        "DeviceIO": "RW",
+        "MappedAttributeName": "Sys_OperationSetSabbathModeEnabled",
+        "Default": "0",
+        "Key": "0x02040009"
+      },
+      {
+        "IsTemplate": false,
+        "M2MAttributeName": "Sys_OperationSetGreaseFilter",
+        "Instance": "Sys_OperationSet",
+        "IsTimeSeries": false,
+        "DataType": "enum",
+        "AttributeName": "GreaseFilter",
+        "DeviceIO": "RW",
+        "MappedAttributeName": "Sys_OperationSetGreaseFilter",
+        "Default": "0",
+        "EnumValues": {
+          "0": "Ok",
+          "1": "Replace",
+          "2": "Reset"
+        },
+        "Key": "0x02040010"
+      },
+      {
+        "IsTemplate": false,
+        "M2MAttributeName": "Sys_OperationSetCharcoalFilter",
+        "Instance": "Sys_OperationSet",
+        "IsTimeSeries": false,
+        "DataType": "enum",
+        "AttributeName": "CharcoalFilter",
+        "DeviceIO": "RW",
+        "MappedAttributeName": "Sys_OperationSetCharcoalFilter",
+        "Default": "0",
+        "EnumValues": {
+          "0": "Ok",
+          "1": "Replace",
+          "2": "Reset"
+        },
+        "Key": "0x02040011"
+      },
+      {
+        "IsTemplate": false,
+        "M2MAttributeName": "Sys_OperationSetQuietModeEnabled",
+        "Instance": "Sys_OperationSet",
+        "IsTimeSeries": false,
+        "DataType": "Boolean",
+        "AttributeName": "QuietModeEnabled",
+        "DeviceIO": "RW",
+        "MappedAttributeName": "Sys_OperationSetQuietModeEnabled",
+        "Default": "0",
+        "Key": "0x02040012"
+      },
+      {
+        "IsTemplate": false,
+        "M2MAttributeName": "Mwo_TimeStatusCookTimeRemaining",
+        "Instance": "Mwo_TimeStatus",
+        "IsTimeSeries": false,
+        "DataType": "BEIntegerUnsigned32Bit",
+        "AttributeName": "CookTimeRemaining",
+        "RangeValues": {
+          "StepSize": "1",
+          "Min": "0",
+          "Max": "4294967295"
+        },
+        "DeviceIO": "RO",
+        "MappedAttributeName": "Mwo_TimeStatusCookTimeRemaining",
+        "Default": "0",
+        "Key": "0x04010001"
+      },
+      {
+        "IsTemplate": false,
+        "M2MAttributeName": "Mwo_TimeStatusCycleTimeElapsed",
+        "Instance": "Mwo_TimeStatus",
+        "IsTimeSeries": false,
+        "DataType": "BEIntegerUnsigned32Bit",
+        "AttributeName": "CycleTimeElapsed",
+        "RangeValues": {
+          "StepSize": "1",
+          "Min": "0",
+          "Max": "4294967295"
+        },
+        "DeviceIO": "RO",
+        "MappedAttributeName": "Mwo_TimeStatusCycleTimeElapsed",
+        "Default": "0",
+        "Key": "0x04010002"
+      },
+      {
+        "IsTemplate": false,
+        "M2MAttributeName": "Mwo_DisplayStatusDisplayTemp",
+        "Instance": "Mwo_DisplayStatus",
+        "IsTimeSeries": false,
+        "DataType": "BEIntegerUnsigned16Bit",
+        "AttributeName": "DisplayTemp",
+        "RangeValues": {
+          "StepSize": "1",
+          "Min": "0",
+          "Max": "65535"
+        },
+        "DeviceIO": "RO",
+        "MappedAttributeName": "Mwo_DisplayStatusDisplayTemp",
+        "Default": "0",
+        "Key": "0x04020001"
+      },
+      {
+        "IsTemplate": false,
+        "M2MAttributeName": "Mwo_OperationStatusCookTimeState",
+        "Instance": "Mwo_OperationStatus",
+        "IsTimeSeries": false,
+        "DataType": "enum",
+        "AttributeName": "CookTimeState",
+        "DeviceIO": "RO",
+        "MappedAttributeName": "Mwo_OperationStatusCookTimeState",
+        "Default": "0",
+        "EnumValues": {
+          "0": "Idle",
+          "1": "Running",
+          "2": "Pause",
+          "3": "Complete"
+        },
+        "Key": "0x04030001"
+      },
+      {
+        "IsTemplate": false,
+        "M2MAttributeName": "Mwo_OperationStatusDoorOpen",
+        "Instance": "Mwo_OperationStatus",
+        "IsTimeSeries": false,
+        "DataType": "Boolean",
+        "AttributeName": "DoorOpen",
+        "DeviceIO": "RO",
+        "MappedAttributeName": "Mwo_OperationStatusDoorOpen",
+        "Default": "0",
+        "Key": "0x04030002"
+      },
+      {
+        "IsTemplate": false,
+        "M2MAttributeName": "Mwo_OperationStatusState",
+        "Instance": "Mwo_OperationStatus",
+        "IsTimeSeries": false,
+        "DataType": "enum",
+        "AttributeName": "State",
+        "DeviceIO": "RO",
+        "MappedAttributeName": "Mwo_OperationStatusState",
+        "Default": "0",
+        "EnumValues": {
+          "0": "Off",
+          "1": "PreheatingOven",
+          "2": "Programming",
+          "3": "Cooling",
+          "4": "NormalSteady",
+          "6": "Sense",
+          "7": "Door",
+          "8": "WaitAddFood",
+          "9": "WaitTurnFood",
+          "10": "WaitStirFood"
+        },
+        "Key": "0x04030003"
+      },
+      {
+        "IsTemplate": false,
+        "M2MAttributeName": "Mwo_CycleStatusOdometer",
+        "Instance": "Mwo_CycleStatus",
+        "IsTimeSeries": false,
+        "DataType": "BEIntegerUnsigned32Bit",
+        "AttributeName": "Odometer",
+        "RangeValues": {
+          "StepSize": "1",
+          "Min": "0",
+          "Max": "4294967295"
+        },
+        "DeviceIO": "RO",
+        "MappedAttributeName": "Mwo_CycleStatusOdometer",
+        "Default": "0",
+        "Key": "0x04040001"
+      },
+      {
+        "IsTemplate": false,
+        "M2MAttributeName": "Mwo_TimeSetCookTimeSet",
+        "Instance": "Mwo_TimeSet",
+        "IsTimeSeries": false,
+        "DataType": "BEIntegerUnsigned32Bit",
+        "AttributeName": "CookTimeSet",
+        "RangeValues": {
+          "StepSize": "1",
+          "Min": "0",
+          "Max": "4294967295"
+        },
+        "DeviceIO": "RW",
+        "MappedAttributeName": "Mwo_TimeSetCookTimeSet",
+        "Default": "0",
+        "Key": "0x04060001"
+      },
+      {
+        "IsTemplate": false,
+        "M2MAttributeName": "Mwo_TimeSetCookTimeOperations",
+        "Instance": "Mwo_TimeSet",
+        "IsTimeSeries": false,
+        "DataType": "enum",
+        "AttributeName": "CookTimeOperations",
+        "DeviceIO": "RW",
+        "MappedAttributeName": "Mwo_TimeSetCookTimeOperations",
+        "Default": "0",
+        "EnumValues": {
+          "0": "Idle",
+          "1": "Cancel",
+          "2": "Start",
+          "3": "Pause",
+          "4": "Resume",
+          "5": "SetOnDisplay"
+        },
+        "Key": "0x04060002"
+      },
+      {
+        "IsTemplate": false,
+        "M2MAttributeName": "Mwo_DisplaySetLightOn",
+        "Instance": "Mwo_DisplaySet",
+        "IsTimeSeries": false,
+        "DataType": "Boolean",
+        "AttributeName": "LightOn",
+        "DeviceIO": "RW",
+        "MappedAttributeName": "Mwo_DisplaySetLightOn",
+        "Default": "0",
+        "Key": "0x04070001"
+      },
+      {
+        "IsTemplate": false,
+        "M2MAttributeName": "Mwo_DisplaySetZonedMessage",
+        "Instance": "Mwo_DisplaySet",
+        "IsTimeSeries": false,
+        "DataType": "String",
+        "AttributeName": "ZonedMessage",
+        "DeviceIO": "RW",
+        "MappedAttributeName": "Mwo_DisplaySetZonedMessage",
+        "Default": "0",
+        "Key": "0x04070004"
+      },
+      {
+        "IsTemplate": false,
+        "M2MAttributeName": "Mwo_OperationSetCookTimeCompleteAction",
+        "Instance": "Mwo_OperationSet",
+        "IsTimeSeries": false,
+        "DataType": "enum",
+        "AttributeName": "CookTimeCompleteAction",
+        "DeviceIO": "RW",
+        "MappedAttributeName": "Mwo_OperationSetCookTimeCompleteAction",
+        "Default": "0",
+        "EnumValues": {
+          "0": "Unset",
+          "2": "KeepWarm",
+          "3": "TurnOff",
+          "4": "ProcessCmpltActionAutoAdvance",
+          "5": "ProcessCmpltActionWaitForNextCommand",
+          "6": "ProcessCmpltActionWaitForTimeExpire",
+          "7": "ProcessCmpltActionWaitForDoor",
+          "8": "ProcessCmpltActionWaitForEvent",
+          "9": "ProcessCmpltActionWaitForCommandOrDoor"
+        },
+        "Key": "0x04080001"
+      },
+      {
+        "IsTemplate": false,
+        "M2MAttributeName": "Mwo_OperationSetOperations",
+        "Instance": "Mwo_OperationSet",
+        "IsTimeSeries": true,
+        "DataType": "enum",
+        "AttributeName": "Operations",
+        "DeviceIO": "RW",
+        "MappedAttributeName": "Mwo_OperationSetOperations",
+        "Default": "0",
+        "EnumValues": {
+          "0": "None",
+          "1": "Cancel",
+          "2": "Start",
+          "3": "SetOnDisplay",
+          "4": "Modify"
+        },
+        "Key": "0x04080002"
+      },
+      {
+        "IsTemplate": false,
+        "M2MAttributeName": "Mwo_OperationSetSabbathModeActive",
+        "Instance": "Mwo_OperationSet",
+        "IsTimeSeries": false,
+        "DataType": "Boolean",
+        "AttributeName": "SabbathModeActive",
+        "DeviceIO": "RW",
+        "MappedAttributeName": "Mwo_OperationSetSabbathModeActive",
+        "Default": "0",
+        "Key": "0x04080003"
+      },
+      {
+        "IsTemplate": false,
+        "M2MAttributeName": "Mwo_CycleSetTargetTemp",
+        "Instance": "Mwo_CycleSet",
+        "IsTimeSeries": false,
+        "DataType": "BEIntegerUnsigned16Bit",
+        "AttributeName": "TargetTemp",
+        "RangeValues": {
+          "StepSize": "1",
+          "Min": "0",
+          "Max": "65535"
+        },
+        "DeviceIO": "RW",
+        "MappedAttributeName": "Mwo_CycleSetTargetTemp",
+        "Default": "0",
+        "Key": "0x04090001"
+      },
+      {
+        "IsTemplate": false,
+        "M2MAttributeName": "Mwo_CycleSetDoneness",
+        "Instance": "Mwo_CycleSet",
+        "IsTimeSeries": false,
+        "DataType": "enum",
+        "AttributeName": "Doneness",
+        "DeviceIO": "RW",
+        "MappedAttributeName": "Mwo_CycleSetDoneness",
+        "Default": "0",
+        "EnumValues": {
+          "0": "Unset",
+          "2": "MediumRare",
+          "4": "MediumWell"
+        },
+        "Key": "0x04090002"
+      },
+      {
+        "IsTemplate": false,
+        "M2MAttributeName": "Mwo_CycleSetCookPower",
+        "Instance": "Mwo_CycleSet",
+        "IsTimeSeries": false,
+        "DataType": "IntegerUnsigned8Bit",
+        "AttributeName": "CookPower",
+        "RangeValues": {
+          "StepSize": "1",
+          "Min": "0",
+          "Max": "255"
+        },
+        "DeviceIO": "RW",
+        "MappedAttributeName": "Mwo_CycleSetCookPower",
+        "Default": "0",
+        "Key": "0x04090003"
+      },
+      {
+        "IsTemplate": false,
+        "M2MAttributeName": "Mwo_CycleSetAmount",
+        "Instance": "Mwo_CycleSet",
+        "IsTimeSeries": false,
+        "DataType": "BEIntegerUnsigned16Bit",
+        "AttributeName": "Amount",
+        "RangeValues": {
+          "StepSize": "1",
+          "Min": "0",
+          "Max": "65535"
+        },
+        "DeviceIO": "RW",
+        "MappedAttributeName": "Mwo_CycleSetAmount",
+        "Default": "0",
+        "Key": "0x04090004"
+      },
+      {
+        "IsTemplate": false,
+        "M2MAttributeName": "Mwo_CycleSetTurntable",
+        "Instance": "Mwo_CycleSet",
+        "IsTimeSeries": false,
+        "DataType": "Boolean",
+        "AttributeName": "Turntable",
+        "DeviceIO": "RW",
+        "MappedAttributeName": "Mwo_CycleSetTurntable",
+        "Default": "1",
+        "Key": "0x04090005"
+      },
+      {
+        "IsTemplate": false,
+        "M2MAttributeName": "Mwo_CustomCycleSetId",
+        "Instance": "Mwo_CustomCycleSet",
+        "IsTimeSeries": false,
+        "DataType": "IntegerUnsigned8Bit",
+        "AttributeName": "Id",
+        "RangeValues": {
+          "StepSize": "1",
+          "Min": "0",
+          "Max": "255"
+        },
+        "DeviceIO": "RW",
+        "MappedAttributeName": "Mwo_CustomCycleSetId",
+        "Default": "0",
+        "Key": "0x040B0001"
+      },
+      {
+        "IsTemplate": false,
+        "M2MAttributeName": "Mwo_CustomCycleSetStep",
+        "Instance": "Mwo_CustomCycleSet",
+        "IsTimeSeries": false,
+        "DataType": "IntegerUnsigned8Bit",
+        "AttributeName": "Step",
+        "RangeValues": {
+          "StepSize": "1",
+          "Min": "0",
+          "Max": "255"
+        },
+        "DeviceIO": "RW",
+        "MappedAttributeName": "Mwo_CustomCycleSetStep",
+        "Default": "0",
+        "Key": "0x040B0002"
+      },
+      {
+        "IsTemplate": false,
+        "M2MAttributeName": "KitchenTimer01_StatusState",
+        "Instance": "KitchenTimer01_Status",
+        "IsTimeSeries": false,
+        "DataType": "enum",
+        "AttributeName": "State",
+        "DeviceIO": "RO",
+        "MappedAttributeName": "KitchenTimer01_StatusState",
+        "Default": "0",
+        "EnumValues": {
+          "0": "Idle",
+          "1": "Running",
+          "3": "Completed",
+          "4": "Programming"
+        },
+        "Key": "0x08010001"
+      },
+      {
+        "IsTemplate": false,
+        "M2MAttributeName": "KitchenTimer01_StatusTimeRemaining",
+        "Instance": "KitchenTimer01_Status",
+        "IsTimeSeries": false,
+        "DataType": "BEIntegerUnsigned32Bit",
+        "AttributeName": "TimeRemaining",
+        "RangeValues": {
+          "StepSize": "1",
+          "Min": "0",
+          "Max": "4294967295"
+        },
+        "DeviceIO": "RO",
+        "MappedAttributeName": "KitchenTimer01_StatusTimeRemaining",
+        "Default": "0",
+        "Key": "0x08010002"
+      },
+      {
+        "IsTemplate": false,
+        "M2MAttributeName": "KitchenTimer01_SetTimeSet",
+        "Instance": "KitchenTimer01_Set",
+        "IsTimeSeries": false,
+        "DataType": "BEIntegerUnsigned32Bit",
+        "AttributeName": "TimeSet",
+        "RangeValues": {
+          "StepSize": "1",
+          "Min": "0",
+          "Max": "4294967295"
+        },
+        "DeviceIO": "RW",
+        "MappedAttributeName": "KitchenTimer01_SetTimeSet",
+        "Default": "0",
+        "Key": "0x08050001"
+      },
+      {
+        "IsTemplate": false,
+        "M2MAttributeName": "KitchenTimer01_SetOperations",
+        "Instance": "KitchenTimer01_Set",
+        "IsTimeSeries": false,
+        "DataType": "enum",
+        "AttributeName": "Operations",
+        "DeviceIO": "RW",
+        "MappedAttributeName": "KitchenTimer01_SetOperations",
+        "Default": "0",
+        "EnumValues": {
+          "0": "None",
+          "1": "Cancel",
+          "2": "Start"
+        },
+        "Key": "0x08050002"
+      },
+      {
+        "IsTemplate": false,
+        "M2MAttributeName": "ConfigTime_SetCookTimeMax",
+        "Instance": "ConfigTime_Set",
+        "IsTimeSeries": false,
+        "DataType": "BEIntegerUnsigned32Bit",
+        "AttributeName": "CookTimeMax",
+        "RangeValues": {
+          "StepSize": "1",
+          "Min": "0",
+          "Max": "4294967295"
+        },
+        "DeviceIO": "RO",
+        "MappedAttributeName": "ConfigTime_SetCookTimeMax",
+        "Default": "0",
+        "Key": "0x09010001"
+      },
+      {
+        "IsTemplate": false,
+        "M2MAttributeName": "ConfigTime_SetCookTimeMin",
+        "Instance": "ConfigTime_Set",
+        "IsTimeSeries": false,
+        "DataType": "BEIntegerUnsigned32Bit",
+        "AttributeName": "CookTimeMin",
+        "RangeValues": {
+          "StepSize": "1",
+          "Min": "0",
+          "Max": "4294967295"
+        },
+        "DeviceIO": "RO",
+        "MappedAttributeName": "ConfigTime_SetCookTimeMin",
+        "Default": "0",
+        "Key": "0x09010002"
+      },
+      {
+        "IsTemplate": false,
+        "M2MAttributeName": "ConfigCavity_SetTempDefault",
+        "Instance": "ConfigCavity_Set",
+        "IsTimeSeries": false,
+        "DataType": "BEIntegerUnsigned16Bit",
+        "AttributeName": "TempDefault",
+        "RangeValues": {
+          "StepSize": "1",
+          "Min": "0",
+          "Max": "65535"
+        },
+        "DeviceIO": "RO",
+        "MappedAttributeName": "ConfigCavity_SetTempDefault",
+        "Default": "0",
+        "Key": "0x09020001"
+      },
+      {
+        "IsTemplate": false,
+        "M2MAttributeName": "ConfigCavity_SetTempMax",
+        "Instance": "ConfigCavity_Set",
+        "IsTimeSeries": false,
+        "DataType": "BEIntegerUnsigned16Bit",
+        "AttributeName": "TempMax",
+        "RangeValues": {
+          "StepSize": "1",
+          "Min": "0",
+          "Max": "65535"
+        },
+        "DeviceIO": "RO",
+        "MappedAttributeName": "ConfigCavity_SetTempMax",
+        "Default": "0",
+        "Key": "0x09020002"
+      },
+      {
+        "IsTemplate": false,
+        "M2MAttributeName": "ConfigCavity_SetTempMin",
+        "Instance": "ConfigCavity_Set",
+        "IsTimeSeries": false,
+        "DataType": "BEIntegerUnsigned16Bit",
+        "AttributeName": "TempMin",
+        "RangeValues": {
+          "StepSize": "1",
+          "Min": "0",
+          "Max": "65535"
+        },
+        "DeviceIO": "RO",
+        "MappedAttributeName": "ConfigCavity_SetTempMin",
+        "Default": "0",
+        "Key": "0x09020003"
+      },
+      {
+        "IsTemplate": false,
+        "M2MAttributeName": "ConfigCavity_SetAmountDefault",
+        "Instance": "ConfigCavity_Set",
+        "IsTimeSeries": false,
+        "DataType": "BEIntegerUnsigned16Bit",
+        "AttributeName": "AmountDefault",
+        "RangeValues": {
+          "StepSize": "1",
+          "Min": "0",
+          "Max": "65535"
+        },
+        "DeviceIO": "RO",
+        "MappedAttributeName": "ConfigCavity_SetAmountDefault",
+        "Default": "0",
+        "Key": "0x09020004"
+      },
+      {
+        "IsTemplate": false,
+        "M2MAttributeName": "ConfigCavity_SetAmountMax",
+        "Instance": "ConfigCavity_Set",
+        "IsTimeSeries": false,
+        "DataType": "BEIntegerUnsigned16Bit",
+        "AttributeName": "AmountMax",
+        "RangeValues": {
+          "StepSize": "1",
+          "Min": "0",
+          "Max": "65535"
+        },
+        "DeviceIO": "RO",
+        "MappedAttributeName": "ConfigCavity_SetAmountMax",
+        "Default": "0",
+        "Key": "0x09020005"
+      },
+      {
+        "IsTemplate": false,
+        "M2MAttributeName": "ConfigCavity_SetAmountMin",
+        "Instance": "ConfigCavity_Set",
+        "IsTimeSeries": false,
+        "DataType": "BEIntegerUnsigned16Bit",
+        "AttributeName": "AmountMin",
+        "RangeValues": {
+          "StepSize": "1",
+          "Min": "0",
+          "Max": "65535"
+        },
+        "DeviceIO": "RO",
+        "MappedAttributeName": "ConfigCavity_SetAmountMin",
+        "Default": "0",
+        "Key": "0x09020006"
+      },
+      {
+        "IsTemplate": false,
+        "M2MAttributeName": "ConfigCavity_SetAmountStep",
+        "Instance": "ConfigCavity_Set",
+        "IsTimeSeries": false,
+        "DataType": "BEIntegerUnsigned16Bit",
+        "AttributeName": "AmountStep",
+        "RangeValues": {
+          "StepSize": "1",
+          "Min": "0",
+          "Max": "65535"
+        },
+        "DeviceIO": "RO",
+        "MappedAttributeName": "ConfigCavity_SetAmountStep",
+        "Default": "0",
+        "Key": "0x09020007"
+      },
+      {
+        "IsTemplate": false,
+        "M2MAttributeName": "ConfigCavity_SetPowerDefault",
+        "Instance": "ConfigCavity_Set",
+        "IsTimeSeries": false,
+        "DataType": "IntegerUnsigned8Bit",
+        "AttributeName": "PowerDefault",
+        "RangeValues": {
+          "StepSize": "1",
+          "Min": "0",
+          "Max": "255"
+        },
+        "DeviceIO": "RO",
+        "MappedAttributeName": "ConfigCavity_SetPowerDefault",
+        "Default": "0",
+        "Key": "0x09020008"
+      },
+      {
+        "IsTemplate": false,
+        "M2MAttributeName": "ConfigCavity_SetPowerMax",
+        "Instance": "ConfigCavity_Set",
+        "IsTimeSeries": false,
+        "DataType": "IntegerUnsigned8Bit",
+        "AttributeName": "PowerMax",
+        "RangeValues": {
+          "StepSize": "1",
+          "Min": "0",
+          "Max": "255"
+        },
+        "DeviceIO": "RO",
+        "MappedAttributeName": "ConfigCavity_SetPowerMax",
+        "Default": "0",
+        "Key": "0x09020009"
+      },
+      {
+        "IsTemplate": false,
+        "M2MAttributeName": "ConfigCavity_SetPowerMin",
+        "Instance": "ConfigCavity_Set",
+        "IsTimeSeries": false,
+        "DataType": "IntegerUnsigned8Bit",
+        "AttributeName": "PowerMin",
+        "RangeValues": {
+          "StepSize": "1",
+          "Min": "0",
+          "Max": "255"
+        },
+        "DeviceIO": "RO",
+        "MappedAttributeName": "ConfigCavity_SetPowerMin",
+        "Default": "0",
+        "Key": "0x0902000A"
+      },
+      {
+        "IsTemplate": false,
+        "M2MAttributeName": "ConfigCavity_SetPowerStep",
+        "Instance": "ConfigCavity_Set",
+        "IsTimeSeries": false,
+        "DataType": "IntegerUnsigned8Bit",
+        "AttributeName": "PowerStep",
+        "RangeValues": {
+          "StepSize": "1",
+          "Min": "0",
+          "Max": "255"
+        },
+        "DeviceIO": "RO",
+        "MappedAttributeName": "ConfigCavity_SetPowerStep",
+        "Default": "0",
+        "Key": "0x0902000B"
+      },
+      {
+        "IsTemplate": false,
+        "M2MAttributeName": "ConfigCavity_SetAmountValues",
+        "Instance": "ConfigCavity_Set",
+        "IsTimeSeries": false,
+        "DataType": "String",
+        "AttributeName": "AmountValues",
+        "DeviceIO": "RO",
+        "MappedAttributeName": "ConfigCavity_SetAmountValues",
+        "Default": "0",
+        "Key": "0x0902000C"
+      },
+      {
+        "IsTemplate": false,
+        "M2MAttributeName": "ConfigKitchenTimer_SetSelect",
+        "Instance": "ConfigKitchenTimer_Set",
+        "IsTimeSeries": false,
+        "DataType": "IntegerUnsigned8Bit",
+        "AttributeName": "Select",
+        "RangeValues": {
+          "StepSize": "1",
+          "Min": "0",
+          "Max": "255"
+        },
+        "DeviceIO": "RO",
+        "MappedAttributeName": "ConfigKitchenTimer_SetSelect",
+        "Default": "0",
+        "Key": "0x09040001"
+      },
+      {
+        "IsTemplate": false,
+        "M2MAttributeName": "ConfigKitchenTimer_SetMax",
+        "Instance": "ConfigKitchenTimer_Set",
+        "IsTimeSeries": false,
+        "DataType": "BEIntegerUnsigned32Bit",
+        "AttributeName": "Max",
+        "RangeValues": {
+          "StepSize": "1",
+          "Min": "0",
+          "Max": "4294967295"
+        },
+        "DeviceIO": "RO",
+        "MappedAttributeName": "ConfigKitchenTimer_SetMax",
+        "Default": "0",
+        "Key": "0x09040002"
+      },
+      {
+        "IsTemplate": false,
+        "M2MAttributeName": "ConfigKitchenTimer_SetMin",
+        "Instance": "ConfigKitchenTimer_Set",
+        "IsTimeSeries": false,
+        "DataType": "BEIntegerUnsigned32Bit",
+        "AttributeName": "Min",
+        "RangeValues": {
+          "StepSize": "1",
+          "Min": "0",
+          "Max": "4294967295"
+        },
+        "DeviceIO": "RO",
+        "MappedAttributeName": "ConfigKitchenTimer_SetMin",
+        "Default": "0",
+        "Key": "0x09040003"
+      },
+      {
+        "IsTemplate": false,
+        "M2MAttributeName": "ConfigDisplay_SetZoneMessageLength",
+        "Instance": "ConfigDisplay_Set",
+        "IsTimeSeries": false,
+        "DataType": "String",
+        "AttributeName": "ZoneMessageLength",
+        "DeviceIO": "RO",
+        "MappedAttributeName": "ConfigDisplay_SetZoneMessageLength",
+        "Default": "0",
+        "Key": "0x09060001"
+      },
+      {
+        "IsTemplate": false,
+        "M2MAttributeName": "Hood_OperationSetExhaustFanSpeed",
+        "Instance": "Hood_OperationSet",
+        "IsTimeSeries": false,
+        "DataType": "enum",
+        "AttributeName": "ExhaustFanSpeed",
+        "DeviceIO": "RW",
+        "MappedAttributeName": "Hood_OperationSetExhaustFanSpeed",
+        "Default": "0",
+        "EnumValues": {
+          "0": "Off",
+          "2": "Low",
+          "4": "Medium",
+          "5": "MediumHigh",
+          "6": "High"
+        },
+        "Key": "0x0A010001"
+      },
+      {
+        "IsTemplate": false,
+        "M2MAttributeName": "Hood_OperationSetSurfaceLight",
+        "Instance": "Hood_OperationSet",
+        "IsTimeSeries": false,
+        "DataType": "enum",
+        "AttributeName": "SurfaceLight",
+        "DeviceIO": "RW",
+        "MappedAttributeName": "Hood_OperationSetSurfaceLight",
+        "Default": "0",
+        "EnumValues": {
+          "0": "Off",
+          "2": "Low",
+          "4": "High"
+        },
+        "Key": "0x0A010002"
+      },
+      {
+        "IsTemplate": false,
+        "M2MAttributeName": "Mwo_ModeStatusIdle",
+        "Instance": "Mwo_ModeStatus",
+        "IsTimeSeries": false,
+        "DataType": "Boolean",
+        "AttributeName": "Idle",
+        "DeviceIO": "RO",
+        "MappedAttributeName": "Mwo_ModeStatusIdle",
+        "Default": "0",
+        "Key": "0x0B010001"
+      },
+      {
+        "IsTemplate": false,
+        "M2MAttributeName": "Mwo_ModeSetConvectRoast",
+        "Instance": "Mwo_ModeSet",
+        "IsTimeSeries": false,
+        "DataType": "enum",
+        "AttributeName": "ConvectRoast",
+        "DeviceIO": "RW",
+        "MappedAttributeName": "Mwo_ModeSetConvectRoast",
+        "Default": "0",
+        "EnumValues": {
+          "0": "Idle",
+          "1": "Manual",
+          "2": "WholeChicken",
+          "3": "Casserole",
+          "4": "Lasagna",
+          "5": "BeefRoast",
+          "6": "ThinCrustPizza",
+          "7": "ThickCrustPizza",
+          "8": "TurkeyBreast"
+        },
+        "Key": "0x0B020001"
+      },
+      {
+        "IsTemplate": false,
+        "M2MAttributeName": "Mwo_ModeSetConvectBake",
+        "Instance": "Mwo_ModeSet",
+        "IsTimeSeries": false,
+        "DataType": "enum",
+        "AttributeName": "ConvectBake",
+        "DeviceIO": "RW",
+        "MappedAttributeName": "Mwo_ModeSetConvectBake",
+        "Default": "0",
+        "EnumValues": {
+          "0": "Idle",
+          "1": "Manual",
+          "2": "AngelFoodCake",
+          "3": "RegularBiscuits",
+          "4": "LargeBiscuits",
+          "5": "Brownies",
+          "6": "Cookies",
+          "7": "Muffins",
+          "8": "FreshPie",
+          "9": "FrozenPie",
+          "10": "RegularRolls",
+          "11": "LargeRolls",
+          "12": "YeastBread"
+        },
+        "Key": "0x0B020002"
+      },
+      {
+        "IsTemplate": false,
+        "M2MAttributeName": "Mwo_ModeSetSteamCook",
+        "Instance": "Mwo_ModeSet",
+        "IsTimeSeries": false,
+        "DataType": "enum",
+        "AttributeName": "SteamCook",
+        "DeviceIO": "RW",
+        "MappedAttributeName": "Mwo_ModeSetSteamCook",
+        "Default": "0",
+        "EnumValues": {
+          "0": "Idle",
+          "1": "Manual",
+          "2": "SteamPotatoes",
+          "3": "FreshVegetables",
+          "4": "FrozenVegetables",
+          "17": "BonelessChicken",
+          "18": "CannedVegetables",
+          "19": "SteamClean"
+        },
+        "Key": "0x0B020004"
+      },
+      {
+        "IsTemplate": false,
+        "M2MAttributeName": "Mwo_ModeSetAutoCook",
+        "Instance": "Mwo_ModeSet",
+        "IsTimeSeries": false,
+        "DataType": "enum",
+        "AttributeName": "AutoCook",
+        "DeviceIO": "RW",
+        "MappedAttributeName": "Mwo_ModeSetAutoCook",
+        "Default": "0",
+        "EnumValues": {
+          "0": "Idle",
+          "4": "FrozenEntree",
+          "5": "HotCereal",
+          "7": "Bacon",
+          "8": "FishFillet",
+          "9": "Shrimp",
+          "10": "FrenchToast",
+          "11": "Rice"
+        },
+        "Key": "0x0B02000D"
+      },
+      {
+        "IsTemplate": false,
+        "M2MAttributeName": "Mwo_ModeSetDefrost",
+        "Instance": "Mwo_ModeSet",
+        "IsTimeSeries": false,
+        "DataType": "enum",
+        "AttributeName": "Defrost",
+        "DeviceIO": "RW",
+        "MappedAttributeName": "Mwo_ModeSetDefrost",
+        "Default": "0",
+        "EnumValues": {
+          "0": "Idle",
+          "2": "Meat",
+          "3": "Poultry",
+          "4": "Fish",
+          "19": "QuickDefrost"
+        },
+        "Key": "0x0B02000E"
+      },
+      {
+        "IsTemplate": false,
+        "M2MAttributeName": "Mwo_ModeSetReheat",
+        "Instance": "Mwo_ModeSet",
+        "IsTimeSeries": false,
+        "DataType": "enum",
+        "AttributeName": "Reheat",
+        "DeviceIO": "RW",
+        "MappedAttributeName": "Mwo_ModeSetReheat",
+        "Default": "0",
+        "EnumValues": {
+          "0": "Idle",
+          "2": "Sauce",
+          "3": "Soup",
+          "4": "PizzaSlices",
+          "5": "Casserole",
+          "6": "DinnerPlate",
+          "8": "Beverage",
+          "9": "BakedGoods"
+        },
+        "Key": "0x0B02000F"
+      },
+      {
+        "IsTemplate": false,
+        "M2MAttributeName": "Mwo_ModeSetCook",
+        "Instance": "Mwo_ModeSet",
+        "IsTimeSeries": false,
+        "DataType": "enum",
+        "AttributeName": "Cook",
+        "DeviceIO": "RW",
+        "MappedAttributeName": "Mwo_ModeSetCook",
+        "Default": "0",
+        "EnumValues": {
+          "0": "Idle",
+          "1": "Manual"
+        },
+        "Key": "0x0B020010"
+      },
+      {
+        "IsTemplate": false,
+        "M2MAttributeName": "Mwo_ModeSetPopcorn",
+        "Instance": "Mwo_ModeSet",
+        "IsTimeSeries": false,
+        "DataType": "enum",
+        "AttributeName": "Popcorn",
+        "DeviceIO": "RW",
+        "MappedAttributeName": "Mwo_ModeSetPopcorn",
+        "Default": "0",
+        "EnumValues": {
+          "0": "Idle",
+          "2": "Automatic"
+        },
+        "Key": "0x0B020011"
+      },
+      {
+        "IsTemplate": false,
+        "M2MAttributeName": "Mwo_ModeSetBakedPotato",
+        "Instance": "Mwo_ModeSet",
+        "IsTimeSeries": false,
+        "DataType": "enum",
+        "AttributeName": "BakedPotato",
+        "DeviceIO": "RW",
+        "MappedAttributeName": "Mwo_ModeSetBakedPotato",
+        "Default": "0",
+        "EnumValues": {
+          "0": "Idle",
+          "2": "BakedPotatoes"
+        },
+        "Key": "0x0B020012"
+      },
+      {
+        "IsTemplate": false,
+        "M2MAttributeName": "Mwo_ModeSetKeepWarm",
+        "Instance": "Mwo_ModeSet",
+        "IsTimeSeries": false,
+        "DataType": "enum",
+        "AttributeName": "KeepWarm",
+        "DeviceIO": "RW",
+        "MappedAttributeName": "Mwo_ModeSetKeepWarm",
+        "Default": "0",
+        "EnumValues": {
+          "0": "Idle",
+          "1": "Manual"
+        },
+        "Key": "0x0B020014"
+      },
+      {
+        "IsTemplate": false,
+        "M2MAttributeName": "Mwo_ModeSetSoften",
+        "Instance": "Mwo_ModeSet",
+        "IsTimeSeries": false,
+        "DataType": "enum",
+        "AttributeName": "Soften",
+        "DeviceIO": "RW",
+        "MappedAttributeName": "Mwo_ModeSetSoften",
+        "Default": "0",
+        "EnumValues": {
+          "0": "Idle",
+          "2": "Butter",
+          "4": "IceCream",
+          "5": "CreamCheese",
+          "6": "FrozenJuice"
+        },
+        "Key": "0x0B020015"
+      },
+      {
+        "IsTemplate": false,
+        "M2MAttributeName": "Mwo_ModeSetMelt",
+        "Instance": "Mwo_ModeSet",
+        "IsTimeSeries": false,
+        "DataType": "enum",
+        "AttributeName": "Melt",
+        "DeviceIO": "RW",
+        "MappedAttributeName": "Mwo_ModeSetMelt",
+        "Default": "0",
+        "EnumValues": {
+          "0": "Idle",
+          "2": "Butter",
+          "4": "Chocolate",
+          "5": "Cheese",
+          "6": "Marshmallows"
+        },
+        "Key": "0x0B020016"
+      },
+      {
+        "IsTemplate": false,
+        "M2MAttributeName": "Mwo_ModeSetBoilAndSimmer",
+        "Instance": "Mwo_ModeSet",
+        "IsTimeSeries": false,
+        "DataType": "enum",
+        "AttributeName": "BoilAndSimmer",
+        "DeviceIO": "RW",
+        "MappedAttributeName": "Mwo_ModeSetBoilAndSimmer",
+        "Default": "0",
+        "EnumValues": {
+          "0": "Idle",
+          "1": "Manual",
+          "4": "DrySpaghetti",
+          "5": "DryMacaroni",
+          "6": "DryPenne",
+          "7": "DryFettuchini"
+        },
+        "Key": "0x0B020017"
+      },
+      {
+        "IsTemplate": false,
+        "M2MAttributeName": "Mwo_ModeSetKidsMenu",
+        "Instance": "Mwo_ModeSet",
+        "IsTimeSeries": false,
+        "DataType": "enum",
+        "AttributeName": "KidsMenu",
+        "DeviceIO": "RO",
+        "MappedAttributeName": "Mwo_ModeSetKidsMenu",
+        "Default": "0",
+        "EnumValues": {
+          "0": "Idle",
+          "1": "CannedPasta",
+          "2": "FrozenPizza",
+          "3": "FrozenMeal",
+          "4": "Oatmeal",
+          "5": "ChickenNuggets",
+          "6": "HotDog"
+        },
+        "Key": "0x0B02001A"
+      },
+      {
+        "IsTemplate": false,
+        "M2MAttributeName": "Relational_CapabilityModeTemperatures",
+        "Instance": "Relational_Capability",
+        "IsTimeSeries": false,
+        "DataType": "String",
+        "AttributeName": "ModeTemperatures",
+        "DeviceIO": "RO",
+        "MappedAttributeName": "Relational_CapabilityModeTemperatures",
+        "Default": "0",
+        "Key": "0xFD010001"
+      },
+      {
+        "IsTemplate": false,
+        "M2MAttributeName": "Relational_CapabilitySettings",
+        "Instance": "Relational_Capability",
+        "IsTimeSeries": false,
+        "DataType": "String",
+        "AttributeName": "Settings",
+        "DeviceIO": "RO",
+        "MappedAttributeName": "Relational_CapabilitySettings",
+        "Default": "0",
+        "Key": "0xFD010002"
+      },
+      {
+        "IsTemplate": false,
+        "M2MAttributeName": "Relational_CapabilityTimeDefaults",
+        "Instance": "Relational_Capability",
+        "IsTimeSeries": false,
+        "DataType": "String",
+        "AttributeName": "TimeDefaults",
+        "DeviceIO": "RO",
+        "MappedAttributeName": "Relational_CapabilityTimeDefaults",
+        "Default": "0",
+        "Key": "0xFD010004"
+      },
+      {
+        "IsTemplate": false,
+        "M2MAttributeName": "Relational_CapabilityModeTimes",
+        "Instance": "Relational_Capability",
+        "IsTimeSeries": false,
+        "DataType": "String",
+        "AttributeName": "ModeTimes",
+        "DeviceIO": "RO",
+        "MappedAttributeName": "Relational_CapabilityModeTimes",
+        "Default": "0",
+        "Key": "0xFD010005"
+      },
+      {
+        "IsTemplate": false,
+        "M2MAttributeName": "Relational_CapabilityModeQuantities",
+        "Instance": "Relational_Capability",
+        "IsTimeSeries": false,
+        "DataType": "String",
+        "AttributeName": "ModeQuantities",
+        "DeviceIO": "RO",
+        "MappedAttributeName": "Relational_CapabilityModeQuantities",
+        "Default": "0",
+        "Key": "0xFD010006"
+      },
+      {
+        "IsTemplate": false,
+        "M2MAttributeName": "Relational_CycleMyCreation",
+        "Instance": "Relational_Cycle",
+        "IsTimeSeries": false,
+        "DataType": "String",
+        "AttributeName": "MyCreation",
+        "DeviceIO": "RW",
+        "MappedAttributeName": "Relational_CycleMyCreation",
+        "Default": "0",
+        "Key": "0xFD020001"
+      },
+      {
+        "IsTemplate": false,
+        "M2MAttributeName": "Relational_EnvelopeOpen",
+        "Instance": "Relational_EnvelopeOpen",
+        "IsTimeSeries": false,
+        "DataType": "BEIntegerUnsigned32Bit",
+        "AttributeName": "Open",
+        "RangeValues": {
+          "StepSize": "1",
+          "Min": "0",
+          "Max": "4294967295"
+        },
+        "DeviceIO": "RW",
+        "MappedAttributeName": "Relational_EnvelopeOpen",
+        "Default": "0",
+        "Key": "0xFE010001"
+      },
+      {
+        "IsTemplate": false,
+        "M2MAttributeName": "Relational_EnvelopeClose",
+        "Instance": "Relational_EnvelopeClose",
+        "IsTimeSeries": false,
+        "DataType": "BEIntegerUnsigned32Bit",
+        "AttributeName": "Close",
+        "RangeValues": {
+          "StepSize": "1",
+          "Min": "0",
+          "Max": "4294967295"
+        },
+        "DeviceIO": "RW",
+        "MappedAttributeName": "Relational_EnvelopeClose",
+        "Default": "0",
+        "Key": "0xFE010002"
+      },
+      {
+        "IsTemplate": false,
+        "M2MAttributeName": "Relational_EnvelopeAction",
+        "Instance": "Relational_Envelope",
+        "IsTimeSeries": false,
+        "DataType": "enum",
+        "AttributeName": "Action",
+        "DeviceIO": "RW",
+        "MappedAttributeName": "Relational_EnvelopeAction",
+        "Default": "0",
+        "EnumValues": {
+          "0": "Create",
+          "1": "Get",
+          "2": "Update",
+          "3": "Delete",
+          "4": "Publish",
+          "5": "Start",
+          "6": "SetOnDisplay"
+        },
+        "Key": "0xFE010003"
+      },
+      {
+        "IsTemplate": false,
+        "M2MAttributeName": "Relational_EntityOpen",
+        "Instance": "Relational_Entity",
+        "IsTimeSeries": false,
+        "DataType": "BEIntegerUnsigned32Bit",
+        "AttributeName": "Open",
+        "RangeValues": {
+          "StepSize": "1",
+          "Min": "0",
+          "Max": "4294967295"
+        },
+        "DeviceIO": "RW",
+        "MappedAttributeName": "Relational_EntityOpen",
+        "Default": "0",
+        "Key": "0xFE020001"
+      },
+      {
+        "IsTemplate": false,
+        "M2MAttributeName": "Relational_EntityClose",
+        "Instance": "Relational_Entity",
+        "IsTimeSeries": false,
+        "DataType": "BEIntegerUnsigned32Bit",
+        "AttributeName": "Close",
+        "RangeValues": {
+          "StepSize": "1",
+          "Min": "0",
+          "Max": "4294967295"
+        },
+        "DeviceIO": "RW",
+        "MappedAttributeName": "Relational_EntityClose",
+        "Default": "0",
+        "Key": "0xFE020002"
+      },
+      {
+        "IsTemplate": false,
+        "M2MAttributeName": "Relational_EntityName",
+        "Instance": "Relational_Entity",
+        "IsTimeSeries": false,
+        "DataType": "String",
+        "AttributeName": "Name",
+        "DeviceIO": "RW",
+        "MappedAttributeName": "Relational_EntityName",
+        "Default": "0",
+        "Key": "0xFE020003"
+      },
+      {
+        "IsTemplate": false,
+        "M2MAttributeName": "Relational_EntityId",
+        "Instance": "Relational_Entity",
+        "IsTimeSeries": false,
+        "DataType": "IntegerUnsigned8Bit",
+        "AttributeName": "Id",
+        "RangeValues": {
+          "StepSize": "1",
+          "Min": "0",
+          "Max": "255"
+        },
+        "DeviceIO": "RW",
+        "MappedAttributeName": "Relational_EntityId",
+        "Default": "0",
+        "Key": "0xFE020004"
+      },
+      {
+        "IsTemplate": false,
+        "M2MAttributeName": "Relational_ArrayOpen",
+        "Instance": "Relational_Array",
+        "IsTimeSeries": false,
+        "DataType": "BEIntegerUnsigned32Bit",
+        "AttributeName": "Open",
+        "RangeValues": {
+          "StepSize": "1",
+          "Min": "0",
+          "Max": "4294967295"
+        },
+        "DeviceIO": "RW",
+        "MappedAttributeName": "Relational_EntityOpen",
+        "Default": "0",
+        "Key": "0xFE030001"
+      },
+      {
+        "IsTemplate": false,
+        "M2MAttributeName": "Relational_ArrayClose",
+        "Instance": "Relational_Array",
+        "IsTimeSeries": false,
+        "DataType": "BEIntegerUnsigned32Bit",
+        "AttributeName": "Close",
+        "RangeValues": {
+          "StepSize": "1",
+          "Min": "0",
+          "Max": "4294967295"
+        },
+        "DeviceIO": "RW",
+        "MappedAttributeName": "Relational_EntityClose",
+        "Default": "0",
+        "Key": "0xFE030002"
+      },
+      {
+        "IsTemplate": false,
+        "M2MAttributeName": "PushTrigger",
+        "Instance": "",
+        "IsTimeSeries": false,
+        "DataType": "BEIntegerSigned32Bit",
+        "AttributeName": "PushTrigger",
+        "RangeValues": {
+          "StepSize": "1",
+          "Min": "-2147483648",
+          "Max": "2147483647"
+        },
+        "DeviceIO": "RW",
+        "MappedAttributeName": "PushTrigger",
+        "Default": "0",
+        "Key": "0x00000000"
+      },
+      {
+        "IsTemplate": false,
+        "M2MAttributeName": "Relational_to_Appliance",
+        "Instance": "",
+        "IsTimeSeries": false,
+        "DataType": "String",
+        "AttributeName": "Relational_to_Appliance",
+        "DeviceIO": "RW",
+        "MappedAttributeName": "Relational_to_Appliance",
+        "Default": "0",
+        "Key": "0x00000000"
+      },
+      {
+        "IsTemplate": false,
+        "M2MAttributeName": "GetSubscribeListVersion",
+        "Instance": "",
+        "IsTimeSeries": false,
+        "DataType": "BEIntegerUnsigned32Bit",
+        "AttributeName": "GetSubscribeListVersion",
+        "RangeValues": {
+          "StepSize": "1",
+          "Min": "0",
+          "Max": "4294967295"
+        },
+        "DeviceIO": "RW",
+        "MappedAttributeName": "GetSubscribeListVersion",
+        "Default": "0",
+        "Key": "0x00000000"
+      },
+      {
+        "IsTemplate": false,
+        "M2MAttributeName": "M2MSubList",
+        "Instance": "",
+        "IsTimeSeries": false,
+        "DataType": "String",
+        "AttributeName": "M2MSubList",
+        "DeviceIO": "RW",
+        "MappedAttributeName": "M2MSubList",
+        "Default": "0",
+        "Key": "0x00000000"
+      },
+      {
+        "IsTemplate": false,
+        "M2MAttributeName": "M2MSubscribeListVersion",
+        "Instance": "",
+        "IsTimeSeries": false,
+        "DataType": "String",
+        "AttributeName": "M2MSubscribeListVersion",
+        "DeviceIO": "RW",
+        "MappedAttributeName": "M2MSubscribeListVersion",
+        "Default": "0",
+        "Key": "0x00000000"
+      },
+      {
+        "IsTemplate": false,
+        "M2MAttributeName": "SetDNSNames",
+        "Instance": "",
+        "IsTimeSeries": false,
+        "DataType": "String",
+        "AttributeName": "SetDNSNames",
+        "DeviceIO": "RW",
+        "MappedAttributeName": "SetDNSNames",
+        "Default": "0",
+        "Key": "0x00000000"
+      },
+      {
+        "IsTemplate": false,
+        "M2MAttributeName": "sys-parser-type",
+        "Instance": "",
+        "IsTimeSeries": false,
+        "DataType": "String",
+        "AttributeName": "sys-parser-type",
+        "DeviceIO": "RW",
+        "MappedAttributeName": "sys-parser-type",
+        "Default": "0",
+        "Key": "0x00000000"
+      },
+      {
+        "IsTemplate": false,
+        "M2MAttributeName": "MAC_Address",
+        "Instance": "",
+        "IsTimeSeries": false,
+        "DataType": "String",
+        "AttributeName": "MAC_Address",
+        "DeviceIO": "RW",
+        "MappedAttributeName": "MAC_Address",
+        "Default": "0",
+        "Key": "0x00000000"
+      },
+      {
+        "IsTemplate": false,
+        "M2MAttributeName": "uid",
+        "Instance": "",
+        "IsTimeSeries": false,
+        "DataType": "String",
+        "AttributeName": "uid",
+        "DeviceIO": "RW",
+        "MappedAttributeName": "uid",
+        "Default": "0",
+        "Key": "0x00000000"
+      },
+      {
+        "IsTemplate": false,
+        "M2MAttributeName": "ModelNumber",
+        "Instance": "",
+        "IsTimeSeries": false,
+        "DataType": "String",
+        "AttributeName": "ModelNumber",
+        "DeviceIO": "RW",
+        "MappedAttributeName": "ModelNumber",
+        "Default": "0",
+        "Key": "0x00000000"
+      },
+      {
+        "IsTemplate": false,
+        "M2MAttributeName": "SerialNumber",
+        "Instance": "",
+        "IsTimeSeries": false,
+        "DataType": "String",
+        "AttributeName": "SerialNumber",
+        "DeviceIO": "RW",
+        "MappedAttributeName": "SerialNumber",
+        "Default": "0",
+        "Key": "0x00000000"
+      },
+      {
+        "IsTemplate": false,
+        "M2MAttributeName": "cc_uri",
+        "Instance": "",
+        "IsTimeSeries": false,
+        "DataType": "String",
+        "AttributeName": "cc_uri",
+        "DeviceIO": "RW",
+        "MappedAttributeName": "cc_uri",
+        "Default": "0",
+        "Key": "0x00000000"
+      },
+      {
+        "IsTemplate": false,
+        "M2MAttributeName": "ISPBundleAttributes",
+        "Instance": "",
+        "IsTimeSeries": false,
+        "DataType": "String",
+        "AttributeName": "ISPBundleAttributes",
+        "DeviceIO": "RW",
+        "MappedAttributeName": "ISPBundleAttributes",
+        "Default": "0",
+        "Key": "0x00000000"
+      },
+      {
+        "IsTemplate": false,
+        "M2MAttributeName": "ISPReasonCode",
+        "Instance": "",
+        "IsTimeSeries": false,
+        "DataType": "String",
+        "AttributeName": "ISPReasonCode",
+        "DeviceIO": "RW",
+        "MappedAttributeName": "ISPReasonCode",
+        "Default": "0",
+        "Key": "0x00000000"
+      },
+      {
+        "IsTemplate": false,
+        "M2MAttributeName": "GetApplianceVersionNumber",
+        "Instance": "",
+        "IsTimeSeries": false,
+        "DataType": "Boolean",
+        "AttributeName": "GetApplianceVersionNumber",
+        "DeviceIO": "RW",
+        "MappedAttributeName": "GetApplianceVersionNumber",
+        "Default": "0",
+        "Key": "0x00000000"
+      },
+      {
+        "IsTemplate": false,
+        "M2MAttributeName": "ApplianceVersionNumber",
+        "Instance": "",
+        "IsTimeSeries": false,
+        "DataType": "BEIntegerUnsigned16Bit",
+        "AttributeName": "ApplianceVersionNumber",
+        "RangeValues": {
+          "StepSize": "1",
+          "Min": "0",
+          "Max": "65535"
+        },
+        "DeviceIO": "RW",
+        "MappedAttributeName": "ApplianceVersionNumber",
+        "Default": "0",
+        "Key": "0x00000000"
+      },
+      {
+        "IsTemplate": false,
+        "M2MAttributeName": "ProjectReleaseNumber",
+        "Instance": "",
+        "IsTimeSeries": false,
+        "DataType": "String",
+        "AttributeName": "ProjectReleaseNumber",
+        "DeviceIO": "RW",
+        "MappedAttributeName": "ProjectReleaseNumber",
+        "Default": "0",
+        "Key": "0x00000000"
+      },
+      {
+        "IsTemplate": false,
+        "M2MAttributeName": "Sys_AlertStatusCustomerFaultCodeNotification",
+        "Instance": "Sys_AlertStatus",
+        "IsTimeSeries": false,
+        "DataType": "String",
+        "AttributeName": "CustomerFaultCodeNotification",
+        "DeviceIO": "RW",
+        "MappedAttributeName": "Sys_AlertStatusCustomerFaultCodeNotification",
+        "Default": "0",
+        "Key": "0x00000000"
+      },
+      {
+        "IsTemplate": false,
+        "M2MAttributeName": "Sys_AlertStatusControlLockChangedByAppliance",
+        "Instance": "Sys_AlertStatus",
+        "IsTimeSeries": false,
+        "DataType": "Boolean",
+        "AttributeName": "ControlLockChangedByAppliance",
+        "DeviceIO": "RW",
+        "MappedAttributeName": "Sys_AlertStatusControlLockChangedByAppliance",
+        "Default": "0",
+        "Key": "0x00000000"
+      },
+      {
+        "IsTemplate": false,
+        "M2MAttributeName": "Generic_EnergyProfileSetting",
+        "Instance": "Generic_",
+        "IsTimeSeries": false,
+        "DataType": "BEIntegerUnsigned32Bit",
+        "AttributeName": "EnergyProfileSetting",
+        "RangeValues": {
+          "StepSize": "1",
+          "Min": "0",
+          "Max": "4294967295"
+        },
+        "DeviceIO": "RW",
+        "MappedAttributeName": "Generic_EnergyProfileSetting",
+        "Default": "0",
+        "Key": "0x00000000"
+      },
+      {
+        "IsTemplate": false,
+        "M2MAttributeName": "Generic_RatePlanID",
+        "Instance": "Generic_",
+        "IsTimeSeries": false,
+        "DataType": "String",
+        "AttributeName": "RatePlanID",
+        "DeviceIO": "RW",
+        "MappedAttributeName": "Generic_RatePlanID",
+        "Default": "0",
+        "Key": "0x00000000"
+      },
+      {
+        "IsTemplate": false,
+        "M2MAttributeName": "Generic_UtilityID",
+        "Instance": "Generic_",
+        "IsTimeSeries": false,
+        "DataType": "String",
+        "AttributeName": "UtilityID",
+        "DeviceIO": "RW",
+        "MappedAttributeName": "Generic_UtilityID",
+        "Default": "0",
+        "Key": "0x00000000"
+      },
+      {
+        "IsTemplate": false,
+        "M2MAttributeName": "Generic_SmartID",
+        "Instance": "Generic_",
+        "IsTimeSeries": false,
+        "DataType": "String",
+        "AttributeName": "SmartID",
+        "DeviceIO": "RW",
+        "MappedAttributeName": "Generic_SmartID",
+        "Default": "0",
+        "Key": "0x00000000"
+      },
+      {
+        "IsTemplate": false,
+        "M2MAttributeName": "Generic_Zip",
+        "Instance": "Generic_",
+        "IsTimeSeries": false,
+        "DataType": "String",
+        "AttributeName": "Zip",
+        "DeviceIO": "RW",
+        "MappedAttributeName": "Generic_Zip",
+        "Default": "0",
+        "Key": "0x00000000"
+      },
+      {
+        "IsTemplate": false,
+        "M2MAttributeName": "XCat_InServiceDate",
+        "Instance": "XCat_",
+        "IsTimeSeries": false,
+        "DataType": "String",
+        "AttributeName": "InServiceDate",
+        "DeviceIO": "RW",
+        "MappedAttributeName": "XCat_InServiceDate",
+        "Default": "0",
+        "Key": "0x00000000"
+      },
+      {
+        "IsTemplate": false,
+        "M2MAttributeName": "XCat_trid_result",
+        "Instance": "XCat_",
+        "IsTimeSeries": false,
+        "DataType": "String",
+        "AttributeName": "trid_result",
+        "DeviceIO": "RO",
+        "MappedAttributeName": "XCat_trid_result",
+        "Default": "0",
+        "Key": "0x00000000"
+      },
+      {
+        "IsTemplate": false,
+        "M2MAttributeName": "XCat_trid",
+        "Instance": "XCat_",
+        "IsTimeSeries": false,
+        "DataType": "BEIntegerUnsigned16Bit",
+        "AttributeName": "trid",
+        "RangeValues": {
+          "StepSize": "1",
+          "Min": "0",
+          "Max": "65535"
+        },
+        "DeviceIO": "RW",
+        "MappedAttributeName": "XCat_trid",
+        "Default": "0",
+        "Key": "0x00000000"
+      },
+      {
+        "IsTemplate": false,
+        "M2MAttributeName": "Online",
+        "Instance": "",
+        "IsTimeSeries": false,
+        "DataType": "Boolean",
+        "AttributeName": "Online",
+        "DeviceIO": "RO",
+        "MappedAttributeName": "Online",
+        "Default": "0",
+        "Key": "0x00000000"
+      },
+      {
+        "IsTemplate": false,
+        "M2MAttributeName": "XCat_UtcOffset",
+        "Instance": "XCat_",
+        "IsTimeSeries": false,
+        "DataType": "BEIntegerSigned32Bit",
+        "AttributeName": "UtcOffset",
+        "RangeValues": {
+          "StepSize": "1",
+          "Min": "-2147483648",
+          "Max": "2147483647"
+        },
+        "DeviceIO": "RW",
+        "MappedAttributeName": "XCat_UtcOffset",
+        "Default": "0",
+        "Key": "0x00000000"
+      },
+      {
+        "IsTemplate": false,
+        "M2MAttributeName": "XCat_DstOffset",
+        "Instance": "XCat_",
+        "IsTimeSeries": false,
+        "DataType": "BEIntegerSigned32Bit",
+        "AttributeName": "DstOffset",
+        "RangeValues": {
+          "StepSize": "1",
+          "Min": "-2147483648",
+          "Max": "2147483647"
+        },
+        "DeviceIO": "RW",
+        "MappedAttributeName": "XCat_DstOffset",
+        "Default": "0",
+        "Key": "0x00000000"
+      },
+      {
+        "IsTemplate": false,
+        "M2MAttributeName": "XCat_TimeZoneId",
+        "Instance": "XCat_",
+        "IsTimeSeries": false,
+        "DataType": "String",
+        "AttributeName": "TimeZoneId",
+        "DeviceIO": "RW",
+        "MappedAttributeName": "XCat_TimeZoneId",
+        "Default": "0",
+        "Key": "0x00000000"
+      },
+      {
+        "IsTemplate": false,
+        "M2MAttributeName": "XCat_DateTimeMode",
+        "Instance": "XCat_",
+        "IsTimeSeries": false,
+        "DataType": "BEIntegerUnsigned16Bit",
+        "AttributeName": "DateTimeMode",
+        "RangeValues": {
+          "StepSize": "1",
+          "Min": "0",
+          "Max": "65535"
+        },
+        "DeviceIO": "RW",
+        "MappedAttributeName": "XCat_DateTimeMode",
+        "Default": "0",
+        "Key": "0x00000000"
+      }
+    ]
+  },
+  "Personality": {
+    "Key": "DDM_COOKING_MHC76_V1",
+    "Capability": [
+      {
+        "RelationalHexConversion": {
+          "EncodingVersion": 1
+        },
+        "GlobalGoverningStates": [
+          {
+            "ResetCommands": [
+              {
+                "Sys_OperationSetControlLock": "0"
+              }
+            ],
+            "GlobalGoverningState": "Control",
+            "SetCommands": [
+              {
+                "Sys_OperationSetControlLock": "1"
+              }
+            ],
+            "Enabled": true,
+            "Compatibility": [
+              {
+                "Vacation": "false",
+                "Party": "false",
+                "Quiet": "false"
+              }
+            ]
+          },
+          {
+            "ResetCommands": [
+              {
+                "Sys_OperationSetQuietModeEnabled": "0"
+              }
+            ],
+            "GlobalGoverningState": "Quiet",
+            "SetCommands": [
+              {
+                "Sys_OperationSetQuietModeEnabled": "1"
+              }
+            ],
+            "Enabled": true,
+            "Compatibility": [
+              {
+                "Control": "false",
+                "Vacation": "false",
+                "Party": "false"
+              }
+            ]
+          },
+          {
+            "GlobalGoverningState": "Vacation",
+            "Enabled": true,
+            "Compatibility": [
+              {
+                "Control": "false",
+                "Party": "false",
+                "Quiet": "false"
+              }
+            ]
+          },
+          {
+            "ResetCommands": [],
+            "GlobalGoverningState": "Party",
+            "SetCommands": [],
+            "Enabled": false,
+            "Compatibility": [
+              {
+                "Control": "false",
+                "Vacation": "false",
+                "Quiet": "false"
+              }
+            ]
+          }
+        ],
+        "WhatIsNew": {
+          "DocPath": [
+            "NAR/WHIRLPOOL/DDM_COOKING_MHC76_V1/Docs/eng/MHC_what_is_new.pdf"
+          ]
+        },
+        "KeepWarmHoldTemp": {
+          "KeepWarm": [
+            {
+              "ExcludedCycles": [
+                "Mwo_ModeSetConvectRoast",
+                "Mwo_ModeSetConvectBake"
+              ],
+              "Mwo_TimeSetCookTimeSet": [
+                300,
+                600,
+                900
+              ]
+            }
+          ],
+          "HoldTemp": [
+            {
+              "ExcludedCycles": [
+                "Mwo_ModeSetSteamCook",
+                "Mwo_ModeSetAutoCook",
+                "Mwo_ModeSetDefrost",
+                "Mwo_ModeSetReheat",
+                "Mwo_ModeSetCook",
+                "Mwo_ModeSetPopcorn",
+                "Mwo_ModeSetBakedPotato",
+                "Mwo_ModeSetKeepWarm",
+                "Mwo_ModeSetSoften",
+                "Mwo_ModeSetMelt",
+                "Mwo_ModeSetBoilAndSimmer",
+                "Mwo_ModeSetKidsMenu"
+              ],
+              "Mwo_TimeSetCookTimeSet": [
+                300,
+                600,
+                900
+              ]
+            }
+          ]
+        },
+        "TimeRangeCapabilityData": {
+          "Action": 4,
+          "EntityCapability": {
+            "TimeDefaults": [
+              {
+                "KitchenTimer": [
+                  {
+                    "ConfigKitchenTimer_SetKitchenTimerMax": 5999,
+                    "ConfigKitchenTimer_SetKitchenTimerMin": 1,
+                    "ConfigKitchenTimer_SetKitchenTimerSelect": 1
+                  }
+                ],
+                "Name": "KitchenTimer"
+              }
+            ],
+            "Id": 1,
+            "Name": "TimeDefaults"
+          }
+        },
+        "ModeQuantityCapabilityData": {
+          "Action": 4,
+          "EntityCapability": {
+            "Id": 1,
+            "ModeQuantities": [
+              {
+                "Mwo_ModeSetAutoCook": 4,
+                "ConfigCavity_SetAmountValues": "100,\r\n\t\t200,\r\n\t\t400,\r\n\t\t600",
+                "ConfigCavity_SetAmountDefault": 100
+              },
+              {
+                "Mwo_ModeSetSteamCook": 18,
+                "ConfigCavity_SetAmountMin": 10,
+                "ConfigCavity_SetAmountStep": 10,
+                "ConfigCavity_SetAmountDefault": 10,
+                "ConfigCavity_SetAmountMax": 40
+              },
+              {
+                "ConfigCavity_SetAmountMin": 10,
+                "ConfigCavity_SetAmountStep": 10,
+                "ConfigCavity_SetAmountDefault": 10,
+                "ConfigCavity_SetAmountMax": 40,
+                "Mwo_ModeSetKidsMenu": 1
+              },
+              {
+                "ConfigCavity_SetAmountMin": 80,
+                "ConfigCavity_SetAmountStep": 10,
+                "ConfigCavity_SetAmountDefault": 80,
+                "ConfigCavity_SetAmountMax": 100,
+                "Mwo_ModeSetKidsMenu": 3
+              },
+              {
+                "ConfigCavity_SetAmountMin": 10,
+                "ConfigCavity_SetAmountStep": 10,
+                "ConfigCavity_SetAmountDefault": 10,
+                "ConfigCavity_SetAmountMax": 20,
+                "Mwo_ModeSetKidsMenu": 4
+              },
+              {
+                "ConfigCavity_SetAmountMin": 10,
+                "ConfigCavity_SetAmountStep": 10,
+                "ConfigCavity_SetAmountDefault": 10,
+                "ConfigCavity_SetAmountMax": 20,
+                "Mwo_ModeSetKidsMenu": 5
+              },
+              {
+                "ConfigCavity_SetAmountMin": 10,
+                "ConfigCavity_SetAmountStep": 10,
+                "ConfigCavity_SetAmountDefault": 10,
+                "ConfigCavity_SetAmountMax": 40,
+                "Mwo_ModeSetKidsMenu": 6
+              },
+              {
+                "Mwo_ModeSetAutoCook": 7,
+                "ConfigCavity_SetAmountMin": 10,
+                "ConfigCavity_SetAmountStep": 10,
+                "ConfigCavity_SetAmountDefault": 10,
+                "ConfigCavity_SetAmountMax": 40
+              },
+              {
+                "Mwo_ModeSetAutoCook": 8,
+                "ConfigCavity_SetAmountMin": 5,
+                "ConfigCavity_SetAmountStep": 5,
+                "ConfigCavity_SetAmountDefault": 5,
+                "ConfigCavity_SetAmountMax": 15
+              },
+              {
+                "Mwo_ModeSetAutoCook": 9,
+                "ConfigCavity_SetAmountMin": 5,
+                "ConfigCavity_SetAmountStep": 5,
+                "ConfigCavity_SetAmountDefault": 5,
+                "ConfigCavity_SetAmountMax": 15
+              },
+              {
+                "Mwo_ModeSetAutoCook": 10,
+                "ConfigCavity_SetAmountMin": 10,
+                "ConfigCavity_SetAmountStep": 10,
+                "ConfigCavity_SetAmountDefault": 10,
+                "ConfigCavity_SetAmountMax": 40
+              },
+              {
+                "Mwo_ModeSetAutoCook": 5,
+                "ConfigCavity_SetAmountMin": 10,
+                "ConfigCavity_SetAmountStep": 10,
+                "ConfigCavity_SetAmountDefault": 10,
+                "ConfigCavity_SetAmountMax": 40
+              },
+              {
+                "Mwo_ModeSetReheat": 8,
+                "ConfigCavity_SetAmountMin": 10,
+                "ConfigCavity_SetAmountStep": 10,
+                "ConfigCavity_SetAmountDefault": 10,
+                "ConfigCavity_SetAmountMax": 20
+              },
+              {
+                "Mwo_ModeSetReheat": 5,
+                "ConfigCavity_SetAmountMin": 10,
+                "ConfigCavity_SetAmountStep": 10,
+                "ConfigCavity_SetAmountDefault": 10,
+                "ConfigCavity_SetAmountMax": 40
+              },
+              {
+                "Mwo_ModeSetReheat": 4,
+                "ConfigCavity_SetAmountMin": 10,
+                "ConfigCavity_SetAmountStep": 10,
+                "ConfigCavity_SetAmountDefault": 10,
+                "ConfigCavity_SetAmountMax": 30
+              },
+              {
+                "Mwo_ModeSetReheat": 9,
+                "ConfigCavity_SetAmountMin": 10,
+                "ConfigCavity_SetAmountStep": 10,
+                "ConfigCavity_SetAmountDefault": 10,
+                "ConfigCavity_SetAmountMax": 60
+              },
+              {
+                "ConfigCavity_SetAmountMin": 2,
+                "ConfigCavity_SetAmountStep": 1,
+                "ConfigCavity_SetAmountDefault": 10,
+                "ConfigCavity_SetAmountMax": 66,
+                "Mwo_ModeSetDefrost": 2
+              },
+              {
+                "ConfigCavity_SetAmountMin": 2,
+                "ConfigCavity_SetAmountStep": 1,
+                "ConfigCavity_SetAmountDefault": 10,
+                "ConfigCavity_SetAmountMax": 66,
+                "Mwo_ModeSetDefrost": 3
+              },
+              {
+                "ConfigCavity_SetAmountMin": 2,
+                "ConfigCavity_SetAmountStep": 1,
+                "ConfigCavity_SetAmountDefault": 10,
+                "ConfigCavity_SetAmountMax": 44,
+                "Mwo_ModeSetDefrost": 4
+              },
+              {
+                "ConfigCavity_SetAmountMin": 5,
+                "ConfigCavity_SetAmountStep": 5,
+                "Mwo_ModeSetSoften": 2,
+                "ConfigCavity_SetAmountDefault": 5,
+                "ConfigCavity_SetAmountMax": 20
+              },
+              {
+                "ConfigCavity_SetAmountMin": 5,
+                "ConfigCavity_SetAmountStep": 5,
+                "ConfigCavity_SetAmountDefault": 5,
+                "Mwo_ModeSetMelt": 2,
+                "ConfigCavity_SetAmountMax": 20
+              },
+              {
+                "ConfigCavity_SetAmountValues": "160,\r\n\t\t320,\r\n\t\t640",
+                "Mwo_ModeSetSoften": 4,
+                "ConfigCavity_SetAmountDefault": 160
+              },
+              {
+                "ConfigCavity_SetAmountValues": "30,\r\n\t\t80",
+                "Mwo_ModeSetSoften": 5,
+                "ConfigCavity_SetAmountDefault": 30
+              },
+              {
+                "ConfigCavity_SetAmountValues": "120,\r\n\t\t160",
+                "Mwo_ModeSetSoften": 6,
+                "ConfigCavity_SetAmountDefault": 120
+              },
+              {
+                "ConfigCavity_SetAmountValues": "40,\r\n\t\t60,\r\n\t\t80,\r\n\t\t120",
+                "ConfigCavity_SetAmountDefault": 40,
+                "Mwo_ModeSetMelt": 4
+              },
+              {
+                "ConfigCavity_SetAmountMin": 80,
+                "ConfigCavity_SetAmountStep": 80,
+                "ConfigCavity_SetAmountDefault": 80,
+                "Mwo_ModeSetMelt": 5,
+                "ConfigCavity_SetAmountMax": 160
+              },
+              {
+                "ConfigCavity_SetAmountValues": "50,\r\n\t\t100",
+                "ConfigCavity_SetAmountDefault": 50,
+                "Mwo_ModeSetMelt": 6
+              },
+              {
+                "Mwo_ModeSetConvectRoast": 2,
+                "ConfigCavity_SetAmountMin": 25,
+                "ConfigCavity_SetAmountStep": 1,
+                "ConfigCavity_SetAmountDefault": 25,
+                "ConfigCavity_SetAmountMax": 45
+              },
+              {
+                "ConfigCavity_SetAmountValues": "15,\r\n\t\t20",
+                "Mwo_ModeSetConvectRoast": 3,
+                "ConfigCavity_SetAmountDefault": 15
+              },
+              {
+                "Mwo_ModeSetConvectRoast": 5,
+                "ConfigCavity_SetAmountMin": 20,
+                "ConfigCavity_SetAmountStep": 1,
+                "ConfigCavity_SetAmountDefault": 20,
+                "ConfigCavity_SetAmountMax": 40
+              },
+              {
+                "Mwo_ModeSetConvectRoast": 6,
+                "ConfigCavity_SetAmountMin": 60,
+                "ConfigCavity_SetAmountStep": 10,
+                "ConfigCavity_SetAmountDefault": 60,
+                "ConfigCavity_SetAmountMax": 120
+              },
+              {
+                "Mwo_ModeSetConvectRoast": 7,
+                "ConfigCavity_SetAmountMin": 60,
+                "ConfigCavity_SetAmountStep": 10,
+                "ConfigCavity_SetAmountDefault": 60,
+                "ConfigCavity_SetAmountMax": 120
+              },
+              {
+                "Mwo_ModeSetConvectRoast": 8,
+                "ConfigCavity_SetAmountMin": 25,
+                "ConfigCavity_SetAmountStep": 1,
+                "ConfigCavity_SetAmountDefault": 25,
+                "ConfigCavity_SetAmountMax": 45
+              }
+            ],
+            "Name": "ModeQuantities"
+          }
+        },
+        "CapabilityAdjustments": {
+          "TurnTableAdjustableModes": [
+            {
+              "Mwo_ModeSetConvectRoast": [
+                "Manual"
+              ],
+              "Mwo_ModeSetCook": [
+                "Manual"
+              ],
+              "Mwo_ModeSetConvectBake": [
+                "Manual"
+              ],
+              "Mwo_ModeSetKeepWarm": [
+                "Manual"
+              ]
+            }
+          ],
+          "AvailableForMyCreations": [
+            {
+              "Mwo_ModeSetConvectRoast": [
+                "Manual"
+              ],
+              "Mwo_ModeSetCook": [
+                "Manual"
+              ],
+              "Mwo_ModeSetConvectBake": [
+                "Manual"
+              ]
+            }
+          ],
+          "RunFromApp": [
+            "Mwo_ModeSetConvectBake"
+          ],
+          "AdjustFromApp": [
+            "Mwo_ModeSetConvectBake"
+          ],
+          "DefaultPowerValues": [
+            {
+              "ConfigCavity_SetPowerMin": 10,
+              "ConfigCavity_SetPowerMax": 100,
+              "ConfigCavity_SetPowerDefault": 100,
+              "ConfigCavity_SetPowerStep": 10
+            }
+          ],
+          "Wattage": 1100,
+          "CycleSupportAdjustments": [
+            {
+              "Mwo_OperationSetCookTimeCompleteAction": [
+                "Unset",
+                "StayOn",
+                "KeepWarm",
+                "TurnOff"
+              ]
+            }
+          ]
+        },
+        "CapabilityUnits": {
+          "Entities": {
+            "Mwo": {
+              "Attributes": {
+                "ModeSetAutoCook": {
+                  "EnumValues": {
+                    "HotCereal": {
+                      "Display_Units": "Servings"
+                    },
+                    "FrozenEntree": {
+                      "Display_Units": "Oz"
+                    },
+                    "FishFillet": {
+                      "Display_Units": "lbs"
+                    },
+                    "Bacon": {
+                      "Display_Units": "Slices"
+                    },
+                    "Shrimp": {
+                      "Display_Units": "lbs"
+                    },
+                    "FrenchToast": {
+                      "Display_Units": "Pieces"
+                    }
+                  }
+                },
+                "ModeSetKeepWarm": {
+                  "EnumValues": {
+                    "Manual": {
+                      "Display_Units": "(min:sec)"
+                    }
+                  }
+                },
+                "ModeSetBoilAndSimmer": {
+                  "EnumValues": {
+                    "Manual": {
+                      "Display_Units": "(min:sec)"
+                    }
+                  }
+                },
+                "ModeSetDefrost": {
+                  "EnumValues": {
+                    "Poultry": {
+                      "Display_Units": "lbs"
+                    },
+                    "Fish": {
+                      "Display_Units": "lbs"
+                    },
+                    "Meat": {
+                      "Display_Units": "lbs"
+                    }
+                  }
+                },
+                "ModeSetReheat": {
+                  "EnumValues": {
+                    "Casserole": {
+                      "Display_Units": "Cups"
+                    },
+                    "BakedGoods": {
+                      "Display_Units": "Pieces"
+                    },
+                    "PizzaSlices": {
+                      "Display_Units": "Slices"
+                    },
+                    "Beverage": {
+                      "Display_Units": "Cups"
+                    }
+                  }
+                },
+                "ModeSetConvectBake": {
+                  "EnumValues": {
+                    "Manual": {
+                      "Display_Units": "(hr:min)"
+                    }
+                  }
+                },
+                "ModeSetSoften": {
+                  "EnumValues": {
+                    "Butter": {
+                      "Display_Units": "Sticks"
+                    },
+                    "IceCream": {
+                      "Display_Units": "Oz"
+                    },
+                    "CreamCheese": {
+                      "Display_Units": "Oz"
+                    },
+                    "FrozenJuice": {
+                      "Display_Units": "Oz"
+                    }
+                  }
+                },
+                "ModeSetMelt": {
+                  "EnumValues": {
+                    "Marshmallows": {
+                      "Display_Units": "Oz"
+                    },
+                    "Butter": {
+                      "Display_Units": "Sticks"
+                    },
+                    "Chocolate": {
+                      "Display_Units": "Oz"
+                    },
+                    "Cheese": {
+                      "Display_Units": "Oz"
+                    }
+                  }
+                },
+                "ModeSetConvectRoast": {
+                  "EnumValues": {
+                    "Casserole": {
+                      "Display_Units": "Quarts"
+                    },
+                    "TurkeyBreast": {
+                      "Display_Units": "lbs"
+                    },
+                    "BeefRoast": {
+                      "Display_Units": "lbs"
+                    },
+                    "Manual": {
+                      "Display_Units": "(hr:min)"
+                    },
+                    "WholeChicken": {
+                      "Display_Units": "lbs"
+                    },
+                    "ThickCrustPizza": {
+                      "Display_Units": "Inches"
+                    },
+                    "ThinCrustPizza": {
+                      "Display_Units": "Inches"
+                    }
+                  }
+                },
+                "ModeSetSteamCook": {
+                  "EnumValues": {
+                    "SteamClean": {
+                      "Display_Units": "(min:sec)"
+                    },
+                    "CannedVegetables": {
+                      "Display_Units": "Cups"
+                    },
+                    "Manual": {
+                      "Display_Units": "(min:sec)"
+                    }
+                  }
+                },
+                "ModeSetKidsMenu": {
+                  "EnumValues": {
+                    "HotDog": {
+                      "Display_Units": "Pieces"
+                    },
+                    "CannedPasta": {
+                      "Display_Units": "Servings"
+                    },
+                    "FrozenMeal": {
+                      "Display_Units": "Oz"
+                    },
+                    "ChickenNuggets": {
+                      "Display_Units": "Servings"
+                    },
+                    "Oatmeal": {
+                      "Display_Units": "Servings"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        },
+        "ModeCookTimeCapabilityData": {
+          "Action": 4,
+          "EntityCapability": {
+            "ModeTimes": [
+              {
+                "MicrowaveCavity": [
+                  {
+                    "ConfigTime_SetCookTimeMin": 60,
+                    "Mwo_ModeSetConvectRoast": 1,
+                    "ConfigTime_SetCookTimeMax": 14400
+                  },
+                  {
+                    "ConfigTime_SetCookTimeMin": 60,
+                    "Mwo_ModeSetConvectBake": 1,
+                    "ConfigTime_SetCookTimeMax": 14400
+                  },
+                  {
+                    "ConfigTime_SetCookTimeMin": 1,
+                    "Mwo_ModeSetSteamCook": 1,
+                    "ConfigTime_SetCookTimeMax": 5999
+                  },
+                  {
+                    "ConfigTime_SetCookTimeMin": 1,
+                    "Mwo_ModeSetCook": 1,
+                    "ConfigTime_SetCookTimeMax": 5999
+                  },
+                  {
+                    "ConfigTime_SetCookTimeMin": 1,
+                    "ConfigTime_SetCookTimeMax": 5999,
+                    "Mwo_ModeSetKeepWarm": 1
+                  },
+                  {
+                    "Mwo_ModeSetBoilAndSimmer": 1,
+                    "ConfigTime_SetCookTimeMin": 1,
+                    "ConfigTime_SetCookTimeMax": 5999
+                  }
+                ],
+                "Name": "MicrowaveCavity"
+              }
+            ],
+            "Id": 1,
+            "Name": "ModeTimes"
+          }
+        },
+        "ModeTemperatureCapabilityData": {
+          "Action": 4,
+          "EntityCapability": {
+            "Id": 1,
+            "ModeTemperatures": [
+              {
+                "MwoTemperatures": [
+                  {
+                    "ConfigCavity_SetPowerMin": 10,
+                    "ConfigCavity_SetPowerMax": 100,
+                    "Mwo_ModeSetCook": 1,
+                    "ConfigCavity_SetPowerStep": 10,
+                    "ConfigCavity_SetPowerDefault": 100
+                  },
+                  {
+                    "ConfigCavity_SetPowerMin": 10,
+                    "ConfigCavity_SetPowerMax": 30,
+                    "Mwo_ModeSetConvectRoast": 1,
+                    "ConfigCavity_SetPowerStep": 10,
+                    "ConfigCavity_SetPowerDefault": 30,
+                    "ConfigCavity_SetTempMin": 1211,
+                    "ConfigCavity_SetTempDefault": 1628,
+                    "ConfigCavity_SetTempMax": 2322
+                  },
+                  {
+                    "Mwo_ModeSetConvectBake": 1,
+                    "ConfigCavity_SetTempMin": 1211,
+                    "ConfigCavity_SetTempDefault": 1628,
+                    "ConfigCavity_SetTempMax": 2322
+                  }
+                ],
+                "Name": "MwoTemperatures"
+              }
+            ],
+            "Name": "ModeTemperatures"
+          }
+        },
+        "Settings": [
+          {
+            "AwayOvenWarning": {
+              "Type": "home_away",
+              "Description": "Receive a notification asking if youd like to turn your oven off if Nest detects you're away while your oven is running.   Please note that it may take up to two hours for Nest to send the away signal.",
+              "Name": "Off While Away"
+            }
+          }
+        ],
+        "SettingsCapabilityData": {
+          "Action": 4,
+          "EntityCapability": {
+            "Id": 1,
+            "Settings": [
+              {
+                "DefaultSettings": [
+                  {
+                    "Sys_DisplaySetClockOn": 1,
+                    "Sys_DisplaySetLanguage": 0,
+                    "Sys_OperationSetSabbathModeEnabled": 0,
+                    "Sys_OperationSetGlobalToneVolume": 1,
+                    "ConfigDisplay_SetZoneMessageLength": "1:17;2:17;",
+                    "Sys_OperationSetControlLock": 0,
+                    "Sys_DisplaySetEnable24Hour": 0,
+                    "Sys_OperationSetQuietModeEnabled": 0
+                  }
+                ],
+                "Name": "DefaultSettings"
+              },
+              {
+                "Enumerations": [
+                  {
+                    "XCat_ConfigSetApplianceCapability": {
+                      "Entities": {
+                        "Mwo": {
+                          "Attributes": {
+                            "ModeSetKeepWarm": [
+                              "Idle",
+                              "Manual"
+                            ],
+                            "ModeSetReheat": [
+                              "Idle",
+                              "Sauce",
+                              "Soup",
+                              "PizzaSlices",
+                              "Casserole",
+                              "DinnerPlate",
+                              "Beverage",
+                              "BakedGoods"
+                            ],
+                            "ModeSetBoilAndSimmer": [
+                              "Idle",
+                              "Manual",
+                              "DrySpaghetti",
+                              "DryMacaroni",
+                              "DryPenne",
+                              "DryFettuchini"
+                            ],
+                            "ModeSetConvectBake": [
+                              "Idle",
+                              "Manual",
+                              "AngelFoodCake",
+                              "RegularBiscuits",
+                              "LargeBiscuits",
+                              "Brownies",
+                              "Cookies",
+                              "Muffins",
+                              "FreshPie",
+                              "FrozenPie",
+                              "RegularRolls",
+                              "LargeRolls",
+                              "YeastBread"
+                            ],
+                            "ModeSetMelt": [
+                              "Idle",
+                              "Butter",
+                              "Chocolate",
+                              "Cheese",
+                              "Marshmallows"
+                            ],
+                            "ModeSetPopcorn": [
+                              "Idle",
+                              "Automatic"
+                            ],
+                            "OperationSetCookTimeCompleteAction": [
+                              "Unset",
+                              "KeepWarm",
+                              "TurnOff"
+                            ],
+                            "ModeSetAutoCook": [
+                              "Idle",
+                              "FrozenEntree",
+                              "HotCereal",
+                              "Bacon",
+                              "FishFillet",
+                              "Shrimp",
+                              "FrenchToast",
+                              "Rice"
+                            ],
+                            "ModeSetCook": [
+                              "Idle",
+                              "Manual"
+                            ],
+                            "CycleSetDoneness": [
+                              "Unset",
+                              "MediumRare",
+                              "MediumWell"
+                            ],
+                            "ModeSetDefrost": [
+                              "Idle",
+                              "Meat",
+                              "Poultry",
+                              "Fish",
+                              "QuickDefrost"
+                            ],
+                            "ModeSetSoften": [
+                              "Idle",
+                              "Butter",
+                              "IceCream",
+                              "CreamCheese",
+                              "FrozenJuice"
+                            ],
+                            "TimeSetCookTimeOperations": [
+                              "None",
+                              "Cancel",
+                              "Start",
+                              "Pause",
+                              "Resume",
+                              "SetOnDisplay"
+                            ],
+                            "OperationSetOperations": [
+                              "None",
+                              "Cancel",
+                              "Start",
+                              "SetOnDisplay",
+                              "Modify"
+                            ],
+                            "ModeSetConvectRoast": [
+                              "Idle",
+                              "Manual",
+                              "WholeChicken",
+                              "Casserole",
+                              "Lasagna",
+                              "BeefRoast",
+                              "ThinCrustPizza",
+                              "ThickCrustPizza",
+                              "TurkeyBreast"
+                            ],
+                            "ModeSetSteamCook": [
+                              "Idle",
+                              "Manual",
+                              "SteamPotatoes",
+                              "FreshVegetables",
+                              "FrozenVegetables",
+                              "BonelessChicken",
+                              "CannedVegetables",
+                              "SteamClean"
+                            ],
+                            "ModeSetBakedPotato": [
+                              "Idle",
+                              "BakedPotatoes"
+                            ],
+                            "ModeSetKidsMenu": [
+                              "Idle",
+                              "CannedPasta",
+                              "FrozenPizza",
+                              "FrozenMeal",
+                              "Oatmeal",
+                              "ChickenNuggets",
+                              "HotDog"
+                            ]
+                          }
+                        },
+                        "KitchenTimer01": {
+                          "Attributes": {
+                            "SetOperations": [
+                              "None",
+                              "Cancel",
+                              "Start"
+                            ]
+                          }
+                        },
+                        "Sys": {
+                          "Attributes": {
+                            "DisplaySetLanguage": [
+                              "English",
+                              "CanadianFrench"
+                            ],
+                            "OperationSetGlobalToneVolume": [
+                              "VolumeOff",
+                              "VolumeOn"
+                            ],
+                            "OperationSetGreaseFilter": [
+                              "Ok",
+                              "Replace",
+                              "Reset"
+                            ],
+                            "OperationSetCharcoalFilter": [
+                              "Ok",
+                              "Replace",
+                              "Reset"
+                            ]
+                          }
+                        },
+                        "Hood": {
+                          "Attributes": {
+                            "OperationSetSurfaceLight": [
+                              "Off",
+                              "Low",
+                              "High"
+                            ],
+                            "OperationSetExhaustFanSpeed": [
+                              "Off",
+                              "Low",
+                              "Medium",
+                              "MediumHigh",
+                              "High"
+                            ]
+                          }
+                        }
+                      }
+                    }
+                  }
+                ],
+                "Name": "Enumerations"
+              }
+            ],
+            "Name": "Settings"
+          }
+        }
+      }
+    ],
+    "Rulesets": [
+      {
+        "CycleHistory": {
+          "isLegacy": "false",
+          "groupBy": "Mwo_TimeSetCookTimeSet",
+          "attributes": "Mwo_TimeSetCookTimeSet,Mwo_ModeSetConvectRoast,Mwo_ModeSetConvectBake,Mwo_ModeSetSteamCook,Mwo_ModeSetAutoCook,Mwo_ModeSetDefrost,Mwo_ModeSetReheat,Mwo_ModeSetCook,Mwo_ModeSetPopcorn,Mwo_ModeSetBakedPotato,Mwo_ModeSetKeepWarm,Mwo_ModeSetSoften,Mwo_ModeSetMelt,Mwo_ModeSetBoilAndSimmer,Mwo_ModeSetKidsMenu,Mwo_CycleSetCookPower,Mwo_CycleSetTargetTemp,Mwo_CycleSetAmount"
+        },
+        "FaultCodeHistory": {
+          "isLegacy": "false",
+          "groupBy": "Sys_AlertStatusCustomerFaultCode",
+          "attributes": "Sys_AlertStatusCustomerFaultCode"
+        }
+      }
+    ]
+  },
+  "Alerts": {
+    "Key": "DDM_COOKING_MHC76_V1",
+    "Alerts": [
+      {
+        "ApplianceAlerts": [
+          {
+            "alertId": 772,
+            "name": "PreHeatComplete",
+            "attribute": "Sys_AlertStatusNotification",
+            "type": "push",
+            "category": "Cooking",
+            "autodelete": false,
+            "autodisarm": false,
+            "autodisable": false,
+            "visible": true,
+            "enable": true
+          },
+          {
+            "alertId": 773,
+            "name": "CookTimerComplete",
+            "attribute": "Mwo_OperationStatusCookTimeState",
+            "type": "push",
+            "category": "Cooking",
+            "autodelete": false,
+            "autodisarm": false,
+            "autodisable": false,
+            "visible": true,
+            "enable": true
+          },
+          {
+            "alertId": 774,
+            "name": "CookTimerChange",
+            "attribute": "Mwo_TimeSetCookTimeSet",
+            "type": "push",
+            "category": "Cooking",
+            "autodelete": false,
+            "autodisarm": false,
+            "autodisable": false,
+            "visible": true,
+            "enable": false
+          },
+          {
+            "alertId": 775,
+            "name": "KitchenTimerComplete",
+            "attribute": "KitchenTimer01_StatusState",
+            "type": "push",
+            "category": "Cooking",
+            "autodelete": false,
+            "autodisarm": false,
+            "autodisable": false,
+            "visible": true,
+            "enable": true
+          },
+          {
+            "alertId": 776,
+            "name": "KitchenTimerChange",
+            "attribute": "KitchenTimer01_SetTimeSet",
+            "type": "push",
+            "category": "Cooking",
+            "autodelete": false,
+            "autodisarm": false,
+            "autodisable": false,
+            "visible": true,
+            "enable": false
+          },
+          {
+            "alertId": 777,
+            "name": "ControlStatus",
+            "attribute": "Sys_OperationSetControlLock",
+            "type": "push",
+            "category": "Cooking",
+            "autodelete": false,
+            "autodisarm": false,
+            "autodisable": false,
+            "visible": true,
+            "enable": false
+          },
+          {
+            "alertId": 778,
+            "name": "ErrorNotification",
+            "attribute": "Sys_AlertStatusCustomerFaultCode",
+            "type": "push",
+            "category": "Cooking",
+            "autodelete": false,
+            "autodisarm": false,
+            "autodisable": false,
+            "visible": true,
+            "enable": true
+          },
+          {
+            "alertId": 779,
+            "name": "RemoteStatus",
+            "attribute": "XCat_RemoteSetRemoteControlEnable",
+            "type": "push",
+            "category": "Cooking",
+            "autodelete": false,
+            "autodisarm": false,
+            "autodisable": false,
+            "visible": true,
+            "enable": false
+          },
+          {
+            "alertId": 780,
+            "name": "BlowerMotorAutomaticallyTurnedOn",
+            "attribute": "Hood_OperationSetExhaustFanSpeed",
+            "type": "push",
+            "category": "Cooking",
+            "autodelete": false,
+            "autodisarm": false,
+            "autodisable": false,
+            "visible": true,
+            "enable": true
+          },
+          {
+            "alertId": 781,
+            "name": "NotificationToChangeCharcoalFilter",
+            "attribute": "Hood_OperationSetCharcoalFilter",
+            "type": "push",
+            "category": "Cooking",
+            "autodelete": false,
+            "autodisarm": false,
+            "autodisable": false,
+            "visible": true,
+            "enable": true
+          },
+          {
+            "alertId": 782,
+            "name": "NotificationToCleanOrChangeGreaseFilter",
+            "attribute": "Hood_OperationSetGreaseFilter",
+            "type": "push",
+            "category": "Cooking",
+            "autodelete": false,
+            "autodisarm": false,
+            "autodisable": false,
+            "visible": true,
+            "enable": true
+          },
+          {
+            "alertId": 783,
+            "name": "OvenOnWhileAway",
+            "attribute": "Online",
+            "type": "push",
+            "category": "Cooking",
+            "autodelete": false,
+            "autodisarm": false,
+            "autodisable": false,
+            "visible": false,
+            "enable": false
+          }
+        ]
+      }
+    ]
+  },
+  "Services": {
+    "_id": "DDM_COOKING_MHC76_V1",
+    "thirdPartyServices": [
+      {
+        "name": "Replenishment",
+        "enabled": false,
+        "serviceProvider": [
+          {
+            "name": "ADRS",
+            "enabled": false,
+            "config": []
+          },
+          {
+            "name": "Wallmart",
+            "enabled": false,
+            "config": []
+          },
+          {
+            "name": "Whirlpool",
+            "enabled": false,
+            "config": []
+          }
+        ]
+      },
+      {
+        "name": "Thermostat",
+        "enabled": true,
+        "serviceProvider": [
+          {
+            "name": "Nest",
+            "enabled": true,
+            "config": [
+              {
+                "Key": "AwayOvenWarning",
+                "Type": "home_away",
+                "commandName": "",
+                "commandValue": ""
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Energy Management",
+        "enabled": false,
+        "serviceProvider": [
+          {
+            "name": "National Grid",
+            "enabled": false,
+            "config": []
+          },
+          {
+            "name": "Genability",
+            "enabled": false,
+            "config": []
+          }
+        ]
+      },
+      {
+        "name": "Voice Integration",
+        "enabled": false,
+        "serviceProvider": [
+          {
+            "name": "Amazon Alexa",
+            "enabled": false,
+            "config": []
+          },
+          {
+            "name": "Google Home",
+            "enabled": false,
+            "config": []
+          }
+        ]
+      },
+      {
+        "name": "localizeDateTime",
+        "enabled": true,
+        "serviceProvider": [
+          {
+            "name": "WCloud",
+            "enabled": true,
+            "config": ""
+          }
+        ]
+      }
+    ]
+  }
+}

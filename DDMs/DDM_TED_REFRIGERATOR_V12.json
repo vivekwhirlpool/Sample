@@ -1,0 +1,364 @@
+{
+  "_id": "DDM_TED_REFRIGERATOR_V12",
+  "_rev": "4-52f5d4be0dbf13b881a1fe13eaf465e7",
+  "DDM": {
+    "_id": "DDM_TED_REFRIGERATOR_V12",
+    "ddmName": "DDM_TED_REFRIGERATOR_V12",
+    "modelNumber": "CZE12AEANA,CZE12AEBNA,CZE12AVANA,CZE12AVBNA,CZE12AFANA,CZE12AFBNA,CZE12ASANA,CZE12",
+    "createdAt": "Apr 20, 2018 6:30:00 PM",
+    "createdBy": "Akash Karhale",
+    "brandName": "Consul",
+    "category": "Refrigerator",
+    "version": "1.0",
+    "ccuriVersion": "2.0",
+    "ccURI": "API144_FRIG_V12"
+  },
+  "DataModel": {
+    "Key": "DDM_TED_REFRIGERATOR_V12",
+    "attributes": [
+      {
+        "deviceIO": "RO",
+        "mappedAttributeName": "XCat_PersistentInfoVersion",
+        "M2MAttributeName": "XCat_PersistentInfoVersion",
+        "default": "0",
+        "rangeValues": {
+          "min": "0",
+          "max": "65535",
+          "stepSize": 1
+        },
+        "Instance": "XCat_PersistentInfo",
+        "isTemplate": false,
+        "dataType": "BEIntegerUnsigned16Bit",
+        "AttributeName": "Version",
+        "key": "0x01010001",
+        "isTimeSeries": false
+      },
+      {
+        "deviceIO": "RO",
+        "mappedAttributeName": "XCat_PersistentInfoSaid",
+        "M2MAttributeName": "XCat_PersistentInfoSaid",
+        "Instance": "XCat_PersistentInfo",
+        "isTemplate": false,
+        "dataType": "String",
+        "AttributeName": "Said",
+        "key": "0x01010002",
+        "isTimeSeries": true
+      },
+      {
+        "deviceIO": "RO",
+        "mappedAttributeName": "XCat_PersistentInfoMacAddress",
+        "M2MAttributeName": "XCat_PersistentInfoMacAddress",
+        "Instance": "XCat_PersistentInfo",
+        "isTemplate": false,
+        "dataType": "String",
+        "AttributeName": "MacAddress",
+        "key": "0x01010003",
+        "isTimeSeries": false
+      },
+      {
+        "deviceIO": "RO",
+        "mappedAttributeName": "XCat_WifiStatusRssiAntennaDiversity",
+        "M2MAttributeName": "XCat_WifiStatusRssiAntennaDiversity",
+        "default": "-99",
+        "rangeValues": {
+          "min": "-99",
+          "max": "-10",
+          "stepSize": 1
+        },
+        "Instance": "XCat_WifiStatus",
+        "isTemplate": false,
+        "dataType": "IntegerSigned8Bit",
+        "AttributeName": "RssiAntennaDiversity",
+        "key": "0x01020001",
+        "isTimeSeries": false
+      },
+      {
+        "deviceIO": "RO",
+        "mappedAttributeName": "XCat_OdometerStatusRunningHours",
+        "M2MAttributeName": "XCat_OdometerStatusRunningHours",
+        "default": "0",
+        "rangeValues": {
+          "min": "0",
+          "max": "4294967295",
+          "stepSize": 1
+        },
+        "Instance": "XCat_OdometerStatus",
+        "isTemplate": false,
+        "dataType": "BEIntegerUnsigned32Bit",
+        "AttributeName": "RunningHours",
+        "key": "0x01050001",
+        "isTimeSeries": false
+      },
+      {
+        "deviceIO": "RO",
+        "mappedAttributeName": "XCat_OdometerStatusTotalHours",
+        "M2MAttributeName": "XCat_OdometerStatusTotalHours",
+        "default": "0",
+        "rangeValues": {
+          "min": "0",
+          "max": "4294967295",
+          "stepSize": 1
+        },
+        "Instance": "XCat_OdometerStatus",
+        "isTemplate": false,
+        "dataType": "BEIntegerUnsigned32Bit",
+        "AttributeName": "TotalHours",
+        "key": "0x01050002",
+        "isTimeSeries": false
+      },
+      {
+        "deviceIO": "RW",
+        "mappedAttributeName": "XCat_ApplianceInfoSetModelNumber",
+        "M2MAttributeName": "XCat_ApplianceInfoSetModelNumber",
+        "Instance": "XCat_ApplianceInfoSet",
+        "isTemplate": false,
+        "dataType": "String",
+        "AttributeName": "ModelNumber",
+        "key": "0x01060001",
+        "isTimeSeries": false
+      },
+      {
+        "deviceIO": "RW",
+        "mappedAttributeName": "XCat_ApplianceInfoSetSerialNumber",
+        "M2MAttributeName": "XCat_ApplianceInfoSetSerialNumber",
+        "Instance": "XCat_ApplianceInfoSet",
+        "isTemplate": false,
+        "dataType": "String",
+        "AttributeName": "SerialNumber",
+        "key": "0x01060002",
+        "isTimeSeries": false
+      },
+      {
+        "deviceIO": "WO",
+        "mappedAttributeName": "XCat_WifiSetPublishApplianceState",
+        "default": "0",
+        "Instance": "XCat_WifiSet",
+        "isTemplate": false,
+        "dataType": "Boolean",
+        "AttributeName": "PublishApplianceState",
+        "M2MAttributeNameName": "XCat_WifiSetPublishApplianceState",
+        "key": "0x01090001",
+        "isTimeSeries": false
+      },
+      {
+        "deviceIO": "WO",
+        "mappedAttributeName": "XCat_WifiSetRebootWifiCommModule",
+        "default": "0",
+        "Instance": "XCat_WifiSet",
+        "isTemplate": false,
+        "dataType": "Boolean",
+        "AttributeName": "RebootWifiCommModule",
+        "M2MAttributeNameName": "XCat_WifiSetRebootWifiCommModule",
+        "key": "0x01090002",
+        "isTimeSeries": false
+      },
+      {
+        "deviceIO": "WO",
+        "mappedAttributeName": "XCat_WifiSetDeprovisionWifiCommModule",
+        "default": "0",
+        "Instance": "XCat_WifiSet",
+        "isTemplate": false,
+        "dataType": "Boolean",
+        "AttributeName": "DeprovisionWifiCommModule",
+        "M2MAttributeNameName": "XCat_WifiSetDeprovisionWifiCommModule",
+        "key": "0x01090003",
+        "isTimeSeries": false
+      },
+      {
+        "deviceIO": "RO",
+        "mappedAttributeName": "XCat_ConfigSetApplianceCapability",
+        "M2MAttributeName": "XCat_ConfigSetApplianceCapability",
+        "Instance": "XCat_ConfigSet",
+        "isTemplate": false,
+        "dataType": "String",
+        "AttributeName": "ApplianceCapability",
+        "key": "0x010C0004",
+        "isTimeSeries": false
+      },
+      {
+        "deviceIO": "RO",
+        "mappedAttributeName": "Sys_AlertStatusCustomerFaultCode",
+        "M2MAttributeName": "Sys_AlertStatusCustomerFaultCode",
+        "Instance": "Sys_AlertStatus",
+        "isTemplate": false,
+        "dataType": "String",
+        "AttributeName": "CustomerFaultCode",
+        "key": "0x02010001",
+        "isTimeSeries": false
+      },
+      {
+        "deviceIO": "RO",
+        "mappedAttributeName": "Sys_AlertStatusDoorOpenAlarm",
+        "default": "0",
+        "Instance": "Sys_AlertStatus",
+        "isTemplate": false,
+        "dataType": "Boolean",
+        "AttributeName": "DoorOpenAlarm",
+        "M2MAttributeNameName": "Sys_AlertStatusDoorOpenAlarm",
+        "key": "0x02010004",
+        "isTimeSeries": false
+      },
+      {
+        "deviceIO": "RO",
+        "mappedAttributeName": "Sys_OpStatusState",
+        "default": "1",
+        "Instance": "Sys_OpStatus",
+        "isTemplate": false,
+        "dataType": "enum",
+        "AttributeName": "State",
+        "M2MAttributeNameName": "Sys_OpStatusState",
+        "key": "0x02020001",
+        "isTimeSeries": false,
+        "enumValues": {
+          "0": "CompressorOff",
+          "1": "NormalCooling"
+        }
+      },
+      {
+        "deviceIO": "RW",
+        "mappedAttributeName": "Sys_DisplaySetCavityBrightness",
+        "default": "5",
+        "Instance": "Sys_DisplaySet",
+        "isTemplate": false,
+        "dataType": "enum",
+        "AttributeName": "CavityBrightness",
+        "M2MAttributeNameName": "Sys_DisplaySetCavityBrightness",
+        "key": "0x02030005",
+        "isTimeSeries": false,
+        "enumValues": {
+          "0": "Off",
+          "5": "Maximum"
+        }
+      },
+      {
+        "deviceIO": "RW",
+        "mappedAttributeName": "Sys_OpSetMaxCool",
+        "default": "0",
+        "Instance": "Sys_OpSet",
+        "isTemplate": false,
+        "dataType": "Boolean",
+        "AttributeName": "MaxCool",
+        "M2MAttributeNameName": "Sys_OpSetMaxCool",
+        "key": "0x02040003",
+        "isTimeSeries": false
+      },
+      {
+        "deviceIO": "RW",
+        "mappedAttributeName": "Sys_OpSetVacationMode",
+        "default": "0",
+        "Instance": "Sys_OpSet",
+        "isTemplate": false,
+        "dataType": "Boolean",
+        "AttributeName": "VacationMode",
+        "M2MAttributeNameName": "Sys_OpSetVacationMode",
+        "key": "0x02040005",
+        "isTimeSeries": false
+      },
+      {
+        "deviceIO": "RW",
+        "mappedAttributeName": "Sys_OpSetControlLock",
+        "default": "0",
+        "Instance": "Sys_OpSet",
+        "isTemplate": false,
+        "dataType": "Boolean",
+        "AttributeName": "ControlLock",
+        "M2MAttributeNameName": "Sys_OpSetControlLock",
+        "key": "0x02040008",
+        "isTimeSeries": false
+      },
+      {
+        "deviceIO": "RW",
+        "mappedAttributeName": "Sys_OpSetCalibrationOn",
+        "default": "0",
+        "Instance": "Sys_OpSet",
+        "isTemplate": false,
+        "dataType": "Boolean",
+        "AttributeName": "CalibrationOn",
+        "M2MAttributeNameName": "Sys_OpSetCalibrationOn",
+        "key": "0x02040011",
+        "isTimeSeries": false
+      },
+      {
+        "deviceIO": "RO",
+        "mappedAttributeName": "Refrigerator_OpStatusDoorOpen",
+        "default": "0",
+        "Instance": "Refrigerator_OpStatus",
+        "isTemplate": false,
+        "dataType": "Boolean",
+        "AttributeName": "DoorOpen",
+        "M2MAttributeNameName": "Refrigerator_OpStatusDoorOpen",
+        "key": "0x03030001",
+        "isTimeSeries": false
+      },
+      {
+        "deviceIO": "RO",
+        "mappedAttributeName": "Refrigerator_OpStatusContentsWeight",
+        "M2MAttributeName": "Refrigerator_OpStatusContentsWeight",
+        "default": "0",
+        "rangeValues": {
+          "min": "0",
+          "max": "200000",
+          "stepSize": 1
+        },
+        "Instance": "Refrigerator_OpStatus",
+        "isTemplate": false,
+        "dataType": "BEIntegerUnsigned32Bit",
+        "AttributeName": "ContentsWeight",
+        "key": "0x03030003",
+        "isTimeSeries": false
+      },
+      {
+        "deviceIO": "RW",
+        "mappedAttributeName": "Refrigerator_OpSetTempPreset",
+        "default": "10",
+        "Instance": "Refrigerator_OpSet",
+        "isTemplate": false,
+        "dataType": "enum",
+        "AttributeName": "TempPreset",
+        "M2MAttributeNameName": "Refrigerator_OpSetTempPreset",
+        "key": "0x03040002",
+        "isTimeSeries": false,
+        "enumValues": {
+          "8": "TempPreset1",
+          "9": "TempPreset2",
+          "10": "TempPreset3",
+          "11": "TempPreset4",
+          "12": "TempPreset5"
+        }
+      }
+    ]
+  },
+  "Alerts": {
+    "Key": "DDM_TED_REFRIGERATOR_V12",
+    "Alerts": [
+      {
+        "GenericAlerts": [
+          {
+            "alertId": 1152,
+            "name": "DoorOpen",
+            "attribute": "Sys_AlertStatusDoorOpenAlarm",
+            "type": "push",
+            "category": "Refrigerator",
+            "autodelete": false,
+            "autodisarm": false,
+            "autodisable": false,
+            "visible": true,
+            "enable": true
+          },
+          {
+            "alertId": 1153,
+            "name": "MinimumStock",
+            "attribute": "Refrigerator_OpStatusContentsWeight",
+            "type": "push",
+            "category": "Refrigerator",
+            "autodelete": false,
+            "autodisarm": false,
+            "autodisable": false,
+            "visible": true,
+            "enable": true
+          }
+        ]
+      }
+    ]
+  }
+}
