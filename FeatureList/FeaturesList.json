@@ -6,25 +6,19 @@
   "reviewedBy": "",
   "features": [,
   {
-      "featureName": "Remote control",
-      "featureImage" : "",
-      "featureDescription": "Remote control the appliances from mobile application",
-},
-    {
-      "featureName": "Notifications",
-      "featureImage" : "",
-      "featureDescription": "Receive real-time notifications and control from anywhere with remote access",
+      "featureName": "Assisted Cooking",
+      "featureImage" : "https://raw.githubusercontent.com/boddapatiV/Sample/master/FeatureList/assited_cooking.png",
+      "featureDescription": "Many health care facilities deliver meals to patients on demand, while others prepare meals in large batches to be distributed at one time. Whether meals are individually prepared or created in large quantities, each cook is responsible for a certain aspect of the process.",
     },
     {
-      "featureName": "Culinary Center",
-      "featureImage" : "",
-      "featureDescription": "Best way of cooking",
+      "featureName": "Custom Recipe",
+      "featureImage" : "https://raw.githubusercontent.com/boddapatiV/Sample/master/FeatureList/custom_recipes.png",
+      "featureDescription": "The Custom Cooking System allows survivors to create their own consumable items with custom names and ingredients to provide different effects. Place the finished recipe into a Cooking Pot or Industrial Cooker with the required ingredients and light the fire to begin the cooking process.",
     },
     {
-      "featureName": "Guest Users",
-      "featureImage" : "",
-      "featureDescription": "User Account Management",
+      "featureName": "My Creations",
+      "featureImage" : "https://raw.githubusercontent.com/boddapatiV/Sample/master/FeatureList/my_creations.png",
+      "featureDescription": "Learn how to write a stand out Cook job description. See examples of Cook job descriptions and other tips to attract great candidates. ... We pride ourselves on the culinary creations served from our kitchen, and are looking for an experienced",
     }
-    
   ]
 }
