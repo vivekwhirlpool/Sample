@@ -1,0 +1,30 @@
+{
+  "documentTitle": "JennAir Features List",
+  "modifiedDate": "",
+  "version": "1.0",
+  "preparedBy": "",
+  "reviewedBy": "",
+  "features": [,
+  {
+      "featureName": "Remote control",
+      "featureImage" : "",
+      "featureDescription": "Remote control the appliances from mobile application",
+},
+    {
+      "featureName": "Notifications",
+      "featureImage" : "",
+      "featureDescription": "Receive real-time notifications and control from anywhere with remote access",
+    },
+    {
+      "featureName": "Culinary Center",
+      "featureImage" : "",
+      "featureDescription": "Best way of cooking",
+    },
+    {
+      "featureName": "Guest Users",
+      "featureImage" : "",
+      "featureDescription": "User Account Management",
+    }
+    
+  ]
+}
