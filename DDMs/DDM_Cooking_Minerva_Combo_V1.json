@@ -3174,6 +3174,7 @@
           "LowerCavity_CavityModeOvenCvtFrznPizza": {
             "Required": {
               "LowerCavity_CavityTargetTemp": {
+                "Order": 1,
                 "TempRange": {
                   "Min": 3000,
                   "Max": 5000,
@@ -3184,6 +3185,7 @@
             },
             "Optional": {
               "LowerCavity_CookTimeSetTime": {
+                "Order": 2,
                 "Range": {
                   "Min": 0,
                   "Max": 43200,
@@ -3192,6 +3194,7 @@
                 }
               },
               "LowerCavity_DelayTimeSetTime": {
+                "Order": 3,
                 "Range": {
                   "Min": 0,
                   "Max": 43140,
@@ -3200,6 +3203,7 @@
                 }
               },
               "LowerCavity_CookTimeCompleteAction": {
+                "Order": 4,
                 "Enumeration": [
                   "StayOn",
                   "KeepWarm",
@@ -3212,6 +3216,7 @@
           "LowerCavity_CavityModeOvenCvtPastry": {
             "Required": {
               "LowerCavity_CavityTargetTemp": {
+                "Order": 1,
                 "List": [
                   1700,
                   2000,
@@ -3235,6 +3240,7 @@
             },
             "Optional": {
               "LowerCavity_CookTimeSetTime": {
+                "Order": 2,
                 "Range": {
                   "Min": 0,
                   "Max": 43200,
@@ -3243,6 +3249,7 @@
                 }
               },
               "LowerCavity_DelayTimeSetTime": {
+                "Order": 3,
                 "Range": {
                   "Min": 0,
                   "Max": 43140,
@@ -3251,6 +3258,7 @@
                 }
               },
               "LowerCavity_CookTimeCompleteAction": {
+                "Order": 4,
                 "Enumeration": [
                   "StayOn",
                   "KeepWarm",
@@ -3263,6 +3271,7 @@
           "LowerCavity_CavityModeOvenCvtSlowRoast12hrs": {
             "Required": {
               "LowerCavity_CavityTargetTemp": {
+                "Order": 1,
                 "TempRange": {
                   "Min": 1900,
                   "Max": 2250,
@@ -3271,12 +3280,14 @@
                 }
               },
               "LowerCavity_CookTimeSetTime": {
+                "Order": 2,
                 "List": [
                   43200
                 ],
                 "Default": 43200
               },
               "LowerCavity_CookTimeCompleteAction": {
+                "Order": 4,
                 "Enumeration": [
                   "StayOn",
                   "KeepWarm",
@@ -3287,6 +3298,7 @@
             },
             "Optional": {
               "LowerCavity_DelayTimeSetTime": {
+                "Order": 3,
                 "Range": {
                   "Min": 0,
                   "Max": 43140,
@@ -3299,6 +3311,7 @@
           "LowerCavity_CavityModeOvenCvtSlowRoast8hrs": {
             "Required": {
               "LowerCavity_CavityTargetTemp": {
+                "Order": 1,
                 "TempRange": {
                   "Min": 2000,
                   "Max": 2500,
@@ -3307,12 +3320,14 @@
                 }
               },
               "LowerCavity_CookTimeSetTime": {
+                "Order": 2,
                 "List": [
                   28800
                 ],
                 "Default": 28800
               },
               "LowerCavity_CookTimeCompleteAction": {
+                "Order": 4,
                 "Enumeration": [
                   "StayOn",
                   "KeepWarm",
@@ -3323,6 +3338,7 @@
             },
             "Optional": {
               "LowerCavity_DelayTimeSetTime": {
+                "Order": 3,
                 "Range": {
                   "Min": 0,
                   "Max": 43140,
@@ -3335,6 +3351,7 @@
           "LowerCavity_CavityModeOvenCvtSlowRoast4hrs": {
             "Required": {
               "LowerCavity_CavityTargetTemp": {
+                "Order": 1,
                 "TempRange": {
                   "Min": 2500,
                   "Max": 3000,
@@ -3343,12 +3360,14 @@
                 }
               },
               "LowerCavity_CookTimeSetTime": {
+                "Order": 2,
                 "List": [
                   14400
                 ],
                 "Default": 14400
               },
               "LowerCavity_CookTimeCompleteAction": {
+                "Order": 4,
                 "Enumeration": [
                   "StayOn",
                   "KeepWarm",
@@ -3359,6 +3378,7 @@
             },
             "Optional": {
               "LowerCavity_DelayTimeSetTime": {
+                "Order": 3,
                 "Range": {
                   "Min": 0,
                   "Max": 43140,
@@ -3371,6 +3391,7 @@
           "LowerCavity_CavityModeOvenTrueConvect": {
             "Required": {
               "LowerCavity_CavityTargetTemp": {
+                "Order": 1,
                 "List": [
                   1700,
                   2000,
@@ -3394,6 +3415,7 @@
             },
             "Optional": {
               "LowerCavity_CookTimeSetTime": {
+                "Order": 2,
                 "Range": {
                   "Min": 0,
                   "Max": 43200,
@@ -3402,6 +3424,7 @@
                 }
               },
               "LowerCavity_DelayTimeSetTime": {
+                "Order": 3,
                 "Range": {
                   "Min": 0,
                   "Max": 43140,
@@ -3410,6 +3433,7 @@
                 }
               },
               "LowerCavity_CookTimeCompleteAction": {
+                "Order": 4,
                 "Enumeration": [
                   "StayOn",
                   "KeepWarm",
@@ -3422,6 +3446,7 @@
           "LowerCavity_CavityModeOvenConvectRoast": {
             "Required": {
               "LowerCavity_CavityTargetTemp": {
+                "Order": 1,
                 "List": [
                   1700,
                   2000,
@@ -3445,6 +3470,7 @@
             },
             "Optional": {
               "LowerCavity_CookTimeSetTime": {
+                "Order": 2,
                 "Range": {
                   "Min": 0,
                   "Max": 43200,
@@ -3453,6 +3479,7 @@
                 }
               },
               "LowerCavity_DelayTimeSetTime": {
+                "Order": 3,
                 "Range": {
                   "Min": 0,
                   "Max": 43140,
@@ -3461,6 +3488,7 @@
                 }
               },
               "LowerCavity_CookTimeCompleteAction": {
+                "Order": 4,
                 "Enumeration": [
                   "StayOn",
                   "KeepWarm",
@@ -3473,6 +3501,7 @@
           "LowerCavity_CavityModeOvenConvectBroil": {
             "Required": {
               "LowerCavity_CavityTargetTemp": {
+                "Order": 1,
                 "TempRange": {
                   "Min": 4500,
                   "Max": 5500,
@@ -3483,6 +3512,7 @@
             },
             "Optional": {
               "LowerCavity_CookTimeSetTime": {
+                "Order": 2,
                 "Range": {
                   "Min": 0,
                   "Max": 43200,
@@ -3491,6 +3521,7 @@
                 }
               },
               "LowerCavity_DelayTimeSetTime": {
+                "Order": 3,
                 "Range": {
                   "Min": 0,
                   "Max": 43140,
@@ -3499,6 +3530,7 @@
                 }
               },
               "LowerCavity_CookTimeCompleteAction": {
+                "Order": 4,
                 "Enumeration": [
                   "StayOn",
                   "KeepWarm",
@@ -3511,6 +3543,7 @@
           "LowerCavity_CavityModeOvenConvectBake": {
             "Required": {
               "LowerCavity_CavityTargetTemp": {
+                "Order": 1,
                 "List": [
                   1700,
                   2000,
@@ -3534,6 +3567,7 @@
             },
             "Optional": {
               "LowerCavity_CookTimeSetTime": {
+                "Order": 2,
                 "Range": {
                   "Min": 0,
                   "Max": 43200,
@@ -3542,6 +3576,7 @@
                 }
               },
               "LowerCavity_DelayTimeSetTime": {
+                "Order": 3,
                 "Range": {
                   "Min": 0,
                   "Max": 43140,
@@ -3550,6 +3585,7 @@
                 }
               },
               "LowerCavity_CookTimeCompleteAction": {
+                "Order": 4,
                 "Enumeration": [
                   "StayOn",
                   "KeepWarm",
@@ -3562,6 +3598,7 @@
           "LowerCavity_CavityModeOvenConvectBakeRapidPreheat": {
             "Required": {
               "LowerCavity_CavityTargetTemp": {
+                "Order": 1,
                 "List": [
                   1700,
                   2000,
@@ -3585,6 +3622,7 @@
             },
             "Optional": {
               "LowerCavity_CookTimeSetTime": {
+                "Order": 2,
                 "Range": {
                   "Min": 0,
                   "Max": 43200,
@@ -3593,6 +3631,7 @@
                 }
               },
               "LowerCavity_DelayTimeSetTime": {
+                "Order": 3,
                 "Range": {
                   "Min": 0,
                   "Max": 43140,
@@ -3601,6 +3640,7 @@
                 }
               },
               "LowerCavity_CookTimeCompleteAction": {
+                "Order": 4,
                 "Enumeration": [
                   "StayOn",
                   "KeepWarm",
@@ -3613,6 +3653,7 @@
           "LowerCavity_CavityModeOvenConvertRecipeCvtPastry": {
             "Required": {
               "LowerCavity_CavityTargetTemp": {
+                "Order": 1,
                 "List": [
                   1700,
                   2000,
@@ -3636,6 +3677,7 @@
             },
             "Optional": {
               "LowerCavity_CookTimeSetTime": {
+                "Order": 2,
                 "Range": {
                   "Min": 0,
                   "Max": 43200,
@@ -3644,6 +3686,7 @@
                 }
               },
               "LowerCavity_DelayTimeSetTime": {
+                "Order": 3,
                 "Range": {
                   "Min": 0,
                   "Max": 43140,
@@ -3652,6 +3695,7 @@
                 }
               },
               "LowerCavity_CookTimeCompleteAction": {
+                "Order": 4,
                 "Enumeration": [
                   "StayOn",
                   "KeepWarm",
@@ -3664,6 +3708,7 @@
           "LowerCavity_CavityModeOvenConvertRecipeConvectRoast": {
             "Required": {
               "LowerCavity_CavityTargetTemp": {
+                "Order": 1,
                 "List": [
                   1700,
                   2000,
@@ -3687,6 +3732,7 @@
             },
             "Optional": {
               "LowerCavity_CookTimeSetTime": {
+                "Order": 2,
                 "Range": {
                   "Min": 0,
                   "Max": 43200,
@@ -3695,6 +3741,7 @@
                 }
               },
               "LowerCavity_DelayTimeSetTime": {
+                "Order": 3,
                 "Range": {
                   "Min": 0,
                   "Max": 43140,
@@ -3703,6 +3750,7 @@
                 }
               },
               "LowerCavity_CookTimeCompleteAction": {
+                "Order": 4,
                 "Enumeration": [
                   "StayOn",
                   "KeepWarm",
@@ -3715,6 +3763,7 @@
           "LowerCavity_CavityModeOvenConvertRecipeConvectBake": {
             "Required": {
               "LowerCavity_CavityTargetTemp": {
+                "Order": 1,
                 "List": [
                   1700,
                   2000,
@@ -3738,6 +3787,7 @@
             },
             "Optional": {
               "LowerCavity_CookTimeSetTime": {
+                "Order": 2,
                 "Range": {
                   "Min": 0,
                   "Max": 43200,
@@ -3746,6 +3796,7 @@
                 }
               },
               "LowerCavity_DelayTimeSetTime": {
+                "Order": 3,
                 "Range": {
                   "Min": 0,
                   "Max": 43140,
@@ -3754,6 +3805,7 @@
                 }
               },
               "LowerCavity_CookTimeCompleteAction": {
+                "Order": 4,
                 "Enumeration": [
                   "StayOn",
                   "KeepWarm",
@@ -3766,6 +3818,7 @@
           "LowerCavity_CavityModeOvenConvertRecipeConvectBroil": {
             "Required": {
               "LowerCavity_CavityTargetTemp": {
+                "Order": 1,
                 "TempRange": {
                   "Min": 4500,
                   "Max": 5500,
@@ -3776,6 +3829,7 @@
             },
             "Optional": {
               "LowerCavity_CookTimeSetTime": {
+                "Order": 2,
                 "Range": {
                   "Min": 0,
                   "Max": 43200,
@@ -3784,6 +3838,7 @@
                 }
               },
               "LowerCavity_DelayTimeSetTime": {
+                "Order": 3,
                 "Range": {
                   "Min": 0,
                   "Max": 43140,
@@ -3792,6 +3847,7 @@
                 }
               },
               "LowerCavity_CookTimeCompleteAction": {
+                "Order": 4,
                 "Enumeration": [
                   "StayOn",
                   "KeepWarm",
@@ -3804,6 +3860,7 @@
           "LowerCavity_CavityModeOvenBake": {
             "Required": {
               "LowerCavity_CavityTargetTemp": {
+                "Order": 1,
                 "List": [
                   1700,
                   2000,
@@ -3827,6 +3884,7 @@
             },
             "Optional": {
               "LowerCavity_CookTimeSetTime": {
+                "Order": 2,
                 "Range": {
                   "Min": 0,
                   "Max": 43200,
@@ -3835,6 +3893,7 @@
                 }
               },
               "LowerCavity_DelayTimeSetTime": {
+                "Order": 3,
                 "Range": {
                   "Min": 0,
                   "Max": 43140,
@@ -3843,6 +3902,7 @@
                 }
               },
               "LowerCavity_CookTimeCompleteAction": {
+                "Order": 4,
                 "Enumeration": [
                   "StayOn",
                   "KeepWarm",
@@ -3855,6 +3915,7 @@
           "LowerCavity_CavityModeOvenNoPreheat1RackCooking": {
             "Required": {
               "LowerCavity_CavityTargetTemp": {
+                "Order": 1,
                 "List": [
                   1700,
                   2000,
@@ -3878,6 +3939,7 @@
             },
             "Optional": {
               "LowerCavity_CookTimeSetTime": {
+                "Order": 2,
                 "Range": {
                   "Min": 0,
                   "Max": 43200,
@@ -3886,6 +3948,7 @@
                 }
               },
               "LowerCavity_DelayTimeSetTime": {
+                "Order": 3,
                 "Range": {
                   "Min": 0,
                   "Max": 43140,
@@ -3894,6 +3957,7 @@
                 }
               },
               "LowerCavity_CookTimeCompleteAction": {
+                "Order": 4,
                 "Enumeration": [
                   "StayOn",
                   "KeepWarm",
@@ -3906,6 +3970,7 @@
           "LowerCavity_CavityModeOvenBroil": {
             "Required": {
               "LowerCavity_CavityTargetTemp": {
+                "Order": 1,
                 "TempRange": {
                   "StepF": 5,
                   "Min": 4500,
@@ -3916,6 +3981,7 @@
             },
             "Optional": {
               "LowerCavity_CookTimeSetTime": {
+                "Order": 2,
                 "Range": {
                   "Min": 0,
                   "Max": 43200,
@@ -3924,6 +3990,7 @@
                 }
               },
               "LowerCavity_DelayTimeSetTime": {
+                "Order": 3,
                 "Range": {
                   "Min": 0,
                   "Max": 43140,
@@ -3932,6 +3999,7 @@
                 }
               },
               "LowerCavity_CookTimeCompleteAction": {
+                "Order": 4,
                 "Enumeration": [
                   "StayOn",
                   "KeepWarm",
@@ -3944,6 +4012,7 @@
           "LowerCavity_CavityModeOvenPCConvectRoast": {
             "Required": {
               "LowerCavity_CavityTargetTemp": {
+                "Order": 1,
                 "List": [
                   1700,
                   2000,
@@ -3967,6 +4036,7 @@
             },
             "Optional": {
               "LowerCavity_CookTimeSetTime": {
+                "Order": 2,
                 "Range": {
                   "Min": 0,
                   "Max": 43200,
@@ -3975,6 +4045,7 @@
                 }
               },
               "LowerCavity_DelayTimeSetTime": {
+                "Order": 3,
                 "Range": {
                   "Min": 0,
                   "Max": 43140,
@@ -3983,6 +4054,7 @@
                 }
               },
               "LowerCavity_CookTimeCompleteAction": {
+                "Order": 4,
                 "Enumeration": [
                   "StayOn",
                   "KeepWarm",
@@ -3995,6 +4067,7 @@
           "LowerCavity_CavityModeOvenPCConvectBake": {
             "Required": {
               "LowerCavity_CavityTargetTemp": {
+                "Order": 1,
                 "List": [
                   1700,
                   2000,
@@ -4018,6 +4091,7 @@
             },
             "Optional": {
               "LowerCavity_CookTimeSetTime": {
+                "Order": 2,
                 "Range": {
                   "Min": 0,
                   "Max": 43200,
@@ -4026,6 +4100,7 @@
                 }
               },
               "LowerCavity_DelayTimeSetTime": {
+                "Order": 3,
                 "Range": {
                   "Min": 0,
                   "Max": 43140,
@@ -4034,6 +4109,7 @@
                 }
               },
               "LowerCavity_CookTimeCompleteAction": {
+                "Order": 4,
                 "Enumeration": [
                   "StayOn",
                   "KeepWarm",
@@ -4046,6 +4122,7 @@
           "LowerCavity_CavityModeOvenPCBake": {
             "Required": {
               "LowerCavity_CavityTargetTemp": {
+                "Order": 1,
                 "List": [
                   1700,
                   2000,
@@ -4069,6 +4146,7 @@
             },
             "Optional": {
               "LowerCavity_CookTimeSetTime": {
+                "Order": 2,
                 "Range": {
                   "Min": 0,
                   "Max": 43200,
@@ -4077,6 +4155,7 @@
                 }
               },
               "LowerCavity_DelayTimeSetTime": {
+                "Order": 3,
                 "Range": {
                   "Min": 0,
                   "Max": 43140,
@@ -4085,6 +4164,7 @@
                 }
               },
               "LowerCavity_CookTimeCompleteAction": {
+                "Order": 4,
                 "Enumeration": [
                   "StayOn",
                   "KeepWarm",
@@ -4097,6 +4177,7 @@
           "LowerCavity_CavityModeOvenPCFGPrecookedHam": {
             "Required": {
               "LowerCavity_CavityTargetTemp": {
+                "Order": 1,
                 "List": [
                   1700,
                   2000,
@@ -4126,6 +4207,7 @@
             },
             "Optional": {
               "LowerCavity_DelayTimeSetTime": {
+                "Order": 3,
                 "Range": {
                   "Min": 0,
                   "Max": 43140,
@@ -4138,6 +4220,7 @@
           "LowerCavity_CavityModeOvenPCFGPorkMedium": {
             "Required": {
               "LowerCavity_CavityTargetTemp": {
+                "Order": 1,
                 "List": [
                   1700,
                   2000,
@@ -4167,6 +4250,7 @@
             },
             "Optional": {
               "LowerCavity_DelayTimeSetTime": {
+                "Order": 3,
                 "Range": {
                   "Min": 0,
                   "Max": 43140,
@@ -4174,734 +4258,777 @@
                   "Default": 0
                 }
               }
-            }},
-            "LowerCavity_CavityModeOvenPCFGPorkWellDone": {
-              "Required": {
-                "LowerCavity_CavityTargetTemp": {
-                  "List": [
-                    1700,
-                    2000,
-                    2250,
-                    2500,
-                    2750,
-                    3000,
-                    3250,
-                    3500,
-                    3750,
-                    4000,
-                    4250,
-                    4500,
-                    4750,
-                    5000,
-                    5250,
-                    5500
-                  ],
-                  "Default": 3500
-                },
-                "LowerCavity_MeatProbeTargetTemp": {
-                  "List": [
-                    1600
-                  ],
-                  "Default": 1600
-                }
+            }
+          },
+          "LowerCavity_CavityModeOvenPCFGPorkWellDone": {
+            "Required": {
+              "LowerCavity_CavityTargetTemp": {
+                "Order": 1,
+                "List": [
+                  1700,
+                  2000,
+                  2250,
+                  2500,
+                  2750,
+                  3000,
+                  3250,
+                  3500,
+                  3750,
+                  4000,
+                  4250,
+                  4500,
+                  4750,
+                  5000,
+                  5250,
+                  5500
+                ],
+                "Default": 3500
               },
-              "Optional": {
-                "LowerCavity_DelayTimeSetTime": {
-                  "Range": {
-                    "Min": 0,
-                    "Max": 43140,
-                    "Step": 900,
-                    "Default": 0
-                  }
-                }
+              "LowerCavity_MeatProbeTargetTemp": {
+                "List": [
+                  1600
+                ],
+                "Default": 1600
               }
             },
-            "LowerCavity_CavityModeOvenPCFGChickenBreast": {
-              "Required": {
-                "LowerCavity_CavityTargetTemp": {
-                  "List": [
-                    1700,
-                    2000,
-                    2250,
-                    2500,
-                    2750,
-                    3000,
-                    3250,
-                    3500,
-                    3750,
-                    4000,
-                    4250,
-                    4500,
-                    4750,
-                    5000,
-                    5250,
-                    5500
-                  ],
-                  "Default": 3500
-                },
-                "LowerCavity_MeatProbeTargetTemp": {
-                  "List": [
-                    1700
-                  ],
+            "Optional": {
+              "LowerCavity_DelayTimeSetTime": {
+                "Order": 3,
+                "Range": {
+                  "Min": 0,
+                  "Max": 43140,
+                  "Step": 900,
+                  "Default": 0
+                }
+              }
+            }
+          },
+          "LowerCavity_CavityModeOvenPCFGChickenBreast": {
+            "Required": {
+              "LowerCavity_CavityTargetTemp": {
+                "Order": 1,
+                "List": [
+                  1700,
+                  2000,
+                  2250,
+                  2500,
+                  2750,
+                  3000,
+                  3250,
+                  3500,
+                  3750,
+                  4000,
+                  4250,
+                  4500,
+                  4750,
+                  5000,
+                  5250,
+                  5500
+                ],
+                "Default": 3500
+              },
+              "LowerCavity_MeatProbeTargetTemp": {
+                "List": [
+                  1700
+                ],
+                "Default": 1700
+              }
+            },
+            "Optional": {
+              "LowerCavity_DelayTimeSetTime": {
+                "Order": 3,
+                "Range": {
+                  "Min": 0,
+                  "Max": 43140,
+                  "Step": 900,
+                  "Default": 0
+                }
+              }
+            }
+          },
+          "LowerCavity_CavityModeOvenPCFGChickenWhole": {
+            "Required": {
+              "LowerCavity_CavityTargetTemp": {
+                "Order": 1,
+                "List": [
+                  1700,
+                  2000,
+                  2250,
+                  2500,
+                  2750,
+                  3000,
+                  3250,
+                  3500,
+                  3750,
+                  4000,
+                  4250,
+                  4500,
+                  4750,
+                  5000,
+                  5250,
+                  5500
+                ],
+                "Default": 3500
+              },
+              "LowerCavity_MeatProbeTargetTemp": {
+                "List": [
+                  1800
+                ],
+                "Default": 1800
+              }
+            },
+            "Optional": {
+              "LowerCavity_DelayTimeSetTime": {
+                "Order": 3,
+                "Range": {
+                  "Min": 0,
+                  "Max": 43140,
+                  "Step": 900,
+                  "Default": 0
+                }
+              }
+            }
+          },
+          "LowerCavity_CavityModeOvenPCFGTurkeyBreast": {
+            "Required": {
+              "LowerCavity_CavityTargetTemp": {
+                "Order": 1,
+                "List": [
+                  1700,
+                  2000,
+                  2250,
+                  2500,
+                  2750,
+                  3000,
+                  3250,
+                  3500,
+                  3750,
+                  4000,
+                  4250,
+                  4500,
+                  4750,
+                  5000,
+                  5250,
+                  5500
+                ],
+                "Default": 3500
+              },
+              "LowerCavity_MeatProbeTargetTemp": {
+                "List": [
+                  1700
+                ],
+                "Default": 1700
+              }
+            },
+            "Optional": {
+              "LowerCavity_DelayTimeSetTime": {
+                "Order": 3,
+                "Range": {
+                  "Min": 0,
+                  "Max": 43140,
+                  "Step": 900,
+                  "Default": 0
+                }
+              }
+            }
+          },
+          "LowerCavity_CavityModeOvenPCFGTurkeyWhole": {
+            "Required": {
+              "LowerCavity_CavityTargetTemp": {
+                "Order": 1,
+                "List": [
+                  1700,
+                  2000,
+                  2250,
+                  2500,
+                  2750,
+                  3000,
+                  3250,
+                  3500,
+                  3750,
+                  4000,
+                  4250,
+                  4500,
+                  4750,
+                  5000,
+                  5250,
+                  5500
+                ],
+                "Default": 3500
+              },
+              "LowerCavity_MeatProbeTargetTemp": {
+                "List": [
+                  1800
+                ],
+                "Default": 1800
+              }
+            },
+            "Optional": {
+              "LowerCavity_DelayTimeSetTime": {
+                "Order": 3,
+                "Range": {
+                  "Min": 0,
+                  "Max": 43140,
+                  "Step": 900,
+                  "Default": 0
+                }
+              }
+            }
+          },
+          "LowerCavity_CavityModeOvenPCFGBeefMediumRare": {
+            "Required": {
+              "LowerCavity_CavityTargetTemp": {
+                "Order": 1,
+                "List": [
+                  1700,
+                  2000,
+                  2250,
+                  2500,
+                  2750,
+                  3000,
+                  3250,
+                  3500,
+                  3750,
+                  4000,
+                  4250,
+                  4500,
+                  4750,
+                  5000,
+                  5250,
+                  5500
+                ],
+                "Default": 3500
+              },
+              "LowerCavity_MeatProbeTargetTemp": {
+                "List": [
+                  1300
+                ],
+                "Default": 1300
+              }
+            },
+            "Optional": {
+              "LowerCavity_DelayTimeSetTime": {
+                "Order": 3,
+                "Range": {
+                  "Min": 0,
+                  "Max": 43140,
+                  "Step": 900,
+                  "Default": 0
+                }
+              }
+            }
+          },
+          "LowerCavity_CavityModeOvenPCFGBeefMedium": {
+            "Required": {
+              "LowerCavity_CavityTargetTemp": {
+                "Order": 1,
+                "List": [
+                  1700,
+                  2000,
+                  2250,
+                  2500,
+                  2750,
+                  3000,
+                  3250,
+                  3500,
+                  3750,
+                  4000,
+                  4250,
+                  4500,
+                  4750,
+                  5000,
+                  5250,
+                  5500
+                ],
+                "Default": 3500
+              },
+              "LowerCavity_MeatProbeTargetTemp": {
+                "List": [
+                  1500
+                ],
+                "Default": 1500
+              }
+            },
+            "Optional": {
+              "LowerCavity_DelayTimeSetTime": {
+                "Order": 3,
+                "Range": {
+                  "Min": 0,
+                  "Max": 43140,
+                  "Step": 900,
+                  "Default": 0
+                }
+              }
+            }
+          },
+          "LowerCavity_CavityModeOvenPCFGBeefWellDone": {
+            "Required": {
+              "LowerCavity_CavityTargetTemp": {
+                "Order": 1,
+                "List": [
+                  1700,
+                  2000,
+                  2250,
+                  2500,
+                  2750,
+                  3000,
+                  3250,
+                  3500,
+                  3750,
+                  4000,
+                  4250,
+                  4500,
+                  4750,
+                  5000,
+                  5250,
+                  5500
+                ],
+                "Default": 3500
+              },
+              "LowerCavity_MeatProbeTargetTemp": {
+                "List": [
+                  1600
+                ],
+                "Default": 1600
+              }
+            },
+            "Optional": {
+              "LowerCavity_DelayTimeSetTime": {
+                "Order": 3,
+                "Range": {
+                  "Min": 0,
+                  "Max": 43140,
+                  "Step": 900,
+                  "Default": 0
+                }
+              }
+            }
+          },
+          "LowerCavity_CavityModeOvenPCFGLambMediumRare": {
+            "Required": {
+              "LowerCavity_CavityTargetTemp": {
+                "Order": 1,
+                "List": [
+                  1700,
+                  2000,
+                  2250,
+                  2500,
+                  2750,
+                  3000,
+                  3250,
+                  3500,
+                  3750,
+                  4000,
+                  4250,
+                  4500,
+                  4750,
+                  5000,
+                  5250,
+                  5500
+                ],
+                "Default": 3500
+              },
+              "LowerCavity_MeatProbeTargetTemp": {
+                "List": [
+                  1350
+                ],
+                "Default": 1350
+              }
+            },
+            "Optional": {
+              "LowerCavity_DelayTimeSetTime": {
+                "Order": 3,
+                "Range": {
+                  "Min": 0,
+                  "Max": 43140,
+                  "Step": 900,
+                  "Default": 0
+                }
+              }
+            }
+          },
+          "LowerCavity_CavityModeOvenPCFGLambMedium": {
+            "Required": {
+              "LowerCavity_CavityTargetTemp": {
+                "Order": 1,
+                "List": [
+                  1700,
+                  2000,
+                  2250,
+                  2500,
+                  2750,
+                  3000,
+                  3250,
+                  3500,
+                  3750,
+                  4000,
+                  4250,
+                  4500,
+                  4750,
+                  5000,
+                  5250,
+                  5500
+                ],
+                "Default": 3500
+              },
+              "LowerCavity_MeatProbeTargetTemp": {
+                "List": [
+                  1400
+                ],
+                "Default": 1400
+              }
+            },
+            "Optional": {
+              "LowerCavity_DelayTimeSetTime": {
+                "Order": 3,
+                "Range": {
+                  "Min": 0,
+                  "Max": 43140,
+                  "Step": 900,
+                  "Default": 0
+                }
+              }
+            }
+          },
+          "LowerCavity_CavityModeOvenPCFGLambWellDone": {
+            "Required": {
+              "LowerCavity_CavityTargetTemp": {
+                "Order": 1,
+                "List": [
+                  1700,
+                  2000,
+                  2250,
+                  2500,
+                  2750,
+                  3000,
+                  3250,
+                  3500,
+                  3750,
+                  4000,
+                  4250,
+                  4500,
+                  4750,
+                  5000,
+                  5250,
+                  5500
+                ],
+                "Default": 3500
+              },
+              "LowerCavity_MeatProbeTargetTemp": {
+                "List": [
+                  1600
+                ],
+                "Default": 1600
+              }
+            },
+            "Optional": {
+              "LowerCavity_DelayTimeSetTime": {
+                "Order": 3,
+                "Range": {
+                  "Min": 0,
+                  "Max": 43140,
+                  "Step": 900,
+                  "Default": 0
+                }
+              }
+            }
+          },
+          "LowerCavity_CavityModeOvenPCFGVealMediumRare": {
+            "Required": {
+              "LowerCavity_CavityTargetTemp": {
+                "Order": 1,
+                "List": [
+                  1700,
+                  2000,
+                  2250,
+                  2500,
+                  2750,
+                  3000,
+                  3250,
+                  3500,
+                  3750,
+                  4000,
+                  4250,
+                  4500,
+                  4750,
+                  5000,
+                  5250,
+                  5500
+                ],
+                "Default": 3500
+              },
+              "LowerCavity_MeatProbeTargetTemp": {
+                "List": [
+                  1350
+                ],
+                "Default": 1350
+              }
+            },
+            "Optional": {
+              "LowerCavity_DelayTimeSetTime": {
+                "Order": 3,
+                "Range": {
+                  "Min": 0,
+                  "Max": 43140,
+                  "Step": 900,
+                  "Default": 0
+                }
+              }
+            }
+          },
+          "LowerCavity_CavityModeOvenPCFGVealMedium": {
+            "Required": {
+              "LowerCavity_CavityTargetTemp": {
+                "Order": 1,
+                "List": [
+                  1700,
+                  2000,
+                  2250,
+                  2500,
+                  2750,
+                  3000,
+                  3250,
+                  3500,
+                  3750,
+                  4000,
+                  4250,
+                  4500,
+                  4750,
+                  5000,
+                  5250,
+                  5500
+                ],
+                "Default": 3500
+              },
+              "LowerCavity_MeatProbeTargetTemp": {
+                "List": [
+                  1500
+                ],
+                "Default": 1500
+              }
+            },
+            "Optional": {
+              "LowerCavity_DelayTimeSetTime": {
+                "Order": 3,
+                "Range": {
+                  "Min": 0,
+                  "Max": 43140,
+                  "Step": 900,
+                  "Default": 0
+                }
+              }
+            }
+          },
+          "LowerCavity_CavityModeOvenPCFGVealWellDone": {
+            "Required": {
+              "LowerCavity_CavityTargetTemp": {
+                "Order": 1,
+                "List": [
+                  1700,
+                  2000,
+                  2250,
+                  2500,
+                  2750,
+                  3000,
+                  3250,
+                  3500,
+                  3750,
+                  4000,
+                  4250,
+                  4500,
+                  4750,
+                  5000,
+                  5250,
+                  5500
+                ],
+                "Default": 3500
+              },
+              "LowerCavity_MeatProbeTargetTemp": {
+                "List": [
+                  1600
+                ],
+                "Default": 1600
+              }
+            },
+            "Optional": {
+              "LowerCavity_DelayTimeSetTime": {
+                "Order": 3,
+                "Range": {
+                  "Min": 0,
+                  "Max": 43140,
+                  "Step": 900,
+                  "Default": 0
+                }
+              }
+            }
+          },
+          "LowerCavity_CavityModeOvenKeepWarm": {
+            "Required": {
+              "LowerCavity_CavityTargetTemp": {
+                "Order": 1,
+                "TempRange": {
+                  "StepF": 5,
+                  "Min": 1500,
+                  "Max": 2000,
                   "Default": 1700
                 }
+              }
+            },
+            "Optional": {
+              "LowerCavity_CookTimeSetTime": {
+                "Order": 2,
+                "Range": {
+                  "Min": 0,
+                  "Max": 43200,
+                  "Step": 60,
+                  "Default": 0
+                }
               },
-              "Optional": {
-                "LowerCavity_DelayTimeSetTime": {
-                  "Range": {
-                    "Min": 0,
-                    "Max": 43140,
-                    "Step": 900,
-                    "Default": 0
-                  }
+              "LowerCavity_DelayTimeSetTime": {
+                "Order": 3,
+                "Range": {
+                  "Min": 0,
+                  "Max": 43140,
+                  "Step": 900,
+                  "Default": 0
+                }
+              },
+              "LowerCavity_CookTimeCompleteAction": {
+                "Order": 4,
+                "Enumeration": [
+                  "StayOn",
+                  "KeepWarm",
+                  "TurnOff"
+                ],
+                "Default": "StayOn"
+              }
+            }
+          },
+          "LowerCavity_CavityModeOvenRapidProof": {
+            "Required": {
+              "LowerCavity_CavityTargetTemp": {
+                "Order": 1,
+                "List": [
+                  1100
+                ],
+                "Default": 1100
+              }
+            },
+            "Optional": {
+              "LowerCavity_CookTimeSetTime": {
+                "Order": 2,
+                "Range": {
+                  "Min": 0,
+                  "Max": 43200,
+                  "Step": 60,
+                  "Default": 0
+                }
+              },
+              "LowerCavity_DelayTimeSetTime": {
+                "Order": 3,
+                "Range": {
+                  "Min": 0,
+                  "Max": 43140,
+                  "Step": 900,
+                  "Default": 0
+                }
+              },
+              "LowerCavity_CookTimeCompleteAction": {
+                "Order": 4,
+                "Enumeration": [
+                  "StayOn",
+                  "KeepWarm",
+                  "TurnOff"
+                ],
+                "Default": "StayOn"
+              }
+            }
+          },
+          "LowerCavity_CavityModeOvenProof": {
+            "Required": {
+              "LowerCavity_CavityTargetTemp": {
+                "Order": 1,
+                "List": [
+                  1000
+                ],
+                "Default": 1000
+              }
+            },
+            "Optional": {
+              "LowerCavity_CookTimeSetTime": {
+                "Order": 2,
+                "Range": {
+                  "Min": 0,
+                  "Max": 43200,
+                  "Step": 60,
+                  "Default": 0
+                }
+              },
+              "LowerCavity_DelayTimeSetTime": {
+                "Order": 3,
+                "Range": {
+                  "Min": 0,
+                  "Max": 43140,
+                  "Step": 900,
+                  "Default": 0
+                }
+              },
+              "LowerCavity_CookTimeCompleteAction": {
+                "Order": 4,
+                "Enumeration": [
+                  "StayOn",
+                  "KeepWarm",
+                  "TurnOff"
+                ],
+                "Default": "StayOn"
+              }
+            }
+          },
+          "LowerCavity_CavityModeOvenSabbath": {
+            "Required": {
+              "LowerCavity_CavityTargetTemp": {
+                "Order": 1,
+                "List": [
+                  1700,
+                  2000,
+                  2250,
+                  2500,
+                  2750,
+                  3000,
+                  3250,
+                  3500,
+                  3750,
+                  4000,
+                  4250,
+                  4500,
+                  4750,
+                  5000,
+                  5250,
+                  5500
+                ],
+                "Default": 3500
+              },
+              "LowerCavity_CookTimeSetTime": {
+                "Order": 2,
+                "Range": {
+                  "Min": 0,
+                  "Max": 86400,
+                  "Step": 60,
+                  "Default": 0
                 }
               }
             },
-            "LowerCavity_CavityModeOvenPCFGChickenWhole": {
-              "Required": {
-                "LowerCavity_CavityTargetTemp": {
-                  "List": [
-                    1700,
-                    2000,
-                    2250,
-                    2500,
-                    2750,
-                    3000,
-                    3250,
-                    3500,
-                    3750,
-                    4000,
-                    4250,
-                    4500,
-                    4750,
-                    5000,
-                    5250,
-                    5500
-                  ],
-                  "Default": 3500
-                },
-                "LowerCavity_MeatProbeTargetTemp": {
-                  "List": [
-                    1800
-                  ],
-                  "Default": 1800
-                }
-              },
-              "Optional": {
-                "LowerCavity_DelayTimeSetTime": {
-                  "Range": {
-                    "Min": 0,
-                    "Max": 43140,
-                    "Step": 900,
-                    "Default": 0
-                  }
+            "Optional": {
+              "LowerCavity_DelayTimeSetTime": {
+                "Order": 3,
+                "Range": {
+                  "Min": 0,
+                  "Max": 43140,
+                  "Step": 900,
+                  "Default": 0
                 }
               }
-            },
-            "LowerCavity_CavityModeOvenPCFGTurkeyBreast": {
-              "Required": {
-                "LowerCavity_CavityTargetTemp": {
-                  "List": [
-                    1700,
-                    2000,
-                    2250,
-                    2500,
-                    2750,
-                    3000,
-                    3250,
-                    3500,
-                    3750,
-                    4000,
-                    4250,
-                    4500,
-                    4750,
-                    5000,
-                    5250,
-                    5500
-                  ],
-                  "Default": 3500
-                },
-                "LowerCavity_MeatProbeTargetTemp": {
-                  "List": [
-                    1700
-                  ],
-                  "Default": 1700
-                }
-              },
-              "Optional": {
-                "LowerCavity_DelayTimeSetTime": {
-                  "Range": {
-                    "Min": 0,
-                    "Max": 43140,
-                    "Step": 900,
-                    "Default": 0
-                  }
-                }
-              }
-            },
-            "LowerCavity_CavityModeOvenPCFGTurkeyWhole": {
-              "Required": {
-                "LowerCavity_CavityTargetTemp": {
-                  "List": [
-                    1700,
-                    2000,
-                    2250,
-                    2500,
-                    2750,
-                    3000,
-                    3250,
-                    3500,
-                    3750,
-                    4000,
-                    4250,
-                    4500,
-                    4750,
-                    5000,
-                    5250,
-                    5500
-                  ],
-                  "Default": 3500
-                },
-                "LowerCavity_MeatProbeTargetTemp": {
-                  "List": [
-                    1800
-                  ],
-                  "Default": 1800
-                }
-              },
-              "Optional": {
-                "LowerCavity_DelayTimeSetTime": {
-                  "Range": {
-                    "Min": 0,
-                    "Max": 43140,
-                    "Step": 900,
-                    "Default": 0
-                  }
-                }
-              }
-            },
-            "LowerCavity_CavityModeOvenPCFGBeefMediumRare": {
-              "Required": {
-                "LowerCavity_CavityTargetTemp": {
-                  "List": [
-                    1700,
-                    2000,
-                    2250,
-                    2500,
-                    2750,
-                    3000,
-                    3250,
-                    3500,
-                    3750,
-                    4000,
-                    4250,
-                    4500,
-                    4750,
-                    5000,
-                    5250,
-                    5500
-                  ],
-                  "Default": 3500
-                },
-                "LowerCavity_MeatProbeTargetTemp": {
-                  "List": [
-                    1300
-                  ],
-                  "Default": 1300
-                }
-              },
-              "Optional": {
-                "LowerCavity_DelayTimeSetTime": {
-                  "Range": {
-                    "Min": 0,
-                    "Max": 43140,
-                    "Step": 900,
-                    "Default": 0
-                  }
-                }
-              }
-            },
-            "LowerCavity_CavityModeOvenPCFGBeefMedium": {
-              "Required": {
-                "LowerCavity_CavityTargetTemp": {
-                  "List": [
-                    1700,
-                    2000,
-                    2250,
-                    2500,
-                    2750,
-                    3000,
-                    3250,
-                    3500,
-                    3750,
-                    4000,
-                    4250,
-                    4500,
-                    4750,
-                    5000,
-                    5250,
-                    5500
-                  ],
-                  "Default": 3500
-                },
-                "LowerCavity_MeatProbeTargetTemp": {
-                  "List": [
-                    1500
-                  ],
-                  "Default": 1500
-                }
-              },
-              "Optional": {
-                "LowerCavity_DelayTimeSetTime": {
-                  "Range": {
-                    "Min": 0,
-                    "Max": 43140,
-                    "Step": 900,
-                    "Default": 0
-                  }
-                }
-              }
-            },
-            "LowerCavity_CavityModeOvenPCFGBeefWellDone": {
-              "Required": {
-                "LowerCavity_CavityTargetTemp": {
-                  "List": [
-                    1700,
-                    2000,
-                    2250,
-                    2500,
-                    2750,
-                    3000,
-                    3250,
-                    3500,
-                    3750,
-                    4000,
-                    4250,
-                    4500,
-                    4750,
-                    5000,
-                    5250,
-                    5500
-                  ],
-                  "Default": 3500
-                },
-                "LowerCavity_MeatProbeTargetTemp": {
-                  "List": [
-                    1600
-                  ],
-                  "Default": 1600
-                }
-              },
-              "Optional": {
-                "LowerCavity_DelayTimeSetTime": {
-                  "Range": {
-                    "Min": 0,
-                    "Max": 43140,
-                    "Step": 900,
-                    "Default": 0
-                  }
-                }
-              }
-            },
-            "LowerCavity_CavityModeOvenPCFGLambMediumRare": {
-              "Required": {
-                "LowerCavity_CavityTargetTemp": {
-                  "List": [
-                    1700,
-                    2000,
-                    2250,
-                    2500,
-                    2750,
-                    3000,
-                    3250,
-                    3500,
-                    3750,
-                    4000,
-                    4250,
-                    4500,
-                    4750,
-                    5000,
-                    5250,
-                    5500
-                  ],
-                  "Default": 3500
-                },
-                "LowerCavity_MeatProbeTargetTemp": {
-                  "List": [
-                    1350
-                  ],
-                  "Default": 1350
-                }
-              },
-              "Optional": {
-                "LowerCavity_DelayTimeSetTime": {
-                  "Range": {
-                    "Min": 0,
-                    "Max": 43140,
-                    "Step": 900,
-                    "Default": 0
-                  }
-                }
-              }
-            },
-            "LowerCavity_CavityModeOvenPCFGLambMedium": {
-              "Required": {
-                "LowerCavity_CavityTargetTemp": {
-                  "List": [
-                    1700,
-                    2000,
-                    2250,
-                    2500,
-                    2750,
-                    3000,
-                    3250,
-                    3500,
-                    3750,
-                    4000,
-                    4250,
-                    4500,
-                    4750,
-                    5000,
-                    5250,
-                    5500
-                  ],
-                  "Default": 3500
-                },
-                "LowerCavity_MeatProbeTargetTemp": {
-                  "List": [
-                    1400
-                  ],
-                  "Default": 1400
-                }
-              },
-              "Optional": {
-                "LowerCavity_DelayTimeSetTime": {
-                  "Range": {
-                    "Min": 0,
-                    "Max": 43140,
-                    "Step": 900,
-                    "Default": 0
-                  }
-                }
-              }
-            },
-            "LowerCavity_CavityModeOvenPCFGLambWellDone": {
-              "Required": {
-                "LowerCavity_CavityTargetTemp": {
-                  "List": [
-                    1700,
-                    2000,
-                    2250,
-                    2500,
-                    2750,
-                    3000,
-                    3250,
-                    3500,
-                    3750,
-                    4000,
-                    4250,
-                    4500,
-                    4750,
-                    5000,
-                    5250,
-                    5500
-                  ],
-                  "Default": 3500
-                },
-                "LowerCavity_MeatProbeTargetTemp": {
-                  "List": [
-                    1600
-                  ],
-                  "Default": 1600
-                }
-              },
-              "Optional": {
-                "LowerCavity_DelayTimeSetTime": {
-                  "Range": {
-                    "Min": 0,
-                    "Max": 43140,
-                    "Step": 900,
-                    "Default": 0
-                  }
-                }
-              }
-            },
-            "LowerCavity_CavityModeOvenPCFGVealMediumRare": {
-              "Required": {
-                "LowerCavity_CavityTargetTemp": {
-                  "List": [
-                    1700,
-                    2000,
-                    2250,
-                    2500,
-                    2750,
-                    3000,
-                    3250,
-                    3500,
-                    3750,
-                    4000,
-                    4250,
-                    4500,
-                    4750,
-                    5000,
-                    5250,
-                    5500
-                  ],
-                  "Default": 3500
-                },
-                "LowerCavity_MeatProbeTargetTemp": {
-                  "List": [
-                    1350
-                  ],
-                  "Default": 1350
-                }
-              },
-              "Optional": {
-                "LowerCavity_DelayTimeSetTime": {
-                  "Range": {
-                    "Min": 0,
-                    "Max": 43140,
-                    "Step": 900,
-                    "Default": 0
-                  }
-                }
-              }
-            },
-            "LowerCavity_CavityModeOvenPCFGVealMedium": {
-              "Required": {
-                "LowerCavity_CavityTargetTemp": {
-                  "List": [
-                    1700,
-                    2000,
-                    2250,
-                    2500,
-                    2750,
-                    3000,
-                    3250,
-                    3500,
-                    3750,
-                    4000,
-                    4250,
-                    4500,
-                    4750,
-                    5000,
-                    5250,
-                    5500
-                  ],
-                  "Default": 3500
-                },
-                "LowerCavity_MeatProbeTargetTemp": {
-                  "List": [
-                    1500
-                  ],
-                  "Default": 1500
-                }
-              },
-              "Optional": {
-                "LowerCavity_DelayTimeSetTime": {
-                  "Range": {
-                    "Min": 0,
-                    "Max": 43140,
-                    "Step": 900,
-                    "Default": 0
-                  }
-                }
-              }
-            },
-            "LowerCavity_CavityModeOvenPCFGVealWellDone": {
-              "Required": {
-                "LowerCavity_CavityTargetTemp": {
-                  "List": [
-                    1700,
-                    2000,
-                    2250,
-                    2500,
-                    2750,
-                    3000,
-                    3250,
-                    3500,
-                    3750,
-                    4000,
-                    4250,
-                    4500,
-                    4750,
-                    5000,
-                    5250,
-                    5500
-                  ],
-                  "Default": 3500
-                },
-                "LowerCavity_MeatProbeTargetTemp": {
-                  "List": [
-                    1600
-                  ],
-                  "Default": 1600
-                }
-              },
-              "Optional": {
-                "LowerCavity_DelayTimeSetTime": {
-                  "Range": {
-                    "Min": 0,
-                    "Max": 43140,
-                    "Step": 900,
-                    "Default": 0
-                  }
-                }
-              }
-            },
-            "LowerCavity_CavityModeOvenKeepWarm": {
-              "Required": {
-                "LowerCavity_CavityTargetTemp": {
-                  "TempRange": {
-                    "StepF": 5,
-                    "Min": 1500,
-                    "Max": 2000,
-                    "Default": 1700
-                  }
-                }
-              },
-              "Optional": {
-                "LowerCavity_CookTimeSetTime": {
-                  "Range": {
-                    "Min": 0,
-                    "Max": 43200,
-                    "Step": 60,
-                    "Default": 0
-                  }
-                },
-                "LowerCavity_DelayTimeSetTime": {
-                  "Range": {
-                    "Min": 0,
-                    "Max": 43140,
-                    "Step": 900,
-                    "Default": 0
-                  }
-                },
-                "LowerCavity_CookTimeCompleteAction": {
-                  "Enumeration": [
-                    "StayOn",
-                    "KeepWarm",
-                    "TurnOff"
-                  ],
-                  "Default": "StayOn"
-                }
-              }
-            },
-            "LowerCavity_CavityModeOvenRapidProof": {
-              "Required": {
-                "LowerCavity_CavityTargetTemp": {
-                  "List": [
-                    1100
-                  ],
-                  "Default": 1100
-                }
-              },
-              "Optional": {
-                "LowerCavity_CookTimeSetTime": {
-                  "Range": {
-                    "Min": 0,
-                    "Max": 43200,
-                    "Step": 60,
-                    "Default": 0
-                  }
-                },
-                "LowerCavity_DelayTimeSetTime": {
-                  "Range": {
-                    "Min": 0,
-                    "Max": 43140,
-                    "Step": 900,
-                    "Default": 0
-                  }
-                },
-                "LowerCavity_CookTimeCompleteAction": {
-                  "Enumeration": [
-                    "StayOn",
-                    "KeepWarm",
-                    "TurnOff"
-                  ],
-                  "Default": "StayOn"
-                }
-              }
-            },
-            "LowerCavity_CavityModeOvenProof": {
-              "Required": {
-                "LowerCavity_CavityTargetTemp": {
-                  "List": [
-                    1000
-                  ],
-                  "Default": 1000
-                }
-              },
-              "Optional": {
-                "LowerCavity_CookTimeSetTime": {
-                  "Range": {
-                    "Min": 0,
-                    "Max": 43200,
-                    "Step": 60,
-                    "Default": 0
-                  }
-                },
-                "LowerCavity_DelayTimeSetTime": {
-                  "Range": {
-                    "Min": 0,
-                    "Max": 43140,
-                    "Step": 900,
-                    "Default": 0
-                  }
-                },
-                "LowerCavity_CookTimeCompleteAction": {
-                  "Enumeration": [
-                    "StayOn",
-                    "KeepWarm",
-                    "TurnOff"
-                  ],
-                  "Default": "StayOn"
-                }
-              }
-            },
-            "LowerCavity_CavityModeOvenSabbath": {
-              "Required": {
-                "LowerCavity_CavityTargetTemp": {
-                  "List": [
-                    1700,
-                    2000,
-                    2250,
-                    2500,
-                    2750,
-                    3000,
-                    3250,
-                    3500,
-                    3750,
-                    4000,
-                    4250,
-                    4500,
-                    4750,
-                    5000,
-                    5250,
-                    5500
-                  ],
-                  "Default": 3500
-                },
-                "LowerCavity_CookTimeSetTime": {
-                  "Range": {
-                    "Min": 0,
-                    "Max": 86400,
-                    "Step": 60,
-                    "Default": 0
-                  }
-                }
-              },
-              "Optional": {
-                "LowerCavity_DelayTimeSetTime": {
-                  "Range": {
-                    "Min": 0,
-                    "Max": 43140,
-                    "Step": 900,
-                    "Default": 0
-                  }
-                }
-              }
-            
+            }
           }
         },
         "SetOven": {
@@ -5388,9 +5515,9 @@
             "US",
             "CA"
           ],
-          "StateAttributes": [
-            "UpperCavity_MeatProbeStatus"
-          ]
+          "StateAttributes": {
+            "State": "UpperCavity_MeatProbeStatus"
+          }
         }
       },
       "OvenLowerCavity": {
@@ -5401,7 +5528,7 @@
             "CA"
           ],
           "StateAttributes": {
-            
+
           },
           "StatusAttributes": [
             "LowerCavity_CavityModeOven",
@@ -5432,9 +5559,9 @@
             "US",
             "CA"
           ],
-          "StateAttributes": [
-            "LowerCavity_CavityLight"
-          ]
+          "StateAttributes": {
+            "State": "LowerCavity_CavityLight"
+          }
         },
         "MeatProbe": {
           "Visible": true,
@@ -5443,9 +5570,9 @@
             "US",
             "CA"
           ],
-          "StateAttributes": [
-            "LowerCavity_MeatProbeStatus"
-          ]
+          "StateAttributes": {
+            "State": "LowerCavity_MeatProbeStatus"
+          }
         }
       }
     },
@@ -5671,21 +5798,21 @@
             "name": "ADRS",
             "enabled": false,
             "config": {
-              
+
             }
           },
           {
             "name": "Wallmart",
             "enabled": false,
             "config": {
-              
+
             }
           },
           {
             "name": "Whirlpool",
             "enabled": false,
             "config": {
-              
+
             }
           }
         ]
@@ -5716,14 +5843,14 @@
             "name": "National Grid",
             "enabled": false,
             "config": {
-              
+
             }
           },
           {
             "name": "Genability",
             "enabled": false,
             "config": {
-              
+
             }
           }
         ]
@@ -5736,14 +5863,14 @@
             "name": "Amazon Alexa",
             "enabled": false,
             "config": {
-              
+
             }
           },
           {
             "name": "Google Home",
             "enabled": false,
             "config": {
-              
+
             }
           }
         ]
