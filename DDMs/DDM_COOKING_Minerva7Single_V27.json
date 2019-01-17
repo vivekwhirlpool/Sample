@@ -1,0 +1,3778 @@
+{
+  "_id": "DDM_COOKING_Minerva7Single_V27",
+  "_rev": "6-6f76892e8fefef62fe098e14d6a20abe",
+  "DDM": {
+    "_id": "DDM_COOKING_Minerva7Single_V27",
+    "ddmName": "DDM_COOKING_Minerva7Single_V27",
+    "modelNumber": "WOS51EC0HS00, WOS51EC0HW00,WOS51EC7HB00,WOS51EC7HS00,WOS51EC7HW00,WOS72EC0HB00,WOS72EC0HS00,WOS72EC0HV00,WOS72EC0HW00,WOS72EC7HB00,WOS72EC7HS00,WOS72EC7HV00,WOSA2EC0HB00,WOSA2EC0HN00,WOSA2EC0HZ00, WOS72EC7HV, WOS72EC0HS,WOS72EC0HB,WOS72EC0HW,WOS72EC0HV,WOS72EC7HS,WOS72EC7HB",
+    "createdAt": "Mar 21, 2018 1:14:15 PM",
+    "createdBy": "Alekhya",
+    "brandName": "Whirlpool",
+    "category": "Cooking",
+    "version": "27",
+    "ccuriVersion": "API144_COOKING_V27",
+    "ccURI": "API144_COOKING_V27"
+  },
+  "DataModel": {
+    "Key": "DDM_COOKING_Minerva7Single_V27",
+    "attributes": [
+      {
+        "M2MAttributeName": "XCat_PersistentInfoVersion",
+        "Instance": "XCat_PersistentInfo",
+        "AttributeName": "Version",
+        "Key": "0x01010001",
+        "MappedAttributeName": "XCat_PersistentInfoVersion",
+        "DataType": "BEIntegerUnsigned16Bit",
+        "DeviceIO": "RO",
+        "IsTimeSeries": false,
+        "IsTemplate": false,
+        "Default": 0,
+        "RangeValues": {
+          "Min": 0,
+          "Max": 65535,
+          "StepSize": 1
+        }
+      },
+      {
+        "M2MAttributeName": "XCat_PersistentInfoSaid",
+        "Instance": "XCat_PersistentInfo",
+        "AttributeName": "Said",
+        "Key": "0x01010002",
+        "MappedAttributeName": "XCat_PersistentInfoSaid",
+        "DataType": "String",
+        "DeviceIO": "RO",
+        "IsTimeSeries": false,
+        "IsTemplate": false
+      },
+      {
+        "M2MAttributeName": "XCat_PersistentInfoMacAddress",
+        "Instance": "XCat_PersistentInfo",
+        "AttributeName": "MacAddress",
+        "Key": "0x01010003",
+        "MappedAttributeName": "XCat_PersistentInfoMacAddress",
+        "DataType": "String",
+        "DeviceIO": "RO",
+        "IsTimeSeries": false,
+        "IsTemplate": false
+      },
+      {
+        "M2MAttributeName": "XCat_WifiStatusRssiAntennaDiversity",
+        "Instance": "XCat_WifiStatus",
+        "AttributeName": "RssiAntennaDiversity",
+        "Key": "0x01020001",
+        "MappedAttributeName": "XCat_WifiStatusRssiAntennaDiversity",
+        "DataType": "IntegerSigned8Bit",
+        "DeviceIO": "RO",
+        "IsTimeSeries": false,
+        "IsTemplate": false,
+        "Default": -99,
+        "RangeValues": {
+          "Min": -99,
+          "Max": -10,
+          "StepSize": 1
+        }
+      },
+      {
+        "M2MAttributeName": "XCat_WifiStatusIspCheck",
+        "Instance": "XCat_WifiStatus",
+        "AttributeName": "IspCheck",
+        "Key": "0x01020006",
+        "MappedAttributeName": "XCat_WifiStatusIspCheck",
+        "DataType": "Boolean",
+        "DeviceIO": "RO",
+        "IsTimeSeries": false,
+        "IsTemplate": false,
+        "Default": false
+      },
+      {
+        "M2MAttributeName": "XCat_OdometerStatusRunningHours",
+        "Instance": "XCat_OdometerStatus",
+        "AttributeName": "RunningHours",
+        "Key": "0x01050001",
+        "MappedAttributeName": "XCat_OdometerStatusRunningHours",
+        "DataType": "BEIntegerUnsigned32Bit",
+        "DeviceIO": "RO",
+        "IsTimeSeries": false,
+        "IsTemplate": false,
+        "Default": 0,
+        "RangeValues": {
+          "Min": 0,
+          "Max": 4294967295,
+          "StepSize": 1
+        }
+      },
+      {
+        "M2MAttributeName": "XCat_OdometerStatusTotalHours",
+        "Instance": "XCat_OdometerStatus",
+        "AttributeName": "TotalHours",
+        "Key": "0x01050002",
+        "MappedAttributeName": "XCat_OdometerStatusTotalHours",
+        "DataType": "BEIntegerUnsigned32Bit",
+        "DeviceIO": "RO",
+        "IsTimeSeries": false,
+        "IsTemplate": false,
+        "Default": 0,
+        "RangeValues": {
+          "Min": 0,
+          "Max": 4294967295,
+          "StepSize": 1
+        }
+      },
+      {
+        "M2MAttributeName": "XCat_OdometerStatusCycleCount",
+        "Instance": "XCat_OdometerStatus",
+        "AttributeName": "CycleCount",
+        "Key": "0x01050003",
+        "MappedAttributeName": "XCat_OdometerStatusCycleCount",
+        "DataType": "BEIntegerUnsigned32Bit",
+        "DeviceIO": "RO",
+        "IsTimeSeries": false,
+        "IsTemplate": false,
+        "Default": 0,
+        "RangeValues": {
+          "Min": 0,
+          "Max": 4294967295,
+          "StepSize": 1
+        }
+      },
+      {
+        "M2MAttributeName": "XCat_ApplianceInfoSetModelNumber",
+        "Instance": "XCat_ApplianceInfoSet",
+        "AttributeName": "ModelNumber",
+        "Key": "0x01060001",
+        "MappedAttributeName": "XCat_ApplianceInfoSetModelNumber",
+        "DataType": "String",
+        "DeviceIO": "RW",
+        "IsTimeSeries": false,
+        "IsTemplate": false
+      },
+      {
+        "M2MAttributeName": "XCat_ApplianceInfoSetSerialNumber",
+        "Instance": "XCat_ApplianceInfoSet",
+        "AttributeName": "SerialNumber",
+        "Key": "0x01060002",
+        "MappedAttributeName": "XCat_ApplianceInfoSetSerialNumber",
+        "DataType": "String",
+        "DeviceIO": "RW",
+        "IsTimeSeries": false,
+        "IsTemplate": false
+      },
+      {
+        "M2MAttributeName": "XCat_DateTimeSetDateTimeSet",
+        "Instance": "XCat_DateTimeSet",
+        "AttributeName": "DateTimeSet",
+        "Key": "0x01070001",
+        "MappedAttributeName": "XCat_DateTimeSetDateTimeSet",
+        "DataType": "String",
+        "DeviceIO": "RW",
+        "IsTimeSeries": false,
+        "IsTemplate": false
+      },
+      {
+        "M2MAttributeName": "XCat_RemoteSetRemoteControlEnable",
+        "Instance": "XCat_RemoteSet",
+        "AttributeName": "RemoteControlEnable",
+        "Key": "0x01080001",
+        "MappedAttributeName": "XCat_RemoteSetRemoteControlEnable",
+        "DataType": "Boolean",
+        "DeviceIO": "RW",
+        "IsTimeSeries": false,
+        "IsTemplate": false,
+        "Default": false
+      },
+      {
+        "M2MAttributeName": "XCat_RemoteSetRebootAppliance",
+        "Instance": "XCat_RemoteSet",
+        "AttributeName": "RebootAppliance",
+        "Key": "0x01080003",
+        "MappedAttributeName": "XCat_RemoteSetRebootAppliance",
+        "DataType": "enum",
+        "DeviceIO": "WO",
+        "IsTimeSeries": false,
+        "IsTemplate": false,
+        "Default": "0",
+        "EnumValues": {
+          "0": "RebootApplianceCancelResetRequest",
+          "1": "RebootApplianceResetRequest",
+          "2": "RebootApplianceExecuteReset"
+        }
+      },
+      {
+        "M2MAttributeName": "XCat_WifiSetPublishApplianceState",
+        "Instance": "XCat_WifiSet",
+        "AttributeName": "PublishApplianceState",
+        "Key": "0x01090001",
+        "MappedAttributeName": "XCat_WifiSetPublishApplianceState",
+        "DataType": "Boolean",
+        "DeviceIO": "WO",
+        "IsTimeSeries": false,
+        "IsTemplate": false,
+        "Default": false
+      },
+      {
+        "M2MAttributeName": "XCat_WifiSetRebootWifiCommModule",
+        "Instance": "XCat_WifiSet",
+        "AttributeName": "RebootWifiCommModule",
+        "Key": "0x01090002",
+        "MappedAttributeName": "XCat_WifiSetRebootWifiCommModule",
+        "DataType": "Boolean",
+        "DeviceIO": "RW",
+        "IsTimeSeries": false,
+        "IsTemplate": false,
+        "Default": false
+      },
+      {
+        "M2MAttributeName": "XCat_WifiSetDeprovisionWifiCommModule",
+        "Instance": "XCat_WifiSet",
+        "AttributeName": "DeprovisionWifiCommModule",
+        "Key": "0x01090003",
+        "MappedAttributeName": "XCat_WifiSetDeprovisionWifiCommModule",
+        "DataType": "Boolean",
+        "DeviceIO": "RW",
+        "IsTimeSeries": false,
+        "IsTemplate": false,
+        "Default": false
+      },
+      {
+        "M2MAttributeName": "XCat_WifiSetDisableWifiCommModule",
+        "Instance": "XCat_WifiSet",
+        "AttributeName": "DisableWifiCommModule",
+        "Key": "0x01090004",
+        "MappedAttributeName": "XCat_WifiSetDisableWifiCommModule",
+        "DataType": "Boolean",
+        "DeviceIO": "RW",
+        "IsTimeSeries": false,
+        "IsTemplate": false,
+        "Default": false
+      },
+      {
+        "M2MAttributeName": "XCat_WifiSetIspAuthorized",
+        "Instance": "XCat_WifiSet",
+        "AttributeName": "IspAuthorized",
+        "Key": "0x01090005",
+        "MappedAttributeName": "XCat_WifiSetIspAuthorized",
+        "DataType": "enum",
+        "DeviceIO": "RW",
+        "IsTimeSeries": false,
+        "IsTemplate": false,
+        "Default": "0",
+        "EnumValues": {
+          "0": "IspAuthorizedNotAuthorized",
+          "1": "IspAuthorizedSchedule",
+          "2": "IspAuthorizedImmediate"
+        }
+      },
+      {
+        "M2MAttributeName": "XCat_WifiSetIspFirmwareDescriptionUrl",
+        "Instance": "XCat_WifiSet",
+        "AttributeName": "IspFirmwareDescriptionUrl",
+        "Key": "0x01090006",
+        "MappedAttributeName": "XCat_WifiSetIspFirmwareDescriptionUrl",
+        "DataType": "String",
+        "DeviceIO": "WO",
+        "IsTimeSeries": false,
+        "IsTemplate": false
+      },
+      {
+        "M2MAttributeName": "XCat_ConfigSetMaxRelationalSteps",
+        "Instance": "XCat_ConfigSet",
+        "AttributeName": "MaxRelationalSteps",
+        "Key": "0x010C0002",
+        "MappedAttributeName": "XCat_ConfigSetMaxRelationalSteps",
+        "DataType": "BEIntegerUnsigned16Bit",
+        "DeviceIO": "RO",
+        "IsTimeSeries": false,
+        "IsTemplate": false,
+        "Default": 0,
+        "RangeValues": {
+          "Min": 0,
+          "Max": 65535,
+          "StepSize": 1
+        }
+      },
+      {
+        "M2MAttributeName": "XCat_ConfigSetMaxRelationalMemory",
+        "Instance": "XCat_ConfigSet",
+        "AttributeName": "MaxRelationalMemory",
+        "Key": "0x010C0003",
+        "MappedAttributeName": "XCat_ConfigSetMaxRelationalMemory",
+        "DataType": "BEIntegerUnsigned32Bit",
+        "DeviceIO": "RO",
+        "IsTimeSeries": false,
+        "IsTemplate": false,
+        "Default": 0,
+        "RangeValues": {
+          "Min": 0,
+          "Max": 4294967295,
+          "StepSize": 1
+        }
+      },
+      {
+        "M2MAttributeName": "XCat_ConfigSetApplianceCapability",
+        "Instance": "XCat_ConfigSet",
+        "AttributeName": "ApplianceCapability",
+        "Key": "0x010C0004",
+        "MappedAttributeName": "XCat_ConfigSetApplianceCapability",
+        "DataType": "String",
+        "DeviceIO": "RO",
+        "IsTimeSeries": false,
+        "IsTemplate": false
+      },
+      {
+        "M2MAttributeName": "Sys_DisplayStatusBroilDisplayType",
+        "Instance": "Sys_DisplayStatus",
+        "AttributeName": "BroilDisplayType",
+        "Key": "0x02010001",
+        "MappedAttributeName": "Sys_DisplayStatusBroilDisplayType",
+        "DataType": "enum",
+        "DeviceIO": "RO",
+        "IsTimeSeries": false,
+        "IsTemplate": false,
+        "Default": "0",
+        "EnumValues": {
+          "2": "BroilDisplayVariableTemperature"
+        }
+      },
+      {
+        "M2MAttributeName": "Sys_AlertStatusCustomerFaultCode",
+        "Instance": "Sys_AlertStatus",
+        "AttributeName": "CustomerFaultCode",
+        "Key": "0x02020001",
+        "MappedAttributeName": "Sys_AlertStatusCustomerFaultCode",
+        "DataType": "String",
+        "DeviceIO": "RO",
+        "IsTimeSeries": true,
+        "IsTemplate": false
+      },
+      {
+        "M2MAttributeName": "Sys_AlertStatusNotification",
+        "Instance": "Sys_AlertStatus",
+        "AttributeName": "Notification",
+        "Key": "0x02020003",
+        "MappedAttributeName": "Sys_AlertStatusNotification",
+        "DataType": "enum",
+        "DeviceIO": "RO",
+        "IsTimeSeries": false,
+        "IsTemplate": false,
+        "Default": "0",
+        "EnumValues": {
+          "0": "NotificationsNone",
+          "1": "NotificationsPreheatMinus25",
+          "2": "NotificationsPreheatComplete"
+        }
+      },
+      {
+        "M2MAttributeName": "Sys_DisplaySetLanguage",
+        "Instance": "Sys_DisplaySet",
+        "AttributeName": "Language",
+        "Key": "0x02030001",
+        "MappedAttributeName": "Sys_DisplaySetLanguage",
+        "DataType": "enum",
+        "DeviceIO": "RW",
+        "IsTimeSeries": false,
+        "IsTemplate": false,
+        "Default": "0",
+        "EnumValues": {
+          "0": "LanguageEnglish",
+          "1": "LanguageCanadianFrench",
+          "2": "LanguageLatinAmericanSpanish"
+        }
+      },
+      {
+        "M2MAttributeName": "Sys_DisplaySetTempUnits",
+        "Instance": "Sys_DisplaySet",
+        "AttributeName": "TempUnits",
+        "Key": "0x02030002",
+        "MappedAttributeName": "Sys_DisplaySetTempUnits",
+        "DataType": "enum",
+        "DeviceIO": "RW",
+        "IsTimeSeries": false,
+        "IsTemplate": false,
+        "Default": "0",
+        "EnumValues": {
+          "0": "TempUnitsDegreesC",
+          "1": "TempUnitsDegreesF"
+        }
+      },
+      {
+        "M2MAttributeName": "Sys_DisplaySetEnable24Hour",
+        "Instance": "Sys_DisplaySet",
+        "AttributeName": "Enable24Hour",
+        "Key": "0x02030006",
+        "MappedAttributeName": "Sys_DisplaySetEnable24Hour",
+        "DataType": "Boolean",
+        "DeviceIO": "RW",
+        "IsTimeSeries": false,
+        "IsTemplate": false,
+        "Default": false
+      },
+      {
+        "M2MAttributeName": "Sys_DisplaySetImage",
+        "Instance": "Sys_DisplaySet",
+        "AttributeName": "Image",
+        "Key": "0x02030008",
+        "MappedAttributeName": "Sys_DisplaySetImage",
+        "DataType": "String",
+        "DeviceIO": "RW",
+        "IsTimeSeries": false,
+        "IsTemplate": false
+      },
+      {
+        "M2MAttributeName": "Sys_DisplaySetBrightnessPercent",
+        "Instance": "Sys_DisplaySet",
+        "AttributeName": "BrightnessPercent",
+        "Key": "0x0203000A",
+        "MappedAttributeName": "Sys_DisplaySetBrightnessPercent",
+        "DataType": "IntegerUnsigned8Bit",
+        "DeviceIO": "RW",
+        "IsTimeSeries": false,
+        "IsTemplate": false,
+        "Default": 100,
+        "RangeValues": {
+          "Min": 10,
+          "Max": 100,
+          "StepSize": 10
+        }
+      },
+      {
+        "M2MAttributeName": "Sys_DisplaySetCompleteActionTimeout",
+        "Instance": "Sys_DisplaySet",
+        "AttributeName": "CompleteActionTimeout",
+        "Key": "0x0203000D",
+        "MappedAttributeName": "Sys_DisplaySetCompleteActionTimeout",
+        "DataType": "BEIntegerUnsigned16Bit",
+        "DeviceIO": "RW",
+        "IsTimeSeries": false,
+        "IsTemplate": false,
+        "Default": 120,
+        "RangeValues": {
+          "Min": 0,
+          "Max": 65535,
+          "StepSize": 1
+        }
+      },
+      {
+        "M2MAttributeName": "Sys_OperationSetControlLock",
+        "Instance": "Sys_OperationSet",
+        "AttributeName": "ControlLock",
+        "Key": "0x02040002",
+        "MappedAttributeName": "Sys_OperationSetControlLock",
+        "DataType": "Boolean",
+        "DeviceIO": "RW",
+        "IsTimeSeries": false,
+        "IsTemplate": false,
+        "Default": false
+      },
+      {
+        "M2MAttributeName": "Sys_OperationSetKeyPressToneVolume",
+        "Instance": "Sys_OperationSet",
+        "AttributeName": "KeyPressToneVolume",
+        "Key": "0x02040004",
+        "MappedAttributeName": "Sys_OperationSetKeyPressToneVolume",
+        "DataType": "enum",
+        "DeviceIO": "RW",
+        "IsTimeSeries": false,
+        "IsTemplate": false,
+        "Default": "3",
+        "EnumValues": {
+          "0": "VolumeOff",
+          "1": "VolumeLow",
+          "2": "VolumeMedium",
+          "3": "VolumeHigh",
+          "4": "VolumeMax"
+        }
+      },
+      {
+        "M2MAttributeName": "Sys_OperationSetAlertToneVolume",
+        "Instance": "Sys_OperationSet",
+        "AttributeName": "AlertToneVolume",
+        "Key": "0x02040008",
+        "MappedAttributeName": "Sys_OperationSetAlertToneVolume",
+        "DataType": "enum",
+        "DeviceIO": "RW",
+        "IsTimeSeries": false,
+        "IsTemplate": false,
+        "Default": "3",
+        "EnumValues": {
+          "0": "VolumeOff",
+          "1": "VolumeLow",
+          "2": "VolumeMedium",
+          "3": "VolumeHigh",
+          "4": "VolumeMax"
+        }
+      },
+      {
+        "M2MAttributeName": "Sys_OperationSetSabbathModeEnabled",
+        "Instance": "Sys_OperationSet",
+        "AttributeName": "SabbathModeEnabled",
+        "Key": "0x02040009",
+        "MappedAttributeName": "Sys_OperationSetSabbathModeEnabled",
+        "DataType": "Boolean",
+        "DeviceIO": "RW",
+        "IsTimeSeries": false,
+        "IsTemplate": false,
+        "Default": false
+      },
+      {
+        "M2MAttributeName": "Sys_OperationSetQuietModeEnabled",
+        "Instance": "Sys_OperationSet",
+        "AttributeName": "QuietModeEnabled",
+        "Key": "0x02040012",
+        "MappedAttributeName": "Sys_OperationSetQuietModeEnabled",
+        "DataType": "Boolean",
+        "DeviceIO": "RW",
+        "IsTimeSeries": false,
+        "IsTemplate": false,
+        "Default": false
+      },
+      {
+        "M2MAttributeName": "SysHeader_RecipeSetRecipeId",
+        "Instance": "SysHeader_RecipeSet",
+        "AttributeName": "RecipeId",
+        "Key": "0x02050001",
+        "MappedAttributeName": "SysHeader_RecipeSetRecipeId",
+        "DataType": "BEIntegerUnsigned32Bit",
+        "DeviceIO": "RW",
+        "IsTimeSeries": false,
+        "IsTemplate": false,
+        "Default": 0,
+        "RangeValues": {
+          "Min": 0,
+          "Max": 4294967295,
+          "StepSize": 1
+        }
+      },
+      {
+        "M2MAttributeName": "SysHeader_RecipeSetRecipeSummary",
+        "Instance": "SysHeader_RecipeSet",
+        "AttributeName": "RecipeSummary",
+        "Key": "0x02050002",
+        "MappedAttributeName": "SysHeader_RecipeSetRecipeSummary",
+        "DataType": "String",
+        "DeviceIO": "RW",
+        "IsTimeSeries": false,
+        "IsTemplate": false
+      },
+      {
+        "M2MAttributeName": "SysHeader_RecipeSetRecipeTime",
+        "Instance": "SysHeader_RecipeSet",
+        "AttributeName": "RecipeTime",
+        "Key": "0x02050003",
+        "MappedAttributeName": "SysHeader_RecipeSetRecipeTime",
+        "DataType": "BEIntegerUnsigned32Bit",
+        "DeviceIO": "RW",
+        "IsTimeSeries": false,
+        "IsTemplate": false,
+        "Default": 0,
+        "RangeValues": {
+          "Min": 0,
+          "Max": 4294967295,
+          "StepSize": 1
+        }
+      },
+      {
+        "M2MAttributeName": "OvenUpperCavity_TimeStatusCookTimeRemaining",
+        "Instance": "OvenUpperCavity_TimeStatus",
+        "AttributeName": "CookTimeRemaining",
+        "Key": "0x03010001",
+        "MappedAttributeName": "OvenUpperCavity_TimeStatusCookTimeRemaining",
+        "DataType": "BEIntegerUnsigned32Bit",
+        "DeviceIO": "RO",
+        "IsTimeSeries": false,
+        "IsTemplate": false,
+        "Default": 0,
+        "RangeValues": {
+          "Min": 0,
+          "Max": 43200,
+          "StepSize": 1
+        }
+      },
+      {
+        "M2MAttributeName": "OvenUpperCavity_TimeStatusCycleTimeElapsed",
+        "Instance": "OvenUpperCavity_TimeStatus",
+        "AttributeName": "CycleTimeElapsed",
+        "Key": "0x03010002",
+        "MappedAttributeName": "OvenUpperCavity_TimeStatusCycleTimeElapsed",
+        "DataType": "BEIntegerUnsigned32Bit",
+        "DeviceIO": "RO",
+        "IsTimeSeries": false,
+        "IsTemplate": false,
+        "Default": 0,
+        "RangeValues": {
+          "Min": 0,
+          "Max": 259200,
+          "StepSize": 1
+        }
+      },
+      {
+        "M2MAttributeName": "OvenUpperCavity_TimeStatusDelayTimeRemaining",
+        "Instance": "OvenUpperCavity_TimeStatus",
+        "AttributeName": "DelayTimeRemaining",
+        "Key": "0x03010003",
+        "MappedAttributeName": "OvenUpperCavity_TimeStatusDelayTimeRemaining",
+        "DataType": "BEIntegerUnsigned32Bit",
+        "DeviceIO": "RO",
+        "IsTimeSeries": false,
+        "IsTemplate": false,
+        "Default": 0,
+        "RangeValues": {
+          "Min": 0,
+          "Max": 43200,
+          "StepSize": 1
+        }
+      },
+      {
+        "M2MAttributeName": "OvenUpperCavity_DisplStatusDisplayTemp",
+        "Instance": "OvenUpperCavity_DisplStatus",
+        "AttributeName": "DisplayTemp",
+        "Key": "0x03020001",
+        "MappedAttributeName": "OvenUpperCavity_DisplStatusDisplayTemp",
+        "DataType": "BEIntegerUnsigned16Bit",
+        "DeviceIO": "RO",
+        "IsTimeSeries": false,
+        "IsTemplate": false,
+        "Default": 0,
+        "RangeValues": {
+          "Min": 0,
+          "Max": 2877,
+          "StepSize": 1
+        }
+      },
+      {
+        "M2MAttributeName": "OvenUpperCavity_OpStatusCookTimeState",
+        "Instance": "OvenUpperCavity_OpStatus",
+        "AttributeName": "CookTimeState",
+        "Key": "0x03030001",
+        "MappedAttributeName": "OvenUpperCavity_OpStatusCookTimeState",
+        "DataType": "enum",
+        "DeviceIO": "RO",
+        "IsTimeSeries": false,
+        "IsTemplate": false,
+        "Default": "0",
+        "EnumValues": {
+          "0": "CookTimeStateIdle",
+          "1": "CookTimeStateRunning",
+          "3": "CookTimeStateComplete"
+        }
+      },
+      {
+        "M2MAttributeName": "OvenUpperCavity_OpStatusDoorOpen",
+        "Instance": "OvenUpperCavity_OpStatus",
+        "AttributeName": "DoorOpen",
+        "Key": "0x03030002",
+        "MappedAttributeName": "OvenUpperCavity_OpStatusDoorOpen",
+        "DataType": "Boolean",
+        "DeviceIO": "RO",
+        "IsTimeSeries": false,
+        "IsTemplate": false,
+        "Default": false
+      },
+      {
+        "M2MAttributeName": "OvenUpperCavity_OpStatusState",
+        "Instance": "OvenUpperCavity_OpStatus",
+        "AttributeName": "State",
+        "Key": "0x03030003",
+        "MappedAttributeName": "OvenUpperCavity_OpStatusState",
+        "DataType": "enum",
+        "DeviceIO": "RO",
+        "IsTimeSeries": false,
+        "IsTemplate": false,
+        "Default": "0",
+        "EnumValues": {
+          "0": "StateIdle",
+          "1": "StatePreheating",
+          "2": "StateSteady",
+          "3": "StateProgramming",
+          "4": "StateDelaying",
+          "5": "StateCooling"
+        }
+      },
+      {
+        "M2MAttributeName": "OvenUpperCavity_OpStatusDoorLocked",
+        "Instance": "OvenUpperCavity_OpStatus",
+        "AttributeName": "DoorLocked",
+        "Key": "0x03030004",
+        "MappedAttributeName": "OvenUpperCavity_OpStatusDoorLocked",
+        "DataType": "Boolean",
+        "DeviceIO": "RO",
+        "IsTimeSeries": false,
+        "IsTemplate": false,
+        "Default": false
+      },
+      {
+        "M2MAttributeName": "OvenUpperCavity_TimeSetCookTimeSet",
+        "Instance": "OvenUpperCavity_TimeSet",
+        "AttributeName": "CookTimeSet",
+        "Key": "0x030D0001",
+        "MappedAttributeName": "OvenUpperCavity_TimeSetCookTimeSet",
+        "DataType": "BEIntegerUnsigned32Bit",
+        "DeviceIO": "RW",
+        "IsTimeSeries": false,
+        "IsTemplate": false,
+        "Default": 0,
+        "RangeValues": {
+          "Min": 60,
+          "Max": 43200,
+          "StepSize": 60
+        }
+      },
+      {
+        "M2MAttributeName": "OvenUpperCavity_TimeSetDelayTime",
+        "Instance": "OvenUpperCavity_TimeSet",
+        "AttributeName": "DelayTime",
+        "Key": "0x030D0003",
+        "MappedAttributeName": "OvenUpperCavity_TimeSetDelayTime",
+        "DataType": "BEIntegerUnsigned32Bit",
+        "DeviceIO": "RW",
+        "IsTimeSeries": false,
+        "IsTemplate": false,
+        "Default": 0,
+        "RangeValues": {
+          "Min": 60,
+          "Max": 43200,
+          "StepSize": 60
+        }
+      },
+      {
+        "M2MAttributeName": "OvenUpperCavity_DisplaySetLightOn",
+        "Instance": "OvenUpperCavity_DisplaySet",
+        "AttributeName": "LightOn",
+        "Key": "0x030E0001",
+        "MappedAttributeName": "OvenUpperCavity_DisplaySetLightOn",
+        "DataType": "Boolean",
+        "DeviceIO": "RW",
+        "IsTimeSeries": false,
+        "IsTemplate": false,
+        "Default": false
+      },
+      {
+        "M2MAttributeName": "OvenUpperCavity_DisplaySetCookingImageUrI",
+        "Instance": "OvenUpperCavity_DisplaySet",
+        "AttributeName": "CookingImageUrI",
+        "Key": "0x030E0002",
+        "MappedAttributeName": "OvenUpperCavity_DisplaySetCookingImageUrI",
+        "DataType": "String",
+        "DeviceIO": "RW",
+        "IsTimeSeries": false,
+        "IsTemplate": false
+      },
+      {
+        "M2MAttributeName": "OvenUpperCavity_DisplaySetZonedMessage",
+        "Instance": "OvenUpperCavity_DisplaySet",
+        "AttributeName": "ZonedMessage",
+        "Key": "0x030E0004",
+        "MappedAttributeName": "OvenUpperCavity_DisplaySetZonedMessage",
+        "DataType": "String",
+        "DeviceIO": "RW",
+        "IsTimeSeries": false,
+        "IsTemplate": false
+      },
+      {
+        "M2MAttributeName": "OvenUpperCavity_DisplaySetCycleCompleteMessage",
+        "Instance": "OvenUpperCavity_DisplaySet",
+        "AttributeName": "CycleCompleteMessage",
+        "Key": "0x030E0005",
+        "MappedAttributeName": "OvenUpperCavity_DisplaySetCycleCompleteMessage",
+        "DataType": "String",
+        "DeviceIO": "RW",
+        "IsTimeSeries": false,
+        "IsTemplate": false
+      },
+      {
+        "M2MAttributeName": "OvenUpperCavity_DisplaySetOnDemandId",
+        "Instance": "OvenUpperCavity_DisplaySet",
+        "AttributeName": "OnDemandId",
+        "Key": "0x030E0006",
+        "MappedAttributeName": "OvenUpperCavity_DisplaySetOnDemandId",
+        "DataType": "BEIntegerUnsigned16Bit",
+        "DeviceIO": "RW",
+        "IsTimeSeries": false,
+        "IsTemplate": false,
+        "Default": 0,
+        "RangeValues": {
+          "Min": 0,
+          "Max": 65535,
+          "StepSize": 1
+        }
+      },
+      {
+        "M2MAttributeName": "OvenUpperCavity_DisplaySetUserInstructImageUrl",
+        "Instance": "OvenUpperCavity_DisplaySet",
+        "AttributeName": "UserInstructImageUrl",
+        "Key": "0x030E0007",
+        "MappedAttributeName": "OvenUpperCavity_DisplaySetUserInstructImageUrl",
+        "DataType": "String",
+        "DeviceIO": "RW",
+        "IsTimeSeries": false,
+        "IsTemplate": false
+      },
+      {
+        "M2MAttributeName": "OvenUpperCavity_DisplaySetEmbeddedUserInstructCmpltAction",
+        "Instance": "OvenUpperCavity_DisplaySet",
+        "AttributeName": "EmbeddedUserInstructCmpltAction",
+        "Key": "0x030E000E",
+        "MappedAttributeName": "OvenUpperCavity_DisplaySetEmbeddedUserInstructCmpltAction",
+        "DataType": "enum",
+        "DeviceIO": "RW",
+        "IsTimeSeries": false,
+        "IsTemplate": false,
+        "Default": "0",
+        "EnumValues": {
+          "0": "StepCmpltActionUnset",
+          "1": "StepCmpltActionAutoAdvance",
+          "2": "StepCmpltActionWaitForNextCmd",
+          "3": "StepCmpltActionWaitForTimeExpire",
+          "4": "StepCmpltActionWaitForDoor",
+          "5": "StepCmpltActionWaitForAnyEvent",
+          "6": "StepCmpltActionWaitForNextOrTime",
+          "7": "StepCmpltActionWaitForNextOrDoor",
+          "8": "StepCmpltActionWaitForTimeOrDoor",
+          "9": "StepCmpltActionWaitForAllEvents",
+          "10": "StepCmpltActionWaitForNextAndTime",
+          "12": "StepCmpltActionWaitForTimeAndDoor"
+        }
+      },
+      {
+        "M2MAttributeName": "OvenUpperCavity_DisplaySetEmbeddedUserInstructId",
+        "Instance": "OvenUpperCavity_DisplaySet",
+        "AttributeName": "EmbeddedUserInstructId",
+        "Key": "0x030E000F",
+        "MappedAttributeName": "OvenUpperCavity_DisplaySetEmbeddedUserInstructId",
+        "DataType": "IntegerUnsigned8Bit",
+        "DeviceIO": "RW",
+        "IsTimeSeries": false,
+        "IsTemplate": false,
+        "Default": 0,
+        "RangeValues": {
+          "Min": 0,
+          "Max": 255,
+          "StepSize": 1
+        }
+      },
+      {
+        "M2MAttributeName": "OvenUpperCavity_OpSetCookTimeCompleteAction",
+        "Instance": "OvenUpperCavity_OpSet",
+        "AttributeName": "CookTimeCompleteAction",
+        "Key": "0x030F0001",
+        "MappedAttributeName": "OvenUpperCavity_OpSetCookTimeCompleteAction",
+        "DataType": "enum",
+        "DeviceIO": "RW",
+        "IsTimeSeries": false,
+        "IsTemplate": false,
+        "Default": "0",
+        "EnumValues": {
+          "0": "ProcessCmpltActionUnset",
+          "1": "ProcessCmpltActionStayOn",
+          "2": "ProcessCmpltActionKeepWarm",
+          "3": "ProcessCmpltActionTurnOff",
+          "4": "ProcessCmpltActionAutoAdvance",
+          "5": "ProcessCmpltActionWaitForNextCommand",
+          "6": "ProcessCmpltActionWaitForTimeExpire",
+          "7": "ProcessCmpltActionWaitForDoor",
+          "8": "ProcessCmpltActionWaitForEvent"
+        }
+      },
+      {
+        "M2MAttributeName": "OvenUpperCavity_OpSetOperations",
+        "Instance": "OvenUpperCavity_OpSet",
+        "AttributeName": "Operations",
+        "Key": "0x030F0002",
+        "MappedAttributeName": "OvenUpperCavity_OpSetOperations",
+        "DataType": "enum",
+        "DeviceIO": "RW",
+        "IsTimeSeries": false,
+        "IsTemplate": false,
+        "Default": "0",
+        "EnumValues": {
+          "0": "OperationsNone",
+          "1": "OperationsCancel",
+          "2": "OperationsStart",
+          "3": "OperationsSetOnDisplay",
+          "4": "OperationsModify",
+          "6": "OperationsContinue"
+        }
+      },
+      {
+        "M2MAttributeName": "OvenUpperCavity_OpSetSabbathModeActive",
+        "Instance": "OvenUpperCavity_OpSet",
+        "AttributeName": "SabbathModeActive",
+        "Key": "0x030F0003",
+        "MappedAttributeName": "OvenUpperCavity_OpSetSabbathModeActive",
+        "DataType": "Boolean",
+        "DeviceIO": "RW",
+        "IsTimeSeries": false,
+        "IsTemplate": false,
+        "Default": false
+      },
+      {
+        "M2MAttributeName": "OvenUpperCavity_OpSetMachineInstructCmpltAction",
+        "Instance": "OvenUpperCavity_OpSet",
+        "AttributeName": "MachineInstructCmpltAction",
+        "Key": "0x030F0004",
+        "MappedAttributeName": "OvenUpperCavity_OpSetMachineInstructCmpltAction",
+        "DataType": "enum",
+        "DeviceIO": "RW",
+        "IsTimeSeries": false,
+        "IsTemplate": false,
+        "Default": "0",
+        "EnumValues": {
+          "0": "StepCmpltActionUnset",
+          "1": "StepCmpltActionAutoAdvance",
+          "2": "StepCmpltActionWaitForNextCmd",
+          "3": "StepCmpltActionWaitForTimeExpire",
+          "4": "StepCmpltActionWaitForDoor",
+          "5": "StepCmpltActionWaitForAnyEvent",
+          "6": "StepCmpltActionWaitForNextOrTime",
+          "7": "StepCmpltActionWaitForNextOrDoor",
+          "8": "StepCmpltActionWaitForTimeOrDoor",
+          "9": "StepCmpltActionWaitForAllEvents",
+          "10": "StepCmpltActionWaitForNextAndTime",
+          "12": "StepCmpltActionWaitForTimeAndDoor"
+        }
+      },
+      {
+        "M2MAttributeName": "OvenUpperCavity_CycleSetTargetTemp",
+        "Instance": "OvenUpperCavity_CycleSet",
+        "AttributeName": "TargetTemp",
+        "Key": "0x03100001",
+        "MappedAttributeName": "OvenUpperCavity_CycleSetTargetTemp",
+        "DataType": "BEIntegerUnsigned16Bit",
+        "DeviceIO": "RW",
+        "IsTimeSeries": false,
+        "IsTemplate": false,
+        "Default": 0,
+        "RangeValues": {
+          "Min": 655,
+          "Max": 2877,
+          "StepSize": 1
+        }
+      },
+      {
+        "M2MAttributeName": "OvenUpperCavity_CycleSetCommonMode",
+        "Instance": "OvenUpperCavity_CycleSet",
+        "AttributeName": "CommonMode",
+        "Key": "0x0310000C",
+        "MappedAttributeName": "OvenUpperCavity_CycleSetCommonMode",
+        "DataType": "enum",
+        "DeviceIO": "RW",
+        "IsTimeSeries": false,
+        "IsTemplate": false,
+        "Default": "0",
+        "EnumValues": {
+          "0": "CommonModeIdle",
+          "2": "CommonModeBake",
+          "5": "CommonModeSabbathBake",
+          "6": "CommonModeConvectBake",
+          "8": "CommonModeBroil",
+          "9": "CommonModeConvectBroil",
+          "16": "CommonModeConvectRoast",
+          "24": "CommonModeKeepWarm"
+        }
+      },
+      {
+        "M2MAttributeName": "OvenUpperCavity_CycleSetEasyConvectFood",
+        "Instance": "OvenUpperCavity_CycleSet",
+        "AttributeName": "EasyConvectFood",
+        "Key": "0x03100010",
+        "MappedAttributeName": "OvenUpperCavity_CycleSetEasyConvectFood",
+        "DataType": "enum",
+        "DeviceIO": "RW",
+        "IsTimeSeries": false,
+        "IsTemplate": false,
+        "Default": "0",
+        "EnumValues": {
+          "0": "EasyConvectFoodIdle",
+          "2": "EasyConvectFoodPizza",
+          "5": "EasyConvectFoodChickenPieces",
+          "6": "EasyConvectFoodChickenWhole",
+          "7": "EasyConvectFoodMeatLoaf",
+          "8": "EasyConvectFoodBeefOnlyTimer",
+          "9": "EasyConvectFoodPorkOnlyTimer",
+          "10": "EasyConvectFoodLambOnlyTimer",
+          "11": "EasyConvectFoodFishFillet",
+          "12": "EasyConvectFoodFishSticks",
+          "13": "EasyConvectFoodBakedPotato",
+          "14": "EasyConvectFoodOtherVeggies",
+          "15": "EasyConvectFoodBiscuits",
+          "16": "EasyConvectFoodCroissants",
+          "17": "EasyConvectFoodCasserole",
+          "18": "EasyConvectFoodCakes",
+          "19": "EasyConvectFoodCookies",
+          "20": "EasyConvectFoodFreshPie",
+          "21": "EasyConvectFoodSnacks",
+          "22": "EasyConvectFoodTurkeyWhole"
+        }
+      },
+      {
+        "M2MAttributeName": "OvenUpperCavity_CycleSetFrozenBakeFood",
+        "Instance": "OvenUpperCavity_CycleSet",
+        "AttributeName": "FrozenBakeFood",
+        "Key": "0x03100012",
+        "MappedAttributeName": "OvenUpperCavity_CycleSetFrozenBakeFood",
+        "DataType": "enum",
+        "DeviceIO": "RW",
+        "IsTimeSeries": false,
+        "IsTemplate": false,
+        "Default": "0",
+        "EnumValues": {
+          "0": "FrozenBakeFoodIdle",
+          "2": "FrozenBakeFoodMeals",
+          "3": "FrozenBakeFoodNuggets",
+          "4": "FrozenBakeFoodLasagna",
+          "5": "FrozenBakeFoodPizza",
+          "6": "FrozenBakeFoodPie",
+          "7": "FrozenBakeFoodFries"
+        }
+      },
+      {
+        "M2MAttributeName": "OvenUpperCavity_CycleSetCleanOvenMode",
+        "Instance": "OvenUpperCavity_CycleSet",
+        "AttributeName": "CleanOvenMode",
+        "Key": "0x03100018",
+        "MappedAttributeName": "OvenUpperCavity_CycleSetCleanOvenMode",
+        "DataType": "enum",
+        "DeviceIO": "RW",
+        "IsTimeSeries": false,
+        "IsTemplate": false,
+        "Default": "0",
+        "EnumValues": {
+          "0": "CleanOvenIdle",
+          "1": "CleanOvenStandard",
+          "2": "CleanOvenMid",
+          "3": "CleanOvenLow",
+          "7": "CleanOvenSteam"
+        }
+      },
+      {
+        "M2MAttributeName": "OvenUpperCavity_CulinaryCtrSetId",
+        "Instance": "OvenUpperCavity_CulinaryCtrSet",
+        "AttributeName": "Id",
+        "Key": "0x03110001",
+        "MappedAttributeName": "OvenUpperCavity_CulinaryCtrSetId",
+        "DataType": "BEIntegerUnsigned16Bit",
+        "DeviceIO": "RW",
+        "IsTimeSeries": false,
+        "IsTemplate": false,
+        "Default": 0,
+        "RangeValues": {
+          "Min": 0,
+          "Max": 65535,
+          "StepSize": 1
+        }
+      },
+      {
+        "M2MAttributeName": "OvenUpperCavity_CustomCycleSetId",
+        "Instance": "OvenUpperCavity_CustomCycleSet",
+        "AttributeName": "Id",
+        "Key": "0x03170001",
+        "MappedAttributeName": "OvenUpperCavity_CustomCycleSetId",
+        "DataType": "IntegerUnsigned8Bit",
+        "DeviceIO": "RW",
+        "IsTimeSeries": false,
+        "IsTemplate": false,
+        "Default": 0,
+        "RangeValues": {
+          "Min": 0,
+          "Max": 255,
+          "StepSize": 1
+        }
+      },
+      {
+        "M2MAttributeName": "OvenUpperCavity_CustomCycleSetStep",
+        "Instance": "OvenUpperCavity_CustomCycleSet",
+        "AttributeName": "Step",
+        "Key": "0x03170002",
+        "MappedAttributeName": "OvenUpperCavity_CustomCycleSetStep",
+        "DataType": "IntegerUnsigned8Bit",
+        "DeviceIO": "RW",
+        "IsTimeSeries": false,
+        "IsTemplate": false,
+        "Default": 0,
+        "RangeValues": {
+          "Min": 0,
+          "Max": 255,
+          "StepSize": 1
+        }
+      },
+      {
+        "M2MAttributeName": "OvenUpperCavity_AlertSetToneSelect",
+        "Instance": "OvenUpperCavity_AlertSet",
+        "AttributeName": "ToneSelect",
+        "Key": "0x03190001",
+        "MappedAttributeName": "OvenUpperCavity_AlertSetToneSelect",
+        "DataType": "enum",
+        "DeviceIO": "RW",
+        "IsTimeSeries": false,
+        "IsTemplate": false,
+        "Default": "0",
+        "EnumValues": {
+          "0": "ToneSelectOff",
+          "1": "ToneSelect1",
+          "2": "ToneSelect2",
+          "3": "ToneSelect3"
+        }
+      },
+      {
+        "M2MAttributeName": "OvenUpperCavity_AlertSetUserInstructToneSelect",
+        "Instance": "OvenUpperCavity_AlertSet",
+        "AttributeName": "UserInstructToneSelect",
+        "Key": "0x03190002",
+        "MappedAttributeName": "OvenUpperCavity_AlertSetUserInstructToneSelect",
+        "DataType": "enum",
+        "DeviceIO": "RW",
+        "IsTimeSeries": false,
+        "IsTemplate": false,
+        "Default": "0",
+        "EnumValues": {
+          "0": "ToneSelectOff",
+          "1": "ToneSelect1",
+          "2": "ToneSelect2",
+          "3": "ToneSelect3"
+        }
+      },
+      {
+        "M2MAttributeName": "OvenUpperCavity__RecipeSetFacadeMode",
+        "Instance": "OvenUpperCavity__RecipeSet",
+        "AttributeName": "FacadeMode",
+        "Key": "0x031B0001",
+        "MappedAttributeName": "OvenUpperCavity__RecipeSetFacadeMode",
+        "DataType": "String",
+        "DeviceIO": "RW",
+        "IsTimeSeries": false,
+        "IsTemplate": false
+      },
+      {
+        "M2MAttributeName": "OvenUpperCavity__RecipeSetFacadeCookTime",
+        "Instance": "OvenUpperCavity__RecipeSet",
+        "AttributeName": "FacadeCookTime",
+        "Key": "0x031B0002",
+        "MappedAttributeName": "OvenUpperCavity__RecipeSetFacadeCookTime",
+        "DataType": "BEIntegerUnsigned32Bit",
+        "DeviceIO": "RW",
+        "IsTimeSeries": false,
+        "IsTemplate": false,
+        "Default": 0,
+        "RangeValues": {
+          "Min": 1,
+          "Max": 259200,
+          "StepSize": 1
+        }
+      },
+      {
+        "M2MAttributeName": "OvenUpperCavity__RecipeSetFacadeDisplayTemp",
+        "Instance": "OvenUpperCavity__RecipeSet",
+        "AttributeName": "FacadeDisplayTemp",
+        "Key": "0x031B0003",
+        "MappedAttributeName": "OvenUpperCavity__RecipeSetFacadeDisplayTemp",
+        "DataType": "BEIntegerUnsigned16Bit",
+        "DeviceIO": "RW",
+        "IsTimeSeries": false,
+        "IsTemplate": false,
+        "Default": 0,
+        "RangeValues": {
+          "Min": 0,
+          "Max": 2877,
+          "StepSize": 1
+        }
+      },
+      {
+        "M2MAttributeName": "KitchenTimer01_StatusState",
+        "Instance": "KitchenTimer01_Status",
+        "AttributeName": "State",
+        "Key": "0x08010001",
+        "MappedAttributeName": "KitchenTimer01_StatusState",
+        "DataType": "enum",
+        "DeviceIO": "RO",
+        "IsTimeSeries": false,
+        "IsTemplate": false,
+        "Default": "0",
+        "EnumValues": {
+          "0": "KitchenTimerStateIdle",
+          "1": "KitchenTimerStateRunning",
+          "3": "KitchenTimerStateCompleted"
+        }
+      },
+      {
+        "M2MAttributeName": "KitchenTimer01_StatusTimeRemaining",
+        "Instance": "KitchenTimer01_Status",
+        "AttributeName": "TimeRemaining",
+        "Key": "0x08010002",
+        "MappedAttributeName": "KitchenTimer01_StatusTimeRemaining",
+        "DataType": "BEIntegerUnsigned32Bit",
+        "DeviceIO": "RO",
+        "IsTimeSeries": false,
+        "IsTemplate": false,
+        "Default": 0,
+        "RangeValues": {
+          "Min": 0,
+          "Max": 4294967295,
+          "StepSize": 1
+        }
+      },
+      {
+        "M2MAttributeName": "KitchenTimer01_SetTimeSet",
+        "Instance": "KitchenTimer01_Set",
+        "AttributeName": "TimeSet",
+        "Key": "0x08050001",
+        "MappedAttributeName": "KitchenTimer01_SetTimeSet",
+        "DataType": "BEIntegerUnsigned32Bit",
+        "DeviceIO": "RW",
+        "IsTimeSeries": false,
+        "IsTemplate": false,
+        "Default": 0,
+        "RangeValues": {
+          "Min": 1,
+          "Max": 86400,
+          "StepSize": 1
+        }
+      },
+      {
+        "M2MAttributeName": "KitchenTimer01_SetOperations",
+        "Instance": "KitchenTimer01_Set",
+        "AttributeName": "Operations",
+        "Key": "0x08050002",
+        "MappedAttributeName": "KitchenTimer01_SetOperations",
+        "DataType": "enum",
+        "DeviceIO": "RW",
+        "IsTimeSeries": false,
+        "IsTemplate": false,
+        "Default": "0",
+        "EnumValues": {
+          "0": "KitchenTimerOperationsNone",
+          "1": "KitchenTimerOperationsCancel",
+          "2": "KitchenTimerOperationsStart"
+        }
+      },
+      {
+        "M2MAttributeName": "ConfigTime_SetCookTimeMax",
+        "Instance": "ConfigTime_Set",
+        "AttributeName": "CookTimeMax",
+        "Key": "0x09010001",
+        "MappedAttributeName": "ConfigTime_SetCookTimeMax",
+        "DataType": "BEIntegerUnsigned32Bit",
+        "DeviceIO": "RO",
+        "IsTimeSeries": false,
+        "IsTemplate": false,
+        "Default": 0,
+        "RangeValues": {
+          "Min": 0,
+          "Max": 4294967295,
+          "StepSize": 1
+        }
+      },
+      {
+        "M2MAttributeName": "ConfigTime_SetCookTimeMin",
+        "Instance": "ConfigTime_Set",
+        "AttributeName": "CookTimeMin",
+        "Key": "0x09010002",
+        "MappedAttributeName": "ConfigTime_SetCookTimeMin",
+        "DataType": "BEIntegerUnsigned32Bit",
+        "DeviceIO": "RO",
+        "IsTimeSeries": false,
+        "IsTemplate": false,
+        "Default": 0,
+        "RangeValues": {
+          "Min": 0,
+          "Max": 4294967295,
+          "StepSize": 1
+        }
+      },
+      {
+        "M2MAttributeName": "ConfigTime_SetDelayTimeMax",
+        "Instance": "ConfigTime_Set",
+        "AttributeName": "DelayTimeMax",
+        "Key": "0x09010003",
+        "MappedAttributeName": "ConfigTime_SetDelayTimeMax",
+        "DataType": "BEIntegerUnsigned32Bit",
+        "DeviceIO": "RO",
+        "IsTimeSeries": false,
+        "IsTemplate": false,
+        "Default": 0,
+        "RangeValues": {
+          "Min": 0,
+          "Max": 4294967295,
+          "StepSize": 1
+        }
+      },
+      {
+        "M2MAttributeName": "ConfigTime_SetDelayTimeMin",
+        "Instance": "ConfigTime_Set",
+        "AttributeName": "DelayTimeMin",
+        "Key": "0x09010004",
+        "MappedAttributeName": "ConfigTime_SetDelayTimeMin",
+        "DataType": "BEIntegerUnsigned32Bit",
+        "DeviceIO": "RO",
+        "IsTimeSeries": false,
+        "IsTemplate": false,
+        "Default": 0,
+        "RangeValues": {
+          "Min": 0,
+          "Max": 4294967295,
+          "StepSize": 1
+        }
+      },
+      {
+        "M2MAttributeName": "ConfigCavity_SetTempDefault",
+        "Instance": "ConfigCavity_Set",
+        "AttributeName": "TempDefault",
+        "Key": "0x09020001",
+        "MappedAttributeName": "ConfigCavity_SetTempDefault",
+        "DataType": "BEIntegerUnsigned16Bit",
+        "DeviceIO": "RO",
+        "IsTimeSeries": false,
+        "IsTemplate": false,
+        "Default": 0,
+        "RangeValues": {
+          "Min": 0,
+          "Max": 65535,
+          "StepSize": 1
+        }
+      },
+      {
+        "M2MAttributeName": "ConfigCavity_SetTempMax",
+        "Instance": "ConfigCavity_Set",
+        "AttributeName": "TempMax",
+        "Key": "0x09020002",
+        "MappedAttributeName": "ConfigCavity_SetTempMax",
+        "DataType": "BEIntegerUnsigned16Bit",
+        "DeviceIO": "RO",
+        "IsTimeSeries": false,
+        "IsTemplate": false,
+        "Default": 0,
+        "RangeValues": {
+          "Min": 0,
+          "Max": 65535,
+          "StepSize": 1
+        }
+      },
+      {
+        "M2MAttributeName": "ConfigCavity_SetTempMin",
+        "Instance": "ConfigCavity_Set",
+        "AttributeName": "TempMin",
+        "Key": "0x09020003",
+        "MappedAttributeName": "ConfigCavity_SetTempMin",
+        "DataType": "BEIntegerUnsigned16Bit",
+        "DeviceIO": "RO",
+        "IsTimeSeries": false,
+        "IsTemplate": false,
+        "Default": 0,
+        "RangeValues": {
+          "Min": 0,
+          "Max": 65535,
+          "StepSize": 1
+        }
+      },
+      {
+        "M2MAttributeName": "ConfigKitchenTimer_SetSelect",
+        "Instance": "ConfigKitchenTimer_Set",
+        "AttributeName": "Select",
+        "Key": "0x09040001",
+        "MappedAttributeName": "ConfigKitchenTimer_SetSelect",
+        "DataType": "IntegerUnsigned8Bit",
+        "DeviceIO": "RO",
+        "IsTimeSeries": false,
+        "IsTemplate": false,
+        "Default": 0,
+        "RangeValues": {
+          "Min": 0,
+          "Max": 255,
+          "StepSize": 1
+        }
+      },
+      {
+        "M2MAttributeName": "ConfigKitchenTimer_SetMax",
+        "Instance": "ConfigKitchenTimer_Set",
+        "AttributeName": "Max",
+        "Key": "0x09040002",
+        "MappedAttributeName": "ConfigKitchenTimer_SetMax",
+        "DataType": "BEIntegerUnsigned32Bit",
+        "DeviceIO": "RO",
+        "IsTimeSeries": false,
+        "IsTemplate": false,
+        "Default": 0,
+        "RangeValues": {
+          "Min": 0,
+          "Max": 4294967295,
+          "StepSize": 1
+        }
+      },
+      {
+        "M2MAttributeName": "ConfigKitchenTimer_SetMin",
+        "Instance": "ConfigKitchenTimer_Set",
+        "AttributeName": "Min",
+        "Key": "0x09040003",
+        "MappedAttributeName": "ConfigKitchenTimer_SetMin",
+        "DataType": "BEIntegerUnsigned32Bit",
+        "DeviceIO": "RO",
+        "IsTimeSeries": false,
+        "IsTemplate": false,
+        "Default": 0,
+        "RangeValues": {
+          "Min": 0,
+          "Max": 4294967295,
+          "StepSize": 1
+        }
+      },
+      {
+        "M2MAttributeName": "ConfigUint8Range_SetMax",
+        "Instance": "ConfigUint8Range_Set",
+        "AttributeName": "Max",
+        "Key": "0x09050001",
+        "MappedAttributeName": "ConfigUint8Range_SetMax",
+        "DataType": "IntegerUnsigned8Bit",
+        "DeviceIO": "RO",
+        "IsTimeSeries": false,
+        "IsTemplate": false,
+        "Default": 0,
+        "RangeValues": {
+          "Min": 0,
+          "Max": 255,
+          "StepSize": 1
+        }
+      },
+      {
+        "M2MAttributeName": "ConfigUint8Range_SetMin",
+        "Instance": "ConfigUint8Range_Set",
+        "AttributeName": "Min",
+        "Key": "0x09050002",
+        "MappedAttributeName": "ConfigUint8Range_SetMin",
+        "DataType": "IntegerUnsigned8Bit",
+        "DeviceIO": "RO",
+        "IsTimeSeries": false,
+        "IsTemplate": false,
+        "Default": 0,
+        "RangeValues": {
+          "Min": 0,
+          "Max": 255,
+          "StepSize": 1
+        }
+      },
+      {
+        "M2MAttributeName": "ConfigUint8Range_SetStep",
+        "Instance": "ConfigUint8Range_Set",
+        "AttributeName": "Step",
+        "Key": "0x09050003",
+        "MappedAttributeName": "ConfigUint8Range_SetStep",
+        "DataType": "IntegerUnsigned8Bit",
+        "DeviceIO": "RO",
+        "IsTimeSeries": false,
+        "IsTemplate": false,
+        "Default": 0,
+        "RangeValues": {
+          "Min": 0,
+          "Max": 255,
+          "StepSize": 1
+        }
+      },
+      {
+        "M2MAttributeName": "ConfigDisplay_SetZoneMessageLength",
+        "Instance": "ConfigDisplay_Set",
+        "AttributeName": "ZoneMessageLength",
+        "Key": "0x09060001",
+        "MappedAttributeName": "ConfigDisplay_SetZoneMessageLength",
+        "DataType": "String",
+        "DeviceIO": "RO",
+        "IsTimeSeries": false,
+        "IsTemplate": false
+      },
+      {
+        "M2MAttributeName": "ConfigDisplay_SetRecipeTextLength",
+        "Instance": "ConfigDisplay_Set",
+        "AttributeName": "RecipeTextLength",
+        "Key": "0x09060002",
+        "MappedAttributeName": "ConfigDisplay_SetRecipeTextLength",
+        "DataType": "BEIntegerUnsigned16Bit",
+        "DeviceIO": "RO",
+        "IsTimeSeries": false,
+        "IsTemplate": false,
+        "Default": 500,
+        "RangeValues": {
+          "Min": 0,
+          "Max": 65535,
+          "StepSize": 1
+        }
+      },
+      {
+        "M2MAttributeName": "Relational_CapabilityModeTemperatures",
+        "Instance": "Relational_Capability",
+        "AttributeName": "ModeTemperatures",
+        "Key": "0xFD010001",
+        "MappedAttributeName": "Relational_CapabilityModeTemperatures",
+        "DataType": "String",
+        "DeviceIO": "RO",
+        "IsTimeSeries": false,
+        "IsTemplate": false
+      },
+      {
+        "M2MAttributeName": "Relational_CapabilitySettings",
+        "Instance": "Relational_Capability",
+        "AttributeName": "Settings",
+        "Key": "0xFD010002",
+        "MappedAttributeName": "Relational_CapabilitySettings",
+        "DataType": "String",
+        "DeviceIO": "RO",
+        "IsTimeSeries": false,
+        "IsTemplate": false
+      },
+      {
+        "M2MAttributeName": "Relational_CapabilityTimeDefaults",
+        "Instance": "Relational_Capability",
+        "AttributeName": "TimeDefaults",
+        "Key": "0xFD010004",
+        "MappedAttributeName": "Relational_CapabilityTimeDefaults",
+        "DataType": "String",
+        "DeviceIO": "RO",
+        "IsTimeSeries": false,
+        "IsTemplate": false
+      },
+      {
+        "M2MAttributeName": "Relational_CapabilityModeTimes",
+        "Instance": "Relational_Capability",
+        "AttributeName": "ModeTimes",
+        "Key": "0xFD010005",
+        "MappedAttributeName": "Relational_CapabilityModeTimes",
+        "DataType": "String",
+        "DeviceIO": "RO",
+        "IsTimeSeries": false,
+        "IsTemplate": false
+      },
+      {
+        "M2MAttributeName": "Relational_CycleMyCreation",
+        "Instance": "Relational_Cycle",
+        "AttributeName": "MyCreation",
+        "Key": "0xFD020001",
+        "MappedAttributeName": "Relational_CycleMyCreation",
+        "DataType": "String",
+        "DeviceIO": "RW",
+        "IsTimeSeries": false,
+        "IsTemplate": false
+      },
+      {
+        "M2MAttributeName": "Relational_CycleOnDemandMessage",
+        "Instance": "Relational_Cycle",
+        "AttributeName": "OnDemandMessage",
+        "Key": "0xFD020003",
+        "MappedAttributeName": "Relational_CycleOnDemandMessage",
+        "DataType": "String",
+        "DeviceIO": "RW",
+        "IsTimeSeries": false,
+        "IsTemplate": false
+      },
+      {
+        "M2MAttributeName": "Relational_EnvelopeOpen",
+        "Instance": "Relational_Envelope",
+        "AttributeName": "Open",
+        "Key": "0xFE010001",
+        "MappedAttributeName": "Relational_EnvelopeOpen",
+        "DataType": "BEIntegerUnsigned32Bit",
+        "DeviceIO": "RW",
+        "IsTimeSeries": false,
+        "IsTemplate": false,
+        "Default": 0,
+        "RangeValues": {
+          "Min": 0,
+          "Max": 4294967295,
+          "StepSize": 1
+        }
+      },
+      {
+        "M2MAttributeName": "Relational_EnvelopeClose",
+        "Instance": "Relational_Envelope",
+        "AttributeName": "Close",
+        "Key": "0xFE010002",
+        "MappedAttributeName": "Relational_EnvelopeClose",
+        "DataType": "BEIntegerUnsigned32Bit",
+        "DeviceIO": "RW",
+        "IsTimeSeries": false,
+        "IsTemplate": false,
+        "Default": 0,
+        "RangeValues": {
+          "Min": 0,
+          "Max": 4294967295,
+          "StepSize": 1
+        }
+      },
+      {
+        "M2MAttributeName": "Relational_EnvelopeAction",
+        "Instance": "Relational_Envelope",
+        "AttributeName": "Action",
+        "Key": "0xFE010003",
+        "MappedAttributeName": "Relational_EnvelopeAction",
+        "DataType": "enum",
+        "DeviceIO": "RW",
+        "IsTimeSeries": false,
+        "IsTemplate": false,
+        "Default": "0",
+        "EnumValues": {
+          "0": "ActionCreate",
+          "1": "ActionGet",
+          "2": "ActionUpdate",
+          "3": "ActionDelete",
+          "4": "ActionPublish",
+          "5": "ActionStart",
+          "6": "ActionSetOnDisplay"
+        }
+      },
+      {
+        "M2MAttributeName": "Relational_EntityOpen",
+        "Instance": "Relational_Entity",
+        "AttributeName": "Open",
+        "Key": "0xFE020001",
+        "MappedAttributeName": "Relational_EntityOpen",
+        "DataType": "BEIntegerUnsigned32Bit",
+        "DeviceIO": "RW",
+        "IsTimeSeries": false,
+        "IsTemplate": false,
+        "Default": 0,
+        "RangeValues": {
+          "Min": 0,
+          "Max": 4294967295,
+          "StepSize": 1
+        }
+      },
+      {
+        "M2MAttributeName": "Relational_EntityClose",
+        "Instance": "Relational_Entity",
+        "AttributeName": "Close",
+        "Key": "0xFE020002",
+        "MappedAttributeName": "Relational_EntityClose",
+        "DataType": "BEIntegerUnsigned32Bit",
+        "DeviceIO": "RW",
+        "IsTimeSeries": false,
+        "IsTemplate": false,
+        "Default": 0,
+        "RangeValues": {
+          "Min": 0,
+          "Max": 4294967295,
+          "StepSize": 1
+        }
+      },
+      {
+        "M2MAttributeName": "Relational_EntityName",
+        "Instance": "Relational_Entity",
+        "AttributeName": "Name",
+        "Key": "0xFE020003",
+        "MappedAttributeName": "Relational_EntityName",
+        "DataType": "String",
+        "DeviceIO": "RW",
+        "IsTimeSeries": false,
+        "IsTemplate": false
+      },
+      {
+        "M2MAttributeName": "Relational_EntityId",
+        "Instance": "Relational_Entity",
+        "AttributeName": "Id",
+        "Key": "0xFE020004",
+        "MappedAttributeName": "Relational_EntityId",
+        "DataType": "IntegerUnsigned8Bit",
+        "DeviceIO": "RW",
+        "IsTimeSeries": false,
+        "IsTemplate": false,
+        "Default": 0,
+        "RangeValues": {
+          "Min": 0,
+          "Max": 255,
+          "StepSize": 1
+        }
+      },
+      {
+        "M2MAttributeName": "Relational_ArrayOpen",
+        "Instance": "Relational_Array",
+        "AttributeName": "Open",
+        "Key": "0xFE030001",
+        "MappedAttributeName": "Relational_ArrayOpen",
+        "DataType": "BEIntegerUnsigned32Bit",
+        "DeviceIO": "RW",
+        "IsTimeSeries": false,
+        "IsTemplate": false,
+        "Default": 0,
+        "RangeValues": {
+          "Min": 0,
+          "Max": 4294967295,
+          "StepSize": 1
+        }
+      },
+      {
+        "M2MAttributeName": "Relational_ArrayClose",
+        "Instance": "Relational_Array",
+        "AttributeName": "Close",
+        "Key": "0xFE030002",
+        "MappedAttributeName": "Relational_ArrayClose",
+        "DataType": "BEIntegerUnsigned32Bit",
+        "DeviceIO": "RW",
+        "IsTimeSeries": false,
+        "IsTemplate": false,
+        "Default": 0,
+        "RangeValues": {
+          "Min": 0,
+          "Max": 4294967295,
+          "StepSize": 1
+        }
+      },
+      {
+        "M2MAttributeName": "PushTrigger",
+        "Instance": "",
+        "AttributeName": "PushTrigger",
+        "Key": "0x00000000",
+        "MappedAttributeName": "PushTrigger",
+        "DataType": "BEIntegerSigned32Bit",
+        "DeviceIO": "WO",
+        "IsTimeSeries": false,
+        "IsTemplate": false,
+        "Default": 0,
+        "RangeValues": {
+          "Min": -2147483648,
+          "Max": 2147483647,
+          "StepSize": 1
+        }
+      },
+      {
+        "M2MAttributeName": "Relational_to_Appliance",
+        "Instance": "",
+        "AttributeName": "Relational_to_Appliance",
+        "Key": "0x00000000",
+        "MappedAttributeName": "Relational_to_Appliance",
+        "DataType": "String",
+        "DeviceIO": "RW",
+        "IsTimeSeries": false,
+        "IsTemplate": false
+      },
+      {
+        "M2MAttributeName": "GetSubscribeListVersion",
+        "Instance": "",
+        "AttributeName": "GetSubscribeListVersion",
+        "Key": "0x00000000",
+        "MappedAttributeName": "GetSubscribeListVersion",
+        "DataType": "BEIntegerUnsigned32Bit",
+        "DeviceIO": "WO",
+        "IsTimeSeries": false,
+        "IsTemplate": false,
+        "Default": 0,
+        "RangeValues": {
+          "Min": 0,
+          "Max": 4294967295,
+          "StepSize": 1
+        }
+      },
+      {
+        "M2MAttributeName": "M2MSubList",
+        "Instance": "",
+        "AttributeName": "M2MSubList",
+        "Key": "0x00000000",
+        "MappedAttributeName": "M2MSubList",
+        "DataType": "String",
+        "DeviceIO": "WO",
+        "IsTimeSeries": false,
+        "IsTemplate": false
+      },
+      {
+        "M2MAttributeName": "M2MSubscribeListVersion",
+        "Instance": "",
+        "AttributeName": "M2MSubscribeListVersion",
+        "Key": "0x00000000",
+        "MappedAttributeName": "M2MSubscribeListVersion",
+        "DataType": "String",
+        "DeviceIO": "WO",
+        "IsTimeSeries": false,
+        "IsTemplate": false
+      },
+      {
+        "M2MAttributeName": "SetDNSNames",
+        "Instance": "",
+        "AttributeName": "SetDNSNames",
+        "Key": "0x00000000",
+        "MappedAttributeName": "SetDNSNames",
+        "DataType": "String",
+        "DeviceIO": "WO",
+        "IsTimeSeries": false,
+        "IsTemplate": false
+      },
+      {
+        "M2MAttributeName": "sys-parser-type",
+        "Instance": "",
+        "AttributeName": "sys-parser-type",
+        "Key": "0x00000000",
+        "MappedAttributeName": "sys-parser-type",
+        "DataType": "String",
+        "DeviceIO": "WO",
+        "IsTimeSeries": false,
+        "IsTemplate": false
+      },
+      {
+        "M2MAttributeName": "MAC_Address",
+        "Instance": "",
+        "AttributeName": "MAC_Address",
+        "Key": "0x00000000",
+        "MappedAttributeName": "MAC_Address",
+        "DataType": "String",
+        "DeviceIO": "WO",
+        "IsTimeSeries": false,
+        "IsTemplate": false
+      },
+      {
+        "M2MAttributeName": "uid",
+        "Instance": "",
+        "AttributeName": "uid",
+        "Key": "0x00000000",
+        "MappedAttributeName": "uid",
+        "DataType": "String",
+        "DeviceIO": "WO",
+        "IsTimeSeries": false,
+        "IsTemplate": false
+      },
+      {
+        "M2MAttributeName": "ModelNumber",
+        "Instance": "",
+        "AttributeName": "ModelNumber",
+        "Key": "0x00000000",
+        "MappedAttributeName": "ModelNumber",
+        "DataType": "String",
+        "DeviceIO": "WO",
+        "IsTimeSeries": false,
+        "IsTemplate": false
+      },
+      {
+        "M2MAttributeName": "SerialNumber",
+        "Instance": "",
+        "AttributeName": "SerialNumber",
+        "Key": "0x00000000",
+        "MappedAttributeName": "SerialNumber",
+        "DataType": "String",
+        "DeviceIO": "WO",
+        "IsTimeSeries": false,
+        "IsTemplate": false
+      },
+      {
+        "M2MAttributeName": "ISPReasonCode",
+        "Instance": "",
+        "AttributeName": "ISPReasonCode",
+        "Key": "0x00000000",
+        "MappedAttributeName": "ISPReasonCode",
+        "DataType": "String",
+        "DeviceIO": "WO",
+        "IsTimeSeries": false,
+        "IsTemplate": false
+      },
+      {
+        "M2MAttributeName": "GetApplianceVersionNumber",
+        "Instance": "",
+        "AttributeName": "GetApplianceVersionNumber",
+        "Key": "0x00000000",
+        "MappedAttributeName": "GetApplianceVersionNumber",
+        "DataType": "Boolean",
+        "DeviceIO": "WO",
+        "IsTimeSeries": false,
+        "IsTemplate": false,
+        "Default": false
+      },
+      {
+        "M2MAttributeName": "ProjectReleaseNumber",
+        "Instance": "",
+        "AttributeName": "ProjectReleaseNumber",
+        "Key": "0x00000000",
+        "MappedAttributeName": "ProjectReleaseNumber",
+        "DataType": "String",
+        "DeviceIO": "RW",
+        "IsTimeSeries": false,
+        "IsTemplate": false
+      },
+      {
+        "M2MAttributeName": "ISPStep",
+        "Instance": "",
+        "AttributeName": "ISPStep",
+        "Key": "0x00000000",
+        "MappedAttributeName": "ISPStep",
+        "DataType": "IntegerUnsigned8Bit",
+        "DeviceIO": "WO",
+        "IsTimeSeries": false,
+        "IsTemplate": false,
+        "Default": 0,
+        "RangeValues": {
+          "Min": 0,
+          "Max": 255,
+          "StepSize": 1
+        }
+      },
+      {
+        "M2MAttributeName": "Sys_AlertStatusCustomerFaultCodeNotification",
+        "Instance": "Sys_AlertStatus",
+        "AttributeName": "CustomerFaultCodeNotification",
+        "Key": "0x00000000",
+        "MappedAttributeName": "Sys_AlertStatusCustomerFaultCodeNotification",
+        "DataType": "String",
+        "DeviceIO": "WO",
+        "IsTimeSeries": false,
+        "IsTemplate": false
+      },
+      {
+        "M2MAttributeName": "Sys_AlertStatusControlLockChangedByAppliance",
+        "Instance": "Sys_AlertStatus",
+        "AttributeName": "ControlLockChangedByAppliance",
+        "Key": "0x00000000",
+        "MappedAttributeName": "Sys_AlertStatusControlLockChangedByAppliance",
+        "DataType": "Boolean",
+        "DeviceIO": "WO",
+        "IsTimeSeries": false,
+        "IsTemplate": false,
+        "Default": false
+      },
+      {
+        "M2MAttributeName": "Generic_ApplianceVersionNumber",
+        "Instance": "Generic_",
+        "AttributeName": "ApplianceVersionNumber",
+        "Key": "0x00000000",
+        "MappedAttributeName": "Generic_ApplianceVersionNumber",
+        "DataType": "BEIntegerUnsigned16Bit",
+        "DeviceIO": "RW",
+        "IsTimeSeries": false,
+        "IsTemplate": false,
+        "Default": 0,
+        "RangeValues": {
+          "Min": 0,
+          "Max": 65535,
+          "StepSize": 1
+        }
+      },
+      {
+        "M2MAttributeName": "Generic_EnergyProfileSetting",
+        "Instance": "Generic_",
+        "AttributeName": "EnergyProfileSetting",
+        "Key": "0x00000000",
+        "MappedAttributeName": "Generic_EnergyProfileSetting",
+        "DataType": "BEIntegerUnsigned32Bit",
+        "DeviceIO": "WO",
+        "IsTimeSeries": false,
+        "IsTemplate": false,
+        "Default": 0,
+        "RangeValues": {
+          "Min": 0,
+          "Max": 4294967295,
+          "StepSize": 1
+        }
+      },
+      {
+        "M2MAttributeName": "Generic_ISPBundleAttributes",
+        "Instance": "Generic_",
+        "AttributeName": "ISPBundleAttributes",
+        "Key": "0x00000000",
+        "MappedAttributeName": "Generic_ISPBundleAttributes",
+        "DataType": "String",
+        "DeviceIO": "WO",
+        "IsTimeSeries": false,
+        "IsTemplate": false
+      },
+      {
+        "M2MAttributeName": "Generic_RatePlanID",
+        "Instance": "Generic_",
+        "AttributeName": "RatePlanID",
+        "Key": "0x00000000",
+        "MappedAttributeName": "Generic_RatePlanID",
+        "DataType": "String",
+        "DeviceIO": "RW",
+        "IsTimeSeries": false,
+        "IsTemplate": false
+      },
+      {
+        "M2MAttributeName": "Generic_UtilityID",
+        "Instance": "Generic_",
+        "AttributeName": "UtilityID",
+        "Key": "0x00000000",
+        "MappedAttributeName": "Generic_UtilityID",
+        "DataType": "String",
+        "DeviceIO": "RW",
+        "IsTimeSeries": false,
+        "IsTemplate": false
+      },
+      {
+        "M2MAttributeName": "Generic_SmartID",
+        "Instance": "Generic_",
+        "AttributeName": "SmartID",
+        "Key": "0x00000000",
+        "MappedAttributeName": "Generic_SmartID",
+        "DataType": "String",
+        "DeviceIO": "WO",
+        "IsTimeSeries": false,
+        "IsTemplate": false
+      },
+      {
+        "M2MAttributeName": "Generic_Zip",
+        "Instance": "Generic_",
+        "AttributeName": "Zip",
+        "Key": "0x00000000",
+        "MappedAttributeName": "Generic_Zip",
+        "DataType": "String",
+        "DeviceIO": "RW",
+        "IsTimeSeries": false,
+        "IsTemplate": false
+      },
+      {
+        "M2MAttributeName": "Generic_cc_uri",
+        "Instance": "Generic_",
+        "AttributeName": "cc_uri",
+        "Key": "0x00000000",
+        "MappedAttributeName": "Generic_cc_uri",
+        "DataType": "String",
+        "DeviceIO": "WO",
+        "IsTimeSeries": false,
+        "IsTemplate": false
+      },
+      {
+        "M2MAttributeName": "XCat_InServiceDate",
+        "Instance": "XCat_",
+        "AttributeName": "InServiceDate",
+        "Key": "0x00000000",
+        "MappedAttributeName": "XCat_InServiceDate",
+        "DataType": "String",
+        "DeviceIO": "RW",
+        "IsTimeSeries": false,
+        "IsTemplate": false
+      },
+      {
+        "M2MAttributeName": "XCat_trid_result",
+        "Instance": "XCat_",
+        "AttributeName": "trid_result",
+        "Key": "0x00000000",
+        "MappedAttributeName": "XCat_trid_result",
+        "DataType": "String",
+        "DeviceIO": "RO",
+        "IsTimeSeries": false,
+        "IsTemplate": false
+      },
+      {
+        "M2MAttributeName": "XCat_trid",
+        "Instance": "XCat_",
+        "AttributeName": "trid",
+        "Key": "0x00000000",
+        "MappedAttributeName": "XCat_trid",
+        "DataType": "BEIntegerUnsigned16Bit",
+        "DeviceIO": "RW",
+        "IsTimeSeries": false,
+        "IsTemplate": false,
+        "Default": 0,
+        "RangeValues": {
+          "Min": 0,
+          "Max": 65535,
+          "StepSize": 1
+        }
+      },
+      {
+        "M2MAttributeName": "Online",
+        "Instance": "",
+        "AttributeName": "Online",
+        "Key": "0x00000000",
+        "MappedAttributeName": "Online",
+        "DataType": "Boolean",
+        "DeviceIO": "RO",
+        "IsTimeSeries": false,
+        "IsTemplate": false,
+        "Default": false
+      },
+      {
+        "M2MAttributeName": "XCat_UtcOffset",
+        "Instance": "XCat_",
+        "AttributeName": "UtcOffset",
+        "Key": "0x00000000",
+        "MappedAttributeName": "XCat_UtcOffset",
+        "DataType": "BEIntegerSigned32Bit",
+        "DeviceIO": "RW",
+        "IsTimeSeries": false,
+        "IsTemplate": false,
+        "Default": 0,
+        "RangeValues": {
+          "Min": -2147483648,
+          "Max": 2147483647,
+          "StepSize": 1
+        }
+      },
+      {
+        "M2MAttributeName": "XCat_DstOffset",
+        "Instance": "XCat_",
+        "AttributeName": "DstOffset",
+        "Key": "0x00000000",
+        "MappedAttributeName": "XCat_DstOffset",
+        "DataType": "BEIntegerSigned32Bit",
+        "DeviceIO": "RW",
+        "IsTimeSeries": false,
+        "IsTemplate": false,
+        "Default": 0,
+        "RangeValues": {
+          "Min": -2147483648,
+          "Max": 2147483647,
+          "StepSize": 1
+        }
+      },
+      {
+        "M2MAttributeName": "XCat_TimeZoneId",
+        "Instance": "XCat_",
+        "AttributeName": "TimeZoneId",
+        "Key": "0x00000000",
+        "MappedAttributeName": "XCat_TimeZoneId",
+        "DataType": "String",
+        "DeviceIO": "RW",
+        "IsTimeSeries": false,
+        "IsTemplate": false
+      },
+      {
+        "M2MAttributeName": "XCat_DateTimeMode",
+        "Instance": "XCat_",
+        "AttributeName": "DateTimeMode",
+        "Key": "0x00000000",
+        "MappedAttributeName": "XCat_DateTimeMode",
+        "DataType": "BEIntegerUnsigned16Bit",
+        "DeviceIO": "RW",
+        "IsTimeSeries": false,
+        "IsTemplate": false,
+        "Default": 0,
+        "RangeValues": {
+          "Min": 0,
+          "Max": 65535,
+          "StepSize": 1
+        }
+      }
+    ]
+  },
+  "Personality": {
+    "Key": "DDM_COOKING_Minerva7Single_V27",
+    "Capability": [
+      {
+        "CyclesWithoutDelay": [
+          {
+            "OvenUpperCavity_CycleSetCommonMode": [
+              "CommonModeConvectBroil",
+              "CommonModeBroil",
+              "CommonModeKeepWarm"
+            ],
+            "OvenUpperCavity_CycleSetFrozenBakeFood": [
+              "FrozenBakeFoodMeals",
+              "FrozenBakeFoodNuggets",
+              "FrozenBakeFoodLasagna",
+              "FrozenBakeFoodPizza",
+              "FrozenBakeFoodPie",
+              "FrozenBakeFoodFries"
+            ]
+          }
+        ],
+        "KeepWarmHoldTemp": {
+          "KeepWarm": [
+            {
+              "OvenUpperCavity_TimeSetCookTimeSet": [
+                300,
+                600,
+                900
+              ]
+            }
+          ],
+          "HoldTemp": [
+            {
+              "OvenUpperCavity_TimeSetCookTimeSet": [
+                300,
+                600,
+                900
+              ]
+            }
+          ]
+        },
+        "FaultCodes": {
+          "F01,E04": {
+            "steps_to_repair": [
+              "Power unit down by turning off the circuit breaker(s) for one (1) minute.",
+              "Power unit up by turning on the circuit breaker(s).",
+              "Monitor the oven for one (1) minute to ensure the error code does not display again.",
+              "Verify oven operation.",
+              "If the problem persists, call 866-333-4591 for Service"
+            ],
+            "VideoPath": [
+              "http://cdnapi.kaltura.com/p/1661131/sp/166113100/embedIframeJs/uiconf_id/31123142/partner_id/1661131?iframeembed=true&playerId=kaltura_player_1493979268&entry_id=1_ipy1xtke&flashvars[streamerType]=auto"
+            ],
+            "description": "There may be a problem with the Microwave Appliance Manager or Microwave Power Relay, or the associated wiring.",
+            "error_code": "F1E4",
+            "type": "General Fault"
+          },
+          "F06,E05": {
+            "steps_to_repair": [
+              "Power unit down by turning off the circuit breaker(s) for one (1) minute.",
+              "Power unit up by turning on the circuit breaker(s).",
+              "Monitor the oven for one (1) minute to ensure the error code does not display again.",
+              "Verify oven operation.",
+              "If the problem persists, call 866-333-4591 for Service"
+            ],
+            "VideoPath": [
+              "http://cdnapi.kaltura.com/p/1661131/sp/166113100/embedIframeJs/uiconf_id/31123142/partner_id/1661131?iframeembed=true&playerId=kaltura_player_1493979268&entry_id=1_ipy1xtke&flashvars[streamerType]=auto"
+            ],
+            "description": "There may be a problem with the Control Panel Assembly, or the associated wiring.",
+            "error_code": "F6E5",
+            "type": "General Fault"
+          },
+          "F01,E05": {
+            "steps_to_repair": [
+              "Power unit down by turning off the circuit breaker(s) for one (1) minute.",
+              "Power unit up by turning on the circuit breaker(s).",
+              "Monitor the oven for one (1) minute to ensure the error code does not display again.",
+              "Verify oven operation.",
+              "If the problem persists, call 866-333-4591 for Service"
+            ],
+            "VideoPath": [
+              "http://cdnapi.kaltura.com/p/1661131/sp/166113100/embedIframeJs/uiconf_id/31123142/partner_id/1661131?iframeembed=true&playerId=kaltura_player_1493979268&entry_id=1_ipy1xtke&flashvars[streamerType]=auto"
+            ],
+            "description": "There may be a problem with the Microwave Inverter, Magnetron Tube, or the associated wiring.",
+            "error_code": "F1E5",
+            "type": "General Fault"
+          },
+          "F06,E06": {
+            "steps_to_repair": [
+              "Power unit down by turning off the circuit breaker(s) for one (1) minute.",
+              "Power unit up by turning on the circuit breaker(s).",
+              "Monitor the oven for one (1) minute to ensure the error code does not display again.",
+              "Verify oven operation.",
+              "If the problem persists, call 866-333-4591 for Service"
+            ],
+            "VideoPath": [
+              "http://cdnapi.kaltura.com/p/1661131/sp/166113100/embedIframeJs/uiconf_id/31123142/partner_id/1661131?iframeembed=true&playerId=kaltura_player_1493979268&entry_id=1_ipy1xtke&flashvars[streamerType]=auto"
+            ],
+            "description": "There may be a problem with the Upper Oven Appliance Manger Control or the associated wiring.",
+            "error_code": "F6E6",
+            "type": "General Fault"
+          },
+          "F01,E06": {
+            "steps_to_repair": [
+              "Power unit down by turning off the circuit breaker(s) for one (1) minute.",
+              "Power unit up by turning on the circuit breaker(s).",
+              "Monitor the oven for one (1) minute to ensure the error code does not display again.",
+              "Verify oven operation.",
+              "If the problem persists, call 866-333-4591 for Service"
+            ],
+            "VideoPath": [
+              "http://cdnapi.kaltura.com/p/1661131/sp/166113100/embedIframeJs/uiconf_id/31123142/partner_id/1661131?iframeembed=true&playerId=kaltura_player_1493979268&entry_id=1_ipy1xtke&flashvars[streamerType]=auto"
+            ],
+            "description": "There may be a problem with the Microwave Thermistor or Sensor, or the associated wiring.",
+            "error_code": "F1E6",
+            "type": "General Fault"
+          },
+          "F06,E03": {
+            "steps_to_repair": [
+              "Power unit down by turning off the circuit breaker(s) for one (1) minute.",
+              "Power unit up by turning on the circuit breaker(s).",
+              "Monitor the oven for one (1) minute to ensure the error code does not display again.",
+              "Verify oven operation.",
+              "If the problem persists, call 866-333-4591 for Service"
+            ],
+            "VideoPath": [
+              "http://cdnapi.kaltura.com/p/1661131/sp/166113100/embedIframeJs/uiconf_id/31123142/partner_id/1661131?iframeembed=true&playerId=kaltura_player_1493979268&entry_id=1_ipy1xtke&flashvars[streamerType]=auto"
+            ],
+            "description": "There may be a problem with the Appliance Manager Control, the Converter Control, or the associated wiring.",
+            "error_code": "F6E3",
+            "type": "General Fault"
+          },
+          "F06,E04": {
+            "steps_to_repair": [
+              "Power unit down by turning off the circuit breaker(s) for one (1) minute.",
+              "Power unit up by turning on the circuit breaker(s).",
+              "Monitor the oven for one (1) minute to ensure the error code does not display again.",
+              "Verify oven operation.",
+              "If the problem persists, call 866-333-4591 for Service"
+            ],
+            "VideoPath": [
+              "http://cdnapi.kaltura.com/p/1661131/sp/166113100/embedIframeJs/uiconf_id/31123142/partner_id/1661131?iframeembed=true&playerId=kaltura_player_1493979268&entry_id=1_ipy1xtke&flashvars[streamerType]=auto"
+            ],
+            "description": "There may be a problem with the Appliance Manger Control or the associated wiring.",
+            "error_code": "F6E4",
+            "type": "General Fault"
+          },
+          "F01,E00": {
+            "steps_to_repair": [
+              "Power unit down by turning off the circuit breaker(s) for one (1) minute.",
+              "Power unit up by turning on the circuit breaker(s).",
+              "Monitor the oven for one (1) minute to ensure the error code does not display again.",
+              "Verify oven operation.",
+              "If the problem persists, call 866-333-4591 for Service"
+            ],
+            "VideoPath": [
+              "http://cdnapi.kaltura.com/p/1661131/sp/166113100/embedIframeJs/uiconf_id/31123142/partner_id/1661131?iframeembed=true&playerId=kaltura_player_1493979268&entry_id=1_ipy1xtke&flashvars[streamerType]=auto"
+            ],
+            "description": "There may be a problem with the User Interface (Touchpad), the Control, or the associated wiring.",
+            "error_code": "F1E0",
+            "type": "General Fault"
+          },
+          "F06,E09": {
+            "steps_to_repair": [
+              "Power unit down by turning off the circuit breaker(s) for one (1) minute.",
+              "Power unit up by turning on the circuit breaker(s).",
+              "Monitor the oven for one (1) minute to ensure the error code does not display again.",
+              "Verify oven operation.",
+              "If the problem persists, call 866-333-4591 for Service"
+            ],
+            "VideoPath": [
+              "http://cdnapi.kaltura.com/p/1661131/sp/166113100/embedIframeJs/uiconf_id/31123142/partner_id/1661131?iframeembed=true&playerId=kaltura_player_1493979268&entry_id=1_ipy1xtke&flashvars[streamerType]=auto"
+            ],
+            "description": "There may be a problem with the Lower Oven Appliance Manager, or the associated wiring.",
+            "error_code": "F6E9",
+            "type": "General Fault"
+          },
+          "F01,E01": {
+            "steps_to_repair": [
+              "Power unit down by turning off the circuit breaker(s) for one (1) minute.",
+              "Power unit up by turning on the circuit breaker(s).",
+              "Monitor the oven for one (1) minute to ensure the error code does not display again.",
+              "Verify oven operation.",
+              "If the problem persists, call 866-333-4591 for Service"
+            ],
+            "VideoPath": [
+              "http://cdnapi.kaltura.com/p/1661131/sp/166113100/embedIframeJs/uiconf_id/31123142/partner_id/1661131?iframeembed=true&playerId=kaltura_player_1493979268&entry_id=1_ipy1xtke&flashvars[streamerType]=auto"
+            ],
+            "description": "There may be a problem with the Oven Appliance Manager Control, or the associated wiring.",
+            "error_code": "F1E1",
+            "type": "General Fault"
+          },
+          "F01,E02": {
+            "steps_to_repair": [
+              "Power unit down by turning off the circuit breaker(s) for one (1) minute.",
+              "Power unit up by turning on the circuit breaker(s).",
+              "Monitor the oven for one (1) minute to ensure the error code does not display again.",
+              "Verify oven operation.",
+              "If the problem persists, call 866-333-4591 for Service"
+            ],
+            "VideoPath": [
+              "http://cdnapi.kaltura.com/p/1661131/sp/166113100/embedIframeJs/uiconf_id/31123142/partner_id/1661131?iframeembed=true&playerId=kaltura_player_1493979268&entry_id=1_ipy1xtke&flashvars[streamerType]=auto"
+            ],
+            "description": "There may be a problem with the Microwave User Interface, or the associated wiring.",
+            "error_code": "F1E2",
+            "type": "General Fault"
+          },
+          "F06,E07": {
+            "steps_to_repair": [
+              "Power unit down by turning off the circuit breaker(s) for one (1) minute.",
+              "Power unit up by turning on the circuit breaker(s).",
+              "Monitor the oven for one (1) minute to ensure the error code does not display again.",
+              "Verify oven operation.",
+              "If the problem persists, call 866-333-4591 for Service"
+            ],
+            "VideoPath": [
+              "http://cdnapi.kaltura.com/p/1661131/sp/166113100/embedIframeJs/uiconf_id/31123142/partner_id/1661131?iframeembed=true&playerId=kaltura_player_1493979268&entry_id=1_ipy1xtke&flashvars[streamerType]=auto"
+            ],
+            "description": "There may be a problem with the Microwave Appliance Manager, or the associated wiring.",
+            "error_code": "F6E7",
+            "type": "General Fault"
+          },
+          "F01,E03": {
+            "steps_to_repair": [
+              "Power unit down by turning off the circuit breaker(s) for one (1) minute.",
+              "Power unit up by turning on the circuit breaker(s).",
+              "Monitor the oven for one (1) minute to ensure the error code does not display again.",
+              "Verify oven operation.",
+              "If the problem persists, call 866-333-4591 for Service"
+            ],
+            "VideoPath": [
+              "http://cdnapi.kaltura.com/p/1661131/sp/166113100/embedIframeJs/uiconf_id/31123142/partner_id/1661131?iframeembed=true&playerId=kaltura_player_1493979268&entry_id=1_ipy1xtke&flashvars[streamerType]=auto"
+            ],
+            "description": "There may be a problem with the Microwave Appliance Manager, or the associated wiring.",
+            "error_code": "F1E3",
+            "type": "General Fault"
+          },
+          "F06,E08": {
+            "steps_to_repair": [
+              "Power unit down by turning off the circuit breaker(s) for one (1) minute.",
+              "Power unit up by turning on the circuit breaker(s).",
+              "Monitor the oven for one (1) minute to ensure the error code does not display again.",
+              "Verify oven operation.",
+              "If the problem persists, call 866-333-4591 for Service"
+            ],
+            "VideoPath": [
+              "http://cdnapi.kaltura.com/p/1661131/sp/166113100/embedIframeJs/uiconf_id/31123142/partner_id/1661131?iframeembed=true&playerId=kaltura_player_1493979268&entry_id=1_ipy1xtke&flashvars[streamerType]=auto"
+            ],
+            "description": "There may be a problem with the Microwave Appliance Manger Control or the associated wiring.",
+            "error_code": "F6E8",
+            "type": "General Fault"
+          },
+          "F06,E01": {
+            "steps_to_repair": [
+              "Power unit down by turning off the circuit breaker(s) for one (1) minute.",
+              "Power unit up by turning on the circuit breaker(s).",
+              "Monitor the oven for one (1) minute to ensure the error code does not display again.",
+              "Verify oven operation.",
+              "If the problem persists, call 866-333-4591 for Service"
+            ],
+            "VideoPath": [
+              "http://cdnapi.kaltura.com/p/1661131/sp/166113100/embedIframeJs/uiconf_id/31123142/partner_id/1661131?iframeembed=true&playerId=kaltura_player_1493979268&entry_id=1_ipy1xtke&flashvars[streamerType]=auto"
+            ],
+            "description": "There may be a problem with the Appliance Manager Control, the Converter Control, or the associated wiring.",
+            "error_code": "F6E1",
+            "type": "General Fault"
+          },
+          "F06,E00": {
+            "steps_to_repair": [
+              "Power unit down by turning off the circuit breaker(s) for one (1) minute.",
+              "Power unit up by turning on the circuit breaker(s).",
+              "Monitor the oven for one (1) minute to ensure the error code does not display again.",
+              "Verify oven operation.",
+              "If the problem persists, call 866-333-4591 for Service"
+            ],
+            "VideoPath": [
+              "http://cdnapi.kaltura.com/p/1661131/sp/166113100/embedIframeJs/uiconf_id/31123142/partner_id/1661131?iframeembed=true&playerId=kaltura_player_1493979268&entry_id=1_ipy1xtke&flashvars[streamerType]=auto"
+            ],
+            "description": "There may be a problem with the Appliance Manager Control, the Converter Control, or the associated wiring.",
+            "error_code": "F6E0",
+            "type": "General Fault"
+          },
+          "F02,E01": {
+            "steps_to_repair": [
+              "Power unit down by turning off the circuit breaker(s) for one (1) minute.",
+              "Power unit up by turning on the circuit breaker(s).",
+              "Monitor the oven for one (1) minute to ensure the error code does not display again.",
+              "Verify oven operation.",
+              "If the problem persists, call 866-333-4591 for Service"
+            ],
+            "VideoPath": [
+              "http://cdnapi.kaltura.com/p/1661131/sp/166113100/embedIframeJs/uiconf_id/31123142/partner_id/1661131?iframeembed=true&playerId=kaltura_player_1493979268&entry_id=1_ipy1xtke&flashvars[streamerType]=auto"
+            ],
+            "description": "There may be a problem with the User Interface or Keypad, the Control, or the associated wiring.",
+            "error_code": "F2E1",
+            "type": "General Fault"
+          },
+          "F07,E02": {
+            "steps_to_repair": [
+              "Power unit down by turning off the circuit breaker(s) for one (1) minute.",
+              "Power unit up by turning on the circuit breaker(s).",
+              "Monitor the oven for one (1) minute to ensure the error code does not display again.",
+              "Verify oven operation.",
+              "If the problem persists, call 866-333-4591 for Service"
+            ],
+            "VideoPath": [
+              "http://cdnapi.kaltura.com/p/1661131/sp/166113100/embedIframeJs/uiconf_id/31123142/partner_id/1661131?iframeembed=true&playerId=kaltura_player_1493979268&entry_id=1_ipy1xtke&flashvars[streamerType]=auto"
+            ],
+            "description": "There may be a problem with the Water Level, Water Level Sensor, or the associated wiring.",
+            "error_code": "F7E2",
+            "type": "General Fault"
+          },
+          "F02,E00": {
+            "steps_to_repair": [
+              "Power unit down by turning off the circuit breaker(s) for one (1) minute.",
+              "Power unit up by turning on the circuit breaker(s).",
+              "Monitor the oven for one (1) minute to ensure the error code does not display again.",
+              "Verify oven operation.",
+              "If the problem persists, call 866-333-4591 for Service"
+            ],
+            "VideoPath": [
+              "http://cdnapi.kaltura.com/p/1661131/sp/166113100/embedIframeJs/uiconf_id/31123142/partner_id/1661131?iframeembed=true&playerId=kaltura_player_1493979268&entry_id=1_ipy1xtke&flashvars[streamerType]=auto"
+            ],
+            "description": "There may be a problem with the User Interface or Keypad, the Control, or the associated wiring.",
+            "error_code": "F2E0",
+            "type": "General Fault"
+          },
+          "F06,E0A": {
+            "steps_to_repair": [
+              "Power unit down by turning off the circuit breaker(s) for one (1) minute.",
+              "Power unit up by turning on the circuit breaker(s).",
+              "Monitor the oven for one (1) minute to ensure the error code does not display again.",
+              "Verify oven operation.",
+              "If the problem persists, call 866-333-4591 for Service"
+            ],
+            "VideoPath": [
+              "http://cdnapi.kaltura.com/p/1661131/sp/166113100/embedIframeJs/uiconf_id/31123142/partner_id/1661131?iframeembed=true&playerId=kaltura_player_1493979268&entry_id=1_ipy1xtke&flashvars[streamerType]=auto"
+            ],
+            "description": "There may be a problem with the User Interface Control sensing an over temperature condition, or with the associated wiring.",
+            "error_code": "F6EA",
+            "type": "General Fault"
+          },
+          "F07,E01": {
+            "steps_to_repair": [
+              "Power unit down by turning off the circuit breaker(s) for one (1) minute.",
+              "Power unit up by turning on the circuit breaker(s).",
+              "Monitor the oven for one (1) minute to ensure the error code does not display again.",
+              "Verify oven operation.",
+              "If the problem persists, call 866-333-4591 for Service"
+            ],
+            "VideoPath": [
+              "http://cdnapi.kaltura.com/p/1661131/sp/166113100/embedIframeJs/uiconf_id/31123142/partner_id/1661131?iframeembed=true&playerId=kaltura_player_1493979268&entry_id=1_ipy1xtke&flashvars[streamerType]=auto"
+            ],
+            "description": "There may be a problem with the Water Boiler Temperature Sensor, or the associated wiring.",
+            "error_code": "F7E1",
+            "type": "General Fault"
+          },
+          "F08,E00": {
+            "steps_to_repair": [
+              "Power unit down by turning off the circuit breaker(s) for one (1) minute.",
+              "Power unit up by turning on the circuit breaker(s).",
+              "Monitor the oven for one (1) minute to ensure the error code does not display again.",
+              "Verify oven operation.",
+              "If the problem persists, call 866-333-4591 for Service"
+            ],
+            "VideoPath": [
+              "http://cdnapi.kaltura.com/p/1661131/sp/166113100/embedIframeJs/uiconf_id/31123142/partner_id/1661131?iframeembed=true&playerId=kaltura_player_1493979268&entry_id=1_ipy1xtke&flashvars[streamerType]=auto"
+            ],
+            "description": "There may be a problem with an airflow restriction, the Upper Oven Cooling Fan, or the associated wiring.",
+            "error_code": "F8E0",
+            "type": "General Fault"
+          },
+          "F03,E00": {
+            "steps_to_repair": [
+              "Power unit down by turning off the circuit breaker(s) for one (1) minute.",
+              "Power unit up by turning on the circuit breaker(s).",
+              "Monitor the oven for one (1) minute to ensure the error code does not display again.",
+              "Verify oven operation.",
+              "If the problem persists, call 866-333-4591 for Service"
+            ],
+            "VideoPath": [
+              "http://cdnapi.kaltura.com/p/1661131/sp/166113100/embedIframeJs/uiconf_id/31123142/partner_id/1661131?iframeembed=true&playerId=kaltura_player_1493979268&entry_id=1_ipy1xtke&flashvars[streamerType]=auto"
+            ],
+            "description": "There may be a problem with the Upper Oven Temperature Sensor, the Control, or the associated wiring.",
+            "error_code": "F3E0",
+            "type": "General Fault"
+          },
+          "F03,E01": {
+            "steps_to_repair": [
+              "Power unit down by turning off the circuit breaker(s) for one (1) minute.",
+              "Power unit up by turning on the circuit breaker(s).",
+              "Monitor the oven for one (1) minute to ensure the error code does not display again.",
+              "Verify oven operation.",
+              "If the problem persists, call 866-333-4591 for Service"
+            ],
+            "VideoPath": [
+              "http://cdnapi.kaltura.com/p/1661131/sp/166113100/embedIframeJs/uiconf_id/31123142/partner_id/1661131?iframeembed=true&playerId=kaltura_player_1493979268&entry_id=1_ipy1xtke&flashvars[streamerType]=auto"
+            ],
+            "description": "There may be a problem with the Lower Oven Temperature Sensor, the Control, or the associated wiring.",
+            "error_code": "F3E1",
+            "type": "General Fault"
+          },
+          "F04,E07": {
+            "steps_to_repair": [
+              "Power unit down by turning off the circuit breaker(s) for one (1) minute.",
+              "Power unit up by turning on the circuit breaker(s).",
+              "Monitor the oven for one (1) minute to ensure the error code does not display again.",
+              "Verify oven operation.",
+              "If the problem persists, call 866-333-4591 for Service"
+            ],
+            "description": "Verify the Microwave Meat Probe is securely inserted in the Microwave Meat Probe Receptacle. Do not use the Oven Meat Probe in the Microwave, they have different resistance values",
+            "error_code": "F4E7",
+            "type": "General Fault"
+          },
+          "F03,E03": {
+            "steps_to_repair": [
+              "Power unit down by turning off the circuit breaker(s) for one (1) minute.",
+              "Power unit up by turning on the circuit breaker(s).",
+              "Monitor the oven for one (1) minute to ensure the error code does not display again.",
+              "Verify oven operation.",
+              "If the problem persists, call 866-333-4591 for Service"
+            ],
+            "VideoPath": [
+              "http://cdnapi.kaltura.com/p/1661131/sp/166113100/embedIframeJs/uiconf_id/31123142/partner_id/1661131?iframeembed=true&playerId=kaltura_player_1493979268&entry_id=1_ipy1xtke&flashvars[streamerType]=auto"
+            ],
+            "description": "There may be a problem with the Oven Temperature Sensor, the Control, or the associated wiring.",
+            "error_code": "F3E3",
+            "type": "General Fault"
+          },
+          "F04,E05": {
+            "steps_to_repair": [
+              "Power unit down by turning off the circuit breaker(s) for one (1) minute.",
+              "Power unit up by turning on the circuit breaker(s).",
+              "Monitor the oven for one (1) minute to ensure the error code does not display again.",
+              "Verify oven operation.",
+              "If the problem persists, call 866-333-4591 for Service"
+            ],
+            "VideoPath": [
+              "http://cdnapi.kaltura.com/p/1661131/sp/166113100/embedIframeJs/uiconf_id/31123142/partner_id/1661131?iframeembed=true&playerId=kaltura_player_1493979268&entry_id=1_ipy1xtke&flashvars[streamerType]=auto"
+            ],
+            "description": "There may be a problem with the Microwave Weight Sensor, or the associated wiring.",
+            "error_code": "F4E5",
+            "type": "General Fault"
+          },
+          "F04,E06": {
+            "steps_to_repair": [
+              "Power unit down by turning off the circuit breaker(s) for one (1) minute.",
+              "Power unit up by turning on the circuit breaker(s).",
+              "Monitor the oven for one (1) minute to ensure the error code does not display again.",
+              "Verify oven operation.",
+              "If the problem persists, call 866-333-4591 for Service"
+            ],
+            "VideoPath": [
+              "http://cdnapi.kaltura.com/p/1661131/sp/166113100/embedIframeJs/uiconf_id/31123142/partner_id/1661131?iframeembed=true&playerId=kaltura_player_1493979268&entry_id=1_ipy1xtke&flashvars[streamerType]=auto"
+            ],
+            "description": "There may be a problem with the Microwave Wave Guide Temperature Sensor, or the associated wiring.",
+            "error_code": "F4E6",
+            "type": "General Fault"
+          },
+          "F04,E04": {
+            "steps_to_repair": [
+              "Power unit down by turning off the circuit breaker(s) for one (1) minute.",
+              "Power unit up by turning on the circuit breaker(s).",
+              "Monitor the oven for one (1) minute to ensure the error code does not display again.",
+              "Verify oven operation.",
+              "If the problem persists, call 866-333-4591 for Service"
+            ],
+            "VideoPath": [
+              "http://cdnapi.kaltura.com/p/1661131/sp/166113100/embedIframeJs/uiconf_id/31123142/partner_id/1661131?iframeembed=true&playerId=kaltura_player_1493979268&entry_id=1_ipy1xtke&flashvars[streamerType]=auto"
+            ],
+            "description": "There may be a problem with the Microwave Humidity Sensor, the Microwave Appliance Manager, or the associated wiring.",
+            "error_code": "F4E4",
+            "type": "General Fault"
+          },
+          "F04,E01": {
+            "steps_to_repair": [
+              "Power unit down by turning off the circuit breaker(s) for one (1) minute.",
+              "Power unit up by turning on the circuit breaker(s).",
+              "Monitor the oven for one (1) minute to ensure the error code does not display again.",
+              "Verify oven operation.",
+              "If the problem persists, call 866-333-4591 for Service"
+            ],
+            "VideoPath": [
+              "http://cdnapi.kaltura.com/p/1661131/sp/166113100/embedIframeJs/uiconf_id/31123142/partner_id/1661131?iframeembed=true&playerId=kaltura_player_1493979268&entry_id=1_ipy1xtke&flashvars[streamerType]=auto"
+            ],
+            "description": "There may be a problem with the Microwave Sensor/Thermistor, the Microwave Appliance Manager, or the associated wiring.",
+            "error_code": "F4E1",
+            "type": "General Fault"
+          },
+          "F08,E03": {
+            "steps_to_repair": [
+              "Power unit down by turning off the circuit breaker(s) for one (1) minute.",
+              "Power unit up by turning on the circuit breaker(s).",
+              "Monitor the oven for one (1) minute to ensure the error code does not display again.",
+              "Verify oven operation.",
+              "If the problem persists, call 866-333-4591 for Service"
+            ],
+            "VideoPath": [
+              "http://cdnapi.kaltura.com/p/1661131/sp/166113100/embedIframeJs/uiconf_id/31123142/partner_id/1661131?iframeembed=true&playerId=kaltura_player_1493979268&entry_id=1_ipy1xtke&flashvars[streamerType]=auto"
+            ],
+            "description": "There may be a problem with the Oven Cooling Fan, or the associated wiring.",
+            "error_code": "F8E3",
+            "type": "General Fault"
+          },
+          "F04,E00": {
+            "steps_to_repair": [
+              "Power unit down by turning off the circuit breaker(s) for one (1) minute.",
+              "Power unit up by turning on the circuit breaker(s).",
+              "Monitor the oven for one (1) minute to ensure the error code does not display again.",
+              "Verify oven operation.",
+              "If the problem persists, call 866-333-4591 for Service"
+            ],
+            "VideoPath": [
+              "http://cdnapi.kaltura.com/p/1661131/sp/166113100/embedIframeJs/uiconf_id/31123142/partner_id/1661131?iframeembed=true&playerId=kaltura_player_1493979268&entry_id=1_ipy1xtke&flashvars[streamerType]=auto"
+            ],
+            "description": "There may be a problem with the microwave inverter, or the associated wiring.",
+            "error_code": "F4E0",
+            "type": "General Fault"
+          },
+          "F08,E01": {
+            "steps_to_repair": [
+              "Power unit down by turning off the circuit breaker(s) for one (1) minute.",
+              "Power unit up by turning on the circuit breaker(s).",
+              "Monitor the oven for one (1) minute to ensure the error code does not display again.",
+              "Verify oven operation.",
+              "If the problem persists, call 866-333-4591 for Service"
+            ],
+            "VideoPath": [
+              "http://cdnapi.kaltura.com/p/1661131/sp/166113100/embedIframeJs/uiconf_id/31123142/partner_id/1661131?iframeembed=true&playerId=kaltura_player_1493979268&entry_id=1_ipy1xtke&flashvars[streamerType]=auto"
+            ],
+            "description": "There may be a problem with an airflow restriction, the Lower Oven Cooling Fan, or the associated wiring.",
+            "error_code": "F8E1",
+            "type": "General Fault"
+          },
+          "F08,E02": {
+            "steps_to_repair": [
+              "Power unit down by turning off the circuit breaker(s) for one (1) minute.",
+              "Power unit up by turning on the circuit breaker(s).",
+              "Monitor the oven for one (1) minute to ensure the error code does not display again.",
+              "Verify oven operation.",
+              "If the problem persists, call 866-333-4591 for Service"
+            ],
+            "VideoPath": [
+              "http://cdnapi.kaltura.com/p/1661131/sp/166113100/embedIframeJs/uiconf_id/31123142/partner_id/1661131?iframeembed=true&playerId=kaltura_player_1493979268&entry_id=1_ipy1xtke&flashvars[streamerType]=auto"
+            ],
+            "description": "There may be a problem with the Oven Cooling Fan, or the associated wiring.",
+            "error_code": "F8E2",
+            "type": "General Fault"
+          },
+          "F05,E04": {
+            "steps_to_repair": [
+              "Power unit down by turning off the circuit breaker(s) for one (1) minute.",
+              "Power unit up by turning on the circuit breaker(s).",
+              "Monitor the oven for one (1) minute to ensure the error code does not display again.",
+              "Verify oven operation.",
+              "If the problem persists, call 866-333-4591 for Service"
+            ],
+            "VideoPath": [
+              "http://cdnapi.kaltura.com/p/1661131/sp/166113100/embedIframeJs/uiconf_id/31123142/partner_id/1661131?iframeembed=true&playerId=kaltura_player_1493979268&entry_id=1_ipy1xtke&flashvars[streamerType]=auto"
+            ],
+            "description": "There may be a problem with the Lower Oven Door Latch Assembly, the Door Switch, or the associated wiring.",
+            "error_code": "F5E4",
+            "type": "General Fault"
+          },
+          "F05,E00": {
+            "steps_to_repair": [
+              "Power unit down by turning off the circuit breaker(s) for one (1) minute.",
+              "Power unit up by turning on the circuit breaker(s).",
+              "Monitor the oven for one (1) minute to ensure the error code does not display again.",
+              "Verify oven operation.",
+              "If the problem persists, call 866-333-4591 for Service"
+            ],
+            "VideoPath": [
+              "http://cdnapi.kaltura.com/p/1661131/sp/166113100/embedIframeJs/uiconf_id/31123142/partner_id/1661131?iframeembed=true&playerId=kaltura_player_1493979268&entry_id=1_ipy1xtke&flashvars[streamerType]=auto"
+            ],
+            "description": "There may be a problem with the Door Latch Assembly, the Door Switch, or the associated wiring.",
+            "error_code": "F5E0",
+            "type": "General Fault"
+          },
+          "F05,E01": {
+            "steps_to_repair": [
+              "Power unit down by turning off the circuit breaker(s) for one (1) minute.",
+              "Power unit up by turning on the circuit breaker(s).",
+              "Monitor the oven for one (1) minute to ensure the error code does not display again.",
+              "Verify oven operation.",
+              "If the problem persists, call 866-333-4591 for Service"
+            ],
+            "VideoPath": [
+              "http://cdnapi.kaltura.com/p/1661131/sp/166113100/embedIframeJs/uiconf_id/31123142/partner_id/1661131?iframeembed=true&playerId=kaltura_player_1493979268&entry_id=1_ipy1xtke&flashvars[streamerType]=auto"
+            ],
+            "description": "There may be a problem with the Door Latch Assembly, the Door Switch, or the associated wiring.",
+            "error_code": "F5E1",
+            "type": "General Fault"
+          },
+          "F05,E03": {
+            "steps_to_repair": [
+              "Power unit down by turning off the circuit breaker(s) for one (1) minute.",
+              "Power unit up by turning on the circuit breaker(s).",
+              "Monitor the oven for one (1) minute to ensure the error code does not display again.",
+              "Verify oven operation.",
+              "If the problem persists, call 866-333-4591 for Service"
+            ],
+            "VideoPath": [
+              "http://cdnapi.kaltura.com/p/1661131/sp/166113100/embedIframeJs/uiconf_id/31123142/partner_id/1661131?iframeembed=true&playerId=kaltura_player_1493979268&entry_id=1_ipy1xtke&flashvars[streamerType]=auto"
+            ],
+            "description": "There may be a problem with the Lower Oven Door Latch Assembly, the Door Switch, or the associated wiring.",
+            "error_code": "F5E3",
+            "type": "General Fault"
+          }
+        },
+        "TimeRangeCapabilityData": {
+          "Action": 4,
+          "EntityCapability": {
+            "TimeDefaults": [
+              {
+                "CookTime": [
+                  {
+                    "ConfigTime_SetDelayTimeMin": 60,
+                    "ConfigTime_SetDelayTimeMax": 43200
+                  }
+                ],
+                "Name": "CookTime"
+              },
+              {
+                "KitchenTimer": [
+                  {
+                    "ConfigKitchenTimer_SetKitchenTimerMax": 86400,
+                    "ConfigKitchenTimer_SetKitchenTimerMin": 1,
+                    "ConfigKitchenTimer_SetKitchenTimerSelect": 1
+                  }
+                ],
+                "Name": "KitchenTimer"
+              }
+            ],
+            "Id": 1,
+            "Name": "TimeDefaults"
+          }
+        },
+        "ThermostatControlTemperatureThresholds": [
+          {
+            "Values": [
+              100,
+              150,
+              200,
+              250,
+              300,
+              350,
+              400,
+              450,
+              500,
+              550
+            ],
+            "Default": 350,
+            "Units": "Fahrenheit"
+          },
+          {
+            "Values": [
+              38,
+              66,
+              93,
+              121,
+              149,
+              177,
+              204,
+              232,
+              260,
+              288
+            ],
+            "Default": 177,
+            "Units": "Celsius"
+          }
+        ],
+        "ModeCookTimeCapabilityData": {
+          "Action": 4,
+          "EntityCapability": {
+            "ModeTimes": [
+              {
+                "OvenUpperCavity": [
+                  {
+                    "ConfigTime_SetCookTimeMin": 0,
+                    "OvenUpperCavity_CycleSetCommonMode": 2,
+                    "ConfigTime_SetCookTimeMax": 43200
+                  },
+                  {
+                    "ConfigTime_SetCookTimeMin": 0,
+                    "OvenUpperCavity_CycleSetCommonMode": 5,
+                    "ConfigTime_SetCookTimeMax": 43200
+                  },
+                  {
+                    "ConfigTime_SetCookTimeMin": 0,
+                    "OvenUpperCavity_CycleSetCommonMode": 6,
+                    "ConfigTime_SetCookTimeMax": 43200
+                  },
+                  {
+                    "ConfigTime_SetCookTimeMin": 0,
+                    "OvenUpperCavity_CycleSetCommonMode": 8,
+                    "ConfigTime_SetCookTimeMax": 43200
+                  },
+                  {
+                    "ConfigTime_SetCookTimeMin": 0,
+                    "OvenUpperCavity_CycleSetCommonMode": 9,
+                    "ConfigTime_SetCookTimeMax": 43200
+                  },
+                  {
+                    "ConfigTime_SetCookTimeMin": 0,
+                    "OvenUpperCavity_CycleSetCommonMode": 16,
+                    "ConfigTime_SetCookTimeMax": 43200
+                  },
+                  {
+                    "ConfigTime_SetCookTimeMin": 0,
+                    "OvenUpperCavity_CycleSetCommonMode": 24,
+                    "ConfigTime_SetCookTimeMax": 43200
+                  },
+                  {
+                    "ConfigTime_SetCookTimeMin": 60,
+                    "ConfigTime_SetCookTimeMax": 43200,
+                    "OvenUpperCavity_CycleSetEasyConvectFood": 2
+                  },
+                  {
+                    "ConfigTime_SetCookTimeMin": 60,
+                    "ConfigTime_SetCookTimeMax": 43200,
+                    "OvenUpperCavity_CycleSetEasyConvectFood": 5
+                  },
+                  {
+                    "ConfigTime_SetCookTimeMin": 60,
+                    "ConfigTime_SetCookTimeMax": 43200,
+                    "OvenUpperCavity_CycleSetEasyConvectFood": 6
+                  },
+                  {
+                    "ConfigTime_SetCookTimeMin": 60,
+                    "ConfigTime_SetCookTimeMax": 43200,
+                    "OvenUpperCavity_CycleSetEasyConvectFood": 7
+                  },
+                  {
+                    "ConfigTime_SetCookTimeMin": 60,
+                    "ConfigTime_SetCookTimeMax": 43200,
+                    "OvenUpperCavity_CycleSetEasyConvectFood": 8
+                  },
+                  {
+                    "ConfigTime_SetCookTimeMin": 60,
+                    "ConfigTime_SetCookTimeMax": 43200,
+                    "OvenUpperCavity_CycleSetEasyConvectFood": 9
+                  },
+                  {
+                    "ConfigTime_SetCookTimeMin": 60,
+                    "ConfigTime_SetCookTimeMax": 43200,
+                    "OvenUpperCavity_CycleSetEasyConvectFood": 10
+                  },
+                  {
+                    "ConfigTime_SetCookTimeMin": 60,
+                    "ConfigTime_SetCookTimeMax": 43200,
+                    "OvenUpperCavity_CycleSetEasyConvectFood": 11
+                  },
+                  {
+                    "ConfigTime_SetCookTimeMin": 60,
+                    "ConfigTime_SetCookTimeMax": 43200,
+                    "OvenUpperCavity_CycleSetEasyConvectFood": 12
+                  },
+                  {
+                    "ConfigTime_SetCookTimeMin": 60,
+                    "ConfigTime_SetCookTimeMax": 43200,
+                    "OvenUpperCavity_CycleSetEasyConvectFood": 13
+                  },
+                  {
+                    "ConfigTime_SetCookTimeMin": 60,
+                    "ConfigTime_SetCookTimeMax": 43200,
+                    "OvenUpperCavity_CycleSetEasyConvectFood": 14
+                  },
+                  {
+                    "ConfigTime_SetCookTimeMin": 60,
+                    "ConfigTime_SetCookTimeMax": 43200,
+                    "OvenUpperCavity_CycleSetEasyConvectFood": 15
+                  },
+                  {
+                    "ConfigTime_SetCookTimeMin": 60,
+                    "ConfigTime_SetCookTimeMax": 43200,
+                    "OvenUpperCavity_CycleSetEasyConvectFood": 16
+                  },
+                  {
+                    "ConfigTime_SetCookTimeMin": 60,
+                    "ConfigTime_SetCookTimeMax": 43200,
+                    "OvenUpperCavity_CycleSetEasyConvectFood": 17
+                  },
+                  {
+                    "ConfigTime_SetCookTimeMin": 60,
+                    "ConfigTime_SetCookTimeMax": 43200,
+                    "OvenUpperCavity_CycleSetEasyConvectFood": 18
+                  },
+                  {
+                    "ConfigTime_SetCookTimeMin": 60,
+                    "ConfigTime_SetCookTimeMax": 43200,
+                    "OvenUpperCavity_CycleSetEasyConvectFood": 19
+                  },
+                  {
+                    "ConfigTime_SetCookTimeMin": 60,
+                    "ConfigTime_SetCookTimeMax": 43200,
+                    "OvenUpperCavity_CycleSetEasyConvectFood": 20
+                  },
+                  {
+                    "ConfigTime_SetCookTimeMin": 60,
+                    "ConfigTime_SetCookTimeMax": 43200,
+                    "OvenUpperCavity_CycleSetEasyConvectFood": 21
+                  },
+                  {
+                    "ConfigTime_SetCookTimeMin": 60,
+                    "ConfigTime_SetCookTimeMax": 43200,
+                    "OvenUpperCavity_CycleSetEasyConvectFood": 22
+                  },
+                  {
+                    "ConfigTime_SetCookTimeMin": 1200,
+                    "OvenUpperCavity_CycleSetFrozenBakeFood": 2,
+                    "ConfigTime_SetCookTimeMax": 10800
+                  },
+                  {
+                    "ConfigTime_SetCookTimeMin": 600,
+                    "OvenUpperCavity_CycleSetFrozenBakeFood": 3,
+                    "ConfigTime_SetCookTimeMax": 3600
+                  },
+                  {
+                    "ConfigTime_SetCookTimeMin": 1200,
+                    "OvenUpperCavity_CycleSetFrozenBakeFood": 4,
+                    "ConfigTime_SetCookTimeMax": 10800
+                  },
+                  {
+                    "ConfigTime_SetCookTimeMin": 600,
+                    "OvenUpperCavity_CycleSetFrozenBakeFood": 5,
+                    "ConfigTime_SetCookTimeMax": 43200
+                  },
+                  {
+                    "ConfigTime_SetCookTimeMin": 600,
+                    "OvenUpperCavity_CycleSetFrozenBakeFood": 6,
+                    "ConfigTime_SetCookTimeMax": 10800
+                  },
+                  {
+                    "ConfigTime_SetCookTimeMin": 600,
+                    "OvenUpperCavity_CycleSetFrozenBakeFood": 7,
+                    "ConfigTime_SetCookTimeMax": 10800
+                  }
+                ],
+                "Name": "OvenUpperCavity"
+              }
+            ],
+            "Id": 1,
+            "Name": "ModeTimes"
+          }
+        },
+        "GlobalGoverningStates": [
+          {
+            "ResetCommands": [
+              {
+                "Sys_OperationSetControlLock": "0"
+              }
+            ],
+            "GlobalGoverningState": "Control",
+            "SetCommands": [
+              {
+                "Sys_OperationSetControlLock": "1"
+              }
+            ],
+            "Enabled": true,
+            "Compatibility": [
+              {
+                "Vacation": "true",
+                "Party": "true",
+                "Quiet": "true"
+              }
+            ]
+          },
+          {
+            "ResetCommands": [
+              {
+                "Sys_OperationSetQuietModeEnabled": "0"
+              }
+            ],
+            "GlobalGoverningState": "Quiet",
+            "SetCommands": [
+              {
+                "Sys_OperationSetQuietModeEnabled": "1"
+              }
+            ],
+            "Enabled": true,
+            "Compatibility": [
+              {
+                "Control": "true",
+                "Vacation": "true",
+                "Party": "true"
+              }
+            ]
+          },
+          {
+            "ResetCommands": [
+              {
+                "Sys_OperationSetControlLock": "0"
+              }
+            ],
+            "GlobalGoverningState": "Vacation",
+            "SetCommands": [
+              {
+                "Sys_OperationSetControlLock": "1"
+              }
+            ],
+            "Enabled": true,
+            "Compatibility": [
+              {
+                "Control": "false",
+                "Party": "false",
+                "Quiet": "false"
+              }
+            ]
+          },
+          {
+            "ResetCommands": [
+              {
+                "OvenUpperCavity_OpSetOperations": "1"
+              }
+            ],
+            "GlobalGoverningState": "Party",
+            "SetCommands": [
+              {
+                "OvenUpperCavity_CycleSetCommonMode": "24",
+                "OvenUpperCavity_CycleSetTargetTemp": "766",
+                "OvenUpperCavity_OpSetOperations": "2"
+              }
+            ],
+            "Enabled": true,
+            "Compatibility": [
+              {
+                "Control": "true",
+                "Vacation": "true",
+                "Quiet": "true"
+              }
+            ]
+          }
+        ],
+        "AdjustFromApp": [
+          {
+            "OvenUpperCavity_CycleSetCommonMode": [
+              "CommonModeBake",
+              "CommonModeBroil",
+              "CommonModeConvectBake",
+              "CommonModeConvectBroil",
+              "CommonModeConvectRoast",
+              "CommonModeKeepWarm",
+              "CommonModeSabbathBake"
+            ]
+          }
+        ],
+        "CycleSupportAdjustments": [
+          {
+            "OvenUpperCavity_OpSetCookTimeCompleteAction": [
+              "TurnOff",
+              "StayOn",
+              "KeepWarm"
+            ]
+          }
+        ],
+        "ModeTemperatureCapabilityData": {
+          "Action": 4,
+          "EntityCapability": {
+            "Id": 1,
+            "ModeTemperatures": [
+              {
+                "OvenTemperatures": [
+                  {
+                    "OvenUpperCavity_CycleSetCommonMode": 2,
+                    "ConfigCavity_SetTempMin": 794,
+                    "ConfigCavity_SetTempDefault": 1767,
+                    "ConfigCavity_SetTempMax": 2877
+                  },
+                  {
+                    "OvenUpperCavity_CycleSetCommonMode": 5,
+                    "ConfigCavity_SetTempMin": 794,
+                    "ConfigCavity_SetTempDefault": 1767,
+                    "ConfigCavity_SetTempMax": 2877
+                  },
+                  {
+                    "OvenUpperCavity_CycleSetCommonMode": 6,
+                    "ConfigCavity_SetTempMin": 794,
+                    "ConfigCavity_SetTempDefault": 1627,
+                    "ConfigCavity_SetTempMax": 2877
+                  },
+                  {
+                    "OvenUpperCavity_CycleSetCommonMode": 8,
+                    "ConfigCavity_SetTempMin": 2322,
+                    "ConfigCavity_SetTempDefault": 2877,
+                    "ConfigCavity_SetTempMax": 2877
+                  },
+                  {
+                    "OvenUpperCavity_CycleSetCommonMode": 9,
+                    "ConfigCavity_SetTempMin": 2322,
+                    "ConfigCavity_SetTempDefault": 2877,
+                    "ConfigCavity_SetTempMax": 2877
+                  },
+                  {
+                    "OvenUpperCavity_CycleSetCommonMode": 16,
+                    "ConfigCavity_SetTempMin": 794,
+                    "ConfigCavity_SetTempDefault": 1767,
+                    "ConfigCavity_SetTempMax": 2877
+                  },
+                  {
+                    "OvenUpperCavity_CycleSetCommonMode": 24,
+                    "ConfigCavity_SetTempMin": 653,
+                    "ConfigCavity_SetTempDefault": 767,
+                    "ConfigCavity_SetTempMax": 878
+                  },
+                  {
+                    "OvenUpperCavity_CycleSetFrozenBakeFood": 2,
+                    "ConfigCavity_SetTempMin": 794,
+                    "ConfigCavity_SetTempDefault": 1767,
+                    "ConfigCavity_SetTempMax": 2600
+                  },
+                  {
+                    "OvenUpperCavity_CycleSetFrozenBakeFood": 3,
+                    "ConfigCavity_SetTempMin": 794,
+                    "ConfigCavity_SetTempDefault": 2044,
+                    "ConfigCavity_SetTempMax": 2600
+                  },
+                  {
+                    "OvenUpperCavity_CycleSetFrozenBakeFood": 4,
+                    "ConfigCavity_SetTempMin": 794,
+                    "ConfigCavity_SetTempDefault": 1767,
+                    "ConfigCavity_SetTempMax": 2600
+                  },
+                  {
+                    "OvenUpperCavity_CycleSetFrozenBakeFood": 5,
+                    "ConfigCavity_SetTempMin": 794,
+                    "ConfigCavity_SetTempDefault": 2044,
+                    "ConfigCavity_SetTempMax": 2600
+                  },
+                  {
+                    "OvenUpperCavity_CycleSetFrozenBakeFood": 6,
+                    "ConfigCavity_SetTempMin": 794,
+                    "ConfigCavity_SetTempDefault": 2044,
+                    "ConfigCavity_SetTempMax": 2600
+                  },
+                  {
+                    "OvenUpperCavity_CycleSetFrozenBakeFood": 7,
+                    "ConfigCavity_SetTempMin": 794,
+                    "ConfigCavity_SetTempDefault": 2044,
+                    "ConfigCavity_SetTempMax": 2600
+                  },
+                  {
+                    "OvenUpperCavity_CycleSetEasyConvectFood": 2,
+                    "ConfigCavity_SetTempMin": 794,
+                    "ConfigCavity_SetTempDefault": 2044,
+                    "ConfigCavity_SetTempMax": 2600
+                  },
+                  {
+                    "OvenUpperCavity_CycleSetEasyConvectFood": 5,
+                    "ConfigCavity_SetTempMin": 794,
+                    "ConfigCavity_SetTempDefault": 1767,
+                    "ConfigCavity_SetTempMax": 2600
+                  },
+                  {
+                    "OvenUpperCavity_CycleSetEasyConvectFood": 6,
+                    "ConfigCavity_SetTempMin": 794,
+                    "ConfigCavity_SetTempDefault": 1767,
+                    "ConfigCavity_SetTempMax": 2600
+                  },
+                  {
+                    "OvenUpperCavity_CycleSetEasyConvectFood": 7,
+                    "ConfigCavity_SetTempMin": 794,
+                    "ConfigCavity_SetTempDefault": 1767,
+                    "ConfigCavity_SetTempMax": 2600
+                  },
+                  {
+                    "OvenUpperCavity_CycleSetEasyConvectFood": 8,
+                    "ConfigCavity_SetTempMin": 794,
+                    "ConfigCavity_SetTempDefault": 1767,
+                    "ConfigCavity_SetTempMax": 2600
+                  },
+                  {
+                    "OvenUpperCavity_CycleSetEasyConvectFood": 9,
+                    "ConfigCavity_SetTempMin": 794,
+                    "ConfigCavity_SetTempDefault": 1767,
+                    "ConfigCavity_SetTempMax": 2600
+                  },
+                  {
+                    "OvenUpperCavity_CycleSetEasyConvectFood": 10,
+                    "ConfigCavity_SetTempMin": 794,
+                    "ConfigCavity_SetTempDefault": 1767,
+                    "ConfigCavity_SetTempMax": 2600
+                  },
+                  {
+                    "OvenUpperCavity_CycleSetEasyConvectFood": 11,
+                    "ConfigCavity_SetTempMin": 794,
+                    "ConfigCavity_SetTempDefault": 1627,
+                    "ConfigCavity_SetTempMax": 2600
+                  },
+                  {
+                    "OvenUpperCavity_CycleSetEasyConvectFood": 12,
+                    "ConfigCavity_SetTempMin": 794,
+                    "ConfigCavity_SetTempDefault": 1767,
+                    "ConfigCavity_SetTempMax": 2600
+                  },
+                  {
+                    "OvenUpperCavity_CycleSetEasyConvectFood": 13,
+                    "ConfigCavity_SetTempMin": 794,
+                    "ConfigCavity_SetTempDefault": 1767,
+                    "ConfigCavity_SetTempMax": 2600
+                  },
+                  {
+                    "OvenUpperCavity_CycleSetEasyConvectFood": 14,
+                    "ConfigCavity_SetTempMin": 794,
+                    "ConfigCavity_SetTempDefault": 1767,
+                    "ConfigCavity_SetTempMax": 2600
+                  },
+                  {
+                    "OvenUpperCavity_CycleSetEasyConvectFood": 15,
+                    "ConfigCavity_SetTempMin": 794,
+                    "ConfigCavity_SetTempDefault": 1767,
+                    "ConfigCavity_SetTempMax": 2600
+                  },
+                  {
+                    "OvenUpperCavity_CycleSetEasyConvectFood": 16,
+                    "ConfigCavity_SetTempMin": 794,
+                    "ConfigCavity_SetTempDefault": 1767,
+                    "ConfigCavity_SetTempMax": 2600
+                  },
+                  {
+                    "OvenUpperCavity_CycleSetEasyConvectFood": 17,
+                    "ConfigCavity_SetTempMin": 794,
+                    "ConfigCavity_SetTempDefault": 1767,
+                    "ConfigCavity_SetTempMax": 2600
+                  },
+                  {
+                    "OvenUpperCavity_CycleSetEasyConvectFood": 18,
+                    "ConfigCavity_SetTempMin": 794,
+                    "ConfigCavity_SetTempDefault": 1767,
+                    "ConfigCavity_SetTempMax": 2600
+                  },
+                  {
+                    "OvenUpperCavity_CycleSetEasyConvectFood": 19,
+                    "ConfigCavity_SetTempMin": 794,
+                    "ConfigCavity_SetTempDefault": 1767,
+                    "ConfigCavity_SetTempMax": 2600
+                  },
+                  {
+                    "OvenUpperCavity_CycleSetEasyConvectFood": 20,
+                    "ConfigCavity_SetTempMin": 794,
+                    "ConfigCavity_SetTempDefault": 1767,
+                    "ConfigCavity_SetTempMax": 2600
+                  },
+                  {
+                    "OvenUpperCavity_CycleSetEasyConvectFood": 21,
+                    "ConfigCavity_SetTempMin": 794,
+                    "ConfigCavity_SetTempDefault": 1767,
+                    "ConfigCavity_SetTempMax": 2600
+                  },
+                  {
+                    "OvenUpperCavity_CycleSetEasyConvectFood": 22,
+                    "ConfigCavity_SetTempMin": 794,
+                    "ConfigCavity_SetTempDefault": 1767,
+                    "ConfigCavity_SetTempMax": 2600
+                  }
+                ],
+                "Name": "OvenTemperatures"
+              }
+            ],
+            "Name": "ModeTemperatures"
+          }
+        },
+        "Settings": [
+          {
+            "AwayOvenWarning": {
+              "Type": "home_away",
+              "Description": "Receive a notification asking if you’d like to turn your oven off if Nest™ detects you're away while your oven is running.   Please note that it may take up to two hours for Nest™ to send the away signal.",
+              "Name": "Off While Away"
+            }
+          }
+        ],
+        "SettingsCapabilityData": {
+          "Action": 4,
+          "EntityCapability": {
+            "Id": 1,
+            "Settings": [
+              {
+                "DefaultSettings": [
+                  {
+                    "Sys_OperationSetKeyPressToneVolume": 4,
+                    "Sys_DisplaySetTempUnits": 1,
+                    "Sys_DisplaySetBrightnessPercent": 90,
+                    "Sys_DisplaySetLanguage": 0,
+                    "Sys_OperationSetSabbathModeEnabled": 0,
+                    "ConfigDisplay_SetZoneMessageLength": "1:500;",
+                    "OvenUpperCavity_DisplaySetLightOn": 0,
+                    "Sys_OperationSetControlLock": 0,
+                    "Sys_OperationSetAlertToneVolume": 4,
+                    "Sys_DisplaySetEnable24Hour": 0,
+                    "Sys_OperationSetQuietModeEnabled": 0
+                  }
+                ],
+                "Name": "DefaultSettings"
+              },
+              {
+                "Enumerations": [
+                  {
+                    "XCat_ConfigSetApplianceCapability": {
+                      "Entities": {
+                        "OvenUpperCavity": {
+                          "Attributes": {
+                            "CycleSetFrozenBakeFood": [
+                              "FrozenBakeFoodIdle",
+                              "FrozenBakeFoodMeals",
+                              "FrozenBakeFoodNuggets",
+                              "FrozenBakeFoodLasagna",
+                              "FrozenBakeFoodPizza",
+                              "FrozenBakeFoodPie",
+                              "FrozenBakeFoodFries"
+                            ],
+                            "OpStatusCookTimeState": [
+                              "CookTimeStateIdle",
+                              "CookTimeStateRunning",
+                              "CookTimeStateComplete"
+                            ],
+                            "OpStatusState": [
+                              "StateIdle",
+                              "StatePreheating",
+                              "StateSteady",
+                              "StateDelaying",
+                              "StateCooling"
+                            ],
+                            "CycleSetCommonMode": [
+                              "CommonModeIdle",
+                              "CommonModeBake",
+                              "CommonModeConvectBake",
+                              "CommonModeBroil",
+                              "CommonModeConvectBroil",
+                              "CommonModeConvectRoast",
+                              "CommonModeKeepWarm"
+                            ],
+                            "OpSetCookTimeCompleteAction": [
+                              "ProcessCmpltActionUnset",
+                              "ProcessCmpltActionStayOn",
+                              "ProcessCmpltActionKeepWarm",
+                              "ProcessCmpltActionTurnOff",
+                              "ProcessCmpltActionAutoAdvance",
+                              "ProcessCmpltActionWaitForNextCommand",
+                              "ProcessCmpltActionWaitForTimeExpire",
+                              "ProcessCmpltActionWaitForDoor",
+                              "ProcessCmpltActionWaitForEvent"
+                            ],
+                            "CycleSetEasyConvectFood": [
+                              "EasyConvectFoodIdle",
+                              "EasyConvectFoodPizza",
+                              "EasyConvectFoodChickenPieces",
+                              "EasyConvectFoodChickenWhole",
+                              "EasyConvectFoodMeatLoaf",
+                              "EasyConvectFoodBeefOnlyTimer",
+                              "EasyConvectFoodPorkOnlyTimer",
+                              "EasyConvectFoodLambOnlyTimer",
+                              "EasyConvectFoodFishFillet",
+                              "EasyConvectFoodFishSticks",
+                              "EasyConvectFoodBakedPotato",
+                              "EasyConvectFoodOtherVeggies",
+                              "EasyConvectFoodBiscuits",
+                              "EasyConvectFoodCroissants",
+                              "EasyConvectFoodCasserole",
+                              "EasyConvectFoodCakes",
+                              "EasyConvectFoodCookies",
+                              "EasyConvectFoodFreshPie",
+                              "EasyConvectFoodSnacks",
+                              "EasyConvectFoodTurkeyWhole"
+                            ],
+                            "OpSetOperations": [
+                              "OperationsNone",
+                              "OperationsCancel",
+                              "OperationsStart",
+                              "OperationsSetOnDisplay",
+                              "OperationsModify"
+                            ]
+                          }
+                        },
+                        "KitchenTimer01": {
+                          "Attributes": {
+                            "SetOperations": [
+                              "OperationsNone",
+                              "OperationsCancel",
+                              "OperationsStart"
+                            ],
+                            "StatusState": [
+                              "StateIdle",
+                              "StateRunning",
+                              "StateCompleted"
+                            ]
+                          }
+                        },
+                        "Sys": {
+                          "Attributes": {
+                            "OperationSetKeyPressToneVolume": [
+                              "VolumeOff",
+                              "VolumeLow",
+                              "VolumeMedium",
+                              "VolumeHigh",
+                              "VolumeMax"
+                            ],
+                            "DisplayStatusBroilDisplayType": [
+                              "VariableTemperature"
+                            ],
+                            "DisplaySetLanguage": [
+                              "English",
+                              "CanadianFrench",
+                              "LatinAmericanSpanish"
+                            ],
+                            "OperationSetAlertToneVolume": [
+                              "VolumeOff",
+                              "VolumeLow",
+                              "VolumeMedium",
+                              "VolumeHigh",
+                              "VolumeMax"
+                            ],
+                            "AlertStatusNotification": [
+                              "None",
+                              "PreheatMinus25",
+                              "PreheatComplete"
+                            ]
+                          }
+                        }
+                      }
+                    }
+                  }
+                ],
+                "Name": "Enumerations"
+              },
+              {
+                "AttributeRanges": [
+                  {
+                    "ConfigUint8Range_SetMin": 10,
+                    "ConfigUint8Range_SetStep": 10,
+                    "Sys_DisplaySet.BrightnessPercent": 0,
+                    "ConfigUint8Range_SetMax": 100
+                  }
+                ],
+                "Name": "AttributeRanges"
+              }
+            ],
+            "Name": "Settings"
+          }
+        }
+      }
+    ],
+    "Rulesets": []
+  },
+  "Alerts": {
+    "Key": "DDM_COOKING_Minerva7Single_V27",
+    "Alerts": [
+      {
+        "GenericAlerts": [],
+        "ApplianceAlerts": [
+          {
+            "alertId": 141,
+            "name": "PreHeatComplete",
+            "attribute": "Sys_AlertStatusNotification",
+            "type": "push",
+            "category": "",
+            "autodelete": false,
+            "autodisarm": false,
+            "autodisable": false,
+            "visible": true,
+            "enable": false
+          },
+          {
+            "alertId": 142,
+            "name": "CookTimerComplete",
+            "attribute": "Mwo_OperationStatusCookTimeState",
+            "type": "push",
+            "category": "",
+            "autodelete": false,
+            "autodisarm": false,
+            "autodisable": false,
+            "visible": true,
+            "enable": false
+          },
+          {
+            "alertId": 143,
+            "name": "CookTimerChange",
+            "attribute": "Mwo_TimeSetCookTimeSet",
+            "type": "push",
+            "category": "",
+            "autodelete": false,
+            "autodisarm": false,
+            "autodisable": false,
+            "visible": true,
+            "enable": false
+          },
+          {
+            "alertId": 144,
+            "name": "CookTemperatureChange",
+            "attribute": "Mwo_CycleSetTargetTemp",
+            "type": "push",
+            "category": "",
+            "autodelete": false,
+            "autodisarm": false,
+            "autodisable": false,
+            "visible": true,
+            "enable": false
+          },
+          {
+            "alertId": 145,
+            "name": "PreHeatCookTemperatureProgress",
+            "attribute": "Sys_AlertStatusNotification,Sys_DisplaySetTempUnits",
+            "type": "push",
+            "category": "",
+            "autodelete": false,
+            "autodisarm": false,
+            "autodisable": false,
+            "visible": true,
+            "enable": false
+          },
+          {
+            "alertId": 146,
+            "name": "CookModeChange",
+            "attribute": "Mwo_ModeSet,Mwo_ModeSetConvectRoast,Mwo_ModeSetConvectBake",
+            "type": "push",
+            "category": "",
+            "autodelete": false,
+            "autodisarm": false,
+            "autodisable": false,
+            "visible": true,
+            "enable": false
+          },
+          {
+            "alertId": 148,
+            "name": "KitchenTimerComplete",
+            "attribute": "KitchenTimer01_StatusState",
+            "type": "push",
+            "category": "",
+            "autodelete": false,
+            "autodisarm": false,
+            "autodisable": false,
+            "visible": true,
+            "enable": false
+          },
+          {
+            "alertId": 149,
+            "name": "KitchenTimerChange",
+            "attribute": "KitchenTimer01_SetTimeSet",
+            "type": "push",
+            "category": "",
+            "autodelete": false,
+            "autodisarm": false,
+            "autodisable": false,
+            "visible": true,
+            "enable": false
+          },
+          {
+            "alertId": 150,
+            "name": "CookTimeComplete",
+            "attribute": "Mwo_TimeStatusCookTimeRemaining",
+            "type": "push",
+            "category": "",
+            "autodelete": false,
+            "autodisarm": false,
+            "autodisable": false,
+            "visible": true,
+            "enable": false
+          },
+          {
+            "alertId": 151,
+            "name": "CookCycleCancelled",
+            "attribute": "Mwo_OperationSetOperations",
+            "type": "push",
+            "category": "",
+            "autodelete": false,
+            "autodisarm": false,
+            "autodisable": false,
+            "visible": true,
+            "enable": false
+          },
+          {
+            "alertId": 156,
+            "name": "TurntableOffDetection",
+            "attribute": "Mwo_CycleSetTurntable",
+            "type": "push",
+            "category": "",
+            "autodelete": false,
+            "autodisarm": false,
+            "autodisable": false,
+            "visible": true,
+            "enable": false
+          },
+          {
+            "alertId": 176,
+            "name": "RemoteStatusEnabled",
+            "attribute": "XCat_RemoteSetRemoteControlEnable",
+            "type": "push",
+            "category": "",
+            "autodelete": false,
+            "autodisarm": false,
+            "autodisable": false,
+            "visible": true,
+            "enable": false
+          },
+          {
+            "alertId": 175,
+            "name": "RemoteStatusDisabled",
+            "attribute": "XCat_RemoteSetRemoteControlEnable",
+            "type": "push",
+            "category": "",
+            "autodelete": false,
+            "autodisarm": false,
+            "autodisable": false,
+            "visible": true,
+            "enable": false
+          },
+          {
+            "alertId": 154,
+            "name": "ControlLockNotification",
+            "attribute": "Sys_OperationSetControlLock",
+            "type": "push",
+            "category": "",
+            "autodelete": false,
+            "autodisarm": false,
+            "autodisable": false,
+            "visible": true,
+            "enable": false
+          },
+          {
+            "alertId": 178,
+            "name": "ControlLockLocked",
+            "attribute": "Sys_OperationSetControlLock",
+            "type": "push",
+            "category": "",
+            "autodelete": false,
+            "autodisarm": false,
+            "autodisable": false,
+            "visible": true,
+            "enable": false
+          },
+          {
+            "alertId": 179,
+            "name": "ControlLockOpen",
+            "attribute": "Sys_OperationSetControlLock",
+            "type": "push",
+            "category": "",
+            "autodelete": false,
+            "autodisarm": false,
+            "autodisable": false,
+            "visible": true,
+            "enable": false
+          },
+          {
+            "alertId": 153,
+            "name": "ErrorNotification",
+            "attribute": "Sys_AlertStatusCustomerFaultCode",
+            "type": "push",
+            "category": "",
+            "autodelete": false,
+            "autodisarm": false,
+            "autodisable": false,
+            "visible": true,
+            "enable": false
+          }
+        ]
+      }
+    ]
+  },
+  "Services": {
+    "_rev": "3-1e32bd7938c283039683cac61b3b2b99",
+    "thirdPartyServices": [
+      {
+        "name": "Replenishment",
+        "enabled": false,
+        "serviceProvider": [
+          {
+            "name": "ADRS",
+            "enabled": false,
+            "config": []
+          },
+          {
+            "name": "Wallmart",
+            "enabled": false,
+            "config": []
+          },
+          {
+            "name": "Whirlpool",
+            "enabled": false,
+            "config": []
+          }
+        ]
+      },
+      {
+        "name": "Thermostat",
+        "enabled": true,
+        "serviceProvider": [
+          {
+            "name": "Nest",
+            "enabled": true,
+            "config": [
+              {
+                "Key": "AwayOvenWarning",
+                "Type": "home_away",
+                "commandName": "",
+                "commandValue": ""
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Energy Management",
+        "enabled": false,
+        "serviceProvider": [
+          {
+            "name": "National Grid",
+            "enabled": false,
+            "config": []
+          },
+          {
+            "name": "Genability",
+            "enabled": false,
+            "config": []
+          }
+        ]
+      },
+      {
+        "name": "Voice Integration",
+        "enabled": false,
+        "serviceProvider": [
+          {
+            "name": "Amazon Alexa",
+            "enabled": false,
+            "config": []
+          },
+          {
+            "name": "Google Home",
+            "enabled": false,
+            "config": []
+          }
+        ]
+      },
+      {
+        "name": "localizeDateTime",
+        "enabled": true,
+        "serviceProvider": [
+          {
+            "name": "WCloud",
+            "enabled": true,
+            "config": ""
+          }
+        ]
+      }
+    ]
+  }
+}

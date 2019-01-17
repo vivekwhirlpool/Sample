@@ -1,0 +1,2162 @@
+{
+  "_id": "DDM_REFRIGERATOR_GEBL_BELLA2_V1",
+  "_rev": "17-b269b633fd480cfe17696727ba4f16e8",
+  "DDM": {
+    "_id": "DDM_REFRIGERATOR_GEBL_BELLA2_V1",
+    "ddmName": "DDM_REFRIGERATOR_GEBL_BELLA2_V1",
+    "modelNumber": "WRF964CIHM00,WRF964CIHV00,WRF974CIHZ00,WRF974CIHV00,WRF984CIHZ00, WRF984CIHV00, WRFA94CIHZ00, WRFA94CIHN00",
+    "createdAt": "Mar 20, 2018 6:30:00 PM",
+    "createdBy": "Shekhar Dawange",
+    "brandName": "Whirlpool",
+    "category": "Refrigerator",
+    "version": "1.0",
+    "ccuriVersion": "10",
+    "ccURI": "API_144_Frig_V10"
+  },
+  "DataModel": {
+    "Key": "DDM_REFRIGERATOR_GEBL_BELLA2_V1",
+    "attributes": [
+      {
+        "IsTemplate": false,
+        "M2MAttributeName": "XCat_PersistentInfoVersion",
+        "Instance": "XCat_PersistentInfo",
+        "IsTimeSeries": false,
+        "DataType": "BEIntegerUnsigned16Bit",
+        "AttributeName": "Version",
+        "RangeValues": {
+          "StepSize": "1",
+          "Min": "0",
+          "Max": "65535"
+        },
+        "DeviceIO": "RO",
+        "MappedAttributeName": "XCat_PersistentInfoVersion",
+        "Default": "0",
+        "Key": "0x01010001"
+      },
+      {
+        "IsTemplate": false,
+        "M2MAttributeName": "XCat_PersistentInfoSaid",
+        "Instance": "XCat_PersistentInfo",
+        "IsTimeSeries": false,
+        "DataType": "String",
+        "AttributeName": "Said",
+        "DeviceIO": "RO",
+        "MappedAttributeName": "XCat_PersistentInfoSaid",
+        "Default": "0",
+        "Key": "0x01010002"
+      },
+      {
+        "IsTemplate": false,
+        "M2MAttributeName": "XCat_PersistentInfoMacAddress",
+        "Instance": "XCat_PersistentInfo",
+        "IsTimeSeries": false,
+        "DataType": "String",
+        "AttributeName": "MacAddress",
+        "DeviceIO": "RO",
+        "MappedAttributeName": "XCat_PersistentInfoMacAddress",
+        "Default": "0",
+        "Key": "0x01010003"
+      },
+      {
+        "IsTemplate": false,
+        "M2MAttributeName": "XCat_WifiStatusRssiAntennaDiversity",
+        "Instance": "XCat_WifiStatus",
+        "IsTimeSeries": false,
+        "DataType": "IntegerSigned8Bit",
+        "AttributeName": "RssiAntennaDiversity",
+        "RangeValues": {
+          "StepSize": "1",
+          "Min": "-128",
+          "Max": "127"
+        },
+        "DeviceIO": "RO",
+        "MappedAttributeName": "XCat_WifiStatusRssiAntennaDiversity",
+        "Default": "-99",
+        "Key": "0x01020001"
+      },
+      {
+        "IsTemplate": false,
+        "M2MAttributeName": "XCat_WifiStatusIspCheck",
+        "Instance": "XCat_WifiStatus",
+        "IsTimeSeries": false,
+        "DataType": "Boolean",
+        "AttributeName": "IspCheck",
+        "DeviceIO": "",
+        "MappedAttributeName": "XCat_WifiStatusIspCheck",
+        "Default": "0",
+        "Key": "0x01020006"
+      },
+      {
+        "IsTemplate": false,
+        "M2MAttributeName": "XCat_PowerStatusEnergyConsumption",
+        "Instance": "XCat_PowerStatus",
+        "IsTimeSeries": true,
+        "DataType": "BEIntegerUnsigned32Bit",
+        "AttributeName": "EnergyConsumption",
+        "RangeValues": {
+          "StepSize": "1",
+          "Min": "0",
+          "Max": "4294967295"
+        },
+        "DeviceIO": "RO",
+        "MappedAttributeName": "XCat_PowerStatusEnergyConsumption",
+        "Default": "0",
+        "Key": "0x01030001"
+      },
+      {
+        "IsTemplate": false,
+        "M2MAttributeName": "XCat_PowerStatusPowerOutage",
+        "Instance": "XCat_PowerStatus",
+        "IsTimeSeries": false,
+        "DataType": "Boolean",
+        "AttributeName": "PowerOutage",
+        "DeviceIO": "RO",
+        "MappedAttributeName": "XCat_PowerStatusPowerOutage",
+        "Default": "0",
+        "Key": "0x01030006"
+      },
+      {
+        "IsTemplate": false,
+        "M2MAttributeName": "XCat_SmartGridStatusSmartGridCompliant",
+        "Instance": "XCat_SmartGridStatus",
+        "IsTimeSeries": false,
+        "DataType": "enum",
+        "AttributeName": "SmartGridCompliant",
+        "DeviceIO": "RO",
+        "MappedAttributeName": "XCat_SmartGridStatusSmartGridCompliant",
+        "Default": "0",
+        "EnumValues": {
+          "0": "None",
+          "1": "UserOverride",
+          "2": "ApplianceOverride"
+        },
+        "Key": "0x01040001"
+      },
+      {
+        "IsTemplate": false,
+        "M2MAttributeName": "XCat_OdometerStatusRunningHours",
+        "Instance": "XCat_OdometerStatus",
+        "IsTimeSeries": false,
+        "DataType": "BEIntegerUnsigned32Bit",
+        "AttributeName": "RunningHours",
+        "RangeValues": {
+          "StepSize": "1",
+          "Min": "0",
+          "Max": "4294967295"
+        },
+        "DeviceIO": "RO",
+        "MappedAttributeName": "XCat_OdometerStatusRunningHours",
+        "Default": "0",
+        "Key": "0x01050001"
+      },
+      {
+        "IsTemplate": false,
+        "M2MAttributeName": "XCat_OdometerStatusTotalHours",
+        "Instance": "XCat_OdometerStatus",
+        "IsTimeSeries": false,
+        "DataType": "BEIntegerUnsigned32Bit",
+        "AttributeName": "TotalHours",
+        "RangeValues": {
+          "StepSize": "1",
+          "Min": "0",
+          "Max": "4294967295"
+        },
+        "DeviceIO": "RO",
+        "MappedAttributeName": "XCat_OdometerStatusTotalHours",
+        "Default": "0",
+        "Key": "0x01050002"
+      },
+      {
+        "IsTemplate": false,
+        "M2MAttributeName": "XCat_ApplianceInfoSetModelNumber",
+        "Instance": "XCat_ApplianceInfoSet",
+        "IsTimeSeries": false,
+        "DataType": "String",
+        "AttributeName": "ModelNumber",
+        "DeviceIO": "RW",
+        "MappedAttributeName": "XCat_ApplianceInfoSetModelNumber",
+        "Default": "0",
+        "Key": "0x01060001"
+      },
+      {
+        "IsTemplate": false,
+        "M2MAttributeName": "XCat_ApplianceInfoSetSerialNumber",
+        "Instance": "XCat_ApplianceInfoSet",
+        "IsTimeSeries": false,
+        "DataType": "String",
+        "AttributeName": "SerialNumber",
+        "DeviceIO": "RW",
+        "MappedAttributeName": "XCat_ApplianceInfoSetSerialNumber",
+        "Default": "0",
+        "Key": "0x01060002"
+      },
+      {
+        "IsTemplate": false,
+        "M2MAttributeName": "XCat_DateTimeSetDateTimeSet",
+        "Instance": "XCat_DateTimeSet",
+        "IsTimeSeries": false,
+        "DataType": "String",
+        "AttributeName": "DateTimeSet",
+        "DeviceIO": "RW",
+        "MappedAttributeName": "XCat_DateTimeSetDateTimeSet",
+        "Default": "0",
+        "Key": "0x01070001"
+      },
+      {
+        "IsTemplate": false,
+        "M2MAttributeName": "XCat_DateTimeSetDateFormat",
+        "Instance": "XCat_DateTimeSet",
+        "IsTimeSeries": false,
+        "DataType": "enum",
+        "AttributeName": "DateFormat",
+        "DeviceIO": "RW",
+        "MappedAttributeName": "XCat_DateTimeSetDateFormat",
+        "Default": "0",
+        "EnumValues": {
+          "0": "MonthDayYear",
+          "1": "DayMonthYear",
+          "2": "YearMonthDay"
+        },
+        "Key": "0x01070002"
+      },
+      {
+        "IsTemplate": false,
+        "M2MAttributeName": "XCat_WifiSetPublishApplianceState",
+        "Instance": "XCat_WifiSet",
+        "IsTimeSeries": false,
+        "DataType": "Boolean",
+        "AttributeName": "PublishApplianceState",
+        "DeviceIO": "RW",
+        "MappedAttributeName": "XCat_WifiSetPublishApplianceState",
+        "Default": "0",
+        "Key": "0x01090001"
+      },
+      {
+        "IsTemplate": false,
+        "M2MAttributeName": "XCat_WifiSetRebootWifiCommModule",
+        "Instance": "XCat_WifiSet",
+        "IsTimeSeries": false,
+        "DataType": "Boolean",
+        "AttributeName": "RebootWifiCommModule",
+        "DeviceIO": "RW",
+        "MappedAttributeName": "XCat_WifiSetRebootWifiCommModule",
+        "Default": "0",
+        "Key": "0x01090002"
+      },
+      {
+        "IsTemplate": false,
+        "M2MAttributeName": "XCat_WifiSetDeprovisionWifiCommModule",
+        "Instance": "XCat_WifiSet",
+        "IsTimeSeries": false,
+        "DataType": "Boolean",
+        "AttributeName": "DeprovisionWifiCommModule",
+        "DeviceIO": "RW",
+        "MappedAttributeName": "XCat_WifiSetDeprovisionWifiCommModule",
+        "Default": "0",
+        "Key": "0x01090003"
+      },
+      {
+        "IsTemplate": false,
+        "M2MAttributeName": "XCat_WifiSetIspAuthorized",
+        "Instance": "XCat_WifiSet",
+        "IsTimeSeries": false,
+        "DataType": "enum",
+        "AttributeName": "IspAuthorized",
+        "DeviceIO": "RW",
+        "MappedAttributeName": "XCat_WifiSetIspAuthorized",
+        "Default": "0",
+        "EnumValues": {
+          "0": "IspAuthorizedIdle",
+          "1": "IspAuthorizedSchedule",
+          "2": "IspAuthorizedImmediate"
+        },
+        "Key": "0x01090005"
+      },
+      {
+        "IsTemplate": false,
+        "M2MAttributeName": "XCat_WifiSetIspFirmwareDescriptionUrl",
+        "Instance": "XCat_WifiSet",
+        "IsTimeSeries": false,
+        "DataType": "String",
+        "AttributeName": "IspFirmwareDescriptionUrl",
+        "DeviceIO": "RW",
+        "MappedAttributeName": "XCat_WifiSetIspFirmwareDescriptionUrl",
+        "Default": "0",
+        "Key": "0x01090006"
+      },
+      {
+        "IsTemplate": false,
+        "M2MAttributeName": "XCat_SmartGridSetSmartGridEnable",
+        "Instance": "XCat_SmartGridSet",
+        "IsTimeSeries": false,
+        "DataType": "Boolean",
+        "AttributeName": "SmartGridEnable",
+        "DeviceIO": "RW",
+        "MappedAttributeName": "XCat_SmartGridSetSmartGridEnable",
+        "Default": "1",
+        "Key": "0x010B0001"
+      },
+      {
+        "IsTemplate": false,
+        "M2MAttributeName": "XCat_SmartGridSetSmartGridMode",
+        "Instance": "XCat_SmartGridSet",
+        "IsTimeSeries": false,
+        "DataType": "String",
+        "AttributeName": "SmartGridMode",
+        "DeviceIO": "RW",
+        "MappedAttributeName": "XCat_SmartGridSetSmartGridMode",
+        "Default": "0",
+        "Key": "0x010B0002"
+      },
+      {
+        "IsTemplate": false,
+        "M2MAttributeName": "XCat_ConfigSetApplianceCapability",
+        "Instance": "XCat_ConfigSet",
+        "IsTimeSeries": false,
+        "DataType": "String",
+        "AttributeName": "ApplianceCapability",
+        "DeviceIO": "RO",
+        "MappedAttributeName": "XCat_ConfigSetApplianceCapability",
+        "Default": "0",
+        "Key": "0x010C0004"
+      },
+      {
+        "IsTemplate": false,
+        "M2MAttributeName": "Sys_AlertStatusCustomerFaultCode",
+        "Instance": "Sys_AlertStatus",
+        "IsTimeSeries": true,
+        "DataType": "String",
+        "AttributeName": "CustomerFaultCode",
+        "DeviceIO": "RO",
+        "MappedAttributeName": "Sys_AlertStatusCustomerFaultCode",
+        "Default": "0",
+        "Key": "0x02010001"
+      },
+      {
+        "IsTemplate": false,
+        "M2MAttributeName": "Sys_AlertStatusDoorOpenAlarm",
+        "Instance": "Sys_AlertStatus",
+        "IsTimeSeries": false,
+        "DataType": "Boolean",
+        "AttributeName": "DoorOpenAlarm",
+        "DeviceIO": "RO",
+        "MappedAttributeName": "Sys_AlertStatusDoorOpenAlarm",
+        "Default": "0",
+        "Key": "0x02010004"
+      },
+      {
+        "IsTemplate": false,
+        "M2MAttributeName": "Sys_OpStatusState",
+        "Instance": "Sys_OpStatus",
+        "IsTimeSeries": false,
+        "DataType": "enum",
+        "AttributeName": "State",
+        "DeviceIO": "RO",
+        "MappedAttributeName": "Sys_OpStatusState",
+        "Default": "0",
+        "EnumValues": {
+          "0": "CompressorOff",
+          "1": "NormalCooling",
+          "2": "Defrosting"
+        },
+        "Key": "0x02020001"
+      },
+      {
+        "IsTemplate": false,
+        "M2MAttributeName": "Sys_OpStatusCoolingOn",
+        "Instance": "Sys_OpStatus",
+        "IsTimeSeries": false,
+        "DataType": "Boolean",
+        "AttributeName": "CoolingOn",
+        "DeviceIO": "RO",
+        "MappedAttributeName": "Sys_OpStatusCoolingOn",
+        "Default": "0",
+        "Key": "0x02020002"
+      },
+      {
+        "IsTemplate": false,
+        "M2MAttributeName": "Sys_OpStatusNoFreezerBurnActive",
+        "Instance": "Sys_OpStatus",
+        "IsTimeSeries": false,
+        "DataType": "Boolean",
+        "AttributeName": "NoFreezerBurnActive",
+        "DeviceIO": "RO",
+        "MappedAttributeName": "Sys_OpStatusNoFreezerBurnActive",
+        "Default": "0",
+        "Key": "0x02020003"
+      },
+      {
+        "IsTemplate": false,
+        "M2MAttributeName": "Sys_OpStatusFavoriteFillAmount1Usage",
+        "Instance": "Sys_OpStatus",
+        "IsTimeSeries": false,
+        "DataType": "BEIntegerUnsigned32Bit",
+        "AttributeName": "FavoriteFillAmount1Usage",
+        "RangeValues": {
+          "StepSize": "1",
+          "Min": "0",
+          "Max": "4294967295"
+        },
+        "DeviceIO": "RO",
+        "MappedAttributeName": "Sys_OpStatusFavoriteFillAmount1Usage",
+        "Default": "0",
+        "Key": "0x02020004"
+      },
+      {
+        "IsTemplate": false,
+        "M2MAttributeName": "Sys_OpStatusFavoriteFillAmount2Usage",
+        "Instance": "Sys_OpStatus",
+        "IsTimeSeries": false,
+        "DataType": "BEIntegerUnsigned32Bit",
+        "AttributeName": "FavoriteFillAmount2Usage",
+        "RangeValues": {
+          "StepSize": "1",
+          "Min": "0",
+          "Max": "4294967295"
+        },
+        "DeviceIO": "RO",
+        "MappedAttributeName": "Sys_OpStatusFavoriteFillAmount2Usage",
+        "Default": "0",
+        "Key": "0x02020005"
+      },
+      {
+        "IsTemplate": false,
+        "M2MAttributeName": "Sys_OpStatusDispenserUsage",
+        "Instance": "Sys_OpStatus",
+        "IsTimeSeries": false,
+        "DataType": "BEIntegerUnsigned32Bit",
+        "AttributeName": "DispenserUsage",
+        "RangeValues": {
+          "StepSize": "1",
+          "Min": "0",
+          "Max": "4294967295"
+        },
+        "DeviceIO": "RO",
+        "MappedAttributeName": "Sys_OpStatusDispenserUsage",
+        "Default": "0",
+        "Key": "0x02020006"
+      },
+      {
+        "IsTemplate": false,
+        "M2MAttributeName": "Sys_DisplaySetTempUnits",
+        "Instance": "Sys_DisplaySet",
+        "IsTimeSeries": false,
+        "DataType": "enum",
+        "AttributeName": "TempUnits",
+        "DeviceIO": "RW",
+        "MappedAttributeName": "Sys_DisplaySetTempUnits",
+        "Default": "1",
+        "EnumValues": {
+          "0": "DegreesC",
+          "1": "DegreesF"
+        },
+        "Key": "0x02030001"
+      },
+      {
+        "IsTemplate": false,
+        "M2MAttributeName": "Sys_DisplaySetNightLightBrightness",
+        "Instance": "Sys_DisplaySet",
+        "IsTimeSeries": false,
+        "DataType": "enum",
+        "AttributeName": "NightLightBrightness",
+        "DeviceIO": "RW",
+        "MappedAttributeName": "Sys_DisplaySetNightLightBrightness",
+        "Default": "0",
+        "EnumValues": {
+          "0": "Off",
+          "3": "Medium",
+          "5": "Maximum"
+        },
+        "Key": "0x02030002"
+      },
+      {
+        "IsTemplate": false,
+        "M2MAttributeName": "Sys_DisplaySetLanguage",
+        "Instance": "Sys_DisplaySet",
+        "IsTimeSeries": false,
+        "DataType": "enum",
+        "AttributeName": "Language",
+        "DeviceIO": "RW",
+        "MappedAttributeName": "Sys_DisplaySetLanguage",
+        "Default": "0",
+        "EnumValues": {
+          "0": "English",
+          "1": "CanadianFrench",
+          "2": "LatinAmericanSpanish"
+        },
+        "Key": "0x02030003"
+      },
+      {
+        "IsTemplate": false,
+        "M2MAttributeName": "Sys_OpSetWaterFilter",
+        "Instance": "Sys_OpSet",
+        "IsTimeSeries": false,
+        "DataType": "enum",
+        "AttributeName": "WaterFilter",
+        "DeviceIO": "RW",
+        "MappedAttributeName": "Sys_OpSetWaterFilter",
+        "Default": "0",
+        "EnumValues": {
+          "0": "WaterFilterGood",
+          "1": "WaterFilterReorder",
+          "2": "WaterFilterReplace",
+          "3": "WaterFilterReplaceOverdue"
+        },
+        "Key": "0x02040001"
+      },
+      {
+        "IsTemplate": false,
+        "M2MAttributeName": "Sys_OpSetAirFilter",
+        "Instance": "Sys_OpSet",
+        "IsTimeSeries": false,
+        "DataType": "enum",
+        "AttributeName": "AirFilter",
+        "DeviceIO": "RW",
+        "MappedAttributeName": "Sys_OpSetAirFilter",
+        "Default": "0",
+        "EnumValues": {
+          "0": "AirFilterGood",
+          "1": "AirFilterReorder",
+          "2": "AirFilterReplace",
+          "3": "AirFilterReplaceOverdue"
+        },
+        "Key": "0x02040002"
+      },
+      {
+        "IsTemplate": false,
+        "M2MAttributeName": "Sys_OpSetMaxCool",
+        "Instance": "Sys_OpSet",
+        "IsTimeSeries": false,
+        "DataType": "Boolean",
+        "AttributeName": "MaxCool",
+        "DeviceIO": "RW",
+        "MappedAttributeName": "Sys_OpSetMaxCool",
+        "Default": "0",
+        "Key": "0x02040003"
+      },
+      {
+        "IsTemplate": false,
+        "M2MAttributeName": "Sys_OpSetMaxIce",
+        "Instance": "Sys_OpSet",
+        "IsTimeSeries": false,
+        "DataType": "Boolean",
+        "AttributeName": "MaxIce",
+        "DeviceIO": "RW",
+        "MappedAttributeName": "Sys_OpSetMaxIce",
+        "Default": "0",
+        "Key": "0x02040004"
+      },
+      {
+        "IsTemplate": false,
+        "M2MAttributeName": "Sys_OpSetVacationMode",
+        "Instance": "Sys_OpSet",
+        "IsTimeSeries": false,
+        "DataType": "Boolean",
+        "AttributeName": "VacationMode",
+        "DeviceIO": "RW",
+        "MappedAttributeName": "Sys_OpSetVacationMode",
+        "Default": "0",
+        "Key": "0x02040005"
+      },
+      {
+        "IsTemplate": false,
+        "M2MAttributeName": "Sys_OpSetQuietModeEnabled",
+        "Instance": "Sys_OpSet",
+        "IsTimeSeries": false,
+        "DataType": "Boolean",
+        "AttributeName": "QuietModeEnabled",
+        "DeviceIO": "RW",
+        "MappedAttributeName": "Sys_OpSetQuietModeEnabled",
+        "Default": "0",
+        "Key": "0x02040006"
+      },
+      {
+        "IsTemplate": false,
+        "M2MAttributeName": "Sys_OpSetSabbathModeEnabled",
+        "Instance": "Sys_OpSet",
+        "IsTimeSeries": false,
+        "DataType": "Boolean",
+        "AttributeName": "SabbathModeEnabled",
+        "DeviceIO": "RW",
+        "MappedAttributeName": "Sys_OpSetSabbathModeEnabled",
+        "Default": "0",
+        "Key": "0x02040007"
+      },
+      {
+        "IsTemplate": false,
+        "M2MAttributeName": "Sys_OpSetControlLock",
+        "Instance": "Sys_OpSet",
+        "IsTimeSeries": false,
+        "DataType": "Boolean",
+        "AttributeName": "ControlLock",
+        "DeviceIO": "RW",
+        "MappedAttributeName": "Sys_OpSetControlLock",
+        "Default": "0",
+        "Key": "0x02040008"
+      },
+      {
+        "IsTemplate": false,
+        "M2MAttributeName": "Sys_OpSetFavoriteFillAmount1",
+        "Instance": "Sys_OpSet",
+        "IsTimeSeries": false,
+        "DataType": "BEIntegerUnsigned16Bit",
+        "AttributeName": "FavoriteFillAmount1",
+        "RangeValues": {
+          "StepSize": "1",
+          "Min": "0",
+          "Max": "65535"
+        },
+        "DeviceIO": "RW",
+        "MappedAttributeName": "Sys_OpSetFavoriteFillAmount1",
+        "Default": "0",
+        "Key": "0x02040009"
+      },
+      {
+        "IsTemplate": false,
+        "M2MAttributeName": "Sys_OpSetFavoriteFillAmount2",
+        "Instance": "Sys_OpSet",
+        "IsTimeSeries": false,
+        "DataType": "BEIntegerUnsigned16Bit",
+        "AttributeName": "FavoriteFillAmount2",
+        "RangeValues": {
+          "StepSize": "1",
+          "Min": "0",
+          "Max": "65535"
+        },
+        "DeviceIO": "RW",
+        "MappedAttributeName": "Sys_OpSetFavoriteFillAmount2",
+        "Default": "0",
+        "Key": "0x0204000A"
+      },
+      {
+        "IsTemplate": false,
+        "M2MAttributeName": "Sys_OpSetFavoriteFillUnits",
+        "Instance": "Sys_OpSet",
+        "IsTimeSeries": false,
+        "DataType": "enum",
+        "AttributeName": "FavoriteFillUnits",
+        "DeviceIO": "RW",
+        "MappedAttributeName": "Sys_OpSetFavoriteFillUnits",
+        "Default": "0",
+        "EnumValues": {
+          "0": "MilliLiters",
+          "1": "Cups",
+          "2": "Ounces"
+        },
+        "Key": "0x0204000B"
+      },
+      {
+        "IsTemplate": false,
+        "M2MAttributeName": "Freezer_OpStatusDoorOpen",
+        "Instance": "Freezer_OpStatus",
+        "IsTimeSeries": false,
+        "DataType": "Boolean",
+        "AttributeName": "DoorOpen",
+        "DeviceIO": "RO",
+        "MappedAttributeName": "Freezer_OpStatusDoorOpen",
+        "Default": "0",
+        "Key": "0x03010001"
+      },
+      {
+        "IsTemplate": false,
+        "M2MAttributeName": "Freezer_OpSetTargetTemp",
+        "Instance": "Freezer_OpSet",
+        "IsTimeSeries": false,
+        "DataType": "BEIntegerSigned16Bit",
+        "AttributeName": "TargetTemp",
+        "RangeValues": {
+          "StepSize": "1",
+          "Min": "-32768",
+          "Max": "32767"
+        },
+        "DeviceIO": "RW",
+        "MappedAttributeName": "Freezer_OpSetTargetTemp",
+        "Default": "0",
+        "Key": "0x03020001"
+      },
+      {
+        "IsTemplate": false,
+        "M2MAttributeName": "Refrigerator_OpStatusDoorOpen",
+        "Instance": "Refrigerator_OpStatus",
+        "IsTimeSeries": false,
+        "DataType": "Boolean",
+        "AttributeName": "DoorOpen",
+        "DeviceIO": "RO",
+        "MappedAttributeName": "Refrigerator_OpStatusDoorOpen",
+        "Default": "0",
+        "Key": "0x03030001"
+      },
+      {
+        "IsTemplate": false,
+        "M2MAttributeName": "Refrigerator_OpSetTargetTemp",
+        "Instance": "Refrigerator_OpSet",
+        "IsTimeSeries": false,
+        "DataType": "BEIntegerSigned16Bit",
+        "AttributeName": "TargetTemp",
+        "RangeValues": {
+          "StepSize": "1",
+          "Min": "-32768",
+          "Max": "32767"
+        },
+        "DeviceIO": "RW",
+        "MappedAttributeName": "Refrigerator_OpSetTargetTemp",
+        "Default": "0",
+        "Key": "0x03040001"
+      },
+      {
+        "IsTemplate": false,
+        "M2MAttributeName": "Pantry_OpStatusDoorOpen",
+        "Instance": "Pantry_OpStatus",
+        "IsTimeSeries": false,
+        "DataType": "Boolean",
+        "AttributeName": "DoorOpen",
+        "DeviceIO": "RO",
+        "MappedAttributeName": "Pantry_OpStatusDoorOpen",
+        "Default": "0",
+        "Key": "0x03050001"
+      },
+      {
+        "IsTemplate": false,
+        "M2MAttributeName": "Pantry_OpSetTargetTemp",
+        "Instance": "Pantry_OpSet",
+        "IsTimeSeries": false,
+        "DataType": "BEIntegerSigned16Bit",
+        "AttributeName": "TargetTemp",
+        "RangeValues": {
+          "StepSize": "1",
+          "Min": "-32768",
+          "Max": "32767"
+        },
+        "DeviceIO": "RW",
+        "MappedAttributeName": "Pantry_OpSetTargetTemp",
+        "Default": "0",
+        "Key": "0x03060001"
+      },
+      {
+        "IsTemplate": false,
+        "M2MAttributeName": "CapabilitySys_SetFavoriteFillMax",
+        "Instance": "CapabilitySys_Set",
+        "IsTimeSeries": false,
+        "DataType": "BEIntegerUnsigned16Bit",
+        "AttributeName": "FavoriteFillMax",
+        "RangeValues": {
+          "StepSize": "1",
+          "Min": "0",
+          "Max": "65535"
+        },
+        "DeviceIO": "RO",
+        "MappedAttributeName": "CapabilitySys_SetFavoriteFillMax",
+        "Default": "0",
+        "Key": "0xF9010001"
+      },
+      {
+        "IsTemplate": false,
+        "M2MAttributeName": "CapabilityCavity_SetCavitySelect",
+        "Instance": "CapabilityCavity_Set",
+        "IsTimeSeries": false,
+        "DataType": "enum",
+        "AttributeName": "CavitySelect",
+        "DeviceIO": "RO",
+        "MappedAttributeName": "CapabilityCavity_SetCavitySelect",
+        "Default": "0",
+        "EnumValues": {
+          "0": "RefrigeratorZone1",
+          "1": "FreezerZone2",
+          "2": "PantryZone3"
+        },
+        "Key": "0xF9020001"
+      },
+      {
+        "IsTemplate": false,
+        "M2MAttributeName": "CapabilityCavity_SetTempMax",
+        "Instance": "CapabilityCavity_Set",
+        "IsTimeSeries": false,
+        "DataType": "BEIntegerSigned16Bit",
+        "AttributeName": "TempMax",
+        "RangeValues": {
+          "StepSize": "1",
+          "Min": "-32768",
+          "Max": "32767"
+        },
+        "DeviceIO": "RO",
+        "MappedAttributeName": "CapabilityCavity_SetTempMax",
+        "Default": "0",
+        "Key": "0xF9020002"
+      },
+      {
+        "IsTemplate": false,
+        "M2MAttributeName": "CapabilityCavity_SetTempMin",
+        "Instance": "CapabilityCavity_Set",
+        "IsTimeSeries": false,
+        "DataType": "BEIntegerSigned16Bit",
+        "AttributeName": "TempMin",
+        "RangeValues": {
+          "StepSize": "1",
+          "Min": "-32768",
+          "Max": "32767"
+        },
+        "DeviceIO": "RO",
+        "MappedAttributeName": "CapabilityCavity_SetTempMin",
+        "Default": "0",
+        "Key": "0xF9020003"
+      },
+      {
+        "IsTemplate": false,
+        "M2MAttributeName": "CapabilityCavity_SetTempDefault",
+        "Instance": "CapabilityCavity_Set",
+        "IsTimeSeries": false,
+        "DataType": "BEIntegerSigned16Bit",
+        "AttributeName": "TempDefault",
+        "RangeValues": {
+          "StepSize": "1",
+          "Min": "-32768",
+          "Max": "32767"
+        },
+        "DeviceIO": "RO",
+        "MappedAttributeName": "CapabilityCavity_SetTempDefault",
+        "Default": "30",
+        "Key": "0xF9020004"
+      },
+      {
+        "IsTemplate": false,
+        "M2MAttributeName": "Relational_CapabilityFrigCavityTemp",
+        "Instance": "Relational_Capability",
+        "IsTimeSeries": false,
+        "DataType": "String",
+        "AttributeName": "FrigCavityTemp",
+        "DeviceIO": "RO",
+        "MappedAttributeName": "Relational_CapabilityFrigCavityTemp",
+        "Default": "0",
+        "Key": "0xFD010001"
+      },
+      {
+        "IsTemplate": false,
+        "M2MAttributeName": "Relational_CapabilityFrigSettings",
+        "Instance": "Relational_Capability",
+        "IsTimeSeries": false,
+        "DataType": "String",
+        "AttributeName": "FrigSettings",
+        "DeviceIO": "RO",
+        "MappedAttributeName": "Relational_CapabilityFrigSettings",
+        "Default": "0",
+        "Key": "0xFD010002"
+      },
+      {
+        "IsTemplate": false,
+        "M2MAttributeName": "Relational_EnvelopeOpen",
+        "Instance": "Relational_Envelope",
+        "IsTimeSeries": false,
+        "DataType": "BEIntegerUnsigned32Bit",
+        "AttributeName": "Open",
+        "RangeValues": {
+          "StepSize": "1",
+          "Min": "0",
+          "Max": "4294967295"
+        },
+        "DeviceIO": "RW",
+        "MappedAttributeName": "Relational_EnvelopeOpen",
+        "Default": "0",
+        "Key": "0xFE010001"
+      },
+      {
+        "IsTemplate": false,
+        "M2MAttributeName": "Relational_EnvelopeClose",
+        "Instance": "Relational_Envelope",
+        "IsTimeSeries": false,
+        "DataType": "BEIntegerUnsigned32Bit",
+        "AttributeName": "Close",
+        "RangeValues": {
+          "StepSize": "1",
+          "Min": "0",
+          "Max": "4294967295"
+        },
+        "DeviceIO": "RW",
+        "MappedAttributeName": "Relational_EnvelopeClose",
+        "Default": "0",
+        "Key": "0xFE010002"
+      },
+      {
+        "IsTemplate": false,
+        "M2MAttributeName": "Relational_EnvelopeAction",
+        "Instance": "Relational_Envelope",
+        "IsTimeSeries": false,
+        "DataType": "enum",
+        "AttributeName": "Action",
+        "DeviceIO": "RW",
+        "MappedAttributeName": "Relational_EnvelopeAction",
+        "Default": "0",
+        "EnumValues": {
+          "1": "Get",
+          "4": "Publish"
+        },
+        "Key": "0xFE010003"
+      },
+      {
+        "IsTemplate": false,
+        "M2MAttributeName": "Relational_EntityOpen",
+        "Instance": "Relational_Entity",
+        "IsTimeSeries": false,
+        "DataType": "BEIntegerUnsigned32Bit",
+        "AttributeName": "Open",
+        "RangeValues": {
+          "StepSize": "1",
+          "Min": "0",
+          "Max": "4294967295"
+        },
+        "DeviceIO": "RW",
+        "MappedAttributeName": "Relational_EntityOpen",
+        "Default": "0",
+        "Key": "0xFE020001"
+      },
+      {
+        "IsTemplate": false,
+        "M2MAttributeName": "Relational_EntityClose",
+        "Instance": "Relational_Entity",
+        "IsTimeSeries": false,
+        "DataType": "BEIntegerUnsigned32Bit",
+        "AttributeName": "Close",
+        "RangeValues": {
+          "StepSize": "1",
+          "Min": "0",
+          "Max": "4294967295"
+        },
+        "DeviceIO": "RW",
+        "MappedAttributeName": "Relational_EntityClose",
+        "Default": "0",
+        "Key": "0xFE020002"
+      },
+      {
+        "IsTemplate": false,
+        "M2MAttributeName": "Relational_EntityName",
+        "Instance": "Relational_Entity",
+        "IsTimeSeries": false,
+        "DataType": "String",
+        "AttributeName": "Name",
+        "DeviceIO": "RW",
+        "MappedAttributeName": "Relational_EntityName",
+        "Default": "0",
+        "Key": "0xFE020003"
+      },
+      {
+        "IsTemplate": false,
+        "M2MAttributeName": "Relational_EntityId",
+        "Instance": "Relational_Entity",
+        "IsTimeSeries": false,
+        "DataType": "IntegerUnsigned8Bit",
+        "AttributeName": "Id",
+        "RangeValues": {
+          "StepSize": "1",
+          "Min": "0",
+          "Max": "255"
+        },
+        "DeviceIO": "RW",
+        "MappedAttributeName": "Relational_EntityId",
+        "Default": "0",
+        "Key": "0xFE020004"
+      },
+      {
+        "IsTemplate": false,
+        "M2MAttributeName": "Relational_ArrayOpen",
+        "Instance": "Relational_Array",
+        "IsTimeSeries": false,
+        "DataType": "BEIntegerUnsigned32Bit",
+        "AttributeName": "Open",
+        "RangeValues": {
+          "StepSize": "1",
+          "Min": "0",
+          "Max": "4294967295"
+        },
+        "DeviceIO": "RW",
+        "MappedAttributeName": "Relational_ArrayOpen",
+        "Default": "0",
+        "Key": "0xFE030001"
+      },
+      {
+        "IsTemplate": false,
+        "M2MAttributeName": "Relational_ArrayClose",
+        "Instance": "Relational_Array",
+        "IsTimeSeries": false,
+        "DataType": "BEIntegerUnsigned32Bit",
+        "AttributeName": "Close",
+        "RangeValues": {
+          "StepSize": "1",
+          "Min": "0",
+          "Max": "4294967295"
+        },
+        "DeviceIO": "RW",
+        "MappedAttributeName": "Relational_ArrayClose",
+        "Default": "0",
+        "Key": "0xFE030002"
+      },
+      {
+        "IsTemplate": false,
+        "M2MAttributeName": "PushTrigger",
+        "Instance": "",
+        "IsTimeSeries": false,
+        "DataType": "BEIntegerSigned32Bit",
+        "AttributeName": "PushTrigger",
+        "RangeValues": {
+          "StepSize": "1",
+          "Min": "-2147483648",
+          "Max": "2147483647"
+        },
+        "DeviceIO": "RW",
+        "MappedAttributeName": "PushTrigger",
+        "Default": "0",
+        "Key": "0x00000000"
+      },
+      {
+        "IsTemplate": false,
+        "M2MAttributeName": "Relational_to_Appliance",
+        "Instance": "",
+        "IsTimeSeries": false,
+        "DataType": "String",
+        "AttributeName": "Relational_to_Appliance",
+        "DeviceIO": "RW",
+        "MappedAttributeName": "Relational_to_Appliance",
+        "Default": "0",
+        "Key": "0x00000000"
+      },
+      {
+        "IsTemplate": false,
+        "M2MAttributeName": "GetSubscribeListVersion",
+        "Instance": "",
+        "IsTimeSeries": false,
+        "DataType": "BEIntegerUnsigned32Bit",
+        "AttributeName": "GetSubscribeListVersion",
+        "RangeValues": {
+          "StepSize": "1",
+          "Min": "0",
+          "Max": "4294967295"
+        },
+        "DeviceIO": "RW",
+        "MappedAttributeName": "GetSubscribeListVersion",
+        "Default": "0",
+        "Key": "0x00000000"
+      },
+      {
+        "IsTemplate": false,
+        "M2MAttributeName": "M2MSubList",
+        "Instance": "",
+        "IsTimeSeries": false,
+        "DataType": "String",
+        "AttributeName": "M2MSubList",
+        "DeviceIO": "RW",
+        "MappedAttributeName": "M2MSubList",
+        "Default": "0",
+        "Key": "0x00000000"
+      },
+      {
+        "IsTemplate": false,
+        "M2MAttributeName": "M2MSubscribeListVersion",
+        "Instance": "",
+        "IsTimeSeries": false,
+        "DataType": "String",
+        "AttributeName": "M2MSubscribeListVersion",
+        "DeviceIO": "RW",
+        "MappedAttributeName": "M2MSubscribeListVersion",
+        "Default": "0",
+        "Key": "0x00000000"
+      },
+      {
+        "IsTemplate": false,
+        "M2MAttributeName": "SetDNSNames",
+        "Instance": "",
+        "IsTimeSeries": false,
+        "DataType": "String",
+        "AttributeName": "SetDNSNames",
+        "DeviceIO": "RW",
+        "MappedAttributeName": "SetDNSNames",
+        "Default": "0",
+        "Key": "0x00000000"
+      },
+      {
+        "IsTemplate": false,
+        "M2MAttributeName": "sys-parser-type",
+        "Instance": "",
+        "IsTimeSeries": false,
+        "DataType": "String",
+        "AttributeName": "sys-parser-type",
+        "DeviceIO": "RW",
+        "MappedAttributeName": "sys-parser-type",
+        "Default": "0",
+        "Key": "0x00000000"
+      },
+      {
+        "IsTemplate": false,
+        "M2MAttributeName": "MAC_Address",
+        "Instance": "",
+        "IsTimeSeries": false,
+        "DataType": "String",
+        "AttributeName": "MAC_Address",
+        "DeviceIO": "RW",
+        "MappedAttributeName": "MAC_Address",
+        "Default": "0",
+        "Key": "0x00000000"
+      },
+      {
+        "IsTemplate": false,
+        "M2MAttributeName": "uid",
+        "Instance": "",
+        "IsTimeSeries": false,
+        "DataType": "String",
+        "AttributeName": "uid",
+        "DeviceIO": "RW",
+        "MappedAttributeName": "uid",
+        "Default": "0",
+        "Key": "0x00000000"
+      },
+      {
+        "IsTemplate": false,
+        "M2MAttributeName": "ModelNumber",
+        "Instance": "",
+        "IsTimeSeries": false,
+        "DataType": "String",
+        "AttributeName": "ModelNumber",
+        "DeviceIO": "RW",
+        "MappedAttributeName": "ModelNumber",
+        "Default": "0",
+        "Key": "0x00000000"
+      },
+      {
+        "IsTemplate": false,
+        "M2MAttributeName": "SerialNumber",
+        "Instance": "",
+        "IsTimeSeries": false,
+        "DataType": "String",
+        "AttributeName": "SerialNumber",
+        "DeviceIO": "RW",
+        "MappedAttributeName": "SerialNumber",
+        "Default": "0",
+        "Key": "0x00000000"
+      },
+      {
+        "IsTemplate": false,
+        "M2MAttributeName": "cc_uri",
+        "Instance": "",
+        "IsTimeSeries": false,
+        "DataType": "String",
+        "AttributeName": "cc_uri",
+        "DeviceIO": "RW",
+        "MappedAttributeName": "cc_uri",
+        "Default": "0",
+        "Key": "0x00000000"
+      },
+      {
+        "IsTemplate": false,
+        "M2MAttributeName": "ISPBundleAttributes",
+        "Instance": "",
+        "IsTimeSeries": false,
+        "DataType": "String",
+        "AttributeName": "ISPBundleAttributes",
+        "DeviceIO": "RW",
+        "MappedAttributeName": "ISPBundleAttributes",
+        "Default": "0",
+        "Key": "0x00000000"
+      },
+      {
+        "IsTemplate": false,
+        "M2MAttributeName": "ISPReasonCode",
+        "Instance": "",
+        "IsTimeSeries": false,
+        "DataType": "String",
+        "AttributeName": "ISPReasonCode",
+        "DeviceIO": "RW",
+        "MappedAttributeName": "ISPReasonCode",
+        "Default": "0",
+        "Key": "0x00000000"
+      },
+      {
+        "IsTemplate": false,
+        "M2MAttributeName": "GetApplianceVersionNumber",
+        "Instance": "",
+        "IsTimeSeries": false,
+        "DataType": "Boolean",
+        "AttributeName": "GetApplianceVersionNumber",
+        "DeviceIO": "RW",
+        "MappedAttributeName": "GetApplianceVersionNumber",
+        "Default": "0",
+        "Key": "0x00000000"
+      },
+      {
+        "IsTemplate": false,
+        "M2MAttributeName": "ApplianceVersionNumber",
+        "Instance": "",
+        "IsTimeSeries": false,
+        "DataType": "BEIntegerUnsigned16Bit",
+        "AttributeName": "ApplianceVersionNumber",
+        "RangeValues": {
+          "StepSize": "1",
+          "Min": "0",
+          "Max": "65535"
+        },
+        "DeviceIO": "RW",
+        "MappedAttributeName": "ApplianceVersionNumber",
+        "Default": "0",
+        "Key": "0x00000000"
+      },
+      {
+        "IsTemplate": false,
+        "M2MAttributeName": "ProjectReleaseNumber",
+        "Instance": "",
+        "IsTimeSeries": false,
+        "DataType": "String",
+        "AttributeName": "ProjectReleaseNumber",
+        "DeviceIO": "RW",
+        "MappedAttributeName": "ProjectReleaseNumber",
+        "Default": "0",
+        "Key": "0x00000000"
+      },
+      {
+        "IsTemplate": false,
+        "M2MAttributeName": "Sys_AlertStatusCustomerFaultCodeNotification",
+        "Instance": "Sys_AlertStatus",
+        "IsTimeSeries": false,
+        "DataType": "String",
+        "AttributeName": "CustomerFaultCodeNotification",
+        "DeviceIO": "RW",
+        "MappedAttributeName": "Sys_AlertStatusCustomerFaultCodeNotification",
+        "Default": "0",
+        "Key": "0x00000000"
+      },
+      {
+        "IsTemplate": false,
+        "M2MAttributeName": "Sys_AlertStatusControlLockChangedByAppliance",
+        "Instance": "Sys_AlertStatus",
+        "IsTimeSeries": false,
+        "DataType": "Boolean",
+        "AttributeName": "ControlLockChangedByAppliance",
+        "DeviceIO": "RW",
+        "MappedAttributeName": "Sys_AlertStatusControlLockChangedByAppliance",
+        "Default": "0",
+        "Key": "0x00000000"
+      },
+      {
+        "IsTemplate": false,
+        "M2MAttributeName": "Sys_AlertStatusCustomerFaultCodeNotification",
+        "Instance": "Sys_AlertStatus",
+        "IsTimeSeries": false,
+        "DataType": "String",
+        "AttributeName": "CustomerFaultCodeNotification",
+        "DeviceIO": "RW",
+        "MappedAttributeName": "Sys_AlertStatusCustomerFaultCodeNotification",
+        "Default": "0",
+        "Key": "0x00000000"
+      },
+      {
+        "IsTemplate": false,
+        "M2MAttributeName": "Sys_PreventativeMaintAirFilterEnable",
+        "Instance": "Sys_PreventativeMaint",
+        "IsTimeSeries": false,
+        "DataType": "Boolean",
+        "AttributeName": "AirFilterEnable",
+        "DeviceIO": "RW",
+        "MappedAttributeName": "Sys_PreventativeMaintAirFilterEnable",
+        "Default": "0",
+        "Key": "0x00000000"
+      },
+      {
+        "IsTemplate": false,
+        "M2MAttributeName": "Sys_PreventativeMaintCleanFridgeEnable",
+        "Instance": "Sys_PreventativeMaint",
+        "IsTimeSeries": false,
+        "DataType": "Boolean",
+        "AttributeName": "CleanFridgeEnable",
+        "DeviceIO": "RW",
+        "MappedAttributeName": "Sys_PreventativeMaintCleanFridgeEnable",
+        "Default": "0",
+        "Key": "0x00000000"
+      },
+      {
+        "IsTemplate": false,
+        "M2MAttributeName": "Sys_OpSetPartyMode",
+        "Instance": "Sys_OpSet",
+        "IsTimeSeries": false,
+        "DataType": "Boolean",
+        "AttributeName": "PartyMode",
+        "DeviceIO": "RW",
+        "MappedAttributeName": "Sys_OpSetPartyMode",
+        "Default": "0",
+        "Key": "0x00000000"
+      },
+      {
+        "IsTemplate": false,
+        "M2MAttributeName": "Generic_EnergyProfileSetting",
+        "Instance": "Generic_",
+        "IsTimeSeries": false,
+        "DataType": "BEIntegerUnsigned32Bit",
+        "AttributeName": "EnergyProfileSetting",
+        "RangeValues": {
+          "StepSize": "1",
+          "Min": "0",
+          "Max": "4294967295"
+        },
+        "DeviceIO": "RW",
+        "MappedAttributeName": "Generic_EnergyProfileSetting",
+        "Default": "0",
+        "Key": "0x00000000"
+      },
+      {
+        "IsTemplate": false,
+        "M2MAttributeName": "Generic_RatePlanID",
+        "Instance": "Generic_",
+        "IsTimeSeries": false,
+        "DataType": "String",
+        "AttributeName": "RatePlanID",
+        "DeviceIO": "RW",
+        "MappedAttributeName": "Generic_RatePlanID",
+        "Default": "0",
+        "Key": "0x00000000"
+      },
+      {
+        "IsTemplate": false,
+        "M2MAttributeName": "Generic_UtilityID",
+        "Instance": "Generic_",
+        "IsTimeSeries": false,
+        "DataType": "String",
+        "AttributeName": "UtilityID",
+        "DeviceIO": "RW",
+        "MappedAttributeName": "Generic_UtilityID",
+        "Default": "0",
+        "Key": "0x00000000"
+      },
+      {
+        "IsTemplate": false,
+        "M2MAttributeName": "Generic_SmartID",
+        "Instance": "Generic_",
+        "IsTimeSeries": false,
+        "DataType": "String",
+        "AttributeName": "SmartID",
+        "DeviceIO": "RW",
+        "MappedAttributeName": "Generic_SmartID",
+        "Default": "0",
+        "Key": "0x00000000"
+      },
+      {
+        "IsTemplate": false,
+        "M2MAttributeName": "Generic_Zip",
+        "Instance": "Generic_",
+        "IsTimeSeries": false,
+        "DataType": "String",
+        "AttributeName": "Zip",
+        "DeviceIO": "RW",
+        "MappedAttributeName": "Generic_Zip",
+        "Default": "0",
+        "Key": "0x00000000"
+      },
+      {
+        "IsTemplate": false,
+        "M2MAttributeName": "XCat_InServiceDate",
+        "Instance": "XCat_",
+        "IsTimeSeries": false,
+        "DataType": "String",
+        "AttributeName": "InServiceDate",
+        "DeviceIO": "RW",
+        "MappedAttributeName": "XCat_InServiceDate",
+        "Default": "0",
+        "Key": "0x00000000"
+      },
+      {
+        "IsTemplate": false,
+        "M2MAttributeName": "XCat_trid_result",
+        "Instance": "XCat_",
+        "IsTimeSeries": false,
+        "DataType": "String",
+        "AttributeName": "trid_result",
+        "DeviceIO": "RO",
+        "MappedAttributeName": "XCat_trid_result",
+        "Default": "0",
+        "Key": "0x00000000"
+      },
+      {
+        "IsTemplate": false,
+        "M2MAttributeName": "XCat_trid",
+        "Instance": "XCat_",
+        "IsTimeSeries": false,
+        "DataType": "BEIntegerUnsigned16Bit",
+        "AttributeName": "trid",
+        "RangeValues": {
+          "StepSize": "1",
+          "Min": "0",
+          "Max": "65535"
+        },
+        "DeviceIO": "RW",
+        "MappedAttributeName": "XCat_trid",
+        "Default": "0",
+        "Key": "0x00000000"
+      },
+      {
+        "IsTemplate": false,
+        "M2MAttributeName": "online",
+        "Instance": "",
+        "IsTimeSeries": false,
+        "DataType": "Boolean",
+        "AttributeName": "online",
+        "DeviceIO": "RO",
+        "MappedAttributeName": "online",
+        "Default": "0",
+        "Key": "0x00000000"
+      },
+      {
+        "IsTemplate": false,
+        "M2MAttributeName": "XCat_UtcOffset",
+        "Instance": "XCat_",
+        "IsTimeSeries": false,
+        "DataType": "BEIntegerSigned32Bit",
+        "AttributeName": "UtcOffset",
+        "RangeValues": {
+          "StepSize": "1",
+          "Min": "-2147483648",
+          "Max": "2147483647"
+        },
+        "DeviceIO": "RW",
+        "MappedAttributeName": "XCat_UtcOffset",
+        "Default": "0",
+        "Key": "0x00000000"
+      },
+      {
+        "IsTemplate": false,
+        "M2MAttributeName": "XCat_DstOffset",
+        "Instance": "XCat_",
+        "IsTimeSeries": false,
+        "DataType": "BEIntegerSigned32Bit",
+        "AttributeName": "DstOffset",
+        "RangeValues": {
+          "StepSize": "1",
+          "Min": "-2147483648",
+          "Max": "2147483647"
+        },
+        "DeviceIO": "RW",
+        "MappedAttributeName": "XCat_DstOffset",
+        "Default": "0",
+        "Key": "0x00000000"
+      },
+      {
+        "IsTemplate": false,
+        "M2MAttributeName": "XCat_TimeZoneId",
+        "Instance": "XCat_",
+        "IsTimeSeries": false,
+        "DataType": "String",
+        "AttributeName": "TimeZoneId",
+        "DeviceIO": "RW",
+        "MappedAttributeName": "XCat_TimeZoneId",
+        "Default": "0",
+        "Key": "0x00000000"
+      },
+      {
+        "IsTemplate": false,
+        "M2MAttributeName": "XCat_DateTimeMode",
+        "Instance": "XCat_",
+        "IsTimeSeries": false,
+        "DataType": "BEIntegerUnsigned16Bit",
+        "AttributeName": "DateTimeMode",
+        "RangeValues": {
+          "StepSize": "1",
+          "Min": "0",
+          "Max": "65535"
+        },
+        "DeviceIO": "RW",
+        "MappedAttributeName": "XCat_DateTimeMode",
+        "Default": "0",
+        "Key": "0x00000000"
+      }
+    ]
+  },
+  "Personality": {
+    "Key": "DDM_REFRIGERATOR_GEBL_BELLA2_V1",
+    "Capability": [
+      {
+        "FavoriteFill1": {
+          "Units": {
+            "Cups": {
+              "Min": 0,
+              "Max": 16
+            },
+            "Ounces": {
+              "Min": 0,
+              "Max": 135
+            }
+          }
+        },
+        "GlobalGoverningStates": [
+          {
+            "ResetCommands": [
+              {
+                "Sys_OpSetControlLock": "0"
+              }
+            ],
+            "GlobalGoverningState": "Control",
+            "SetCommands": [
+              {
+                "Sys_OpSetControlLock": "1"
+              }
+            ],
+            "Enabled": true,
+            "Compatibility": [
+              {
+                "Vacation": "true",
+                "Party": "true",
+                "Quiet": "false"
+              }
+            ]
+          },
+          {
+            "ResetCommands": [],
+            "GlobalGoverningState": "Quiet",
+            "SetCommands": [],
+            "Enabled": false,
+            "Compatibility": [
+              {
+                "Control": "false",
+                "Vacation": "false",
+                "Party": "false"
+              }
+            ]
+          },
+          {
+            "ResetCommands": [
+              {
+                "Sys_OpSetVacationMode": "0"
+              }
+            ],
+            "GlobalGoverningState": "Vacation",
+            "SetCommands": [
+              {
+                "Sys_OpSetVacationMode": "1"
+              }
+            ],
+            "Enabled": true,
+            "Compatibility": [
+              {
+                "Control": "true",
+                "Party": "false",
+                "Quiet": "false"
+              }
+            ]
+          },
+          {
+            "ResetCommands": [
+              {
+                "Sys_OpSetMaxCool": "0",
+                "Sys_OpSetMaxIce": "0"
+              }
+            ],
+            "GlobalGoverningState": "Party",
+            "SetCommands": [
+              {
+                "Sys_OpSetMaxCool": "1",
+                "Sys_OpSetMaxIce": "1"
+              }
+            ],
+            "Enabled": true,
+            "Compatibility": [
+              {
+                "Control": "true",
+                "Vacation": "false",
+                "Quiet": "false"
+              }
+            ]
+          }
+        ],
+        "FavoriteFill2": {
+          "Units": {
+            "Cups": {
+              "Min": 0,
+              "Max": 16
+            },
+            "Ounces": {
+              "Min": 0,
+              "Max": 135
+            }
+          }
+        },
+        "TemperatureLabels": {
+          "Freezer": {
+            "C": [
+              {
+                "displayValue": "-16",
+                "label": "Recommended",
+                "internalValue": "-160"
+              }
+            ],
+            "F": [
+              {
+                "displayValue": "0",
+                "label": "Recommended",
+                "internalValue": "-178"
+              }
+            ]
+          },
+          "Pantry": {
+            "C": [
+              {
+                "displayValue": "",
+                "label": "Meat/Fish",
+                "internalValue": "0"
+              },
+              {
+                "displayValue": "",
+                "label": "Cold/Drink",
+                "internalValue": "10"
+              },
+              {
+                "displayValue": "",
+                "label": "Wine",
+                "internalValue": "20"
+              },
+              {
+                "displayValue": "",
+                "label": "Deli/Cheese",
+                "internalValue": "30"
+              }
+            ],
+            "F": [
+              {
+                "displayValue": "",
+                "label": "Meat/Fish",
+                "internalValue": "0"
+              },
+              {
+                "displayValue": "",
+                "label": "Cold/Drink",
+                "internalValue": "6"
+              },
+              {
+                "displayValue": "",
+                "label": "Wine",
+                "internalValue": "17"
+              },
+              {
+                "displayValue": "",
+                "label": "Deli/Cheese",
+                "internalValue": "33"
+              }
+            ]
+          },
+          "Refrigerator": {
+            "C": [
+              {
+                "displayValue": "1",
+                "label": "Recommended",
+                "internalValue": "10"
+              }
+            ],
+            "F": [
+              {
+                "displayValue": "37",
+                "label": "Recommended",
+                "internalValue": "28"
+              }
+            ]
+          }
+        },
+        "Temperatures": {
+          "Pantry": {
+            "C": [
+              {
+                "displayValue": "",
+                "internalValue": "0"
+              },
+              {
+                "displayValue": "",
+                "internalValue": "10"
+              },
+              {
+                "displayValue": "",
+                "internalValue": "20"
+              },
+              {
+                "displayValue": "",
+                "internalValue": "30"
+              }
+            ],
+            "F": [
+              {
+                "displayValue": "",
+                "internalValue": "0"
+              },
+              {
+                "displayValue": "",
+                "internalValue": "6"
+              },
+              {
+                "displayValue": "",
+                "internalValue": "17"
+              },
+              {
+                "displayValue": "",
+                "internalValue": "33"
+              }
+            ]
+          },
+          "Freezer": {
+            "C": [
+              {
+                "displayValue": "-22",
+                "internalValue": "-220"
+              },
+              {
+                "displayValue": "-21",
+                "internalValue": "-210"
+              },
+              {
+                "displayValue": "-20",
+                "internalValue": "-200"
+              },
+              {
+                "displayValue": "-19",
+                "internalValue": "-190"
+              },
+              {
+                "displayValue": "-18",
+                "internalValue": "-180"
+              },
+              {
+                "displayValue": "-17",
+                "internalValue": "-170"
+              },
+              {
+                "displayValue": "-16",
+                "internalValue": "-160"
+              },
+              {
+                "displayValue": "-15",
+                "internalValue": "-150"
+              }
+            ],
+            "F": [
+              {
+                "displayValue": "-6",
+                "internalValue": "-211"
+              },
+              {
+                "displayValue": "-5",
+                "internalValue": "-206"
+              },
+              {
+                "displayValue": "-4",
+                "internalValue": "-200"
+              },
+              {
+                "displayValue": "-3",
+                "internalValue": "-194"
+              },
+              {
+                "displayValue": "-2",
+                "internalValue": "-189"
+              },
+              {
+                "displayValue": "-1",
+                "internalValue": "-183"
+              },
+              {
+                "displayValue": "0",
+                "internalValue": "-178"
+              },
+              {
+                "displayValue": "1",
+                "internalValue": "-172"
+              },
+              {
+                "displayValue": "2",
+                "internalValue": "-167"
+              },
+              {
+                "displayValue": "3",
+                "internalValue": "-161"
+              },
+              {
+                "displayValue": "4",
+                "internalValue": "-156"
+              },
+              {
+                "displayValue": "5",
+                "internalValue": "-150"
+              }
+            ]
+          },
+          "Refrigerator": {
+            "C": [
+              {
+                "displayValue": "1",
+                "internalValue": "10"
+              },
+              {
+                "displayValue": "2",
+                "internalValue": "20"
+              },
+              {
+                "displayValue": "3",
+                "internalValue": "30"
+              },
+              {
+                "displayValue": "4",
+                "internalValue": "40"
+              },
+              {
+                "displayValue": "5",
+                "internalValue": "50"
+              },
+              {
+                "displayValue": "6",
+                "internalValue": "60"
+              },
+              {
+                "displayValue": "7",
+                "internalValue": "70"
+              }
+            ],
+            "F": [
+              {
+                "displayValue": "33",
+                "internalValue": "6"
+              },
+              {
+                "displayValue": "34",
+                "internalValue": "11"
+              },
+              {
+                "displayValue": "35",
+                "internalValue": "17"
+              },
+              {
+                "displayValue": "36",
+                "internalValue": "22"
+              },
+              {
+                "displayValue": "37",
+                "internalValue": "28"
+              },
+              {
+                "displayValue": "38",
+                "internalValue": "33"
+              },
+              {
+                "displayValue": "39",
+                "internalValue": "39"
+              },
+              {
+                "displayValue": "40",
+                "internalValue": "44"
+              },
+              {
+                "displayValue": "41",
+                "internalValue": "50"
+              },
+              {
+                "displayValue": "42",
+                "internalValue": "56"
+              },
+              {
+                "displayValue": "43",
+                "internalValue": "61"
+              },
+              {
+                "displayValue": "44",
+                "internalValue": "67"
+              },
+              {
+                "displayValue": "45",
+                "internalValue": "72"
+              }
+            ]
+          }
+        },
+        "ModeTemperatureCapabilityData": {
+          "Action": 4,
+          "EntityCapability": {
+            "Id": 1,
+            "Name": "CavityTemperatures",
+            "CavityTemperatures": [
+              {
+                "Sys_DisplaySetTempUnits": 0,
+                "CapabilityCavity_SetCavitySelect": 0,
+                "CapabilityCavity_SetTempMin": 10,
+                "CapabilityCavity_SetTempMax": 70,
+                "CapabilityCavity_SetTempDefault": 30
+              },
+              {
+                "Sys_DisplaySetTempUnits": 1,
+                "CapabilityCavity_SetCavitySelect": 0,
+                "CapabilityCavity_SetTempMin": 33,
+                "CapabilityCavity_SetTempMax": 45,
+                "CapabilityCavity_SetTempDefault": 37
+              },
+              {
+                "Sys_DisplaySetTempUnits": 0,
+                "CapabilityCavity_SetCavitySelect": 1,
+                "CapabilityCavity_SetTempMin": -220,
+                "CapabilityCavity_SetTempMax": -150,
+                "CapabilityCavity_SetTempDefault": -180
+              },
+              {
+                "Sys_DisplaySetTempUnits": 1,
+                "CapabilityCavity_SetCavitySelect": 1,
+                "CapabilityCavity_SetTempMin": -6,
+                "CapabilityCavity_SetTempMax": 5,
+                "CapabilityCavity_SetTempDefault": 0
+              },
+              {
+                "Sys_DisplaySetTempUnits": 0,
+                "CapabilityCavity_SetCavitySelect": 2,
+                "CapabilityCavity_SetTempMin": 0,
+                "CapabilityCavity_SetTempMax": 30,
+                "CapabilityCavity_SetTempDefault": 10
+              },
+              {
+                "Sys_DisplaySetTempUnits": 1,
+                "CapabilityCavity_SetCavitySelect": 2,
+                "CapabilityCavity_SetTempMin": 32,
+                "CapabilityCavity_SetTempMax": 38,
+                "CapabilityCavity_SetTempDefault": 33
+              }
+            ]
+          }
+        },
+        "Settings": [
+          {
+            "SmartEnergy": {
+              "Type": "rush_hour_rewards",
+              "Description": "Use Smart Delay to delay your fridge from using the defrost cycle during peak energy hours.",
+              "Name": "Smart Energy"
+            }
+          }
+        ],
+        "SettingsCapabilityData": {
+          "Action": 4,
+          "EntityCapability": {
+            "Id": 1,
+            "FrigSettings": [
+              {
+                "DefaultSettings": [
+                  {
+                    "Sys_OpSetVacationMode": 0,
+                    "Sys_DisplaySetTempUnits": 1,
+                    "Sys_DisplaySetNightLightBrightness": 3,
+                    "Sys_OpSetMaxCool": 0,
+                    "Sys_OpSetFavoriteFillUnits": 2,
+                    "Sys_OpSetMaxIce": 0,
+                    "Sys_DisplaySetLanguage": 0,
+                    "Sys_OpSetSabbathModeEnabled": 0,
+                    "Sys_OpSetQuietModeEnabled": 0
+                  }
+                ],
+                "Name": "DefaultSettings"
+              },
+              {
+                "Enumerations": [
+                  {
+                    "XCat_ConfigSetApplianceCapability": "0x01040001:0,1,2;0x02020001:0,1,2;0x02030002:0,3,5;0x02030003:0,1,2;0x02040001:0,1,2,3;0x02040002:0,1,2,3;0x0204000B:0,1,2;<NUL>"
+                  }
+                ],
+                "Name": "Enumerations"
+              },
+              {
+                "AttributeRanges": [
+                  {
+                    "CapabilitySys_SetFavoriteFillMax": 4000
+                  }
+                ],
+                "Name": "AttributeRanges"
+              }
+            ],
+            "Name": "FrigSettings"
+          }
+        }
+      }
+    ]
+  },
+  "Alerts": {
+    "Key": "DDM_REFRIGERATOR_GEBL_BELLA2_V1",
+    "Alerts": [
+      {
+        "ApplianceAlerts": [
+          {
+            "alertId": 719,
+            "name": "PowerOutAlert",
+            "attribute": "online",
+            "type": "push",
+            "category": "Refrigerator",
+            "autodelete": false,
+            "autodisarm": false,
+            "autodisable": false,
+            "visible": true,
+            "enable": false
+          },
+          {
+            "alertId": 720,
+            "name": "PowerRestored",
+            "attribute": "XCat_PowerStatusPowerOutage",
+            "type": "push",
+            "category": "Refrigerator",
+            "autodelete": false,
+            "autodisarm": false,
+            "autodisable": false,
+            "visible": true,
+            "enable": false
+          },
+          {
+            "alertId": 721,
+            "name": "DoorOpenAlert",
+            "attribute": "Sys_AlertStatusDoorOpenAlarm",
+            "type": "push",
+            "category": "Refrigerator",
+            "autodelete": false,
+            "autodisarm": false,
+            "autodisable": false,
+            "visible": true,
+            "enable": false
+          },
+          {
+            "alertId": 722,
+            "name": "DoorCloseAlert",
+            "attribute": "Sys_AlertStatusDoorOpenAlarm",
+            "type": "push",
+            "category": "Refrigerator",
+            "autodelete": false,
+            "autodisarm": false,
+            "autodisable": false,
+            "visible": true,
+            "enable": false
+          },
+          {
+            "alertId": 723,
+            "name": "ControlLock",
+            "attribute": "Sys_AlertStatusControlUnlockedByAppliance",
+            "type": "push",
+            "category": "Refrigerator",
+            "autodelete": false,
+            "autodisarm": false,
+            "autodisable": false,
+            "visible": true,
+            "enable": false
+          },
+          {
+            "alertId": 724,
+            "name": "MaxCool",
+            "attribute": "Sys_OpSetMaxCool",
+            "type": "push",
+            "category": "Refrigerator",
+            "autodelete": false,
+            "autodisarm": false,
+            "autodisable": false,
+            "visible": true,
+            "enable": false
+          },
+          {
+            "alertId": 725,
+            "name": "MaxIce",
+            "attribute": "Sys_OpSetMaxIce",
+            "type": "push",
+            "category": "Refrigerator",
+            "autodelete": false,
+            "autodisarm": false,
+            "autodisable": false,
+            "visible": true,
+            "enable": false
+          },
+          {
+            "alertId": 726,
+            "name": "ConsumableReplaceWaterFilterOrder",
+            "attribute": "Sys_OpSetWaterFilter",
+            "type": "push",
+            "category": "Refrigerator",
+            "autodelete": false,
+            "autodisarm": false,
+            "autodisable": false,
+            "visible": true,
+            "enable": false
+          },
+          {
+            "alertId": 727,
+            "name": "ConsumableOrderAirFilterReplace",
+            "attribute": "Sys_PreventativeMaintAirFilterEnable",
+            "type": "push",
+            "category": "Refrigerator",
+            "autodelete": false,
+            "autodisarm": false,
+            "autodisable": false,
+            "visible": true,
+            "enable": false
+          }
+        ]
+      }
+    ]
+  },
+  "Services": {
+    "_id": "DDM_REFRIGERATOR_GEBL_BELLA2_V1",
+    "thirdPartyServices": [
+      {
+        "name": "Replenishment",
+        "enabled": false,
+        "serviceProvider": [
+          {
+            "name": "ADRS",
+            "enabled": false,
+            "config": {}
+          },
+          {
+            "name": "Wallmart",
+            "enabled": false,
+            "config": {}
+          },
+          {
+            "name": "Whirlpool",
+            "enabled": false,
+            "config": {}
+          }
+        ]
+      },
+      {
+        "name": "Thermostat",
+        "enabled": true,
+        "serviceProvider": [
+          {
+            "name": "Nest",
+            "enabled": true,
+            "config": [
+              {
+                "Key": "SmartEnergy",
+                "Type": "rush_hour_rewards",
+                "commandName": "",
+                "commandValue": ""
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Energy Management",
+        "enabled": false,
+        "serviceProvider": [
+          {
+            "name": "National Grid",
+            "enabled": false,
+            "config": {}
+          },
+          {
+            "name": "Genability",
+            "enabled": false,
+            "config": {}
+          }
+        ]
+      },
+      {
+        "name": "Voice Integration",
+        "enabled": false,
+        "serviceProvider": [
+          {
+            "name": "Amazon Alexa",
+            "enabled": false,
+            "config": {}
+          },
+          {
+            "name": "Google Home",
+            "enabled": false,
+            "config": {}
+          }
+        ]
+      }
+    ]
+  }
+}
