@@ -2437,7 +2437,7 @@
           "OvenUpperCavity_CycleSetFrozenBakeFoodFrozenBakeFoodNuggets": {
             "Name": "Nuggets",
             "Attributes": {
-              "OvenUpperCavity_CycleSetCommonMode": [
+              "OvenUpperCavity_CycleSetFrozenBakeFood": [
                 "FrozenBakeFoodNuggets"
               ]
             }
@@ -2445,7 +2445,7 @@
           "OvenUpperCavity_CycleSetFrozenBakeFoodFrozenBakeFoodLasagna": {
             "Name": "Lasagna",
             "Attributes": {
-              "OvenUpperCavity_CycleSetCommonMode": [
+              "OvenUpperCavity_CycleSetFrozenBakeFood": [
                 "FrozenBakeFoodLasagna"
               ]
             }
@@ -2453,7 +2453,7 @@
           "OvenUpperCavity_CycleSetFrozenBakeFoodFrozenBakeFoodPizza": {
             "Name": "Pizza",
             "Attributes": {
-              "OvenUpperCavity_CycleSetCommonMode": [
+              "OvenUpperCavity_CycleSetFrozenBakeFood": [
                 "FrozenBakeFoodPizza"
               ]
             }
@@ -2461,7 +2461,7 @@
           "OvenUpperCavity_CycleSetFrozenBakeFoodFrozenBakeFoodPie": {
             "Name": "Pie",
             "Attributes": {
-              "OvenUpperCavity_CycleSetCommonMode": [
+              "OvenUpperCavity_CycleSetFrozenBakeFood": [
                 "FrozenBakeFoodPie"
               ]
             }
@@ -2545,6 +2545,7 @@
           },
           "StatusAttributes": [
             "OvenUpperCavity_CycleSetCommonMode",
+            "OvenUpperCavity_CycleSetFrozenBakeFood",
             "OvenUpperCavity_TimeStatusDelayTimeRemaining",
             "OvenUpperCavity_TimeSetCookTimeSet",
             "OvenUpperCavity_TimeStatusCookTimeRemaining",
