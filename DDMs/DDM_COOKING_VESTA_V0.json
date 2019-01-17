@@ -1019,7 +1019,9 @@
         "DeviceIO": "RW",
         "MappedAttributeName": "OvenUpperCavity_CycleSetBreadProof",
         "Default": "0",
-        "EnumValues": {},
+        "EnumValues": {
+
+        },
         "Key": "0x03100016"
       },
       {
@@ -1996,6 +1998,7 @@
           "OvenUpperCavity_CycleSetCommonModeCommonModeBake": {
             "Required": {
               "OvenUpperCavity_CycleSetTargetTemp": {
+                "Order" : 1,
                 "TempRange": {
                   "Min": 767,
                   "Max": 2600,
@@ -2007,6 +2010,7 @@
             },
             "Optional": {
               "OvenUpperCavity_TimeSetCookTimeSet": {
+                "Order" : 2,
                 "Range": {
                   "Min": 0,
                   "Max": 43200,
@@ -2015,6 +2019,7 @@
                 }
               },
               "OvenUpperCavity_TimeSetDelayTime": {
+                "Order" : 3,
                 "Range": {
                   "Min": 0,
                   "Max": 32400,
@@ -2027,6 +2032,7 @@
           "OvenUpperCavity_CycleSetCommonModeCommonModeBakeRapid": {
             "Required": {
               "OvenUpperCavity_CycleSetTargetTemp": {
+                "Order" : 1,
                 "TempRange": {
                   "Min": 767,
                   "Max": 2600,
@@ -2038,6 +2044,7 @@
             },
             "Optional": {
               "OvenUpperCavity_TimeSetCookTimeSet": {
+                "Order" : 2,
                 "Range": {
                   "Min": 0,
                   "Max": 43200,
@@ -2046,6 +2053,7 @@
                 }
               },
               "OvenUpperCavity_TimeSetDelayTime": {
+                "Order" : 3,
                 "Range": {
                   "Min": 0,
                   "Max": 32400,
@@ -2058,6 +2066,7 @@
           "OvenUpperCavity_CycleSetCommonModeCommonModeSabbathBake": {
             "Required": {
               "OvenUpperCavity_CycleSetTargetTemp": {
+                "Order" : 1,
                 "TempRange": {
                   "Min": 767,
                   "Max": 2600,
@@ -2069,6 +2078,7 @@
             },
             "Optional": {
               "OvenUpperCavity_TimeSetCookTimeSet": {
+                "Order" : 2,
                 "Range": {
                   "Min": 0,
                   "Max": 43200,
@@ -2077,6 +2087,7 @@
                 }
               },
               "OvenUpperCavity_TimeSetDelayTime": {
+                "Order" : 3,
                 "Range": {
                   "Min": 0,
                   "Max": 32400,
@@ -2089,6 +2100,7 @@
           "OvenUpperCavity_CycleSetCommonModeCommonModeConvectBake": {
             "Required": {
               "OvenUpperCavity_CycleSetTargetTemp": {
+                "Order" : 1,
                 "TempRange": {
                   "Min": 767,
                   "Max": 2600,
@@ -2100,6 +2112,7 @@
             },
             "Optional": {
               "OvenUpperCavity_TimeSetCookTimeSet": {
+                "Order" : 2,
                 "Range": {
                   "Min": 0,
                   "Max": 43200,
@@ -2108,6 +2121,7 @@
                 }
               },
               "OvenUpperCavity_TimeSetDelayTime": {
+                "Order" : 3,
                 "Range": {
                   "Min": 0,
                   "Max": 32400,
@@ -2120,6 +2134,7 @@
           "OvenUpperCavity_CycleSetCommonModeCommonModeBroil": {
             "Required": {
               "OvenUpperCavity_CycleSetTargetTemp": {
+                "Order" : 1,
                 "TempRange": {
                   "Min": 2044,
                   "Max": 2600,
@@ -2131,6 +2146,7 @@
             },
             "Optional": {
               "OvenUpperCavity_TimeSetCookTimeSet": {
+                "Order" : 2,
                 "Range": {
                   "Min": 0,
                   "Max": 43200,
@@ -2139,6 +2155,7 @@
                 }
               },
               "OvenUpperCavity_TimeSetDelayTime": {
+                "Order" : 3,
                 "Range": {
                   "Min": 0,
                   "Max": 32400,
@@ -2151,6 +2168,7 @@
           "OvenUpperCavity_CycleSetCommonModeCommonModeConvectBroil": {
             "Required": {
               "OvenUpperCavity_CycleSetTargetTemp": {
+                "Order" : 1,
                 "TempRange": {
                   "Min": 1489,
                   "Max": 2600,
@@ -2162,6 +2180,7 @@
             },
             "Optional": {
               "OvenUpperCavity_TimeSetCookTimeSet": {
+                "Order" : 2,
                 "Range": {
                   "Min": 0,
                   "Max": 43200,
@@ -2170,6 +2189,7 @@
                 }
               },
               "OvenUpperCavity_TimeSetDelayTime": {
+                "Order" : 3,
                 "Range": {
                   "Min": 0,
                   "Max": 32400,
@@ -2182,6 +2202,7 @@
           "OvenUpperCavity_CycleSetCommonModeCommonModeConvectRoast": {
             "Required": {
               "OvenUpperCavity_CycleSetTargetTemp": {
+                "Order" : 1,
                 "TempRange": {
                   "Min": 767,
                   "Max": 2600,
@@ -2193,6 +2214,7 @@
             },
             "Optional": {
               "OvenUpperCavity_TimeSetCookTimeSet": {
+                "Order" : 2,
                 "Range": {
                   "Min": 0,
                   "Max": 43200,
@@ -2201,6 +2223,7 @@
                 }
               },
               "OvenUpperCavity_TimeSetDelayTime": {
+                "Order" : 3,
                 "Range": {
                   "Min": 0,
                   "Max": 32400,
@@ -2221,6 +2244,7 @@
           "OvenUpperCavity_CycleSetCommonModeCommonModeKeepWarm": {
             "Required": {
               "OvenUpperCavity_CycleSetTargetTemp": {
+                "Order" : 1,
                 "TempRange": {
                   "StepC": 1,
                   "StepF": 5,
@@ -2237,6 +2261,7 @@
           "OvenUpperCavity_CycleSetFrozenBakeFoodFrozenBakeFoodNuggets": {
             "Required": {
               "OvenUpperCavity_TimeSetCookTimeSet": {
+                "Order" : 2,
                 "Range": {
                   "Min": 600,
                   "Max": 3600,
@@ -2245,6 +2270,7 @@
                 }
               },
               "OvenUpperCavity_CycleSetTargetTemp": {
+                "Order" : 1,
                 "TempRange": {
                   "StepC": 1,
                   "StepF": 5,
@@ -2261,6 +2287,7 @@
           "OvenUpperCavity_CycleSetFrozenBakeFoodFrozenBakeFoodLasagna": {
             "Required": {
               "OvenUpperCavity_TimeSetCookTimeSet": {
+                "Order" : 2,
                 "Range": {
                   "Min": 1200,
                   "Max": 10800,
@@ -2269,6 +2296,7 @@
                 }
               },
               "OvenUpperCavity_CycleSetTargetTemp": {
+                "Order" : 1,
                 "TempRange": {
                   "StepC": 1,
                   "StepF": 5,
@@ -2285,6 +2313,7 @@
           "OvenUpperCavity_CycleSetFrozenBakeFoodFrozenBakeFoodPizza": {
             "Required": {
               "OvenUpperCavity_TimeSetCookTimeSet": {
+                "Order" : 2,
                 "Range": {
                   "Min": 600,
                   "Max": 7200,
@@ -2293,6 +2322,7 @@
                 }
               },
               "OvenUpperCavity_CycleSetTargetTemp": {
+                "Order" : 1,
                 "TempRange": {
                   "StepC": 1,
                   "StepF": 5,
@@ -2309,6 +2339,7 @@
           "OvenUpperCavity_CycleSetFrozenBakeFoodFrozenBakeFoodPie": {
             "Required": {
               "OvenUpperCavity_TimeSetCookTimeSet": {
+                "Order" : 2,
                 "Range": {
                   "Min": 600,
                   "Max": 10800,
@@ -2317,6 +2348,7 @@
                 }
               },
               "OvenUpperCavity_CycleSetTargetTemp": {
+                "Order" : 1,
                 "TempRange": {
                   "StepC": 1,
                   "StepF": 5,
@@ -2334,70 +2366,110 @@
         "SetOven": {
           "OvenUpperCavity_CycleSetCommonModeCommonModeBake": {
             "Name": "Bake",
-            "Attribute": "OvenUpperCavity_CycleSetCommonMode",
-            "Value": "CommonModeBake"
+            "Attributes": {
+              "OvenUpperCavity_CycleSetCommonMode": [
+                "CommonModeBake"
+              ]
+            }
           },
           "OvenUpperCavity_CycleSetCommonModeCommonModeBakeRapid": {
             "Name": "Bake Rapid",
-            "Attribute": "OvenUpperCavity_CycleSetCommonMode",
-            "Value": "CommonModeBakeRapid"
+            "Attributes": {
+              "OvenUpperCavity_CycleSetCommonMode": [
+                "CommonModeBakeRapid"
+              ]
+            }
           },
           "OvenUpperCavity_CycleSetCommonModeCommonModeSabbathBake": {
             "Name": "Sabbath Bake",
-            "Attribute": "OvenUpperCavity_CycleSetCommonMode",
-            "Value": "CommonModeSabbathBake"
+            "Attributes": {
+              "OvenUpperCavity_CycleSetCommonMode": [
+                "CommonModeSabbathBake"
+              ]
+            }
           },
           "OvenUpperCavity_CycleSetCommonModeCommonModeConvectBake": {
             "Name": "Convect Bake",
-            "Attribute": "OvenUpperCavity_CycleSetCommonMode",
-            "Value": "CommonModeConvectBake"
+            "Attributes": {
+              "OvenUpperCavity_CycleSetCommonMode": [
+                "CommonModeConvectBake"
+              ]
+            }
           },
           "OvenUpperCavity_CycleSetCommonModeCommonModeBroil": {
             "Name": "Broil",
-            "Attribute": "OvenUpperCavity_CycleSetCommonMode",
-            "Value": "CommonModeBroil"
+            "Attributes": {
+              "OvenUpperCavity_CycleSetCommonMode": [
+                "CommonModeBroil"
+              ]
+            }
           },
           "OvenUpperCavity_CycleSetCommonModeCommonModeConvectBroil": {
             "Name": "Convect Broil",
-            "Attribute": "OvenUpperCavity_CycleSetCommonMode",
-            "Value": "CommonModeConvectBroil"
+            "Attributes": {
+              "OvenUpperCavity_CycleSetCommonMode": [
+                "CommonModeConvectBroil"
+              ]
+            }
           },
           "OvenUpperCavity_CycleSetCommonModeCommonModeConvectRoast": {
             "Name": "Convect Roast",
-            "Attribute": "OvenUpperCavity_CycleSetCommonMode",
-            "Value": "CommonModeConvectRoast"
+            "Attributes": {
+              "OvenUpperCavity_CycleSetCommonMode": [
+                "CommonModeConvectRoast"
+              ]
+            }
           },
           "OvenUpperCavity_CycleSetCommonModeCommonModeBreadProof": {
             "Name": "Bread Proof",
-            "Attribute": "OvenUpperCavity_CycleSetCommonMode",
-            "Value": "CommonModeBreadProof"
+            "Attributes": {
+              "OvenUpperCavity_CycleSetCommonMode": [
+                "CommonModeBreadProof"
+              ]
+            }
           },
           "OvenUpperCavity_CycleSetCommonModeCommonModeKeepWarm": {
             "Name": "Keep Warm",
-            "Attribute": "OvenUpperCavity_CycleSetCommonMode",
-            "Value": "CommonModeKeepWarm"
+            "Attributes": {
+              "OvenUpperCavity_CycleSetCommonMode": [
+                "CommonModeKeepWarm"
+              ]
+            }
           },
           "OvenUpperCavity_CycleSetFrozenBakeFoodFrozenBakeFoodNuggets": {
             "Name": "Nuggets",
-            "Attribute": "OvenUpperCavity_CycleSetFrozenBakeFood",
-            "Value": "FrozenBakeFoodNuggets"
+            "Attributes": {
+              "OvenUpperCavity_CycleSetCommonMode": [
+                "FrozenBakeFoodNuggets"
+              ]
+            }
           },
           "OvenUpperCavity_CycleSetFrozenBakeFoodFrozenBakeFoodLasagna": {
             "Name": "Lasagna",
-            "Attribute": "OvenUpperCavity_CycleSetFrozenBakeFood",
-            "Value": "FrozenBakeFoodLasagna"
+            "Attributes": {
+              "OvenUpperCavity_CycleSetCommonMode": [
+                "FrozenBakeFoodLasagna"
+              ]
+            }
           },
           "OvenUpperCavity_CycleSetFrozenBakeFoodFrozenBakeFoodPizza": {
             "Name": "Pizza",
-            "Attribute": "OvenUpperCavity_CycleSetFrozenBakeFood",
-            "Value": "FrozenBakeFoodPizza"
+            "Attributes": {
+              "OvenUpperCavity_CycleSetCommonMode": [
+                "FrozenBakeFoodPizza"
+              ]
+            }
           },
           "OvenUpperCavity_CycleSetFrozenBakeFoodFrozenBakeFoodPie": {
             "Name": "Pie",
-            "Attribute": "OvenUpperCavity_CycleSetFrozenBakeFood",
-            "Value": "FrozenBakeFoodPie"
+            "Attributes": {
+              "OvenUpperCavity_CycleSetCommonMode": [
+                "FrozenBakeFoodPie"
+              ]
+            }
           }
-        }
+        },
+        "Default": "OvenUpperCavity_CycleSetCommonModeCommonModeBake"
       }
     },
     "Rulesets": [
@@ -2535,17 +2607,23 @@
           {
             "name": "ADRS",
             "enabled": false,
-            "config": {}
+            "config": {
+
+            }
           },
           {
             "name": "Wallmart",
             "enabled": false,
-            "config": {}
+            "config": {
+
+            }
           },
           {
             "name": "Whirlpool",
             "enabled": false,
-            "config": {}
+            "config": {
+
+            }
           }
         ]
       },
@@ -2574,12 +2652,16 @@
           {
             "name": "National Grid",
             "enabled": false,
-            "config": {}
+            "config": {
+
+            }
           },
           {
             "name": "Genability",
             "enabled": false,
-            "config": {}
+            "config": {
+
+            }
           }
         ]
       },
@@ -2590,12 +2672,16 @@
           {
             "name": "Amazon Alexa",
             "enabled": false,
-            "config": {}
+            "config": {
+
+            }
           },
           {
             "name": "Google Home",
             "enabled": false,
-            "config": {}
+            "config": {
+
+            }
           }
         ]
       },
