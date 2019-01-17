@@ -3701,6 +3701,99 @@
           },
           "Default": "OvenUpperCavity_CycleSetCommonModeCommonModeBake"
         }
+      },
+      "Features": {
+        "Common": {
+          "ControlLock": {
+            "Visible": true,
+            "AvailableIn": [
+              "US",
+              "CA"
+            ],
+            "StateAttributes": {
+              "State": "Sys_OperationSetControlLock"
+            }
+          },
+          "KitchenTimer": {
+            "Visible": true,
+            "AvailableIn": [
+              "US"
+            ],
+            "StateAttributes": {
+              "State": "KitchenTimer01_StatusState"
+            },
+            "StatusAttributes": [
+              "KitchenTimer01_StatusTimeRemaining"
+            ],
+            "SendCommandAttributes": [
+              "KitchenTimer01_SetTimeSet",
+              "KitchenTimer01_SetOperations"
+            ],
+            "SetOperationsMapping": {
+              "Operation": "KitchenTimer01_SetOperations"
+            }
+          },
+          "LightOnOff": {
+            "Visible": true,
+            "AvailableIn": [
+              "US",
+              "CA"
+            ],
+            "StateAttributes": {
+              "State": "OvenUpperCavity_DisplaySetLightOn"
+            }
+          },
+          "QuietMode": {
+            "Visible": true,
+            "AvailableIn": [
+              "US",
+              "CA"
+            ],
+            "StateAttributes": {
+              "State": "Sys_OperationSetQuietModeEnabled"
+            }
+          },
+          "RemoteStatus": {
+            "Visible": true,
+            "ReadOnly": true,
+            "AvailableIn": [
+              "US",
+              "CA"
+            ],
+            "StateAttributes": {
+              "State": "XCat_RemoteSetRemoteControlEnable"
+            }
+          }
+        },
+        "OvenUpperCavity": {
+          "SetOven": {
+            "Visible": true,
+            "AvailableIn": [
+              "US",
+              "CA"
+            ],
+            "StateAttributes": {
+              "State":"OvenUpperCavity_OpStatusState"
+            },
+            "StatusAttributes": [
+              "OvenUpperCavity_CycleSetCommonMode",
+              "OvenUpperCavity_CycleSetEasyConvectFood",
+              "OvenUpperCavity_TimeStatusDelayTimeRemaining",
+              "OvenUpperCavity_TimeSetCookTimeSet",
+              "OvenUpperCavity_TimeStatusCookTimeRemaining",
+              "OvenUpperCavity_OpStatusCookTimeState",
+              "OvenUpperCavity_TimeSetDelayTime",
+              "OvenUpperCavity_DisplStatusDisplayTemp",
+              "OvenUpperCavity_CycleSetTargetTemp"
+            ],
+            "SendCommandAttributes": [
+              "OvenUpperCavity_OpSetOperations"
+            ],
+            "SetOperationsMapping": {
+              "Operation": "OvenUpperCavity_OpSetOperations"
+            }
+          }
+        }
       }
     },
     "Rulesets": [
