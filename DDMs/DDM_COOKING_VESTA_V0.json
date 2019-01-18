@@ -2467,9 +2467,10 @@
                 "FrozenBakeFoodPie"
               ]
             }
-          }
-        },
-        "Default": "OvenUpperCavity_CycleSetCommonModeCommonModeBake"
+          },
+          "Default": "OvenUpperCavity_CycleSetCommonModeCommonModeBake"
+        }
+
       }
     },
     "Features": {
