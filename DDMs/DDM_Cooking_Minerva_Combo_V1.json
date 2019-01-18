@@ -5468,10 +5468,18 @@
           ],
           "StateAttributes": {
             "State": "SystemSettings_ControlLock"
-          },
-          "SendCommandAttributes": [
-            "SystemSettings_ControlLock"
-          ]
+          }
+        },
+        "RemoteStatus": {
+          "Visible": true,
+          "ReadOnly": true,
+          "AvailableIn": [
+            "US",
+            "CA"
+          ],
+          "StateAttributes": {
+            "State": "Appliance_RemoteEnabledStatus"
+          }
         },
         "KitchenTimer": {
           "Visible": true,
@@ -5506,7 +5514,10 @@
           "AvailableIn": [
             "US",
             "CA"
-          ]
+          ],
+          "StateAttributes": {
+            "State": "LowerCavity_CavityLight"
+          }
         },
         "MeatProbe": {
           "Visible": true,
