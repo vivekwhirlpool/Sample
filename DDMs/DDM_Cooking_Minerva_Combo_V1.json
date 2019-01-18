@@ -3169,7 +3169,7 @@
   "Personality": {
     "Key": "DDM_Cooking_Minerva_Combo_V1",
     "Capability": {
-      "OvenUpperCavity": {
+      "OvenLowerCavity": {
         "CapabilityData": {
           "LowerCavity_CavityModeOvenCvtFrznPizza": {
             "Required": {
