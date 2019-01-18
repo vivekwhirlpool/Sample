@@ -2586,6 +2586,35 @@
       }
     ]
   },
+  "ApplianceRulesets": {
+    "OvenUpperCavity": {
+      "Runtime": [
+        {
+          "ruleName": "Control Lock Disabled",
+          "description": "Disable control lock when light is on and quiet mode enabled",
+          "features": {
+            "ControlLock": false
+          },
+          "condition": {
+            "type": "operation",
+            "binaryOperator": "and",
+            "left": {
+              "type": "value",
+              "key": "OvenUpperCavity_DisplaySetLightOn",
+              "valueOperator": "=",
+              "value": 1
+            },
+            "right": {
+              "type": "value",
+              "key": "Sys_OperationSetQuietModeEnabled",
+              "valueOperator": "=",
+              "value": 1
+            }
+          }
+        }
+      ]
+    }
+  },
   "Alerts": {
     "Key": "DDM_COOKING_VESTA_V1",
     "Alerts": [
