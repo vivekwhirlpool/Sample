@@ -2628,7 +2628,7 @@
             "ruleName": "With enum value",
             "description": "Disable oven light when OpStatusState is Steady",
             "features": {
-              "OvenLight": false
+              "LightOnOff": false
             },
             "condition": {
               "type": "value",
