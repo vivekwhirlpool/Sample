@@ -3840,7 +3840,10 @@
         "OvenUpperCavity_CycleSetPreheatOn",
         "OvenUpperCavity_OpStatusDoorOpen",
         "OvenUpperCavity_OpStatusDoorLocked"
-        ]
+        ],
+      "DashboardStatus" : [
+        "OvenUpperCavity_OpStatusState"        
+      ]
     },
     "Rulesets": [
       {
