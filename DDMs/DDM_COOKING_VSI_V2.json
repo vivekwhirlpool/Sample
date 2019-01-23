@@ -3823,6 +3823,25 @@
         ]
       }
     },
+    "Models" : {
+      "UpperCavityHeader" : [
+        "OvenUpperCavity_CycleSetCommonMode",
+        "OvenUpperCavity_CycleSetEasyConvectFood",
+        "OvenUpperCavity_CycleSetFrozenBakeFood",
+        "OvenUpperCavity_DisplStatusDisplayTemp",
+        "OvenUpperCavity_CycleSetTargetTemp",
+        "OvenUpperCavity_TimeSetCookTimeSet",
+        "OvenUpperCavity_TimeStatusCookTimeRemaining",
+        "OvenUpperCavity_TimeStatusCycleTimeElapsed",
+        "OvenUpperCavity_TimeStatusDelayTimeRemaining",
+        "OvenUpperCavity_TimeStatusPreheatTimeRemaining",
+        "OvenUpperCavity_OpStatusState",
+        "OvenUpperCavity_OpStatusCookTimeState",
+        "OvenUpperCavity_CycleSetPreheatOn",
+        "OvenUpperCavity_OpStatusDoorOpen",
+        "OvenUpperCavity_OpStatusDoorLocked"
+        ]
+    },
     "Rulesets": [
       {
         "CycleHistory": {
