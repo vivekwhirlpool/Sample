@@ -87,6 +87,18 @@
         "Key": "0x01020006"
       },
       {
+        "M2MAttributeName": "online",
+        "Instance": "",
+        "AttributeName": "online",
+        "Key": "0x00000000",
+        "MappedAttributeName": "online",
+        "DataType": "Boolean",
+        "DeviceIO": "RO",
+        "IsTimeSeries": false,
+        "IsTemplate": false,
+        "Default": false
+      },
+      {
         "IsTemplate": false,
         "M2MAttributeName": "XCat_PowerStatusEnergyConsumption",
         "Instance": "XCat_PowerStatus",
