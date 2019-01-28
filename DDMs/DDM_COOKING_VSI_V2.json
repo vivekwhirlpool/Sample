@@ -3842,7 +3842,8 @@
         "OvenUpperCavity_OpStatusDoorLocked"
         ],
       "DashboardStatus" : [
-        "OvenUpperCavity_OpStatusState"        
+        "OvenUpperCavity_OpStatusState",
+        "Online"
       ]
     },
     "Rulesets": [
