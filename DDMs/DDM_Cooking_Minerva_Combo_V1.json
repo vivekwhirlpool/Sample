@@ -5503,36 +5503,11 @@
       },
       "OvenUpperCavity": {
         "SetOven": {
-          "Visible": true,
+          "Visible": false,
           "AvailableIn": [
             "US",
             "CA"
-          ],
-          "StateAttributes": {
-
-          },
-          "StatusAttributes": [
-            "LowerCavity_CavityModeOven",
-            "LowerCavity_CavityTargetTemp",
-            "LowerCavity_DelayTimeRemaining",
-            "LowerCavity_CookTimeRemaining",
-            "LowerCavity_OvenTimerState",
-            "LowerCavity_CavityHeatState",
-            "LowerCavity_MeatProbeStatus",
-            "LowerCavity_CookTimeSetTime",
-            "LowerCavity_MeatProbeTargetTemp",
-            "LowerCavity_MeatProbeTemp",
-            "LowerCavity_DelayTimeSetTime",
-            "LowerCavity_CavityActualTemp"
-          ],
-          "SendCommandAttributes": [
-            "LowerCavity_CavityOperations",
-            "LowerCavity_OvenTimerOperations"
-          ],
-          "SetOperationsMapping": {
-            "Operation": "LowerCavity_CavityOperations",
-            "CookTime": "LowerCavity_OvenTimerOperations"
-          }
+          ]
         },
         "LightOnOff": {
           "Visible": false,
