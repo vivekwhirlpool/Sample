@@ -7537,10 +7537,7 @@
           ],
           "StateAttributes": {
             "State": "SystemSettings_ControlLock"
-          },
-          "SendCommandAttributes": [
-            "SystemSettings_ControlLock"
-          ]
+          }
         },
         "KitchenTimer": {
           "Visible": true,
