@@ -4090,6 +4090,10 @@
 					},
 					"StatusAttributes": [
 						"OvenUpperCavity_CycleSetCommonMode",
+						"OvenUpperCavity_CycleSetConvectBakeFood",
+						"OvenUpperCavity_CycleSetEasySteamFood",
+						"OvenUpperCavity_CycleSetEasyConvectFood",
+						"OvenUpperCavity_CycleSetBreadProof",
 						"OvenUpperCavity_CycleSetTargetTemp",
 						"OvenUpperCavity_TimeStatusDelayTimeRemaining",
 						"OvenUpperCavity_TimeStatusCookTimeRemaining",
@@ -4134,6 +4138,9 @@
 					},
 					"StatusAttributes": [
 						"OvenLowerCavity_CycleSetCommonMode",
+						"OvenLowerCavity_CycleSetConvectBakeFood",
+						"OvenLowerCavity_CycleSetEasyConvectFood",
+						"OvenLowerCavity_CycleSetBreadProof",
 						"OvenLowerCavity_CycleSetTargetTemp",
 						"OvenLowerCavity_TimeStatusDelayTimeRemaining",
 						"OvenLowerCavity_TimeStatusCookTimeRemaining",
