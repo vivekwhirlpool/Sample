@@ -2253,7 +2253,7 @@
 								"TempRange": {
 									"Min": 794,
 									"Max": 2600,
-									"Step": 25,
+									"StepF": 25,
 									"Default": 1767
 								}
 							},
@@ -2291,7 +2291,7 @@
 								"TempRange": {
 									"Min": 794,
 									"Max": 2600,
-									"Step": 25,
+									"StepF": 25,
 									"Default": 1627
 								}
 							},
@@ -2329,7 +2329,7 @@
 								"TempRange": {
 									"Min": 794,
 									"Max": 2600,
-									"Step": 25,
+									"StepF": 25,
 									"Default": 1627
 								}
 							},
@@ -2367,7 +2367,7 @@
 								"TempRange": {
 									"Min": 794,
 									"Max": 2600,
-									"Step": 25,
+									"StepF": 25,
 									"Default": 1767
 								}
 							},
@@ -2405,7 +2405,7 @@
 								"TempRange": {
 									"Min": 794,
 									"Max": 2600,
-									"Step": 25,
+									"StepF": 25,
 									"Default": 1767
 								}
 							},
@@ -2443,7 +2443,7 @@
 								"TempRange": {
 									"Min": 1488,
 									"Max": 2600,
-									"Step": 25,
+									"StepF": 25,
 									"Default": 1905
 								}
 							},
@@ -2481,7 +2481,7 @@
 								"TempRange": {
 									"Min": 2322,
 									"Max": 2878,
-									"Step": 50,
+									"StepF": 50,
 									"Default": 2878
 								}
 							},
@@ -2519,7 +2519,7 @@
 								"TempRange": {
 									"Min": 794,
 									"Max": 2600,
-									"Step": 25,
+									"StepF": 25,
 									"Default": 1627
 								}
 							},
@@ -2557,7 +2557,7 @@
 								"TempRange": {
 									"Min": 2322,
 									"Max": 2878,
-									"Step": 50,
+									"StepF": 50,
 									"Default": 2878
 								}
 							},
@@ -2665,7 +2665,7 @@
 								"TempRange": {
 									"Min": 655,
 									"Max": 877,
-									"Step": 25,
+									"StepF": 25,
 									"Default": 766
 								}
 							},
@@ -2702,7 +2702,7 @@
 								"TempRange": {
 									"Min": 877,
 									"Max": 1072,
-									"Step": 5,
+									"StepF": 5,
 									"Default": 933
 								}
 							},
@@ -2740,7 +2740,7 @@
 								"TempRange": {
 									"Min": 933,
 									"Max": 1211,
-									"Step": 5,
+									"StepF": 5,
 									"Default": 1211
 								}
 							},
@@ -2778,7 +2778,7 @@
 								"TempRange": {
 									"Min": 1211,
 									"Max": 1489,
-									"Step": 5,
+									"StepF": 5,
 									"Default": 1350
 								}
 							},
@@ -2816,7 +2816,7 @@
 								"TempRange": {
 									"Min": 794,
 									"Max": 2600,
-									"Step": 25,
+									"StepF": 25,
 									"Default": 1767
 								}
 							},
@@ -2824,7 +2824,7 @@
 								"TempRange": {
 									"Min": 544,
 									"Max": 850,
-									"Step": 5,
+									"StepF": 5,
 									"Default": 711
 								}
 							},
@@ -2847,7 +2847,7 @@
 								"TempRange": {
 									"Min": 794,
 									"Max": 2600,
-									"Step": 25,
+									"StepF": 25,
 									"Default": 1627
 								}
 							},
@@ -2855,7 +2855,7 @@
 								"TempRange": {
 									"Min": 544,
 									"Max": 850,
-									"Step": 5,
+									"StepF": 5,
 									"Default": 711
 								}
 							},
@@ -2878,7 +2878,7 @@
 								"TempRange": {
 									"Min": 794,
 									"Max": 2600,
-									"Step": 25,
+									"StepF": 25,
 									"Default": 1766
 								}
 							},
@@ -2886,7 +2886,7 @@
 								"TempRange": {
 									"Min": 544,
 									"Max": 850,
-									"Step": 5,
+									"StepF": 5,
 									"Default": 711
 								}
 							},
@@ -2909,7 +2909,7 @@
 								"TempRange": {
 									"Min": 544,
 									"Max": 850,
-									"Step": 5,
+									"StepF": 5,
 									"Default": 711
 								}
 							},
@@ -2917,7 +2917,7 @@
 								"TempRange": {
 									"Min": 794,
 									"Max": 2600,
-									"Step": 25,
+									"StepF": 25,
 									"Default": 1627
 								}
 							},
@@ -2940,7 +2940,7 @@
 								"TempRange": {
 									"Min": 544,
 									"Max": 850,
-									"Step": 5,
+									"StepF": 5,
 									"Default": 711
 								}
 							},
@@ -2948,7 +2948,7 @@
 								"TempRange": {
 									"Min": 794,
 									"Max": 2600,
-									"Step": 25,
+									"StepF": 25,
 									"Default": 1767
 								}
 							},
@@ -3167,7 +3167,7 @@
 								"TempRange": {
 									"Min": 794,
 									"Max": 2600,
-									"Step": 25,
+									"StepF": 25,
 									"Default": 1767
 								}
 							},
@@ -3205,7 +3205,7 @@
 								"TempRange": {
 									"Min": 794,
 									"Max": 2600,
-									"Step": 25,
+									"StepF": 25,
 									"Default": 1627
 								}
 							},
@@ -3243,7 +3243,7 @@
 								"TempRange": {
 									"Min": 794,
 									"Max": 2600,
-									"Step": 25,
+									"StepF": 25,
 									"Default": 1627
 								}
 							},
@@ -3281,7 +3281,7 @@
 								"TempRange": {
 									"Min": 794,
 									"Max": 2600,
-									"Step": 25,
+									"StepF": 25,
 									"Default": 1767
 								}
 							},
@@ -3319,7 +3319,7 @@
 								"TempRange": {
 									"Min": 794,
 									"Max": 2600,
-									"Step": 25,
+									"StepF": 25,
 									"Default": 1767
 								}
 							},
@@ -3357,7 +3357,7 @@
 								"TempRange": {
 									"Min": 1488,
 									"Max": 2600,
-									"Step": 25,
+									"StepF": 25,
 									"Default": 1905
 								}
 							},
@@ -3395,7 +3395,7 @@
 								"TempRange": {
 									"Min": 2322,
 									"Max": 2878,
-									"Step": 50,
+									"StepF": 50,
 									"Default": 2878
 								}
 							},
@@ -3433,7 +3433,7 @@
 								"TempRange": {
 									"Min": 794,
 									"Max": 2600,
-									"Step": 25,
+									"StepF": 25,
 									"Default": 1627
 								}
 							},
@@ -3471,7 +3471,7 @@
 								"TempRange": {
 									"Min": 2322,
 									"Max": 2878,
-									"Step": 50,
+									"StepF": 50,
 									"Default": 2878
 								}
 							},
@@ -3579,7 +3579,7 @@
 								"TempRange": {
 									"Min": 655,
 									"Max": 877,
-									"Step": 25,
+									"StepF": 25,
 									"Default": 766
 								}
 							},
@@ -3616,7 +3616,7 @@
 								"TempRange": {
 									"Min": 877,
 									"Max": 1072,
-									"Step": 5,
+									"StepF": 5,
 									"Default": 933
 								}
 							},
@@ -3654,7 +3654,7 @@
 								"TempRange": {
 									"Min": 933,
 									"Max": 1211,
-									"Step": 5,
+									"StepF": 5,
 									"Default": 1211
 								}
 							},
@@ -3692,7 +3692,7 @@
 								"TempRange": {
 									"Min": 1211,
 									"Max": 1489,
-									"Step": 5,
+									"StepF": 5,
 									"Default": 1350
 								}
 							},
@@ -3730,7 +3730,7 @@
 								"TempRange": {
 									"Min": 794,
 									"Max": 2600,
-									"Step": 25,
+									"StepF": 25,
 									"Default": 1767
 								}
 							},
@@ -3738,7 +3738,7 @@
 								"TempRange": {
 									"Min": 544,
 									"Max": 850,
-									"Step": 5,
+									"StepF": 5,
 									"Default": 711
 								}
 							},
@@ -3761,7 +3761,7 @@
 								"TempRange": {
 									"Min": 794,
 									"Max": 2600,
-									"Step": 25,
+									"StepF": 25,
 									"Default": 1627
 								}
 							},
@@ -3769,7 +3769,7 @@
 								"TempRange": {
 									"Min": 544,
 									"Max": 850,
-									"Step": 5,
+									"StepF": 5,
 									"Default": 711
 								}
 							},
@@ -3792,7 +3792,7 @@
 								"TempRange": {
 									"Min": 794,
 									"Max": 2600,
-									"Step": 25,
+									"StepF": 25,
 									"Default": 1766
 								}
 							},
@@ -3800,7 +3800,7 @@
 								"TempRange": {
 									"Min": 544,
 									"Max": 850,
-									"Step": 5,
+									"StepF": 5,
 									"Default": 711
 								}
 							},
@@ -3823,7 +3823,7 @@
 								"TempRange": {
 									"Min": 544,
 									"Max": 850,
-									"Step": 5,
+									"StepF": 5,
 									"Default": 711
 								}
 							},
@@ -3831,7 +3831,7 @@
 								"TempRange": {
 									"Min": 794,
 									"Max": 2600,
-									"Step": 25,
+									"StepF": 25,
 									"Default": 1627
 								}
 							},
@@ -3854,7 +3854,7 @@
 								"TempRange": {
 									"Min": 544,
 									"Max": 850,
-									"Step": 5,
+									"StepF": 5,
 									"Default": 711
 								}
 							},
@@ -3862,7 +3862,7 @@
 								"TempRange": {
 									"Min": 794,
 									"Max": 2600,
-									"Step": 25,
+									"StepF": 25,
 									"Default": 1767
 								}
 							},
