@@ -4106,6 +4106,16 @@
 						"OvenUpperCavity_DisplStatusDisplayTemp"
 					],
 					"SendCommandAttributes": [
+						"OvenUpperCavity_CycleSetCommonMode",
+						"OvenUpperCavity_CycleSetConvectBakeFood",
+						"OvenUpperCavity_CycleSetEasySteamFood",
+						"OvenUpperCavity_CycleSetEasyConvectFood",
+						"OvenUpperCavity_CycleSetBreadProof",
+						"OvenUpperCavity_CycleSetTargetTemp",
+						"OvenUpperCavity_TimeSetCookTimeSet",
+						"OvenUpperCavity_CycleSetMeatProbeTargetTemp",
+						"OvenUpperCavity_TimeSetDelayTime",
+						"OvenUpperCavity_OpSetCookTimeCompleteAction"
 						"OvenUpperCavity_OpSetOperations",
 						"OvenUpperCavity_TimeSetCookTimeOperations"
 					],
@@ -4153,6 +4163,16 @@
 						"OvenLowerCavity_DisplStatusDisplayTemp"
 					],
 					"SendCommandAttributes": [
+						"OvenLowerCavity_CycleSetCommonMode",
+						"OvenLowerCavity_CycleSetConvectBakeFood",
+						"OvenLowerCavity_CycleSetEasyConvectFood",
+						"OvenLowerCavity_CycleSetBreadProof",
+						"OvenLowerCavity_CycleSetTargetTemp",
+						"OvenLowerCavity_TimeSetCookTimeSet",
+						"OvenLowerCavity_CycleSetMeatProbeTargetTemp",
+						"OvenLowerCavity_TimeSetDelayTime",
+						"OvenLowerCavity_OpSetCookTimeCompleteAction"
+						"OvenLowerCavity_TimeSetCookTimeSet",
 						"OvenLowerCavity_OpSetOperations",
 						"OvenLowerCavity_TimeSetCookTimeOperations"
 					],
