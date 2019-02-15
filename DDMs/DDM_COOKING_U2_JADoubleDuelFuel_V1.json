@@ -4184,7 +4184,7 @@
           "OvenUpperCavity_CycleSetCleanOvenMode"
         ],
         "TimeRemaining": "OvenUpperCavity_TimeStatusCookTimeRemaining",
-        "TimeElapsed": "OvenUpperCavity_TimeStatusCookTimeElapsed",
+        "TimeElapsed": "OvenUpperCavity_TimeStatusCycleTimeElapsed",
         "DoorOpen": "OvenUpperCavity_OpStatusDoorOpen",
         "Operation": "OvenUpperCavity_OpSetOperations",
         "StatusState": "OvenUpperCavity_OpStatusState",
@@ -4199,14 +4199,13 @@
           "OvenLowerCavity_CycleSetCleanOvenMode"
         ],
         "TimeRemaining": "OvenLowerCavity_TimeStatusCookTimeRemaining",
-        "TimeElapsed": "OvenLowerCavity_TimeStatusCookTimeElapsed",
+        "TimeElapsed": "OvenLowerCavity_TimeStatusCycleTimeElapsed",
         "DoorOpen": "OvenUpperCavity_OpStatusDoorOpen",
         "Operation": "OvenLowerCavity_OpSetOperations",
         "StatusState": "OvenLowerCavity_OpStatusState",
         "TimeCompleteAction": "OvenLowerCavity_OpSetCookTimeCompleteAction"
       },
       "Common": {
-        "OnlineStatus": "Online",
         "PowerEnergyConsumption": "XCat_PowerStatusEnergyConsumption",
         "TemperatureUnits": "Sys_DisplaySetTempUnits",
         "GlobalToneVolume": "Sys_OperationSetGlobalToneVolume",
