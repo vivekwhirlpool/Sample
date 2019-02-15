@@ -4064,6 +4064,33 @@
         }
       },
       "OvenUpperCavity": {
+        "AssistedCooking": {
+          "Visible": true,
+          "AvailableIn": [
+            "US"
+          ],
+          "StateAttributes": {},
+          "StatusAttributes": [
+            "UpperCavity_CavityModeOven",
+            "UpperCavity_CavityTargetTemp",
+            "UpperCavity_CookTimeRemaining",
+            "UpperCavity_OvenTimerState",
+            "UpperCavity_CookTimeSetTime",
+            "UpperCavity_CavityActualTemp"
+          ],
+          "SendCommandAttributes": [
+            "OvenUpperCavity_CulinaryCtrSetId",
+            "OvenUpperCavity_CycleSetTargetTemp",
+            "OvenUpperCavity_TimeSetCookTimeSet",
+            "OvenUpperCavity_OpSetOperations"
+          ],
+          "SetOperationsMapping": {
+            "Operation": "OvenUpperCavity_OpSetOperations",
+            "CookTime": "OvenUpperCavity_TimeSetCookTimeSet",
+            "CookTemp": "OvenUpperCavity_CycleSetTargetTemp",
+            "ProfileId": "OvenUpperCavity_CulinaryCtrSetId"
+          }
+        },
         "SetOven": {
           "Visible": true,
           "AvailableIn": [
