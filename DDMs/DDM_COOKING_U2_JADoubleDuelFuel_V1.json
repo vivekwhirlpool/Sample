@@ -4176,8 +4176,12 @@
       "OvenUpperCavity": {
         "CycleName": [
           "OvenUpperCavity_CycleSetCommonMode",
+          "OvenUpperCavity_CycleSetConvectBakeFood",
+          "OvenUpperCavity_CycleSetEasySteamFood",
           "OvenUpperCavity_CycleSetEasyConvectFood",
-          "OvenUpperCavity_CycleSetFrozenBakeFood"
+          "OvenUpperCavity_CycleSetBrowning",
+          "OvenUpperCavity_CycleSetBreadProof",
+          "OvenUpperCavity_CycleSetCleanOvenMode"
         ],
         "TimeRemaining": "OvenUpperCavity_TimeStatusCookTimeRemaining",
         "TimeElapsed": "OvenUpperCavity_TimeStatusCookTimeElapsed",
@@ -4189,8 +4193,10 @@
       "OvenLowerCavity": {
         "CycleName": [
           "OvenLowerCavity_CycleSetCommonMode",
+          "OvenLowerCavity_CycleSetConvectBakeFood",
           "OvenLowerCavity_CycleSetEasyConvectFood",
-          "OvenLowerCavity_CycleSetFrozenBakeFood"
+          "OvenLowerCavity_CycleSetBreadProof",
+          "OvenLowerCavity_CycleSetCleanOvenMode"
         ],
         "TimeRemaining": "OvenLowerCavity_TimeStatusCookTimeRemaining",
         "TimeElapsed": "OvenLowerCavity_TimeStatusCookTimeElapsed",
