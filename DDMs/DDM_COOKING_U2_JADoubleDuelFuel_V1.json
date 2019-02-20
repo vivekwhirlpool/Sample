@@ -4116,7 +4116,10 @@
             "OvenUpperCavity_CycleSetCommonMode",
             "OvenUpperCavity_CycleSetTargetTemp",
             "OvenUpperCavity_TimeSetCookTimeSet"
-          ]
+          ],
+          "StateAttributes": {
+            "State": "OvenUpperCavity_OpStatusState"
+          }
         }
       },
       "OvenLowerCavity": {
@@ -4186,7 +4189,10 @@
             "OvenLowerCavity_CycleSetCommonMode",
             "OvenLowerCavity_CycleSetTargetTemp",
             "OvenLowerCavity_TimeSetCookTimeSet"
-          ]
+          ],
+          "StateAttributes": {
+            "State": "OvenUpperCavity_OpStatusState"
+          }
         }
       }
     },
