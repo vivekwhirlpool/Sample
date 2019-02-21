@@ -4217,76 +4217,71 @@
         }
       }
     },
-    "Rulesets": [
-      {
-        "CycleHistory-UpperCavity": {
+    "Rulesets": {
+      "OvenUpperCavity": {
+        "CycleHistory": {
           "isLegacy": "false",
           "groupBy": "OvenUpperCavity_OpSetOperations",
           "attributes": "OvenUpperCavity_CycleSetCommonMode,OvenUpperCavity_CycleSetEasyConvectFood,OvenUpperCavity_CycleSetTargetTemp,OvenUpperCavity_TimeSetCookTimeSet,OvenUpperCavity_CycleSetMeatProbeTargetTemp,OvenUpperCavity_OpSetCookTimeCompleteAction,OvenUpperCavity_TimeSetDelayTime"
-        },
-        "CycleHistory-LowerCavity": {
+        }
+      },
+      "OvenLowerCavity": {
+        "CycleHistory": {
           "isLegacy": "false",
           "groupBy": "OvenLowerCavity_OpSetOperations",
           "attributes": "OvenLowerCavity_CycleSetCommonMode,OvenLowerCavity_CycleSetEasyConvectFood,OvenLowerCavity_CycleSetTargetTemp,OvenLowerCavity_TimeSetCookTimeSet,OvenLowerCavity_CycleSetMeatProbeTargetTemp,OvenLowerCavity_OpSetCookTimeCompleteAction,OvenLowerCavity_TimeSetDelayTime"
-        },
-        "EnergyHistory": {
-          "isLegacy": "false",
-          "groupBy": "XCat_PowerStatusEnergyConsumption",
-          "attributes": "XCat_PowerStatusEnergyConsumption"
-        },
-        "FaultCodeHistory": {
-          "isLegacy": "false",
-          "groupBy": "Sys_AlertStatusCustomerFaultCode",
-          "attributes": "Sys_AlertStatusCustomerFaultCode"
-        },
-        "FilterCriteria": {
-          "key": "OvenUpperCavity_OpSetOperations,OvenLowerCavity_OpSetOperations",
-          "value": "2,2"
         }
       },
-      {
-        "Scan2Cook": {
-          "ExcludedCycles": {
-            "OvenUpperCavity_CycleSetBreadProof": [
-              "BreadProofStandard",
-              "BreadProofRapid"
-            ],
-            "OvenUpperCavity_CycleSetFrozenBakeFood": [
-              "FrozenBakeFoodNuggets",
-              "FrozenBakeFoodLasagna",
-              "FrozenBakeFoodPizza",
-              "FrozenBakeFoodPie"
-            ]
+      "EnergyHistory": {
+        "isLegacy": "false",
+        "groupBy": "XCat_PowerStatusEnergyConsumption",
+        "attributes": "XCat_PowerStatusEnergyConsumption"
+      },
+      "FaultCodeHistory": {
+        "isLegacy": "false",
+        "groupBy": "Sys_AlertStatusCustomerFaultCode",
+        "attributes": "Sys_AlertStatusCustomerFaultCode"
+      },
+      "FilterCriteria": {
+        "key": "OvenUpperCavity_OpSetOperations,OvenLowerCavity_OpSetOperations",
+        "value": "2,2"
+      },
+      "Scan2Cook": {
+        "ExcludedCycles": {
+          "OvenUpperCavity_CycleSetBreadProof": [
+            "BreadProofStandard",
+            "BreadProofRapid"
+          ],
+          "OvenUpperCavity_CycleSetFrozenBakeFood": [
+            "FrozenBakeFoodNuggets",
+            "FrozenBakeFoodLasagna",
+            "FrozenBakeFoodPizza",
+            "FrozenBakeFoodPie"
+          ]
+        },
+        "attributeMapping": {
+          "OvenUpperCavity": {
+            "ConfigCavity_SetTempDefault": "OvenUpperCavity_CycleSetTargetTemp",
+            "ConfigTime_SetCookTimeMax": "OvenUpperCavity_TimeSetCookTimeSet",
+            "ConfigTime_SetCookTimeMin": "OvenUpperCavity_TimeSetCookTimeSet"
           },
-          "attributeMapping": {
-            "OvenUpperCavity": {
-              "ConfigCavity_SetTempDefault": "OvenUpperCavity_CycleSetTargetTemp",
-              "ConfigTime_SetCookTimeMax": "OvenUpperCavity_TimeSetCookTimeSet",
-              "ConfigTime_SetCookTimeMin": "OvenUpperCavity_TimeSetCookTimeSet"
-            },
-            "OvenLowerCavity": {
-              "ConfigCavity_SetTempDefault": "OvenLowerCavity_CycleSetTargetTemp",
-              "ConfigTime_SetCookTimeMax": "OvenLowerCavity_TimeSetCookTimeSet",
-              "ConfigTime_SetCookTimeMin": "OvenLowerCavity_TimeSetCookTimeSet"
-            },
-            "Mwo": {
-              "ConfigCavity_SetPowerDefault": "ConfigCavity_SetPowerDefault",
-              "ConfigCavity_SetTempDefault": "ConfigCavity_SetTempDefault",
-              "ConfigTime_SetCookTimeMax": "ConfigTime_SetCookTimeMax",
-              "ConfigTime_SetCookTimeMin": "ConfigTime_SetCookTimeMin"
-            }
+          "OvenLowerCavity": {
+            "ConfigCavity_SetTempDefault": "OvenLowerCavity_CycleSetTargetTemp",
+            "ConfigTime_SetCookTimeMax": "OvenLowerCavity_TimeSetCookTimeSet",
+            "ConfigTime_SetCookTimeMin": "OvenLowerCavity_TimeSetCookTimeSet"
+          },
+          "Mwo": {
+            "ConfigCavity_SetPowerDefault": "ConfigCavity_SetPowerDefault",
+            "ConfigCavity_SetTempDefault": "ConfigCavity_SetTempDefault",
+            "ConfigTime_SetCookTimeMax": "ConfigTime_SetCookTimeMax",
+            "ConfigTime_SetCookTimeMin": "ConfigTime_SetCookTimeMin"
           }
         }
       },
-      {
-        "MyCreationExcludedMode-UpperCavity": {
-          
-        },
-        "MyCreationExcludedMode-LowerCavity": {
-          
-        }
-      }
-    ]
+      "MyCreationExcludedMode-UpperCavity": {},
+      "MyCreationExcludedMode-LowerCavity": {}
+    }
+
   },
   "Alerts": {
     "Key": "DDM_COOKING_U2_JADoubleDuelFuel_V1",
