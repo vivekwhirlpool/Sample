@@ -90,8 +90,8 @@
         "AttributeName": "KitchenTimer4_KitchenTimerSetTime",
         "RangeValues": {
           "StepSize": "1",
-          "Min": "-2147483648",
-          "Max": "2147483647"
+          "Min": "0",
+          "Max": "86399"
         },
         "DeviceIO": "RW",
         "MappedAttributeName": "KitchenTimer4_KitchenTimerSetTime",
@@ -148,8 +148,8 @@
         "AttributeName": "KitchenTimer2_KitchenTimerSetTime",
         "RangeValues": {
           "StepSize": "1",
-          "Min": "-2147483648",
-          "Max": "2147483647"
+          "Min": "0",
+          "Max": "86399"
         },
         "DeviceIO": "RW",
         "MappedAttributeName": "KitchenTimer2_KitchenTimerSetTime",
@@ -399,8 +399,8 @@
         "AttributeName": "KitchenTimer1_KitchenTimerSetTime",
         "RangeValues": {
           "StepSize": "1",
-          "Min": "-2147483648",
-          "Max": "2147483647"
+          "Min": "0",
+          "Max": "86399"
         },
         "DeviceIO": "RW",
         "MappedAttributeName": "KitchenTimer1_KitchenTimerSetTime",
@@ -1386,8 +1386,8 @@
         "AttributeName": "KitchenTimer3_KitchenTimerSetTime",
         "RangeValues": {
           "StepSize": "1",
-          "Min": "-2147483648",
-          "Max": "2147483647"
+          "Min": "0",
+          "Max": "86399"
         },
         "DeviceIO": "RW",
         "MappedAttributeName": "KitchenTimer3_KitchenTimerSetTime",
@@ -2255,6 +2255,10 @@
   },
   "Personality": {
     "Key": "DDM_Cooking_Minerva_Single_V1",
+    "Compatibility" : {"TempExchangeUnits": "F"},
+    "CavityOrder": [
+      "OvenUpperCavity"
+    ],
     "Capability": {
       "OvenUpperCavity": {
         "CapabilityData": {
@@ -4118,7 +4122,7 @@
             }
           }
         },
-        "SetOven": {
+        "SetCycle": {
           "UpperCavity_CavityModeOvenCvtFrznPizza": {
             "Attributes": {
               "UpperCavity_CavityModeOven": [
@@ -4545,8 +4549,60 @@
         }
       }
     },
+    "AttributesMapping": {
+      "OvenUpperCavity": {
+        "CycleName": [
+          "UpperCavity_CavityModeOven"
+        ],
+        "TimeElapsed": "UpperCavity_ElapseCookTime",
+        "DoorOpen": "UpperCavity_CavityDoorStatus",
+        "DoorLockStatus": "UpperCavity_DoorLockStatus",
+        "CookTimeCompleteAction": "UpperCavity_CookTimeCompleteAction",
+        "TimerState": "UpperCavity_OvenTimerState",
+        "CavityHeatState": "UpperCavity_CavityHeatState",
+        "MeatProbeTargetTemp": "UpperCavity_MeatProbeTargetTemp",
+        "MeatProbeTemp": "UpperCavity_MeatProbeTemp",
+        "SabbathModeEnabled": "UpperCavity_SabbathModeEnabled",
+        "SabbathModeActive": "UpperCavity_SabbathModeActive",
+        "MeatProbeStatus": "UpperCavity_MeatProbeStatus",
+        "CavityTargetTemp": "UpperCavity_CavityTargetTemp",
+        "CavityActualTemp": "UpperCavity_CavityActualTemp",
+        "CavityLight": "UpperCavity_CavityLight",
+        "DelayTimeRemaining": "UpperCavity_DelayTimeRemaining",
+        "OperationsResponse": "UpperCavity_OperationsResponse",
+        "CavityEventNotification": "UpperCavity_CavityEventNotification",
+        "CookTimeSetTime": "UpperCavity_CookTimeSetTime",
+        "DelayTimeSetTime": "UpperCavity_DelayTimeSetTime",
+        "CookTimeRemaining": "UpperCavity_CookTimeRemaining"
+      },
+      "Common": {
+        "DisplayOnOff": "SystemSettings_DisplayOnOff",
+        "DisplayLanguage": "SystemSettings_DisplayLanguage",
+        "NumberEntry": "SystemSettings_NumberEntry",
+        "TimeZone": "ClockTime_TimeZone",
+        "ClockThemes": "SystemSettings_ClockThemes",
+        "ClockOnOff": "SystemSettings_ClockOnOff",
+        "RemoteEnabledStatus": "Appliance_RemoteEnabledStatus",
+        "SoundKeyAlert": "SystemSettings_SoundKeyAlert",
+        "TempDisplayUnits": "SystemSettings_TempDisplayUnits",
+        "DisplayBrightness": "SystemSettings_DisplayBrightness",
+        "ControlLock": "SystemSettings_ControlLock",
+        "SoundKeyPress": "SystemSettings_SoundKeyPress",
+        "SoundKeyPower": "SystemSettings_SoundKeyPower"
+      }
+    },
     "Features": {
       "Common": {
+        "ChangeTempUnits": {
+          "Visible": true,
+          "AvailableIn": [
+            "US",
+            "CA"
+          ],
+          "StateAttributes": {
+            "State": "SystemSettings_TempDisplayUnits"
+          }
+        },
         "ControlLock": {
           "Visible": true,
           "AvailableIn": [
@@ -4555,6 +4611,17 @@
           ],
           "StateAttributes": {
             "State": "SystemSettings_ControlLock"
+          }
+        },
+        "RemoteStatus": {
+          "Visible": true,
+          "ReadOnly": true,
+          "AvailableIn": [
+            "US",
+            "CA"
+          ],
+          "StateAttributes": {
+            "State": "Appliance_RemoteEnabledStatus"
           }
         },
         "KitchenTimer": {
@@ -4575,9 +4642,151 @@
           "SetOperationsMapping": {
             "Operation": "KitchenTimer1_KitchenTimerOperations"
           }
+        },
+        "Notifications": {
+          "Visible": true,
+          "AvailableIn": [
+            "US",
+            "CA"
+          ]
+        },
+        "FaultCodes": {
+          "Visible": true,
+          "AvailableIn": [
+            "US",
+            "CA"
+          ]
+        },
+        "ChangeSoundPowerOnOff": {
+          "Visible": true,
+          "AvailableIn": [
+            "US",
+            "CA"
+          ],
+          "StateAttributes": {
+            "State": "SystemSettings_SoundKeyPower"
+          }
+        },
+        "ChangeNumberEntry": {
+          "Visible": true,
+          "AvailableIn": [
+            "US",
+            "CA"
+          ],
+          "StateAttributes": {
+            "State": "SystemSettings_NumberEntry"
+          }
+        },
+        "ChangeClockTheme": {
+          "Visible": true,
+          "AvailableIn": [
+            "US",
+            "CA"
+          ],"StateAttributes": {
+            "State": "SystemSettings_ClockThemes"
+          }
+        },
+        "ChangeClockOnOffStatus": {
+          "Visible": true,
+          "AvailableIn": [
+            "US",
+            "CA"
+          ],
+          "StateAttributes": {
+            "State": "SystemSettings_ClockOnOff"
+          }
+
+        },
+        "ChangeApplianceLanguage": {
+          "Visible": true,
+          "AvailableIn": [
+            "US",
+            "CA"
+          ],
+          "StateAttributes": {
+            "State": "SystemSettings_DisplayLanguage"
+          }
+        },
+        "ChangeSoundKeyAlert": {
+          "Visible": true,
+          "AvailableIn": [
+            "US",
+            "CA"
+          ],
+          "StateAttributes": {
+            "State": "SystemSettings_SoundKeyAlert"
+          }
+        },
+        "ChangeSoundKeyPress": {
+          "Visible": true,
+          "AvailableIn": [
+            "US",
+            "CA"
+          ],
+          "StateAttributes": {
+            "State": "SystemSettings_SoundKeyPress"
+          }
+        },
+        "ChangeDisplayOnOffStatus": {
+          "Visible": true,
+          "AvailableIn": [
+            "US",
+            "CA"
+          ],
+          "StateAttributes": {
+            "State": "SystemSettings_DisplayOnOff"
+          }
+        },
+        "ChangeBrightness": {
+          "Visible": true,
+          "AvailableIn": [
+            "US",
+            "CA"
+          ],
+          "StateAttributes": {
+            "State": "SystemSettings_DisplayBrightness"
+          }
         }
       },
       "OvenUpperCavity": {
+        "AssistedCooking": {
+          "Visible": true,
+          "AvailableIn": [
+            "US"
+          ],
+          "StateAttributes": {
+
+          },
+          "StatusAttributes": [
+            "UpperCavity_CavityModeOven",
+            "UpperCavity_CavityTargetTemp",
+            "UpperCavity_DelayTimeRemaining",
+            "UpperCavity_CookTimeRemaining",
+            "UpperCavity_OvenTimerState",
+            "UpperCavity_CavityHeatState",
+            "UpperCavity_MeatProbeStatus",
+            "UpperCavity_CookTimeSetTime",
+            "UpperCavity_MeatProbeTargetTemp",
+            "UpperCavity_MeatProbeTemp",
+            "UpperCavity_DelayTimeSetTime",
+            "UpperCavity_CavityActualTemp"
+          ],
+          "SendCommandAttributes": [
+            "UpperCavity_CavityModeOven",
+            "UpperCavity_CulinaryCenterID",
+            "UpperCavity_CavityTargetTemp",
+            "UpperCavity_CookTimeSetTime",
+            "UpperCavity_OvenTimerOperations",
+            "UpperCavity_CavityOperations"
+          ],
+          "SetOperationsMapping": {
+            "Operation": "UpperCavity_CavityOperations",
+            "TimerOperations": "UpperCavity_OvenTimerOperations",
+            "CookTime": "UpperCavity_CookTimeSetTime",
+            "CookTemp": "UpperCavity_CavityTargetTemp",
+            "ProfileId": "UpperCavity_CulinaryCenterID"
+          }
+        },
         "SetOven": {
           "Visible": true,
           "AvailableIn": [
@@ -4602,12 +4811,17 @@
             "UpperCavity_CavityActualTemp"
           ],
           "SendCommandAttributes": [
-            "UpperCavity_CavityOperations",
-            "UpperCavity_OvenTimerOperations"
+            "UpperCavity_CavityModeOven",
+            "UpperCavity_CavityTargetTemp",
+            "UpperCavity_DelayTimeSetTime",
+            "UpperCavity_CookTimeSetTime",
+            "UpperCavity_OvenTimerOperations",
+            "UpperCavity_CookTimeCompleteAction",
+            "UpperCavity_CavityOperations"
           ],
           "SetOperationsMapping": {
             "Operation": "UpperCavity_CavityOperations",
-            "CookTime": "UpperCavity_OvenTimerOperations"
+            "TimerOperations": "UpperCavity_OvenTimerOperations"
           }
         },
         "LightOnOff": {
@@ -4630,18 +4844,35 @@
           "StateAttributes": {
             "State": "UpperCavity_MeatProbeStatus"
           }
+        },
+        "MyCreations": {
+          "Visible": true,
+          "AvailableIn": [
+            "US",
+            "CA"
+          ],
+          "SendCommandAttributes": [
+            "UpperCavity_MyCreationID",
+            "UpperCavity_CookTimeCompleteAction",
+            "UpperCavity_OvenTimerOperations",
+            "UpperCavity_CavityModeOven",
+            "UpperCavity_CavityOperations"
+          ],
+          "SetOperationsMapping": {
+            "Operation": "UpperCavity_CavityOperations",
+            "TimerOperations": "UpperCavity_OvenTimerOperations",
+            "MyCreationId": "UpperCavity_MyCreationID"
+          }
+        },
+        "CyclesHistory": {
+          "Visible": true,
+          "AvailableIn": [
+            "US",
+            "CA"
+          ]
         }
       }
-    },
-    "Rulesets": [
-      {
-        "FaultCodeHistory": {
-          "isLegacy": "false",
-          "groupBy": "Appliance_FaultCode",
-          "attributes": "Appliance_FaultCode"
-        }
-      }
-    ]
+    }
   },
   "Alerts": {
     "Key": "DDM_Cooking_Minerva_Single_V1",
