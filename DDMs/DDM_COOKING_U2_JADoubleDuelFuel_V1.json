@@ -4129,9 +4129,8 @@
           ],
           "StateAttributes": {
             "State": "OvenUpperCavity_OpStatusState"
-          }
-        },
-         "FavoriteCycles": {
+          },
+           "FavoriteCycles": {
             "Visible": true,
             "ReadOnly": false,
             "AvailableIn": [
@@ -4144,7 +4143,8 @@
             "SetOperationsMapping": {
               "Operation": "OvenUpperCavity_OpSetOperations"
             }
-        }
+          }
+        }        
       },
       "OvenLowerCavity": {
         "SetOven": {
