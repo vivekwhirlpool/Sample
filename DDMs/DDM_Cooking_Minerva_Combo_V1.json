@@ -5621,8 +5621,8 @@
             "CA"
           ],
           "StateAttributes": {
-            
-          },
+            "State": "SystemSettings_TempDisplayUnits"
+          }
           "StatusAttributes": [
             "LowerCavity_CavityModeOven",
             "LowerCavity_CavityTargetTemp",
