@@ -4243,7 +4243,7 @@
             "Operation": "OvenLowerCavity_OpSetOperations"
           }
         }        
-      },
+      }
     },
     "Rulesets": {
       "OvenUpperCavity": {
