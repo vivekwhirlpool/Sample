@@ -5691,7 +5691,7 @@
             "MyCreationId": "LowerCavity_MyCreationID"
           }
         },
-        "CyclesHistory": {
+        "CycleHistory": {
           "Visible": true,
           "AvailableIn": [
             "US",
