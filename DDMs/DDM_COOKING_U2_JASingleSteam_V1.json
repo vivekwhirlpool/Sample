@@ -1764,6 +1764,9 @@
   },
   "Personality": {
     "Key": "DDM_COOKING_U2_JASingleSteam_V1",
+    "CavityOrder": [
+      "OvenUpperCavity"
+    ],
     "Capability": {
       "OvenUpperCavity": {
         "CapabilityData": {
@@ -3163,6 +3166,45 @@
         }
       }
     },
+    "AttributesMapping": {
+      "OvenUpperCavity": {
+        "CycleName": [
+          "OvenUpperCavity_CycleSetBrowning",
+          "OvenUpperCavity_CycleSetCommonMode",
+          "OvenUpperCavity_CycleSetConvectBakeFood",
+          "OvenUpperCavity_CycleSetEasySteamFood",
+          "OvenUpperCavity_CycleSetEasyConvectFood",
+          "OvenUpperCavity_CycleSetBreadProof",
+          "OvenUpperCavity_CycleSetEasySteamFood"
+        ],
+        "TimeElapsed": "OvenUpperCavity_TimeStatusCycleTimeElapsed",
+        "DoorOpen": "OvenUpperCavity_OpStatusDoorOpen",
+        "DoorLockStatus": "OvenUpperCavity_OpStatusDoorLocked",
+        "CookTimeCompleteAction": "OvenUpperCavity_OpSetCookTimeCompleteAction",
+        "TimerState": "OvenUpperCavity_OpStatusCookTimeState",
+        "MeatProbeTargetTemp": "OvenUpperCavity_CycleSetMeatProbeTargetTemp",
+        "MeatProbeTemp": "OvenUpperCavity_DisplStatusMeatProbeDisplayTemp",
+        "SabbathModeActive": "OvenUpperCavity_OpSetSabbathModeActive",
+        "MeatProbeStatus": "OvenUpperCavity_AlertStatusMeatProbePluggedIn",
+        "CavityTargetTemp": "OvenUpperCavity_CycleSetTargetTemp",
+        "CavityActualTemp": "OvenUpperCavity_DisplStatusDisplayTemp",
+        "CavityLight": "OvenUpperCavity_DisplaySetLightOn",
+        "DelayTimeRemaining": "OvenUpperCavity_TimeStatusDelayTimeRemaining",
+        "CookTimeSetTime": "OvenUpperCavity_TimeSetCookTimeSet",
+        "DelayTimeSetTime": "OvenUpperCavity_TimeSetDelayTime",
+        "CookTimeRemaining": "OvenUpperCavity_TimeStatusCookTimeRemaining",
+        "OpStatusState": "OvenUpperCavity_OpStatusState",
+        "FillValveOnStatus": "OvenUpperCavity_OpStatusFillValveOn",
+        "OpStatusCleanOven": "OvenUpperCavity_OpStatusCleanOven",
+        "CulinaryVersion": "OvenUpperCavity_CulinaryCtrSetVersion",
+        "CulinaryCtrSetId": "OvenUpperCavity_CulinaryCtrSetId",
+        "CustomCycleSetId": "OvenUpperCavity_CustomCycleSetId"
+      },
+      "Common": {
+        "RemoteEnabledStatus": "XCat_RemoteSetRemoteControlEnable",
+        "TempDisplayUnits": "Sys_DisplaySetTempUnits"
+      }
+    },
     "Features": {
       "Common": {
         "LocalKitchenTimer": {
@@ -3179,7 +3221,7 @@
             "US"
           ],
           "StateAttributes": {
-            
+
           },
           "StatusAttributes": [
             "OvenUpperCavity_CycleSetCommonMode",
@@ -3267,7 +3309,8 @@
           "StateAttributes": {
             "State": "OvenUpperCavity_AlertStatusMeatProbePluggedIn"
           }
-        },"CycleHistory": {
+        },
+        "CycleHistory": {
           "Visible": true,
           "ReadOnly": false,
           "AvailableIn": [
@@ -3288,7 +3331,7 @@
             "OvenUpperCavity_TimeSetCookTimeSet",
             "OvenUpperCavity_CycleSetMeatProbeTargetTemp",
             "OvenUpperCavity_DisplStatusMeatProbeDisplayTemp",
-            "OvenUpperCavity_TimeSetDelayTime",
+            "OvenUpperCavity_TimeSetDelayTime"
           ],
           "StateAttributes": {
             "State": "OvenUpperCavity_OpStatusState"
@@ -3489,21 +3532,21 @@
             "name": "ADRS",
             "enabled": false,
             "config": {
-              
+
             }
           },
           {
             "name": "Wallmart",
             "enabled": false,
             "config": {
-              
+
             }
           },
           {
             "name": "Whirlpool",
             "enabled": false,
             "config": {
-              
+
             }
           }
         ]
@@ -3534,14 +3577,14 @@
             "name": "National Grid",
             "enabled": false,
             "config": {
-              
+
             }
           },
           {
             "name": "Genability",
             "enabled": false,
             "config": {
-              
+
             }
           }
         ]
@@ -3554,14 +3597,14 @@
             "name": "Amazon Alexa",
             "enabled": false,
             "config": {
-              
+
             }
           },
           {
             "name": "Google Home",
             "enabled": false,
             "config": {
-              
+
             }
           }
         ]
@@ -3579,5 +3622,4 @@
       }
     ]
   }
-}
 }

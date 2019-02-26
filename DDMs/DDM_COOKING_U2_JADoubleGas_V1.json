@@ -2040,6 +2040,10 @@
   },
   "Personality": {
     "Key": "DDM_COOKING_U2_JADoubleGas_V1",
+    "CavityOrder": [
+      "OvenUpperCavity",
+      "OvenLowerCavity"
+    ],
     "Capability": {
       "OvenUpperCavity": {
         "CapabilityData": {
@@ -3642,6 +3646,71 @@
           },
           "Default": "OvenLowerCavity_CycleSetCommonModeCommonModeBake"
         }
+      }
+    },
+    "AttributesMapping": {
+      "OvenUpperCavity": {
+        "CycleName": [
+          "OvenUpperCavity_CycleSetBrowning",
+          "OvenUpperCavity_CycleSetCommonMode",
+          "OvenUpperCavity_CycleSetConvectBakeFood",
+          "OvenUpperCavity_CycleSetEasySteamFood",
+          "OvenUpperCavity_CycleSetEasyConvectFood",
+          "OvenUpperCavity_CycleSetBreadProof"
+        ],
+        "TimeElapsed": "OvenUpperCavity_TimeStatusCycleTimeElapsed",
+        "DoorOpen": "OvenUpperCavity_OpStatusDoorOpen",
+        "DoorLockStatus": "OvenUpperCavity_OpStatusDoorLocked",
+        "CookTimeCompleteAction": "OvenUpperCavity_OpSetCookTimeCompleteAction",
+        "TimerState": "OvenUpperCavity_OpStatusCookTimeState",
+        "MeatProbeTargetTemp": "OvenUpperCavity_CycleSetMeatProbeTargetTemp",
+        "MeatProbeTemp": "OvenUpperCavity_DisplStatusMeatProbeDisplayTemp",
+        "SabbathModeActive": "OvenUpperCavity_OpSetSabbathModeActive",
+        "MeatProbeStatus": "OvenUpperCavity_AlertStatusMeatProbePluggedIn",
+        "CavityTargetTemp": "OvenUpperCavity_CycleSetTargetTemp",
+        "CavityActualTemp": "OvenUpperCavity_DisplStatusDisplayTemp",
+        "CavityLight": "OvenUpperCavity_DisplaySetLightOn",
+        "DelayTimeRemaining": "OvenUpperCavity_TimeStatusDelayTimeRemaining",
+        "CookTimeSetTime": "OvenUpperCavity_TimeSetCookTimeSet",
+        "DelayTimeSetTime": "OvenUpperCavity_TimeSetDelayTime",
+        "CookTimeRemaining": "OvenUpperCavity_TimeStatusCookTimeRemaining",
+        "OpStatusState" : "OvenUpperCavity_OpStatusState",
+        "FillValveOnStatus" : "OvenUpperCavity_OpStatusFillValveOn",
+        "OpStatusCleanOven" : "OvenUpperCavity_OpStatusCleanOven",
+        "CulinaryVersion" : "OvenUpperCavity_CulinaryCtrSetVersion",
+        "CulinaryCtrSetId" : "OvenUpperCavity_CulinaryCtrSetId",
+        "CustomCycleSetId" : "OvenUpperCavity_CustomCycleSetId"
+      },
+      "OvenLowerCavity": {
+        "CycleName": [
+          "OvenLowerCavity_CycleSetCommonMode",
+          "OvenLowerCavity_CycleSetConvectBakeFood",
+          "OvenLowerCavity_CycleSetEasyConvectFood",
+          "OvenLowerCavity_CycleSetBreadProof"
+        ],
+        "TimeElapsed": "OvenLowerCavity_TimeStatusCycleTimeElapsed",
+        "DoorOpen": "OvenLowerCavity_OpStatusDoorOpen",
+        "DoorLockStatus": "OvenLowerCavity_OpStatusDoorLocked",
+        "CookTimeCompleteAction": "OvenLowerCavity_OpSetCookTimeCompleteAction",
+        "TimerState": "OvenLowerCavity_OpStatusCookTimeState",
+        "MeatProbeTargetTemp": "OvenLowerCavity_CycleSetMeatProbeTargetTemp",
+        "MeatProbeTemp": "OvenLowerCavity_DisplStatusMeatProbeDisplayTemp",
+        "SabbathModeActive": "OvenLowerCavity_OpSetSabbathModeActive",
+        "MeatProbeStatus": "OvenLowerCavity_AlertStatusMeatProbePluggedIn",
+        "CavityTargetTemp": "OvenLowerCavity_CycleSetTargetTemp",
+        "CavityActualTemp": "OvenLowerCavity_DisplStatusDisplayTemp",
+        "CavityLight": "OvenLowerCavity_DisplaySetLightOn",
+        "DelayTimeRemaining": "OvenLowerCavity_TimeStatusDelayTimeRemaining",
+        "CookTimeSetTime": "OvenLowerCavity_TimeSetCookTimeSet",
+        "DelayTimeSetTime": "OvenLowerCavity_TimeSetDelayTime",
+        "CookTimeRemaining": "OvenLowerCavity_TimeStatusCookTimeRemaining",
+        "OpStatusState" : "OvenLowerCavity_OpStatusState",
+        "OpStatusCleanOven" : "OvenLowerCavity_OpStatusCleanOven",
+        "CustomCycleSetId" : "OvenLowerCavity_CustomCycleSetId"
+      },
+      "Common": {
+        "RemoteEnabledStatus": "XCat_RemoteSetRemoteControlEnable",
+        "TempDisplayUnits": "Sys_DisplaySetTempUnits"
       }
     },
     "Features": {

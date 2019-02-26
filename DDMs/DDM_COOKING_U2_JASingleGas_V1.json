@@ -1573,6 +1573,9 @@
   },
   "Personality": {
     "Key": "DDM_COOKING_U2_JASingleGas_V1",
+    "CavityOrder": [
+      "OvenUpperCavity"
+    ],
     "Capability": {
       "OvenUpperCavity": {
         "CapabilityData": {
@@ -2397,6 +2400,44 @@
           },
           "Default": "OvenUpperCavity_CycleSetCommonModeCommonModeBake"
         }
+      }
+    },
+    "AttributesMapping": {
+      "OvenUpperCavity": {
+        "CycleName": [
+          "OvenUpperCavity_CycleSetBrowning",
+          "OvenUpperCavity_CycleSetCommonMode",
+          "OvenUpperCavity_CycleSetConvectBakeFood",
+          "OvenUpperCavity_CycleSetEasySteamFood",
+          "OvenUpperCavity_CycleSetEasyConvectFood",
+          "OvenUpperCavity_CycleSetBreadProof"
+        ],
+        "TimeElapsed": "OvenUpperCavity_TimeStatusCycleTimeElapsed",
+        "DoorOpen": "OvenUpperCavity_OpStatusDoorOpen",
+        "DoorLockStatus": "OvenUpperCavity_OpStatusDoorLocked",
+        "CookTimeCompleteAction": "OvenUpperCavity_OpSetCookTimeCompleteAction",
+        "TimerState": "OvenUpperCavity_OpStatusCookTimeState",
+        "MeatProbeTargetTemp": "OvenUpperCavity_CycleSetMeatProbeTargetTemp",
+        "MeatProbeTemp": "OvenUpperCavity_DisplStatusMeatProbeDisplayTemp",
+        "SabbathModeActive": "OvenUpperCavity_OpSetSabbathModeActive",
+        "MeatProbeStatus": "OvenUpperCavity_AlertStatusMeatProbePluggedIn",
+        "CavityTargetTemp": "OvenUpperCavity_CycleSetTargetTemp",
+        "CavityActualTemp": "OvenUpperCavity_DisplStatusDisplayTemp",
+        "CavityLight": "OvenUpperCavity_DisplaySetLightOn",
+        "DelayTimeRemaining": "OvenUpperCavity_TimeStatusDelayTimeRemaining",
+        "CookTimeSetTime": "OvenUpperCavity_TimeSetCookTimeSet",
+        "DelayTimeSetTime": "OvenUpperCavity_TimeSetDelayTime",
+        "CookTimeRemaining": "OvenUpperCavity_TimeStatusCookTimeRemaining",
+        "OpStatusState" : "OvenUpperCavity_OpStatusState",
+        "FillValveOnStatus" : "OvenUpperCavity_OpStatusFillValveOn",
+        "OpStatusCleanOven" : "OvenUpperCavity_OpStatusCleanOven",
+        "CulinaryVersion" : "OvenUpperCavity_CulinaryCtrSetVersion",
+        "CulinaryCtrSetId" : "OvenUpperCavity_CulinaryCtrSetId",
+        "CustomCycleSetId" : "OvenUpperCavity_CustomCycleSetId"
+      },
+      "Common": {
+        "RemoteEnabledStatus": "XCat_RemoteSetRemoteControlEnable",
+        "TempDisplayUnits": "Sys_DisplaySetTempUnits"
       }
     },
     "Features": {
