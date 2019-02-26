@@ -4129,22 +4129,22 @@
           ],
           "StateAttributes": {
             "State": "OvenUpperCavity_OpStatusState"
-          },
-           "FavoritesCycles": {
-            "Visible": true,
-            "ReadOnly": false,
-            "AvailableIn": [
-              "US",
-              "CA"
-            ],
-            "StatusAttributes": [],
-            "StateAttributes": {},
-            "SendCommandAttributes": [],
-            "SetOperationsMapping": {
-              "Operation": "OvenUpperCavity_OpSetOperations"
-            }
           }
-        }        
+        },
+        "FavoritesCycles": {
+          "Visible": true,
+          "ReadOnly": false,
+          "AvailableIn": [
+            "US",
+            "CA"
+          ],
+          "StatusAttributes": [],
+          "StateAttributes": {},
+          "SendCommandAttributes": [],
+          "SetOperationsMapping": {
+            "Operation": "OvenUpperCavity_OpSetOperations"
+          }
+        }
       },
       "OvenLowerCavity": {
         "SetOven": {
