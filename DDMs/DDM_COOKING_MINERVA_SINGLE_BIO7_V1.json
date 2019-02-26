@@ -2253,6 +2253,9 @@
   },
   "Personality": {
     "Key": "DDM_COOKING_VSI_V2",
+    "CavityOrder": [
+      "OvenUpperCavity"
+    ],
     "Capability": {
       "OvenUpperCavity": {
         "CapabilityData": {
