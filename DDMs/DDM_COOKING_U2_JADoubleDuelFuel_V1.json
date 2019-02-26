@@ -4004,7 +4004,7 @@
     },
     "Features": {
       "Common": {
-        "KitchenTimerLocal": {
+        "LocalKitchenTimer": {
           "Visible": true,
           "AvailableIn": [
             "US"
@@ -4130,7 +4130,7 @@
           "StateAttributes": {
             "State": "OvenUpperCavity_OpStatusState"
           },
-           "FavoriteCycles": {
+           "FavoritesCycles": {
             "Visible": true,
             "ReadOnly": false,
             "AvailableIn": [
@@ -4229,7 +4229,7 @@
             "State": "OvenLowerCavity_OpStatusState"
           }
         },
-        "FavoriteCycles": {
+        "FavoritesCycles": {
           "Visible": true,
           "ReadOnly": false,
           "AvailableIn": [
