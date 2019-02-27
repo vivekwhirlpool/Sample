@@ -2887,11 +2887,11 @@
                 "OvenUpperCavity_CycleSetEasyConvectFood": [
                   "EasyConvectFoodMeat"
                 ]
-              }
-            },
-            "NotAllowed": [
-              "OvenUpperCavity_CycleSetMeatProbeTargetTemp"
-            ]
+              },
+              "NotAllowed": [
+                "OvenUpperCavity_CycleSetMeatProbeTargetTemp"
+              ]
+            }
           },
           "OvenUpperCavity_CycleSetConvectBakeFoodConvectBakeFoodFrozenPizza": {
             "Name": "ConvectFrozenPizza",
@@ -3164,7 +3164,9 @@
           ],
           "SetOperationsMapping": {
             "Operation": "OvenUpperCavity_OpSetOperations",
-            "TimerOperations": "OvenUpperCavity_TimeSetCookTimeOperations"
+            "TimerOperations": "OvenUpperCavity_TimeSetCookTimeOperations",
+            "CookTime": "OvenUpperCavity_TimeSetCookTimeSet",
+            "CookTemp": "OvenUpperCavity_CycleSetTargetTemp"
           }
         },
         "MeatProbe": {
