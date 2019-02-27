@@ -3808,6 +3808,7 @@
             "OvenUpperCavity_OpSetOperations",
             "OvenUpperCavity_CycleSetCommonMode",
             "OvenUpperCavity_CycleSetEasyConvectFood",
+            "OvenUpperCavity_CycleSetFrozenBakeFood",
             "OvenUpperCavity_CycleSetTargetTemp",
             "OvenUpperCavity_TimeSetCookTimeSet",
             "OvenUpperCavity_TimeSetDelayTime"
