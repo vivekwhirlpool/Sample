@@ -3855,11 +3855,11 @@
                 "OvenLowerCavity_CycleSetEasyConvectFood": [
                   "EasyConvectFoodMeat"
                 ]
-              }
-            },
-            "NotAllowed": [
-              "OvenLowerCavity_CycleSetMeatProbeTargetTemp"
-            ]
+              },
+              "NotAllowed": [
+                "OvenLowerCavity_CycleSetMeatProbeTargetTemp"
+              ]
+            }
           },
           "OvenLowerCavity_CycleSetConvectBakeFoodConvectBakeFoodFrozenPizza": {
             "Name": "ConvectFrozenPizza",
