@@ -1226,401 +1226,48 @@
   },
   "Personality": {
     "Key": "DDM_REFRIGERATOR_OBERON_FREEZER_V1",
-    "Capability": [
-      {
-        "GlobalGoverningStates": [
-          {
-            "ResetCommands": [],
-            "GlobalGoverningState": "Control",
-            "SetCommands": [],
-            "Enabled": false,
-            "Compatibility": [
-              {
-                "Vacation": "false",
-                "Party": "false",
-                "Quite": "false"
+    "Capability": {
+      "SystemCavity": {
+        "CapabilityData": {
+          "UpperZone_OpSetTempPreset": {
+            "Refrigerator_OpSetTargetTemp": {
+              "TempRange": {
+                "Min": -222,
+                "Max": -150,
+                "StepF": 1,
+                "Default": -189
               }
-            ]
+            }
           },
-          {
-            "ResetCommands": [],
-            "GlobalGoverningState": "Quite",
-            "SetCommands": [],
-            "Enabled": false,
-            "Compatibility": [
-              {
-                "Control": "false",
-                "Vacation": "false",
-                "Party": "false"
-              }
-            ]
-          },
-          {
-            "ResetCommands": [],
-            "GlobalGoverningState": "Vacation",
-            "SetCommands": [],
-            "Enabled": false,
-            "Compatibility": [
-              {
-                "Control": "false",
-                "Party": "false",
-                "Quite": "false"
-              }
-            ]
-          },
-          {
-            "ResetCommands": [],
-            "GlobalGoverningState": "Party",
-            "SetCommands": [],
-            "Enabled": false,
-            "Compatibility": [
-              {
-                "Control": "false",
-                "Vacation": "false",
-                "Quite": "false"
-              }
-            ]
-          }
-        ],
-        "TemperatureLabels": {
-          "Freezer": {
-            "C": [
-              {
-                "displayValue": "-18",
-                "label": "Recommended",
-                "internalValue": "-180"
-              },
-              {
-                "displayValue": "-22",
-                "label": "Pure Freeze",
-                "internalValue": "-220"
-              }
-            ],
-            "F": [
-              {
-                "displayValue": "0",
-                "label": "Recommended",
-                "internalValue": "-178"
-              },
-              {
-                "displayValue": "-8",
-                "label": "Pure Freeze",
-                "internalValue": "-222"
-              }
-            ]
-          },
-          "Refrigerator": {
-            "C": [
-              {
-                "displayValue": "-19",
-                "label": "Recommended",
-                "internalValue": "-190"
-              },
-              {
-                "displayValue": "-22",
-                "label": "Pure Freeze",
-                "internalValue": "-220"
-              }
-            ],
-            "F": [
-              {
-                "displayValue": "-2",
-                "label": "Recommended",
-                "internalValue": "-189"
-              },
-              {
-                "displayValue": "-8",
-                "label": "Pure Freeze",
-                "internalValue": "-222"
-              }
-            ]
+          "LowerZone_OpSetTempPreset": {
+            "Freezer_OpSetTempPreset": {
+              "Map": [
+                {
+                  "Value": 1,
+                  "Display": "Assorted"
+                },
+                {
+                  "Value": 6,
+                  "Display": "Spirit"
+                },
+                {
+                  "Value": 7,
+                  "Display": "Deep Freeze"
+                }
+              ]
+            }
           }
         },
-        "Temperatures": {
-          "Pantry": {
-            "C": [
-              {
-                "displayValue": "",
-                "internalValue": "0"
-              },
-              {
-                "displayValue": "",
-                "internalValue": "10"
-              },
-              {
-                "displayValue": "",
-                "internalValue": "20"
-              },
-              {
-                "displayValue": "",
-                "internalValue": "30"
-              }
-            ],
-            "F": [
-              {
-                "displayValue": "",
-                "internalValue": "0"
-              },
-              {
-                "displayValue": "",
-                "internalValue": "6"
-              },
-              {
-                "displayValue": "",
-                "internalValue": "17"
-              },
-              {
-                "displayValue": "",
-                "internalValue": "33"
-              }
-            ]
+        "SetCycle": {
+          "UpperZone_OpSetTempPreset": {
+
           },
-          "Freezer": {
-            "C": [
-              {
-                "displayValue": "-22",
-                "internalValue": "-220"
-              },
-              {
-                "displayValue": "-21",
-                "internalValue": "-210"
-              },
-              {
-                "displayValue": "-20",
-                "internalValue": "-200"
-              },
-              {
-                "displayValue": "-19",
-                "internalValue": "-190"
-              },
-              {
-                "displayValue": "-18",
-                "internalValue": "-180"
-              },
-              {
-                "displayValue": "-17",
-                "internalValue": "-170"
-              },
-              {
-                "displayValue": "-16",
-                "internalValue": "-160"
-              },
-              {
-                "displayValue": "-15",
-                "internalValue": "-150"
-              }
-            ],
-            "F": [
-              {
-                "displayValue": "-8",
-                "internalValue": "-222"
-              },
-              {
-                "displayValue": "-7",
-                "internalValue": "-217"
-              },
-              {
-                "displayValue": "-6",
-                "internalValue": "-211"
-              },
-              {
-                "displayValue": "-5",
-                "internalValue": "-206"
-              },
-              {
-                "displayValue": "-4",
-                "internalValue": "-200"
-              },
-              {
-                "displayValue": "-3",
-                "internalValue": "-194"
-              },
-              {
-                "displayValue": "-2",
-                "internalValue": "-189"
-              },
-              {
-                "displayValue": "-1",
-                "internalValue": "-183"
-              },
-              {
-                "displayValue": "0",
-                "internalValue": "-178"
-              },
-              {
-                "displayValue": "1",
-                "internalValue": "-172"
-              },
-              {
-                "displayValue": "2",
-                "internalValue": "-167"
-              },
-              {
-                "displayValue": "3",
-                "internalValue": "-161"
-              },
-              {
-                "displayValue": "4",
-                "internalValue": "-156"
-              },
-              {
-                "displayValue": "5",
-                "internalValue": "-150"
-              }
-            ]
-          },
-          "Refrigerator": {
-            "C": [
-              {
-                "displayValue": "-22",
-                "internalValue": "-220"
-              },
-              {
-                "displayValue": "-21",
-                "internalValue": "-210"
-              },
-              {
-                "displayValue": "-20",
-                "internalValue": "-200"
-              },
-              {
-                "displayValue": "-19",
-                "internalValue": "-190"
-              },
-              {
-                "displayValue": "-18",
-                "internalValue": "-180"
-              },
-              {
-                "displayValue": "-17",
-                "internalValue": "-170"
-              },
-              {
-                "displayValue": "-16",
-                "internalValue": "-160"
-              },
-              {
-                "displayValue": "-15",
-                "internalValue": "-150"
-              }
-            ],
-            "F": [
-              {
-                "displayValue": "-8",
-                "internalValue": "-222"
-              },
-              {
-                "displayValue": "-7",
-                "internalValue": "-217"
-              },
-              {
-                "displayValue": "-6",
-                "internalValue": "-211"
-              },
-              {
-                "displayValue": "-5",
-                "internalValue": "-206"
-              },
-              {
-                "displayValue": "-4",
-                "internalValue": "-200"
-              },
-              {
-                "displayValue": "-3",
-                "internalValue": "-194"
-              },
-              {
-                "displayValue": "-2",
-                "internalValue": "-189"
-              },
-              {
-                "displayValue": "-1",
-                "internalValue": "-183"
-              },
-              {
-                "displayValue": "0",
-                "internalValue": "-178"
-              },
-              {
-                "displayValue": "1",
-                "internalValue": "-172"
-              },
-              {
-                "displayValue": "2",
-                "internalValue": "-167"
-              },
-              {
-                "displayValue": "3",
-                "internalValue": "-161"
-              },
-              {
-                "displayValue": "4",
-                "internalValue": "-156"
-              },
-              {
-                "displayValue": "5",
-                "internalValue": "-150"
-              }
-            ]
-          }
-        },
-        "ModeTemperatureCapabilityData": {
-          "Action": 4,
-          "EntityCapability": {
-            "Id": 1,
-            "Name": "CavityTemperatures",
-            "CavityTemperatures": [
-              {
-                "Sys_DisplaySetTempUnits": 0,
-                "CapabilityCavity_SetCavitySelect": 0,
-                "CapabilityCavity_SetTempMin": -22,
-                "CapabilityCavity_SetTempMax": -15,
-                "CapabilityCavity_SetTempDefault": -19
-              },
-              {
-                "Sys_DisplaySetTempUnits": 1,
-                "CapabilityCavity_SetCavitySelect": 0,
-                "CapabilityCavity_SetTempMin": -22.2,
-                "CapabilityCavity_SetTempMax": -15,
-                "CapabilityCavity_SetTempDefault": -19.4
-              },
-              {
-                "CapabilityCavity_SetCavitySelect": 1,
-                "CapabilityCavity_SetTempPresetDefault": 1
-              }
-            ]
-          }
-        },
-        "SettingsCapabilityData": {
-          "Action": 4,
-          "EntityCapability": {
-            "Id": 1,
-            "FrigSettings": [
-              {
-                "DefaultSettings": [
-                  {
-                    "Sys_OpSetVacationMode": 0,
-                    "Sys_DisplaySetTempUnits": 1,
-                    "Sys_OpSetMaxIce": 0,
-                    "Sys_OpSetSabbathModeEnabled": 0
-                  }
-                ],
-                "Name": "DefaultSettings"
-              },
-              {
-                "Enumerations": [
-                  {
-                    "XCat_ConfigSetApplianceCapability": "0x02020001:0,1,2;0x02030005:2,3,5;0x02040001:0,1,2,3;0x03020002:0,1,6,7;<NUL>"
-                  }
-                ],
-                "Name": "Enumerations"
-              }
-            ],
-            "Name": "FrigSettings"
+          "LowerZone_OpSetTempPreset": {
+
           }
         }
       }
-    ]
+    }
   },
   "Alerts": {
     "Key": "DDM_REFRIGERATOR_OBERON_FREEZER_V1",

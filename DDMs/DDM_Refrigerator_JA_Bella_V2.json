@@ -1260,334 +1260,151 @@
   },
   "Personality": {
     "Key": "DDM_Refrigerator_JA_Bella_V2",
-    "Capability": [
-      {
-        "FavoriteFill1": {
-          "Units": {
-            "Milliliters": {
-              "Min": 0,
-              "Max": 4000
-            },
-            "Cups": {
-              "Min": 0,
-              "Max": 16
-            },
-            "Ounces": {
-              "Min": 0,
-              "Max": 135
+    "Capability": {
+      "SystemCavity": {
+        "CapabilityData": {
+          "Freezer_OpSetTempPreset": {
+            "Freezer_OpSetTargetTemp": {
+              "TempRange": {
+                "Min": -211,
+                "Max": -150,
+                "StepF": 1,
+                "Default": 0
+              }
+            }
+          },
+          "Refrigerator_OpSetTempPreset": {
+            "Refrigerator_OpSetTargetTemp": {
+              "TempRange": {
+                "Min": 6,
+                "Max": 72,
+                "StepF": 1,
+                "Default": 28
+              }
+            }
+          },
+          "Pantry_OpSetTempPreset": {
+            "Pantry_OpSetTargetTemp": {
+              "Map": [
+                {
+                  "Value": 0,
+                  "Display": "Meat"
+                },
+                {
+                  "Value": 6,
+                  "Display": "Baverage"
+                },
+                {
+                  "Value": 17,
+                  "Display": "Assorted"
+                },
+                {
+                  "Value": 33,
+                  "Display": "Deli"
+                }
+              ]
+            }
+          },
+          "Sys_OpSetFavoriteFillUnitsFavoriteFillUnitsMilliLiters": {
+            "Required": {
+              "Sys_OpSetFavoriteFillAmount1": {
+                "Min": 0,
+                "Max": 4000,
+                "Step": 1,
+                "Default": 0
+              },
+              "Sys_OpSetFavoriteFillAmount2": {
+                "Min": 0,
+                "Max": 4000,
+                "Step": 1,
+                "Default": 0
+              }
+            }
+          },
+          "Sys_OpSetFavoriteFillUnitsFavoriteFillUnitsCups": {
+            "Required": {
+              "Sys_OpSetFavoriteFillAmount1": {
+                "Min": 0,
+                "Max": 16,
+                "StepCup": 0.125,
+                "Default": 0,
+                "Step": 30
+              },
+              "Sys_OpSetFavoriteFillAmount2": {
+                "Min": 0,
+                "Max": 16,
+                "StepCup": 0.125,
+                "Default": 0,
+                "Step": 30
+              }
+            }
+          },
+          "Sys_OpSetFavoriteFillUnitsFavoriteFillUnitsOunces": {
+            "Required": {
+              "Sys_OpSetFavoriteFillAmount1": {
+                "Min": 0,
+                "Max": 135,
+                "StepOunce": 30,
+                "Default": 0,
+                "Step": 1
+              },
+              "Sys_OpSetFavoriteFillAmount2": {
+                "Min": 0,
+                "Max": 135,
+                "StepOunce": 30,
+                "Default": 0,
+                "Step": 1
+              }
             }
           }
         },
-        "FavoriteFill2": {
-          "Units": {
-            "Milliliters": {
-              "Min": 0,
-              "Max": 4000
+        "SetCycle": {
+          "FavoriteFill1": {
+            "Sys_OpSetFavoriteFillUnitsFavoriteFillUnitsMilliLiters": {
+              "NotAllowed": [
+                "Sys_OpSetFavoriteFillAmount2"
+              ]
             },
-            "Cups": {
-              "Min": 0,
-              "Max": 16
+            "Sys_OpSetFavoriteFillUnitsFavoriteFillUnitsCups": {
+              "NotAllowed": [
+                "Sys_OpSetFavoriteFillAmount2"
+              ]
             },
-            "Ounces": {
-              "Min": 0,
-              "Max": 135
+            "Sys_OpSetFavoriteFillUnitsFavoriteFillUnitsOunces": {
+              "NotAllowed": [
+                "Sys_OpSetFavoriteFillAmount2"
+              ]
             }
-          }
-        },
-        "TemperatureLabels": {
-          "PantryCompartment": {
-            "C": [
-              {
-                "displayValue": "",
-                "label": "Meat",
-                "internalValue": "0"
-              },
-              {
-                "displayValue": "",
-                "label": "Beverage",
-                "internalValue": "10"
-              },
-              {
-                "displayValue": "",
-                "label": "Assorted",
-                "internalValue": "20"
-              },
-              {
-                "displayValue": "",
-                "label": "Deli",
-                "internalValue": "30"
-              }
-            ],
-            "F": [
-              {
-                "displayValue": "",
-                "label": "Meat",
-                "internalValue": "0"
-              },
-              {
-                "displayValue": "",
-                "label": "Beverage",
-                "internalValue": "6"
-              },
-              {
-                "displayValue": "",
-                "label": "Assorted",
-                "internalValue": "17"
-              },
-              {
-                "displayValue": "",
-                "label": "Deli",
-                "internalValue": "33"
-              }
-            ]
           },
-          "RefrigeratorCompartment": {
-            "C": [
-              {
-                "displayValue": "1",
-                "label": "Recommended",
-                "internalValue": "10"
-              }
-            ],
-            "F": [
-              {
-                "displayValue": "37",
-                "label": "Recommended",
-                "internalValue": "28"
-              }
-            ]
+          "FavoriteFill2": {
+            "Sys_OpSetFavoriteFillUnitsFavoriteFillUnitsMilliLiters": {
+              "NotAllowed": [
+                "Sys_OpSetFavoriteFillAmount1"
+              ]
+            },
+            "Sys_OpSetFavoriteFillUnitsFavoriteFillUnitsCups": {
+              "NotAllowed": [
+                "Sys_OpSetFavoriteFillAmount1"
+              ]
+            },
+            "Sys_OpSetFavoriteFillUnitsFavoriteFillUnitsOunces": {
+              "NotAllowed": [
+                "Sys_OpSetFavoriteFillAmount1"
+              ]
+            }
           },
-          "FreezerCompartment": {
-            "C": [
-              {
-                "displayValue": "-16",
-                "label": "Recommended",
-                "internalValue": "-160"
-              }
-            ],
-            "F": [
-              {
-                "displayValue": "0",
-                "label": "Recommended",
-                "internalValue": "-178"
-              }
-            ]
-          }
-        },
-        "Temperatures": {
-          "PantryCompartment": {
-            "C": [
-              {
-                "displayValue": "",
-                "internalValue": "0"
-              },
-              {
-                "displayValue": "",
-                "internalValue": "10"
-              },
-              {
-                "displayValue": "",
-                "internalValue": "20"
-              },
-              {
-                "displayValue": "",
-                "internalValue": "30"
-              }
-            ],
-            "F": [
-              {
-                "displayValue": "",
-                "internalValue": "0"
-              },
-              {
-                "displayValue": "",
-                "internalValue": "6"
-              },
-              {
-                "displayValue": "",
-                "internalValue": "17"
-              },
-              {
-                "displayValue": "",
-                "internalValue": "33"
-              }
-            ]
+          "Freezer_OpSetTempPreset": {
+
           },
-          "RefrigeratorCompartment": {
-            "C": [
-              {
-                "displayValue": "1",
-                "internalValue": "10"
-              },
-              {
-                "displayValue": "2",
-                "internalValue": "20"
-              },
-              {
-                "displayValue": "3",
-                "internalValue": "30"
-              },
-              {
-                "displayValue": "4",
-                "internalValue": "40"
-              },
-              {
-                "displayValue": "5",
-                "internalValue": "50"
-              },
-              {
-                "displayValue": "6",
-                "internalValue": "60"
-              },
-              {
-                "displayValue": "7",
-                "internalValue": "70"
-              }
-            ],
-            "F": [
-              {
-                "displayValue": "33",
-                "internalValue": "6"
-              },
-              {
-                "displayValue": "34",
-                "internalValue": "11"
-              },
-              {
-                "displayValue": "35",
-                "internalValue": "17"
-              },
-              {
-                "displayValue": "36",
-                "internalValue": "22"
-              },
-              {
-                "displayValue": "37",
-                "internalValue": "28"
-              },
-              {
-                "displayValue": "38",
-                "internalValue": "33"
-              },
-              {
-                "displayValue": "39",
-                "internalValue": "39"
-              },
-              {
-                "displayValue": "40",
-                "internalValue": "44"
-              },
-              {
-                "displayValue": "41",
-                "internalValue": "50"
-              },
-              {
-                "displayValue": "42",
-                "internalValue": "56"
-              },
-              {
-                "displayValue": "43",
-                "internalValue": "61"
-              },
-              {
-                "displayValue": "44",
-                "internalValue": "67"
-              },
-              {
-                "displayValue": "45",
-                "internalValue": "72"
-              }
-            ]
+          "Refrigerator_OpSetTempPreset": {
+
           },
-          "FreezerCompartment": {
-            "C": [
-              {
-                "displayValue": "-22",
-                "internalValue": "-220"
-              },
-              {
-                "displayValue": "-21",
-                "internalValue": "-210"
-              },
-              {
-                "displayValue": "-20",
-                "internalValue": "-200"
-              },
-              {
-                "displayValue": "-19",
-                "internalValue": "-190"
-              },
-              {
-                "displayValue": "-18",
-                "internalValue": "-180"
-              },
-              {
-                "displayValue": "-17",
-                "internalValue": "-170"
-              },
-              {
-                "displayValue": "-16",
-                "internalValue": "-160"
-              },
-              {
-                "displayValue": "-15",
-                "internalValue": "-150"
-              }
-            ],
-            "F": [
-              {
-                "displayValue": "-6",
-                "internalValue": "-211"
-              },
-              {
-                "displayValue": "-5",
-                "internalValue": "-206"
-              },
-              {
-                "displayValue": "-4",
-                "internalValue": "-200"
-              },
-              {
-                "displayValue": "-3",
-                "internalValue": "-194"
-              },
-              {
-                "displayValue": "-2",
-                "internalValue": "-189"
-              },
-              {
-                "displayValue": "-1",
-                "internalValue": "-183"
-              },
-              {
-                "displayValue": "0",
-                "internalValue": "-178"
-              },
-              {
-                "displayValue": "1",
-                "internalValue": "-172"
-              },
-              {
-                "displayValue": "2",
-                "internalValue": "-167"
-              },
-              {
-                "displayValue": "3",
-                "internalValue": "-161"
-              },
-              {
-                "displayValue": "4",
-                "internalValue": "-156"
-              },
-              {
-                "displayValue": "5",
-                "internalValue": "-150"
-              }
-            ]
+          "Pantry_OpSetTempPreset": {
+
           }
         }
       }
-    ]
+    }
   },
   "Alerts": {
     "Key": "DDM_Refrigerator_JA_Bella_V2",
