@@ -1316,6 +1316,9 @@
   },
   "Personality": {
     "Key": "DDM_DISHWASHER_JA_DISH17_244_V1",
+    "CavityOrder": [
+      "DishCavity"
+    ],
     "Capability": {
       "DishCavity": {
         "CapabilityData": {
@@ -1720,6 +1723,36 @@
             }
           }
         }
+      }
+    },
+    "AttributesMapping": {
+      "DishCavity": {
+        "CycleName": [
+          "Cavity_CycleSetCycleId",
+          "Cavity_CycleSetDownloadAndGo"
+        ],
+
+        "TimeRemaining": "Cavity_TimeStatusEstTimeRemaining",
+        "MachineState" : "Cavity_OperationStatusMachineState",
+        "DoorOpenStatus" : "Cavity_OperationStatusDoorOpen",
+        "FilterStatus" : "Cavity_OperationStatusCleanFilter",
+        "CycleState" : "Cavity_CycleStatusCycleState",
+        "OdometerStatus" : "Cavity_CycleStatusOdometer",
+        "HeavyDutyCycleOdometerStatus" : "Cavity_CycleStatusHeavyDutyCycleOdometer",
+        "CycleCleanStatus" : "Cavity_CycleStatusCycleClean",
+        "CycleSanitizedStatus" : "Cavity_CycleStatusCycleSanitized",
+        "DelayTimeSetTime" : "Cavity_TimeSetDelayTime",
+        "UpperRackOnly" : "Cavity_CycleSetOptionUpperRackOnly",
+        "LowerRackOnly" : "Cavity_CycleSetOptionLowerRackOnly",
+        "SmartHeatedDry" : "Cavity_CycleSetOptionSmartHeatedDry",
+        "SaniRinse" : "Cavity_CycleSetOptionSaniRinse",
+        "SteamEnabled" : "Cavity_CycleSetOptionSteam",
+        "HighTemp" : "Cavity_CycleSetOptionHighTemp"
+      },
+      "Common": {
+        "RemoteEnabledStatus": "XCat_RemoteSetRemoteControlEnable",
+        "QuietModeEnabled" : "Sys_OperationSetQuietModeEnabled",
+        "SabbathModeEnabled" : "Sys_OperationSetSabbathModeEnabled"
       }
     },
     "Rulesets": [
