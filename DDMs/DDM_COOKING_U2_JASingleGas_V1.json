@@ -2205,7 +2205,7 @@
             }
           }
         },
-        "SetOven": {
+        "SetCycle": {
           "OvenUpperCavity_CycleSetCommonModeCommonModeBake": {
             "Name": "Bake",
             "Attributes": {
@@ -2528,7 +2528,9 @@
           ],
           "SetOperationsMapping": {
             "Operation": "OvenUpperCavity_OpSetOperations",
-            "TimerOperations": "OvenUpperCavity_TimeSetCookTimeOperations"
+            "TimerOperations": "OvenUpperCavity_TimeSetCookTimeOperations",
+            "CookTime": "OvenUpperCavity_TimeSetCookTimeSet",
+            "CookTemp": "OvenUpperCavity_CycleSetTargetTemp"
           }
         },
         "MeatProbe": {
