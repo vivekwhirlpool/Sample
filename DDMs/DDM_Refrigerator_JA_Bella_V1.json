@@ -1260,6 +1260,9 @@
   },
   "Personality": {
     "Key": "DDM_Refrigerator_JA_Bella_V1",
+    "CavityOrder": [
+      "SystemCavity"
+    ],
     "Capability": {
       "SystemCavity": {
         "CapabilityData": {
@@ -1403,6 +1406,37 @@
 
           }
         }
+      }
+    },
+    "AttributesMapping": {
+      "FreezerCavity": {
+        "DoorOpen": "Freezer_OpStatusDoorOpen",
+        "OverTemp" : "Freezer_OpStatusOverTemp",
+        "TargetTemp" : "Freezer_OpSetTargetTemp"
+      },
+      "RefrigeratorCavity": {
+        "DoorOpen": "Refrigerator_OpStatusDoorOpen",
+        "OverTemp" : "Refrigerator_OpStatusOverTemp",
+        "TargetTemp" : "Refrigerator_OpSetTargetTemp"
+      },
+      "PantryCavity": {
+        "TargetTemp" : "Pantry_OpSetTargetTemp"
+      },
+
+      "Common": {
+        "DoorOpenAlarm" : "Sys_AlertStatusDoorOpenAlarm",
+        "StatusState" : "Sys_OpStatusState",
+        "CoolingOn" : "Sys_OpStatusCoolingOn",
+        "TempDisplayUnits": "Sys_DisplaySetTempUnits",
+        "NightLightBrightness" : "Sys_DisplaySetNightLightBrightness",
+        "WaterFilter" : "Sys_OpSetWaterFilter",
+        "MaxCool" : "Sys_OpSetMaxCool",
+        "MaxIce" : "Sys_OpSetMaxIce",
+        "SabbathModeEnabled" : "Sys_OpSetSabbathModeEnabled",
+        "ControlLock" : "Sys_OpSetControlLock",
+        "FavoriteFillAmount1" : "Sys_OpSetFavoriteFillAmount1",
+        "FavoriteFillAmount2" : "Sys_OpSetFavoriteFillAmount2",
+        "FavoriteFillUnits" : "Sys_OpSetFavoriteFillUnits"
       }
     }
   },
