@@ -4704,7 +4704,9 @@
           ],
           "SetOperationsMapping": {
             "Operation": "UpperCavity_CavityOperations",
-            "TimerOperations": "UpperCavity_OvenTimerOperations"
+            "TimerOperations": "UpperCavity_OvenTimerOperations",
+            "CookTime": "UpperCavity_CookTimeSetTime",
+            "CookTemp": "UpperCavity_CavityTargetTemp"
           }
         },
         "LightOnOff": {
