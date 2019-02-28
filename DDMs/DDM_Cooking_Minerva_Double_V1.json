@@ -7718,7 +7718,9 @@
           ],
           "SetOperationsMapping": {
             "Operation": "LowerCavity_CavityOperations",
-            "TimerOperations": "LowerCavity_OvenTimerOperations"
+            "TimerOperations": "LowerCavity_OvenTimerOperations",
+            "CookTime": "LowerCavity_CookTimeSetTime",
+            "CookTemp": "LowerCavity_CavityTargetTemp"
           }
         },
         "LightOnOff": {
