@@ -3801,7 +3801,9 @@
           ],
           "SetOperationsMapping": {
             "Operation": "OvenUpperCavity_OpSetOperations",
-            "TimerOperations": "OvenUpperCavity_TimeSetCookTimeOperations"
+            "TimerOperations": "OvenUpperCavity_TimeSetCookTimeOperations",
+            "CookTime": "OvenUpperCavity_TimeSetCookTimeSet",
+            "CookTemp": "OvenUpperCavity_CycleSetTargetTemp"
           }
         },
         "MeatProbe": {
@@ -3885,7 +3887,9 @@
           ],
           "SetOperationsMapping": {
             "Operation": "OvenLowerCavity_OpSetOperations",
-            "TimerOperations": "OvenLowerCavity_TimeSetCookTimeOperations"
+            "TimerOperations": "OvenLowerCavity_TimeSetCookTimeOperations",
+            "CookTime": "OvenLowerCavity_TimeSetCookTimeSet",
+            "CookTemp": "OvenLowerCavity_CycleSetTargetTemp"
           }
         },
         "MeatProbe": {
