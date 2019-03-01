@@ -4442,7 +4442,7 @@
         "DoorLockStatus": "UpperCavity_DoorLockStatus",
         "CookTimeCompleteAction": "UpperCavity_CookTimeCompleteAction",
         "TimerState": "UpperCavity_OvenTimerState",
-        "CavityHeatState": "UpperCavity_CavityHeatState",
+        "OpStatusState": "UpperCavity_CavityHeatState",
         "MeatProbeTargetTemp": "UpperCavity_MeatProbeTargetTemp",
         "MeatProbeTemp": "UpperCavity_MeatProbeTemp",
         "SabbathModeEnabled": "UpperCavity_SabbathModeEnabled",
