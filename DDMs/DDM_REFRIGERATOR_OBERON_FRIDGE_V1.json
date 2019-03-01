@@ -1318,6 +1318,32 @@
 
         }
       }
+    },
+    "AttributesMapping": {
+      "FreezerCavity": {
+        "DoorOpen": "Freezer_OpStatusDoorOpen",
+        "TargetTemp" : "Freezer_OpSetTempPreset"
+      },
+      "RefrigeratorCavity": {
+        "DoorOpen": "Refrigerator_OpStatusDoorOpen",
+        "OverTemp" : "Refrigerator_OpStatusOverTemp",
+        "TargetTemp" : "Refrigerator_OpSetTargetTemp"
+      },
+      "PantryCavity": {
+        "TargetTemp" : "Pantry_OpSetTempPreset"
+      },
+      "Common": {
+        "DoorOpenAlarm" : "Sys_AlertStatusDoorOpenAlarm",
+        "StatusState" : "Sys_OpStatusState",
+        "TempDisplayUnits": "Sys_DisplaySetTempUnits",
+        "CavityBrightness" : "Sys_DisplaySetCavityBrightness",
+        "WaterFilter" : "Sys_OpSetWaterFilter",
+        "MaxCool" : "Sys_OpSetMaxCool",
+        "MaxIce" : "Sys_OpSetMaxIce",
+        "VacationMode" : "Sys_OpSetVacationMode",
+        "SabbathModeEnabled" : "Sys_OpSetSabbathModeEnabled",
+        "ControlLock" : "Sys_OpSetControlLock"
+      }
     }
   },
   "Alerts": {
