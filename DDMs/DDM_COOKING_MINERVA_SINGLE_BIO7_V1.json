@@ -3892,25 +3892,25 @@
         "Rulesets": {
       "OvenUpperCavity": {
         "CycleHistory": {
-          "isLegacy": "false",
+          "isLegacy": false,
           "groupBy": "OvenUpperCavity_OpSetOperations",
           "attributes": "OvenUpperCavity_CycleSetCommonMode,OvenUpperCavity_CycleSetEasyConvectFood,OvenUpperCavity_CycleSetTargetTemp,OvenUpperCavity_TimeSetCookTimeSet,OvenUpperCavity_CycleSetMeatProbeTargetTemp,OvenUpperCavity_OpSetCookTimeCompleteAction,OvenUpperCavity_TimeSetDelayTime"
         }
       },
       "OvenLowerCavity": {
         "CycleHistory": {
-          "isLegacy": "false",
+          "isLegacy": false,
           "groupBy": "OvenLowerCavity_OpSetOperations",
           "attributes": "OvenLowerCavity_CycleSetCommonMode,OvenLowerCavity_CycleSetEasyConvectFood,OvenLowerCavity_CycleSetTargetTemp,OvenLowerCavity_TimeSetCookTimeSet,OvenLowerCavity_CycleSetMeatProbeTargetTemp,OvenLowerCavity_OpSetCookTimeCompleteAction,OvenLowerCavity_TimeSetDelayTime"
         }
       },
       "EnergyHistory": {
-        "isLegacy": "false",
+        "isLegacy": false,
         "groupBy": "XCat_PowerStatusEnergyConsumption",
         "attributes": "XCat_PowerStatusEnergyConsumption"
       },
       "FaultCodeHistory": {
-        "isLegacy": "false",
+        "isLegacy": false,
         "groupBy": "Sys_AlertStatusCustomerFaultCode",
         "attributes": "Sys_AlertStatusCustomerFaultCode"
       },
