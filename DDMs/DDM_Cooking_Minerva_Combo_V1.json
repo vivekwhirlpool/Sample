@@ -5373,7 +5373,7 @@
         "DoorLockStatus": "LowerCavity_DoorLockStatus",
         "CookTimeCompleteAction": "LowerCavity_CookTimeCompleteAction",
         "TimerState": "LowerCavity_OvenTimerState",
-        "CavityHeatState": "LowerCavity_CavityHeatState",
+        "OpStatusState": "LowerCavity_CavityHeatState",
         "MeatProbeTargetTemp": "LowerCavity_MeatProbeTargetTemp",
         "MeatProbeTemp": "LowerCavity_MeatProbeTemp",
         "SabbathModeEnabled": "LowerCavity_SabbathModeEnabled",
