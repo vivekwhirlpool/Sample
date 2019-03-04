@@ -5563,6 +5563,16 @@
         }
       },
       "MwoCavity": {
+        "MeatProbeTemp": {
+          "Visible": true,
+          "AvailableIn": [
+            "US",
+            "CA"
+          ],
+          "StateAttributes": {
+            "State": "UpperCavity_MeatProbeTemp"
+          }
+        },
         "MeatProbe": {
           "Visible": true,
           "ReadOnly": true,
@@ -5661,6 +5671,16 @@
           ],
           "StateAttributes": {
             "State": "LowerCavity_CavityLight"
+          }
+        },
+        "MeatProbeTemp": {
+          "Visible": true,
+          "AvailableIn": [
+            "US",
+            "CA"
+          ],
+          "StateAttributes": {
+            "State": "LowerCavity_MeatProbeTemp"
           }
         },
         "MeatProbe": {
