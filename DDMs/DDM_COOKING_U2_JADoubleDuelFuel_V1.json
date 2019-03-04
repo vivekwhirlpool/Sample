@@ -4200,6 +4200,10 @@
           ],
           "StateAttributes": {
             "State": "OvenUpperCavity_OpStatusState"
+          },
+          "SetOperationsMapping": {
+            "Operation": "OvenUpperCavity_OpSetOperations",
+            "TimerOperations": "OvenUpperCavity_TimeSetCookTimeOperations"
           }
         },
         "FavoritesCycles": {
@@ -4300,6 +4304,10 @@
           ],
           "StateAttributes": {
             "State": "OvenLowerCavity_OpStatusState"
+          },
+          "SetOperationsMapping": {
+            "Operation": "OvenLowerCavity_OpSetOperations",
+            "TimerOperations": "OvenLowerCavity_TimeSetCookTimeOperations"
           }
         },
         "FavoritesCycles": {
