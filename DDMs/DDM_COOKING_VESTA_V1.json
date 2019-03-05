@@ -2533,6 +2533,16 @@
             "State": "Sys_OperationSetQuietModeEnabled"
           }
         },
+        "ChangeTempUnits": {
+          "Visible": true,
+          "AvailableIn": [
+            "US",
+            "CA"
+          ],
+          "StateAttributes": {
+            "State": "Sys_DisplaySetTempUnits"
+          }
+        },
         "RemoteStatus": {
           "Visible": true,
           "ReadOnly": true,

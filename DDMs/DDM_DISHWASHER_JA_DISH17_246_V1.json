@@ -1,14 +1,12 @@
 {
-  "_id": "DDM_DISHWASHER_JA_DISH17_246_V1",
-  "_rev": "21-d80238e5cab26473d7ce1126eab04e66",
   "DDM": {
     "_id": "DDM_DISHWASHER_JA_DISH17_246_V1",
     "ddmName": "DDM_DISHWASHER_JA_DISH17_246_V1",
-    "modelNumber": "JDTSS246GP0,JDTSS246GS0",
-    "createdAt": "Mar 20, 2018 6:30:00 PM",
-    "createdBy": "Subodh Gujar",
+    "modelNo": "JDTSS246GP0,JDTSS246GS0, JDTSS246GL0, JDTSS246GM0",
+    "createdAt": 1517231946000,
+    "createdBy": "Akash Karhale",
     "brandName": "JennAir",
-    "category": "Dishwasher",
+    "category": "DishWasher",
     "version": "1",
     "ccuriVersion": "9",
     "ccURI": "API144_DISH_V9"
@@ -1327,221 +1325,516 @@
   },
   "Personality": {
     "Key": "DDM_DISHWASHER_JA_DISH17_246_V1",
-    "Capability": [
-      {
-        "Cycles": {
-          "CycleNormal": {
-            "AvailableOptions": {
-              "OptionTurboZone": {
-                "Default": false,
-                "Allowed": [
-                  true,
-                  false
-                ]
+    "CavityOrder": [
+      "DishCavity"
+    ],
+    "Capability": {
+      "DishCavity": {
+        "CapabilityData": {
+          "DishCavity_WashModeCycleNormal": {
+            "Required": {
+              "Cavity_CycleSetOptionSaniRinse": {
+                "Enumeration": [
+                  "Disabled",
+                  "Enabled"
+                ],
+                "Default": "Disabled"
               },
-              "OptionSmartHeatedDry": {
-                "Default": true,
-                "Allowed": [
-                  true,
-                  false
-                ]
+              "Cavity_CycleSetOptionSmartHeatedDry": {
+                "Enumeration": [
+                  "Disabled",
+                  "Enabled"
+                ],
+                "Default": "Enabled"
+              },
+              "Cavity_CycleSetOptionLowerRackOnly": {
+                "Enumeration": [
+                  "Disabled",
+                  "Enabled"
+                ],
+                "Default": "Disabled"
+              },
+              "Cavity_CycleSetOptionSteam": {
+                "Enumeration": [
+                  "Disabled",
+                  "Enabled"
+                ],
+                "Default": "Disabled"
+              },
+              "Cavity_CycleSetOptionHighTemp": {
+                "Enumeration": [
+                  "Disabled",
+                  "Enabled"
+                ],
+                "Default": "Disabled"
+              },
+              "Cavity_CycleSetOptionUpperRackOnly": {
+                "Enumeration": [
+                  "Disabled",
+                  "Enabled"
+                ],
+                "Default": "Disabled"
+              }
+            },
+            "Optional": {
+              "Cavity_TimeSetDelayTime": {
+                "Range": {
+                  "Min": 0,
+                  "Max": 43140,
+                  "Step": 60,
+                  "Default": 0
+                }
               }
             }
           },
-          "CycleRinseOnly": {
-            "AvailableOptions": {
-              "OptionPowerDry": {
-                "Default": false,
-                "Allowed": [
-                  true,
-                  false
-                ]
+          "DishCavity_WashModeCycleRefresh": {
+            "Required": {
+
+            },
+            "Optional": {
+              "Cavity_TimeSetDelayTime": {
+                "Range": {
+                  "Min": 0,
+                  "Max": 43140,
+                  "Step": 60,
+                  "Default": 0
+                }
               }
             }
           },
-          "CycleHalfHourWash": {
-            "AvailableOptions": {
-              "OptionTurboZone": {
-                "Default": false,
-                "Allowed": [
-                  true,
-                  false
-                ]
+          "DishCavity_WashModeCycleOneHour": {
+            "Required": {
+              "Cavity_CycleSetOptionUpperRackOnly": {
+                "Enumeration": [
+                  "Disabled",
+                  "Enabled"
+                ],
+                "Default": "Disabled"
               },
-              "OptionSmartHeatedDry": {
-                "Default": true,
-                "Allowed": [
-                  true,
-                  false
-                ]
+              "Cavity_CycleSetOptionSmartHeatedDry": {
+                "Enumeration": [
+                  "Disabled",
+                  "Enabled"
+                ],
+                "Default": "Disabled"
               },
-              "OptionSaniRinse": {
-                "Default": true,
-                "Allowed": [
-                  true,
-                  false
-                ]
-              },
-              "OptionHighTemp": {
-                "Default": true,
-                "Allowed": [
-                  true,
-                  false
-                ]
+              "Cavity_CycleSetOptionLowerRackOnly": {
+                "Enumeration": [
+                  "Disabled",
+                  "Enabled"
+                ],
+                "Default": "Disabled"
               }
+            },
+            "Optional": {
+              "Cavity_TimeSetDelayTime": {
+                "Range": {
+                  "Min": 0,
+                  "Max": 43140,
+                  "Step": 60,
+                  "Default": 0
+                }
+              }
+            }
+          },
+          "DishCavity_WashModeCycleCrystal": {
+            "Required": {
+              "Cavity_CycleSetOptionUpperRackOnly": {
+                "Enumeration": [
+                  "Disabled",
+                  "Enabled"
+                ],
+                "Default": "Disabled"
+              },
+              "Cavity_CycleSetOptionSmartHeatedDry": {
+                "Enumeration": [
+                  "Disabled",
+                  "Enabled"
+                ],
+                "Default": "Enabled"
+              },
+              "Cavity_CycleSetOptionLowerRackOnly": {
+                "Enumeration": [
+                  "Disabled",
+                  "Enabled"
+                ],
+                "Default": "Enabled"
+              }
+            },
+            "Optional": {
+              "Cavity_TimeSetDelayTime": {
+                "Range": {
+                  "Min": 0,
+                  "Max": 43140,
+                  "Step": 60,
+                  "Default": 0
+                }
+              }
+            }
+          },
+          "DishCavity_WashModeCycleCookware": {
+            "Required": {
+              "Cavity_CycleSetOptionSaniRinse": {
+                "Enumeration": [
+                  "Disabled",
+                  "Enabled"
+                ],
+                "Default": "Disabled"
+              },
+              "Cavity_CycleSetOptionSmartHeatedDry": {
+                "Enumeration": [
+                  "Disabled",
+                  "Enabled"
+                ],
+                "Default": "Enabled"
+              },
+              "Cavity_CycleSetOptionLowerRackOnly": {
+                "Enumeration": [
+                  "Disabled",
+                  "Enabled"
+                ],
+                "Default": "Disabled"
+              },
+              "Cavity_CycleSetOptionSteam": {
+                "Enumeration": [
+                  "Disabled",
+                  "Enabled"
+                ],
+                "Default": "Disabled"
+              },
+              "Cavity_CycleSetOptionHighTemp": {
+                "Enumeration": [
+                  "Disabled",
+                  "Enabled"
+                ],
+                "Default": "Disabled"
+              },
+              "Cavity_CycleSetOptionUpperRackOnly": {
+                "Enumeration": [
+                  "Disabled",
+                  "Enabled"
+                ],
+                "Default": "Disabled"
+              }
+            },
+            "Optional": {
+              "Cavity_TimeSetDelayTime": {
+                "Range": {
+                  "Min": 0,
+                  "Max": 43140,
+                  "Step": 60,
+                  "Default": 0
+                }
+              }
+            }
+          },
+          "DishCavity_WashModeCycleSensor": {
+            "Required": {
+              "Cavity_CycleSetOptionSmartHeatedDry": {
+                "Enumeration": [
+                  "Disabled",
+                  "Enabled"
+                ],
+                "Default": "Enabled"
+              },
+              "Cavity_CycleSetOptionSaniRinse": {
+                "Enumeration": [
+                  "Disabled",
+                  "Enabled"
+                ],
+                "Default": "Disabled"
+              },
+              "Cavity_CycleSetOptionSteam": {
+                "Enumeration": [
+                  "Disabled",
+                  "Enabled"
+                ],
+                "Default": "Disabled"
+              },
+              "Cavity_CycleSetOptionUpperRackOnly": {
+                "Enumeration": [
+                  "Disabled",
+                  "Enabled"
+                ],
+                "Default": "Disabled"
+              },
+              "Cavity_CycleSetOptionHighTemp": {
+                "Enumeration": [
+                  "Disabled",
+                  "Enabled"
+                ],
+                "Default": "Disabled"
+              },
+              "Cavity_CycleSetOptionLowerRackOnly": {
+                "Enumeration": [
+                  "Disabled",
+                  "Enabled"
+                ],
+                "Default": "Disabled"
+              }
+            },
+            "Optional": {
+              "Cavity_TimeSetDelayTime": {
+                "Range": {
+                  "Min": 0,
+                  "Max": 43140,
+                  "Step": 60,
+                  "Default": 0
+                }
+              }
+            }
+          },
+          "DishCavity_CustomCycleGentle": {
+            "Required": {
+              "NonEditable": {
+                "Cavity_CycleSetCycleId": "CycleLightChina"
+              }
+            },
+            "Optional": {
+
+            }
+          },
+          "DishCavity_CustomCycleHeavy": {
+            "Required": {
+              "NonEditable": {
+                "Cavity_CycleSetOptionSmartHeatedDry": "Enabled",
+                "Cavity_CycleSetOptionHighTemp": "Enabled",
+                "Cavity_CycleSetCycleId": "CyclePotsAndPans"
+              }
+            }
+          },
+          "DishCavity_CustomCycleSpecialtyItems": {
+            "Required": {
+              "NonEditable": {
+                "Cavity_CycleSetOptionSmartHeatedDry": "Enabled",
+                "Cavity_CycleSetOptionSaniRinse": "Enabled",
+                "Cavity_CycleSetCycleId": "CycleNormal"
+              }
+            },
+            "Optional": {
+
+            }
+          },
+          "DishCavity_CustomCycleSanitize": {
+            "Required": {
+              "NonEditable": {
+                "Cavity_CycleSetOptionSmartHeatedDry": "Enabled",
+                "Cavity_CycleSetOptionSaniRinse": "Enabled",
+                "Cavity_CycleSetCycleId": "CycleNormal"
+              }
+            },
+            "Optional": {
+
+            }
+          },
+          "DishCavity_CustomCycleQuick": {
+            "Required": {
+              "NonEditable": {
+                "Cavity_CycleSetCycleId": "CycleOneHourWash"
+              }
+            },
+            "Optional": {
+
             }
           }
         },
-        "SpecialtyCycles": {
-          "Heavy": {
-            "DownloadAndGoId": "7",
-            "AvailableOptions": [
-              {
-                "Default": true,
-                "OptionName": "OptionHighTemp"
-              },
-              {
-                "Default": true,
-                "OptionName": "OptionSmartHeatedDry"
+        "SetCycle": {
+          "WashMode": {
+            "DishCavity_WashModeCycleNormal": {
+              "Name": "Normal",
+              "Attributes": {
+                "Cavity_CycleSetCycleId": [
+                  "CycleNormal"
+                ]
               }
-            ],
-            "CycleName": "CyclePotsAndPans"
-          },
-          "SpecialtyItems": {
-            "DownloadAndGoId": "8",
-            "AvailableOptions": [
-              {
-                "Default": true,
-                "OptionName": "OptionSmartHeatedDry"
-              },
-              {
-                "Default": true,
-                "OptionName": "OptionSaniRinse"
+            },
+            "DishCavity_WashModeCycleRefresh": {
+              "Name": "Refresh",
+              "Attributes": {
+                "Cavity_CycleSetCycleId": [
+                  "CycleRinseOnly"
+                ]
               }
-            ],
-            "CycleName": "CycleNormal"
-          },
-          "Gentle": {
-            "DownloadAndGoId": "6",
-            "AvailableOptions": [
-              {
-                "Default": false,
-                "OptionName": "OptionSmartHeatedDry"
+            },
+            "DishCavity_WashModeCycleOneHour": {
+              "Name": "OneHourWash",
+              "Attributes": {
+                "Cavity_CycleSetCycleId": [
+                  "CycleOneHourWash"
+                ]
               }
-            ],
-            "CycleName": "CycleLightChina"
-          },
-          "Sanitize": {
-            "DownloadAndGoId": "9",
-            "AvailableOptions": [
-              {
-                "Default": true,
-                "OptionName": "OptionSmartHeatedDry"
-              },
-              {
-                "Default": true,
-                "OptionName": "OptionSaniRinse"
+            },
+            "DishCavity_WashModeCycleCrystal": {
+              "Name": "Crystal",
+              "Attributes": {
+                "Cavity_CycleSetCycleId": [
+                  "CycleLightChina"
+                ]
               }
-            ],
-            "CycleName": "CycleNormal"
-          },
-          "Quick": {
-            "DownloadAndGoId": "10",
-            "AvailableOptions": [
-              {
-                "Default": false,
-                "OptionName": "OptionSmartHeatedDry"
+            },
+            "DishCavity_WashModeCycleCookware": {
+              "Name": "Cookware",
+              "Attributes": {
+                "Cavity_CycleSetCycleId": [
+                  "CyclePotsAndPans"
+                ]
               }
-            ],
-            "CycleName": "CycleOneHourWash"
-          }
-        },
-        "ModeTemperatureCapabilityData": {
-          "Action": 4,
-          "EntityCapability": {
-            "DishCycleOptions": [
-              {
-                "Cavity_CycleSetOptionSmartHeatedDry": 3,
-                "Cavity_CycleSetOptionSaniRinse": 1,
-                "Cavity_CycleSetOptionBottleWashZone": 1,
-                "Cavity_CycleSetOptionSteam": 1,
-                "Cavity_CycleSetOptionUpperRackOnly": 1,
-                "Cavity_CycleSetOptionHighTemp": 1,
-                "Cavity_CycleSetCycleId": 1,
-                "Cavity_CycleSetOptionLowerRackOnly": 1
-              },
-              {
-                "Cavity_CycleSetCycleId": 2
-              },
-              {
-                "Cavity_CycleSetOptionSmartHeatedDry": 1,
-                "Cavity_CycleSetOptionUpperRackOnly": 1,
-                "Cavity_CycleSetCycleId": 4,
-                "Cavity_CycleSetOptionLowerRackOnly": 1
-              },
-              {
-                "Cavity_CycleSetOptionSmartHeatedDry": 3,
-                "Cavity_CycleSetOptionBottleWashZone": 1,
-                "Cavity_CycleSetOptionUpperRackOnly": 1,
-                "Cavity_CycleSetCycleId": 5,
-                "Cavity_CycleSetOptionLowerRackOnly": 1
-              },
-              {
-                "Cavity_CycleSetOptionSmartHeatedDry": 3,
-                "Cavity_CycleSetOptionSaniRinse": 1,
-                "Cavity_CycleSetOptionBottleWashZone": 1,
-                "Cavity_CycleSetOptionSteam": 1,
-                "Cavity_CycleSetOptionUpperRackOnly": 1,
-                "Cavity_CycleSetOptionHighTemp": 1,
-                "Cavity_CycleSetCycleId": 9,
-                "Cavity_CycleSetOptionLowerRackOnly": 1
-              },
-              {
-                "Cavity_CycleSetOptionSmartHeatedDry": 3,
-                "Cavity_CycleSetOptionSaniRinse": 1,
-                "Cavity_CycleSetOptionBottleWashZone": 1,
-                "Cavity_CycleSetOptionSteam": 1,
-                "Cavity_CycleSetOptionUpperRackOnly": 1,
-                "Cavity_CycleSetOptionHighTemp": 1,
-                "Cavity_CycleSetCycleId": 10,
-                "Cavity_CycleSetOptionLowerRackOnly": 1
+            },
+            "DishCavity_WashModeCycleSensor": {
+              "Name": "Sensor",
+              "Attributes": {
+                "Cavity_CycleSetCycleId": [
+                  "CycleSensor"
+                ]
               }
-            ],
-            "Id": 1,
-            "Name": "DishCycleOptions"
-          }
-        },
-        "Settings": [
-          {
-            "QuietWhileHome": {
-              "Type": "home_away",
-              "Description": "Your dishwasher will automatically go into Quiet Mode when Nest knows youre home.",
-              "Name": "Quiet While Home"
             }
           },
-          {
-            "WashWhileAway": {
-              "Type": "home_away",
-              "Description": "When Nest detects you're away, your dishwasher will start the selected cycle.Please note that it may take up to two hours for Nest to send the away signal.",
-              "Name": "Wash While Away"
-            }
-          }
-        ],
-        "SettingsCapabilityData": {
-          "Action": 4,
-          "EntityCapability": {
-            "DishSettings": [
-              {
-                "Sys_OperationSetDelayUpper": 86400,
-                "Sys_OperationSetDelayModeSelect": 0
+          "CustomCycle": {
+            "DishCavity_CustomCycleGentle": {
+              "Name": "Gentle",
+              "Attributes": {
+                "Cavity_CycleSetDownloadAndGo": [
+                  "DownloadGoGentle"
+                ]
               }
-            ],
-            "Id": 1,
-            "Name": "DishSettings"
+            },
+            "DishCavity_CustomCycleHeavy": {
+              "Name": "Heavy",
+              "Attributes": {
+                "Cavity_CycleSetDownloadAndGo": [
+                  "DownloadGoHeavy"
+                ]
+              }
+            },
+            "DishCavity_CustomCycleSpecialtyItems": {
+              "Name": "SpecialtyItems",
+              "Attributes": {
+                "Cavity_CycleSetDownloadAndGo": [
+                  "DownloadGoSpecialtyItems"
+                ]
+              }
+            },
+            "DishCavity_CustomCycleSanitize": {
+              "Name": "Sanitize",
+              "Attributes": {
+                "Cavity_CycleSetDownloadAndGo": [
+                  "DownloadGoSanitize"
+                ]
+              }
+            },
+            "DishCavity_CustomCycleQuick": {
+              "Name": "Quick",
+              "Attributes": {
+                "Cavity_CycleSetDownloadAndGo": [
+                  "DownloadGoQuick"
+                ]
+              }
+            }
           }
         }
       }
-    ],
+    },
+    "AttributesMapping": {
+      "DishCavity": {
+        "CycleName": [
+          "Cavity_CycleSetCycleId",
+          "Cavity_CycleSetDownloadAndGo"
+        ],
+
+        "TimeRemaining": "Cavity_TimeStatusEstTimeRemaining",
+        "MachineState" : "Cavity_OperationStatusMachineState",
+        "DoorOpenStatus" : "Cavity_OperationStatusDoorOpen",
+        "FilterStatus" : "Cavity_OperationStatusCleanFilter",
+        "CycleState" : "Cavity_CycleStatusCycleState",
+        "OdometerStatus" : "Cavity_CycleStatusOdometer",
+        "HeavyDutyCycleOdometerStatus" : "Cavity_CycleStatusHeavyDutyCycleOdometer",
+        "CycleCleanStatus" : "Cavity_CycleStatusCycleClean",
+        "CycleSanitizedStatus" : "Cavity_CycleStatusCycleSanitized",
+        "DelayTimeSetTime" : "Cavity_TimeSetDelayTime",
+        "UpperRackOnly" : "Cavity_CycleSetOptionUpperRackOnly",
+        "LowerRackOnly" : "Cavity_CycleSetOptionLowerRackOnly",
+        "SmartHeatedDry" : "Cavity_CycleSetOptionSmartHeatedDry",
+        "SaniRinse" : "Cavity_CycleSetOptionSaniRinse",
+        "SteamEnabled" : "Cavity_CycleSetOptionSteam",
+        "HighTemp" : "Cavity_CycleSetOptionHighTemp"
+      },
+      "Common": {
+        "RemoteEnabledStatus": "XCat_RemoteSetRemoteControlEnable",
+        "QuietModeEnabled" : "Sys_OperationSetQuietModeEnabled",
+        "SabbathModeEnabled" : "Sys_OperationSetSabbathModeEnabled"
+      }
+    },
+    "Features": {
+      "Common": {
+        "QuietMode": {
+          "Visible": true,
+          "AvailableIn": [
+            "US",
+            "CA"
+          ],
+          "StateAttributes": {
+            "State": "Sys_OperationSetQuietModeEnabled"
+          }
+        },
+        "SabbathMode": {
+          "Visible": true,
+          "AvailableIn": [
+            "US",
+            "CA"
+          ],
+          "StateAttributes": {
+            "State": "Sys_OperationSetSabbathModeEnabled"
+          }
+        }
+      },
+      "DishCavity": {
+        "SetDishWasher": {
+          "Visible": true,
+          "AvailableIn": [
+            "US",
+            "CA"
+          ],
+          "StateAttributes": {
+            "State": "Cavity_OperationStatusMachineState"
+          },
+          "StatusAttributes": [
+            "Cavity_CycleSetCycleId",
+            "Cavity_CycleSetDownloadAndGo",
+            "Cavity_CycleSetOptionBottleWashZone",
+            "Cavity_CycleSetOptionDetergent",
+            "Cavity_CycleSetOptionEcoDry",
+            "Cavity_CycleSetOptionFanDry",
+            "Cavity_CycleSetOptionHalfLoad",
+            "Cavity_CycleSetOptionHighTemp",
+            "Cavity_CycleSetOptionLowerRackOnly",
+            "Cavity_CycleSetOptionPowerDry",
+            "Cavity_CycleSetOptionSaniRinse",
+            "Cavity_CycleSetOptionSilverwareZone",
+            "Cavity_CycleSetOptionSmartHeatedDry",
+            "Cavity_CycleSetOptionSteam",
+            "Cavity_CycleSetOptionTallItemZone",
+            "Cavity_CycleSetOptionTurboZone",
+            "Cavity_CycleSetOptionUpperRackOnly",
+            "Cavity_CycleSetOptionWaterTank",
+            "Cavity_OperationStatusMachineState",
+            "Cavity_TimeStatusEstTimeRemaining"
+          ],
+          "SendCommandAttributes": [
+            "Cavity_CycleSetDownloadAndGo",
+            "Cavity_CycleSetCycleId",
+            "Cavity_CycleSetOptionSaniRinse",
+            "Cavity_CycleSetOptionSmartHeatedDry",
+            "Cavity_CycleSetOptionLowerRackOnly",
+            "Cavity_CycleSetOptionSteam",
+            "Cavity_CycleSetOptionHighTemp",
+            "Cavity_CycleSetOptionUpperRackOnly"
+          ],
+          "SetOperationsMapping": {
+            "Operation" : "Cavity_OperationSetStartCommand"
+          }
+        }
+      }
+    },
     "Rulesets": [
       {
         "FaultCodeHistory": {
@@ -1631,17 +1924,23 @@
           {
             "name": "ADRS",
             "enabled": true,
-            "config": []
+            "config": [
+              
+            ]
           },
           {
             "name": "Wallmart",
             "enabled": false,
-            "config": []
+            "config": [
+              
+            ]
           },
           {
             "name": "Whirlpool",
             "enabled": false,
-            "config": []
+            "config": [
+              
+            ]
           }
         ]
       },
@@ -1676,12 +1975,16 @@
           {
             "name": "National Grid",
             "enabled": false,
-            "config": []
+            "config": [
+              
+            ]
           },
           {
             "name": "Genability",
             "enabled": false,
-            "config": []
+            "config": [
+              
+            ]
           }
         ]
       },
@@ -1692,12 +1995,16 @@
           {
             "name": "Amazon Alexa",
             "enabled": false,
-            "config": []
+            "config": [
+              
+            ]
           },
           {
             "name": "Google Home",
             "enabled": false,
-            "config": []
+            "config": [
+              
+            ]
           }
         ]
       },
@@ -1713,5 +2020,5 @@
         ]
       }
     ]
-}
   }
+}

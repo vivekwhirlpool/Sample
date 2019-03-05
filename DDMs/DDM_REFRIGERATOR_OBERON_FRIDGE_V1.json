@@ -1250,369 +1250,101 @@
   },
   "Personality": {
     "Key": "DDM_REFRIGERATOR_OBERON_FRIDGE_V1",
-    "Capability": [
-      {
-        "GlobalGoverningStates": [
-          {
-            "ResetCommands": [],
-            "GlobalGoverningState": "Control",
-            "SetCommands": [],
-            "Enabled": false,
-            "Compatibility": [
-              {
-                "Vacation": "false",
-                "Party": "false",
-                "Quite": "false"
+    "Capability": {
+      "SystemCavity": {
+        "CapabilityData": {
+          "Refrigerator_OpSetTempPreset": {
+            "Refrigerator_OpSetTargetTemp": {
+              "TempRange": {
+                "Min": 6,
+                "Max": 56,
+                "StepF": 1,
+                "Default": 28
               }
-            ]
+            }
           },
-          {
-            "ResetCommands": [],
-            "GlobalGoverningState": "Quite",
-            "SetCommands": [],
-            "Enabled": false,
-            "Compatibility": [
-              {
-                "Control": "false",
-                "Vacation": "false",
-                "Party": "false"
-              }
-            ]
+          "DeliDrawer_OpSetTempPreset": {
+            "Freezer_OpSetTempPreset": {
+              "Map": [
+                {
+                  "Value": 3,
+                  "Display": "Produce"
+                },
+                {
+                  "Value": 1,
+                  "Display": "Assorted"
+                },
+                {
+                  "Value": 4,
+                  "Display": "Beverage"
+                },
+                {
+                  "Value": 2,
+                  "Display": "Deli"
+                },
+                {
+                  "Value": 5,
+                  "Display": "Meat"
+                }
+              ]
+            }
           },
-          {
-            "ResetCommands": [],
-            "GlobalGoverningState": "Vacation",
-            "SetCommands": [],
-            "Enabled": false,
-            "Compatibility": [
-              {
-                "Control": "false",
-                "Party": "false",
-                "Quite": "false"
-              }
-            ]
-          },
-          {
-            "ResetCommands": [],
-            "GlobalGoverningState": "Party",
-            "SetCommands": [],
-            "Enabled": false,
-            "Compatibility": [
-              {
-                "Control": "false",
-                "Vacation": "false",
-                "Quite": "false"
-              }
-            ]
+          "CrisperDrawer_OpSetTempPreset": {
+            "Pantry_OpSetTempPreset": {
+              "Map": [
+                {
+                  "Value": 3,
+                  "Display": "Produce"
+                },
+                {
+                  "Value": 1,
+                  "Display": "Assorted"
+                }
+              ]
+            }
           }
-        ],
-        "TemperatureLabels": {
-          "Freezer": {
-            "C": [
-              {
-                "displayValue": "",
-                "label": "Recommended",
-                "internalValue": "30"
-              }
-            ],
-            "F": [
-              {
-                "displayValue": "",
-                "label": "Recommended",
-                "internalValue": "28"
-              }
-            ]
-          },
-          "Pantry": {
-            "C": [
-              {
-                "displayValue": "",
-                "label": "Recommended",
-                "internalValue": "30"
-              }
-            ],
-            "F": [
-              {
-                "displayValue": "",
-                "label": "Recommended",
-                "internalValue": "28"
-              }
-            ]
-          },
-          "Refrigerator": {
-            "C": [
-              {
-                "displayValue": "3",
-                "label": "Recommended",
-                "internalValue": "30"
-              }
-            ],
-            "F": [
-              {
-                "displayValue": "37",
-                "label": "Recommended",
-                "internalValue": "28"
-              }
-            ]
-          }
+
         },
-        "Temperatures": {
-          "Pantry": {
-            "C": [
-              {
-                "displayValue": "",
-                "internalValue": "0"
-              },
-              {
-                "displayValue": "",
-                "internalValue": "10"
-              },
-              {
-                "displayValue": "",
-                "internalValue": "20"
-              },
-              {
-                "displayValue": "",
-                "internalValue": "30"
-              }
-            ],
-            "F": [
-              {
-                "displayValue": "",
-                "internalValue": "0"
-              },
-              {
-                "displayValue": "",
-                "internalValue": "6"
-              },
-              {
-                "displayValue": "",
-                "internalValue": "17"
-              },
-              {
-                "displayValue": "",
-                "internalValue": "33"
-              }
-            ]
+        "SetCycle": {
+          "Refrigerator_OpSetTempPreset": {
+
           },
-          "Freezer": {
-            "C": [
-              {
-                "displayValue": "-22",
-                "internalValue": "-220"
-              },
-              {
-                "displayValue": "-21",
-                "internalValue": "-210"
-              },
-              {
-                "displayValue": "-20",
-                "internalValue": "-200"
-              },
-              {
-                "displayValue": "-19",
-                "internalValue": "-190"
-              },
-              {
-                "displayValue": "-18",
-                "internalValue": "-180"
-              },
-              {
-                "displayValue": "-17",
-                "internalValue": "-170"
-              },
-              {
-                "displayValue": "-16",
-                "internalValue": "-160"
-              },
-              {
-                "displayValue": "-15",
-                "internalValue": "-150"
-              }
-            ],
-            "F": [
-              {
-                "displayValue": "-6",
-                "internalValue": "-211"
-              },
-              {
-                "displayValue": "-5",
-                "internalValue": "-206"
-              },
-              {
-                "displayValue": "-4",
-                "internalValue": "-200"
-              },
-              {
-                "displayValue": "-3",
-                "internalValue": "-194"
-              },
-              {
-                "displayValue": "-2",
-                "internalValue": "-189"
-              },
-              {
-                "displayValue": "-1",
-                "internalValue": "-183"
-              },
-              {
-                "displayValue": "0",
-                "internalValue": "-178"
-              },
-              {
-                "displayValue": "1",
-                "internalValue": "-172"
-              },
-              {
-                "displayValue": "2",
-                "internalValue": "-167"
-              },
-              {
-                "displayValue": "3",
-                "internalValue": "-161"
-              },
-              {
-                "displayValue": "4",
-                "internalValue": "-156"
-              },
-              {
-                "displayValue": "5",
-                "internalValue": "-150"
-              }
-            ]
+          "DeliDrawer_OpSetTempPreset": {
+
           },
-          "Refrigerator": {
-            "C": [
-              {
-                "displayValue": "1",
-                "internalValue": "10"
-              },
-              {
-                "displayValue": "2",
-                "internalValue": "20"
-              },
-              {
-                "displayValue": "3",
-                "internalValue": "30"
-              },
-              {
-                "displayValue": "4",
-                "internalValue": "40"
-              },
-              {
-                "displayValue": "5",
-                "internalValue": "50"
-              },
-              {
-                "displayValue": "6",
-                "internalValue": "60"
-              }
-            ],
-            "F": [
-              {
-                "displayValue": "33",
-                "internalValue": "6"
-              },
-              {
-                "displayValue": "34",
-                "internalValue": "11"
-              },
-              {
-                "displayValue": "35",
-                "internalValue": "17"
-              },
-              {
-                "displayValue": "36",
-                "internalValue": "22"
-              },
-              {
-                "displayValue": "37",
-                "internalValue": "28"
-              },
-              {
-                "displayValue": "38",
-                "internalValue": "33"
-              },
-              {
-                "displayValue": "39",
-                "internalValue": "39"
-              },
-              {
-                "displayValue": "40",
-                "internalValue": "44"
-              },
-              {
-                "displayValue": "41",
-                "internalValue": "50"
-              },
-              {
-                "displayValue": "42",
-                "internalValue": "56"
-              }
-            ]
+          "CrisperDrawer_OpSetTempPreset": {
+
           }
-        },
-        "ModeTemperatureCapabilityData": {
-          "Action": 4,
-          "EntityCapability": {
-            "Id": 1,
-            "Name": "CavityTemperatures",
-            "CavityTemperatures": [
-              {
-                "Sys_DisplaySetTempUnits": 0,
-                "CapabilityCavity_SetCavitySelect": 0,
-                "CapabilityCavity_SetTempMin": 1,
-                "CapabilityCavity_SetTempMax": 6,
-                "CapabilityCavity_SetTempDefault": 3
-              },
-              {
-                "Sys_DisplaySetTempUnits": 1,
-                "CapabilityCavity_SetCavitySelect": 0,
-                "CapabilityCavity_SetTempMin": 0.6,
-                "CapabilityCavity_SetTempMax": 5.6,
-                "CapabilityCavity_SetTempDefault": 2.8
-              },
-              {
-                "CapabilityCavity_SetCavitySelect": 1,
-                "CapabilityCavity_SetTempPresetDefault": 1
-              },
-              {
-                "CapabilityCavity_SetCavitySelect": 2,
-                "CapabilityCavity_SetTempPresetDefault": 1
-              }
-            ]
-          }
-        },
-        "SettingsCapabilityData": {
-          "Action": 4,
-          "EntityCapability": {
-            "Id": 1,
-            "FrigSettings": [
-              {
-                "DefaultSettings": [
-                  {
-                    "Sys_OpSetVacationMode": 0,
-                    "Sys_DisplaySetTempUnits": 1,
-                    "Sys_OpSetMaxCool": 0,
-                    "Sys_OpSetSabbathModeEnabled": 0
-                  }
-                ],
-                "Name": "DefaultSettings"
-              },
-              {
-                "Enumerations": [
-                  {
-                    "XCat_ConfigSetApplianCeCapability": "0x02020001:0,1,2;0x02030005:2,3,5;0x02040001:0,1,2,3;0x03020002:0,1,2,3,4,5;0x03060002:0,1,3;<NUL>"
-                  }
-                ],
-                "Name": "Enumerations"
-              }
-            ],
-            "Name": "FrigSettings"
-          }
+
         }
       }
-    ]
+    },
+    "AttributesMapping": {
+      "FreezerCavity": {
+        "DoorOpen": "Freezer_OpStatusDoorOpen",
+        "TargetTemp" : "Freezer_OpSetTempPreset"
+      },
+      "RefrigeratorCavity": {
+        "DoorOpen": "Refrigerator_OpStatusDoorOpen",
+        "OverTemp" : "Refrigerator_OpStatusOverTemp",
+        "TargetTemp" : "Refrigerator_OpSetTargetTemp"
+      },
+      "PantryCavity": {
+        "TargetTemp" : "Pantry_OpSetTempPreset"
+      },
+      "Common": {
+        "DoorOpenAlarm" : "Sys_AlertStatusDoorOpenAlarm",
+        "StatusState" : "Sys_OpStatusState",
+        "TempDisplayUnits": "Sys_DisplaySetTempUnits",
+        "CavityBrightness" : "Sys_DisplaySetCavityBrightness",
+        "WaterFilter" : "Sys_OpSetWaterFilter",
+        "MaxCool" : "Sys_OpSetMaxCool",
+        "MaxIce" : "Sys_OpSetMaxIce",
+        "VacationMode" : "Sys_OpSetVacationMode",
+        "SabbathModeEnabled" : "Sys_OpSetSabbathModeEnabled",
+        "ControlLock" : "Sys_OpSetControlLock"
+      }
+    }
   },
   "Alerts": {
     "Key": "DDM_REFRIGERATOR_OBERON_FRIDGE_V1",
