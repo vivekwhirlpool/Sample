@@ -1435,6 +1435,77 @@
         "FavoriteFillAmount2" : "Sys_OpSetFavoriteFillAmount2",
         "FavoriteFillUnits" : "Sys_OpSetFavoriteFillUnits"
       }
+    },
+    "Features": {
+      "Common": {
+        "FilterStatus": {
+          "Visible": true,
+          "AvailableIn": [
+            "US",
+            "CA"
+          ],
+          "StateAttributes": {
+            "State": "Sys_OpSetWaterFilter"
+          }
+        },
+        "ControlLock": {
+          "Visible": true,
+          "AvailableIn": [
+            "US",
+            "CA"
+          ],
+          "StateAttributes": {
+            "State": "Sys_OpSetControlLock"
+          }
+        },
+        "MaxCool": {
+          "Visible": true,
+          "ReadOnly": true,
+          "AvailableIn": [
+            "US",
+            "CA"
+          ],
+          "StateAttributes": {
+            "State": "Sys_OpSetMaxCool"
+          }
+        },
+        "MaxIce": {
+          "Visible": true,
+          "AvailableIn": [
+            "US"
+          ],
+          "StateAttributes": {
+            "State": "Sys_OpSetMaxIce"
+          }
+        },
+        "sabbath": {
+          "Visible": true,
+          "AvailableIn": [
+            "US",
+            "CA"
+          ],
+          "StateAttributes": {
+            "State": "Sys_OpSetSabbathModeEnabled"
+          }
+        },
+        "AutoNightLight": {
+          "Visible": true,
+          "AvailableIn": [
+            "US",
+            "CA"
+          ],
+          "StateAttributes": {
+            "State": "Sys_DisplaySetNightLightBrightness"
+          }
+        },
+        "Notifications": {
+          "Visible": true,
+          "AvailableIn": [
+            "US",
+            "CA"
+          ]
+        }
+      }
     }
   },
   "Alerts": {

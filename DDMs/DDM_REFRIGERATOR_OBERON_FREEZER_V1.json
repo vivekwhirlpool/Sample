@@ -1290,6 +1290,64 @@
         "SabbathModeEnabled" : "Sys_OpSetSabbathModeEnabled",
         "ControlLock" : "Sys_OpSetControlLock"
       }
+    },
+    "Features": {
+      "Common": {
+        "ControlLock": {
+          "Visible": true,
+          "AvailableIn": [
+            "US",
+            "CA"
+          ],
+          "StateAttributes": {
+            "State": "Sys_OpSetControlLock"
+          }
+        },
+        "MaxCool": {
+          "Visible": true,
+          "ReadOnly": true,
+          "AvailableIn": [
+            "US",
+            "CA"
+          ],
+          "StateAttributes": {
+            "State": "Sys_OpSetMaxCool"
+          }
+        },
+        "IceMaker": {
+          "Visible": true,
+          "AvailableIn": [
+            "US"
+          ],
+          "StateAttributes": {
+            "State": "Sys_OpSetIceMakerOn"
+          }
+        },
+        "sabbath": {
+          "Visible": true,
+          "AvailableIn": [
+            "US",
+            "CA"
+          ],
+          "StateAttributes": {
+            "State": "Sys_OpSetSabbathModeEnabled"
+          }
+        },
+        "Notifications": {
+          "Visible": true,
+          "AvailableIn": [
+            "US",
+            "CA"
+          ]
+        },
+        "EnergyHistory": {
+          "Visible": true,
+          "AvailableIn": [
+            "US",
+            "CA"
+          ]
+        }
+      }
     }
   },
   "Alerts": {
