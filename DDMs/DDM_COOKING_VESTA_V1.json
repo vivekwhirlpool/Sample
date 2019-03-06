@@ -2002,6 +2002,9 @@
   },
   "Personality": {
     "Key": "DDM_COOKING_VESTA_V1",
+    "CavityOrder": [
+      "OvenUpperCavity"
+    ],
     "Capability": {
       "OvenUpperCavity": {
         "CapabilityData": {
