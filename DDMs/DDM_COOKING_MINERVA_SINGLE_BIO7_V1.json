@@ -3838,7 +3838,56 @@
                 "value": 1
               }
             }
-          }
+          },
+          {
+  "ruleName": "KT Start action disabled",
+  "description": "Disable start action when the timer is running",
+  "actions": {
+    "ActionKitchenTimerStart": false
+  },
+  "condition": {
+    "type": "value",
+    "key": "KitchenTimer01_StatusState",
+    "valueOperator": "=",
+    "value": 1
+  }
+},
+{
+  "ruleName": "KT Cancel button disabled",
+  "description": "Disable cancel when timer is Idle or Completed",
+  "actions": {
+    "ActionKitchenTimerCancel": false
+  },
+  "condition": {
+    "type": "operation",
+    "binaryOperator": "and",
+    "left": {
+      "type": "value",
+      "key": "KitchenTimer01_StatusState",
+      "valueOperator": "=",
+      "value": 0
+    },
+    "right": {
+      "type": "value",
+      "key": "KitchenTimer01_StatusState",
+      "valueOperator": "=",
+      "value": 3
+    }
+  }
+}, 
+{
+  "ruleName": "KT Modify button enabled when running",
+  "description": "Enable modify when a cycle is running",
+  "actions": {
+    "ActionKitchenTimerModify": true
+  },
+  "condition": {
+    "type": "value",
+    "key": "KitchenTimer01_StatusState",
+    "valueOperator": "=",
+    "value": 1
+  }
+}
         ]
       }
     },
