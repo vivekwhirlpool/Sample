@@ -1835,15 +1835,8 @@
         }
       }
     },
-    "Rulesets": [
-      {
-        "FaultCodeHistory": {
-          "isLegacy": "false",
-          "groupBy": "Sys_AlertStatusCustomerFaultCode",
-          "attributes": "Sys_AlertStatusCustomerFaultCode"
-        }
-      }
-    ]
+    "Rulesets": {
+    }
   },
   "Alerts": {
     "Key": "DDM_DISHWASHER_JA_DISH17_246_V1",
