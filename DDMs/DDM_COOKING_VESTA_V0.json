@@ -1,17 +1,17 @@
 {
   "_id": "DDM_COOKING_VESTA_V0",
-  "_rev": "13-12d5b382b270f31bafff095f10f03777",
+  "_rev": "22-d3749bd0d514320723eb48e567a31273",
   "DDM": {
     "_id": "DDM_COOKING_VESTA_V0",
     "ddmName": "DDM_COOKING_VESTA_V0",
     "modelNumber": "WFE975H0HV,YWFE975H0HV,WFE975H0HZ,YWFE975H0HZ,WFG975H0HV,WFG975H0HZ,WFG975H0HZ0,WFG975H0HV0,YWFE975H0HZ0,YWFE975H0HV0,WFE975H0HZ0,WFE975H0HV0,WFGA75H0H0,WFG975H0H0,YWFEA75H0H0,WFEA75H0H0,YWFE975H0H0,WFE975H0H0",
-    "createdAt": "Apr 5, 2018 7:37:49 PM",
-    "createdBy": "Akash Karhale",
+    "createdAt": "Mar 20, 2018 6:30:00 PM",
+    "createdBy": "Madhvi Naik",
     "brandName": "Whirlpool",
     "category": "Cooking",
     "version": "1",
-    "ccuriVersion": "7",
-    "ccURI": "API144_COOKING_V7"
+    "ccuriVersion": "20",
+    "ccURI": "API144_COOKING_V20"
   },
   "DataModel": {
     "Key": "DDM_COOKING_VESTA_V0",
@@ -85,6 +85,18 @@
         "MappedAttributeName": "XCat_WifiStatusIspCheck",
         "Default": "0",
         "Key": "0x01020006"
+      },
+      {
+        "M2MAttributeName": "online",
+        "Instance": "",
+        "AttributeName": "online",
+        "Key": "0x00000000",
+        "MappedAttributeName": "online",
+        "DataType": "Boolean",
+        "DeviceIO": "RO",
+        "IsTimeSeries": false,
+        "IsTemplate": false,
+        "Default": false
       },
       {
         "IsTemplate": false,
@@ -1019,9 +1031,7 @@
         "DeviceIO": "RW",
         "MappedAttributeName": "OvenUpperCavity_CycleSetBreadProof",
         "Default": "0",
-        "EnumValues": {
-
-        },
+        "EnumValues": {},
         "Key": "0x03100016"
       },
       {
@@ -1991,7 +2001,7 @@
     ]
   },
   "Personality": {
-    "Key": "DDM_COOKING_VESTA_V0",
+    "Key": "DDM_COOKING_VESTA_V1",
     "Capability": {
       "OvenUpperCavity": {
         "CapabilityData": {
@@ -2470,7 +2480,6 @@
           },
           "Default": "OvenUpperCavity_CycleSetCommonModeCommonModeBake"
         }
-
       }
     },
     "Features": {
@@ -2524,6 +2533,16 @@
             "State": "Sys_OperationSetQuietModeEnabled"
           }
         },
+        "ChangeTempUnits": {
+          "Visible": true,
+          "AvailableIn": [
+            "US",
+            "CA"
+          ],
+          "StateAttributes": {
+            "State": "Sys_DisplaySetTempUnits"
+          }
+        },
         "RemoteStatus": {
           "Visible": true,
           "ReadOnly": true,
@@ -2569,28 +2588,132 @@
         }
       }
     },
-    "Rulesets": [
-      {
+    "Rulesets": {
+      "OvenUpperCavity": {
         "CycleHistory": {
-          "isLegacy": "false",
-          "groupBy": "OvenUpperCavity_CycleSetCommonMode",
-          "attributes": "OvenUpperCavity_CycleSetCommonMode,OvenUpperCavity_CycleSetFrozenBakeFood,OvenUpperCavity_CycleSetTargetTemp,OvenUpperCavity_TimeSetCookTimeSet"
-        },
-        "EnergyHistory": {
-          "isLegacy": "false",
-          "groupBy": "XCat_PowerStatusEnergyConsumption",
-          "attributes": "OvenUpperCavity_CycleSetCommonMode,OvenUpperCavity_CycleSetFrozenBakeFood,XCat_PowerStatusEnergyConsumption"
-        },
-        "FaultCodeHistory": {
-          "isLegacy": "false",
-          "groupBy": "Sys_AlertStatusCustomerFaultCode",
-          "attributes": "Sys_AlertStatusCustomerFaultCode"
+          "isLegacy": false,
+          "groupBy": "OvenUpperCavity_OpSetOperations",
+          "attributes": "OvenUpperCavity_CycleSetCommonMode,OvenUpperCavity_CycleSetEasyConvectFood,OvenUpperCavity_CycleSetTargetTemp,OvenUpperCavity_TimeSetCookTimeSet,OvenUpperCavity_CycleSetMeatProbeTargetTemp,OvenUpperCavity_OpSetCookTimeCompleteAction,OvenUpperCavity_TimeSetDelayTime"
         }
+      },
+      "EnergyHistory": {
+        "isLegacy": "false",
+        "groupBy": "XCat_PowerStatusEnergyConsumption",
+        "attributes": "XCat_PowerStatusEnergyConsumption"
+      },
+      "FaultCodeHistory": {
+        "isLegacy": "false",
+        "groupBy": "Sys_AlertStatusCustomerFaultCode",
+        "attributes": "Sys_AlertStatusCustomerFaultCode"
+      },
+      "FilterCriteria": {
+        "key": "OvenUpperCavity_OpSetOperations,OvenLowerCavity_OpSetOperations",
+        "value": "2,2"
+      },
+      "Scan2Cook": {
+        "ExcludedCycles": {
+          "OvenUpperCavity_CycleSetBreadProof": [
+            "BreadProofStandard",
+            "BreadProofRapid"
+          ],
+          "OvenUpperCavity_CycleSetFrozenBakeFood": [
+            "FrozenBakeFoodNuggets",
+            "FrozenBakeFoodLasagna",
+            "FrozenBakeFoodPizza",
+            "FrozenBakeFoodPie"
+          ]
+        },
+        "attributeMapping": {
+          "OvenUpperCavity": {
+            "ConfigCavity_SetTempDefault": "OvenUpperCavity_CycleSetTargetTemp",
+            "ConfigTime_SetCookTimeMax": "OvenUpperCavity_TimeSetCookTimeSet",
+            "ConfigTime_SetCookTimeMin": "OvenUpperCavity_TimeSetCookTimeSet"
+          }
+        }
+      },
+      "MyCreationExcludedMode-UpperCavity": {}
+    },
+    "ApplianceRulesets": {
+      "OvenUpperCavity": {
+        "Runtime": [
+          {
+            "ruleName": "Control Lock Disabled",
+            "description": "Disable control lock when light is on and quiet mode enabled",
+            "features": {
+              "ControlLock": false
+            },
+            "condition": {
+              "type": "operation",
+              "binaryOperator": "and",
+              "left": {
+                "type": "value",
+                "key": "OvenUpperCavity_DisplaySetLightOn",
+                "valueOperator": "=",
+                "value": 1
+              },
+              "right": {
+                "type": "value",
+                "key": "Sys_OperationSetQuietModeEnabled",
+                "valueOperator": "=",
+                "value": 1
+              }
+            }
+          },
+          {
+            "ruleName": "Rule with range elements",
+            "description": "Disable set oven while KitchenTimer is in specified range",
+            "features": {
+              "SetOven": false
+            },
+            "condition": {
+              "type": "value",
+              "key": "KitchenTimer01_StatusTimeRemaining",
+              "valueOperator": "between",
+              "value": [120, 300]
+            }
+          },
+          {
+            "ruleName": "With enum value",
+            "description": "Disable oven light when OpStatusState is Steady",
+            "features": {
+              "LightOnOff": false
+            },
+            "condition": {
+              "type": "value",
+              "key": "OvenUpperCavity_OpStatusState",
+              "valueOperator": "=",
+              "value": "Steady"
+            }
+          }
+        ]
       }
-    ]
+    },
+    "Models" : {
+      "UpperCavityHeader" : [
+        "OvenUpperCavity_CycleSetCommonMode",
+        "OvenUpperCavity_CycleSetEasyConvectFood",
+        "OvenUpperCavity_CycleSetFrozenBakeFood",
+        "OvenUpperCavity_DisplStatusDisplayTemp",
+        "OvenUpperCavity_CycleSetTargetTemp",
+        "OvenUpperCavity_TimeSetCookTimeSet",
+        "OvenUpperCavity_TimeStatusCookTimeRemaining",
+        "OvenUpperCavity_TimeStatusCycleTimeElapsed",
+        "OvenUpperCavity_TimeStatusDelayTimeRemaining",
+        "OvenUpperCavity_TimeStatusPreheatTimeRemaining",
+        "OvenUpperCavity_OpStatusState",
+        "OvenUpperCavity_OpStatusCookTimeState",
+        "OvenUpperCavity_CycleSetPreheatOn",
+        "OvenUpperCavity_OpStatusDoorOpen",
+        "OvenUpperCavity_OpStatusDoorLocked"
+      ],
+      "DashboardStatus" : [
+        "OvenUpperCavity_OpStatusState",
+        "Online"
+      ]
+    }
   },
   "Alerts": {
-    "Key": "DDM_COOKING_VESTA_V0",
+    "Key": "DDM_COOKING_VESTA_V1",
     "Alerts": [
       {
         "ApplianceAlerts": [
@@ -2689,13 +2812,25 @@
             "autodisable": false,
             "visible": true,
             "enable": false
+          },
+          {
+            "alertId": 783,
+            "name": "OvenOnWhileAway",
+            "attribute": "Online",
+            "type": "push",
+            "category": "Cooking",
+            "autodelete": false,
+            "autodisarm": false,
+            "autodisable": false,
+            "visible": false,
+            "enable": false
           }
         ]
       }
     ]
   },
   "Services": {
-    "_id": "DDM_COOKING_VESTA_V0",
+    "_id": "DDM_COOKING_VESTA_V1",
     "thirdPartyServices": [
       {
         "name": "Replenishment",
@@ -2704,23 +2839,17 @@
           {
             "name": "ADRS",
             "enabled": false,
-            "config": {
-
-            }
+            "config": {}
           },
           {
             "name": "Wallmart",
             "enabled": false,
-            "config": {
-
-            }
+            "config": {}
           },
           {
             "name": "Whirlpool",
             "enabled": false,
-            "config": {
-
-            }
+            "config": {}
           }
         ]
       },
@@ -2749,16 +2878,12 @@
           {
             "name": "National Grid",
             "enabled": false,
-            "config": {
-
-            }
+            "config": {}
           },
           {
             "name": "Genability",
             "enabled": false,
-            "config": {
-
-            }
+            "config": {}
           }
         ]
       },
@@ -2769,16 +2894,12 @@
           {
             "name": "Amazon Alexa",
             "enabled": false,
-            "config": {
-
-            }
+            "config": {}
           },
           {
             "name": "Google Home",
             "enabled": false,
-            "config": {
-
-            }
+            "config": {}
           }
         ]
       },
