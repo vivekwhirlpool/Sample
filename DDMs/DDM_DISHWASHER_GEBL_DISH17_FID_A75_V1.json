@@ -1727,20 +1727,8 @@
         ]
       }
     ],
-    "Rulesets": [
-      {
-        "EnergyHistory": {
-          "isLegacy": "false",
-          "groupBy": "XCat_OdometerStatusCycleCount",
-          "attributes": "Cavity_CycleSetCycleId,XCat_OdometerStatusCycleCount,XCat_PowerStatusEnergyConsumption,Cavity_OperationStatusWaterConsumption"
-        },
-        "FaultCodeHistory": {
-          "isLegacy": "false",
-          "groupBy": "Sys_AlertStatusCustomerFaultCode",
-          "attributes": "Sys_AlertStatusCustomerFaultCode"
-        }
-      }
-    ]
+    "Rulesets": {
+    }
   },
   "Alerts": {
     "Key": "DDM_DISHWASHER_GEBL_DISH17_FID_A75_V1",
