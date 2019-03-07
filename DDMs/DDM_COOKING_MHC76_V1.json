@@ -2291,19 +2291,6 @@
     "Capability": {
     },
     "Rulesets": {
-      "OvenUpperCavity" : 
-      {
-        "CycleHistory": {
-          "isLegacy": "false",
-          "groupBy": "Mwo_TimeSetCookTimeSet",
-          "attributes": "Mwo_TimeSetCookTimeSet,Mwo_ModeSetConvectRoast,Mwo_ModeSetConvectBake,Mwo_ModeSetSteamCook,Mwo_ModeSetAutoCook,Mwo_ModeSetDefrost,Mwo_ModeSetReheat,Mwo_ModeSetCook,Mwo_ModeSetPopcorn,Mwo_ModeSetBakedPotato,Mwo_ModeSetKeepWarm,Mwo_ModeSetSoften,Mwo_ModeSetMelt,Mwo_ModeSetBoilAndSimmer,Mwo_ModeSetKidsMenu,Mwo_CycleSetCookPower,Mwo_CycleSetTargetTemp,Mwo_CycleSetAmount"
-        },
-        "FaultCodeHistory": {
-          "isLegacy": "false",
-          "groupBy": "Sys_AlertStatusCustomerFaultCode",
-          "attributes": "Sys_AlertStatusCustomerFaultCode"
-        }
-      }
 }
   },
   "Alerts": {
