@@ -3187,7 +3187,8 @@
         }
       }
     ],
-    "Rulesets": [
+    "Rulesets": {
+      "OvenUpperCavity" : 
       {
         "CycleHistory": {
           "isLegacy": "false",
@@ -3200,7 +3201,7 @@
           "attributes": "Sys_AlertStatusCustomerFaultCode"
         }
       }
-    ]
+}
   },
   "Alerts": {
     "Key": "DDM_COOKING_MHC76_V1",
