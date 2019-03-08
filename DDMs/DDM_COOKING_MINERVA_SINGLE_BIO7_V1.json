@@ -3860,7 +3860,7 @@
   },
   "condition": {
     "type": "operation",
-    "binaryOperator": "and",
+    "binaryOperator": "or",
     "left": {
       "type": "value",
       "key": "KitchenTimer01_StatusState",
