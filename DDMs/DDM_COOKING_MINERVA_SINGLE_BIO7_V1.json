@@ -3887,6 +3887,55 @@
     "valueOperator": "=",
     "value": "Running"
   }
+},
+          {
+  "ruleName": "Condition for enabling the SendToAppliance button",
+  "description": "A command can be sent when the device is online",
+  "actions": {
+    "ActionSendToOven": true
+  },
+  "condition": {
+    "type": "value",
+    "key": "Online",
+    "valueOperator": "=",
+    "value": 1
+  }
+},
+{
+  "ruleName": "Condition for enabling the StartCommand button",
+  "description": "A command can be started if the device is online and remote is enbled",
+  "actions": {
+    "ActionStartCommand": true
+  },
+  "condition": {
+    "type": "operation",
+    "binaryOperator": "and",
+    "left": {
+      "type": "value",
+      "key": "Online",
+      "valueOperator": "=",
+      "value": 1
+    },
+    "right": {
+      "type": "value",
+      "key": "XCat_RemoteSetRemoteControlEnable",
+      "valueOperator": "=",
+      "value": 1
+    }
+  }
+}, 
+{
+  "ruleName": "Condition for enabling the modify my creation button",
+  "description": "Enable the Modify button in MyCreations when online",
+  "actions": {
+    "ActionMyCreationModify": true
+  },
+  "condition": {
+    "type": "value",
+    "key": "Online",
+    "valueOperator": "=",
+    "value": 1
+  }
 }
         ]
       }
