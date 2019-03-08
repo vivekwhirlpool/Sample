@@ -5573,7 +5573,7 @@
             "US"
           ],
           "StateAttributes": {
-
+            "MeatProbeStatus": "LowerCavity_MeatProbeStatus"
           },
           "StatusAttributes": [
             "LowerCavity_CavityModeOven",
@@ -5599,11 +5599,13 @@
             "LowerCavity_CavityOperations"
           ],
           "SetOperationsMapping": {
-            "Operation": "LowerCavity_CavityOperations",
-            "TimerOperations": "LowerCavity_OvenTimerOperations",
-            "CookTime": "LowerCavity_CookTimeSetTime",
+            "CycleName" : "LowerCavity_CavityModeOven",
+            "ProfileId": "LowerCavity_CulinaryCenterID",
+            "MeatProbeTargetTemp": "LowerCavity_MeatProbeTargetTemp",
             "CookTemp": "LowerCavity_CavityTargetTemp",
-            "ProfileId": "LowerCavity_CulinaryCenterID"
+            "CookTime": "LowerCavity_CookTimeSetTime",
+            "TimerOperations": "LowerCavity_OvenTimerOperations",
+            "Operation": "LowerCavity_CavityOperations"
           }
         },
         "SetOven": {
