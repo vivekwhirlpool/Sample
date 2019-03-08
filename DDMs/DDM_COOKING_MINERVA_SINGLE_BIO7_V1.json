@@ -3849,7 +3849,7 @@
     "type": "value",
     "key": "KitchenTimer01_StatusState",
     "valueOperator": "=",
-    "value": 1
+    "value": "Running"
   }
 },
 {
@@ -3865,13 +3865,13 @@
       "type": "value",
       "key": "KitchenTimer01_StatusState",
       "valueOperator": "=",
-      "value": 0
+      "value": "Idle"
     },
     "right": {
       "type": "value",
       "key": "KitchenTimer01_StatusState",
       "valueOperator": "=",
-      "value": 3
+      "value": "Completed"
     }
   }
 }, 
@@ -3885,7 +3885,7 @@
     "type": "value",
     "key": "KitchenTimer01_StatusState",
     "valueOperator": "=",
-    "value": 1
+    "value": "Running"
   }
 }
         ]
