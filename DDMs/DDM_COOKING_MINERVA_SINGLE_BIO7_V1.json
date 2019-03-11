@@ -3892,7 +3892,7 @@
   "ruleName": "Condition for enabling the SendToAppliance button",
   "description": "A command can be sent when the device is online",
   "actions": {
-    "ActionSendToOven": true
+    "ActionSendCommand": true
   },
   "condition": {
     "type": "value",
@@ -3925,10 +3925,10 @@
   }
 }, 
 {
-  "ruleName": "Condition for enabling the modify my creation button",
-  "description": "Enable the Modify button in MyCreations when online",
+  "ruleName": "Condition for enabling the modify button",
+  "description": "Enable the Modify button when online",
   "actions": {
-    "ActionMyCreationModify": true
+    "ActionModifyCommand": true
   },
   "condition": {
     "type": "value",
