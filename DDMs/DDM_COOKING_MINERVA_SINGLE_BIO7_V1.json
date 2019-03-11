@@ -3923,7 +3923,40 @@
       "value": 1
     }
   }
-}, 
+},
+{
+  "ruleName": "Condition for enabling the Cancel button",
+  "description": "The device must be online, with remote enabled and not idle",
+  "actions": {
+    "ActionCancelCommand": true
+  },
+  "condition": {
+    "type": "operation",
+    "binaryOperator": "and",
+    "left": {
+      "type": "value",
+      "key": "Online",
+      "valueOperator": "=",
+      "value": 1
+    },
+    "right": {
+      "type": "operation",
+      "binaryOperator": "and",
+      "left": {
+        "type": "value",
+        "key": "OvenUpperCavity_OpStatusState",
+        "valueOperator": "!=",
+        "value": "Idle"
+      },
+      "right": {
+        "type": "value",
+        "key": "XCat_RemoteSetRemoteControlEnable",
+        "valueOperator": "=",
+        "value": 1
+      }
+    }
+  }
+},
 {
   "ruleName": "Condition for enabling the modify button",
   "description": "Enable the Modify button when online",
@@ -3947,6 +3980,7 @@
           "OvenUpperCavity_CycleSetEasyConvectFood",
           "OvenUpperCavity_CycleSetFrozenBakeFood"
         ],
+        "OpStatusState" : "OvenUpperCavity_OpStatusState",
         "TimeRemaining": "OvenUpperCavity_TimeStatusCookTimeRemaining",
         "TimeElapsed": "OvenUpperCavity_TimeStatusCookTimeElapsed",
         "DoorOpen": "OvenUpperCavity_OpStatusDoorOpen",
