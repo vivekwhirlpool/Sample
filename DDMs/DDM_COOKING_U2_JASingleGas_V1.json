@@ -2405,7 +2405,6 @@
     "AttributesMapping": {
       "OvenUpperCavity": {
         "CycleName": [
-          "OvenUpperCavity_CycleSetBrowning",
           "OvenUpperCavity_CycleSetCommonMode",
           "OvenUpperCavity_CycleSetConvectBakeFood",
           "OvenUpperCavity_CycleSetEasySteamFood",
