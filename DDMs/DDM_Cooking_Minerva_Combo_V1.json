@@ -3644,7 +3644,8 @@
                   525,
                   550
                 ],
-                "Default": 325
+                "Default": 325,
+                "Offset" : 0
               }
             },
             "Optional": {
@@ -3653,7 +3654,8 @@
                   "Min": 0,
                   "Max": 43200,
                   "Step": 60,
-                  "Default": 0
+                  "Default": 0,
+                  "OffsetPercentage" : 0
                 }
               },
               "LowerCavity_DelayTimeSetTime": {
@@ -3695,7 +3697,8 @@
                   525,
                   550
                 ],
-                "Default": 350
+                "Default": 350,
+                "Offset" : 0
               }
             },
             "Optional": {
@@ -3704,7 +3707,8 @@
                   "Min": 0,
                   "Max": 43200,
                   "Step": 60,
-                  "Default": 0
+                  "Default": 0,
+                  "OffsetPercentage" : -20
                 }
               },
               "LowerCavity_DelayTimeSetTime": {
@@ -3746,7 +3750,8 @@
                   525,
                   550
                 ],
-                "Default": 325
+                "Default": 325,
+                "Offset" : -20
               }
             },
             "Optional": {
@@ -3755,7 +3760,8 @@
                   "Min": 0,
                   "Max": 43200,
                   "Step": 60,
-                  "Default": 0
+                  "Default": 0,
+                  "OffsetPercentage" : 0
                 }
               },
               "LowerCavity_DelayTimeSetTime": {
@@ -3784,7 +3790,8 @@
                   "Max": 550,
                   "StepF": 5,
                   "StepC": 3,
-                  "Default": 550
+                  "Default": 550,
+                  "Offset" : 0
                 }
               }
             },
@@ -3794,7 +3801,8 @@
                   "Min": 0,
                   "Max": 43200,
                   "Step": 60,
-                  "Default": 0
+                  "Default": 0,
+                  "OffsetPercentage" : 0
                 }
               },
               "LowerCavity_DelayTimeSetTime": {
