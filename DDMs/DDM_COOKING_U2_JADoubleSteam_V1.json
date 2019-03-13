@@ -4587,7 +4587,8 @@
             "US"
           ],
           "StateAttributes": {
-            
+                        "MeatProbeStatus": "OvenUpperCavity_AlertStatusMeatProbePluggedIn"
+
           },
           "StatusAttributes": [
             "OvenUpperCavity_CycleSetCommonMode",
@@ -4610,6 +4611,7 @@
             "OvenUpperCavity_CulinaryCtrSetId",
             "OvenUpperCavity_CycleSetTargetTemp",
             "OvenUpperCavity_TimeSetCookTimeSet",
+            "OvenUpperCavity_CycleSetMeatProbeTargetTemp",
             "OvenUpperCavity_OpSetOperations"
           ],
           "SetOperationsMapping": {
@@ -4617,7 +4619,8 @@
             "TimerOperations": "OvenUpperCavity_TimeSetCookTimeOperations",
             "CookTime": "OvenUpperCavity_TimeSetCookTimeSet",
             "CookTemp": "OvenUpperCavity_CycleSetTargetTemp",
-            "ProfileId": "OvenUpperCavity_CulinaryCtrSetId"
+            "ProfileId": "OvenUpperCavity_CulinaryCtrSetId",
+            "MeatProbeTargetTemp" : "OvenUpperCavity_CycleSetMeatProbeTargetTemp"
           }
         },
         "SetOven": {
