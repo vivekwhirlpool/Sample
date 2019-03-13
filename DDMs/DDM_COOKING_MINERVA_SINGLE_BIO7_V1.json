@@ -3808,7 +3808,8 @@
             "OvenUpperCavity_TimeSetDelayTime"
           ],
           "SetOperationsMapping": {
-            "Operation": "OvenUpperCavity_OpSetOperations"
+            "Operation": "OvenUpperCavity_OpSetOperations",
+            "CookTime": "OvenUpperCavity_TimeSetCookTimeSet"
           }
         }
       }
