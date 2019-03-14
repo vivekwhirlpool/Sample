@@ -5602,6 +5602,7 @@
             "LowerCavity_CulinaryCenterID",
             "LowerCavity_MeatProbeTargetTemp",
             "LowerCavity_CavityTargetTemp",
+            "LowerCavity_DelayTimeSetTime",
             "LowerCavity_CookTimeSetTime",
             "LowerCavity_OvenTimerOperations",
             "LowerCavity_CavityOperations"
