@@ -5612,6 +5612,7 @@
             "MeatProbeTargetTemp": "LowerCavity_MeatProbeTargetTemp",
             "CookTemp": "LowerCavity_CavityTargetTemp",
             "CookTime": "LowerCavity_CookTimeSetTime",
+            "DelayTime" : "LowerCavity_DelayTimeSetTime",
             "TimerOperations": "LowerCavity_OvenTimerOperations",
             "Operation": "LowerCavity_CavityOperations"
           }
