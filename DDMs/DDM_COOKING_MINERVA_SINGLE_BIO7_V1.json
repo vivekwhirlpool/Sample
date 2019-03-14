@@ -3983,7 +3983,7 @@
         ],
         "OpStatusState": "OvenUpperCavity_OpStatusState",
         "TimeRemaining": "OvenUpperCavity_TimeStatusCookTimeRemaining",
-        "TimeElapsed": "OvenUpperCavity_TimeStatusCookTimeElapsed",
+        "TimeElapsed": "OvenUpperCavity_TimeStatusCycleTimeElapsed",
         "DoorOpen": "OvenUpperCavity_OpStatusDoorOpen",
         "LightOn": "OvenUpperCavity_DisplaySetLightOn",
         "CookTimeSetTime": "OvenUpperCavity_TimeSetCookTimeSet",
