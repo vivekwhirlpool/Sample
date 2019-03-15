@@ -3262,7 +3262,8 @@
             "CA"
           ],
           "StateAttributes": {
-            "State": "OvenUpperCavity_OpStatusState"
+            "State": "OvenUpperCavity_OpStatusState",
+            "MeatProbeTargetTemp": "OvenUpperCavity_CycleSetMeatProbeTargetTemp"
           },
           "StatusAttributes": [
             "OvenUpperCavity_CycleSetCommonMode",
@@ -3320,22 +3321,24 @@
             "US",
             "CA"
           ],
-          "StatusAttributes": [
+          "SendCommandAttributes": [
             "OvenUpperCavity_CycleSetCommonMode",
             "OvenUpperCavity_CycleSetConvectBakeFood",
             "OvenUpperCavity_CycleSetEasySteamFood",
             "OvenUpperCavity_CycleSetEasyConvectFood",
             "OvenUpperCavity_CycleSetBreadProof",
             "OvenUpperCavity_CycleSetTargetTemp",
-            "OvenUpperCavity_TimeStatusDelayTimeRemaining",
-            "OvenUpperCavity_TimeStatusCookTimeRemaining",
-            "OvenUpperCavity_AlertStatusMeatProbePluggedIn",
-            "OvenUpperCavity_OpStatusCookTimeState",
             "OvenUpperCavity_TimeSetCookTimeSet",
             "OvenUpperCavity_CycleSetMeatProbeTargetTemp",
-            "OvenUpperCavity_DisplStatusMeatProbeDisplayTemp",
-            "OvenUpperCavity_TimeSetDelayTime"
+            "OvenUpperCavity_TimeSetDelayTime",
+            "OvenUpperCavity_OpSetCookTimeCompleteAction",
+            "OvenUpperCavity_OpSetOperations",
+            "OvenUpperCavity_TimeSetCookTimeOperations"
           ],
+          "SetOperationsMapping": {
+            "Operation": "OvenUpperCavity_OpSetOperations",
+            "TimerOperations": "OvenUpperCavity_TimeSetCookTimeOperations"
+          },
           "StateAttributes": {
             "State": "OvenUpperCavity_OpStatusState"
           }

@@ -5594,7 +5594,6 @@
             "LowerCavity_CookTimeSetTime",
             "LowerCavity_MeatProbeTargetTemp",
             "LowerCavity_MeatProbeTemp",
-            "LowerCavity_DelayTimeSetTime",
             "LowerCavity_CavityActualTemp"
           ],
           "SendCommandAttributes": [
@@ -5602,7 +5601,6 @@
             "LowerCavity_CulinaryCenterID",
             "LowerCavity_MeatProbeTargetTemp",
             "LowerCavity_CavityTargetTemp",
-            "LowerCavity_DelayTimeSetTime",
             "LowerCavity_CookTimeSetTime",
             "LowerCavity_OvenTimerOperations",
             "LowerCavity_CavityOperations"
@@ -5613,7 +5611,6 @@
             "MeatProbeTargetTemp": "LowerCavity_MeatProbeTargetTemp",
             "CookTemp": "LowerCavity_CavityTargetTemp",
             "CookTime": "LowerCavity_CookTimeSetTime",
-            "DelayTime" : "LowerCavity_DelayTimeSetTime",
             "TimerOperations": "LowerCavity_OvenTimerOperations",
             "Operation": "LowerCavity_CavityOperations"
           }
@@ -5625,7 +5622,8 @@
             "CA"
           ],
           "StateAttributes": {
-            "State": "SystemSettings_TempDisplayUnits"
+            "State": "SystemSettings_TempDisplayUnits",
+            "MeatProbeTargetTemp": "LowerCavity_MeatProbeTargetTemp"
           },
           "StatusAttributes": [
             "LowerCavity_CavityModeOven",
