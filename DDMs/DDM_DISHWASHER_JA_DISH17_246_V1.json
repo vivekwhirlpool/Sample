@@ -1327,10 +1327,10 @@
   "Personality": {
     "Key": "DDM_DISHWASHER_JA_DISH17_246_V1",
     "CavityOrder": [
-      "DishCavity"
+      "UpperCavity"
     ],
     "Capability": {
-      "DishCavity": {
+      "UpperCavity": {
         "CapabilityData": {
           "DishCavity_WashModeCycleNormal": {
             "Required": {
@@ -1788,7 +1788,7 @@
           }
         }
       },
-      "DishCavity": {
+      "UpperCavity": {
         "SetDishWasher": {
           "Visible": true,
           "AvailableIn": [
