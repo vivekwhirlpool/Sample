@@ -1789,7 +1789,7 @@
         }
       },
       "UpperCavity": {
-        "SetDishWasher": {
+        "SetOven": {
           "Visible": true,
           "AvailableIn": [
             "US",
