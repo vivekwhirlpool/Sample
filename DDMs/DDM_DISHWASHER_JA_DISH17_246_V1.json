@@ -803,7 +803,8 @@
         "AttributeName": "Close",
         "RangeValues": {
           "StepSize": "1",
-          "Max": "4294967295"
+          "Max": "4294967295",
+          "Min" : "1"
         },
         "DeviceIO": "RW",
         "MappedAttributeName": "Relational_EntityClose",
