@@ -1226,8 +1226,12 @@
   },
   "Personality": {
     "Key": "DDM_REFRIGERATOR_OBERON_FREEZER_V1",
+    "CavityOrder": [
+      "UpperZone",
+      "LowerZone"
+    ],
     "Capability": {
-      "SystemCavity": {
+      "UpperZone": {
         "CapabilityData": {
           "UpperZone_OpSetTempPreset": {
             "Refrigerator_OpSetTargetTemp": {
@@ -1238,7 +1242,17 @@
                 "Default": -189
               }
             }
-          },
+          }
+        },
+        "SetCycle": {
+          "UpperZone_OpSetTempPreset": {
+
+          }
+
+          }
+        },
+      "LowerZone": {
+        "CapabilityData": {
           "LowerZone_OpSetTempPreset": {
             "Freezer_OpSetTempPreset": {
               "Map": [
@@ -1259,9 +1273,6 @@
           }
         },
         "SetCycle": {
-          "UpperZone_OpSetTempPreset": {
-
-          },
           "LowerZone_OpSetTempPreset": {
 
           }
@@ -1269,11 +1280,11 @@
       }
     },
     "AttributesMapping": {
-      "FreezerCavity": {
+      "UpperZone": {
         "DoorOpen": "Freezer_OpStatusDoorOpen",
         "TargetTemp" : "Freezer_OpSetTempPreset"
       },
-      "RefrigeratorCavity": {
+      "LowerZone": {
         "DoorOpen": "Refrigerator_OpStatusDoorOpen",
         "OverTemp" : "Refrigerator_OpStatusOverTemp",
         "TargetTemp" : "Refrigerator_OpSetTargetTemp"
