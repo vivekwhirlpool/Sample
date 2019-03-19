@@ -3808,7 +3808,8 @@
             "OvenUpperCavity_TimeSetDelayTime"
           ],
           "SetOperationsMapping": {
-            "Operation": "OvenUpperCavity_OpSetOperations"
+            "Operation": "OvenUpperCavity_OpSetOperations",
+            "CookTime": "OvenUpperCavity_TimeSetCookTimeSet"
           }
         }
       }
@@ -3840,54 +3841,136 @@
             }
           },
           {
-  "ruleName": "KT Start action disabled",
-  "description": "Disable start action when the timer is running",
-  "actions": {
-    "ActionKitchenTimerStart": false
-  },
-  "condition": {
-    "type": "value",
-    "key": "KitchenTimer01_StatusState",
-    "valueOperator": "=",
-    "value": 1
-  }
-},
-{
-  "ruleName": "KT Cancel button disabled",
-  "description": "Disable cancel when timer is Idle or Completed",
-  "actions": {
-    "ActionKitchenTimerCancel": false
-  },
-  "condition": {
-    "type": "operation",
-    "binaryOperator": "and",
-    "left": {
-      "type": "value",
-      "key": "KitchenTimer01_StatusState",
-      "valueOperator": "=",
-      "value": 0
-    },
-    "right": {
-      "type": "value",
-      "key": "KitchenTimer01_StatusState",
-      "valueOperator": "=",
-      "value": 3
-    }
-  }
-}, 
-{
-  "ruleName": "KT Modify button enabled when running",
-  "description": "Enable modify when a cycle is running",
-  "actions": {
-    "ActionKitchenTimerModify": true
-  },
-  "condition": {
-    "type": "value",
-    "key": "KitchenTimer01_StatusState",
-    "valueOperator": "=",
-    "value": 1
-  }
-}
+            "ruleName": "KT Start action disabled",
+            "description": "Disable start action when the timer is running",
+            "actions": {
+              "ActionKitchenTimerStart": false
+            },
+            "condition": {
+              "type": "value",
+              "key": "KitchenTimer01_StatusState",
+              "valueOperator": "=",
+              "value": "Running"
+            }
+          },
+          {
+            "ruleName": "KT Cancel button disabled",
+            "description": "Disable cancel when timer is Idle or Completed",
+            "actions": {
+              "ActionKitchenTimerCancel": false
+            },
+            "condition": {
+              "type": "operation",
+              "binaryOperator": "or",
+              "left": {
+                "type": "value",
+                "key": "KitchenTimer01_StatusState",
+                "valueOperator": "=",
+                "value": "Idle"
+              },
+              "right": {
+                "type": "value",
+                "key": "KitchenTimer01_StatusState",
+                "valueOperator": "=",
+                "value": "Completed"
+              }
+            }
+          },
+          {
+            "ruleName": "KT Modify button enabled when running",
+            "description": "Enable modify when a cycle is running",
+            "actions": {
+              "ActionKitchenTimerModify": true
+            },
+            "condition": {
+              "type": "value",
+              "key": "KitchenTimer01_StatusState",
+              "valueOperator": "=",
+              "value": "Running"
+            }
+          },
+          {
+            "ruleName": "Condition for enabling the SendToAppliance button",
+            "description": "A command can be sent when the device is online",
+            "actions": {
+              "ActionSendCommand": true
+            },
+            "condition": {
+              "type": "value",
+              "key": "Online",
+              "valueOperator": "=",
+              "value": 1
+            }
+          },
+          {
+            "ruleName": "Condition for enabling the StartCommand button",
+            "description": "A command can be started if the device is online and remote is enbled",
+            "actions": {
+              "ActionStartCommand": true
+            },
+            "condition": {
+              "type": "operation",
+              "binaryOperator": "and",
+              "left": {
+                "type": "value",
+                "key": "Online",
+                "valueOperator": "=",
+                "value": 1
+              },
+              "right": {
+                "type": "value",
+                "key": "XCat_RemoteSetRemoteControlEnable",
+                "valueOperator": "=",
+                "value": 1
+              }
+            }
+          },
+          {
+            "ruleName": "Condition for enabling the Cancel button",
+            "description": "The device must be online, with remote enabled and not idle",
+            "actions": {
+              "ActionCancelCommand": true
+            },
+            "condition": {
+              "type": "operation",
+              "binaryOperator": "and",
+              "left": {
+                "type": "value",
+                "key": "Online",
+                "valueOperator": "=",
+                "value": 1
+              },
+              "right": {
+                "type": "operation",
+                "binaryOperator": "and",
+                "left": {
+                  "type": "value",
+                  "key": "OvenUpperCavity_OpStatusState",
+                  "valueOperator": "!=",
+                  "value": "Idle"
+                },
+                "right": {
+                  "type": "value",
+                  "key": "XCat_RemoteSetRemoteControlEnable",
+                  "valueOperator": "=",
+                  "value": 1
+                }
+              }
+            }
+          },
+          {
+            "ruleName": "Condition for enabling the modify button",
+            "description": "Enable the Modify button when online",
+            "actions": {
+              "ActionModifyCommand": true
+            },
+            "condition": {
+              "type": "value",
+              "key": "Online",
+              "valueOperator": "=",
+              "value": 1
+            }
+          }
         ]
       }
     },
@@ -3898,10 +3981,14 @@
           "OvenUpperCavity_CycleSetEasyConvectFood",
           "OvenUpperCavity_CycleSetFrozenBakeFood"
         ],
+        "OpStatusState": "OvenUpperCavity_OpStatusState",
         "TimeRemaining": "OvenUpperCavity_TimeStatusCookTimeRemaining",
-        "TimeElapsed": "OvenUpperCavity_TimeStatusCookTimeElapsed",
+        "TimeElapsed": "OvenUpperCavity_TimeStatusCycleTimeElapsed",
         "DoorOpen": "OvenUpperCavity_OpStatusDoorOpen",
-        "LightOn": "OvenUpperCavity_DisplaySetLightOn"
+        "LightOn": "OvenUpperCavity_DisplaySetLightOn",
+        "CookTimeSetTime": "OvenUpperCavity_TimeSetCookTimeSet",
+        "CavityTargetTemp": "OvenUpperCavity_CycleSetTargetTemp",
+        "DelayTimeSetTime": "OvenUpperCavity_TimeSetDelayTime"
       },
       "OvenLowerCavity": {
         "CycleName": [
@@ -3938,7 +4025,7 @@
         "OvenUpperCavity_OpStatusDoorLocked"
       ]
     },
-        "Rulesets": {
+    "Rulesets": {
       "OvenUpperCavity": {
         "CycleHistory": {
           "isLegacy": false,
@@ -3999,8 +4086,12 @@
           }
         }
       },
-      "MyCreationExcludedMode-UpperCavity": {},
-      "MyCreationExcludedMode-LowerCavity": {}
+      "MyCreationExcludedMode-UpperCavity": {
+        
+      },
+      "MyCreationExcludedMode-LowerCavity": {
+        
+      }
     }
   },
   "Alerts": {

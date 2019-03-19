@@ -3846,25 +3846,51 @@
         "Online"
       ]
     },
-    "Rulesets": [
-      {
+    "Rulesets": {
+      "OvenUpperCavity": {
         "CycleHistory": {
-          "isLegacy": "false",
-          "groupBy": "OvenUpperCavity_CycleSetCommonMode",
-          "attributes": "OvenUpperCavity_CycleSetCommonMode,OvenUpperCavity_CycleSetEasyConvectFood,OvenUpperCavity_CycleSetFrozenBakeFood,OvenUpperCavity_CycleSetTargetTemp,OvenUpperCavity_TimeSetCookTimeSet"
-        },
-        "EnergyHistory": {
-          "isLegacy": "false",
-          "groupBy": "XCat_PowerStatusEnergyConsumption",
-          "attributes": "OvenUpperCavity_CycleSetCommonMode, OvenUpperCavity_CycleSetEasyConvectFood, OvenUpperCavity_CycleSetFrozenBakeFood, XCat_PowerStatusEnergyConsumption"
-        },
-        "FaultCodeHistory": {
-          "isLegacy": "false",
-          "groupBy": "Sys_AlertStatusCustomerFaultCode",
-          "attributes": "Sys_AlertStatusCustomerFaultCode"
+          "isLegacy": false,
+          "groupBy": "OvenUpperCavity_OpSetOperations",
+          "attributes": "OvenUpperCavity_CycleSetCommonMode,OvenUpperCavity_CycleSetEasyConvectFood,OvenUpperCavity_CycleSetTargetTemp,OvenUpperCavity_TimeSetCookTimeSet,OvenUpperCavity_CycleSetMeatProbeTargetTemp,OvenUpperCavity_OpSetCookTimeCompleteAction,OvenUpperCavity_TimeSetDelayTime"
         }
-      }
-    ]
+      },
+      "EnergyHistory": {
+        "isLegacy": "false",
+        "groupBy": "XCat_PowerStatusEnergyConsumption",
+        "attributes": "XCat_PowerStatusEnergyConsumption"
+      },
+      "FaultCodeHistory": {
+        "isLegacy": "false",
+        "groupBy": "Sys_AlertStatusCustomerFaultCode",
+        "attributes": "Sys_AlertStatusCustomerFaultCode"
+      },
+      "FilterCriteria": {
+        "key": "OvenUpperCavity_OpSetOperations,OvenLowerCavity_OpSetOperations",
+        "value": "2,2"
+      },
+      "Scan2Cook": {
+        "ExcludedCycles": {
+          "OvenUpperCavity_CycleSetBreadProof": [
+            "BreadProofStandard",
+            "BreadProofRapid"
+          ],
+          "OvenUpperCavity_CycleSetFrozenBakeFood": [
+            "FrozenBakeFoodNuggets",
+            "FrozenBakeFoodLasagna",
+            "FrozenBakeFoodPizza",
+            "FrozenBakeFoodPie"
+          ]
+        },
+        "attributeMapping": {
+          "OvenUpperCavity": {
+            "ConfigCavity_SetTempDefault": "OvenUpperCavity_CycleSetTargetTemp",
+            "ConfigTime_SetCookTimeMax": "OvenUpperCavity_TimeSetCookTimeSet",
+            "ConfigTime_SetCookTimeMin": "OvenUpperCavity_TimeSetCookTimeSet"
+          }
+        }
+      },
+      "MyCreationExcludedMode-UpperCavity": {}
+    }
   },
   "Alerts": {
     "Key": "DDM_COOKING_VSI_V2",

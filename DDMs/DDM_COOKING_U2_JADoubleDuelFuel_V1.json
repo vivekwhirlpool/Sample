@@ -4009,7 +4009,6 @@
     "AttributesMapping": {
       "OvenUpperCavity": {
         "CycleName": [
-          "OvenUpperCavity_CycleSetBrowning",
           "OvenUpperCavity_CycleSetCommonMode",
           "OvenUpperCavity_CycleSetConvectBakeFood",
           "OvenUpperCavity_CycleSetEasySteamFood",
@@ -4087,7 +4086,7 @@
             "US"
           ],
           "StateAttributes": {
-            
+            "MeatProbeStatus": "OvenUpperCavity_AlertStatusMeatProbePluggedIn"
           },
           "StatusAttributes": [
             "OvenUpperCavity_CycleSetCommonMode",
@@ -4109,6 +4108,7 @@
             "OvenUpperCavity_CulinaryCtrSetId",
             "OvenUpperCavity_CycleSetTargetTemp",
             "OvenUpperCavity_TimeSetCookTimeSet",
+            "OvenUpperCavity_CycleSetMeatProbeTargetTemp",
             "OvenUpperCavity_OpSetOperations"
           ],
           "SetOperationsMapping": {
@@ -4116,7 +4116,8 @@
             "TimerOperations": "OvenUpperCavity_TimeSetCookTimeOperations",
             "CookTime": "OvenUpperCavity_TimeSetCookTimeSet",
             "CookTemp": "OvenUpperCavity_CycleSetTargetTemp",
-            "ProfileId": "OvenUpperCavity_CulinaryCtrSetId"
+            "ProfileId": "OvenUpperCavity_CulinaryCtrSetId",
+            "MeatProbeTargetTemp" : "OvenUpperCavity_CycleSetMeatProbeTargetTemp"
           }
         },
         "SetOven": {
@@ -4126,7 +4127,9 @@
             "CA"
           ],
           "StateAttributes": {
-            "State": "OvenUpperCavity_OpStatusState"
+            "State": "OvenUpperCavity_OpStatusState",
+            "MeatProbeStatus": "OvenUpperCavity_AlertStatusMeatProbePluggedIn",
+            "MeatProbeTargetTemp": "OvenUpperCavity_CycleSetMeatProbeTargetTemp"
           },
           "StatusAttributes": [
             "OvenUpperCavity_CycleSetCommonMode",
@@ -4154,6 +4157,7 @@
             "OvenUpperCavity_CycleSetMeatProbeTargetTemp",
             "OvenUpperCavity_TimeSetDelayTime",
             "OvenUpperCavity_OpSetCookTimeCompleteAction",
+            "OvenUpperCavity_AlertStatusMeatProbePluggedIn",
             "OvenUpperCavity_OpSetOperations",
             "OvenUpperCavity_TimeSetCookTimeOperations"
           ],
@@ -4161,7 +4165,8 @@
             "Operation": "OvenUpperCavity_OpSetOperations",
             "TimerOperations": "OvenUpperCavity_TimeSetCookTimeOperations",
             "CookTime": "OvenUpperCavity_TimeSetCookTimeSet",
-            "CookTemp": "OvenUpperCavity_CycleSetTargetTemp"
+            "CookTemp": "OvenUpperCavity_CycleSetTargetTemp",
+            "MeatProbeTargetTemp" : "OvenUpperCavity_CycleSetMeatProbeTargetTemp"
           }
         },
         "MeatProbe": {
@@ -4182,21 +4187,19 @@
             "US",
             "CA"
           ],
-          "StatusAttributes": [
+          "SendCommandAttributes": [
             "OvenUpperCavity_CycleSetCommonMode",
             "OvenUpperCavity_CycleSetConvectBakeFood",
             "OvenUpperCavity_CycleSetEasyConvectFood",
             "OvenUpperCavity_CycleSetBreadProof",
             "OvenUpperCavity_CycleSetTargetTemp",
-            "OvenUpperCavity_TimeStatusDelayTimeRemaining",
-            "OvenUpperCavity_TimeStatusCookTimeRemaining",
-            "OvenUpperCavity_AlertStatusMeatProbePluggedIn",
-            "OvenUpperCavity_OpStatusCookTimeState",
             "OvenUpperCavity_TimeSetCookTimeSet",
             "OvenUpperCavity_CycleSetMeatProbeTargetTemp",
-            "OvenUpperCavity_DisplStatusMeatProbeDisplayTemp",
             "OvenUpperCavity_TimeSetDelayTime",
-            "OvenUpperCavity_DisplStatusDisplayTemp"
+            "OvenUpperCavity_OpSetCookTimeCompleteAction",
+            "OvenUpperCavity_AlertStatusMeatProbePluggedIn",
+            "OvenUpperCavity_OpSetOperations",
+            "OvenUpperCavity_TimeSetCookTimeOperations"
           ],
           "StateAttributes": {
             "State": "OvenUpperCavity_OpStatusState"
@@ -4215,9 +4218,11 @@
           ],
           "StatusAttributes": [],
           "StateAttributes": {},
-          "SendCommandAttributes": [],
+          "SendCommandAttributes": [
+          ],
           "SetOperationsMapping": {
-            "Operation": "OvenUpperCavity_OpSetOperations"
+            "Operation": "OvenUpperCavity_OpSetOperations",
+            "EnvelopeAction" : "Relational_EnvelopeAction"
           }
         }
       },
@@ -4229,7 +4234,9 @@
             "CA"
           ],
           "StateAttributes": {
-            "State": "OvenLowerCavity_OpStatusState"
+            "State": "OvenLowerCavity_OpStatusState",
+            "MeatProbeStatus": "OvenLowerCavity_AlertStatusMeatProbePluggedIn",
+            "MeatProbeTargetTemp": "OvenLowerCavity_CycleSetMeatProbeTargetTemp"
           },
           "StatusAttributes": [
             "OvenLowerCavity_CycleSetCommonMode",
@@ -4258,6 +4265,7 @@
             "OvenLowerCavity_TimeSetDelayTime",
             "OvenLowerCavity_OpSetCookTimeCompleteAction",
             "OvenLowerCavity_TimeSetCookTimeSet",
+            "OvenLowerCavity_AlertStatusMeatProbePluggedIn",
             "OvenLowerCavity_OpSetOperations",
             "OvenLowerCavity_TimeSetCookTimeOperations"
           ],
@@ -4265,7 +4273,8 @@
             "Operation": "OvenLowerCavity_OpSetOperations",
             "TimerOperations": "OvenLowerCavity_TimeSetCookTimeOperations",
             "CookTime": "OvenLowerCavity_TimeSetCookTimeSet",
-            "CookTemp": "OvenLowerCavity_CycleSetTargetTemp"
+            "CookTemp": "OvenLowerCavity_CycleSetTargetTemp",
+            "MeatProbeTargetTemp" : "OvenLowerCavity_CycleSetMeatProbeTargetTemp"
           }
         },
         "MeatProbe": {
@@ -4286,28 +4295,29 @@
             "US",
             "CA"
           ],
-          "StatusAttributes": [
-            "OvenLowerCavity_CycleSetCommonMode",
-            "OvenLowerCavity_CycleSetConvectBakeFood",
-            "OvenLowerCavity_CycleSetEasyConvectFood",
-            "OvenLowerCavity_CycleSetBreadProof",
-            "OvenLowerCavity_CycleSetTargetTemp",
-            "OvenLowerCavity_TimeStatusDelayTimeRemaining",
-            "OvenLowerCavity_TimeStatusCookTimeRemaining",
-            "OvenLowerCavity_AlertStatusMeatProbePluggedIn",
-            "OvenLowerCavity_OpStatusCookTimeState",
-            "OvenLowerCavity_TimeSetCookTimeSet",
-            "OvenLowerCavity_CycleSetMeatProbeTargetTemp",
-            "OvenLowerCavity_DisplStatusMeatProbeDisplayTemp",
-            "OvenLowerCavity_TimeSetDelayTime",
-            "OvenLowerCavity_DisplStatusDisplayTemp"
+          "SendCommandAttributes": [
+            "OvenUpperCavity_CycleSetCommonMode",
+            "OvenUpperCavity_CycleSetConvectBakeFood",
+            "OvenUpperCavity_CycleSetEasyConvectFood",
+            "OvenUpperCavity_CycleSetBreadProof",
+            "OvenUpperCavity_CycleSetTargetTemp",
+            "OvenUpperCavity_TimeStatusDelayTimeRemaining",
+            "OvenUpperCavity_TimeStatusCookTimeRemaining",
+            "OvenUpperCavity_AlertStatusMeatProbePluggedIn",
+            "OvenUpperCavity_OpStatusCookTimeState",
+            "OvenUpperCavity_TimeSetCookTimeSet",
+            "OvenUpperCavity_CycleSetMeatProbeTargetTemp",
+            "OvenUpperCavity_DisplStatusMeatProbeDisplayTemp",
+            "OvenUpperCavity_TimeSetDelayTime",
+            "OvenUpperCavity_DisplStatusDisplayTemp"
           ],
           "StateAttributes": {
             "State": "OvenLowerCavity_OpStatusState"
           },
           "SetOperationsMapping": {
             "Operation": "OvenLowerCavity_OpSetOperations",
-            "TimerOperations": "OvenLowerCavity_TimeSetCookTimeOperations"
+            "TimerOperations": "OvenLowerCavity_TimeSetCookTimeOperations",
+           "MeatProbeTargetTemp" : "OvenLowerCavity_CycleSetMeatProbeTargetTemp"
           }
         },
         "FavoritesCycles": {
@@ -4321,7 +4331,9 @@
           "StateAttributes": {},
           "SendCommandAttributes": [],
           "SetOperationsMapping": {
-            "Operation": "OvenLowerCavity_OpSetOperations"
+            "Operation": "OvenLowerCavity_OpSetOperations",
+              "EnvelopeAction" : "Relational_EnvelopeAction"
+
           }
         }        
       }

@@ -1250,8 +1250,13 @@
   },
   "Personality": {
     "Key": "DDM_REFRIGERATOR_OBERON_FRIDGE_V1",
+    "CavityOrder": [
+      "RefrigeratorCavity",
+      "DeliDrawerCavity",
+      "CrisperDrawerCavity"
+    ],
     "Capability": {
-      "SystemCavity": {
+      "RefrigeratorCavity": {
         "CapabilityData": {
           "Refrigerator_OpSetTempPreset": {
             "Refrigerator_OpSetTargetTemp": {
@@ -1262,7 +1267,17 @@
                 "Default": 28
               }
             }
-          },
+          }
+        },
+        "SetCycle": {
+          "Refrigerator_OpSetTempPreset": {
+
+          }
+
+        }
+      },
+      "DeliDrawerCavity": {
+        "CapabilityData": {
           "DeliDrawer_OpSetTempPreset": {
             "Freezer_OpSetTempPreset": {
               "Map": [
@@ -1288,7 +1303,19 @@
                 }
               ]
             }
-          },
+          }
+
+        },
+        "SetCycle": {
+
+          "DeliDrawer_OpSetTempPreset": {
+
+          }
+
+        }
+      },
+      "CrisperDrawerCavity": {
+        "CapabilityData": {
           "CrisperDrawer_OpSetTempPreset": {
             "Pantry_OpSetTempPreset": {
               "Map": [
@@ -1306,21 +1333,17 @@
 
         },
         "SetCycle": {
-          "Refrigerator_OpSetTempPreset": {
 
-          },
-          "DeliDrawer_OpSetTempPreset": {
-
-          },
           "CrisperDrawer_OpSetTempPreset": {
 
           }
 
         }
       }
+
     },
     "AttributesMapping": {
-      "FreezerCavity": {
+      "CrisperDrawerCavity": {
         "DoorOpen": "Freezer_OpStatusDoorOpen",
         "TargetTemp" : "Freezer_OpSetTempPreset"
       },
@@ -1329,7 +1352,7 @@
         "OverTemp" : "Refrigerator_OpStatusOverTemp",
         "TargetTemp" : "Refrigerator_OpSetTargetTemp"
       },
-      "PantryCavity": {
+      "DeliDrawerCavity": {
         "TargetTemp" : "Pantry_OpSetTempPreset"
       },
       "Common": {
@@ -1344,7 +1367,66 @@
         "SabbathModeEnabled" : "Sys_OpSetSabbathModeEnabled",
         "ControlLock" : "Sys_OpSetControlLock"
       }
+    },
+    "Features": {
+      "Common": {
+        "ControlLock": {
+          "Visible": true,
+          "AvailableIn": [
+            "US",
+            "CA"
+          ],
+          "StateAttributes": {
+            "State": "Sys_OpSetControlLock"
+          }
+        },
+        "MaxCool": {
+          "Visible": true,
+          "ReadOnly": true,
+          "AvailableIn": [
+            "US",
+            "CA"
+          ],
+          "StateAttributes": {
+            "State": "Sys_OpSetMaxCool"
+          }
+        },
+        "IceMaker": {
+          "Visible": true,
+          "AvailableIn": [
+            "US"
+          ],
+          "StateAttributes": {
+            "State": "Sys_OpSetIceMakerOn"
+          }
+        },
+        "sabbath": {
+          "Visible": true,
+          "AvailableIn": [
+            "US",
+            "CA"
+          ],
+          "StateAttributes": {
+            "State": "Sys_OpSetSabbathModeEnabled"
+          }
+        },
+        "Notifications": {
+          "Visible": true,
+          "AvailableIn": [
+            "US",
+            "CA"
+          ]
+        },
+        "EnergyHistory": {
+          "Visible": true,
+          "AvailableIn": [
+            "US",
+            "CA"
+          ]
+        }
+      }
     }
+
   },
   "Alerts": {
     "Key": "DDM_REFRIGERATOR_OBERON_FRIDGE_V1",

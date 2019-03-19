@@ -3057,6 +3057,7 @@
                   "Min": 190,
                   "Max": 225,
                   "StepF": 5,
+                  "StepC": 3,
                   "Default": 200
                 }
               },
@@ -3181,7 +3182,7 @@
                   525,
                   550
                 ],
-                "Default": 350
+                "Default": 325
               }
             },
             "Optional": {
@@ -3424,7 +3425,8 @@
                   525,
                   550
                 ],
-                "Default": 325
+                "Default": 325,
+                "Offset" : 0
               }
             },
             "Optional": {
@@ -3433,7 +3435,8 @@
                   "Min": 0,
                   "Max": 43200,
                   "Step": 60,
-                  "Default": 0
+                  "Default": 0,
+                  "OffsetPercentage" : 0
                 }
               },
               "UpperCavity_DelayTimeSetTime": {
@@ -3475,7 +3478,8 @@
                   525,
                   550
                 ],
-                "Default": 350
+                "Default": 350,
+                "Offset" : 0
               }
             },
             "Optional": {
@@ -3484,7 +3488,8 @@
                   "Min": 0,
                   "Max": 43200,
                   "Step": 60,
-                  "Default": 0
+                  "Default": 0,
+                  "OffsetPercentage" : -20
                 }
               },
               "UpperCavity_DelayTimeSetTime": {
@@ -3526,7 +3531,8 @@
                   525,
                   550
                 ],
-                "Default": 325
+                "Default": 325,
+                "Offset" : -20
               }
             },
             "Optional": {
@@ -3535,7 +3541,8 @@
                   "Min": 0,
                   "Max": 43200,
                   "Step": 60,
-                  "Default": 0
+                  "Default": 0,
+                  "OffsetPercentage" : 0
                 }
               },
               "UpperCavity_DelayTimeSetTime": {
@@ -3564,7 +3571,8 @@
                   "Max": 550,
                   "StepF": 5,
                   "StepC": 3,
-                  "Default": 550
+                  "Default": 550,
+                  "Offset" : 0
                 }
               }
             },
@@ -3574,7 +3582,8 @@
                   "Min": 0,
                   "Max": 43200,
                   "Step": 60,
-                  "Default": 0
+                  "Default": 0,
+                  "OffsetPercentage" : 0
                 }
               },
               "UpperCavity_DelayTimeSetTime": {
@@ -3737,7 +3746,19 @@
             }
           },
           "UpperCavity_CavityModeOvenPCConvectRoast": {
+            "Accessories": [
+              "UpperCavity_MeatProbeStatus"
+            ],
             "Required": {
+              "UpperCavity_MeatProbeTargetTemp": {
+                "TempRange": {
+                  "StepF": 5,
+                  "StepC": 3,
+                  "Min": 130,
+                  "Max": 180,
+                  "Default": 160
+                }
+              },
               "UpperCavity_CavityTargetTemp": {
                 "List": [
                   170,
@@ -3761,14 +3782,6 @@
               }
             },
             "Optional": {
-              "UpperCavity_CookTimeSetTime": {
-                "Range": {
-                  "Min": 0,
-                  "Max": 43200,
-                  "Step": 60,
-                  "Default": 0
-                }
-              },
               "UpperCavity_DelayTimeSetTime": {
                 "Range": {
                   "Min": 0,
@@ -3776,70 +3789,23 @@
                   "Step": 900,
                   "Default": 0
                 }
-              },
-              "UpperCavity_CookTimeCompleteAction": {
-                "Enumeration": [
-                  "StayOn",
-                  "KeepWarm",
-                  "TurnOff"
-                ],
-                "Default": "StayOn"
               }
             }
           },
           "UpperCavity_CavityModeOvenPCConvectBake": {
+            "Accessories": [
+              "UpperCavity_MeatProbeStatus"
+            ],
             "Required": {
-              "UpperCavity_CavityTargetTemp": {
-                "List": [
-                  170,
-                  200,
-                  225,
-                  250,
-                  275,
-                  300,
-                  325,
-                  350,
-                  375,
-                  400,
-                  425,
-                  450,
-                  475,
-                  500,
-                  525,
-                  550
-                ],
-                "Default": 325
-              }
-            },
-            "Optional": {
-              "UpperCavity_CookTimeSetTime": {
-                "Range": {
-                  "Min": 0,
-                  "Max": 43200,
-                  "Step": 60,
-                  "Default": 0
+              "UpperCavity_MeatProbeTargetTemp": {
+                "TempRange": {
+                  "StepF": 5,
+                  "StepC": 3,
+                  "Min": 130,
+                  "Max": 180,
+                  "Default": 160
                 }
               },
-              "UpperCavity_DelayTimeSetTime": {
-                "Range": {
-                  "Min": 0,
-                  "Max": 43140,
-                  "Step": 900,
-                  "Default": 0
-                }
-              },
-              "UpperCavity_CookTimeCompleteAction": {
-                "Enumeration": [
-                  "StayOn",
-                  "KeepWarm",
-                  "TurnOff"
-                ],
-                "Default": "StayOn"
-              }
-            }
-          },
-          "UpperCavity_CavityModeOvenPCBake": {
-            "Required": {
               "UpperCavity_CavityTargetTemp": {
                 "List": [
                   170,
@@ -3863,14 +3829,6 @@
               }
             },
             "Optional": {
-              "UpperCavity_CookTimeSetTime": {
-                "Range": {
-                  "Min": 0,
-                  "Max": 43200,
-                  "Step": 60,
-                  "Default": 0
-                }
-              },
               "UpperCavity_DelayTimeSetTime": {
                 "Range": {
                   "Min": 0,
@@ -3878,18 +3836,60 @@
                   "Step": 900,
                   "Default": 0
                 }
+              }
+            }
+          },
+          "UpperCavity_CavityModeOvenPCBake": {
+            "Accessories": [
+              "UpperCavity_MeatProbeStatus"
+            ],
+            "Required": {
+              "UpperCavity_MeatProbeTargetTemp": {
+                "TempRange": {
+                  "StepF": 5,
+                  "StepC": 3,
+                  "Min": 130,
+                  "Max": 180,
+                  "Default": 160
+                }
               },
-              "UpperCavity_CookTimeCompleteAction": {
-                "Enumeration": [
-                  "StayOn",
-                  "KeepWarm",
-                  "TurnOff"
+              "UpperCavity_CavityTargetTemp": {
+                "List": [
+                  170,
+                  200,
+                  225,
+                  250,
+                  275,
+                  300,
+                  325,
+                  350,
+                  375,
+                  400,
+                  425,
+                  450,
+                  475,
+                  500,
+                  525,
+                  550
                 ],
-                "Default": "StayOn"
+                "Default": 350
+              }
+            },
+            "Optional": {
+              "UpperCavity_DelayTimeSetTime": {
+                "Range": {
+                  "Min": 0,
+                  "Max": 43140,
+                  "Step": 900,
+                  "Default": 0
+                }
               }
             }
           },
           "UpperCavity_CavityModeOvenPCFGPrecookedHam": {
+            "Accessories": [
+              "UpperCavity_MeatProbeStatus"
+            ],
             "Required": {
               "UpperCavity_CavityTargetTemp": {
                 "List": [
@@ -3931,6 +3931,9 @@
             }
           },
           "UpperCavity_CavityModeOvenPCFGPorkMedium": {
+            "Accessories": [
+              "UpperCavity_MeatProbeStatus"
+            ],
             "Required": {
               "UpperCavity_CavityTargetTemp": {
                 "List": [
@@ -3955,9 +3958,9 @@
               },
               "UpperCavity_MeatProbeTargetTemp": {
                 "List": [
-                  160
+                  150
                 ],
-                "Default": 160
+                "Default": 150
               }
             },
             "Optional": {
@@ -3972,6 +3975,9 @@
             }
           },
           "UpperCavity_CavityModeOvenPCFGPorkWellDone": {
+            "Accessories": [
+              "UpperCavity_MeatProbeStatus"
+            ],
             "Required": {
               "UpperCavity_CavityTargetTemp": {
                 "List": [
@@ -4013,6 +4019,9 @@
             }
           },
           "UpperCavity_CavityModeOvenPCFGChickenBreast": {
+            "Accessories": [
+              "UpperCavity_MeatProbeStatus"
+            ],
             "Required": {
               "UpperCavity_CavityTargetTemp": {
                 "List": [
@@ -4054,6 +4063,9 @@
             }
           },
           "UpperCavity_CavityModeOvenPCFGChickenWhole": {
+            "Accessories": [
+              "UpperCavity_MeatProbeStatus"
+            ],
             "Required": {
               "UpperCavity_CavityTargetTemp": {
                 "List": [
@@ -4095,6 +4107,9 @@
             }
           },
           "UpperCavity_CavityModeOvenPCFGTurkeyBreast": {
+            "Accessories": [
+              "UpperCavity_MeatProbeStatus"
+            ],
             "Required": {
               "UpperCavity_CavityTargetTemp": {
                 "List": [
@@ -4136,6 +4151,9 @@
             }
           },
           "UpperCavity_CavityModeOvenPCFGTurkeyWhole": {
+            "Accessories": [
+              "UpperCavity_MeatProbeStatus"
+            ],
             "Required": {
               "UpperCavity_CavityTargetTemp": {
                 "List": [
@@ -4177,6 +4195,9 @@
             }
           },
           "UpperCavity_CavityModeOvenPCFGBeefMediumRare": {
+            "Accessories": [
+              "UpperCavity_MeatProbeStatus"
+            ],
             "Required": {
               "UpperCavity_CavityTargetTemp": {
                 "List": [
@@ -4218,6 +4239,9 @@
             }
           },
           "UpperCavity_CavityModeOvenPCFGBeefMedium": {
+            "Accessories": [
+              "UpperCavity_MeatProbeStatus"
+            ],
             "Required": {
               "UpperCavity_CavityTargetTemp": {
                 "List": [
@@ -4259,6 +4283,9 @@
             }
           },
           "UpperCavity_CavityModeOvenPCFGBeefWellDone": {
+            "Accessories": [
+              "UpperCavity_MeatProbeStatus"
+            ],
             "Required": {
               "UpperCavity_CavityTargetTemp": {
                 "List": [
@@ -4300,6 +4327,9 @@
             }
           },
           "UpperCavity_CavityModeOvenPCFGLambMediumRare": {
+            "Accessories": [
+              "UpperCavity_MeatProbeStatus"
+            ],
             "Required": {
               "UpperCavity_CavityTargetTemp": {
                 "List": [
@@ -4341,6 +4371,9 @@
             }
           },
           "UpperCavity_CavityModeOvenPCFGLambMedium": {
+            "Accessories": [
+              "UpperCavity_MeatProbeStatus"
+            ],
             "Required": {
               "UpperCavity_CavityTargetTemp": {
                 "List": [
@@ -4382,6 +4415,9 @@
             }
           },
           "UpperCavity_CavityModeOvenPCFGLambWellDone": {
+            "Accessories": [
+              "UpperCavity_MeatProbeStatus"
+            ],
             "Required": {
               "UpperCavity_CavityTargetTemp": {
                 "List": [
@@ -4423,6 +4459,9 @@
             }
           },
           "UpperCavity_CavityModeOvenPCFGVealMediumRare": {
+            "Accessories": [
+              "UpperCavity_MeatProbeStatus"
+            ],
             "Required": {
               "UpperCavity_CavityTargetTemp": {
                 "List": [
@@ -4464,6 +4503,9 @@
             }
           },
           "UpperCavity_CavityModeOvenPCFGVealMedium": {
+            "Accessories": [
+              "UpperCavity_MeatProbeStatus"
+            ],
             "Required": {
               "UpperCavity_CavityTargetTemp": {
                 "List": [
@@ -4505,6 +4547,9 @@
             }
           },
           "UpperCavity_CavityModeOvenPCFGVealWellDone": {
+            "Accessories": [
+              "UpperCavity_MeatProbeStatus"
+            ],
             "Required": {
               "UpperCavity_CavityTargetTemp": {
                 "List": [
@@ -4851,10 +4896,7 @@
                   "ProbeCook",
                   "ConvectRoast"
                 ]
-              },
-              "Accessories": [
-                "OvenUpperCavity_AlertStatusMeatProbePluggedIn"
-              ]
+              }
             },
             "UpperCavity_CavityModeOvenPCConvectBake": {
               "Name": "ConvectBake",
@@ -4863,10 +4905,7 @@
                   "ProbeCook",
                   "ConvectBake"
                 ]
-              },
-              "Accessories": [
-                "OvenUpperCavity_AlertStatusMeatProbePluggedIn"
-              ]
+              }
             },
             "UpperCavity_CavityModeOvenPCFoodGuide": {
               "UpperCavity_CavityModeOvenPCFGPrecookedHam": {
@@ -4877,10 +4916,7 @@
                     "FoodGuide",
                     "Bake"
                   ]
-                },
-                "Accessories": [
-                  "OvenUpperCavity_AlertStatusMeatProbePluggedIn"
-                ]
+                }
               },
               "UpperCavity_CavityModeOvenPCFGPorkMedium": {
                 "Name": "PorkMedium",
@@ -4890,10 +4926,7 @@
                     "FoodGuide",
                     "ConvectRoast"
                   ]
-                },
-                "Accessories": [
-                  "OvenUpperCavity_AlertStatusMeatProbePluggedIn"
-                ]
+                }
               },
               "UpperCavity_CavityModeOvenPCFGPorkWellDone": {
                 "Name": "PorkWellDone",
@@ -4903,10 +4936,7 @@
                     "FoodGuide",
                     "ConvectRoast"
                   ]
-                },
-                "Accessories": [
-                  "OvenUpperCavity_AlertStatusMeatProbePluggedIn"
-                ]
+                }
               },
               "UpperCavity_CavityModeOvenPCFGChickenBreast": {
                 "Name": "ChickenBreast",
@@ -4916,10 +4946,7 @@
                     "FoodGuide",
                     "ConvectRoast"
                   ]
-                },
-                "Accessories": [
-                  "OvenUpperCavity_AlertStatusMeatProbePluggedIn"
-                ]
+                }
               },
               "UpperCavity_CavityModeOvenPCFGChickenWhole": {
                 "Name": "ChickenWhole",
@@ -4929,10 +4956,7 @@
                     "FoodGuide",
                     "ConvectRoast"
                   ]
-                },
-                "Accessories": [
-                  "OvenUpperCavity_AlertStatusMeatProbePluggedIn"
-                ]
+                }
               },
               "UpperCavity_CavityModeOvenPCFGTurkeyBreast": {
                 "Name": "TurkeyBreast",
@@ -4942,10 +4966,7 @@
                     "FoodGuide",
                     "ConvectRoast"
                   ]
-                },
-                "Accessories": [
-                  "OvenUpperCavity_AlertStatusMeatProbePluggedIn"
-                ]
+                }
               },
               "UpperCavity_CavityModeOvenPCFGTurkeyWhole": {
                 "Name": "TurkeyWhole",
@@ -4955,10 +4976,7 @@
                     "FoodGuide",
                     "ConvectRoast"
                   ]
-                },
-                "Accessories": [
-                  "OvenUpperCavity_AlertStatusMeatProbePluggedIn"
-                ]
+                }
               },
               "UpperCavity_CavityModeOvenPCFGBeefMediumRare": {
                 "Name": "BeefMediumRare",
@@ -4968,10 +4986,7 @@
                     "FoodGuide",
                     "ConvectRoast"
                   ]
-                },
-                "Accessories": [
-                  "OvenUpperCavity_AlertStatusMeatProbePluggedIn"
-                ]
+                }
               },
               "UpperCavity_CavityModeOvenPCFGBeefMedium": {
                 "Name": "BeefMedium",
@@ -4981,10 +4996,7 @@
                     "FoodGuide",
                     "ConvectRoast"
                   ]
-                },
-                "Accessories": [
-                  "OvenUpperCavity_AlertStatusMeatProbePluggedIn"
-                ]
+                }
               },
               "UpperCavity_CavityModeOvenPCFGBeefWellDone": {
                 "Name": "BeefWellDone",
@@ -4994,10 +5006,7 @@
                     "FoodGuide",
                     "ConvectRoast"
                   ]
-                },
-                "Accessories": [
-                  "OvenUpperCavity_AlertStatusMeatProbePluggedIn"
-                ]
+                }
               },
               "UpperCavity_CavityModeOvenPCFGLambMediumRare": {
                 "Name": "LambMediumRare",
@@ -5007,10 +5016,7 @@
                     "FoodGuide",
                     "ConvectRoast"
                   ]
-                },
-                "Accessories": [
-                  "OvenUpperCavity_AlertStatusMeatProbePluggedIn"
-                ]
+                }
               },
               "UpperCavity_CavityModeOvenPCFGLambMedium": {
                 "Name": "LambMedium",
@@ -5020,10 +5026,7 @@
                     "FoodGuide",
                     "ConvectRoast"
                   ]
-                },
-                "Accessories": [
-                  "OvenUpperCavity_AlertStatusMeatProbePluggedIn"
-                ]
+                }
               },
               "UpperCavity_CavityModeOvenPCFGLambWellDone": {
                 "Name": "LambWellDone",
@@ -5033,10 +5036,7 @@
                     "FoodGuide",
                     "ConvectRoast"
                   ]
-                },
-                "Accessories": [
-                  "OvenUpperCavity_AlertStatusMeatProbePluggedIn"
-                ]
+                }
               },
               "UpperCavity_CavityModeOvenPCFGVealMediumRare": {
                 "Name": "VealMediumRare",
@@ -5046,10 +5046,7 @@
                     "FoodGuide",
                     "ConvectRoast"
                   ]
-                },
-                "Accessories": [
-                  "OvenUpperCavity_AlertStatusMeatProbePluggedIn"
-                ]
+                }
               },
               "UpperCavity_CavityModeOvenPCFGVealMedium": {
                 "Name": "VealMedium",
@@ -5059,10 +5056,7 @@
                     "FoodGuide",
                     "ConvectRoast"
                   ]
-                },
-                "Accessories": [
-                  "OvenUpperCavity_AlertStatusMeatProbePluggedIn"
-                ]
+                }
               },
               "UpperCavity_CavityModeOvenPCFGVealWellDone": {
                 "Name": "VealWellDone",
@@ -5072,10 +5066,7 @@
                     "FoodGuide",
                     "ConvectRoast"
                   ]
-                },
-                "Accessories": [
-                  "OvenUpperCavity_AlertStatusMeatProbePluggedIn"
-                ]
+                }
               }
             },
             "UpperCavity_CavityModeOvenPCBake": {
@@ -5085,10 +5076,7 @@
                   "ProbeCook",
                   "Bake"
                 ]
-              },
-              "Accessories": [
-                "OvenUpperCavity_AlertStatusMeatProbePluggedIn"
-              ]
+              }
             }
           },
           "UpperCavity_CavityModeOvenKeepWarm": {
@@ -5225,6 +5213,7 @@
                   "Min": 190,
                   "Max": 225,
                   "StepF": 5,
+                  "StepC": 3,
                   "Default": 200
                 }
               },
@@ -5349,7 +5338,7 @@
                   525,
                   550
                 ],
-                "Default": 350
+                "Default": 325
               }
             },
             "Optional": {
@@ -5592,7 +5581,8 @@
                   525,
                   550
                 ],
-                "Default": 325
+                "Default": 325,
+                "Offset" : 0
               }
             },
             "Optional": {
@@ -5601,7 +5591,8 @@
                   "Min": 0,
                   "Max": 43200,
                   "Step": 60,
-                  "Default": 0
+                  "Default": 0,
+                  "OffsetPercentage" : 0
                 }
               },
               "LowerCavity_DelayTimeSetTime": {
@@ -5643,7 +5634,8 @@
                   525,
                   550
                 ],
-                "Default": 350
+                "Default": 350,
+                "Offset" : 0
               }
             },
             "Optional": {
@@ -5652,7 +5644,8 @@
                   "Min": 0,
                   "Max": 43200,
                   "Step": 60,
-                  "Default": 0
+                  "Default": 0,
+                  "OffsetPercentage" : -20
                 }
               },
               "LowerCavity_DelayTimeSetTime": {
@@ -5694,7 +5687,8 @@
                   525,
                   550
                 ],
-                "Default": 325
+                "Default": 325,
+                "Offset" : -20
               }
             },
             "Optional": {
@@ -5703,7 +5697,8 @@
                   "Min": 0,
                   "Max": 43200,
                   "Step": 60,
-                  "Default": 0
+                  "Default": 0,
+                  "OffsetPercentage" : 0
                 }
               },
               "LowerCavity_DelayTimeSetTime": {
@@ -5732,7 +5727,8 @@
                   "Max": 550,
                   "StepF": 5,
                   "StepC": 3,
-                  "Default": 550
+                  "Default": 550,
+                  "Offset" : 0
                 }
               }
             },
@@ -5742,7 +5738,8 @@
                   "Min": 0,
                   "Max": 43200,
                   "Step": 60,
-                  "Default": 0
+                  "Default": 0,
+                  "OffsetPercentage" : 0
                 }
               },
               "LowerCavity_DelayTimeSetTime": {
@@ -5905,7 +5902,19 @@
             }
           },
           "LowerCavity_CavityModeOvenPCConvectRoast": {
+            "Accessories": [
+              "LowerCavity_MeatProbeStatus"
+            ],
             "Required": {
+              "LowerCavity_MeatProbeTargetTemp": {
+                "TempRange": {
+                  "StepF": 5,
+                  "StepC": 3,
+                  "Min": 130,
+                  "Max": 180,
+                  "Default": 160
+                }
+              },
               "LowerCavity_CavityTargetTemp": {
                 "List": [
                   170,
@@ -5929,14 +5938,6 @@
               }
             },
             "Optional": {
-              "LowerCavity_CookTimeSetTime": {
-                "Range": {
-                  "Min": 0,
-                  "Max": 43200,
-                  "Step": 60,
-                  "Default": 0
-                }
-              },
               "LowerCavity_DelayTimeSetTime": {
                 "Range": {
                   "Min": 0,
@@ -5944,70 +5945,23 @@
                   "Step": 900,
                   "Default": 0
                 }
-              },
-              "LowerCavity_CookTimeCompleteAction": {
-                "Enumeration": [
-                  "StayOn",
-                  "KeepWarm",
-                  "TurnOff"
-                ],
-                "Default": "StayOn"
               }
             }
           },
           "LowerCavity_CavityModeOvenPCConvectBake": {
+            "Accessories": [
+              "LowerCavity_MeatProbeStatus"
+            ],
             "Required": {
-              "LowerCavity_CavityTargetTemp": {
-                "List": [
-                  170,
-                  200,
-                  225,
-                  250,
-                  275,
-                  300,
-                  325,
-                  350,
-                  375,
-                  400,
-                  425,
-                  450,
-                  475,
-                  500,
-                  525,
-                  550
-                ],
-                "Default": 325
-              }
-            },
-            "Optional": {
-              "LowerCavity_CookTimeSetTime": {
-                "Range": {
-                  "Min": 0,
-                  "Max": 43200,
-                  "Step": 60,
-                  "Default": 0
+              "LowerCavity_MeatProbeTargetTemp": {
+                "TempRange": {
+                  "StepF": 5,
+                  "StepC": 3,
+                  "Min": 130,
+                  "Max": 180,
+                  "Default": 160
                 }
               },
-              "LowerCavity_DelayTimeSetTime": {
-                "Range": {
-                  "Min": 0,
-                  "Max": 43140,
-                  "Step": 900,
-                  "Default": 0
-                }
-              },
-              "LowerCavity_CookTimeCompleteAction": {
-                "Enumeration": [
-                  "StayOn",
-                  "KeepWarm",
-                  "TurnOff"
-                ],
-                "Default": "StayOn"
-              }
-            }
-          },
-          "LowerCavity_CavityModeOvenPCBake": {
-            "Required": {
               "LowerCavity_CavityTargetTemp": {
                 "List": [
                   170,
@@ -6031,14 +5985,6 @@
               }
             },
             "Optional": {
-              "LowerCavity_CookTimeSetTime": {
-                "Range": {
-                  "Min": 0,
-                  "Max": 43200,
-                  "Step": 60,
-                  "Default": 0
-                }
-              },
               "LowerCavity_DelayTimeSetTime": {
                 "Range": {
                   "Min": 0,
@@ -6046,18 +5992,60 @@
                   "Step": 900,
                   "Default": 0
                 }
+              }
+            }
+          },
+          "LowerCavity_CavityModeOvenPCBake": {
+            "Accessories": [
+              "LowerCavity_MeatProbeStatus"
+            ],
+            "Required": {
+              "LowerCavity_MeatProbeTargetTemp": {
+                "TempRange": {
+                  "StepF": 5,
+                  "StepC": 3,
+                  "Min": 130,
+                  "Max": 180,
+                  "Default": 160
+                }
               },
-              "LowerCavity_CookTimeCompleteAction": {
-                "Enumeration": [
-                  "StayOn",
-                  "KeepWarm",
-                  "TurnOff"
+              "LowerCavity_CavityTargetTemp": {
+                "List": [
+                  170,
+                  200,
+                  225,
+                  250,
+                  275,
+                  300,
+                  325,
+                  350,
+                  375,
+                  400,
+                  425,
+                  450,
+                  475,
+                  500,
+                  525,
+                  550
                 ],
-                "Default": "StayOn"
+                "Default": 350
+              }
+            },
+            "Optional": {
+              "LowerCavity_DelayTimeSetTime": {
+                "Range": {
+                  "Min": 0,
+                  "Max": 43140,
+                  "Step": 900,
+                  "Default": 0
+                }
               }
             }
           },
           "LowerCavity_CavityModeOvenPCFGPrecookedHam": {
+            "Accessories": [
+              "LowerCavity_MeatProbeStatus"
+            ],
             "Required": {
               "LowerCavity_CavityTargetTemp": {
                 "List": [
@@ -6099,6 +6087,9 @@
             }
           },
           "LowerCavity_CavityModeOvenPCFGPorkMedium": {
+            "Accessories": [
+              "LowerCavity_MeatProbeStatus"
+            ],
             "Required": {
               "LowerCavity_CavityTargetTemp": {
                 "List": [
@@ -6123,9 +6114,9 @@
               },
               "LowerCavity_MeatProbeTargetTemp": {
                 "List": [
-                  160
+                  150
                 ],
-                "Default": 160
+                "Default": 150
               }
             },
             "Optional": {
@@ -6140,6 +6131,9 @@
             }
           },
           "LowerCavity_CavityModeOvenPCFGPorkWellDone": {
+            "Accessories": [
+              "LowerCavity_MeatProbeStatus"
+            ],
             "Required": {
               "LowerCavity_CavityTargetTemp": {
                 "List": [
@@ -6181,6 +6175,9 @@
             }
           },
           "LowerCavity_CavityModeOvenPCFGChickenBreast": {
+            "Accessories": [
+              "LowerCavity_MeatProbeStatus"
+            ],
             "Required": {
               "LowerCavity_CavityTargetTemp": {
                 "List": [
@@ -6222,6 +6219,9 @@
             }
           },
           "LowerCavity_CavityModeOvenPCFGChickenWhole": {
+            "Accessories": [
+              "LowerCavity_MeatProbeStatus"
+            ],
             "Required": {
               "LowerCavity_CavityTargetTemp": {
                 "List": [
@@ -6263,6 +6263,9 @@
             }
           },
           "LowerCavity_CavityModeOvenPCFGTurkeyBreast": {
+            "Accessories": [
+              "LowerCavity_MeatProbeStatus"
+            ],
             "Required": {
               "LowerCavity_CavityTargetTemp": {
                 "List": [
@@ -6304,6 +6307,9 @@
             }
           },
           "LowerCavity_CavityModeOvenPCFGTurkeyWhole": {
+            "Accessories": [
+              "LowerCavity_MeatProbeStatus"
+            ],
             "Required": {
               "LowerCavity_CavityTargetTemp": {
                 "List": [
@@ -6345,6 +6351,9 @@
             }
           },
           "LowerCavity_CavityModeOvenPCFGBeefMediumRare": {
+            "Accessories": [
+              "LowerCavity_MeatProbeStatus"
+            ],
             "Required": {
               "LowerCavity_CavityTargetTemp": {
                 "List": [
@@ -6386,6 +6395,9 @@
             }
           },
           "LowerCavity_CavityModeOvenPCFGBeefMedium": {
+            "Accessories": [
+              "LowerCavity_MeatProbeStatus"
+            ],
             "Required": {
               "LowerCavity_CavityTargetTemp": {
                 "List": [
@@ -6427,6 +6439,9 @@
             }
           },
           "LowerCavity_CavityModeOvenPCFGBeefWellDone": {
+            "Accessories": [
+              "LowerCavity_MeatProbeStatus"
+            ],
             "Required": {
               "LowerCavity_CavityTargetTemp": {
                 "List": [
@@ -6468,6 +6483,9 @@
             }
           },
           "LowerCavity_CavityModeOvenPCFGLambMediumRare": {
+            "Accessories": [
+              "LowerCavity_MeatProbeStatus"
+            ],
             "Required": {
               "LowerCavity_CavityTargetTemp": {
                 "List": [
@@ -6509,6 +6527,9 @@
             }
           },
           "LowerCavity_CavityModeOvenPCFGLambMedium": {
+            "Accessories": [
+              "LowerCavity_MeatProbeStatus"
+            ],
             "Required": {
               "LowerCavity_CavityTargetTemp": {
                 "List": [
@@ -6550,6 +6571,9 @@
             }
           },
           "LowerCavity_CavityModeOvenPCFGLambWellDone": {
+            "Accessories": [
+              "LowerCavity_MeatProbeStatus"
+            ],
             "Required": {
               "LowerCavity_CavityTargetTemp": {
                 "List": [
@@ -6591,6 +6615,9 @@
             }
           },
           "LowerCavity_CavityModeOvenPCFGVealMediumRare": {
+            "Accessories": [
+              "LowerCavity_MeatProbeStatus"
+            ],
             "Required": {
               "LowerCavity_CavityTargetTemp": {
                 "List": [
@@ -6632,6 +6659,9 @@
             }
           },
           "LowerCavity_CavityModeOvenPCFGVealMedium": {
+            "Accessories": [
+              "LowerCavity_MeatProbeStatus"
+            ],
             "Required": {
               "LowerCavity_CavityTargetTemp": {
                 "List": [
@@ -6673,6 +6703,9 @@
             }
           },
           "LowerCavity_CavityModeOvenPCFGVealWellDone": {
+            "Accessories": [
+              "LowerCavity_MeatProbeStatus"
+            ],
             "Required": {
               "LowerCavity_CavityTargetTemp": {
                 "List": [
@@ -7019,10 +7052,7 @@
                   "ProbeCook",
                   "ConvectRoast"
                 ]
-              },
-              "Accessories": [
-                "OvenLowerCavity_AlertStatusMeatProbePluggedIn"
-              ]
+              }
             },
             "LowerCavity_CavityModeOvenPCConvectBake": {
               "Name": "ConvectBake",
@@ -7031,10 +7061,7 @@
                   "ProbeCook",
                   "ConvectBake"
                 ]
-              },
-              "Accessories": [
-                "OvenLowerCavity_AlertStatusMeatProbePluggedIn"
-              ]
+              }
             },
             "LowerCavity_CavityModeOvenPCFoodGuide": {
               "LowerCavity_CavityModeOvenPCFGPrecookedHam": {
@@ -7045,10 +7072,7 @@
                     "FoodGuide",
                     "Bake"
                   ]
-                },
-                "Accessories": [
-                  "OvenLowerCavity_AlertStatusMeatProbePluggedIn"
-                ]
+                }
               },
               "LowerCavity_CavityModeOvenPCFGPorkMedium": {
                 "Name": "PorkMedium",
@@ -7058,10 +7082,7 @@
                     "FoodGuide",
                     "ConvectRoast"
                   ]
-                },
-                "Accessories": [
-                  "OvenLowerCavity_AlertStatusMeatProbePluggedIn"
-                ]
+                }
               },
               "LowerCavity_CavityModeOvenPCFGPorkWellDone": {
                 "Name": "PorkWellDone",
@@ -7071,10 +7092,7 @@
                     "FoodGuide",
                     "ConvectRoast"
                   ]
-                },
-                "Accessories": [
-                  "OvenLowerCavity_AlertStatusMeatProbePluggedIn"
-                ]
+                }
               },
               "LowerCavity_CavityModeOvenPCFGChickenBreast": {
                 "Name": "ChickenBreast",
@@ -7084,10 +7102,7 @@
                     "FoodGuide",
                     "ConvectRoast"
                   ]
-                },
-                "Accessories": [
-                  "OvenLowerCavity_AlertStatusMeatProbePluggedIn"
-                ]
+                }
               },
               "LowerCavity_CavityModeOvenPCFGChickenWhole": {
                 "Name": "ChickenWhole",
@@ -7097,10 +7112,7 @@
                     "FoodGuide",
                     "ConvectRoast"
                   ]
-                },
-                "Accessories": [
-                  "OvenLowerCavity_AlertStatusMeatProbePluggedIn"
-                ]
+                }
               },
               "LowerCavity_CavityModeOvenPCFGTurkeyBreast": {
                 "Name": "TurkeyBreast",
@@ -7110,10 +7122,7 @@
                     "FoodGuide",
                     "ConvectRoast"
                   ]
-                },
-                "Accessories": [
-                  "OvenLowerCavity_AlertStatusMeatProbePluggedIn"
-                ]
+                }
               },
               "LowerCavity_CavityModeOvenPCFGTurkeyWhole": {
                 "Name": "TurkeyWhole",
@@ -7123,10 +7132,7 @@
                     "FoodGuide",
                     "ConvectRoast"
                   ]
-                },
-                "Accessories": [
-                  "OvenLowerCavity_AlertStatusMeatProbePluggedIn"
-                ]
+                }
               },
               "LowerCavity_CavityModeOvenPCFGBeefMediumRare": {
                 "Name": "BeefMediumRare",
@@ -7136,10 +7142,7 @@
                     "FoodGuide",
                     "ConvectRoast"
                   ]
-                },
-                "Accessories": [
-                  "OvenLowerCavity_AlertStatusMeatProbePluggedIn"
-                ]
+                }
               },
               "LowerCavity_CavityModeOvenPCFGBeefMedium": {
                 "Name": "BeefMedium",
@@ -7149,10 +7152,7 @@
                     "FoodGuide",
                     "ConvectRoast"
                   ]
-                },
-                "Accessories": [
-                  "OvenLowerCavity_AlertStatusMeatProbePluggedIn"
-                ]
+                }
               },
               "LowerCavity_CavityModeOvenPCFGBeefWellDone": {
                 "Name": "BeefWellDone",
@@ -7162,10 +7162,7 @@
                     "FoodGuide",
                     "ConvectRoast"
                   ]
-                },
-                "Accessories": [
-                  "OvenLowerCavity_AlertStatusMeatProbePluggedIn"
-                ]
+                }
               },
               "LowerCavity_CavityModeOvenPCFGLambMediumRare": {
                 "Name": "LambMediumRare",
@@ -7175,10 +7172,7 @@
                     "FoodGuide",
                     "ConvectRoast"
                   ]
-                },
-                "Accessories": [
-                  "OvenLowerCavity_AlertStatusMeatProbePluggedIn"
-                ]
+                }
               },
               "LowerCavity_CavityModeOvenPCFGLambMedium": {
                 "Name": "LambMedium",
@@ -7188,10 +7182,7 @@
                     "FoodGuide",
                     "ConvectRoast"
                   ]
-                },
-                "Accessories": [
-                  "OvenLowerCavity_AlertStatusMeatProbePluggedIn"
-                ]
+                }
               },
               "LowerCavity_CavityModeOvenPCFGLambWellDone": {
                 "Name": "LambWellDone",
@@ -7201,10 +7192,7 @@
                     "FoodGuide",
                     "ConvectRoast"
                   ]
-                },
-                "Accessories": [
-                  "OvenLowerCavity_AlertStatusMeatProbePluggedIn"
-                ]
+                }
               },
               "LowerCavity_CavityModeOvenPCFGVealMediumRare": {
                 "Name": "VealMediumRare",
@@ -7214,10 +7202,7 @@
                     "FoodGuide",
                     "ConvectRoast"
                   ]
-                },
-                "Accessories": [
-                  "OvenLowerCavity_AlertStatusMeatProbePluggedIn"
-                ]
+                }
               },
               "LowerCavity_CavityModeOvenPCFGVealMedium": {
                 "Name": "VealMedium",
@@ -7227,10 +7212,7 @@
                     "FoodGuide",
                     "ConvectRoast"
                   ]
-                },
-                "Accessories": [
-                  "OvenLowerCavity_AlertStatusMeatProbePluggedIn"
-                ]
+                }
               },
               "LowerCavity_CavityModeOvenPCFGVealWellDone": {
                 "Name": "VealWellDone",
@@ -7240,10 +7222,7 @@
                     "FoodGuide",
                     "ConvectRoast"
                   ]
-                },
-                "Accessories": [
-                  "OvenLowerCavity_AlertStatusMeatProbePluggedIn"
-                ]
+                }
               }
             },
             "LowerCavity_CavityModeOvenPCBake": {
@@ -7253,10 +7232,7 @@
                   "ProbeCook",
                   "Bake"
                 ]
-              },
-              "Accessories": [
-                "OvenLowerCavity_AlertStatusMeatProbePluggedIn"
-              ]
+              }
             }
           },
           "LowerCavity_CavityModeOvenKeepWarm": {
@@ -7565,7 +7541,8 @@
             "CA"
           ],
           "StateAttributes": {
-            
+            "OpStatusState": "UpperCavity_CavityHeatState",
+            "MeatProbeTargetTemp": "UpperCavity_MeatProbeTargetTemp"
           },
           "StatusAttributes": [
             "UpperCavity_CavityModeOven",
@@ -7652,7 +7629,7 @@
             "US"
           ],
           "StateAttributes": {
-            
+
           },
           "StatusAttributes": [
             "LowerCavity_CavityModeOven",
@@ -7691,7 +7668,8 @@
             "CA"
           ],
           "StateAttributes": {
-            
+            "OpStatusState": "LowerCavity_CavityHeatState",
+            "MeatProbeTargetTemp": "LowerCavity_MeatProbeTargetTemp"
           },
           "StatusAttributes": [
             "LowerCavity_CavityModeOven",

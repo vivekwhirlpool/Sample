@@ -1226,8 +1226,12 @@
   },
   "Personality": {
     "Key": "DDM_REFRIGERATOR_OBERON_FREEZER_V1",
+    "CavityOrder": [
+      "UpperZone",
+      "LowerZone"
+    ],
     "Capability": {
-      "SystemCavity": {
+      "UpperZone": {
         "CapabilityData": {
           "UpperZone_OpSetTempPreset": {
             "Refrigerator_OpSetTargetTemp": {
@@ -1238,7 +1242,17 @@
                 "Default": -189
               }
             }
-          },
+          }
+        },
+        "SetCycle": {
+          "UpperZone_OpSetTempPreset": {
+
+          }
+
+          }
+        },
+      "LowerZone": {
+        "CapabilityData": {
           "LowerZone_OpSetTempPreset": {
             "Freezer_OpSetTempPreset": {
               "Map": [
@@ -1259,9 +1273,6 @@
           }
         },
         "SetCycle": {
-          "UpperZone_OpSetTempPreset": {
-
-          },
           "LowerZone_OpSetTempPreset": {
 
           }
@@ -1269,11 +1280,11 @@
       }
     },
     "AttributesMapping": {
-      "FreezerCavity": {
+      "UpperZone": {
         "DoorOpen": "Freezer_OpStatusDoorOpen",
         "TargetTemp" : "Freezer_OpSetTempPreset"
       },
-      "RefrigeratorCavity": {
+      "LowerZone": {
         "DoorOpen": "Refrigerator_OpStatusDoorOpen",
         "OverTemp" : "Refrigerator_OpStatusOverTemp",
         "TargetTemp" : "Refrigerator_OpSetTargetTemp"
@@ -1289,6 +1300,64 @@
         "VacationMode" : "Sys_OpSetVacationMode",
         "SabbathModeEnabled" : "Sys_OpSetSabbathModeEnabled",
         "ControlLock" : "Sys_OpSetControlLock"
+      }
+    },
+    "Features": {
+      "Common": {
+        "ControlLock": {
+          "Visible": true,
+          "AvailableIn": [
+            "US",
+            "CA"
+          ],
+          "StateAttributes": {
+            "State": "Sys_OpSetControlLock"
+          }
+        },
+        "MaxCool": {
+          "Visible": true,
+          "ReadOnly": true,
+          "AvailableIn": [
+            "US",
+            "CA"
+          ],
+          "StateAttributes": {
+            "State": "Sys_OpSetMaxCool"
+          }
+        },
+        "IceMaker": {
+          "Visible": true,
+          "AvailableIn": [
+            "US"
+          ],
+          "StateAttributes": {
+            "State": "Sys_OpSetIceMakerOn"
+          }
+        },
+        "sabbath": {
+          "Visible": true,
+          "AvailableIn": [
+            "US",
+            "CA"
+          ],
+          "StateAttributes": {
+            "State": "Sys_OpSetSabbathModeEnabled"
+          }
+        },
+        "Notifications": {
+          "Visible": true,
+          "AvailableIn": [
+            "US",
+            "CA"
+          ]
+        },
+        "EnergyHistory": {
+          "Visible": true,
+          "AvailableIn": [
+            "US",
+            "CA"
+          ]
+        }
       }
     }
   },
