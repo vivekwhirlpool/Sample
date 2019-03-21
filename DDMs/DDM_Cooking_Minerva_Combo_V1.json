@@ -5718,15 +5718,15 @@
   },
   "Alerts": {
     "Key": "DDM_Cooking_Minerva_Combo_V1",
-    "Alerts": [
+    "alerts": [
       {
         "ApplianceAlerts": [
           {
-            "alertId": 563,
+            "alertId": 64,
             "name": "PreheatComplete",
             "attribute": "LowerCavity_CavityEventNotification",
             "type": "push",
-            "category": "Cooking",
+            "category": "",
             "autodelete": false,
             "autodisarm": false,
             "autodisable": false,
@@ -5734,11 +5734,11 @@
             "enable": true
           },
           {
-            "alertId": 564,
+            "alertId": 66,
             "name": "Preheat25",
             "attribute": "LowerCavity_CavityEventNotification",
             "type": "push",
-            "category": "Cooking",
+            "category": "",
             "autodelete": false,
             "autodisarm": false,
             "autodisable": false,
@@ -5746,11 +5746,11 @@
             "enable": false
           },
           {
-            "alertId": 565,
+            "alertId": 67,
             "name": "CookTimeComplete",
             "attribute": "LowerCavity_CavityEventNotification",
             "type": "push",
-            "category": "Cooking",
+            "category": "",
             "autodelete": false,
             "autodisarm": false,
             "autodisable": false,
@@ -5758,11 +5758,11 @@
             "enable": true
           },
           {
-            "alertId": 566,
+            "alertId": 68,
             "name": "MeatProbeTempAchieved",
             "attribute": "LowerCavity_CavityEventNotification",
             "type": "push",
-            "category": "Cooking",
+            "category": "",
             "autodelete": false,
             "autodisarm": false,
             "autodisable": false,
@@ -5770,11 +5770,11 @@
             "enable": true
           },
           {
-            "alertId": 567,
+            "alertId": 69,
             "name": "MeatProbeTargetChanged",
             "attribute": "LowerCavity_CavityEventNotification",
             "type": "push",
-            "category": "Cooking",
+            "category": "",
             "autodelete": false,
             "autodisarm": false,
             "autodisable": false,
@@ -5782,11 +5782,11 @@
             "enable": false
           },
           {
-            "alertId": 568,
+            "alertId": 70,
             "name": "CookTimerChanged",
             "attribute": "LowerCavity_CavityEventNotification",
             "type": "push",
-            "category": "Cooking",
+            "category": "",
             "autodelete": false,
             "autodisarm": false,
             "autodisable": false,
@@ -5794,11 +5794,11 @@
             "enable": false
           },
           {
-            "alertId": 569,
+            "alertId": 67,
             "name": "CookTimeCompleteReminder",
             "attribute": "LowerCavity_CavityEventNotification",
             "type": "push",
-            "category": "Cooking",
+            "category": "",
             "autodelete": false,
             "autodisarm": false,
             "autodisable": false,
@@ -5806,11 +5806,11 @@
             "enable": true
           },
           {
-            "alertId": 570,
+            "alertId": 72,
             "name": "CookCycleCancelled",
             "attribute": "LowerCavity_CavityEventNotification",
             "type": "push",
-            "category": "Cooking",
+            "category": "",
             "autodelete": false,
             "autodisarm": false,
             "autodisable": false,
@@ -5818,11 +5818,11 @@
             "enable": false
           },
           {
-            "alertId": 571,
+            "alertId": 73,
             "name": "CookModeChanged",
             "attribute": "LowerCavity_CavityEventNotification",
             "type": "push",
-            "category": "Cooking",
+            "category": "",
             "autodelete": false,
             "autodisarm": false,
             "autodisable": false,
@@ -5830,11 +5830,11 @@
             "enable": false
           },
           {
-            "alertId": 572,
+            "alertId": 74,
             "name": "CookTargetTempChanged",
             "attribute": "LowerCavity_CavityEventNotification",
             "type": "push",
-            "category": "Cooking",
+            "category": "",
             "autodelete": false,
             "autodisarm": false,
             "autodisable": false,
@@ -5842,11 +5842,11 @@
             "enable": false
           },
           {
-            "alertId": 573,
+            "alertId": 75,
             "name": "SelfCleanComplete",
             "attribute": "LowerCavity_CavityEventNotification",
             "type": "push",
-            "category": "Cooking",
+            "category": "",
             "autodelete": false,
             "autodisarm": false,
             "autodisable": false,
@@ -5854,11 +5854,11 @@
             "enable": true
           },
           {
-            "alertId": 574,
+            "alertId": 57,
             "name": "ControlLock",
             "attribute": "SystemSettings_ControlLock",
             "type": "push",
-            "category": "Cooking",
+            "category": "",
             "autodelete": false,
             "autodisarm": false,
             "autodisable": false,
@@ -5866,11 +5866,11 @@
             "enable": false
           },
           {
-            "alertId": 575,
+            "alertId": 59,
             "name": "KitchenTimerEventNotification",
             "attribute": "KitchenTimer1_TimerEventNotification",
             "type": "push",
-            "category": "Cooking",
+            "category": "",
             "autodelete": false,
             "autodisarm": false,
             "autodisable": false,
@@ -5878,11 +5878,11 @@
             "enable": false
           },
           {
-            "alertId": 576,
+            "alertId": 60,
             "name": "RemoteStatus",
             "attribute": "Appliance_RemoteEnabledStatus",
             "type": "push",
-            "category": "Cooking",
+            "category": "",
             "autodelete": false,
             "autodisarm": false,
             "autodisable": false,
@@ -5890,11 +5890,11 @@
             "enable": false
           },
           {
-            "alertId": 577,
+            "alertId": 644,
             "name": "LowerCavityCulinaryInstructions",
             "attribute": "LowerCavity_CulinaryCenterUserInstruction",
             "type": "push",
-            "category": "Cooking",
+            "category": "",
             "autodelete": false,
             "autodisarm": false,
             "autodisable": false,
@@ -5902,11 +5902,11 @@
             "enable": true
           },
           {
-            "alertId": 578,
+            "alertId": 492,
             "name": "OvenOnWhileAway",
             "attribute": "Online",
             "type": "push",
-            "category": "Cooking",
+            "category": "",
             "autodelete": false,
             "autodisarm": false,
             "autodisable": false,

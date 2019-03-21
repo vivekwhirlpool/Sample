@@ -1760,15 +1760,15 @@
   },
   "Alerts": {
     "Key": "DDM_DISHWASHER_JA_DISH17_244_V1",
-    "Alerts": [
+    "alerts": [
       {
         "ApplianceAlerts": [
           {
-            "alertId": 526,
+            "alertId": 161,
             "name": "CycleComplete",
             "attribute": "Cavity_OperationStatusMachineState",
             "type": "push",
-            "category": "Dishwasher",
+            "category": "",
             "autodelete": false,
             "autodisarm": false,
             "autodisable": false,
@@ -1776,11 +1776,11 @@
             "enable": false
           },
           {
-            "alertId": 527,
+            "alertId": 160,
             "name": "FilterStatus",
-            "attribute": "Cavity_IsTimeToCleanFilter",
+            "attribute": "Cavity_CycleStatusOdometer,Cavity_IsTimeToCleanFilter,Cavity_CycleStatusHeavyDutyCycle",
             "type": "push",
-            "category": "Dishwasher",
+            "category": "",
             "autodelete": false,
             "autodisarm": true,
             "autodisable": false,
@@ -1788,11 +1788,11 @@
             "enable": false
           },
           {
-            "alertId": 528,
+            "alertId": 172,
             "name": "SaniRinse",
             "attribute": "Cavity_CycleStatusCycleSanitized",
             "type": "push",
-            "category": "Dishwasher",
+            "category": "",
             "autodelete": false,
             "autodisarm": false,
             "autodisable": false,
@@ -1800,11 +1800,11 @@
             "enable": false
           },
           {
-            "alertId": 529,
+            "alertId": 638,
             "name": "RemoteStatus",
             "attribute": "XCat_RemoteSetRemoteControlEnable",
             "type": "push",
-            "category": "Dishwasher",
+            "category": "",
             "autodelete": false,
             "autodisarm": false,
             "autodisable": false,
@@ -1812,11 +1812,11 @@
             "enable": false
           },
           {
-            "alertId": 530,
+            "alertId": 159,
             "name": "AffreshNotification",
             "attribute": "Cavity_OperationSetAffreshCycleNeeded",
             "type": "push",
-            "category": "Dishwasher",
+            "category": "",
             "autodelete": false,
             "autodisarm": true,
             "autodisable": false,
