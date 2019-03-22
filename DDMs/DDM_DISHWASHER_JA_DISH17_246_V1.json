@@ -803,8 +803,7 @@
         "AttributeName": "Close",
         "RangeValues": {
           "StepSize": "1",
-          "Max": "4294967295",
-          "Min" : "1"
+          "Max": "4294967295"
         },
         "DeviceIO": "RW",
         "MappedAttributeName": "Relational_EntityClose",
@@ -1327,10 +1326,10 @@
   "Personality": {
     "Key": "DDM_DISHWASHER_JA_DISH17_246_V1",
     "CavityOrder": [
-      "UpperCavity"
+      "DishCavity"
     ],
     "Capability": {
-      "UpperCavity": {
+      "DishCavity": {
         "CapabilityData": {
           "DishCavity_WashModeCycleNormal": {
             "Required": {
@@ -1788,8 +1787,8 @@
           }
         }
       },
-      "UpperCavity": {
-        "SetOven": {
+      "DishCavity": {
+        "SetDishWasher": {
           "Visible": true,
           "AvailableIn": [
             "US",
