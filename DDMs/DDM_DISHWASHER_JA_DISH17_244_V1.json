@@ -1721,7 +1721,8 @@
                 ]
               }
             }
-          }
+          },
+          "Default": "DishCavity_WashModeCycleNormal"
         }
       }
     },
