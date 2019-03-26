@@ -4350,7 +4350,7 @@
     "Rulesets": {
       "OvenUpperCavity": {
         "CycleHistory": {
-          "isLegacy": "false",
+          "isLegacy": false,
           "groupBy": "OvenUpperCavity_OpSetOperations",
           "attributes": "OvenUpperCavity_CycleSetCommonMode,OvenUpperCavity_CycleSetFrozenBakeFood,OvenUpperCavity_CycleSetEasyConvectFood,OvenUpperCavity_OpSetOperations,OvenUpperCavity_CycleSetTargetTemp,OvenUpperCavity_TimeSetCookTimeSet"
         }
