@@ -1755,6 +1755,77 @@
         "SabbathModeEnabled" : "Sys_OperationSetSabbathModeEnabled"
       }
     },
+    "Features": {
+      "Common": {
+        "QuietMode": {
+          "Visible": true,
+          "AvailableIn": [
+            "US",
+            "CA"
+          ],
+          "StateAttributes": {
+            "State": "Sys_OperationSetQuietModeEnabled"
+          }
+        },
+        "SabbathMode": {
+          "Visible": true,
+          "AvailableIn": [
+            "US",
+            "CA"
+          ],
+          "StateAttributes": {
+            "State": "Sys_OperationSetSabbathModeEnabled"
+          }
+        }
+      },
+      "DishCavity": {
+        "SetDishWasher": {
+          "Visible": true,
+          "AvailableIn": [
+            "US",
+            "CA"
+          ],
+          "StateAttributes": {
+            "State": "Cavity_OperationStatusMachineState"
+          },
+          "StatusAttributes": [
+            "Cavity_CycleSetCycleId",
+            "Cavity_CycleSetDownloadAndGo",
+            "Cavity_CycleSetOptionBottleWashZone",
+            "Cavity_CycleSetOptionDetergent",
+            "Cavity_CycleSetOptionEcoDry",
+            "Cavity_CycleSetOptionFanDry",
+            "Cavity_CycleSetOptionHalfLoad",
+            "Cavity_CycleSetOptionHighTemp",
+            "Cavity_CycleSetOptionLowerRackOnly",
+            "Cavity_CycleSetOptionPowerDry",
+            "Cavity_CycleSetOptionSaniRinse",
+            "Cavity_CycleSetOptionSilverwareZone",
+            "Cavity_CycleSetOptionSmartHeatedDry",
+            "Cavity_CycleSetOptionSteam",
+            "Cavity_CycleSetOptionTallItemZone",
+            "Cavity_CycleSetOptionTurboZone",
+            "Cavity_CycleSetOptionUpperRackOnly",
+            "Cavity_CycleSetOptionWaterTank",
+            "Cavity_OperationStatusMachineState",
+            "Cavity_TimeStatusEstTimeRemaining"
+          ],
+          "SendCommandAttributes": [
+            "Cavity_CycleSetDownloadAndGo",
+            "Cavity_CycleSetCycleId",
+            "Cavity_CycleSetOptionSaniRinse",
+            "Cavity_CycleSetOptionSmartHeatedDry",
+            "Cavity_CycleSetOptionLowerRackOnly",
+            "Cavity_CycleSetOptionSteam",
+            "Cavity_CycleSetOptionHighTemp",
+            "Cavity_CycleSetOptionUpperRackOnly"
+          ],
+          "SetOperationsMapping": {
+            "Operation" : "Cavity_OperationSetStartCommand"
+          }
+        }
+      }
+    },
     "Rulesets": {
     }
   },
