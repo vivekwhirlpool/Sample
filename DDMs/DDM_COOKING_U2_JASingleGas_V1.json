@@ -2446,6 +2446,20 @@
           "AvailableIn": [
             "US"
           ]
+        },
+        "Notifications": {
+          "Visible": true,
+          "AvailableIn": [
+            "US",
+            "CA"
+          ]
+        },
+        "FaultCodes": {
+          "Visible": true,
+          "AvailableIn": [
+            "US",
+            "CA"
+          ]
         }
       },
       "OvenUpperCavity": {
@@ -2585,12 +2599,12 @@
         }
       },
       "EnergyHistory": {
-        "isLegacy": "false",
+        "isLegacy": false,
         "groupBy": "XCat_PowerStatusEnergyConsumption",
         "attributes": "XCat_PowerStatusEnergyConsumption"
       },
       "FaultCodeHistory": {
-        "isLegacy": "false",
+        "isLegacy": false,
         "groupBy": "Sys_AlertStatusCustomerFaultCode",
         "attributes": "Sys_AlertStatusCustomerFaultCode"
       },

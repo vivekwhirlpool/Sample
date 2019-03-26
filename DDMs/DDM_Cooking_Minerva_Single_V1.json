@@ -4746,6 +4746,13 @@
           ]
         }
       }
+    },
+    "Rulesets": {
+      "FaultCodeHistory": {
+        "isLegacy": false,
+        "groupBy": "Appliance_FaultCode",
+        "attributes": "Appliance_FaultCode"
+      }
     }
   },
   "Alerts": {
