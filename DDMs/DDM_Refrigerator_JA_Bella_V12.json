@@ -1271,52 +1271,64 @@
           "Sys_OpSetFavoriteFillUnitsFavoriteFillUnitsMilliLiters": {
             "Required": {
               "Sys_OpSetFavoriteFillAmount1": {
-                "Min": 0,
-                "Max": 4000,
-                "Step": 1,
-                "Default": 0
+                "Range" : {
+                  "Min": 0,
+                  "Max": 4000,
+                  "Step": 1,
+                  "Default": 0
+                }
               },
               "Sys_OpSetFavoriteFillAmount2": {
-                "Min": 0,
-                "Max": 4000,
-                "Step": 1,
-                "Default": 0
+                "Range" : {
+                  "Min": 0,
+                  "Max": 4000,
+                  "Step": 1,
+                  "Default": 0
+                }
               }
             }
           },
           "Sys_OpSetFavoriteFillUnitsFavoriteFillUnitsCups": {
             "Required": {
               "Sys_OpSetFavoriteFillAmount1": {
-                "Min": 0,
-                "Max": 16,
-                "StepCup": 0.125,
-                "Default": 0,
-                "Step": 30
+                "Range" : {
+                  "Min": 0,
+                  "Max": 16,
+                  "StepCup": 0.125,
+                  "Default": 0,
+                  "Step": 30
+                }
               },
               "Sys_OpSetFavoriteFillAmount2": {
-                "Min": 0,
-                "Max": 16,
-                "StepCup": 0.125,
-                "Default": 0,
-                "Step": 30
+                "Range" : {
+                  "Min": 0,
+                  "Max": 16,
+                  "StepCup": 0.125,
+                  "Default": 0,
+                  "Step": 30
+                }
               }
             }
           },
           "Sys_OpSetFavoriteFillUnitsFavoriteFillUnitsOunces": {
             "Required": {
               "Sys_OpSetFavoriteFillAmount1": {
-                "Min": 0,
-                "Max": 135,
-                "StepOunce": 30,
-                "Default": 0,
-                "Step": 1
+                "Range" : {
+                  "Min": 0,
+                  "Max": 135,
+                  "StepOunce": 30,
+                  "Default": 0,
+                  "Step": 1
+                }
               },
               "Sys_OpSetFavoriteFillAmount2": {
-                "Min": 0,
-                "Max": 135,
-                "StepOunce": 30,
-                "Default": 0,
-                "Step": 1
+                "Range" : {
+                  "Min": 0,
+                  "Max": 135,
+                  "StepOunce": 30,
+                  "Default": 0,
+                  "Step": 1
+                }
               }
             }
           }
