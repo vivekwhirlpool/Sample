@@ -3304,7 +3304,7 @@
   },
   "Alerts": {
     "Key": "DDM_COOKING_U2_JASingleDuelFuel_V1",
-    "alerts": [
+    "Alerts": [
       {
         "ApplianceAlerts": [
           {
