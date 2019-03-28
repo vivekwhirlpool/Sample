@@ -2673,7 +2673,7 @@
       {
         "ApplianceAlerts": [
           {
-            "alertId": 1402,
+            "alertId": 436,
             "name": "PreheatComplete",
             "attribute": "Sys_AlertStatusNotification",
             "type": "push",
@@ -2685,7 +2685,7 @@
             "enable": true
           },
           {
-            "alertId": 1403,
+            "alertId": 437,
             "name": "CookTimeComplete",
             "attribute": "OvenUpperCavity_OpStatusCookTimeState",
             "type": "push",
@@ -2697,7 +2697,7 @@
             "enable": true
           },
           {
-            "alertId": 1405,
+            "alertId": 439,
             "name": "CookTargetTempChanged",
             "attribute": "OvenUpperCavity_CycleSetTargetTemp",
             "type": "push",
@@ -2709,7 +2709,7 @@
             "enable": false
           },
           {
-            "alertId": 1406,
+            "alertId": 440,
             "name": "CookModeChanged",
             "attribute": "OvenUpperCavity_CycleSetCommonMode",
             "type": "push",
@@ -2721,7 +2721,7 @@
             "enable": true
           },
           {
-            "alertId": 1408,
+            "alertId": 445,
             "name": "MeatProbeTempAchieved",
             "attribute": "Sys_AlertStatusNotification",
             "type": "push",
@@ -2733,7 +2733,7 @@
             "enable": true
           },
           {
-            "alertId": 1409,
+            "alertId": 521,
             "name": "OvenOnWhileAway",
             "attribute": "Online",
             "type": "push",
@@ -2745,7 +2745,7 @@
             "enable": false
           },
           {
-            "alertId": 1410,
+            "alertId": 1001,
             "name": "RemoteStatus",
             "attribute": "XCat_RemoteSetRemoteControlEnable",
             "type": "push",
@@ -2757,7 +2757,7 @@
             "enable": true
           },
           {
-            "alertId": 1411,
+            "alertId": 1002,
             "name": "ErrorNotification",
             "attribute": "Sys_AlertStatusCustomerFaultCode",
             "type": "push",
@@ -2769,7 +2769,19 @@
             "enable": false
           },
           {
-            "alertId": 1404,
+            "alertId": 441,
+            "name": "CookCycleCanceled",
+            "attribute": "OvenUpperCavity_TimeSetCookTimeOperations",
+            "type": "push",
+            "category": "Cooking",
+            "autodelete": false,
+            "autodisarm": false,
+            "autodisable": false,
+            "visible": true,
+            "enable": true
+          },
+          {
+            "alertId": 438,
             "name": "CookTimerChanged",
             "attribute": "OvenUpperCavity_TimeSetCookTimeSet",
             "type": "push",
@@ -2781,16 +2793,16 @@
             "enable": false
           },
           {
-            "alertId": 1407,
-            "name": "CookCycleCanceled",
-            "attribute": "OvenUpperCavity_TimeSetCookTimeOperations",
+            "alertId": 1180,
+            "name": "MeatProbeTargetChanged",
+            "attribute": "OvenUpperCavity_CycleSetMeatProbeTargetTemp",
             "type": "push",
             "category": "Cooking",
             "autodelete": false,
             "autodisarm": false,
             "autodisable": false,
             "visible": true,
-            "enable": true
+            "enable": false
           }
         ]
       }

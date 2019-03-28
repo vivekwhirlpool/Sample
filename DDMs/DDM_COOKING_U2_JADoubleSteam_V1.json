@@ -4912,7 +4912,7 @@
   },
   "Alerts": {
     "Key": "DDM_COOKING_U2_JADoubleSteam_V1",
-    "alerts": [
+    "Alerts": [
       {
         "ApplianceAlerts": [
           {
