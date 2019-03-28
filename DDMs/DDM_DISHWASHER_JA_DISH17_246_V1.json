@@ -1848,7 +1848,7 @@
   },
   "Alerts": {
     "Key": "DDM_DISHWASHER_JA_DISH17_246_V1",
-    "alerts": [
+    "Alerts": [
       {
         "ApplianceAlerts": [
           {
