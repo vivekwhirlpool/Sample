@@ -1777,6 +1777,13 @@
           "StateAttributes": {
             "State": "Sys_OperationSetSabbathModeEnabled"
           }
+        },
+        "Notifications": {
+          "Visible": true,
+          "AvailableIn": [
+            "US",
+            "CA"
+          ]
         }
       },
       "DishCavity": {
