@@ -803,8 +803,7 @@
         "AttributeName": "Close",
         "RangeValues": {
           "StepSize": "1",
-          "Max": "4294967295",
-          "Min" : "1"
+          "Max": "4294967295"
         },
         "DeviceIO": "RW",
         "MappedAttributeName": "Relational_EntityClose",
@@ -1327,10 +1326,10 @@
   "Personality": {
     "Key": "DDM_DISHWASHER_JA_DISH17_246_V1",
     "CavityOrder": [
-      "UpperCavity"
+      "DishCavity"
     ],
     "Capability": {
-      "UpperCavity": {
+      "DishCavity": {
         "CapabilityData": {
           "DishCavity_WashModeCycleNormal": {
             "Required": {
@@ -1731,7 +1730,8 @@
                 ]
               }
             }
-          }
+          },
+          "Default": "DishCavity_WashModeCycleNormal"
         }
       }
     },
@@ -1786,10 +1786,17 @@
           "StateAttributes": {
             "State": "Sys_OperationSetSabbathModeEnabled"
           }
+        },
+        "Notifications": {
+          "Visible": true,
+          "AvailableIn": [
+            "US",
+            "CA"
+          ]
         }
       },
-      "UpperCavity": {
-        "SetOven": {
+      "DishCavity": {
+        "SetDishWasher": {
           "Visible": true,
           "AvailableIn": [
             "US",
@@ -1845,11 +1852,11 @@
       {
         "ApplianceAlerts": [
           {
-            "alertId": 531,
+            "alertId": 161,
             "name": "CycleComplete",
             "attribute": "Cavity_OperationStatusMachineState",
             "type": "push",
-            "category": "Dishwasher",
+            "category": "",
             "autodelete": false,
             "autodisarm": false,
             "autodisable": false,
@@ -1857,23 +1864,23 @@
             "enable": false
           },
           {
-            "alertId": 532,
+            "alertId": 160,
             "name": "FilterStatus",
-            "attribute": "Cavity_IsTimeToCleanFilter",
+            "attribute": "Cavity_CycleStatusOdometer,Cavity_IsTimeToCleanFilter,Cavity_CycleStatusHeavyDutyCycle",
             "type": "push",
-            "category": "Dishwasher",
+            "category": "",
             "autodelete": false,
-            "autodisarm": false,
+            "autodisarm": true,
             "autodisable": false,
             "visible": true,
             "enable": false
           },
           {
-            "alertId": 533,
+            "alertId": 172,
             "name": "SaniRinse",
             "attribute": "Cavity_CycleStatusCycleSanitized",
             "type": "push",
-            "category": "Dishwasher",
+            "category": "",
             "autodelete": false,
             "autodisarm": false,
             "autodisable": false,
@@ -1881,11 +1888,11 @@
             "enable": false
           },
           {
-            "alertId": 534,
+            "alertId": 638,
             "name": "RemoteStatus",
             "attribute": "XCat_RemoteSetRemoteControlEnable",
             "type": "push",
-            "category": "Dishwasher",
+            "category": "",
             "autodelete": false,
             "autodisarm": false,
             "autodisable": false,
@@ -1893,13 +1900,13 @@
             "enable": false
           },
           {
-            "alertId": 535,
+            "alertId": 159,
             "name": "AffreshNotification",
             "attribute": "Cavity_OperationSetAffreshCycleNeeded",
             "type": "push",
-            "category": "Dishwasher",
+            "category": "",
             "autodelete": false,
-            "autodisarm": false,
+            "autodisarm": true,
             "autodisable": false,
             "visible": true,
             "enable": false

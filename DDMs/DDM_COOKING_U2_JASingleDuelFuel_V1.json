@@ -3082,6 +3082,20 @@
           "AvailableIn": [
             "US"
           ]
+        },
+        "Notifications": {
+          "Visible": true,
+          "AvailableIn": [
+            "US",
+            "CA"
+          ]
+        },
+        "FaultCodes": {
+          "Visible": true,
+          "AvailableIn": [
+            "US",
+            "CA"
+          ]
         }
       },
       "OvenUpperCavity": {
@@ -3182,7 +3196,7 @@
             "State": "OvenUpperCavity_AlertStatusMeatProbePluggedIn"
           }
         },
-        "CycleHistory": {
+        "CyclesHistory": {
           "Visible": true,
           "ReadOnly": false,
           "AvailableIn": [
@@ -3202,12 +3216,26 @@
             "OvenUpperCavity_OpSetOperations",
             "OvenUpperCavity_TimeSetCookTimeOperations"
           ],
-          "StateAttributes": {
-            "State": "OvenUpperCavity_OpStatusState"
-          },
+          "StateAttributes": {},
           "SetOperationsMapping": {
             "Operation": "OvenUpperCavity_OpSetOperations",
             "TimerOperations": "OvenUpperCavity_TimeSetCookTimeOperations"
+          }
+        },
+        "FavoriteCycles": {
+          "Visible": true,
+          "ReadOnly": false,
+          "AvailableIn": [
+            "US",
+            "CA"
+          ],
+          "StatusAttributes": [],
+          "StateAttributes": {},
+          "SendCommandAttributes": [
+          ],
+          "SetOperationsMapping": {
+            "Operation": "OvenUpperCavity_OpSetOperations",
+            "EnvelopeAction" : "Relational_EnvelopeAction"
           }
         }
       }
@@ -3221,12 +3249,12 @@
         }
       },
       "EnergyHistory": {
-        "isLegacy": "false",
+        "isLegacy": false,
         "groupBy": "XCat_PowerStatusEnergyConsumption",
         "attributes": "XCat_PowerStatusEnergyConsumption"
       },
       "FaultCodeHistory": {
-        "isLegacy": "false",
+        "isLegacy": false,
         "groupBy": "Sys_AlertStatusCustomerFaultCode",
         "attributes": "Sys_AlertStatusCustomerFaultCode"
       },
@@ -3276,11 +3304,11 @@
   },
   "Alerts": {
     "Key": "DDM_COOKING_U2_JASingleDuelFuel_V1",
-    "Alerts": [
+    "alerts": [
       {
         "ApplianceAlerts": [
           {
-            "alertId": 1392,
+            "alertId": 422,
             "name": "PreheatComplete",
             "attribute": "Sys_AlertStatusNotification",
             "type": "push",
@@ -3292,7 +3320,7 @@
             "enable": true
           },
           {
-            "alertId": 1393,
+            "alertId": 423,
             "name": "CookTimeComplete",
             "attribute": "OvenUpperCavity_OpStatusCookTimeState",
             "type": "push",
@@ -3304,7 +3332,7 @@
             "enable": true
           },
           {
-            "alertId": 1395,
+            "alertId": 425,
             "name": "CookTargetTempChanged",
             "attribute": "OvenUpperCavity_CycleSetTargetTemp",
             "type": "push",
@@ -3316,7 +3344,7 @@
             "enable": false
           },
           {
-            "alertId": 1396,
+            "alertId": 426,
             "name": "CookModeChanged",
             "attribute": "OvenUpperCavity_CycleSetCommonMode",
             "type": "push",
@@ -3328,7 +3356,7 @@
             "enable": true
           },
           {
-            "alertId": 1398,
+            "alertId": 431,
             "name": "MeatProbeTempAchieved",
             "attribute": "Sys_AlertStatusNotification",
             "type": "push",
@@ -3340,7 +3368,7 @@
             "enable": true
           },
           {
-            "alertId": 1399,
+            "alertId": 523,
             "name": "OvenOnWhileAway",
             "attribute": "Online",
             "type": "push",
@@ -3352,7 +3380,7 @@
             "enable": false
           },
           {
-            "alertId": 1400,
+            "alertId": 1003,
             "name": "ErrorNotification",
             "attribute": "Sys_AlertStatusCustomerFaultCode",
             "type": "push",
@@ -3364,7 +3392,7 @@
             "enable": false
           },
           {
-            "alertId": 1401,
+            "alertId": 1004,
             "name": "RemoteStatus",
             "attribute": "XCat_RemoteSetRemoteControlEnable",
             "type": "push",
@@ -3376,7 +3404,7 @@
             "enable": true
           },
           {
-            "alertId": 1452,
+            "alertId": 424,
             "name": "CookTimerChanged",
             "attribute": "OvenUpperCavity_TimeSetCookTimeSet",
             "type": "push",
@@ -3388,7 +3416,7 @@
             "enable": false
           },
           {
-            "alertId": 1397,
+            "alertId": 427,
             "name": "CookCycleCanceled",
             "attribute": "OvenUpperCavity_TimeSetCookTimeOperations",
             "type": "push",
@@ -3398,6 +3426,18 @@
             "autodisable": false,
             "visible": true,
             "enable": true
+          },
+          {
+            "alertId": 1179,
+            "name": "MeatProbeTargetChanged",
+            "attribute": "OvenUpperCavity_CycleSetMeatProbeTargetTemp",
+            "type": "push",
+            "category": "Cooking",
+            "autodelete": false,
+            "autodisarm": false,
+            "autodisable": false,
+            "visible": true,
+            "enable": false
           }
         ]
       }

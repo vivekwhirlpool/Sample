@@ -3211,6 +3211,20 @@
           "AvailableIn": [
             "US"
           ]
+        },
+        "Notifications": {
+          "Visible": true,
+          "AvailableIn": [
+            "US",
+            "CA"
+          ]
+        },
+        "FaultCodes": {
+          "Visible": true,
+          "AvailableIn": [
+            "US",
+            "CA"
+          ]
         }
       },
       "OvenUpperCavity": {
@@ -3314,7 +3328,7 @@
             "State": "OvenUpperCavity_AlertStatusMeatProbePluggedIn"
           }
         },
-        "CycleHistory": {
+        "CyclesHistory": {
           "Visible": true,
           "ReadOnly": false,
           "AvailableIn": [
@@ -3342,6 +3356,22 @@
           "StateAttributes": {
             "State": "OvenUpperCavity_OpStatusState"
           }
+        },
+        "FavoriteCycles": {
+          "Visible": true,
+          "ReadOnly": false,
+          "AvailableIn": [
+            "US",
+            "CA"
+          ],
+          "StatusAttributes": [],
+          "StateAttributes": {},
+          "SendCommandAttributes": [
+          ],
+          "SetOperationsMapping": {
+            "Operation": "OvenUpperCavity_OpSetOperations",
+            "EnvelopeAction" : "Relational_EnvelopeAction"
+          }
         }
       }
     },
@@ -3354,12 +3384,12 @@
         }
       },
       "EnergyHistory": {
-        "isLegacy": "false",
+        "isLegacy": false,
         "groupBy": "XCat_PowerStatusEnergyConsumption",
         "attributes": "XCat_PowerStatusEnergyConsumption"
       },
       "FaultCodeHistory": {
-        "isLegacy": "false",
+        "isLegacy": false,
         "groupBy": "Sys_AlertStatusCustomerFaultCode",
         "attributes": "Sys_AlertStatusCustomerFaultCode"
       },
