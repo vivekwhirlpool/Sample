@@ -4695,7 +4695,7 @@
             "State": "OvenUpperCavity_AlertStatusMeatProbePluggedIn"
           }
         },
-        "CycleHistory": {
+        "CyclesHistory": {
           "Visible": true,
           "ReadOnly": false,
           "AvailableIn": [
@@ -4721,7 +4721,22 @@
             "TimerOperations": "OvenUpperCavity_TimeSetCookTimeOperations"
           },
           "StateAttributes": {
-            "State": "OvenUpperCavity_OpStatusState"
+          }
+        },
+        "FavoriteCycles": {
+          "Visible": true,
+          "ReadOnly": false,
+          "AvailableIn": [
+            "US",
+            "CA"
+          ],
+          "StatusAttributes": [],
+          "StateAttributes": {},
+          "SendCommandAttributes": [
+          ],
+          "SetOperationsMapping": {
+            "Operation": "OvenUpperCavity_OpSetOperations",
+            "EnvelopeAction" : "Relational_EnvelopeAction"
           }
         }
       },
@@ -4784,7 +4799,7 @@
             "State": "OvenLowerCavity_AlertStatusMeatProbePluggedIn"
           }
         },
-        "CycleHistory": {
+        "CyclesHistory": {
           "Visible": true,
           "ReadOnly": false,
           "AvailableIn": [
@@ -4810,7 +4825,22 @@
             "TimerOperations": "OvenLowerCavity_TimeSetCookTimeOperations"
           },
           "StateAttributes": {
-            "State": "OvenLowerCavity_OpStatusState"
+          }
+        },
+        "FavoriteCycles": {
+          "Visible": true,
+          "ReadOnly": false,
+          "AvailableIn": [
+            "US",
+            "CA"
+          ],
+          "StatusAttributes": [],
+          "StateAttributes": {},
+          "SendCommandAttributes": [],
+          "SetOperationsMapping": {
+            "Operation": "OvenLowerCavity_OpSetOperations",
+              "EnvelopeAction" : "Relational_EnvelopeAction"
+
           }
         }
       }

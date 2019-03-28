@@ -4738,7 +4738,7 @@
             "MyCreationId": "UpperCavity_MyCreationID"
           }
         },
-        "CycleHistory": {
+        "CyclesHistory": {
           "Visible": true,
           "AvailableIn": [
             "US",

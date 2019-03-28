@@ -2559,7 +2559,7 @@
             "State": "OvenUpperCavity_AlertStatusMeatProbePluggedIn"
           }
         },
-        "CycleHistory": {
+        "CyclesHistory": {
           "Visible": true,
           "ReadOnly": false,
           "AvailableIn": [
@@ -2585,6 +2585,22 @@
           },
           "StateAttributes": {
             "State": "OvenUpperCavity_OpStatusState"
+          }
+        },
+        "FavoriteCycles": {
+          "Visible": true,
+          "ReadOnly": false,
+          "AvailableIn": [
+            "US",
+            "CA"
+          ],
+          "StatusAttributes": [],
+          "StateAttributes": {},
+          "SendCommandAttributes": [
+          ],
+          "SetOperationsMapping": {
+            "Operation": "OvenUpperCavity_OpSetOperations",
+            "EnvelopeAction" : "Relational_EnvelopeAction"
           }
         }
       }

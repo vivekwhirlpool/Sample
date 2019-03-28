@@ -3833,7 +3833,7 @@
             "State": "OvenUpperCavity_AlertStatusMeatProbePluggedIn"
           }
         },
-        "CycleHistory": {
+        "CyclesHistory": {
           "Visible": true,
           "ReadOnly": false,
           "AvailableIn": [
@@ -3854,11 +3854,26 @@
             "OvenUpperCavity_TimeSetCookTimeOperations"
           ],
           "StateAttributes": {
-            "State": "OvenUpperCavity_OpStatusState"
           },
           "SetOperationsMapping": {
             "Operation": "OvenUpperCavity_OpSetOperations",
             "TimerOperations": "OvenUpperCavity_TimeSetCookTimeOperations"
+          }
+        },
+        "FavoriteCycles": {
+          "Visible": true,
+          "ReadOnly": false,
+          "AvailableIn": [
+            "US",
+            "CA"
+          ],
+          "StatusAttributes": [],
+          "StateAttributes": {},
+          "SendCommandAttributes": [
+          ],
+          "SetOperationsMapping": {
+            "Operation": "OvenUpperCavity_OpSetOperations",
+            "EnvelopeAction" : "Relational_EnvelopeAction"
           }
         }
       },
@@ -3921,7 +3936,7 @@
             "State": "OvenLowerCavity_AlertStatusMeatProbePluggedIn"
           }
         },
-        "CycleHistory": {
+        "CyclesHistory": {
           "Visible": true,
           "ReadOnly": false,
           "AvailableIn": [
@@ -3943,13 +3958,28 @@
             "OvenLowerCavity_TimeSetCookTimeOperations"
           ],
           "StateAttributes": {
-            "State": "OvenLowerCavity_OpStatusState"
           },
           "SetOperationsMapping": {
             "Operation": "OvenLowerCavity_OpSetOperations",
             "TimerOperations": "OvenLowerCavity_TimeSetCookTimeOperations"
           }
-        }
+        },
+       "FavoriteCycles": {
+          "Visible": true,
+          "ReadOnly": false,
+          "AvailableIn": [
+            "US",
+            "CA"
+          ],
+          "StatusAttributes": [],
+          "StateAttributes": {},
+          "SendCommandAttributes": [],
+          "SetOperationsMapping": {
+            "Operation": "OvenLowerCavity_OpSetOperations",
+              "EnvelopeAction" : "Relational_EnvelopeAction"
+
+          }
+        }        
       }
     },
     "Rulesets": {
