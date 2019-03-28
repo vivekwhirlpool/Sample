@@ -5725,7 +5725,7 @@
   },
   "Alerts": {
     "Key": "DDM_Cooking_Minerva_Combo_V1",
-    "alerts": [
+    "Alerts": [
       {
         "ApplianceAlerts": [
           {
