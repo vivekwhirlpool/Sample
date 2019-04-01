@@ -7609,6 +7609,7 @@
             "UpperCavity_CavityOperations"
           ],
           "SetOperationsMapping": {
+            "CycleName": "UpperCavity_CavityModeOven",
             "Operation": "UpperCavity_CavityOperations",
             "TimerOperations": "UpperCavity_OvenTimerOperations",
             "MyCreationId": "UpperCavity_MyCreationID"
@@ -7736,6 +7737,7 @@
             "LowerCavity_CavityOperations"
           ],
           "SetOperationsMapping": {
+            "CycleName": "LowerCavity_CavityModeOven",
             "Operation": "LowerCavity_CavityOperations",
             "TimerOperations": "LowerCavity_OvenTimerOperations",
             "MyCreationId": "LowerCavity_MyCreationID"
