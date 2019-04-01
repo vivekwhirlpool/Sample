@@ -1793,6 +1793,13 @@
             "US",
             "CA"
           ]
+        },
+        "DishFilterStatus": {
+          "Visible": true,
+          "AvailableIn": [
+            "US",
+            "CA"
+          ]
         }
       },
       "DishCavity": {
