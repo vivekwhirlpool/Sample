@@ -4733,6 +4733,7 @@
             "UpperCavity_CavityOperations"
           ],
           "SetOperationsMapping": {
+            "CycleName": "UpperCavity_CavityModeOven",
             "Operation": "UpperCavity_CavityOperations",
             "TimerOperations": "UpperCavity_OvenTimerOperations",
             "MyCreationId": "UpperCavity_MyCreationID"

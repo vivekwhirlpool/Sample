@@ -5701,6 +5701,7 @@
             "LowerCavity_CavityOperations"
           ],
           "SetOperationsMapping": {
+            "CycleName": "LowerCavity_CavityModeOven",
             "Operation": "LowerCavity_CavityOperations",
             "TimerOperations": "LowerCavity_OvenTimerOperations",
             "MyCreationId": "LowerCavity_MyCreationID"
