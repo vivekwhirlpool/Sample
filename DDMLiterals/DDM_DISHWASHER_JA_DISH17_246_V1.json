@@ -151,7 +151,21 @@
         "XCat_WifiSetRebootWifiCommModule.Label": "WiFi Set Reboot WiFi Comm Module",
         "XCat_WifiStatusFirmwareUpdate.Label": "WiFi Status Firmware Update",
         "XCat_WifiStatusRssiAntennaDiversity.Label": "WiFi Status RSSI Antenna Diversity",
-        "XCat_WifiStatusRssiDisplay.Label": "WiFi Status RSSI Display"
+        "XCat_WifiStatusRssiDisplay.Label": "WiFi Status RSSI Display",
+        "DishCavity_WashModeCycleCrystal.Label": "Crystal",
+        "DishCavity_WashModeCycleNormal.Label": "Normal",
+        "DishCavity_WashModeCycleOneHour.Label": "1 Hour",
+        "DishCavity_WashModeCycleCookware.Label": "Cookware",
+        "DishCavity_WashModeCycleRefresh.Label": "Refresh",
+        "DishCavity_WashModeCycleSensor.Label": "Sensor",
+        "DishCavity_CustomCycleGentle.Label": "Gentle",
+        "DishCavity_CustomCycleHeavy.Label": "Heavy",
+        "DishCavity_CustomCycleQuick.Label": "Quick Wash",
+        "DishCavity_CustomCycleSanitize.Label": "Sanitize Wash",
+        "DishCavity_CustomCycleSpecialtyItems.Label": "Specialty Items",
+        "WashMode.Label": "WASHING MODES",
+        "CustomCycle.Label": "CUSTOM CYCLES",
+        "DishCavity.Label" :"Dishwasher"
     },
     "AFCSelfHelpPack": {
         "F1,E2": {
@@ -192,30 +206,6 @@
         }
     },
     "MobileLiterals": {
-        "Manuals": {
-            "Warranty": {
-                "Title": "Warranty",
-                "FilePath": "NAR/JENNAIR/DDM_DISHWASHER_JA_DISH17_246_V1/Docs/eng/JA_DISH17_Warranty.pdf"
-            },
-            "UseCareGuide": {
-                "Title": "Use & Care Guide",
-                "FilePath": "NAR/JENNAIR/DDM_DISHWASHER_JA_DISH17_246_V1/Docs/eng/JA_DISH17_Use_Careguide.pdf"
-            },
-            "InstallationInstructions": {
-                "Title": "Installation Instructions",
-                "FilePath": "NAR/JENNAIR/DDM_DISHWASHER_JA_DISH17_246_V1/Docs/eng/JA_DISH17_InstallationInstructions.pdf"
-            },
-            "FCCInformationForm": {
-                "Title": "FCC Information Form",
-                "FilePath": "NAR/JENNAIR/DDM_DISHWASHER_JA_DISH17_246_V1/Docs/eng/JA_DISH17_FCC.pdf"
-            }
-        },
-        "NestSettings": {
-            "QuietWhileHome.Name": "Quiet While Home",
-            "QuietWhileHome.Description": "Your dishwasher will automatically go into Quiet Mode when Nest™ knows you’re home.",
-            "WashWhileAway.Name": "Wash While Away",
-            "WashWhileAway.Description": "When Nest™ detects you're away, your dishwasher will start the selected cycle.  Please note that it may take up to two hours for Nest™ to send the away signal."
-        },
         "SpecialtyCycles": {
             "Gentle.Name": "Gentle",
             "Gentle.Description": "",
@@ -312,139 +302,6 @@
                     }
                 ]
             }
-        },
-        "SmartTip": [],
-        "cxcDetail": {
-            "US": {
-                "Country": "United States",
-                "cxcEmail": {
-                    "Development": "NAR_JennAirCustomerExperience@JennAir.com",
-                    "Test": "NAR_JennAirCustomerExperience@JennAir.com",
-                    "Staging": "NAR_JennAirCustomerExperience@JennAir.com",
-                    "Cuft": "NAR_JennAirCustomerExperience@JennAir.com",
-                    "Production": "NAR_JennAirCustomerExperience@JennAir.com"
-                },
-                "cxcPhone": {
-                    "Development": "1-800-536-6247",
-                    "Test": "1-800-536-6247",
-                    "Staging": "1-800-536-6247",
-                    "Cuft": "1-800-536-6247",
-                    "Production": "1-800-536-6247"
-                },
-                "cxcHours": {
-                    "Development": "Mon–Fri 8am–8pm EST",
-                    "Test": "Mon–Fri 8am–8pm EST",
-                    "Staging": "Mon–Fri 8am–8pm EST",
-                    "Cuft": "Mon–Fri 8am–8pm EST",
-                    "Production": "Mon–Fri 8am–8pm EST"
-                }
-            },
-            "CA": {
-                "Country": "Canada",
-                "cxcEmail": {
-                    "Development": "NAR_JennAirCustomerExperience@JennAir.com",
-                    "Test": "NAR_JennAirCustomerExperience@JennAir.com",
-                    "Staging": "NAR_JennAirCustomerExperience@JennAir.com",
-                    "Cuft": "NAR_JennAirCustomerExperience@JennAir.com",
-                    "Production": "NAR_JennAirCustomerExperience@JennAir.com"
-                },
-                "cxcPhone": {
-                    "Development": "1-800-536-6247",
-                    "Test": "1-800-536-6247",
-                    "Staging": "1-800-536-6247",
-                    "Cuft": "1-800-536-6247",
-                    "Production": "1-800-536-6247"
-                },
-                "cxcHours": {
-                    "Development": "Mon–Fri 8am–8pm EST",
-                    "Test": "Mon–Fri 8am–8pm EST",
-                    "Staging": "Mon–Fri 8am–8pm EST",
-                    "Cuft": "Mon–Fri 8am–8pm EST",
-                    "Production": "Mon–Fri 8am–8pm EST"
-                }
-            }
-        },
-        "Replenishment": {
-            "ReplenishmentSlot": {
-                "DisplayName": {
-                    "DishwasherSlot1Name": "Dishwasher Slot 1 Name",
-                    "DishwasherSlot2Name": "Dishwasher Slot 2 Name"
-                },
-                "UomDisplay": {
-                    "DishwasherSlot1UomDisplay": "Dishwasher Slot 1 UOM Display",
-                    "DishwasherSlot2UomDisplay": "Dishwasher Slot 2 UOM Display"
-                }
-            },
-            "ReplenishmentDelay": {
-                "DisplayName": {
-                    "DishwasherSlot1Delay0": "Delay 0",
-                    "DishwasherSlot1Delay2": "Delay 2",
-                    "DishwasherSlot1Delay4": "Delay 4",
-                    "DishwasherSlot1Delay6": "Delay 6",
-                    "DishwasherSlot2Delay0": "Delay 0",
-                    "DishwasherSlot2Delay2": "Delay 2",
-                    "DishwasherSlot2Delay4": "Delay 4",
-                    "DishwasherSlot2Delay6": "Delay 6"
-                }
-            },
-            "ReplenishmentUsage": {
-                "DisplayName": {
-                    "DishwasherSlot1UsageDefault": "Dishwasher Usage Slot 1 Default",
-                    "DishwasherSlot2UsageDefault": "Dishwasher Usage Slot 2 Default"
-                }
-            }
         }
-    },
-    "NotificationMessages": {
-        "NotificationContents": [
-            {
-                "TemplateId": "CycleComplete",
-                "SmsText": "Your dishes are clean!",
-                "EmailText": "Your dishes are clean!",
-                "PushText": "Your dishes are clean!",
-                "AlertTitle": "Cycle Complete",
-                "Type": "cycle"
-            },
-            {
-                "TemplateId": "AffreshNotification",
-                "SmsText": "It is recommended that you use affresh every month to keep your dishwasher clean and fresh.",
-                "EmailText": "It is recommended that you use affresh every month to keep your dishwasher clean and fresh.",
-                "PushText": "It is recommended that you use affresh every month to keep your dishwasher clean and fresh.",
-                "AlertTitle": "affresh® Status",
-                "Type": "affresh"
-            },
-            {
-                "TemplateId": "FilterStatus",
-                "SmsText": "For optimal cleaning performance it is recommended that you clean both your upper and lower filters of your dishwasher at this time.",
-                "EmailText": "For optimal cleaning performance it is recommended that you clean both your upper and lower filters of your dishwasher at this time.",
-                "PushText": "For optimal cleaning performance it is recommended that you clean both your upper and lower filters of your dishwasher at this time.",
-                "AlertTitle": "Filter Status",
-                "Type": "dishFilter"
-            },
-            {
-                "TemplateId": "SaniRinse",
-                "SmsText": "Sanitizes according to NSF International Standard 184 for Residential Dishwashers. The Sanitize indicator at the end of cycle shows whether the Sani Rinse option was successful.",
-                "EmailText": "Sanitizes according to NSF International Standard 184 for Residential Dishwashers. The Sanitize indicator at the end of cycle shows whether the Sani Rinse option was successful.",
-                "PushText": "Sanitizes according to NSF International Standard 184 for Residential Dishwashers. The Sanitize indicator at the end of cycle shows whether the Sani Rinse option was successful.",
-                "AlertTitle": "Sanitize Rinse",
-                "Type": "saniRinse"
-            },
-            {
-                "TemplateId": "RemoteStatusEnabled",
-                "SmsText": "You can now control your Dishwasher remotely.",
-                "EmailText": "You can now control your Dishwasher remotely.",
-                "PushText": "You can now control your Dishwasher remotely.",
-                "AlertTitle": "Remote Enabled",
-                "Type": "remoteControl"
-            },
-            {
-                "TemplateId": "RemoteStatusDisabled",
-                "SmsText": "Remote has been disabled on your Dishwasher. Please re-enable on the appliance if you would like to control your appliance remotely.",
-                "EmailText": "Remote has been disabled on your Dishwasher. Please re-enable on the appliance if you would like to control your appliance remotely.",
-                "PushText": "Remote has been disabled on your Dishwasher. Please re-enable on the appliance if you would like to control your appliance remotely.",
-                "AlertTitle": "Remote Enabled",
-                "Type": "remoteControl"
-            }
-        ]
     }
 }

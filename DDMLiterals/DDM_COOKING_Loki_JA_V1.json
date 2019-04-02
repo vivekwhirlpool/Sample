@@ -80,12 +80,12 @@
             "Type": "User Interface Board",
             "Description": "There may be a problem with the cooktop control, user interface board(s), or associated wiring.",
             "StepsToRepair": [
-                "If the problem persists, reset power to the product.",
+                "Reset power to the product by following the subsequent steps",
                 "Power unit down by turning off the circuit breaker(s) for one (1) minute.",
                 "Power unit up by turning on the circuit breaker(s).",
                 "Restart the cycle and monitor the cooktop for one (1) minute to ensure the error code does not display again.",
                 "Verify cooktop operation.",
-                "If the problem persists, call 800-536-6247 for Service."
+                "If the problem persists, call 1-800-JENN-AIR (536-6247) for Service."
             ],
             "HelpPath": "TBD"
         },
@@ -95,12 +95,12 @@
             "Type": "Control Relay Board",
             "Description": "There may be a problem with the cooktop control(s) or the associated wiring.",
             "StepsToRepair": [
-                "If the problem persists, reset power to the product.",
+                "Reset power to the product by following the subsequent steps",
                 "Power unit down by turning off the circuit breaker(s) for one (1) minute.",
                 "Power unit up by turning on the circuit breaker(s).",
                 "Restart the cycle and monitor the cooktop for one (1) minute to ensure the error code does not display again.",
                 "Verify cooktop operation.",
-                "If the problem persists, call 800-536-6247 for Service."
+                "If the problem persists, call 1-800-JENN-AIR (536-6247) for Service."
             ],
             "HelpPath": "TBD"
         },
@@ -110,12 +110,12 @@
             "Type": "Stuck Key",
             "Description": "There may be a problem with the user interface board(s).",
             "StepsToRepair": [
-                "If the problem persists, reset power to the product.",
+                "Reset power to the product by following the subsequent steps",
                 "Power unit down by turning off the circuit breaker(s) for one (1) minute.",
                 "Power unit up by turning on the circuit breaker(s).",
                 "Restart the cycle and monitor the cooktop for one (1) minute to ensure the error code does not display again.",
                 "Verify cooktop operation.",
-                "If the problem persists, call 800-536-6247 for Service."
+                "If the problem persists, call 1-800-JENN-AIR (536-6247) for Service."
             ],
             "HelpPath": "TBD"
         },
@@ -125,12 +125,12 @@
             "Type": "User Interface Connection",
             "Description": "There may be a problem with the control(s), the user interface board(s), or the associated wiring.",
             "StepsToRepair": [
-                "If the problem persists, reset power to the product.",
+                "Reset power to the product by following the subsequent steps",
                 "Power unit down by turning off the circuit breaker(s) for one (1) minute.",
                 "Power unit up by turning on the circuit breaker(s).",
                 "Restart the cycle and monitor the cooktop for one (1) minute to ensure the error code does not display again.",
                 "Verify cooktop operation.",
-                "If the problem persists, call 800-536-6247 for Service."
+                "If the problem persists, call 1-800-JENN-AIR (536-6247) for Service."
             ],
             "HelpPath": "TBD"
         },
@@ -140,12 +140,12 @@
             "Type": "Control Status",
             "Description": "There may be a problem with the main control.",
             "StepsToRepair": [
-                "If the problem persists, reset power to the product.",
+                "Reset power to the product by following the subsequent steps",
                 "Power unit down by turning off the circuit breaker(s) for one (1) minute.",
                 "Power unit up by turning on the circuit breaker(s).",
                 "Restart the cycle and monitor the cooktop for one (1) minute to ensure the error code does not display again.",
                 "Verify cooktop operation.",
-                "If the problem persists, call 800-536-6247 for Service."
+                "If the problem persists, call 1-800-JENN-AIR (536-6247) for Service."
             ],
             "HelpPath": "TBD"
         },
@@ -155,12 +155,12 @@
             "Type": "Main Control Connection",
             "Description": "There may be a problem with the main control or the associated wiring.",
             "StepsToRepair": [
-                "If the problem persists, reset power to the product.",
+                "There may be a problem with the main control or the associated wiring.",
+                "Reset power to the product by following the subsequent steps",
                 "Power unit down by turning off the circuit breaker(s) for one (1) minute.",
-                "Power unit up by turning on the circuit breaker(s).",
                 "Restart the cycle and monitor the cooktop for one (1) minute to ensure the error code does not display again.",
                 "Verify cooktop operation.",
-                "If the problem persists, call 800-536-6247 for Service."
+                "If the problem persists, call 1-800-JENN-AIR (536-6247) for Service."
             ],
             "HelpPath": "TBD"
         },
@@ -170,12 +170,12 @@
             "Type": "Secondary Control Connection",
             "Description": "There may be a problem with the secondary control or the associated wiring.",
             "StepsToRepair": [
-                "If the problem persists, reset power to the product.",
+                "Reset power to the product by following the subsequent steps",
                 "Power unit down by turning off the circuit breaker(s) for one (1) minute.",
                 "Power unit up by turning on the circuit breaker(s).",
                 "Restart the cycle and monitor the cooktop for one (1) minute to ensure the error code does not display again.",
                 "Verify cooktop operation.",
-                "If the problem persists, call 800-536-6247 for Service."
+                "If the problem persists, call 1-800-JENN-AIR (536-6247) for Service."
             ],
             "HelpPath": "TBD"
         },
@@ -185,12 +185,12 @@
             "Type": "User Interface Over Temperature",
             "Description": "There may be a problem with the user interface board(s).",
             "StepsToRepair": [
-                "If the problem persists, reset power to the product.",
+                "Reset power to the product by following the subsequent steps",
                 "Power unit down by turning off the circuit breaker(s) for one (1) minute.",
                 "Power unit up by turning on the circuit breaker(s).",
                 "Restart the cycle and monitor the cooktop for one (1) minute to ensure the error code does not display again.",
                 "Verify cooktop operation.",
-                "If the problem persists, call 800-536-6247 for Service."
+                "If the problem persists, call 1-800-JENN-AIR (536-6247) for Service."
             ],
             "HelpPath": "TBD"
         },
@@ -200,12 +200,12 @@
             "Type": "Power Input",
             "Description": "There may be a problem with the power wiring to the product.",
             "StepsToRepair": [
-                "If the problem persists, reset power to the product.",
+                "Reset power to the product by following the subsequent steps",
                 "Power unit down by turning off the circuit breaker(s) for one (1) minute.",
                 "Power unit up by turning on the circuit breaker(s).",
                 "Restart unit and monitor the cooktop for one (1) minute to ensure the error code does not display again.",
                 "Verify cooktop operation.",
-                "If the problem persists, call 800-536-6247 for Service."
+                "If the problem persists, call 1-800-JENN-AIR (536-6247) for Service."
             ],
             "HelpPath": "TBD"
         }

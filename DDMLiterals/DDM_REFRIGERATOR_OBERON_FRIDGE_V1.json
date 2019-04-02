@@ -88,30 +88,14 @@
         "XCat_WifiSetPublishApplianceState.Label": "WiFi Set Publish Appliance State",
         "XCat_WifiSetRebootWifiCommModule.Label": "WiFi Set Reboot WiFi Comm Module",
         "XCat_WifiStatusRssiAntennaDiversity.Label": "WiFi Status RSSI Antenna Diversity",
-        "XCat_WifiStatusRssiDisplay.Label": "WiFi Status RSSI Display"
+        "XCat_WifiStatusRssiDisplay.Label": "WiFi Status RSSI Display",
+        "RefrigeratorCavity.Label" : "Refrigerator",
+        "DeliDrawerCavity.Label" : "Deli Drawer",
+        "CrisperDrawerCavity.Label" : "Crisper Drawer"
+
     },
     "AFCSelfHelpPack": {},
     "MobileLiterals": {
-        "Manuals": {
-            "Warranty": {
-                "Title": "Warranty",
-                "FilePath": "NAR/JENNAIR/DDM_REFRIGERATOR_OBERON_FRIDGE_V1/Docs/eng/Refrigerator_Warranty.pdf"
-            },
-            "UseCareGuide": {
-                "Title": "Use & Care Guide",
-                "FilePath": "NAR/JENNAIR/DDM_REFRIGERATOR_OBERON_FRIDGE_V1/Docs/eng/Refrigerator_Use_and_Care_Guide.pdf"
-            },
-            "InstallationInstructions": {
-                "Title": "Installation Instructions",
-                "FilePath": "NAR/JENNAIR/DDM_REFRIGERATOR_OBERON_FRIDGE_V1/Docs/eng/Refrigerator_Installation_Instructions.pdf"
-            },
-            "FccInformationForm": {
-                "Title": "FCC Information Form",
-                "FilePath": "NAR/JENNAIR/DDM_REFRIGERATOR_OBERON_FRIDGE_V1/Docs/eng/Refrigerator_FCC.pdf"
-            }
-        },
-        "NestSettings": {},
-        "SpecialtyCycles": {},
         "Notifications": {
             "DoorOpenAlert": {
                 "Name": "Door Open",
@@ -224,118 +208,6 @@
                     }
                 ]
             }
-        },
-        "smartTip": [],
-        "cxcDetail": {
-            "US": {
-                "Country": "United States",
-                "cxcEmail": {
-                    "Development": "NAR_JennAirCustomerExperience@JennAir.com",
-                    "Test": "NAR_JennAirCustomerExperience@JennAir.com",
-                    "Staging": "NAR_JennAirCustomerExperience@JennAir.com",
-                    "Cuft": "NAR_JennAirCustomerExperience@JennAir.com",
-                    "Production": "NAR_JennAirCustomerExperience@JennAir.com"
-                },
-                "cxcPhone": {
-                    "Development": "1-800-536-6247",
-                    "Test": "1-800-536-6247",
-                    "Staging": "1-800-536-6247",
-                    "Cuft": "1-800-536-6247",
-                    "Production": "1-800-536-6247"
-                },
-                "cxcHours": {
-                    "Development": "Mon–Fri 8am–8pm EST",
-                    "Test": "Mon–Fri 8am–8pm EST",
-                    "Staging": "Mon–Fri 8am–8pm EST",
-                    "Cuft": "Mon–Fri 8am–8pm EST",
-                    "Production": "Mon–Fri 8am–8pm EST"
-                }
-            },
-            "CA": {
-                "Country": "Canada",
-                "cxcEmail": {
-                    "Development": "NAR_JennAirCustomerExperience@JennAir.com",
-                    "Test": "NAR_JennAirCustomerExperience@JennAir.com",
-                    "Staging": "NAR_JennAirCustomerExperience@JennAir.com",
-                    "Cuft": "NAR_JennAirCustomerExperience@JennAir.com",
-                    "Production": "NAR_JennAirCustomerExperience@JennAir.com"
-                },
-                "cxcPhone": {
-                    "Development": "1-800-536-6247",
-                    "Test": "1-800-536-6247",
-                    "Staging": "1-800-536-6247",
-                    "Cuft": "1-800-536-6247",
-                    "Production": "1-800-536-6247"
-                },
-                "cxcHours": {
-                    "Development": "Mon–Fri 8am–8pm EST",
-                    "Test": "Mon–Fri 8am–8pm EST",
-                    "Staging": "Mon–Fri 8am–8pm EST",
-                    "Cuft": "Mon–Fri 8am–8pm EST",
-                    "Production": "Mon–Fri 8am–8pm EST"
-                }
-            }
-        },
-        "Replenishment": {}
-    },
-    "NotificationMessages": {
-        "NotificationContents": [
-            {
-                "TemplateId": "FrigDoorCloseAlert1",
-                "SmsText": "The door has been closed.",
-                "EmailText": "The door has been closed.",
-                "PushText": "The door has been closed.",
-                "AlertTitle": "Door Closed",
-                "Type": "maxIceDoor"
-            },
-            {
-                "TemplateId": "FrigDoorOpenAlert1",
-                "SmsText": "The door alarm is sounding. Check that door is closed and/or items aren’t blocking the door.",
-                "EmailText": "The door alarm is sounding. Check that door is closed and/or items aren’t blocking the door.",
-                "PushText": "The door alarm is sounding. Check that door is closed and/or items aren’t blocking the door.",
-                "AlertTitle": "Door Open",
-                "Type": "maxIceDoor"
-            },
-            {
-                "TemplateId": "FrigPowerOutAlert",
-                "SmsText": "Your refrigerator lost power.",
-                "EmailText": "Your refrigerator lost power.",
-                "PushText": "Your refrigerator lost power.",
-                "AlertTitle": "Power Outage",
-                "Type": "system"
-            },
-            {
-                "TemplateId": "FrigOverTemp",
-                "SmsText": "You might want to check the contents of your refrigerator - it is over temperature.",
-                "EmailText": "You might want to check the contents of your refrigerator - it is over temperature.",
-                "PushText": "You might want to check the contents of your refrigerator - it is over temperature.",
-                "AlertTitle": "Over Temp Alarm",
-                "Type": "system"
-            },
-            {
-                "TemplateId": "FrigWaterFilter0",
-                "SmsText": "The water filter has been replaced. Flush the water system as described in the Use & Care Guide before using the dispenser. You should also discard the initial (3) batches of ice.",
-                "EmailText": "The water filter has been replaced. Flush the water system as described in the Use & Care Guide before using the dispenser. You should also discard the initial (3) batches of ice.",
-                "PushText": "The water filter has been replaced. Flush the water system as described in the Use & Care Guide before using the dispenser. You should also discard the initial (3) batches of ice.",
-                "AlertTitle": "Order Filter Alert",
-                "Type": "system"
-            },
-            {
-                "TemplateId": "FrigWaterFilter1",
-                "SmsText": "It's just about time to replace your water filter, order now.",
-                "EmailText": "It's just about time to replace your water filter, order now.",
-                "PushText": "It's just about time to replace your water filter, order now.",
-                "AlertTitle": "Order Filter Alert",
-                "Type": "system"
-            },
-            {
-                "TemplateId": "FrigWaterFilter2",
-                "SmsText": "Change your refrigerator's water filter.",
-                "EmailText": "Change your refrigerator's water filter.",
-                "PushText": "Change your refrigerator's water filter.",
-                "AlertTitle": "Order Filter Alert",
-                "Type": "system"
-            }
-        ]
+        }
     }
 }

@@ -1,1 +1,6 @@
-{}
+{
+  "RefrigeratorCavity.Label" : "Refrigerator",
+  "FreezerCavity.Label" : "Freezer",
+  "PantryCavity.Label" :"Drawer"
+
+}
