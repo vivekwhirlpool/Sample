@@ -1373,12 +1373,14 @@
       "RefrigeratorCavity": {
         "CapabilityData": {
           "Refrigerator_OpSetTempPreset": {
-            "Refrigerator_OpSetTargetTemp": {
-              "TempRange": {
-                "Min": 6,
-                "Max": 72,
-                "StepF": 1,
-                "Default": 28
+            "Required": {
+              "Refrigerator_OpSetTargetTemp": {
+                "TempRange": {
+                  "Min": 6,
+                  "Max": 72,
+                  "StepF": 1,
+                  "Default": 28
+                }
               }
             }
           }
@@ -1392,12 +1394,14 @@
       "FreezerCavity": {
         "CapabilityData": {
           "Freezer_OpSetTempPreset": {
-            "Freezer_OpSetTargetTemp": {
-              "TempRange": {
-                "Min": -211,
-                "Max": -150,
-                "StepF": 1,
-                "Default": 0
+            "Required": {
+              "Freezer_OpSetTargetTemp": {
+                "TempRange": {
+                  "Min": -211,
+                  "Max": -150,
+                  "StepF": 1,
+                  "Default": 0
+                }
               }
             }
           }
@@ -1411,25 +1415,27 @@
       "PantryCavity": {
         "CapabilityData": {
           "Pantry_OpSetTempPreset": {
-            "Pantry_OpSetTargetTemp": {
-              "Map": [
-                {
-                  "Value": 0,
-                  "Display": "Meat"
-                },
-                {
-                  "Value": 6,
-                  "Display": "Baverage"
-                },
-                {
-                  "Value": 17,
-                  "Display": "Assorted"
-                },
-                {
-                  "Value": 33,
-                  "Display": "Deli"
-                }
-              ]
+            "Required": {
+              "Pantry_OpSetTargetTemp": {
+                "Map": [
+                  {
+                    "Value": 0,
+                    "Display": "Meat"
+                  },
+                  {
+                    "Value": 6,
+                    "Display": "Baverage"
+                  },
+                  {
+                    "Value": 17,
+                    "Display": "Assorted"
+                  },
+                  {
+                    "Value": 33,
+                    "Display": "Deli"
+                  }
+                ]
+              }
             }
           }
         },
@@ -1563,7 +1569,7 @@
             "CA"
           ],
           "StateAttributes": {
-            "State": "Refrigerator_OpSetTempPreset"
+            "State": "Refrigerator_OpSetTargetTemp"
           }
         }
       },
@@ -1575,7 +1581,7 @@
             "CA"
           ],
           "StateAttributes": {
-            "State": "Freezer_OpSetTempPreset"
+            "State": "Freezer_OpSetTargetTemp"
           }
         }
       },
@@ -1587,7 +1593,7 @@
             "CA"
           ],
           "StateAttributes": {
-            "State": "Pantry_OpSetTempPreset"
+            "State": "Pantry_OpSetTargetTemp"
           }
         }
       }

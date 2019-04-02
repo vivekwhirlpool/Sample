@@ -1259,12 +1259,14 @@
       "RefrigeratorCavity": {
         "CapabilityData": {
           "Refrigerator_OpSetTempPreset": {
-            "Refrigerator_OpSetTargetTemp": {
-              "TempRange": {
-                "Min": 6,
-                "Max": 56,
-                "StepF": 1,
-                "Default": 28
+            "Required": {
+              "Refrigerator_OpSetTargetTemp": {
+                "TempRange": {
+                  "Min": 6,
+                  "Max": 56,
+                  "StepF": 1,
+                  "Default": 28
+                }
               }
             }
           }
@@ -1279,32 +1281,33 @@
       "DeliDrawerCavity": {
         "CapabilityData": {
           "DeliDrawer_OpSetTempPreset": {
-            "Freezer_OpSetTempPreset": {
-              "Map": [
-                {
-                  "Value": 3,
-                  "Display": "Produce"
-                },
-                {
-                  "Value": 1,
-                  "Display": "Assorted"
-                },
-                {
-                  "Value": 4,
-                  "Display": "Beverage"
-                },
-                {
-                  "Value": 2,
-                  "Display": "Deli"
-                },
-                {
-                  "Value": 5,
-                  "Display": "Meat"
-                }
-              ]
+            "Required": {
+              "Freezer_OpSetTempPreset": {
+                "Map": [
+                  {
+                    "Value": 3,
+                    "Display": "Produce"
+                  },
+                  {
+                    "Value": 1,
+                    "Display": "Assorted"
+                  },
+                  {
+                    "Value": 4,
+                    "Display": "Beverage"
+                  },
+                  {
+                    "Value": 2,
+                    "Display": "Deli"
+                  },
+                  {
+                    "Value": 5,
+                    "Display": "Meat"
+                  }
+                ]
+              }
             }
           }
-
         },
         "SetCycle": {
 
@@ -1317,20 +1320,21 @@
       "CrisperDrawerCavity": {
         "CapabilityData": {
           "CrisperDrawer_OpSetTempPreset": {
-            "Pantry_OpSetTempPreset": {
-              "Map": [
-                {
-                  "Value": 3,
-                  "Display": "Produce"
-                },
-                {
-                  "Value": 1,
-                  "Display": "Assorted"
-                }
-              ]
+            "Required": {
+              "Pantry_OpSetTempPreset": {
+                "Map": [
+                  {
+                    "Value": 3,
+                    "Display": "Produce"
+                  },
+                  {
+                    "Value": 1,
+                    "Display": "Assorted"
+                  }
+                ]
+              }
             }
           }
-
         },
         "SetCycle": {
 

@@ -1234,12 +1234,14 @@
       "UpperZone": {
         "CapabilityData": {
           "UpperZone_OpSetTempPreset": {
-            "Refrigerator_OpSetTargetTemp": {
-              "TempRange": {
-                "Min": -222,
-                "Max": -150,
-                "StepF": 1,
-                "Default": -189
+            "Required": {
+              "Refrigerator_OpSetTargetTemp": {
+                "TempRange": {
+                  "Min": -222,
+                  "Max": -150,
+                  "StepF": 1,
+                  "Default": -189
+                }
               }
             }
           }
@@ -1254,21 +1256,23 @@
       "LowerZone": {
         "CapabilityData": {
           "LowerZone_OpSetTempPreset": {
-            "Freezer_OpSetTempPreset": {
-              "Map": [
-                {
-                  "Value": 1,
-                  "Display": "Assorted"
-                },
-                {
-                  "Value": 6,
-                  "Display": "Spirit"
-                },
-                {
-                  "Value": 7,
-                  "Display": "Deep Freeze"
-                }
-              ]
+            "Required": {
+              "Freezer_OpSetTempPreset": {
+                "Map": [
+                  {
+                    "Value": 1,
+                    "Display": "Assorted"
+                  },
+                  {
+                    "Value": 6,
+                    "Display": "Spirit"
+                  },
+                  {
+                    "Value": 7,
+                    "Display": "Deep Freeze"
+                  }
+                ]
+              }
             }
           }
         },
