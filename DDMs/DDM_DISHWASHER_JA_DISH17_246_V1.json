@@ -1767,23 +1767,6 @@
     },
     "Features": {
       "Common": {
-        "FilterStatus": {
-          "Visible": true,
-          "AvailableIn": [
-            "US",
-            "CA"
-          ]
-        },
-        "AffreshStatus": {
-          "Visible": true,
-          "AvailableIn": [
-            "US",
-            "CA"
-          ],
-          "StateAttributes": {
-            "State": "Sys_OperationSetQuietModeEnabled"
-          }
-        },
 
         "QuietMode": {
           "Visible": true,
@@ -1870,6 +1853,7 @@
       }
     },
     "Rulesets": {
+
     }
   },
   "Alerts": {
