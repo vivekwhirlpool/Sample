@@ -1479,16 +1479,6 @@
     },
     "Features": {
       "Common": {
-        "FilterStatus": {
-          "Visible": true,
-          "AvailableIn": [
-            "US",
-            "CA"
-          ],
-          "StateAttributes": {
-            "State": "Sys_OpSetWaterFilter"
-          }
-        },
         "ControlLock": {
           "Visible": true,
           "AvailableIn": [
@@ -1540,20 +1530,6 @@
           }
         },
         "Notifications": {
-          "Visible": true,
-          "AvailableIn": [
-            "US",
-            "CA"
-          ]
-        },
-        "FavoriteFill1" : {
-          "Visible": true,
-          "AvailableIn": [
-            "US",
-            "CA"
-          ]
-        },
-        "FavoriteFill2" : {
           "Visible": true,
           "AvailableIn": [
             "US",

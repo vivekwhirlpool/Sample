@@ -1855,6 +1855,7 @@
           "SendCommandAttributes": [
             "Cavity_CycleSetDownloadAndGo",
             "Cavity_CycleSetCycleId",
+            "Cavity_TimeSetDelayTime",
             "Cavity_CycleSetOptionSaniRinse",
             "Cavity_CycleSetOptionSmartHeatedDry",
             "Cavity_CycleSetOptionLowerRackOnly",

@@ -1420,15 +1420,45 @@
             "US",
             "CA"
           ]
-        },
-        "EnergyHistory": {
+        }
+      },
+      "RefrigeratorCavity": {
+        "ModifyRefrigerator": {
           "Visible": true,
           "AvailableIn": [
             "US",
             "CA"
-          ]
+          ],
+          "StateAttributes": {
+            "State": "Refrigerator_OpSetTargetTemp"
+          }
+        }
+      },
+      "DeliDrawerCavity": {
+        "ModifyDeliDrawer": {
+          "Visible": true,
+          "AvailableIn": [
+            "US",
+            "CA"
+          ],
+          "StateAttributes": {
+            "State": "Freezer_OpSetTempPreset"
+          }
+        }
+      },
+      "CrisperDrawerCavity": {
+        "ModifyCrisperDrawer": {
+          "Visible": true,
+          "AvailableIn": [
+            "US",
+            "CA"
+          ],
+          "StateAttributes": {
+            "State": "Pantry_OpSetTempPreset"
+          }
         }
       }
+
     }
 
   },

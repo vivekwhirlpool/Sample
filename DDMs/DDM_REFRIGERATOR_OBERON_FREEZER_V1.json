@@ -1354,13 +1354,30 @@
             "US",
             "CA"
           ]
-        },
-        "EnergyHistory": {
+        }
+      },
+      "UpperZone": {
+        "ModifyUpperZone": {
           "Visible": true,
           "AvailableIn": [
             "US",
             "CA"
-          ]
+          ],
+          "StateAttributes": {
+            "State": "Refrigerator_OpSetTargetTemp"
+          }
+        }
+      },
+      "LowerZone": {
+        "ModifyLowerZone": {
+          "Visible": true,
+          "AvailableIn": [
+            "US",
+            "CA"
+          ],
+          "StateAttributes": {
+            "State": "Freezer_OpSetTempPreset"
+          }
         }
       }
     }
