@@ -182,7 +182,27 @@
         "Relational_EnvelopeAction.EnumValues.ActionPublish.Label": "ActionPublish",
         "Relational_EnvelopeAction.EnumValues.ActionStart.Label": "ActionStart",
         "Relational_EnvelopeAction.EnumValues.ActionSetOnDisplay.Label": "ActionSetOnDisplay",
-        "OvenUpperCavity.Label" : "Oven"
+        "OvenUpperCavity.Label" : "Oven",
+      "OvenUpperCavity_CycleSetCommonModeCommonModeBake.Label": "Bake",
+        "ConvectBake.Label": "Convect Bake",
+        "OvenUpperCavity_CycleSetCommonModeCommonModeConvectBake.Label": "Convect Bake",
+        "OvenUpperCavity_CycleSetEasyConvectFoodEasyConvectFoodBakedGoods.Label": "Baked Goods",
+        "ConvectRoast.Label": "Convect Roast",
+        "OvenUpperCavity_CycleSetCommonModeCommonModeConvectRoast.Label": "Convect Roast",
+        "OvenUpperCavity_CycleSetEasyConvectFoodEasyConvectFoodMeat.Label": "Meat",
+        "OvenUpperCavity_CycleSetConvectBakeFoodConvectBakeFoodFrozenPizza.Label": "Convect Frozen Pizza",
+        "OvenUpperCavity_CycleSetCommonModeCommonModeConvectBroil.Label": "Convect Broil",
+        "OvenUpperCavity_CycleSetConvectBakeFoodConvectBakeFoodPastry.Label": "Convect Pastry",
+        "OvenUpperCavity_CycleSetCommonModeCommonModeBroil.Label": "Broil",
+        "OvenUpperCavity_CycleSetBreadProofBreadProofStandard.Label": "Proof",
+        "OvenUpperCavity_CycleSetBreadProofBreadProofRapid.Label": "Rapid Proof",
+        "OvenUpperCavity_CycleSetCommonModeCommonModeKeepWarm.Label": "Keep Warm",
+        "OvenUpperCavity_CycleSetCommonModeCommonModeConvectSlowRoast1.Label": "Convect Slow Roast LO",
+        "OvenUpperCavity_CycleSetCommonModeCommonModeConvectSlowRoast2.Label": "Convect Slow Roast MED",
+        "OvenUpperCavity_CycleSetCommonModeCommonModeConvectSlowRoast3.Label": "Convect Slow Roast HI",
+        "ProbeCook.Label": "Probe Cook",
+        "Manual.Label": "Manual",
+        "Auto.Label": "Auto"
     },
     "AFCSelfHelpPack": {
         "F0,E0": {
