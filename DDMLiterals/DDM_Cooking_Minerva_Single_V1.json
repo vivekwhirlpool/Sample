@@ -582,5 +582,152 @@
         "Description": "Select to receive a notification when the self clean cycle is finished."
       }
     }
+  },
+  "NotificationMessages": {
+    "NotificationContents": [
+      {
+        "TemplateId": "OvenOnWhileAway",
+        "PushText": "Your home is in Away/Auto-Away mode and your oven is still on",
+        "AlertTitle": "Oven On While Away",
+        "Type": "home_away"
+      },
+      {
+        "TemplateId": "ControlLockLocked",
+        "EmailText": "Oven control lock is set to 'locked'",
+        "PushText": "Oven control lock is set to 'locked'",
+        "SmsText": "Oven control lock is set to 'locked'",
+        "AlertTitle": "Control Lock Alert",
+        "Type": "lock"
+      },
+      {
+        "TemplateId": "ControlLockOpen",
+        "EmailText": "Oven control lock is set to 'open'",
+        "PushText": "Oven control lock is set to 'open'",
+        "SmsText": "Oven control lock is set to 'open'",
+        "AlertTitle": "Control Lock Alert",
+        "Type": "lock"
+      },
+      {
+        "TemplateId": "CookCycleCancelled",
+        "EmailText": "Oven cook cycle cancelled",
+        "PushText": "Oven cook cycle cancelled",
+        "SmsText": "Oven cook cycle cancelled",
+        "AlertTitle": "Cook Cycle Canceled",
+        "Type": "cookMode"
+      },
+      {
+        "TemplateId": "CookModeChanged",
+        "EmailText": "Oven Cook mode changed",
+        "PushText": "Oven Cook mode changed",
+        "AlertTitle": "Cook Mode Changed",
+        "Type": "cookTimer"
+      },
+      {
+        "TemplateId": "CookTargetTempChanged",
+        "EmailText": "Oven Cook target temperature has been changed to {device.UpperCavity_CavityTargetTemp}°",
+        "PushText": "Oven Cook target temperature has been changed to {device.UpperCavity_CavityTargetTemp}°",
+        "SmsText": "Oven Cook target temperature has been changed to {device.UpperCavity_CavityTargetTemp}°",
+        "AlertTitle": "Cook Target Temp Changed",
+        "Type": "cookMode"
+      },
+      {
+        "TemplateId": "CookTimeComplete",
+        "EmailText": "Oven Cook Time Complete",
+        "PushText": "Oven Cook Time Complete",
+        "AlertTitle": "Cook Time Complete",
+        "Type": "cookTimer"
+      },
+      {
+        "TemplateId": "CookTimeCompleteReminder",
+        "EmailText": "Oven Cook Time Completed",
+        "PushText": "Oven Cook Time Completed",
+        "SmsText": "Oven Cook Time Completed",
+        "AlertTitle": "Cook Time Complete Reminder",
+        "Type": "cookTimer"
+      },
+      {
+        "TemplateId": "CookTimerChanged",
+        "EmailText": "Oven Cook timer updated",
+        "PushText": "Oven Cook timer updated",
+        "AlertTitle": "Cook Timer Changed",
+        "Type": "cookTimer"
+      },
+      {
+        "TemplateId": "UpperCavityCulinaryInstructions",
+        "EmailText": "Oven Culinary cycle started. See oven display for instruction",
+        "PushText": "Oven Culinary cycle started. See oven display for instruction",
+        "SmsText": "Oven Culinary cycle started. See oven display for instruction",
+        "AlertTitle": "Culinary Center Interruptions",
+        "Type": "userInstruction"
+      },
+      {
+        "TemplateId": "KitchenTimerEventNotificationChanged",
+        "EmailText": "Oven kitchen timer has been changed",
+        "PushText": "Oven kitchen timer has been changed",
+        "AlertTitle": "Kitchen Timer Changed",
+        "Type": "kitchenTimer"
+      },
+      {
+        "TemplateId": "KitchenTimerEventNotificationComplete",
+        "EmailText": "Oven kitchen timer is complete",
+        "PushText": "Oven kitchen timer is complete",
+        "SmsText": "Oven kitchen timer is complete",
+        "AlertTitle": "Kitchen Timer Complete",
+        "Type": "kitchenTimer"
+      },
+      {
+        "TemplateId": "MeatProbeTargetChanged",
+        "EmailText": "Oven Meat probe temperature has been changed to {device.UpperCavity_MeatProbeTargetTemp}°",
+        "PushText": "Oven Meat probe temperature has been changed to {device.UpperCavity_MeatProbeTargetTemp}°",
+        "AlertTitle": "Meat Probe Target Changed",
+        "Type": "meatProbe"
+      },
+      {
+        "TemplateId": "MeatProbeTempAchieved",
+        "EmailText": "Oven Meat probe temperature achieved",
+        "PushText": "Oven Meat probe temperature achieved",
+        "SmsText": "Oven Meat probe temperature achieved",
+        "AlertTitle": "Meat Probe Temp Achieved",
+        "Type": "meatProbe"
+      },
+      {
+        "TemplateId": "Preheat25",
+        "EmailText": "Oven pre-heated to {device.UpperCavity_CavityActualTemp}° ({device.UpperCavity_CavityTargetTemp}° target)",
+        "PushText": "Oven pre-heated to {device.UpperCavity_CavityActualTemp}° ({device.UpperCavity_CavityTargetTemp}° target)",
+        "AlertTitle": "Preheat Cycle Progress",
+        "Type": "preheat"
+      },
+      {
+        "TemplateId": "PreheatComplete",
+        "EmailText": "Oven pre-heat complete",
+        "PushText": "Oven pre-heat complete",
+        "SmsText": "Oven pre-heat complete",
+        "AlertTitle": "Preheat Complete",
+        "Type": "preheat"
+      },
+      {
+        "TemplateId": "RemoteStatusDisabled",
+        "EmailText": "Oven remote control is set to 'disabled'",
+        "PushText": "Oven remote control is set to 'disabled'",
+        "AlertTitle": "Remote Control Alert",
+        "Type": "remoteControl"
+      },
+      {
+        "TemplateId": "RemoteStatusEnabled",
+        "EmailText": "Oven remote control is set to 'enabled'",
+        "PushText": "Oven remote control is set to 'enabled'",
+        "SmsText": "Oven remote control is set to 'enabled'",
+        "AlertTitle": "Remote Control Alert",
+        "Type": "remoteControl"
+      },
+      {
+        "TemplateId": "SelfCleanComplete",
+        "EmailText": "Oven self-clean is complete",
+        "PushText": "Oven self-clean is complete",
+        "SmsText": "Oven self-clean is complete",
+        "AlertTitle": "Self Clean Completed",
+        "Type": "selfClean"
+      }
+    ]
   }
 }

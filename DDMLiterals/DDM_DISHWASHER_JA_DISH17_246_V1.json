@@ -303,5 +303,57 @@
                 ]
             }
         }
+    },
+    "NotificationMessages": {
+        "NotificationContents": [
+            {
+                "TemplateId": "CycleComplete",
+                "SmsText": "Your dishes are clean!",
+                "EmailText": "Your dishes are clean!",
+                "PushText": "Your dishes are clean!",
+                "AlertTitle": "Cycle Complete",
+                "Type": "cycle"
+            },
+            {
+                "TemplateId": "AffreshNotification",
+                "SmsText": "It is recommended that you use affresh every month to keep your dishwasher clean and fresh.",
+                "EmailText": "It is recommended that you use affresh every month to keep your dishwasher clean and fresh.",
+                "PushText": "It is recommended that you use affresh every month to keep your dishwasher clean and fresh.",
+                "AlertTitle": "affresh® Status",
+                "Type": "affresh"
+            },
+            {
+                "TemplateId": "FilterStatus",
+                "SmsText": "For optimal cleaning performance it is recommended that you clean both your upper and lower filters of your dishwasher at this time.",
+                "EmailText": "For optimal cleaning performance it is recommended that you clean both your upper and lower filters of your dishwasher at this time.",
+                "PushText": "For optimal cleaning performance it is recommended that you clean both your upper and lower filters of your dishwasher at this time.",
+                "AlertTitle": "Filter Status",
+                "Type": "dishFilter"
+            },
+            {
+                "TemplateId": "SaniRinse",
+                "SmsText": "Sanitizes according to NSF International Standard 184 for Residential Dishwashers. The Sanitize indicator at the end of cycle shows whether the Sani Rinse option was successful.",
+                "EmailText": "Sanitizes according to NSF International Standard 184 for Residential Dishwashers. The Sanitize indicator at the end of cycle shows whether the Sani Rinse option was successful.",
+                "PushText": "Sanitizes according to NSF International Standard 184 for Residential Dishwashers. The Sanitize indicator at the end of cycle shows whether the Sani Rinse option was successful.",
+                "AlertTitle": "Sanitize Rinse",
+                "Type": "saniRinse"
+            },
+            {
+                "TemplateId": "RemoteStatusEnabled",
+                "SmsText": "You can now control your Dishwasher remotely.",
+                "EmailText": "You can now control your Dishwasher remotely.",
+                "PushText": "You can now control your Dishwasher remotely.",
+                "AlertTitle": "Remote Enabled",
+                "Type": "remoteControl"
+            },
+            {
+                "TemplateId": "RemoteStatusDisabled",
+                "SmsText": "Remote has been disabled on your Dishwasher. Please re-enable on the appliance if you would like to control your appliance remotely.",
+                "EmailText": "Remote has been disabled on your Dishwasher. Please re-enable on the appliance if you would like to control your appliance remotely.",
+                "PushText": "Remote has been disabled on your Dishwasher. Please re-enable on the appliance if you would like to control your appliance remotely.",
+                "AlertTitle": "Remote Enabled",
+                "Type": "remoteControl"
+            }
+        ]
     }
 }

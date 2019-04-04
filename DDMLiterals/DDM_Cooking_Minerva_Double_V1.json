@@ -759,5 +759,255 @@
             }
         }
 
+    },
+    "NotificationMessages": {
+        "NotificationContents": [
+            {
+                "TemplateId": "OvenOnWhileAway",
+                "PushText": "Your home is in Away/Auto-Away mode and your oven is still on",
+                "AlertTitle": "Oven On While Away",
+                "Type": "home_away"
+            },
+            {
+                "TemplateId": "ControlLockLocked",
+                "SmsText": "Oven control lock is set to 'locked'",
+                "EmailText": "Oven control lock is set to 'locked'",
+                "PushText": "Oven control lock is set to 'locked'",
+                "AlertTitle": "Control Lock Alert",
+                "Type": "lock"
+            },
+            {
+                "TemplateId": "ControlLockOpen",
+                "SmsText": "Oven control lock is set to 'open'",
+                "EmailText": "Oven control lock is set to 'open'",
+                "PushText": "Oven control lock is set to 'open'",
+                "AlertTitle": "Control Lock Alert",
+                "Type": "lock"
+            },
+            {
+                "TemplateId": "CookCycleCanceledLower",
+                "SmsText": "Lower Oven cook cycle cancelled",
+                "EmailText": "Lower Oven cook cycle cancelled",
+                "PushText": "Lower Oven cook cycle cancelled",
+                "AlertTitle": "Cook Cycle Canceled",
+                "Type": "cookMode"
+            },
+            {
+                "TemplateId": "CookCycleCanceledUpper",
+                "SmsText": "Upper Oven cook cycle cancelled",
+                "EmailText": "Upper Oven cook cycle cancelled",
+                "PushText": "Upper Oven cook cycle cancelled",
+                "AlertTitle": "Cook Cycle Canceled",
+                "Type": "cookMode"
+            },
+            {
+                "TemplateId": "CookModeChangedLower",
+                "SmsText": "Lower Oven Cook mode changed",
+                "EmailText": "Lower Oven Cook mode changed",
+                "PushText": "Lower Oven Cook mode changed",
+                "AlertTitle": "Cook Mode Changed",
+                "Type": "cookMode"
+            },
+            {
+                "TemplateId": "CookModeChangedUpper",
+                "SmsText": "Upper Oven Cook mode changed",
+                "EmailText": "Upper Oven Cook mode changed",
+                "PushText": "Upper Oven Cook mode changed",
+                "AlertTitle": "Cook Mode Changed",
+                "Type": "cookMode"
+            },
+            {
+                "TemplateId": "CookTargetTempChangedLower",
+                "SmsText": "Lower Oven Cook target temperature has been changed to {device.LowerCavity_CavityTargetTemp}°",
+                "EmailText": "Lower Oven Cook target temperature has been changed to {device.LowerCavity_CavityTargetTemp}°",
+                "PushText": "Lower Oven Cook target temperature has been changed to {device.LowerCavity_CavityTargetTemp}°",
+                "AlertTitle": "Cook Target Temp Changed",
+                "Type": "cookMode"
+            },
+            {
+                "TemplateId": "CookTargetTempChangedUpper",
+                "SmsText": "Upper Oven Cook target temperature has been changed to {device.UpperCavity_CavityTargetTemp}°",
+                "EmailText": "Upper Oven Cook target temperature has been changed to {device.UpperCavity_CavityTargetTemp}°",
+                "PushText": "Upper Oven Cook target temperature has been changed to {device.UpperCavity_CavityTargetTemp}°",
+                "AlertTitle": "Cook Target Temp Changed",
+                "Type": "cookMode"
+            },
+            {
+                "TemplateId": "CookTimeCompleteLower",
+                "SmsText": "Lower Oven cook time complete",
+                "EmailText": "Lower Oven cook time complete",
+                "PushText": "Lower Oven cook time complete",
+                "AlertTitle": "Cook Time Complete",
+                "Type": "cookTimer"
+            },
+            {
+                "TemplateId": "CookTimeCompleteReminderLower",
+                "SmsText": "Lower Oven Cook Time Complete",
+                "EmailText": "Lower Oven Cook Time Complete",
+                "PushText": "Lower Oven Cook Time Complete",
+                "AlertTitle": "Cook Time Complete Reminder",
+                "Type": "cookTimer"
+            },
+            {
+                "TemplateId": "CookTimeCompleteReminderUpper",
+                "SmsText": "Upper Oven Cook Time Complete",
+                "EmailText": "Upper Oven Cook Time Complete",
+                "PushText": "Upper Oven Cook Time Complete",
+                "AlertTitle": "Cook Time Complete Reminder",
+                "Type": "cookTimer"
+            },
+            {
+                "TemplateId": "CookTimeCompleteUpper",
+                "SmsText": "Upper Oven cook time complete",
+                "EmailText": "Upper Oven cook time complete",
+                "PushText": "Upper Oven cook time complete",
+                "AlertTitle": "Cook Time Complete",
+                "Type": "cookTimer"
+            },
+            {
+                "TemplateId": "CookTimerChangedLower",
+                "SmsText": "Lower Oven Cook timer updated",
+                "EmailText": "Lower Oven Cook timer updated",
+                "PushText": "Lower Oven Cook timer updated",
+                "AlertTitle": "Cook Timer Changed",
+                "Type": "cookTimer"
+            },
+            {
+                "TemplateId": "CookTimerChangedUpper",
+                "SmsText": "Upper Oven Cook timer updated",
+                "EmailText": "Upper Oven Cook timer updated",
+                "PushText": "Upper Oven Cook timer updated",
+                "AlertTitle": "Cook Timer Changed",
+                "Type": "cookTimer"
+            },
+            {
+                "TemplateId": "CulinaryUserInstructionsLower",
+                "SmsText": "Lower Oven Culinary cycle started. See oven display for instruction",
+                "EmailText": "Lower Oven Culinary cycle started. See oven display for instruction",
+                "PushText": "Lower Oven Culinary cycle started. See oven display for instruction",
+                "AlertTitle": "Culinary Center Interruptions",
+                "Type": "userInstruction"
+            },
+            {
+                "TemplateId": "CulinaryUserInstructionsUpper",
+                "SmsText": "Upper Oven Culinary cycle started. See oven display for instruction",
+                "EmailText": "Upper Oven Culinary cycle started. See oven display for instruction",
+                "PushText": "Upper Oven Culinary cycle started. See oven display for instruction",
+                "AlertTitle": "Culinary Center Interruptions",
+                "Type": "userInstruction"
+            },
+            {
+                "TemplateId": "KitchenTimerEventNotificationChanged",
+                "SmsText": "Oven kitchen timer has been changed",
+                "EmailText": "Oven kitchen timer has been changed",
+                "PushText": "Oven kitchen timer has been changed",
+                "AlertTitle": "Kitchen Timer Changed",
+                "Type": "kitchenTimer"
+            },
+            {
+                "TemplateId": "KitchenTimerEventNotificationComplete",
+                "SmsText": "Oven kitchen timer is complete",
+                "EmailText": "Oven kitchen timer is complete",
+                "PushText": "Oven kitchen timer is complete",
+                "AlertTitle": "Kitchen Timer Complete",
+                "Type": "kitchenTimer"
+            },
+            {
+                "TemplateId": "MeatProbeTargetChangedLower",
+                "SmsText": "Lower Oven Meat probe temperature has been changed to {device.LowerCavity_MeatProbeTargetTemp}°",
+                "EmailText": "Lower Oven Meat probe temperature has been changed to {device.LowerCavity_MeatProbeTargetTemp}°",
+                "PushText": "Lower Oven Meat probe temperature has been changed to {device.LowerCavity_MeatProbeTargetTemp}°",
+                "AlertTitle": "Meat Probe Target Changed",
+                "Type": "meatProbe"
+            },
+            {
+                "TemplateId": "MeatProbeTargetChangedUpper",
+                "SmsText": "Upper Oven Meat probe temperature has been changed to {device.UpperCavity_MeatProbeTargetTemp}°",
+                "EmailText": "Upper Oven Meat probe temperature has been changed to {device.UpperCavity_MeatProbeTargetTemp}°",
+                "PushText": "Upper Oven Meat probe temperature has been changed to {device.UpperCavity_MeatProbeTargetTemp}°",
+                "AlertTitle": "Meat Probe Target Changed",
+                "Type": "meatProbe"
+            },
+            {
+                "TemplateId": "MeatProbeTempAchievedLower",
+                "SmsText": "Lower Oven Meat probe temperature achieved",
+                "EmailText": "Lower Oven Meat probe temperature achieved",
+                "PushText": "Lower Oven Meat probe temperature achieved",
+                "AlertTitle": "Meat Probe Temp Achieved",
+                "Type": "meatProbe"
+            },
+            {
+                "TemplateId": "MeatProbeTempAchievedUpper",
+                "SmsText": "Upper Oven Meat probe temperature achieved",
+                "EmailText": "Upper Oven Meat probe temperature achieved",
+                "PushText": "Upper Oven Meat probe temperature achieved",
+                "AlertTitle": "Meat Probe Temp Achieved",
+                "Type": "meatProbe"
+            },
+            {
+                "TemplateId": "Preheat25Lower",
+                "SmsText": "Lower Oven pre-heated to {device.LowerCavity_CavityActualTemp}° ({device.LowerCavity_CavityTargetTemp}° target)",
+                "EmailText": "Lower Oven pre-heated to {device.LowerCavity_CavityActualTemp}° ({device.LowerCavity_CavityTargetTemp}° target)",
+                "PushText": "Lower Oven pre-heated to {device.LowerCavity_CavityActualTemp}° ({device.LowerCavity_CavityTargetTemp}° target)",
+                "AlertTitle": "Preheat Cycle Progress",
+                "Type": "preheat"
+            },
+            {
+                "TemplateId": "Preheat25Upper",
+                "SmsText": "Upper Oven pre-heated to {device.UpperCavity_CavityActualTemp}° ({device.UpperCavity_CavityTargetTemp}° target)",
+                "EmailText": "Upper Oven pre-heated to {device.UpperCavity_CavityActualTemp}° ({device.UpperCavity_CavityTargetTemp}° target)",
+                "PushText": "Upper Oven pre-heated to {device.UpperCavity_CavityActualTemp}° ({device.UpperCavity_CavityTargetTemp}° target)",
+                "AlertTitle": "Preheat Cycle Progress",
+                "Type": "preheat"
+            },
+            {
+                "TemplateId": "PreheatCompleteLower",
+                "SmsText": "Lower Oven pre-heat complete",
+                "EmailText": "Lower Oven pre-heat complete",
+                "PushText": "Lower Oven pre-heat complete",
+                "AlertTitle": "Preheat Complete",
+                "Type": "preheat"
+            },
+            {
+                "TemplateId": "PreheatCompleteUpper",
+                "SmsText": "Upper Oven pre-heat complete",
+                "EmailText": "Upper Oven pre-heat complete",
+                "PushText": "Upper Oven pre-heat complete",
+                "AlertTitle": "Preheat Complete",
+                "Type": "preheat"
+            },
+            {
+                "TemplateId": "RemoteStatusDisabled",
+                "SmsText": "Oven remote control is set to 'disabled'",
+                "EmailText": "Oven remote control is set to 'disabled'",
+                "PushText": "Oven remote control is set to 'disabled'",
+                "AlertTitle": "Remote Control Alert",
+                "Type": "remoteControl"
+            },
+            {
+                "TemplateId": "RemoteStatusEnabled",
+                "SmsText": "Oven remote control is set to 'enabled'",
+                "EmailText": "Oven remote control is set to 'enabled'",
+                "PushText": "Oven remote control is set to 'enabled'",
+                "AlertTitle": "Remote Control Alert",
+                "Type": "remoteControl"
+            },
+            {
+                "TemplateId": "SelfCleanCompleteLower",
+                "SmsText": "Lower Oven self-clean is complete",
+                "EmailText": "Lower Oven self-clean is complete",
+                "PushText": "Lower Oven self-clean is complete",
+                "AlertTitle": "Self Clean Completed",
+                "Type": "selfClean"
+            },
+            {
+                "TemplateId": "SelfCleanCompleteUpper",
+                "SmsText": "Upper Oven self-clean is complete",
+                "EmailText": "Upper Oven self-clean is complete",
+                "PushText": "Upper Oven self-clean is complete",
+                "AlertTitle": "Self Clean Completed",
+                "Type": "selfClean"
+            }
+        ]
     }
 }
