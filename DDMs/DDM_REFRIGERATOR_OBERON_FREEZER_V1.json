@@ -1362,10 +1362,7 @@
           "AvailableIn": [
             "US",
             "CA"
-          ],
-          "StateAttributes": {
-            "State": "Refrigerator_OpSetTargetTemp"
-          }
+          ]
         }
       },
       "LowerZone": {
@@ -1374,10 +1371,7 @@
           "AvailableIn": [
             "US",
             "CA"
-          ],
-          "StateAttributes": {
-            "State": "Freezer_OpSetTempPreset"
-          }
+          ]
         }
       }
     }

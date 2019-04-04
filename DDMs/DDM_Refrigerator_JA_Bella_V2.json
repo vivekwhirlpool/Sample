@@ -1,20 +1,20 @@
 {
-  "_id": "DDM_Refrigerator_JA_Bella_V2",
-  "_rev": "16-972cf3eb65bb1302a50545e6529c4b64",
+  "_id": "DDM_Refrigerator_JA_Bella_V1",
+  "_rev": "18-1c2616a774337a4622dc088fa7f82552",
   "DDM": {
-    "_id": "DDM_Refrigerator_JA_Bella_V2",
-    "ddmName": "DDM_Refrigerator_JA_Bella_V2",
-    "modelNumber": "JFFCC72EFP02,JFFCC72EFS02",
-    "createdAt": "Jul 2, 2018 6:30:00 PM",
-    "createdBy": "Priyanka Bhosale",
+    "_id": "DDM_Refrigerator_JA_Bella_V1",
+    "ddmName": "DDM_Refrigerator_JA_Bella_V1",
+    "modelNumber": "JFFCC72EFP00,JFFCC72EFP01,JFFCC72EFS01, JFFCC72EFS00, JFFCC72EHL",
+    "createdAt": "Mar 20, 2018 6:30:00 PM",
+    "createdBy": "Arjun",
     "brandName": "JennAir",
     "category": "Refrigerator",
-    "version": "2",
-    "ccuriVersion": "12",
-    "ccURI": "API144_FRIG_V12"
+    "version": "1.0",
+    "ccuriVersion": "1.0",
+    "ccURI": "API144_FRIG_V7"
   },
   "DataModel": {
-    "Key": "DDM_Refrigerator_JA_Bella_V2",
+    "Key": "DDM_Refrigerator_JA_Bella_V1",
     "attributes": [
       {
         "IsTemplate": false,
@@ -1259,7 +1259,7 @@
     ]
   },
   "Personality": {
-    "Key": "DDM_Refrigerator_JA_Bella_V2",
+    "Key": "DDM_Refrigerator_JA_Bella_V1",
     "CavityOrder": [
       "RefrigeratorCavity",
       "FreezerCavity",
@@ -1479,6 +1479,16 @@
     },
     "Features": {
       "Common": {
+        "FilterStatus": {
+          "Visible": true,
+          "AvailableIn": [
+            "US",
+            "CA"
+          ],
+          "StateAttributes": {
+            "State": "Sys_OpSetWaterFilter"
+          }
+        },
         "ControlLock": {
           "Visible": true,
           "AvailableIn": [
@@ -1535,6 +1545,20 @@
             "US",
             "CA"
           ]
+        },
+        "FavoriteFill1" : {
+          "Visible": true,
+          "AvailableIn": [
+            "US",
+            "CA"
+          ]
+        },
+        "FavoriteFill2" : {
+          "Visible": true,
+          "AvailableIn": [
+            "US",
+            "CA"
+          ]
         }
       },
       "RefrigeratorCavity": {
@@ -1574,15 +1598,14 @@
         }
       }
     }
-
   },
   "Alerts": {
-    "Key": "DDM_Refrigerator_JA_Bella_V2",
+    "Key": "DDM_Refrigerator_JA_Bella_V1",
     "Alerts": [
       {
         "ApplianceAlerts": [
           {
-            "alertId": 1222,
+            "alertId": 647,
             "name": "DoorOpenAlert",
             "attribute": "Sys_AlertStatusDoorOpenAlarm",
             "type": "push",
@@ -1591,10 +1614,10 @@
             "autodisarm": true,
             "autodisable": false,
             "visible": true,
-            "enable": false
+            "enable": true
           },
           {
-            "alertId": 1223,
+            "alertId": 648,
             "name": "WaterFilter",
             "attribute": "Sys_OpSetWaterFilter",
             "type": "push",
@@ -1603,10 +1626,10 @@
             "autodisarm": true,
             "autodisable": false,
             "visible": true,
-            "enable": false
+            "enable": true
           },
           {
-            "alertId": 1224,
+            "alertId": 650,
             "name": "MaxIce",
             "attribute": "Sys_OpSetMaxIce",
             "type": "push",
@@ -1618,19 +1641,7 @@
             "enable": false
           },
           {
-            "alertId": 1228,
-            "name": "OverTemp",
-            "attribute": "Refrigerator_OpStatusOverTemp,Freezer_OpStatusOverTemp",
-            "type": "push",
-            "category": "Refrigerator",
-            "autodelete": false,
-            "autodisarm": true,
-            "autodisable": false,
-            "visible": true,
-            "enable": false
-          },
-          {
-            "alertId": 1229,
+            "alertId": 652,
             "name": "MaxCool",
             "attribute": "Sys_OpSetMaxCool",
             "type": "push",
@@ -1640,35 +1651,26 @@
             "autodisable": false,
             "visible": true,
             "enable": false
+          },
+          {
+            "alertId": 654,
+            "name": "OverTemp",
+            "attribute": "Refrigerator_OpStatusOverTemp,Freezer_OpStatusOverTemp",
+            "type": "push",
+            "category": "Refrigerator",
+            "autodelete": false,
+            "autodisarm": true,
+            "autodisable": false,
+            "visible": true,
+            "enable": true
           }
         ]
       }
     ]
   },
   "Services": {
-    "_id": "DDM_Refrigerator_JA_Bella_V2",
+    "_id": "DDM_Refrigerator_JA_Bella_V1",
     "thirdPartyServices": [
-      {
-        "name": "Replenishment",
-        "enabled": false,
-        "serviceProvider": [
-          {
-            "name": "ADRS",
-            "enabled": false,
-            "config": {}
-          },
-          {
-            "name": "Wallmart",
-            "enabled": false,
-            "config": {}
-          },
-          {
-            "name": "Whirlpool",
-            "enabled": false,
-            "config": {}
-          }
-        ]
-      },
       {
         "name": "Thermostat",
         "enabled": true,
@@ -1676,48 +1678,14 @@
           {
             "name": "Nest",
             "enabled": true,
-            "config": {
-              "config": [
-                {
-                  "Key": "SmartEnergy",
-                  "Type": "rush_hour_rewards",
-                  "commandName": "",
-                  "commandValue": ""
-                }
-              ]
-            }
-          }
-        ]
-      },
-      {
-        "name": "Energy Management",
-        "enabled": false,
-        "serviceProvider": [
-          {
-            "name": "National Grid",
-            "enabled": false,
-            "config": {}
-          },
-          {
-            "name": "Genability",
-            "enabled": false,
-            "config": {}
-          }
-        ]
-      },
-      {
-        "name": "Voice Integration",
-        "enabled": false,
-        "serviceProvider": [
-          {
-            "name": "Amazon Alexa",
-            "enabled": false,
-            "config": {}
-          },
-          {
-            "name": "Google Home",
-            "enabled": false,
-            "config": {}
+            "config": [
+              {
+                "Key": "SmartEnergy",
+                "Type": "rush_hour_rewards",
+                "commandName": "",
+                "commandValue": ""
+              }
+            ]
           }
         ]
       }

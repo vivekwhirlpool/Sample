@@ -1543,10 +1543,7 @@
           "AvailableIn": [
             "US",
             "CA"
-          ],
-          "StateAttributes": {
-            "State": "Refrigerator_OpSetTargetTemp"
-          }
+          ]
         }
       },
       "FreezerCavity": {
@@ -1555,10 +1552,7 @@
           "AvailableIn": [
             "US",
             "CA"
-          ],
-          "StateAttributes": {
-            "State": "Freezer_OpSetTargetTemp"
-          }
+          ]
         }
       },
       "PantryCavity": {
@@ -1567,10 +1561,7 @@
           "AvailableIn": [
             "US",
             "CA"
-          ],
-          "StateAttributes": {
-            "State": "Pantry_OpSetTargetTemp"
-          }
+          ]
         }
       }
     }

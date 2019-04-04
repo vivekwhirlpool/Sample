@@ -1428,10 +1428,7 @@
           "AvailableIn": [
             "US",
             "CA"
-          ],
-          "StateAttributes": {
-            "State": "Refrigerator_OpSetTargetTemp"
-          }
+          ]
         }
       },
       "DeliDrawerCavity": {
@@ -1440,10 +1437,7 @@
           "AvailableIn": [
             "US",
             "CA"
-          ],
-          "StateAttributes": {
-            "State": "Freezer_OpSetTempPreset"
-          }
+          ]
         }
       },
       "CrisperDrawerCavity": {
@@ -1452,10 +1446,7 @@
           "AvailableIn": [
             "US",
             "CA"
-          ],
-          "StateAttributes": {
-            "State": "Pantry_OpSetTempPreset"
-          }
+          ]
         }
       }
 
