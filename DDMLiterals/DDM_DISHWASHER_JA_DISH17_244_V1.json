@@ -170,36 +170,36 @@
     "AFCSelfHelpPack": {
         "F1,E2": {
             "ErrorCode": "F1E2",
-            "Name": "",
+            "Name": "General Fault",
             "Type": "General Fault",
-            "Description": "Your dishwasher has experienced an error that will require service to troubleshoot and diagnose the problem and repair as necessary.",
+            "Description": "The dishwasher has experienced an error that will require service to troubleshoot and repair as necessary.",
             "StepsToRepair": [
-                "Service is required. Call 866-333-4591 for Service"
+                "Please call 1-800-JENN-AIR (536-6247) for Service."
             ],
             "HelpPath": "NAR/JENNAIR/DDM_DISHWASHER_JA_DISH17_244_V1/AFCSelfHelpPack/eng/F01E02_P1.html",
             "VideoPath": "http://www.kaltura.com/tiny/lnrux"
         },
         "F2,E2": {
             "ErrorCode": "F2E2",
-            "Name": "",
+            "Name": "General Fault",
             "Type": "General Fault",
-            "Description": "Cycle power to the control to reset the dishwasher.",
+            "Description": "The dishwasher has experienced an error that will require a reset",
             "StepsToRepair": [
                 "Turn off power to the dishwasher by turning off the circuit breaker for one (1) minute.",
                 "Turn on power to the dishwasher by turning on the circuit breaker.",
                 "Monitor the dishwasher for one (1) minute to ensure the error code does not display again.",
-                "Verify dishwasher operation.  If the problem persists, call 866-333-4591 for Service"
+                "Verify dishwasher operation. "
             ],
             "HelpPath": "NAR/JENNAIR/DDM_DISHWASHER_JA_DISH17_244_V1/AFCSelfHelpPack/eng/F01E02_P1.html",
             "VideoPath": "http://www.kaltura.com/tiny/lnrux"
         },
         "F2,E3": {
             "ErrorCode": "F2E3",
-            "Name": "",
+            "Name": "General Fault",
             "Type": "General Fault",
-            "Description": "Your dishwasher has experienced an error that will require service to troubleshoot and diagnose the problem and repair as necessary.",
+            "Description": "The dishwasher has experienced an error that will require service to troubleshoot and repair as necessary.",
             "StepsToRepair": [
-                "Service is required. Call 866-333-4591 for Service"
+                "Please call 1-800-JENN-AIR (536-6247) for Service."
             ],
             "HelpPath": "NAR/JENNAIR/DDM_DISHWASHER_JA_DISH17_244_V1/AFCSelfHelpPack/eng/F01E02_P1.html",
             "VideoPath": "http://www.kaltura.com/tiny/lnrux"

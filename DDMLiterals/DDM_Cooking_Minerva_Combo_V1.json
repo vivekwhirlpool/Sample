@@ -763,9 +763,9 @@
     "F1,E0": {
       "ErrorCode": "F1E0",
       "Name": "Internal User Interface Error",
-      "Description": "The product is experiencing a problem and needs to be reset. Press \"Reset\" on the oven display. If the problem persists, service will be required.",
-      "StepsToRepair": [
-        
+      "Description": "The oven is experiencing a problem and needs to be reset.",
+      "StepsToRepair": [ 
+
       ],
       "HelpPath": ""
     },
@@ -808,7 +808,7 @@
     "F2,E0": {
       "ErrorCode": "F2E0",
       "Name": "Keypad Disconnected",
-      "Description": "The product is experiencing a problem and needs to be reset. Press \"Reset\" on the oven display. If the problem persists, service will be required.",
+      "Description": "The oven  is experiencing a problem and needs to be reset.",
       "StepsToRepair": [
         
       ],
@@ -817,7 +817,7 @@
     "F2,E1": {
       "ErrorCode": "F2E1",
       "Name": "Stuck / Shorted Key",
-      "Description": "The product is experiencing a problem and needs to be reset. Press \"Reset\" on the oven display. If the problem persists, service will be required.",
+      "Description": "The oven is experiencing a problem and needs to be reset.",
       "StepsToRepair": [
         
       ],
@@ -907,7 +907,7 @@
     "F6,E0": {
       "ErrorCode": "F6E0",
       "Name": "User Interface Lost Contact",
-      "Description": "The product is experiencing a problem and needs to be reset. Press \"Reset\" on the oven display. If the problem persists, service will be required.",
+      "Description": "The oven is experiencing a problem and needs to be reset.",
       "StepsToRepair": [
         
       ],
@@ -934,7 +934,7 @@
     "F6,E6": {
       "ErrorCode": "F6E6",
       "Name": "Oven Control - Lost Communication Contact",
-      "Description": "The oven is experiencing a problem and needs to be reset. Press \"Reset\" on the oven display. If the problem persists, service will be required.",
+      "Description": "The oven is experiencing a problem and needs to be reset.",
       "StepsToRepair": [
         
       ],
@@ -943,7 +943,7 @@
     "F6,E8": {
       "ErrorCode": "F6E8",
       "Name": "Microwave Control - Lost Communication Contact",
-      "Description": "The microwave is experiencing a problem and needs to be reset. Press \"Reset\" on the oven display. If the problem persists, service will be required.",
+      "Description": "The microwave is experiencing a problem and needs to be reset.",
       "StepsToRepair": [
         
       ],
@@ -952,7 +952,7 @@
     "F9,E0": {
       "ErrorCode": "F9E0",
       "Name": "Product Mis-Wire",
-      "Description": "The product is experiencing a problem and can no longer be used.",
+      "Description": "The oven is experiencing a problem and can no longer be used.",
       "StepsToRepair": [
         
       ],

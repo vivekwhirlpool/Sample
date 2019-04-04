@@ -568,91 +568,91 @@
         "F1,E0": {
             "ErrorCode": "F1E0",
             "Name": "Internal User Interface Error",
-            "Description": "The product is experiencing a problem and needs to be reset. Press \"Reset\" on the oven display. If the problem persists, service will be required.",
+            "Description": "The oven is experiencing a problem and needs to be reset.",
             "StepsToRepair": [],
             "HelpPath": ""
         },
         "F1,E1": {
             "ErrorCode": "F1E1",
             "Name": "Internal Oven Control Error",
-            "Description": "The product is experiencing a problem and can no longer be used.",
+            "Description": "The oven is experiencing a problem and can no longer be used.",
             "StepsToRepair": [],
             "HelpPath": ""
         },
         "F2,E0": {
             "ErrorCode": "F2E0",
             "Name": "Keypad Disconnected",
-            "Description": "The product is experiencing a problem and needs to be reset. Press \"Reset\" on the oven display. If the problem persists, service will be required.",
+            "Description": "The oven is experiencing a problem and needs to be reset.",
             "StepsToRepair": [],
             "HelpPath": ""
         },
         "F2,E1": {
             "ErrorCode": "F2E1",
             "Name": "Stuck / Shorted Key",
-            "Description": "The product is experiencing a problem and needs to be reset. Press \"Reset\" on the oven display. If the problem persists, service will be required.",
+            "Description": "The oven is experiencing a problem and needs to be reset.",
             "StepsToRepair": [],
             "HelpPath": ""
         },
         "F3,E0": {
             "ErrorCode": "F3E0",
             "Name": "Main Oven Sensor Open or Shorted",
-            "Description": "The upper oven is experiencing a problem and can no longer be used.",
+            "Description": "The upper oven is experiencing a problem and can no longer be used. ",
             "StepsToRepair": [],
             "HelpPath": ""
         },
         "F3,E1": {
             "ErrorCode": "F3E1",
             "Name": "Bottom Oven Sensor Open or Shorted",
-            "Description": "The lower oven is experiencing a problem and can no longer be used.",
+            "Description": "The lower oven is experiencing a problem and can no longer be used. ",
             "StepsToRepair": [],
             "HelpPath": ""
         },
         "F3,E3": {
             "ErrorCode": "F3E3",
             "Name": "Meat Probe Connector Jack or Meat Probe Shorted",
-            "Description": "The meat probe feature is experiencing a problem and can no longer be used. Other features will work normally.",
+            "Description": "The meat probe feature is experiencing a problem and can no longer be used. Other features will work normally. ",
             "StepsToRepair": [],
             "HelpPath": ""
         },
         "F5,E0": {
             "ErrorCode": "F5E0",
             "Name": "Door & Latch Switches Do Not Agree",
-            "Description": "The upper oven is experiencing a problem and can no longer be used.",
+            "Description": "The upper oven is experiencing a problem and can no longer be used. ",
             "StepsToRepair": [],
             "HelpPath": ""
         },
         "F5,E1": {
             "ErrorCode": "F5E1",
             "Name": "Door Latch Motor Not Operational",
-            "Description": "The upper oven is experiencing a problem and can no longer be used.",
+            "Description": "The upper oven is experiencing a problem and can no longer be used. ",
             "StepsToRepair": [],
             "HelpPath": ""
         },
         "F5,E3": {
             "ErrorCode": "F5E3",
             "Name": "Door & Latch Motor Not Operational (Lower Oven)",
-            "Description": "The lower oven is experiencing a problem and can no longer be used.",
+            "Description": "The lower oven is experiencing a problem and can no longer be used. ",
             "StepsToRepair": [],
             "HelpPath": ""
         },
         "F5,E4": {
             "ErrorCode": "F5E4",
             "Name": "Door & Latch Motor Not Operational (Lower Oven)",
-            "Description": "The lower oven is experiencing a problem and can no longer be used.",
+            "Description": "The lower oven is experiencing a problem and can no longer be used. ",
             "StepsToRepair": [],
             "HelpPath": ""
         },
         "F6,E0": {
             "ErrorCode": "F6E0",
             "Name": "User Interface Lost Contact",
-            "Description": "The product is experiencing a problem and needs to be reset. Press \"Reset\" on the oven display. If the problem persists, service will be required.",
+            "Description": "The oven is experiencing a problem and needs to be reset.",
             "StepsToRepair": [],
             "HelpPath": ""
         },
         "F6,E1": {
             "ErrorCode": "F6E1",
             "Name": "Over Temperature When Oven is Heating",
-            "Description": "The upper oven is experiencing a problem and can no longer be used.",
+            "Description": "The upper oven is experiencing a problem and can no longer be used. ",
             "StepsToRepair": [],
             "HelpPath": ""
         },
@@ -673,21 +673,21 @@
         "F6,E6": {
             "ErrorCode": "F6E6",
             "Name": "Oven Control - Lost Communication Contact",
-            "Description": "The product is experiencing a problem and needs to be reset. Press \"Reset\" on the oven display. If the problem persists, service will be required.",
+            "Description": "The oven is experiencing a problem and needs to be reset.",
             "StepsToRepair": [],
             "HelpPath": ""
         },
         "F6,E9": {
             "ErrorCode": "F6E9",
             "Name": "Oven Control - Lost Communication Contact",
-            "Description": "The product is experiencing a problem and needs to be reset. Press \"Reset\" on the oven display. If the problem persists, service will be required.",
+            "Description": "The oven is experiencing a problem and needs to be reset.",
             "StepsToRepair": [],
             "HelpPath": ""
         },
         "F9,E0": {
             "ErrorCode": "F9E0",
             "Name": "Product Mis-Wire",
-            "Description": "The product is experiencing a problem and can no longer be used.",
+            "Description": "The oven is experiencing a problem and can no longer be used.",
             "StepsToRepair": [],
             "HelpPath": ""
         }
