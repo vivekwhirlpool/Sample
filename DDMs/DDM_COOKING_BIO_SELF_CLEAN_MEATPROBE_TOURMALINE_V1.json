@@ -1,10 +1,15 @@
 {
   "DDM": {
-    "_id": "API144_COOKING_BIOSaunaTourmaline_V22",
-    "ModelNumber": ["859991560660","859991560670","JJW6024HM","JJW6024HL"],
-    "Category": "COOKING",
-    "ccURI": "API144_COOKING_V22",
-    "Version": "2"
+    "_id": "DDM_Cooking_Minerva_Combo_V1",
+    "ddmName": "DDM_Cooking_Minerva_Combo_V1",
+    "modelNumber": "JMW3430",
+    "createdAt": "Apr 5, 2018 1:13:02 AM",
+    "createdBy": "Rupal Kesharwani",
+    "brandName": "JennAir",
+    "category": "Cooking",
+    "version": "1.0",
+    "ccuriVersion": "1.0",
+    "ccURI": "MinervaJA"
   },
   "DataModel": {
     "key": "API144_COOKING_BIOSaunaTourmaline_V22",
@@ -4724,13 +4729,294 @@
     }
   },
   "Alerts": {
-    "AlertType": "<Config JSON>"
+    "Key": "DDM_Cooking_Minerva_Combo_V1",
+    "Alerts": [
+      {
+        "ApplianceAlerts": [
+          {
+            "alertId": 64,
+            "name": "PreheatComplete",
+            "attribute": "LowerCavity_CavityEventNotification",
+            "type": "push",
+            "category": "",
+            "autodelete": false,
+            "autodisarm": false,
+            "autodisable": false,
+            "visible": true,
+            "enable": true
+          },
+          {
+            "alertId": 66,
+            "name": "Preheat25",
+            "attribute": "LowerCavity_CavityEventNotification",
+            "type": "push",
+            "category": "",
+            "autodelete": false,
+            "autodisarm": false,
+            "autodisable": false,
+            "visible": true,
+            "enable": false
+          },
+          {
+            "alertId": 67,
+            "name": "CookTimeComplete",
+            "attribute": "LowerCavity_CavityEventNotification",
+            "type": "push",
+            "category": "",
+            "autodelete": false,
+            "autodisarm": false,
+            "autodisable": false,
+            "visible": true,
+            "enable": true
+          },
+          {
+            "alertId": 68,
+            "name": "MeatProbeTempAchieved",
+            "attribute": "LowerCavity_CavityEventNotification",
+            "type": "push",
+            "category": "",
+            "autodelete": false,
+            "autodisarm": false,
+            "autodisable": false,
+            "visible": true,
+            "enable": true
+          },
+          {
+            "alertId": 69,
+            "name": "MeatProbeTargetChanged",
+            "attribute": "LowerCavity_CavityEventNotification",
+            "type": "push",
+            "category": "",
+            "autodelete": false,
+            "autodisarm": false,
+            "autodisable": false,
+            "visible": true,
+            "enable": false
+          },
+          {
+            "alertId": 70,
+            "name": "CookTimerChanged",
+            "attribute": "LowerCavity_CavityEventNotification",
+            "type": "push",
+            "category": "",
+            "autodelete": false,
+            "autodisarm": false,
+            "autodisable": false,
+            "visible": true,
+            "enable": false
+          },
+          {
+            "alertId": 67,
+            "name": "CookTimeCompleteReminder",
+            "attribute": "LowerCavity_CavityEventNotification",
+            "type": "push",
+            "category": "",
+            "autodelete": false,
+            "autodisarm": false,
+            "autodisable": false,
+            "visible": true,
+            "enable": true
+          },
+          {
+            "alertId": 72,
+            "name": "CookCycleCancelled",
+            "attribute": "LowerCavity_CavityEventNotification",
+            "type": "push",
+            "category": "",
+            "autodelete": false,
+            "autodisarm": false,
+            "autodisable": false,
+            "visible": true,
+            "enable": false
+          },
+          {
+            "alertId": 73,
+            "name": "CookModeChanged",
+            "attribute": "LowerCavity_CavityEventNotification",
+            "type": "push",
+            "category": "",
+            "autodelete": false,
+            "autodisarm": false,
+            "autodisable": false,
+            "visible": true,
+            "enable": false
+          },
+          {
+            "alertId": 74,
+            "name": "CookTargetTempChanged",
+            "attribute": "LowerCavity_CavityEventNotification",
+            "type": "push",
+            "category": "",
+            "autodelete": false,
+            "autodisarm": false,
+            "autodisable": false,
+            "visible": true,
+            "enable": false
+          },
+          {
+            "alertId": 75,
+            "name": "SelfCleanComplete",
+            "attribute": "LowerCavity_CavityEventNotification",
+            "type": "push",
+            "category": "",
+            "autodelete": false,
+            "autodisarm": false,
+            "autodisable": false,
+            "visible": true,
+            "enable": true
+          },
+          {
+            "alertId": 57,
+            "name": "ControlLock",
+            "attribute": "SystemSettings_ControlLock",
+            "type": "push",
+            "category": "",
+            "autodelete": false,
+            "autodisarm": false,
+            "autodisable": false,
+            "visible": true,
+            "enable": false
+          },
+          {
+            "alertId": 59,
+            "name": "KitchenTimerEventNotification",
+            "attribute": "KitchenTimer1_TimerEventNotification",
+            "type": "push",
+            "category": "",
+            "autodelete": false,
+            "autodisarm": false,
+            "autodisable": false,
+            "visible": true,
+            "enable": false
+          },
+          {
+            "alertId": 60,
+            "name": "RemoteStatus",
+            "attribute": "Appliance_RemoteEnabledStatus",
+            "type": "push",
+            "category": "",
+            "autodelete": false,
+            "autodisarm": false,
+            "autodisable": false,
+            "visible": true,
+            "enable": false
+          },
+          {
+            "alertId": 644,
+            "name": "LowerCavityCulinaryInstructions",
+            "attribute": "LowerCavity_CulinaryCenterUserInstruction",
+            "type": "push",
+            "category": "",
+            "autodelete": false,
+            "autodisarm": false,
+            "autodisable": false,
+            "visible": true,
+            "enable": true
+          },
+          {
+            "alertId": 492,
+            "name": "OvenOnWhileAway",
+            "attribute": "Online",
+            "type": "push",
+            "category": "",
+            "autodelete": false,
+            "autodisarm": false,
+            "autodisable": false,
+            "visible": false,
+            "enable": false
+          }
+        ]
+      }
+    ]
   },
   "Services": {
-    "NEST": "<Config JSON>",
-    "Replenishment": "<Config JSON>",
-    "VoiceIntegration": "<Config JSON>",
-    "EnergyManagement": "<Config JSON>",
-    "ClotheSpin": "<Config JSON>"
+    "_id": "DDM_Cooking_Minerva_Combo_V1",
+    "thirdPartyServices": [
+      {
+        "name": "Replenishment",
+        "enabled": false,
+        "serviceProvider": [
+          {
+            "name": "ADRS",
+            "enabled": false,
+            "config": {
+
+            }
+          },
+          {
+            "name": "Wallmart",
+            "enabled": false,
+            "config": {
+
+            }
+          },
+          {
+            "name": "Whirlpool",
+            "enabled": false,
+            "config": {
+
+            }
+          }
+        ]
+      },
+      {
+        "name": "Thermostat",
+        "enabled": true,
+        "serviceProvider": [
+          {
+            "name": "Nest",
+            "enabled": true,
+            "config": [
+              {
+                "Key": "AwayOvenWarning",
+                "Type": "home_away",
+                "commandName": "",
+                "commandValue": ""
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Energy Management",
+        "enabled": false,
+        "serviceProvider": [
+          {
+            "name": "National Grid",
+            "enabled": false,
+            "config": {
+
+            }
+          },
+          {
+            "name": "Genability",
+            "enabled": false,
+            "config": {
+
+            }
+          }
+        ]
+      },
+      {
+        "name": "Voice Integration",
+        "enabled": false,
+        "serviceProvider": [
+          {
+            "name": "Amazon Alexa",
+            "enabled": false,
+            "config": {
+
+            }
+          },
+          {
+            "name": "Google Home",
+            "enabled": false,
+            "config": {
+
+            }
+          }
+        ]
+      }
+    ]
   }
 }
