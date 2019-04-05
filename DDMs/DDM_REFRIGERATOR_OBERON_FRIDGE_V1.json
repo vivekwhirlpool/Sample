@@ -1385,7 +1385,7 @@
             "State": "Sys_OpSetIceMakerOn"
           }
         },
-        "sabbath": {
+        "SabbathMode": {
           "Visible": true,
           "AvailableIn": [
             "US",

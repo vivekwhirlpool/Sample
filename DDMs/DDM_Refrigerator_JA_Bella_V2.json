@@ -1519,7 +1519,7 @@
             "State": "Sys_OpSetMaxIce"
           }
         },
-        "sabbath": {
+        "SabbathMode": {
           "Visible": true,
           "AvailableIn": [
             "US",
