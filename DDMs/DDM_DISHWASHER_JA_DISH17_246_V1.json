@@ -1767,7 +1767,6 @@
     },
     "Features": {
       "Common": {
-
         "QuietMode": {
           "Visible": true,
           "AvailableIn": [
@@ -1795,12 +1794,30 @@
             "CA"
           ]
         },
-        "DishFilterStatus": {
+        "FaultCodes": {
           "Visible": true,
           "AvailableIn": [
             "US",
             "CA"
           ]
+        },
+        "ApplianceDocuments" : {
+          "Visible": true,
+          "AvailableIn": [
+            "US",
+            "CA"
+          ]
+        },
+        "RemoteStatus": {
+          "Visible": true,
+          "ReadOnly": true,
+          "AvailableIn": [
+            "US",
+            "CA"
+          ],
+          "StateAttributes": {
+            "State": "XCat_RemoteSetRemoteControlEnable"
+          }
         }
       },
       "DishCavity": {
