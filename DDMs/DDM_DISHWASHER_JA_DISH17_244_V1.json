@@ -1322,7 +1322,7 @@
     "Capability": {
       "DishCavity": {
         "CapabilityData": {
-          "DishCavity_WashModeCycleNormal": {
+          "Cavity_CycleSetCycleIdCycleNormal": {
             "Required": {
               "Cavity_CycleSetOptionSaniRinse": {
                 "Enumeration": [
@@ -1378,7 +1378,7 @@
               }
             }
           },
-          "DishCavity_WashModeCycleRefresh": {
+          "Cavity_CycleSetCycleIdCycleRinseOnly": {
             "Required": {
 
             },
@@ -1393,7 +1393,7 @@
               }
             }
           },
-          "DishCavity_WashModeCycleOneHour": {
+          "Cavity_CycleSetCycleIdCycleOneHourWash": {
             "Required": {
               "Cavity_CycleSetOptionUpperRackOnly": {
                 "Enumeration": [
@@ -1428,7 +1428,7 @@
               }
             }
           },
-          "DishCavity_WashModeCycleCrystal": {
+          "Cavity_CycleSetCycleIdCycleLightChina": {
             "Required": {
               "Cavity_CycleSetOptionUpperRackOnly": {
                 "Enumeration": [
@@ -1463,7 +1463,7 @@
               }
             }
           },
-          "DishCavity_WashModeCycleCookware": {
+          "Cavity_CycleSetCycleIdCyclePotsAndPans": {
             "Required": {
               "Cavity_CycleSetOptionSaniRinse": {
                 "Enumeration": [
@@ -1519,7 +1519,7 @@
               }
             }
           },
-          "DishCavity_WashModeCycleSensor": {
+          "Cavity_CycleSetCycleIdCycleSensor": {
             "Required": {
               "Cavity_CycleSetOptionSmartHeatedDry": {
                 "Enumeration": [
@@ -1575,7 +1575,7 @@
               }
             }
           },
-          "DishCavity_CustomCycleGentle": {
+          "Cavity_CycleSetDownloadAndGoDownloadGoGentle": {
             "Required": {
               "NonEditable": {
                 "Cavity_CycleSetCycleId": "CycleLightChina"
@@ -1585,7 +1585,7 @@
 
             }
           },
-          "DishCavity_CustomCycleHeavy": {
+          "Cavity_CycleSetDownloadAndGoDownloadGoHeavy": {
             "Required": {
               "NonEditable": {
                 "Cavity_CycleSetOptionSmartHeatedDry": "Enabled",
@@ -1594,7 +1594,7 @@
               }
             }
           },
-          "DishCavity_CustomCycleSpecialtyItems": {
+          "Cavity_CycleSetDownloadAndGoDownloadGoSpecialtyItems": {
             "Required": {
               "NonEditable": {
                 "Cavity_CycleSetOptionSmartHeatedDry": "Enabled",
@@ -1606,7 +1606,7 @@
 
             }
           },
-          "DishCavity_CustomCycleSanitize": {
+          "Cavity_CycleSetDownloadAndGoDownloadGoSanitize": {
             "Required": {
               "NonEditable": {
                 "Cavity_CycleSetOptionSmartHeatedDry": "Enabled",
@@ -1618,7 +1618,7 @@
 
             }
           },
-          "DishCavity_CustomCycleQuick": {
+          "Cavity_CycleSetDownloadAndGoDownloadGoQuick": {
             "Required": {
               "NonEditable": {
                 "Cavity_CycleSetCycleId": "CycleOneHourWash"
@@ -1631,7 +1631,7 @@
         },
         "SetCycle": {
           "WashMode": {
-            "DishCavity_WashModeCycleNormal": {
+            "Cavity_CycleSetCycleIdCycleNormal": {
               "Name": "Normal",
               "Attributes": {
                 "Cavity_CycleSetCycleId": [
@@ -1639,7 +1639,7 @@
                 ]
               }
             },
-            "DishCavity_WashModeCycleRefresh": {
+            "Cavity_CycleSetCycleIdCycleRinseOnly": {
               "Name": "Refresh",
               "Attributes": {
                 "Cavity_CycleSetCycleId": [
@@ -1647,7 +1647,7 @@
                 ]
               }
             },
-            "DishCavity_WashModeCycleOneHour": {
+            "Cavity_CycleSetCycleIdCycleOneHourWash": {
               "Name": "OneHourWash",
               "Attributes": {
                 "Cavity_CycleSetCycleId": [
@@ -1655,7 +1655,7 @@
                 ]
               }
             },
-            "DishCavity_WashModeCycleCrystal": {
+            "Cavity_CycleSetCycleIdCycleLightChina": {
               "Name": "Crystal",
               "Attributes": {
                 "Cavity_CycleSetCycleId": [
@@ -1663,7 +1663,7 @@
                 ]
               }
             },
-            "DishCavity_WashModeCycleCookware": {
+            "Cavity_CycleSetCycleIdCyclePotsAndPans": {
               "Name": "Cookware",
               "Attributes": {
                 "Cavity_CycleSetCycleId": [
@@ -1671,7 +1671,7 @@
                 ]
               }
             },
-            "DishCavity_WashModeCycleSensor": {
+            "Cavity_CycleSetCycleIdCycleSensor": {
               "Name": "Sensor",
               "Attributes": {
                 "Cavity_CycleSetCycleId": [
@@ -1681,7 +1681,7 @@
             }
           },
           "CustomCycle": {
-            "DishCavity_CustomCycleGentle": {
+            "Cavity_CycleSetDownloadAndGoDownloadGoGentle": {
               "Name": "Gentle",
               "Attributes": {
                 "Cavity_CycleSetDownloadAndGo": [
@@ -1689,7 +1689,7 @@
                 ]
               }
             },
-            "DishCavity_CustomCycleHeavy": {
+            "Cavity_CycleSetDownloadAndGoDownloadGoHeavy": {
               "Name": "Heavy",
               "Attributes": {
                 "Cavity_CycleSetDownloadAndGo": [
@@ -1697,7 +1697,7 @@
                 ]
               }
             },
-            "DishCavity_CustomCycleSpecialtyItems": {
+            "Cavity_CycleSetDownloadAndGoDownloadGoSpecialtyItems": {
               "Name": "SpecialtyItems",
               "Attributes": {
                 "Cavity_CycleSetDownloadAndGo": [
@@ -1705,7 +1705,7 @@
                 ]
               }
             },
-            "DishCavity_CustomCycleSanitize": {
+            "Cavity_CycleSetDownloadAndGoDownloadGoSanitize": {
               "Name": "Sanitize",
               "Attributes": {
                 "Cavity_CycleSetDownloadAndGo": [
@@ -1713,7 +1713,7 @@
                 ]
               }
             },
-            "DishCavity_CustomCycleQuick": {
+            "Cavity_CycleSetDownloadAndGoDownloadGoQuick": {
               "Name": "Quick",
               "Attributes": {
                 "Cavity_CycleSetDownloadAndGo": [
@@ -1722,7 +1722,7 @@
               }
             }
           },
-          "Default": "DishCavity_WashModeCycleNormal"
+          "Default": "Cavity_CycleSetCycleIdCycleNormal"
         }
       }
     },

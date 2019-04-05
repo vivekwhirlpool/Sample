@@ -1258,20 +1258,12 @@
           "LowerZone_OpSetTempPreset": {
             "Required": {
               "Freezer_OpSetTempPreset": {
-                "Map": [
-                  {
-                    "Value": 1,
-                    "Display": "Assorted"
-                  },
-                  {
-                    "Value": 6,
-                    "Display": "Spirit"
-                  },
-                  {
-                    "Value": 7,
-                    "Display": "Deep Freeze"
-                  }
-                ]
+                "Enumeration": [
+                  "TempPresetAssorted",
+                  "TempPresetSpirits",
+                  "TempPresetDeepFreeze"
+                ],
+                "Default": "TempPresetAssorted"
               }
             }
           }

@@ -1283,28 +1283,14 @@
           "DeliDrawer_OpSetTempPreset": {
             "Required": {
               "Freezer_OpSetTempPreset": {
-                "Map": [
-                  {
-                    "Value": 3,
-                    "Display": "Produce"
-                  },
-                  {
-                    "Value": 1,
-                    "Display": "Assorted"
-                  },
-                  {
-                    "Value": 4,
-                    "Display": "Beverage"
-                  },
-                  {
-                    "Value": 2,
-                    "Display": "Deli"
-                  },
-                  {
-                    "Value": 5,
-                    "Display": "Meat"
-                  }
-                ]
+                "Enumeration": [
+                  "TempPresetProduce",
+                  "TempPresetAssorted",
+                  "TempPresetBeverage",
+                  "TempPresetDeli",
+                  "TempPresetMeat"
+                ],
+                "Default": "TempPresetProduce"
               }
             }
           }
@@ -1322,16 +1308,11 @@
           "CrisperDrawer_OpSetTempPreset": {
             "Required": {
               "Pantry_OpSetTempPreset": {
-                "Map": [
-                  {
-                    "Value": 3,
-                    "Display": "Produce"
-                  },
-                  {
-                    "Value": 1,
-                    "Display": "Assorted"
-                  }
-                ]
+                "Enumeration": [
+                  "TempPresetProduce",
+                  "TempPresetAssorted"
+                ],
+                "Default": "TempPresetProduce"
               }
             }
           }
