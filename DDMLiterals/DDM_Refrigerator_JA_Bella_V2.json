@@ -103,8 +103,11 @@
         "XCat_WifiStatusRssiDisplay.Label": "WiFi Status RSSI Display",
         "RefrigeratorCavity.Label" : "Refrigerator",
         "FreezerCavity.Label" : "Freezer",
-        "PantryCavity.Label" :"Drawer"
-
+        "PantryCavity.Label" :"Drawer",
+        "Pantry_OpSetTargetTemp.EnumValues.Meat.Label" : "Meat",
+        "Pantry_OpSetTargetTemp.EnumValues.Beverage.Label" : "Beverage",
+        "Pantry_OpSetTargetTemp.EnumValues.Assorted.Label" : "Assorted",
+        "Pantry_OpSetTargetTemp.EnumValues.Deli.Label" : "Deli"
     },
     "AFCSelfHelpPack": {},
     "MobileLiterals": {
