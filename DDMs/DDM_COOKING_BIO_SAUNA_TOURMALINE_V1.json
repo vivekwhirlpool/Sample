@@ -4704,11 +4704,13 @@
           "StatusAttributes": [
           ],
           "SendCommandAttributes": [
+          "OvenUpperCavity_CycleSetCommonMode",
             "OvenUpperCavity_CycleSetTargetTemp",
             "OvenUpperCavity_TimeSetCookTimeSet",
             "OvenUpperCavity_TimeSetDelayTime",
             "OvenUpperCavity_CycleSetPreheatOn",
             "OvenUpperCavity_CycleSetSteamLevel"
+
           ],
           "SetOperationsMapping": {
             "Operation": "OvenUpperCavity_OpSetOperations",
