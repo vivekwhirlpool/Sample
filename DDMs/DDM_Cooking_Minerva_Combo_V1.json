@@ -5622,7 +5622,7 @@
             "CA"
           ],
           "StateAttributes": {
-            "State": "SystemSettings_TempDisplayUnits",
+            "State": "LowerCavity_CavityHeatState",
             "MeatProbeTargetTemp": "LowerCavity_MeatProbeTargetTemp"
           },
           "StatusAttributes": [

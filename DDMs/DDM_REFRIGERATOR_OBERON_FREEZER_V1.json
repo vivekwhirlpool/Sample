@@ -1346,6 +1346,13 @@
             "US",
             "CA"
           ]
+        },
+        "ApplianceDocuments" : {
+          "Visible": true,
+          "AvailableIn": [
+            "US",
+            "CA"
+          ]
         }
       },
       "UpperZone": {
@@ -1355,6 +1362,16 @@
             "US",
             "CA"
           ]
+        },
+        "CavityBrightness": {
+          "Visible": true,
+          "AvailableIn": [
+            "US",
+            "CA"
+          ],
+          "StateAttributes": {
+            "State": "Sys_DisplaySetCavityBrightness"
+          }
         }
       },
       "LowerZone": {

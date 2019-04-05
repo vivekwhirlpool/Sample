@@ -86,7 +86,13 @@
         "XCat_WifiStatusRssiAntennaDiversity.Label": "WiFi Status RSSI Antenna Diversity",
         "XCat_WifiStatusRssiDisplay.Label": "WiFi Status RSSI Display",
         "UpperZone.Label" : "Upper Zone",
-        "LowerZone.Label" : "Lower Zone"
+        "LowerZone.Label" : "Lower Zone",
+        "ControlLock.Label" : "Lock Mode",
+        "MaxCool.Label" : "Max Ice",
+        "SabbathMode.Label" : "Sabbath Mode",
+        "Notifications.Label" : "Notifications",
+        "ApplianceDocuments" : "Documents"
+
     },
     "AFCSelfHelpPack": {},
     "MobileLiterals": {

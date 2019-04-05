@@ -1376,15 +1376,6 @@
             "State": "Sys_OpSetMaxCool"
           }
         },
-        "IceMaker": {
-          "Visible": true,
-          "AvailableIn": [
-            "US"
-          ],
-          "StateAttributes": {
-            "State": "Sys_OpSetIceMakerOn"
-          }
-        },
         "SabbathMode": {
           "Visible": true,
           "AvailableIn": [
@@ -1401,6 +1392,13 @@
             "US",
             "CA"
           ]
+        },
+        "ApplianceDocuments" : {
+          "Visible": true,
+          "AvailableIn": [
+            "US",
+            "CA"
+          ]
         }
       },
       "RefrigeratorCavity": {
@@ -1410,6 +1408,16 @@
             "US",
             "CA"
           ]
+        },
+        "CavityBrightness": {
+          "Visible": true,
+          "AvailableIn": [
+            "US",
+            "CA"
+          ],
+          "StateAttributes": {
+            "State": "Sys_DisplaySetCavityBrightness"
+          }
         }
       },
       "DeliDrawerCavity": {
