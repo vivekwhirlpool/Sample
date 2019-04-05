@@ -1,19 +1,18 @@
 {
-  "_id": "DDM_COOKING_BIO_SAUNA_TOURMALINE_V1",
-  "_rev": "15-8ef812a452074c09bc10c5b6466a2cfe",
   "DDM": {
-    "_id": "DDM_COOKING_BIO_SAUNA_TOURMALINE_V1",
-    "ddmName": "DDM_COOKING_BIO_SAUNA_TOURMALINE_V1",
-    "modelNumber": "859991560660, 859991560670",
-    "createdAt": "Nov 26, 2018 5:00:00 AM",
-    "createdBy": "Alekhya Hamsa",
+    "_id": "DDM_Cooking_Minerva_Combo_V1",
+    "ddmName": "DDM_Cooking_Minerva_Combo_V1",
+    "modelNumber": "JMW3430",
+    "createdAt": "Apr 5, 2018 1:13:02 AM",
+    "createdBy": "Rupal Kesharwani",
     "brandName": "JennAir",
     "category": "Cooking",
-    "version": "1",
-    "ccuriVersion": "22",
-    "ccURI": "API144_COOKING_V22"
+    "version": "1.0",
+    "ccuriVersion": "1.0",
+    "ccURI": "MinervaJA"
   },
   "DataModel": {
+    "key": "API144_COOKING_BIOSaunaTourmaline_V22",
     "attributes": [
       {
         "M2MAttributeName": "XCat_PersistentInfoVersion",
@@ -1697,2569 +1696,3049 @@
     ]
   },
   "Personality": {
-    "Key": "DDM_COOKING_BIO_SAUNA_TOURMALINE_V1",
-    "Capability": [
-      {
-        "PartNumber": "XXXXXXXXX",
-        "Capability": {
-          "OvenUpperCavity": {
-            "SetOven": {
-              "AssistedCooking": {
-                "FishSeafood": {
-                  "OvenUpperCavity_CulinaryCtrSetId332": {
-                    "Attribute": "OvenUpperCavity_CulinaryCtrSetId",
-                    "Value": "332",
-                    "Name": "Mussels"
-                  },
-                  "OvenUpperCavity_CulinaryCtrSetId331": {
-                    "Attribute": "OvenUpperCavity_CulinaryCtrSetId",
-                    "Value": "331",
-                    "Name": "FrozenFishGratin"
-                  },
-                  "OvenUpperCavity_CulinaryCtrSetId336": {
-                    "Attribute": "OvenUpperCavity_CulinaryCtrSetId",
-                    "Value": "336",
-                    "Name": "SteamedFishFillets"
-                  },
-                  "OvenUpperCavity_CulinaryCtrSetId334": {
-                    "Attribute": "OvenUpperCavity_CulinaryCtrSetId",
-                    "Value": "334",
-                    "Name": "Shrimps"
-                  },
-                  "OvenUpperCavity_CulinaryCtrSetId335": {
-                    "Attribute": "OvenUpperCavity_CulinaryCtrSetId",
-                    "Value": "335",
-                    "Name": "SteamedFishCutlets"
-                  }
-                },
-                "Pizza": {
-                  "OvenUpperCavity_CulinaryCtrSetId352": {
-                    "Attribute": "OvenUpperCavity_CulinaryCtrSetId",
-                    "Value": "352",
-                    "Name": "FrozenThickPizza"
-                  },
-                  "OvenUpperCavity_CulinaryCtrSetId353": {
-                    "Attribute": "OvenUpperCavity_CulinaryCtrSetId",
-                    "Value": "353",
-                    "Name": "FrozenThinPizza"
-                  },
-                  "OvenUpperCavity_CulinaryCtrSetId350": {
-                    "Attribute": "OvenUpperCavity_CulinaryCtrSetId",
-                    "Value": "350",
-                    "Name": "CilledPizza"
-                  },
-                  "OvenUpperCavity_CulinaryCtrSetId351": {
-                    "Attribute": "OvenUpperCavity_CulinaryCtrSetId",
-                    "Value": "351",
-                    "Name": "Pizza"
-                  }
-                },
-                "Vegetables": {
-                  "GratinVegetables": {
-                    "OvenUpperCavity_CulinaryCtrSetId338": {
-                      "Attribute": "OvenUpperCavity_CulinaryCtrSetId",
-                      "Value": "338",
-                      "Name": "PotatoesGratin"
-                    },
-                    "OvenUpperCavity_CulinaryCtrSetId339": {
-                      "Attribute": "OvenUpperCavity_CulinaryCtrSetId",
-                      "Value": "339",
-                      "Name": "FrozenVegetablesGratin"
-                    }
-                  },
-                  "SteamedVegetables": {
-                    "OvenUpperCavity_CulinaryCtrSetId387": {
-                      "Attribute": "OvenUpperCavity_CulinaryCtrSetId",
-                      "Value": "387",
-                      "Name": "CornonCob"
-                    },
-                    "OvenUpperCavity_CulinaryCtrSetId388": {
-                      "Attribute": "OvenUpperCavity_CulinaryCtrSetId",
-                      "Value": "388",
-                      "Name": "Peas"
-                    },
-                    "OvenUpperCavity_CulinaryCtrSetId495": {
-                      "Attribute": "OvenUpperCavity_CulinaryCtrSetId",
-                      "Value": "495",
-                      "Name": "FrozenSteamedVegetables"
-                    },
-                    "OvenUpperCavity_CulinaryCtrSetId385": {
-                      "Attribute": "OvenUpperCavity_CulinaryCtrSetId",
-                      "Value": "385",
-                      "Name": "Carrots"
-                    },
-                    "OvenUpperCavity_CulinaryCtrSetId386": {
-                      "Attribute": "OvenUpperCavity_CulinaryCtrSetId",
-                      "Value": "386",
-                      "Name": "Cauliflower"
-                    },
-                    "OvenUpperCavity_CulinaryCtrSetId383": {
-                      "Attribute": "OvenUpperCavity_CulinaryCtrSetId",
-                      "Value": "383",
-                      "Name": "Broccoli"
-                    },
-                    "OvenUpperCavity_CulinaryCtrSetId384": {
-                      "Attribute": "OvenUpperCavity_CulinaryCtrSetId",
-                      "Value": "384",
-                      "Name": "BrusselSprouts"
-                    },
-                    "OvenUpperCavity_CulinaryCtrSetId392": {
-                      "Attribute": "OvenUpperCavity_CulinaryCtrSetId",
-                      "Value": "392",
-                      "Name": "WholePotatoes"
-                    },
-                    "OvenUpperCavity_CulinaryCtrSetId381": {
-                      "Attribute": "OvenUpperCavity_CulinaryCtrSetId",
-                      "Value": "381",
-                      "Name": "Artichokes"
-                    },
-                    "OvenUpperCavity_CulinaryCtrSetId382": {
-                      "Attribute": "OvenUpperCavity_CulinaryCtrSetId",
-                      "Value": "382",
-                      "Name": "Asparagus"
-                    },
-                    "OvenUpperCavity_CulinaryCtrSetId391": {
-                      "Attribute": "OvenUpperCavity_CulinaryCtrSetId",
-                      "Value": "391",
-                      "Name": "Squash"
-                    }
-                  },
-                  "RoastedVegetables": {
-                    "OvenUpperCavity_CulinaryCtrSetId365": {
-                      "Attribute": "OvenUpperCavity_CulinaryCtrSetId",
-                      "Value": "365",
-                      "Name": "StuffedTomatoes"
-                    },
-                    "OvenUpperCavity_CulinaryCtrSetId363": {
-                      "Attribute": "OvenUpperCavity_CulinaryCtrSetId",
-                      "Value": "363",
-                      "Name": "StuffedPepperss"
-                    },
-                    "OvenUpperCavity_CulinaryCtrSetId361": {
-                      "Attribute": "OvenUpperCavity_CulinaryCtrSetId",
-                      "Value": "361",
-                      "Name": "RoastedPotatoes"
-                    },
-                    "OvenUpperCavity_CulinaryCtrSetId359": {
-                      "Attribute": "OvenUpperCavity_CulinaryCtrSetId",
-                      "Value": "359",
-                      "Name": "FrozenFrenchFries"
-                    }
-                  }
-                },
-                "RiceCereals": {
-                  "OvenUpperCavity_CulinaryCtrSetId354": {
-                    "Attribute": "OvenUpperCavity_CulinaryCtrSetId",
-                    "Value": "354",
-                    "Name": "BasmatiRice"
-                  },
-                  "OvenUpperCavity_CulinaryCtrSetId355": {
-                    "Attribute": "OvenUpperCavity_CulinaryCtrSetId",
-                    "Value": "355",
-                    "Name": "BrownRice"
-                  },
-                  "OvenUpperCavity_CulinaryCtrSetId356": {
-                    "Attribute": "OvenUpperCavity_CulinaryCtrSetId",
-                    "Value": "356",
-                    "Name": "Burghul"
-                  },
-                  "OvenUpperCavity_CulinaryCtrSetId357": {
-                    "Attribute": "OvenUpperCavity_CulinaryCtrSetId",
-                    "Value": "357",
-                    "Name": "CousCous"
-                  }
-                },
-                "CakePastries": {
-                  "OvenUpperCavity_CulinaryCtrSetId322": {
-                    "Attribute": "OvenUpperCavity_CulinaryCtrSetId",
-                    "Value": "322",
-                    "Name": "SpongeCakeInTin"
-                  },
-                  "OvenUpperCavity_CulinaryCtrSetId320": {
-                    "Attribute": "OvenUpperCavity_CulinaryCtrSetId",
-                    "Value": "320",
-                    "Name": "Muffinsf"
-                  },
-                  "OvenUpperCavity_CulinaryCtrSetId318": {
-                    "Attribute": "OvenUpperCavity_CulinaryCtrSetId",
-                    "Value": "318",
-                    "Name": "FrozenFruitPie"
-                  },
-                  "OvenUpperCavity_CulinaryCtrSetId316": {
-                    "Attribute": "OvenUpperCavity_CulinaryCtrSetId",
-                    "Value": "316",
-                    "Name": "Cookies"
-                  },
-                  "OvenUpperCavity_CulinaryCtrSetId317": {
-                    "Attribute": "OvenUpperCavity_CulinaryCtrSetId",
-                    "Value": "317",
-                    "Name": "FruitPie"
-                  }
-                },
-                "Desserts": {
-                  "OvenUpperCavity_CulinaryCtrSetId327": {
-                    "Attribute": "OvenUpperCavity_CulinaryCtrSetId",
-                    "Value": "327",
-                    "Name": "FruitCompote"
-                  },
-                  "OvenUpperCavity_CulinaryCtrSetId325": {
-                    "Attribute": "OvenUpperCavity_CulinaryCtrSetId",
-                    "Value": "325",
-                    "Name": "BakedApples"
-                  }
-                },
-                "Eggs": {
-                  "OvenUpperCavity_CulinaryCtrSetId330": {
-                    "Attribute": "OvenUpperCavity_CulinaryCtrSetId",
-                    "Value": "330",
-                    "Name": "SoftEgg"
-                  },
-                  "OvenUpperCavity_CulinaryCtrSetId329": {
-                    "Attribute": "OvenUpperCavity_CulinaryCtrSetId",
-                    "Value": "329",
-                    "Name": "MediumEgg"
-                  },
-                  "OvenUpperCavity_CulinaryCtrSetId328": {
-                    "Attribute": "OvenUpperCavity_CulinaryCtrSetId",
-                    "Value": "328",
-                    "Name": "HardEgg"
-                  }
-                },
-                "CasseroleBakedPasta": {
-                  "OvenUpperCavity_CulinaryCtrSetId323": {
-                    "Attribute": "OvenUpperCavity_CulinaryCtrSetId",
-                    "Value": "29",
-                    "Name": "Lasagna"
-                  },
-                  "OvenUpperCavity_CulinaryCtrSetId324": {
-                    "Attribute": "OvenUpperCavity_CulinaryCtrSetId",
-                    "Value": "27",
-                    "Name": "FrozenLasagna"
-                  }
-                },
-                "Meat": {
-                  "OvenUpperCavity_CulinaryCtrSetId343": {
-                    "Attribute": "OvenUpperCavity_CulinaryCtrSetId",
-                    "Value": "343",
-                    "Name": "Meatloaf"
-                  },
-                  "OvenUpperCavity_CulinaryCtrSetId341": {
-                    "Attribute": "OvenUpperCavity_CulinaryCtrSetId",
-                    "Value": "341",
-                    "Name": "ChickenPieces"
-                  },
-                  "OvenUpperCavity_CulinaryCtrSetId342": {
-                    "Attribute": "OvenUpperCavity_CulinaryCtrSetId",
-                    "Value": "342",
-                    "Name": "Hotdog"
-                  },
-                  "OvenUpperCavity_CulinaryCtrSetId340": {
-                    "Attribute": "OvenUpperCavity_CulinaryCtrSetId",
-                    "Value": "340",
-                    "Name": "ChickenFiletSteamed"
-                  }
-                },
-                "SaltyCakes": {
-                  "OvenUpperCavity_CulinaryCtrSetId366": {
-                    "Attribute": "OvenUpperCavity_CulinaryCtrSetId",
-                    "Value": "366",
-                    "Name": "QuicheLorraine"
-                  }
-                },
-                "Bread": {
-                  "OvenUpperCavity_CulinaryCtrSetId310": {
-                    "Attribute": "OvenUpperCavity_CulinaryCtrSetId",
-                    "Value": "310",
-                    "Name": "BreadRolls"
-                  },
-                  "OvenUpperCavity_CulinaryCtrSetId311": {
-                    "Attribute": "OvenUpperCavity_CulinaryCtrSetId",
-                    "Value": "311",
-                    "Name": "FrozenBreadRolls"
-                  },
-                  "OvenUpperCavity_CulinaryCtrSetId314": {
-                    "Attribute": "OvenUpperCavity_CulinaryCtrSetId",
-                    "Value": "314",
-                    "Name": "SandwichLoafInTin"
-                  }
-                }
-              },
-              "CookingMethods": {
-                "SpecialFunctions": {
-                  "OvenUpperCavity_CycleSetCommonModeCommonModeFinishing": {
-                    "Attribute": "OvenUpperCavity_CycleSetCommonMode",
-                    "Value": "CommonModeFinishing",
-                    "Name": "Finishing"
-                  },
-                  "OvenUpperCavity_CycleSetSteamBakeFoodSteamBakeFoodDefrost": {
-                    "Attribute": "OvenUpperCavity_CycleSetSteamBakeFood",
-                    "Value": "SteamBakeFoodDefrost",
-                    "Name": "SteamDefrost"
-                  },
-                  "OvenUpperCavity_CycleSetCommonModeCommonModeBreadProof": {
-                    "Attribute": "OvenUpperCavity_CycleSetCommonMode",
-                    "Value": "CommonModeBreadProof",
-                    "Name": "Rising"
-                  },
-                  "OvenUpperCavity_CycleSetCommonModeCommonModeDehydration": {
-                    "Attribute": "OvenUpperCavity_CycleSetCommonMode",
-                    "Value": "CommonModeDehydration",
-                    "Name": "Preservation"
-                  },
-                  "OvenUpperCavity_CycleSetCommonModeCommonModeYogurt": {
-                    "Attribute": "OvenUpperCavity_CycleSetCommonMode",
-                    "Value": "CommonModeYogurt",
-                    "Name": "Yogurth"
-                  },
-                  "OvenUpperCavity_CycleSetCommonModeCommonModeSanitization": {
-                    "Attribute": "OvenUpperCavity_CycleSetCommonMode",
-                    "Value": "CommonModeSanitization",
-                    "Name": "Disinfection"
-                  },
-                  "OvenUpperCavity_CycleSetSteamBakeFoodSteamBakeFoodReheat": {
-                    "Attribute": "OvenUpperCavity_CycleSetSteamBakeFood",
-                    "Value": "SteamBakeFoodReheat",
-                    "Name": "SteamReheat"
-                  }
-                }
+    "CavityOrder": [
+      "OvenUpperCavity"
+    ],
+"Capability": {
+    "OvenUpperCavity": {
+      "CapabilityData": {
+        "OvenUpperCavity_CycleSetCommonModeCommonModeSteam": {
+          "Required": {
+            "OvenUpperCavity_CycleSetTargetTemp": {
+              "TempRange": {
+                "Min": 377,
+                "Max": 933,
+                "StepF": 25,
+                "Default": 933
+              }
+            }
+          },
+          "Optional": {
+            "OvenUpperCavity_TimeSetCookTimeSet": {
+              "Range": {
+                "Min": 0,
+                "Max": 5400,
+                "Step": 60,
+                "Default": 0
               }
             },
-            "CapabilityData": {
-              "OvenUpperCavity_CycleSetCommonModeCommonModeSteamForcedAir": {
-                "Required": {
-                  "OvenUpperCavity_CycleSetTargetTemp": {
-                    "TempRange": {
-                      "StepC": 5,
-                      "Min": 1300,
-                      "Max": 2300,
-                      "Default": 1500
-                    }
-                  },
-                  "OvenUpperCavity_TimeSetCookTimeSet": {
-                    "Range": {
-                      "Min": 60,
-                      "Max": 43200,
-                      "Step": 60,
-                      "Default": 0
-                    }
-                  },
-                  "OvenUpperCavity_CycleSetSteamLevel": {
-                    "Enumeration": [
-                      "AssistedSteamLevelLow",
-                      "AssistedSteamLevelMedium",
-                      "AssistedSteamLevelMedHigh",
-                      "AssistedSteamLevelHigh"
-                    ],
-                    "Default": "AssistedSteamLevelMedHigh"
-                  }
-                },
-                "Optional": {
-                  "OvenUpperCavity_TimeSetDelayTime": {
-                    "Range": {
-                      "Min": 0,
-                      "Max": 43200,
-                      "Step": 60,
-                      "Default": 0
-                    }
-                  }
-                },
-                "Verification": {
-                  "OvenUpperCavity_OpStatus.WaterTankLevel": "WaterTankFull"
-                },
-                "Notification": {
-                  "OvenUpperCavity_CycleSetExtraCookingTime": {
-                    "Range": {
-                      "Min": 0,
-                      "Max": 43200,
-                      "Step": 60,
-                      "Default": 0
-                    }
-                  }
-                }
-              },
-              "OvenUpperCavity_CulinaryCtrSetId365": {
-                "Required": {
-                  "OvenUpperCavity_TimeSetCookTimeSet": {
-                    "Range": {
-                      "Min": 1800,
-                      "Max": 5400,
-                      "Step": 60,
-                      "Default": 1800
-                    }
-                  }
-                },
-                "Optional": {
-                  "OvenUpperCavity_TimeSetDelayTime": {
-                    "Range": {
-                      "Min": 0,
-                      "Max": 43200,
-                      "Step": 60,
-                      "Default": 0
-                    }
-                  }
-                },
-                "Verification": {
-                  "OvenUpperCavity_OpStatusRawTemp": 800,
-                  "OvenUpperCavity_OpStatus.WaterTankLevel": "WaterTankFull"
-                },
-                "Notification": {
-                  "OvenUpperCavity_CycleSetExtraCookingTime": {
-                    "Range": {
-                      "Min": 0,
-                      "Max": 5400,
-                      "Step": 60,
-                      "Default": 0
-                    }
-                  }
-                }
-              },
-              "OvenUpperCavity_CycleSetCommonModeCommonModeTrueConvect": {
-                "Required": {
-                  "OvenUpperCavity_CycleSetTargetTemp": {
-                    "TempRange": {
-                      "StepC": 5,
-                      "Min": 300,
-                      "Max": 2300,
-                      "Default": 1800
-                    }
-                  },
-                  "OvenUpperCavity_TimeSetCookTimeSet": {
-                    "Range": {
-                      "Min": 60,
-                      "Max": 43200,
-                      "Step": 60,
-                      "Default": 0
-                    }
-                  },
-                  "OvenUpperCavity_CycleSetPreheatOn": {
-                    "Bool": [
-                      false,
-                      true
-                    ],
-                    "Default": false
-                  }
-                },
-                "Optional": {
-                  "OvenUpperCavity_TimeSetDelayTime": {
-                    "Range": {
-                      "Min": 0,
-                      "Max": 43200,
-                      "Step": 60,
-                      "Default": 0
-                    }
-                  }
-                },
-                "Verification": {},
-                "Notification": {
-                  "OvenUpperCavity_CycleSetExtraCookingTime": {
-                    "Range": {
-                      "Min": 0,
-                      "Max": 43200,
-                      "Step": 60,
-                      "Default": 0
-                    }
-                  }
-                }
-              },
-              "OvenUpperCavity_CulinaryCtrSetId366": {
-                "Required": {
-                  "OvenUpperCavity_TimeSetCookTimeSet": {
-                    "Range": {
-                      "Min": 2100,
-                      "Max": 5400,
-                      "Step": 60,
-                      "Default": 2100
-                    }
-                  }
-                },
-                "Optional": {
-                  "OvenUpperCavity_TimeSetDelayTime": {
-                    "Range": {
-                      "Min": 0,
-                      "Max": 43200,
-                      "Step": 60,
-                      "Default": 0
-                    }
-                  }
-                },
-                "Verification": {
-                  "OvenUpperCavity_OpStatusRawTemp": 1500
-                },
-                "Notification": {
-                  "OvenUpperCavity_CycleSetExtraCookingTime": {
-                    "Range": {
-                      "Min": 0,
-                      "Max": 5400,
-                      "Step": 60,
-                      "Default": 0
-                    }
-                  }
-                }
-              },
-              "OvenUpperCavity_CulinaryCtrSetId322": {
-                "Required": {
-                  "OvenUpperCavity_TimeSetCookTimeSet": {
-                    "Range": {
-                      "Min": 2400,
-                      "Max": 5400,
-                      "Step": 60,
-                      "Default": 2400
-                    }
-                  }
-                },
-                "Optional": {
-                  "OvenUpperCavity_TimeSetDelayTime": {
-                    "Range": {
-                      "Min": 0,
-                      "Max": 43200,
-                      "Step": 60,
-                      "Default": 0
-                    }
-                  }
-                },
-                "Verification": {
-                  "OvenUpperCavity_OpStatusRawTemp": 1500,
-                  "OvenUpperCavity_OpStatus.WaterTankLevel": "WaterTankFull"
-                },
-                "Notification": {
-                  "OvenUpperCavity_CycleSetExtraCookingTime": {
-                    "Range": {
-                      "Min": 0,
-                      "Max": 5400,
-                      "Step": 60,
-                      "Default": 0
-                    }
-                  }
-                }
-              },
-              "OvenUpperCavity_CulinaryCtrSetId363": {
-                "Required": {
-                  "OvenUpperCavity_TimeSetCookTimeSet": {
-                    "Range": {
-                      "Min": 2100,
-                      "Max": 5400,
-                      "Step": 60,
-                      "Default": 2100
-                    }
-                  }
-                },
-                "Optional": {
-                  "OvenUpperCavity_TimeSetDelayTime": {
-                    "Range": {
-                      "Min": 0,
-                      "Max": 43200,
-                      "Step": 60,
-                      "Default": 0
-                    }
-                  }
-                },
-                "Verification": {
-                  "OvenUpperCavity_OpStatusRawTemp": 800,
-                  "OvenUpperCavity_OpStatus.WaterTankLevel": "WaterTankFull"
-                },
-                "Notification": {
-                  "OvenUpperCavity_CycleSetExtraCookingTime": {
-                    "Range": {
-                      "Min": 0,
-                      "Max": 5400,
-                      "Step": 60,
-                      "Default": 0
-                    }
-                  }
-                }
-              },
-              "OvenUpperCavity_CulinaryCtrSetId320": {
-                "Required": {
-                  "OvenUpperCavity_TimeSetCookTimeSet": {
-                    "Range": {
-                      "Min": 1020,
-                      "Max": 5400,
-                      "Step": 60,
-                      "Default": 1020
-                    }
-                  }
-                },
-                "Optional": {
-                  "OvenUpperCavity_TimeSetDelayTime": {
-                    "Range": {
-                      "Min": 0,
-                      "Max": 43200,
-                      "Step": 60,
-                      "Default": 0
-                    }
-                  }
-                },
-                "Verification": {
-                  "OvenUpperCavity_OpStatusRawTemp": 1500,
-                  "OvenUpperCavity_OpStatus.WaterTankLevel": "WaterTankFull"
-                },
-                "Notification": {
-                  "OvenUpperCavity_CycleSetExtraCookingTime": {
-                    "Range": {
-                      "Min": 0,
-                      "Max": 5400,
-                      "Step": 60,
-                      "Default": 0
-                    }
-                  }
-                }
-              },
-              "OvenUpperCavity_CulinaryCtrSetId361": {
-                "Required": {
-                  "OvenUpperCavity_TimeSetCookTimeSet": {
-                    "Range": {
-                      "Min": 3000,
-                      "Max": 5400,
-                      "Step": 60,
-                      "Default": 3000
-                    }
-                  }
-                },
-                "Optional": {
-                  "OvenUpperCavity_TimeSetDelayTime": {
-                    "Range": {
-                      "Min": 0,
-                      "Max": 43200,
-                      "Step": 60,
-                      "Default": 0
-                    }
-                  }
-                },
-                "Verification": {
-                  "OvenUpperCavity_OpStatusRawTemp": 1500,
-                  "OvenUpperCavity_OpStatus.WaterTankLevel": "WaterTankFull"
-                },
-                "Notification": {
-                  "OvenUpperCavity_CycleSetExtraCookingTime": {
-                    "Range": {
-                      "Min": 0,
-                      "Max": 5400,
-                      "Step": 60,
-                      "Default": 0
-                    }
-                  }
-                }
-              },
-              "OvenUpperCavity_CycleSetCommonModeCommonModeYogurt": {
-                "Required": {
-                  "OvenUpperCavity_TimeSetCookTimeSet": {
-                    "Range": {
-                      "Min": 10800,
-                      "Max": 28800,
-                      "Step": 60,
-                      "Default": 10800
-                    }
-                  }
-                },
-                "Optional": {
-                  "OvenUpperCavity_TimeSetDelayTime": {
-                    "Range": {
-                      "Min": 0,
-                      "Max": 43200,
-                      "Step": 60,
-                      "Default": 0
-                    }
-                  }
-                },
-                "Verification": {
-                  "OvenUpperCavity_OpStatusRawTemp": 500
-                },
-                "Notification": {
-                  "OvenUpperCavity_CycleSetExtraCookingTime": {
-                    "Range": {
-                      "Min": 0,
-                      "Max": 28800,
-                      "Step": 60,
-                      "Default": 0
-                    }
-                  }
-                }
-              },
-              "OvenUpperCavity_CulinaryCtrSetId329": {
-                "Required": {
-                  "OvenUpperCavity_TimeSetCookTimeSet": {
-                    "Range": {
-                      "Min": 780,
-                      "Max": 5400,
-                      "Step": 60,
-                      "Default": 780
-                    }
-                  }
-                },
-                "Optional": {
-                  "OvenUpperCavity_TimeSetDelayTime": {
-                    "Range": {
-                      "Min": 0,
-                      "Max": 43200,
-                      "Step": 60,
-                      "Default": 0
-                    }
-                  }
-                },
-                "Verification": {
-                  "OvenUpperCavity_OpStatusRawTemp": 800,
-                  "OvenUpperCavity_OpStatus.WaterTankLevel": "WaterTankFull"
-                },
-                "Notification": {
-                  "OvenUpperCavity_CycleSetExtraCookingTime": {
-                    "Range": {
-                      "Min": 0,
-                      "Max": 5400,
-                      "Step": 60,
-                      "Default": 0
-                    }
-                  }
-                }
-              },
-              "OvenUpperCavity_CulinaryCtrSetId327": {
-                "Required": {
-                  "OvenUpperCavity_TimeSetCookTimeSet": {
-                    "Range": {
-                      "Min": 720,
-                      "Max": 5400,
-                      "Step": 60,
-                      "Default": 720
-                    }
-                  }
-                },
-                "Optional": {
-                  "OvenUpperCavity_TimeSetDelayTime": {
-                    "Range": {
-                      "Min": 0,
-                      "Max": 43200,
-                      "Step": 60,
-                      "Default": 0
-                    }
-                  }
-                },
-                "Verification": {
-                  "OvenUpperCavity_OpStatusRawTemp": 800,
-                  "OvenUpperCavity_OpStatus.WaterTankLevel": "WaterTankFull"
-                },
-                "Notification": {
-                  "OvenUpperCavity_CycleSetExtraCookingTime": {
-                    "Range": {
-                      "Min": 0,
-                      "Max": 5400,
-                      "Step": 60,
-                      "Default": 0
-                    }
-                  }
-                }
-              },
-              "OvenUpperCavity_CulinaryCtrSetId328": {
-                "Required": {
-                  "OvenUpperCavity_TimeSetCookTimeSet": {
-                    "Range": {
-                      "Min": 960,
-                      "Max": 5400,
-                      "Step": 60,
-                      "Default": 960
-                    }
-                  }
-                },
-                "Optional": {
-                  "OvenUpperCavity_TimeSetDelayTime": {
-                    "Range": {
-                      "Min": 0,
-                      "Max": 43200,
-                      "Step": 60,
-                      "Default": 0
-                    }
-                  }
-                },
-                "Verification": {
-                  "OvenUpperCavity_OpStatusRawTemp": 800,
-                  "OvenUpperCavity_OpStatus.WaterTankLevel": "WaterTankFull"
-                },
-                "Notification": {
-                  "OvenUpperCavity_CycleSetExtraCookingTime": {
-                    "Range": {
-                      "Min": 0,
-                      "Max": 5400,
-                      "Step": 60,
-                      "Default": 0
-                    }
-                  }
-                }
-              },
-              "OvenUpperCavity_CulinaryCtrSetId325": {
-                "Required": {
-                  "OvenUpperCavity_TimeSetCookTimeSet": {
-                    "Range": {
-                      "Min": 1200,
-                      "Max": 5400,
-                      "Step": 60,
-                      "Default": 1200
-                    }
-                  }
-                },
-                "Optional": {
-                  "OvenUpperCavity_TimeSetDelayTime": {
-                    "Range": {
-                      "Min": 0,
-                      "Max": 43200,
-                      "Step": 60,
-                      "Default": 0
-                    }
-                  }
-                },
-                "Verification": {
-                  "OvenUpperCavity_OpStatusRawTemp": 1500,
-                  "OvenUpperCavity_OpStatus.WaterTankLevel": "WaterTankFull"
-                },
-                "Notification": {
-                  "OvenUpperCavity_CycleSetExtraCookingTime": {
-                    "Range": {
-                      "Min": 0,
-                      "Max": 5400,
-                      "Step": 60,
-                      "Default": 0
-                    }
-                  }
-                }
-              },
-              "OvenUpperCavity_CulinaryCtrSetId323": {
-                "Required": {
-                  "OvenUpperCavity_TimeSetCookTimeSet": {
-                    "Range": {
-                      "Min": 1500,
-                      "Max": 5400,
-                      "Step": 60,
-                      "Default": 1500
-                    }
-                  }
-                },
-                "Optional": {
-                  "OvenUpperCavity_TimeSetDelayTime": {
-                    "Range": {
-                      "Min": 0,
-                      "Max": 43200,
-                      "Step": 60,
-                      "Default": 0
-                    }
-                  }
-                },
-                "Verification": {
-                  "OvenUpperCavity_OpStatusRawTemp": 1500,
-                  "OvenUpperCavity_OpStatus.WaterTankLevel": "WaterTankFull"
-                },
-                "Notification": {
-                  "OvenUpperCavity_CycleSetExtraCookingTime": {
-                    "Range": {
-                      "Min": 0,
-                      "Max": 5400,
-                      "Step": 60,
-                      "Default": 0
-                    }
-                  }
-                }
-              },
-              "OvenUpperCavity_CulinaryCtrSetId324": {
-                "Required": {
-                  "OvenUpperCavity_TimeSetCookTimeSet": {
-                    "Range": {
-                      "Min": 2700,
-                      "Max": 5400,
-                      "Step": 60,
-                      "Default": 2700
-                    }
-                  }
-                },
-                "Optional": {
-                  "OvenUpperCavity_TimeSetDelayTime": {
-                    "Range": {
-                      "Min": 0,
-                      "Max": 43200,
-                      "Step": 60,
-                      "Default": 0
-                    }
-                  }
-                },
-                "Verification": {
-                  "OvenUpperCavity_OpStatusRawTemp": 1500,
-                  "OvenUpperCavity_OpStatus.WaterTankLevel": "WaterTankFull"
-                },
-                "Notification": {
-                  "OvenUpperCavity_CycleSetExtraCookingTime": {
-                    "Range": {
-                      "Min": 0,
-                      "Max": 5400,
-                      "Step": 60,
-                      "Default": 0
-                    }
-                  }
-                }
-              },
-              "OvenUpperCavity_CycleSetCommonModeCommonModeBreadProof": {
-                "Required": {
-                  "OvenUpperCavity_TimeSetCookTimeSet": {
-                    "Range": {
-                      "Min": 60,
-                      "Max": 5400,
-                      "Step": 60,
-                      "Default": 0
-                    }
-                  }
-                },
-                "Optional": {
-                  "OvenUpperCavity_TimeSetDelayTime": {
-                    "Range": {
-                      "Min": 0,
-                      "Max": 43200,
-                      "Step": 60,
-                      "Default": 0
-                    }
-                  }
-                },
-                "Verification": {
-                  "OvenUpperCavity_OpStatusRawTemp": 500
-                },
-                "Notification": {
-                  "OvenUpperCavity_CycleSetExtraCookingTime": {
-                    "Range": {
-                      "Min": 0,
-                      "Max": 5400,
-                      "Step": 60,
-                      "Default": 0
-                    }
-                  }
-                }
-              },
-              "OvenUpperCavity_CulinaryCtrSetId391": {
-                "Required": {
-                  "OvenUpperCavity_TimeSetCookTimeSet": {
-                    "Range": {
-                      "Min": 480,
-                      "Max": 5400,
-                      "Step": 60,
-                      "Default": 480
-                    }
-                  }
-                },
-                "Optional": {
-                  "OvenUpperCavity_TimeSetDelayTime": {
-                    "Range": {
-                      "Min": 0,
-                      "Max": 43200,
-                      "Step": 60,
-                      "Default": 0
-                    }
-                  }
-                },
-                "Verification": {
-                  "OvenUpperCavity_OpStatusRawTemp": 800,
-                  "OvenUpperCavity_OpStatus.WaterTankLevel": "WaterTankFull"
-                },
-                "Notification": {
-                  "OvenUpperCavity_CycleSetExtraCookingTime": {
-                    "Range": {
-                      "Min": 0,
-                      "Max": 5400,
-                      "Step": 60,
-                      "Default": 0
-                    }
-                  }
-                }
-              },
-              "OvenUpperCavity_CycleSetCommonModeCommonModeFinishing": {
-                "Required": {
-                  "OvenUpperCavity_CycleSetTargetTemp": {
-                    "TempRange": {
-                      "StepC": 5,
-                      "Min": 600,
-                      "Max": 1000,
-                      "Default": 850
-                    }
-                  },
-                  "OvenUpperCavity_TimeSetCookTimeSet": {
-                    "Range": {
-                      "Min": 60,
-                      "Max": 5400,
-                      "Step": 60,
-                      "Default": 0
-                    }
-                  }
-                },
-                "Optional": {
-                  "OvenUpperCavity_TimeSetDelayTime": {
-                    "Range": {
-                      "Min": 0,
-                      "Max": 43200,
-                      "Step": 60,
-                      "Default": 0
-                    }
-                  }
-                },
-                "Verification": {
-                  "OvenUpperCavity_OpStatusRawTemp": 800
-                },
-                "Notification": {
-                  "OvenUpperCavity_CycleSetExtraCookingTime": {
-                    "Range": {
-                      "Min": 0,
-                      "Max": 5400,
-                      "Step": 60,
-                      "Default": 0
-                    }
-                  }
-                }
-              },
-              "OvenUpperCavity_CulinaryCtrSetId354": {
-                "Required": {
-                  "OvenUpperCavity_TimeSetCookTimeSet": {
-                    "Range": {
-                      "Min": 1500,
-                      "Max": 5400,
-                      "Step": 60,
-                      "Default": 1500
-                    }
-                  }
-                },
-                "Optional": {
-                  "OvenUpperCavity_TimeSetDelayTime": {
-                    "Range": {
-                      "Min": 0,
-                      "Max": 43200,
-                      "Step": 60,
-                      "Default": 0
-                    }
-                  }
-                },
-                "Verification": {
-                  "OvenUpperCavity_OpStatusRawTemp": 800,
-                  "OvenUpperCavity_OpStatus.WaterTankLevel": "WaterTankFull"
-                },
-                "Notification": {
-                  "OvenUpperCavity_CycleSetExtraCookingTime": {
-                    "Range": {
-                      "Min": 0,
-                      "Max": 5400,
-                      "Step": 60,
-                      "Default": 0
-                    }
-                  }
-                }
-              },
-              "OvenUpperCavity_CulinaryCtrSetId310": {
-                "Required": {
-                  "OvenUpperCavity_TimeSetCookTimeSet": {
-                    "Range": {
-                      "Min": 1200,
-                      "Max": 5400,
-                      "Step": 60,
-                      "Default": 1200
-                    }
-                  }
-                },
-                "Optional": {
-                  "OvenUpperCavity_TimeSetDelayTime": {
-                    "Range": {
-                      "Min": 0,
-                      "Max": 43200,
-                      "Step": 60,
-                      "Default": 0
-                    }
-                  }
-                },
-                "Verification": {
-                  "OvenUpperCavity_OpStatusRawTemp": 800,
-                  "OvenUpperCavity_OpStatus.WaterTankLevel": "WaterTankFull"
-                },
-                "Notification": {
-                  "OvenUpperCavity_CycleSetExtraCookingTime": {
-                    "Range": {
-                      "Min": 0,
-                      "Max": 5400,
-                      "Step": 60,
-                      "Default": 0
-                    }
-                  }
-                }
-              },
-              "OvenUpperCavity_CulinaryCtrSetId355": {
-                "Required": {
-                  "OvenUpperCavity_TimeSetCookTimeSet": {
-                    "Range": {
-                      "Min": 1500,
-                      "Max": 5400,
-                      "Step": 60,
-                      "Default": 1500
-                    }
-                  }
-                },
-                "Optional": {
-                  "OvenUpperCavity_TimeSetDelayTime": {
-                    "Range": {
-                      "Min": 0,
-                      "Max": 43200,
-                      "Step": 60,
-                      "Default": 0
-                    }
-                  }
-                },
-                "Verification": {
-                  "OvenUpperCavity_OpStatusRawTemp": 800,
-                  "OvenUpperCavity_OpStatus.WaterTankLevel": "WaterTankFull"
-                },
-                "Notification": {
-                  "OvenUpperCavity_CycleSetExtraCookingTime": {
-                    "Range": {
-                      "Min": 0,
-                      "Max": 5400,
-                      "Step": 60,
-                      "Default": 0
-                    }
-                  }
-                }
-              },
-              "OvenUpperCavity_CulinaryCtrSetId311": {
-                "Required": {
-                  "OvenUpperCavity_TimeSetCookTimeSet": {
-                    "Range": {
-                      "Min": 840,
-                      "Max": 5400,
-                      "Step": 60,
-                      "Default": 840
-                    }
-                  }
-                },
-                "Optional": {
-                  "OvenUpperCavity_TimeSetDelayTime": {
-                    "Range": {
-                      "Min": 0,
-                      "Max": 43200,
-                      "Step": 60,
-                      "Default": 0
-                    }
-                  }
-                },
-                "Verification": {
-                  "OvenUpperCavity_OpStatusRawTemp": 800,
-                  "OvenUpperCavity_OpStatus.WaterTankLevel": "WaterTankFull"
-                },
-                "Notification": {
-                  "OvenUpperCavity_CycleSetExtraCookingTime": {
-                    "Range": {
-                      "Min": 0,
-                      "Max": 5400,
-                      "Step": 60,
-                      "Default": 0
-                    }
-                  }
-                }
-              },
-              "OvenUpperCavity_CulinaryCtrSetId352": {
-                "Required": {
-                  "OvenUpperCavity_TimeSetCookTimeSet": {
-                    "Range": {
-                      "Min": 900,
-                      "Max": 5400,
-                      "Step": 60,
-                      "Default": 900
-                    }
-                  }
-                },
-                "Optional": {
-                  "OvenUpperCavity_TimeSetDelayTime": {
-                    "Range": {
-                      "Min": 0,
-                      "Max": 43200,
-                      "Step": 60,
-                      "Default": 0
-                    }
-                  }
-                },
-                "Verification": {
-                  "OvenUpperCavity_OpStatusRawTemp": 800
-                },
-                "Notification": {
-                  "OvenUpperCavity_CycleSetExtraCookingTime": {
-                    "Range": {
-                      "Min": 0,
-                      "Max": 5400,
-                      "Step": 60,
-                      "Default": 0
-                    }
-                  }
-                }
-              },
-              "OvenUpperCavity_CulinaryCtrSetId353": {
-                "Required": {
-                  "OvenUpperCavity_TimeSetCookTimeSet": {
-                    "Range": {
-                      "Min": 600,
-                      "Max": 5400,
-                      "Step": 60,
-                      "Default": 600
-                    }
-                  }
-                },
-                "Optional": {
-                  "OvenUpperCavity_TimeSetDelayTime": {
-                    "Range": {
-                      "Min": 0,
-                      "Max": 43200,
-                      "Step": 60,
-                      "Default": 0
-                    }
-                  }
-                },
-                "Verification": {
-                  "OvenUpperCavity_OpStatusRawTemp": 800
-                },
-                "Notification": {
-                  "OvenUpperCavity_CycleSetExtraCookingTime": {
-                    "Range": {
-                      "Min": 0,
-                      "Max": 5400,
-                      "Step": 60,
-                      "Default": 0
-                    }
-                  }
-                }
-              },
-              "OvenUpperCavity_CulinaryCtrSetId350": {
-                "Required": {
-                  "OvenUpperCavity_TimeSetCookTimeSet": {
-                    "Range": {
-                      "Min": 480,
-                      "Max": 5400,
-                      "Step": 60,
-                      "Default": 480
-                    }
-                  }
-                },
-                "Optional": {
-                  "OvenUpperCavity_TimeSetDelayTime": {
-                    "Range": {
-                      "Min": 0,
-                      "Max": 43200,
-                      "Step": 60,
-                      "Default": 0
-                    }
-                  }
-                },
-                "Verification": {
-                  "OvenUpperCavity_OpStatusRawTemp": 800
-                },
-                "Notification": {
-                  "OvenUpperCavity_CycleSetExtraCookingTime": {
-                    "Range": {
-                      "Min": 0,
-                      "Max": 5400,
-                      "Step": 60,
-                      "Default": 0
-                    }
-                  }
-                }
-              },
-              "OvenUpperCavity_CulinaryCtrSetId351": {
-                "Required": {
-                  "OvenUpperCavity_TimeSetCookTimeSet": {
-                    "Range": {
-                      "Min": 900,
-                      "Max": 5400,
-                      "Step": 60,
-                      "Default": 900
-                    }
-                  }
-                },
-                "Optional": {
-                  "OvenUpperCavity_TimeSetDelayTime": {
-                    "Range": {
-                      "Min": 0,
-                      "Max": 43200,
-                      "Step": 60,
-                      "Default": 0
-                    }
-                  }
-                },
-                "Verification": {
-                  "OvenUpperCavity_OpStatusRawTemp": 800
-                },
-                "Notification": {
-                  "OvenUpperCavity_CycleSetExtraCookingTime": {
-                    "Range": {
-                      "Min": 0,
-                      "Max": 5400,
-                      "Step": 60,
-                      "Default": 0
-                    }
-                  }
-                }
-              },
-              "OvenUpperCavity_CulinaryCtrSetId392": {
-                "Required": {
-                  "OvenUpperCavity_TimeSetCookTimeSet": {
-                    "Range": {
-                      "Min": 2100,
-                      "Max": 5400,
-                      "Step": 60,
-                      "Default": 2100
-                    }
-                  }
-                },
-                "Optional": {
-                  "OvenUpperCavity_TimeSetDelayTime": {
-                    "Range": {
-                      "Min": 0,
-                      "Max": 43200,
-                      "Step": 60,
-                      "Default": 0
-                    }
-                  }
-                },
-                "Verification": {
-                  "OvenUpperCavity_OpStatusRawTemp": 800,
-                  "OvenUpperCavity_OpStatus.WaterTankLevel": "WaterTankFull"
-                },
-                "Notification": {
-                  "OvenUpperCavity_CycleSetExtraCookingTime": {
-                    "Range": {
-                      "Min": 0,
-                      "Max": 5400,
-                      "Step": 60,
-                      "Default": 0
-                    }
-                  }
-                }
-              },
-              "OvenUpperCavity_CulinaryCtrSetId318": {
-                "Required": {
-                  "OvenUpperCavity_TimeSetCookTimeSet": {
-                    "Range": {
-                      "Min": 900,
-                      "Max": 5400,
-                      "Step": 60,
-                      "Default": 900
-                    }
-                  }
-                },
-                "Optional": {
-                  "OvenUpperCavity_TimeSetDelayTime": {
-                    "Range": {
-                      "Min": 0,
-                      "Max": 43200,
-                      "Step": 60,
-                      "Default": 0
-                    }
-                  }
-                },
-                "Verification": {
-                  "OvenUpperCavity_OpStatusRawTemp": 1500,
-                  "OvenUpperCavity_OpStatus.WaterTankLevel": "WaterTankFull"
-                },
-                "Notification": {
-                  "OvenUpperCavity_CycleSetExtraCookingTime": {
-                    "Range": {
-                      "Min": 0,
-                      "Max": 5400,
-                      "Step": 60,
-                      "Default": 0
-                    }
-                  }
-                }
-              },
-              "OvenUpperCavity_CulinaryCtrSetId316": {
-                "Required": {
-                  "OvenUpperCavity_TimeSetCookTimeSet": {
-                    "Range": {
-                      "Min": 720,
-                      "Max": 5400,
-                      "Step": 60,
-                      "Default": 720
-                    }
-                  }
-                },
-                "Optional": {
-                  "OvenUpperCavity_TimeSetDelayTime": {
-                    "Range": {
-                      "Min": 0,
-                      "Max": 43200,
-                      "Step": 60,
-                      "Default": 0
-                    }
-                  }
-                },
-                "Verification": {
-                  "OvenUpperCavity_OpStatusRawTemp": 1500,
-                  "OvenUpperCavity_OpStatus.WaterTankLevel": "WaterTankFull"
-                },
-                "Notification": {
-                  "OvenUpperCavity_CycleSetExtraCookingTime": {
-                    "Range": {
-                      "Min": 0,
-                      "Max": 5400,
-                      "Step": 60,
-                      "Default": 0
-                    }
-                  }
-                }
-              },
-              "OvenUpperCavity_CulinaryCtrSetId317": {
-                "Required": {
-                  "OvenUpperCavity_TimeSetCookTimeSet": {
-                    "Range": {
-                      "Min": 1800,
-                      "Max": 5400,
-                      "Step": 60,
-                      "Default": 1800
-                    }
-                  }
-                },
-                "Optional": {
-                  "OvenUpperCavity_TimeSetDelayTime": {
-                    "Range": {
-                      "Min": 0,
-                      "Max": 43200,
-                      "Step": 60,
-                      "Default": 0
-                    }
-                  }
-                },
-                "Verification": {
-                  "OvenUpperCavity_OpStatusRawTemp": 1500,
-                  "OvenUpperCavity_OpStatus.WaterTankLevel": "WaterTankFull"
-                },
-                "Notification": {
-                  "OvenUpperCavity_CycleSetExtraCookingTime": {
-                    "Range": {
-                      "Min": 0,
-                      "Max": 5400,
-                      "Step": 60,
-                      "Default": 0
-                    }
-                  }
-                }
-              },
-              "OvenUpperCavity_CulinaryCtrSetId314": {
-                "Required": {
-                  "OvenUpperCavity_TimeSetCookTimeSet": {
-                    "Range": {
-                      "Min": 1800,
-                      "Max": 5400,
-                      "Step": 60,
-                      "Default": 1800
-                    }
-                  }
-                },
-                "Optional": {
-                  "OvenUpperCavity_TimeSetDelayTime": {
-                    "Range": {
-                      "Min": 0,
-                      "Max": 43200,
-                      "Step": 60,
-                      "Default": 0
-                    }
-                  }
-                },
-                "Verification": {
-                  "OvenUpperCavity_OpStatusRawTemp": 800,
-                  "OvenUpperCavity_OpStatus.WaterTankLevel": "WaterTankFull"
-                },
-                "Notification": {
-                  "OvenUpperCavity_CycleSetExtraCookingTime": {
-                    "Range": {
-                      "Min": 0,
-                      "Max": 5400,
-                      "Step": 60,
-                      "Default": 0
-                    }
-                  }
-                }
-              },
-              "OvenUpperCavity_CycleSetSteamBakeFoodSteamBakeFoodReheat": {
-                "Required": {
-                  "OvenUpperCavity_CycleSetTargetTemp": {
-                    "TempRange": {
-                      "StepC": 5,
-                      "Min": 600,
-                      "Max": 1500,
-                      "Default": 1000
-                    }
-                  },
-                  "OvenUpperCavity_TimeSetCookTimeSet": {
-                    "Range": {
-                      "Min": 60,
-                      "Max": 5400,
-                      "Step": 60,
-                      "Default": 0
-                    }
-                  }
-                },
-                "Optional": {
-                  "OvenUpperCavity_TimeSetDelayTime": {
-                    "Range": {
-                      "Min": 0,
-                      "Max": 43200,
-                      "Step": 60,
-                      "Default": 0
-                    }
-                  }
-                },
-                "Verification": {
-                  "OvenUpperCavity_OpStatusRawTemp": 800,
-                  "OvenUpperCavity_OpStatus.WaterTankLevel": "WaterTankFull"
-                },
-                "Notification": {
-                  "OvenUpperCavity_CycleSetExtraCookingTime": {
-                    "Range": {
-                      "Min": 0,
-                      "Max": 5400,
-                      "Step": 60,
-                      "Default": 0
-                    }
-                  }
-                }
-              },
-              "OvenUpperCavity_CulinaryCtrSetId359": {
-                "Required": {
-                  "OvenUpperCavity_TimeSetCookTimeSet": {
-                    "Range": {
-                      "Min": 1200,
-                      "Max": 5400,
-                      "Step": 60,
-                      "Default": 1200
-                    }
-                  }
-                },
-                "Optional": {
-                  "OvenUpperCavity_TimeSetDelayTime": {
-                    "Range": {
-                      "Min": 0,
-                      "Max": 43200,
-                      "Step": 60,
-                      "Default": 0
-                    }
-                  }
-                },
-                "Verification": {},
-                "Notification": {
-                  "OvenUpperCavity_CycleSetExtraCookingTime": {
-                    "Range": {
-                      "Min": 0,
-                      "Max": 5400,
-                      "Step": 60,
-                      "Default": 0
-                    }
-                  }
-                }
-              },
-              "OvenUpperCavity_CulinaryCtrSetId356": {
-                "Required": {
-                  "OvenUpperCavity_TimeSetCookTimeSet": {
-                    "Range": {
-                      "Min": 1380,
-                      "Max": 5400,
-                      "Step": 60,
-                      "Default": 1380
-                    }
-                  }
-                },
-                "Optional": {
-                  "OvenUpperCavity_TimeSetDelayTime": {
-                    "Range": {
-                      "Min": 0,
-                      "Max": 43200,
-                      "Step": 60,
-                      "Default": 0
-                    }
-                  }
-                },
-                "Verification": {
-                  "OvenUpperCavity_OpStatusRawTemp": 800,
-                  "OvenUpperCavity_OpStatus.WaterTankLevel": "WaterTankFull"
-                },
-                "Notification": {
-                  "OvenUpperCavity_CycleSetExtraCookingTime": {
-                    "Range": {
-                      "Min": 0,
-                      "Max": 5400,
-                      "Step": 60,
-                      "Default": 0
-                    }
-                  }
-                }
-              },
-              "OvenUpperCavity_CulinaryCtrSetId357": {
-                "Required": {
-                  "OvenUpperCavity_TimeSetCookTimeSet": {
-                    "Range": {
-                      "Min": 720,
-                      "Max": 5400,
-                      "Step": 60,
-                      "Default": 720
-                    }
-                  }
-                },
-                "Optional": {
-                  "OvenUpperCavity_TimeSetDelayTime": {
-                    "Range": {
-                      "Min": 0,
-                      "Max": 43200,
-                      "Step": 60,
-                      "Default": 0
-                    }
-                  }
-                },
-                "Verification": {
-                  "OvenUpperCavity_OpStatusRawTemp": 800,
-                  "OvenUpperCavity_OpStatus.WaterTankLevel": "WaterTankFull"
-                },
-                "Notification": {
-                  "OvenUpperCavity_CycleSetExtraCookingTime": {
-                    "Range": {
-                      "Min": 0,
-                      "Max": 5400,
-                      "Step": 60,
-                      "Default": 0
-                    }
-                  }
-                }
-              },
-              "OvenUpperCavity_CycleSetCommonModeCommonModeSteam": {
-                "Required": {
-                  "OvenUpperCavity_CycleSetTargetTemp": {
-                    "TempRange": {
-                      "StepC": 5,
-                      "Min": 400,
-                      "Max": 1000,
-                      "Default": 950
-                    }
-                  },
-                  "OvenUpperCavity_TimeSetCookTimeSet": {
-                    "Range": {
-                      "Min": 60,
-                      "Max": 5400,
-                      "Step": 60,
-                      "Default": 0
-                    }
-                  }
-                },
-                "Optional": {
-                  "OvenUpperCavity_TimeSetDelayTime": {
-                    "Range": {
-                      "Min": 0,
-                      "Max": 43200,
-                      "Step": 60,
-                      "Default": 0
-                    }
-                  }
-                },
-                "Verification": {
-                  "OvenUpperCavity_OpStatus.WaterTankLevel": "WaterTankFull"
-                },
-                "Notification": {
-                  "OvenUpperCavity_CycleSetExtraCookingTime": {
-                    "Range": {
-                      "Min": 0,
-                      "Max": 5400,
-                      "Step": 60,
-                      "Default": 0
-                    }
-                  }
-                }
-              },
-              "OvenUpperCavity_CycleSetCommonModeCommonModeSanitization": {
-                "Required": {
-                  "OvenUpperCavity_TimeSetCookTimeSet": {
-                    "Range": {
-                      "Min": 1200,
-                      "Max": 5400,
-                      "Step": 60,
-                      "Default": 1200
-                    }
-                  }
-                },
-                "Optional": {
-                  "OvenUpperCavity_TimeSetDelayTime": {
-                    "Range": {
-                      "Min": 0,
-                      "Max": 43200,
-                      "Step": 60,
-                      "Default": 0
-                    }
-                  }
-                },
-                "Verification": {
-                  "OvenUpperCavity_OpStatusRawTemp": 800
-                },
-                "Notification": {
-                  "OvenUpperCavity_CycleSetExtraCookingTime": {
-                    "Range": {
-                      "Min": 0,
-                      "Max": 5400,
-                      "Step": 60,
-                      "Default": 0
-                    }
-                  }
-                }
-              },
-              "OvenUpperCavity_CulinaryCtrSetId343": {
-                "Required": {
-                  "OvenUpperCavity_TimeSetCookTimeSet": {
-                    "Range": {
-                      "Min": 2100,
-                      "Max": 5400,
-                      "Step": 60,
-                      "Default": 2100
-                    }
-                  }
-                },
-                "Optional": {
-                  "OvenUpperCavity_TimeSetDelayTime": {
-                    "Range": {
-                      "Min": 0,
-                      "Max": 43200,
-                      "Step": 60,
-                      "Default": 0
-                    }
-                  }
-                },
-                "Verification": {
-                  "OvenUpperCavity_OpStatusRawTemp": 1500,
-                  "OvenUpperCavity_OpStatus.WaterTankLevel": "WaterTankFull"
-                },
-                "Notification": {
-                  "OvenUpperCavity_CycleSetExtraCookingTime": {
-                    "Range": {
-                      "Min": 0,
-                      "Max": 5400,
-                      "Step": 60,
-                      "Default": 0
-                    }
-                  }
-                }
-              },
-              "OvenUpperCavity_CulinaryCtrSetId387": {
-                "Required": {
-                  "OvenUpperCavity_TimeSetCookTimeSet": {
-                    "Range": {
-                      "Min": 1500,
-                      "Max": 5400,
-                      "Step": 60,
-                      "Default": 1500
-                    }
-                  }
-                },
-                "Optional": {
-                  "OvenUpperCavity_TimeSetDelayTime": {
-                    "Range": {
-                      "Min": 0,
-                      "Max": 43200,
-                      "Step": 60,
-                      "Default": 0
-                    }
-                  }
-                },
-                "Verification": {
-                  "OvenUpperCavity_OpStatusRawTemp": 800,
-                  "OvenUpperCavity_OpStatus.WaterTankLevel": "WaterTankFull"
-                },
-                "Notification": {
-                  "OvenUpperCavity_CycleSetExtraCookingTime": {
-                    "Range": {
-                      "Min": 0,
-                      "Max": 5400,
-                      "Step": 60,
-                      "Default": 0
-                    }
-                  }
-                }
-              },
-              "OvenUpperCavity_CulinaryCtrSetId388": {
-                "Required": {
-                  "OvenUpperCavity_TimeSetCookTimeSet": {
-                    "Range": {
-                      "Min": 1500,
-                      "Max": 5400,
-                      "Step": 60,
-                      "Default": 1500
-                    }
-                  }
-                },
-                "Optional": {
-                  "OvenUpperCavity_TimeSetDelayTime": {
-                    "Range": {
-                      "Min": 0,
-                      "Max": 43200,
-                      "Step": 60,
-                      "Default": 0
-                    }
-                  }
-                },
-                "Verification": {
-                  "OvenUpperCavity_OpStatusRawTemp": 800,
-                  "OvenUpperCavity_OpStatus.WaterTankLevel": "WaterTankFull"
-                },
-                "Notification": {
-                  "OvenUpperCavity_CycleSetExtraCookingTime": {
-                    "Range": {
-                      "Min": 0,
-                      "Max": 5400,
-                      "Step": 60,
-                      "Default": 0
-                    }
-                  }
-                }
-              },
-              "OvenUpperCavity_CulinaryCtrSetId341": {
-                "Required": {
-                  "OvenUpperCavity_TimeSetCookTimeSet": {
-                    "Range": {
-                      "Min": 1500,
-                      "Max": 5400,
-                      "Step": 60,
-                      "Default": 1500
-                    }
-                  }
-                },
-                "Optional": {
-                  "OvenUpperCavity_TimeSetDelayTime": {
-                    "Range": {
-                      "Min": 0,
-                      "Max": 43200,
-                      "Step": 60,
-                      "Default": 0
-                    }
-                  }
-                },
-                "Verification": {
-                  "OvenUpperCavity_OpStatusRawTemp": 1500,
-                  "OvenUpperCavity_OpStatus.WaterTankLevel": "WaterTankFull"
-                },
-                "Notification": {
-                  "OvenUpperCavity_CycleSetExtraCookingTime": {
-                    "Range": {
-                      "Min": 0,
-                      "Max": 5400,
-                      "Step": 60,
-                      "Default": 0
-                    }
-                  }
-                }
-              },
-              "OvenUpperCavity_CulinaryCtrSetId385": {
-                "Required": {
-                  "OvenUpperCavity_TimeSetCookTimeSet": {
-                    "Range": {
-                      "Min": 1500,
-                      "Max": 5400,
-                      "Step": 60,
-                      "Default": 1500
-                    }
-                  }
-                },
-                "Optional": {
-                  "OvenUpperCavity_TimeSetDelayTime": {
-                    "Range": {
-                      "Min": 0,
-                      "Max": 43200,
-                      "Step": 60,
-                      "Default": 0
-                    }
-                  }
-                },
-                "Verification": {
-                  "OvenUpperCavity_OpStatusRawTemp": 800,
-                  "OvenUpperCavity_OpStatus.WaterTankLevel": "WaterTankFull"
-                },
-                "Notification": {
-                  "OvenUpperCavity_CycleSetExtraCookingTime": {
-                    "Range": {
-                      "Min": 0,
-                      "Max": 5400,
-                      "Step": 60,
-                      "Default": 0
-                    }
-                  }
-                }
-              },
-              "OvenUpperCavity_CulinaryCtrSetId342": {
-                "Required": {
-                  "OvenUpperCavity_TimeSetCookTimeSet": {
-                    "Range": {
-                      "Min": 720,
-                      "Max": 5400,
-                      "Step": 60,
-                      "Default": 720
-                    }
-                  }
-                },
-                "Optional": {
-                  "OvenUpperCavity_TimeSetDelayTime": {
-                    "Range": {
-                      "Min": 0,
-                      "Max": 43200,
-                      "Step": 60,
-                      "Default": 0
-                    }
-                  }
-                },
-                "Verification": {
-                  "OvenUpperCavity_OpStatusRawTemp": 800,
-                  "OvenUpperCavity_OpStatus.WaterTankLevel": "WaterTankFull"
-                },
-                "Notification": {
-                  "OvenUpperCavity_CycleSetExtraCookingTime": {
-                    "Range": {
-                      "Min": 0,
-                      "Max": 5400,
-                      "Step": 60,
-                      "Default": 0
-                    }
-                  }
-                }
-              },
-              "OvenUpperCavity_CulinaryCtrSetId386": {
-                "Required": {
-                  "OvenUpperCavity_TimeSetCookTimeSet": {
-                    "Range": {
-                      "Min": 1200,
-                      "Max": 5400,
-                      "Step": 60,
-                      "Default": 1200
-                    }
-                  }
-                },
-                "Optional": {
-                  "OvenUpperCavity_TimeSetDelayTime": {
-                    "Range": {
-                      "Min": 0,
-                      "Max": 43200,
-                      "Step": 60,
-                      "Default": 0
-                    }
-                  }
-                },
-                "Verification": {
-                  "OvenUpperCavity_OpStatusRawTemp": 800,
-                  "OvenUpperCavity_OpStatus.WaterTankLevel": "WaterTankFull"
-                },
-                "Notification": {
-                  "OvenUpperCavity_CycleSetExtraCookingTime": {
-                    "Range": {
-                      "Min": 0,
-                      "Max": 5400,
-                      "Step": 60,
-                      "Default": 0
-                    }
-                  }
-                }
-              },
-              "OvenUpperCavity_CulinaryCtrSetId383": {
-                "Required": {
-                  "OvenUpperCavity_TimeSetCookTimeSet": {
-                    "Range": {
-                      "Min": 1080,
-                      "Max": 5400,
-                      "Step": 60,
-                      "Default": 1080
-                    }
-                  }
-                },
-                "Optional": {
-                  "OvenUpperCavity_TimeSetDelayTime": {
-                    "Range": {
-                      "Min": 0,
-                      "Max": 43200,
-                      "Step": 60,
-                      "Default": 0
-                    }
-                  }
-                },
-                "Verification": {
-                  "OvenUpperCavity_OpStatusRawTemp": 800,
-                  "OvenUpperCavity_OpStatus.WaterTankLevel": "WaterTankFull"
-                },
-                "Notification": {
-                  "OvenUpperCavity_CycleSetExtraCookingTime": {
-                    "Range": {
-                      "Min": 0,
-                      "Max": 5400,
-                      "Step": 60,
-                      "Default": 0
-                    }
-                  }
-                }
-              },
-              "OvenUpperCavity_CulinaryCtrSetId340": {
-                "Required": {
-                  "OvenUpperCavity_TimeSetCookTimeSet": {
-                    "Range": {
-                      "Min": 1500,
-                      "Max": 5400,
-                      "Step": 60,
-                      "Default": 1500
-                    }
-                  }
-                },
-                "Optional": {
-                  "OvenUpperCavity_TimeSetDelayTime": {
-                    "Range": {
-                      "Min": 0,
-                      "Max": 43200,
-                      "Step": 60,
-                      "Default": 0
-                    }
-                  }
-                },
-                "Verification": {
-                  "OvenUpperCavity_OpStatusRawTemp": 800,
-                  "OvenUpperCavity_OpStatus.WaterTankLevel": "WaterTankFull"
-                },
-                "Notification": {
-                  "OvenUpperCavity_CycleSetExtraCookingTime": {
-                    "Range": {
-                      "Min": 0,
-                      "Max": 5400,
-                      "Step": 60,
-                      "Default": 0
-                    }
-                  }
-                }
-              },
-              "OvenUpperCavity_CulinaryCtrSetId384": {
-                "Required": {
-                  "OvenUpperCavity_TimeSetCookTimeSet": {
-                    "Range": {
-                      "Min": 1500,
-                      "Max": 5400,
-                      "Step": 60,
-                      "Default": 1500
-                    }
-                  }
-                },
-                "Optional": {
-                  "OvenUpperCavity_TimeSetDelayTime": {
-                    "Range": {
-                      "Min": 0,
-                      "Max": 43200,
-                      "Step": 60,
-                      "Default": 0
-                    }
-                  }
-                },
-                "Verification": {
-                  "OvenUpperCavity_OpStatusRawTemp": 800,
-                  "OvenUpperCavity_OpStatus.WaterTankLevel": "WaterTankFull"
-                },
-                "Notification": {
-                  "OvenUpperCavity_CycleSetExtraCookingTime": {
-                    "Range": {
-                      "Min": 0,
-                      "Max": 5400,
-                      "Step": 60,
-                      "Default": 0
-                    }
-                  }
-                }
-              },
-              "OvenUpperCavity_CulinaryCtrSetId381": {
-                "Required": {
-                  "OvenUpperCavity_TimeSetCookTimeSet": {
-                    "Range": {
-                      "Min": 2700,
-                      "Max": 5400,
-                      "Step": 60,
-                      "Default": 2700
-                    }
-                  }
-                },
-                "Optional": {
-                  "OvenUpperCavity_TimeSetDelayTime": {
-                    "Range": {
-                      "Min": 0,
-                      "Max": 43200,
-                      "Step": 60,
-                      "Default": 0
-                    }
-                  }
-                },
-                "Verification": {
-                  "OvenUpperCavity_OpStatusRawTemp": 800,
-                  "OvenUpperCavity_OpStatus.WaterTankLevel": "WaterTankFull"
-                },
-                "Notification": {
-                  "OvenUpperCavity_CycleSetExtraCookingTime": {
-                    "Range": {
-                      "Min": 0,
-                      "Max": 5400,
-                      "Step": 60,
-                      "Default": 0
-                    }
-                  }
-                }
-              },
-              "OvenUpperCavity_CulinaryCtrSetId382": {
-                "Required": {
-                  "OvenUpperCavity_TimeSetCookTimeSet": {
-                    "Range": {
-                      "Min": 1320,
-                      "Max": 5400,
-                      "Step": 60,
-                      "Default": 1320
-                    }
-                  }
-                },
-                "Optional": {
-                  "OvenUpperCavity_TimeSetDelayTime": {
-                    "Range": {
-                      "Min": 0,
-                      "Max": 43200,
-                      "Step": 60,
-                      "Default": 0
-                    }
-                  }
-                },
-                "Verification": {
-                  "OvenUpperCavity_OpStatusRawTemp": 800,
-                  "OvenUpperCavity_OpStatus.WaterTankLevel": "WaterTankFull"
-                },
-                "Notification": {
-                  "OvenUpperCavity_CycleSetExtraCookingTime": {
-                    "Range": {
-                      "Min": 0,
-                      "Max": 5400,
-                      "Step": 60,
-                      "Default": 0
-                    }
-                  }
-                }
-              },
-              "OvenUpperCavity_CycleSetCommonModeCommonModeDehydration": {
-                "Required": {
-                  "OvenUpperCavity_CycleSetTargetTemp": {
-                    "TempRange": {
-                      "StepC": 5,
-                      "Min": 800,
-                      "Max": 1000,
-                      "Default": 1000
-                    }
-                  },
-                  "OvenUpperCavity_TimeSetCookTimeSet": {
-                    "Range": {
-                      "Min": 1200,
-                      "Max": 5400,
-                      "Step": 60,
-                      "Default": 1200
-                    }
-                  }
-                },
-                "Optional": {
-                  "OvenUpperCavity_TimeSetDelayTime": {
-                    "Range": {
-                      "Min": 0,
-                      "Max": 43200,
-                      "Step": 60,
-                      "Default": 0
-                    }
-                  }
-                },
-                "Verification": {
-                  "OvenUpperCavity_OpStatusRawTemp": 800
-                },
-                "Notification": {
-                  "OvenUpperCavity_CycleSetExtraCookingTime": {
-                    "Range": {
-                      "Min": 0,
-                      "Max": 5400,
-                      "Step": 60,
-                      "Default": 0
-                    }
-                  }
-                }
-              },
-              "OvenUpperCavity_CulinaryCtrSetId332": {
-                "Required": {
-                  "OvenUpperCavity_TimeSetCookTimeSet": {
-                    "Range": {
-                      "Min": 600,
-                      "Max": 5400,
-                      "Step": 60,
-                      "Default": 600
-                    }
-                  }
-                },
-                "Optional": {
-                  "OvenUpperCavity_TimeSetDelayTime": {
-                    "Range": {
-                      "Min": 0,
-                      "Max": 43200,
-                      "Step": 60,
-                      "Default": 0
-                    }
-                  }
-                },
-                "Verification": {
-                  "OvenUpperCavity_OpStatusRawTemp": 800,
-                  "OvenUpperCavity_OpStatus.WaterTankLevel": "WaterTankFull"
-                },
-                "Notification": {
-                  "OvenUpperCavity_CycleSetExtraCookingTime": {
-                    "Range": {
-                      "Min": 0,
-                      "Max": 5400,
-                      "Step": 60,
-                      "Default": 0
-                    }
-                  }
-                }
-              },
-              "OvenUpperCavity_CulinaryCtrSetId495": {
-                "Required": {
-                  "OvenUpperCavity_TimeSetCookTimeSet": {
-                    "Range": {
-                      "Min": 900,
-                      "Max": 5400,
-                      "Step": 60,
-                      "Default": 900
-                    }
-                  }
-                },
-                "Optional": {
-                  "OvenUpperCavity_TimeSetDelayTime": {
-                    "Range": {
-                      "Min": 0,
-                      "Max": 43200,
-                      "Step": 60,
-                      "Default": 0
-                    }
-                  }
-                },
-                "Verification": {
-                  "OvenUpperCavity_OpStatusRawTemp": 800,
-                  "OvenUpperCavity_OpStatus.WaterTankLevel": "WaterTankFull"
-                },
-                "Notification": {
-                  "OvenUpperCavity_CycleSetExtraCookingTime": {
-                    "Range": {
-                      "Min": 0,
-                      "Max": 5400,
-                      "Step": 60,
-                      "Default": 0
-                    }
-                  }
-                }
-              },
-              "OvenUpperCavity_CulinaryCtrSetId330": {
-                "Required": {
-                  "OvenUpperCavity_TimeSetCookTimeSet": {
-                    "Range": {
-                      "Min": 600,
-                      "Max": 5400,
-                      "Step": 60,
-                      "Default": 600
-                    }
-                  }
-                },
-                "Optional": {
-                  "OvenUpperCavity_TimeSetDelayTime": {
-                    "Range": {
-                      "Min": 0,
-                      "Max": 43200,
-                      "Step": 60,
-                      "Default": 0
-                    }
-                  }
-                },
-                "Verification": {
-                  "OvenUpperCavity_OpStatusRawTemp": 800,
-                  "OvenUpperCavity_OpStatus.WaterTankLevel": "WaterTankFull"
-                },
-                "Notification": {
-                  "OvenUpperCavity_CycleSetExtraCookingTime": {
-                    "Range": {
-                      "Min": 0,
-                      "Max": 5400,
-                      "Step": 60,
-                      "Default": 0
-                    }
-                  }
-                }
-              },
-              "OvenUpperCavity_CycleSetSteamBakeFoodSteamBakeFoodDefrost": {
-                "Required": {
-                  "OvenUpperCavity_CycleSetTargetTemp": {
-                    "TempRange": {
-                      "StepC": 5,
-                      "Min": 400,
-                      "Max": 700,
-                      "Default": 600
-                    }
-                  },
-                  "OvenUpperCavity_TimeSetCookTimeSet": {
-                    "Range": {
-                      "Min": 60,
-                      "Max": 5400,
-                      "Step": 60,
-                      "Default": 0
-                    }
-                  }
-                },
-                "Optional": {
-                  "OvenUpperCavity_TimeSetDelayTime": {
-                    "Range": {
-                      "Min": 0,
-                      "Max": 43200,
-                      "Step": 60,
-                      "Default": 0
-                    }
-                  }
-                },
-                "Verification": {
-                  "OvenUpperCavity_OpStatusRawTemp": 500,
-                  "OvenUpperCavity_OpStatus.WaterTankLevel": "WaterTankFull"
-                },
-                "Notification": {
-                  "OvenUpperCavity_CycleSetExtraCookingTime": {
-                    "Range": {
-                      "Min": 0,
-                      "Max": 5400,
-                      "Step": 60,
-                      "Default": 0
-                    }
-                  }
-                }
-              },
-              "OvenUpperCavity_CulinaryCtrSetId331": {
-                "Required": {
-                  "OvenUpperCavity_TimeSetCookTimeSet": {
-                    "Range": {
-                      "Min": 2100,
-                      "Max": 5400,
-                      "Step": 60,
-                      "Default": 2100
-                    }
-                  }
-                },
-                "Optional": {
-                  "OvenUpperCavity_TimeSetDelayTime": {
-                    "Range": {
-                      "Min": 0,
-                      "Max": 43200,
-                      "Step": 60,
-                      "Default": 0
-                    }
-                  }
-                },
-                "Verification": {
-                  "OvenUpperCavity_OpStatusRawTemp": 800,
-                  "OvenUpperCavity_OpStatus.WaterTankLevel": "WaterTankFull"
-                },
-                "Notification": {
-                  "OvenUpperCavity_CycleSetExtraCookingTime": {
-                    "Range": {
-                      "Min": 0,
-                      "Max": 5400,
-                      "Step": 60,
-                      "Default": 0
-                    }
-                  }
-                }
-              },
-              "OvenUpperCavity_CulinaryCtrSetId338": {
-                "Required": {
-                  "OvenUpperCavity_TimeSetCookTimeSet": {
-                    "Range": {
-                      "Min": 2700,
-                      "Max": 5400,
-                      "Step": 60,
-                      "Default": 2700
-                    }
-                  }
-                },
-                "Optional": {
-                  "OvenUpperCavity_TimeSetDelayTime": {
-                    "Range": {
-                      "Min": 0,
-                      "Max": 43200,
-                      "Step": 60,
-                      "Default": 0
-                    }
-                  }
-                },
-                "Verification": {
-                  "OvenUpperCavity_OpStatusRawTemp": 1500,
-                  "OvenUpperCavity_OpStatus.WaterTankLevel": "WaterTankFull"
-                },
-                "Notification": {
-                  "OvenUpperCavity_CycleSetExtraCookingTime": {
-                    "Range": {
-                      "Min": 0,
-                      "Max": 5400,
-                      "Step": 60,
-                      "Default": 0
-                    }
-                  }
-                }
-              },
-              "OvenUpperCavity_CulinaryCtrSetId339": {
-                "Required": {
-                  "OvenUpperCavity_TimeSetCookTimeSet": {
-                    "Range": {
-                      "Min": 1500,
-                      "Max": 5400,
-                      "Step": 60,
-                      "Default": 1500
-                    }
-                  }
-                },
-                "Optional": {
-                  "OvenUpperCavity_TimeSetDelayTime": {
-                    "Range": {
-                      "Min": 0,
-                      "Max": 43200,
-                      "Step": 60,
-                      "Default": 0
-                    }
-                  }
-                },
-                "Verification": {
-                  "OvenUpperCavity_OpStatusRawTemp": 800,
-                  "OvenUpperCavity_OpStatus.WaterTankLevel": "WaterTankFull"
-                },
-                "Notification": {
-                  "OvenUpperCavity_CycleSetExtraCookingTime": {
-                    "Range": {
-                      "Min": 0,
-                      "Max": 5400,
-                      "Step": 60,
-                      "Default": 0
-                    }
-                  }
-                }
-              },
-              "OvenUpperCavity_CulinaryCtrSetId336": {
-                "Required": {
-                  "OvenUpperCavity_TimeSetCookTimeSet": {
-                    "Range": {
-                      "Min": 840,
-                      "Max": 5400,
-                      "Step": 60,
-                      "Default": 840
-                    }
-                  }
-                },
-                "Optional": {
-                  "OvenUpperCavity_TimeSetDelayTime": {
-                    "Range": {
-                      "Min": 0,
-                      "Max": 43200,
-                      "Step": 60,
-                      "Default": 0
-                    }
-                  }
-                },
-                "Verification": {
-                  "OvenUpperCavity_OpStatusRawTemp": 800,
-                  "OvenUpperCavity_OpStatus.WaterTankLevel": "WaterTankFull"
-                },
-                "Notification": {
-                  "OvenUpperCavity_CycleSetExtraCookingTime": {
-                    "Range": {
-                      "Min": 0,
-                      "Max": 5400,
-                      "Step": 60,
-                      "Default": 0
-                    }
-                  }
-                }
-              },
-              "OvenUpperCavity_CulinaryCtrSetId334": {
-                "Required": {
-                  "OvenUpperCavity_TimeSetCookTimeSet": {
-                    "Range": {
-                      "Min": 600,
-                      "Max": 5400,
-                      "Step": 60,
-                      "Default": 600
-                    }
-                  }
-                },
-                "Optional": {
-                  "OvenUpperCavity_TimeSetDelayTime": {
-                    "Range": {
-                      "Min": 0,
-                      "Max": 43200,
-                      "Step": 60,
-                      "Default": 0
-                    }
-                  }
-                },
-                "Verification": {
-                  "OvenUpperCavity_OpStatusRawTemp": 800,
-                  "OvenUpperCavity_OpStatus.WaterTankLevel": "WaterTankFull"
-                },
-                "Notification": {
-                  "OvenUpperCavity_CycleSetExtraCookingTime": {
-                    "Range": {
-                      "Min": 0,
-                      "Max": 5400,
-                      "Step": 60,
-                      "Default": 0
-                    }
-                  }
-                }
-              },
-              "OvenUpperCavity_CulinaryCtrSetId335": {
-                "Required": {
-                  "OvenUpperCavity_TimeSetCookTimeSet": {
-                    "Range": {
-                      "Min": 960,
-                      "Max": 5400,
-                      "Step": 60,
-                      "Default": 960
-                    }
-                  }
-                },
-                "Optional": {
-                  "OvenUpperCavity_TimeSetDelayTime": {
-                    "Range": {
-                      "Min": 0,
-                      "Max": 43200,
-                      "Step": 60,
-                      "Default": 0
-                    }
-                  }
-                },
-                "Verification": {
-                  "OvenUpperCavity_OpStatusRawTemp": 800,
-                  "OvenUpperCavity_OpStatus.WaterTankLevel": "WaterTankFull"
-                },
-                "Notification": {
-                  "OvenUpperCavity_CycleSetExtraCookingTime": {
-                    "Range": {
-                      "Min": 0,
-                      "Max": 5400,
-                      "Step": 60,
-                      "Default": 0
-                    }
-                  }
-                }
+            "OvenUpperCavity_TimeSetDelayTime": {
+              "Range": {
+                "Min": 0,
+                "Max": 43200,
+                "Step": 60,
+                "Default": 0
+              }
+            }
+          },
+          "Notification": {
+            "OvenUpperCavity_CycleSetExtraCookingTime": {
+              "Range": {
+                "Min": 0,
+                "Max": 5400,
+                "Step": 60,
+                "Default": 0
+              }
+            }
+          },
+          "Verification": {
+            
+          }
+        },
+        "OvenUpperCavity_CycleSetCommonModeCommonModeTrueConvect": {
+          "Required": {
+            "OvenUpperCavity_CycleSetTargetTemp": {
+              "TempRange": {
+                "Min": 377,
+                "Max": 2322,
+                "StepF": 25,
+                "Default": 1766
+              }
+            }
+          },
+          "Optional": {
+            "OvenUpperCavity_TimeSetCookTimeSet": {
+              "Range": {
+                "Min": 0,
+                "Max": 43200,
+                "Step": 60,
+                "Default": 0
+              }
+            },
+            "OvenUpperCavity_CycleSetPreheatOn": {
+              "Bool": [
+                false,
+                true
+              ],
+              "Default": false
+            },
+            "OvenUpperCavity_TimeSetDelayTime": {
+              "Range": {
+                "Min": 0,
+                "Max": 43200,
+                "Step": 60,
+                "Default": 0
+              }
+            }
+          },
+          "Notification": {
+            "OvenUpperCavity_CycleSetExtraCookingTime": {
+              "Range": {
+                "Min": 0,
+                "Max": 43200,
+                "Step": 60,
+                "Default": 0
+              }
+            },
+            "OvenUpperCavity_CycleSetCommonModeCommonModeExtraBrowning": false
+          },
+          "Verification": {
+            
+          }
+        },
+        "OvenUpperCavity_CycleSetCommonModeCommonModeSteamForcedAir": {
+          "Required": {
+            "OvenUpperCavity_CycleSetTargetTemp": {
+              "TempRange": {
+                "Min": 1350,
+                "Max": 2322,
+                "StepF": 25,
+                "Default": 1488
+              }
+            },
+            "OvenUpperCavity_CycleSetSteamLevel": {
+              "Default": "AssistedSteamLevelMedHigh",
+              "Enumeration": [
+                "AssistedSteamLevelLow",
+                "AssistedSteamLevelMedium",
+                "AssistedSteamLevelMedHigh",
+                "AssistedSteamLevelHigh"
+              ]
+            }
+          },
+          "Optional": {
+            "OvenUpperCavity_TimeSetCookTimeSet": {
+              "Range": {
+                "Min": 0,
+                "Max": 43200,
+                "Step": 60,
+                "Default": 0
+              }
+            },
+            "OvenUpperCavity_TimeSetDelayTime": {
+              "Range": {
+                "Min": 0,
+                "Max": 43200,
+                "Step": 60,
+                "Default": 0
+              }
+            }
+          },
+          "Notification": {
+            "OvenUpperCavity_CycleSetExtraCookingTime": {
+              "Range": {
+                "Min": 0,
+                "Max": 43200,
+                "Step": 60,
+                "Default": 0
+              }
+            }
+          },
+          "Verification": {
+            
+          }
+        },
+        "OvenUpperCavity_CycleSetSteamBakeFoodSteamBakeFoodDefrost": {
+          "Required": {
+            "OvenUpperCavity_CycleSetTargetTemp": {
+              "TempRange": {
+                "Min": 377,
+                "Max": 655,
+                "StepF": 25,
+                "Default": 655
+              }
+            }
+          },
+          "Optional": {
+            "OvenUpperCavity_TimeSetCookTimeSet": {
+              "Range": {
+                "Min": 0,
+                "Max": 5400,
+                "Step": 60,
+                "Default": 0
+              }
+            },
+            "OvenUpperCavity_TimeSetDelayTime": {
+              "Range": {
+                "Min": 0,
+                "Max": 43200,
+                "Step": 60,
+                "Default": 0
+              }
+            }
+          },
+          "Notification": {
+            "OvenUpperCavity_CycleSetExtraCookingTime": {
+              "Range": {
+                "Min": 0,
+                "Max": 5400,
+                "Step": 60,
+                "Default": 0
+              }
+            }
+          },
+          "Verification": {
+            
+          }
+        },
+        "OvenUpperCavity_CycleSetSteamBakeFoodSteamBakeFoodReheat": {
+          "Required": {
+            "OvenUpperCavity_CycleSetTargetTemp": {
+              "TempRange": {
+                "Min": 655,
+                "Max": 1488,
+                "StepF": 25,
+                "Default": 933
+              }
+            }
+          },
+          "Optional": {
+            "OvenUpperCavity_TimeSetCookTimeSet": {
+              "Range": {
+                "Min": 0,
+                "Max": 5400,
+                "Step": 60,
+                "Default": 0
+              }
+            },
+            "OvenUpperCavity_TimeSetDelayTime": {
+              "Range": {
+                "Min": 0,
+                "Max": 43200,
+                "Step": 60,
+                "Default": 0
+              }
+            }
+          },
+          "Notification": {
+            "OvenUpperCavity_CycleSetExtraCookingTime": {
+              "Range": {
+                "Min": 0,
+                "Max": 5400,
+                "Step": 60,
+                "Default": 0
+              }
+            }
+          },
+          "Verification": {
+            
+          }
+        },
+        "OvenUpperCavity_CycleSetCommonModeCommonModeBreadProof": {
+          "Required": {
+            
+          },
+          "Optional": {
+            "OvenUpperCavity_TimeSetCookTimeSet": {
+              "Range": {
+                "Min": 0,
+                "Max": 5400,
+                "Step": 60,
+                "Default": 0
+              }
+            },
+            "OvenUpperCavity_TimeSetDelayTime": {
+              "Range": {
+                "Min": 0,
+                "Max": 43200,
+                "Step": 60,
+                "Default": 0
+              }
+            }
+          },
+          "Notification": {
+            "OvenUpperCavity_CycleSetExtraCookingTime": {
+              "Range": {
+                "Min": 0,
+                "Max": 5400,
+                "Step": 60,
+                "Default": 0
+              }
+            }
+          },
+          "Verification": {
+            
+          }
+        },
+        "OvenUpperCavity_CycleSetCommonModeCommonModeDehydration": {
+          "Required": {
+            "OvenUpperCavity_CycleSetTargetTemp": {
+              "TempRange": {
+                "Min": 794,
+                "Max": 933,
+                "StepF": 25,
+                "Default": 933
+              }
+            }
+          },
+          "Optional": {
+            "OvenUpperCavity_TimeSetCookTimeSet": {
+              "Range": {
+                "Min": 0,
+                "Max": 5400,
+                "Step": 60,
+                "Default": 1200
+              }
+            },
+            "OvenUpperCavity_TimeSetDelayTime": {
+              "Range": {
+                "Min": 0,
+                "Max": 43200,
+                "Step": 60,
+                "Default": 0
+              }
+            }
+          },
+          "Notification": {
+            "OvenUpperCavity_CycleSetExtraCookingTime": {
+              "Range": {
+                "Min": 0,
+                "Max": 5400,
+                "Step": 60,
+                "Default": 0
+              }
+            }
+          },
+          "Verification": {
+            
+          }
+        },
+        "OvenUpperCavity_CycleSetCommonModeCommonModeYogurt": {
+          "Required": {
+            "OvenUpperCavity_TimeSetCookTimeSet": {
+              "Range": {
+                "Min": 10800,
+                "Max": 28800,
+                "Step": 60,
+                "Default": 10800
+              }
+            }
+          },
+          "Optional": {
+            "OvenUpperCavity_TimeSetDelayTime": {
+              "Range": {
+                "Min": 0,
+                "Max": 43200,
+                "Step": 60,
+                "Default": 0
+              }
+            }
+          },
+          "Notification": {
+            "OvenUpperCavity_CycleSetExtraCookingTime": {
+              "Range": {
+                "Min": 0,
+                "Max": 28800,
+                "Step": 60,
+                "Default": 0
+              }
+            }
+          },
+          "Verification": {
+            
+          }
+        },
+        "OvenUpperCavity_CycleSetCommonModeCommonModeSanitization": {
+          "Required": {
+            "OvenUpperCavity_TimeSetCookTimeSet": {
+              "Range": {
+                "Min": 1200,
+                "Max": 5400,
+                "Step": 60,
+                "Default": 1200
+              }
+            }
+          },
+          "Optional": {
+            "OvenUpperCavity_TimeSetDelayTime": {
+              "Range": {
+                "Min": 0,
+                "Max": 43200,
+                "Step": 60,
+                "Default": 0
+              }
+            }
+          },
+          "Notification": {
+            "OvenUpperCavity_CycleSetExtraCookingTime": {
+              "Range": {
+                "Min": 0,
+                "Max": 5400,
+                "Step": 60,
+                "Default": 0
+              }
+            }
+          },
+          "Verification": {
+            
+          }
+        },
+        "OvenUpperCavity_CycleSetCommonModeCommonModeFinishing": {
+          "Required": {
+            "OvenUpperCavity_CycleSetTargetTemp": {
+              "TempRange": {
+                "Min": 655,
+                "Max": 933,
+                "StepF": 25,
+                "Default": 794
+              }
+            }
+          },
+          "Optional": {
+            "OvenUpperCavity_TimeSetCookTimeSet": {
+              "Range": {
+                "Min": 0,
+                "Max": 5400,
+                "Step": 60,
+                "Default": 0
+              }
+            },
+            "OvenUpperCavity_TimeSetDelayTime": {
+              "Range": {
+                "Min": 0,
+                "Max": 43200,
+                "Step": 60,
+                "Default": 0
+              }
+            }
+          },
+          "Notification": {
+            "OvenUpperCavity_CycleSetExtraCookingTime": {
+              "Range": {
+                "Min": 0,
+                "Max": 5400,
+                "Step": 60,
+                "Default": 0
+              }
+            }
+          },
+          "Verification": {
+            
+          }
+        },
+        "OvenUpperCavity_CulinaryCtrSetId323": {
+          "Required": {
+            "OvenUpperCavity_TimeSetCookTimeSet": {
+              "Range": {
+                "Min": 1500,
+                "Max": 5400,
+                "Step": 60,
+                "Default": 1500
+              }
+            }
+          },
+          "Optional": {
+            "OvenUpperCavity_TimeSetDelayTime": {
+              "Range": {
+                "Min": 0,
+                "Max": 43200,
+                "Step": 60,
+                "Default": 0
+              }
+            }
+          },
+          "Notification": {
+            "OvenUpperCavity_CycleSetExtraCookingTime": {
+              "Range": {
+                "Min": 0,
+                "Max": 5400,
+                "Step": 60,
+                "Default": 0
+              }
+            }
+          },
+          "Verification": {
+            
+          }
+        },
+        "OvenUpperCavity_CulinaryCtrSetId324": {
+          "Required": {
+            "OvenUpperCavity_TimeSetCookTimeSet": {
+              "Range": {
+                "Min": 2700,
+                "Max": 5400,
+                "Step": 60,
+                "Default": 2700
+              }
+            }
+          },
+          "Optional": {
+            "OvenUpperCavity_TimeSetDelayTime": {
+              "Range": {
+                "Min": 0,
+                "Max": 43200,
+                "Step": 60,
+                "Default": 0
+              }
+            }
+          },
+          "Notification": {
+            "OvenUpperCavity_CycleSetExtraCookingTime": {
+              "Range": {
+                "Min": 0,
+                "Max": 5400,
+                "Step": 60,
+                "Default": 0
+              }
+            }
+          },
+          "Verification": {
+            
+          }
+        },
+        "OvenUpperCavity_CulinaryCtrSetId355": {
+          "Required": {
+            "OvenUpperCavity_TimeSetCookTimeSet": {
+              "Range": {
+                "Min": 1500,
+                "Max": 5400,
+                "Step": 60,
+                "Default": 1500
+              }
+            }
+          },
+          "Optional": {
+            "OvenUpperCavity_TimeSetDelayTime": {
+              "Range": {
+                "Min": 0,
+                "Max": 43200,
+                "Step": 60,
+                "Default": 0
+              }
+            }
+          },
+          "Notification": {
+            "OvenUpperCavity_CycleSetExtraCookingTime": {
+              "Range": {
+                "Min": 0,
+                "Max": 5400,
+                "Step": 60,
+                "Default": 0
+              }
+            }
+          },
+          "Verification": {
+            
+          }
+        },
+        "OvenUpperCavity_CulinaryCtrSetId354": {
+          "Required": {
+            "OvenUpperCavity_TimeSetCookTimeSet": {
+              "Range": {
+                "Min": 1500,
+                "Max": 5400,
+                "Step": 60,
+                "Default": 1500
+              }
+            }
+          },
+          "Optional": {
+            "OvenUpperCavity_TimeSetDelayTime": {
+              "Range": {
+                "Min": 0,
+                "Max": 43200,
+                "Step": 60,
+                "Default": 0
+              }
+            }
+          },
+          "Notification": {
+            "OvenUpperCavity_CycleSetExtraCookingTime": {
+              "Range": {
+                "Min": 0,
+                "Max": 5400,
+                "Step": 60,
+                "Default": 0
+              }
+            }
+          },
+          "Verification": {
+            
+          }
+        },
+        "OvenUpperCavity_CulinaryCtrSetId356": {
+          "Required": {
+            "OvenUpperCavity_TimeSetCookTimeSet": {
+              "Range": {
+                "Min": 1380,
+                "Max": 5400,
+                "Step": 60,
+                "Default": 1380
+              }
+            }
+          },
+          "Optional": {
+            "OvenUpperCavity_TimeSetDelayTime": {
+              "Range": {
+                "Min": 0,
+                "Max": 43200,
+                "Step": 60,
+                "Default": 0
+              }
+            }
+          },
+          "Notification": {
+            "OvenUpperCavity_CycleSetExtraCookingTime": {
+              "Range": {
+                "Min": 0,
+                "Max": 5400,
+                "Step": 60,
+                "Default": 0
+              }
+            }
+          },
+          "Verification": {
+            
+          }
+        },
+        "OvenUpperCavity_CulinaryCtrSetId357": {
+          "Required": {
+            "OvenUpperCavity_TimeSetCookTimeSet": {
+              "Range": {
+                "Min": 720,
+                "Max": 5400,
+                "Step": 60,
+                "Default": 720
+              }
+            }
+          },
+          "Optional": {
+            "OvenUpperCavity_TimeSetDelayTime": {
+              "Range": {
+                "Min": 0,
+                "Max": 43200,
+                "Step": 60,
+                "Default": 0
+              }
+            }
+          },
+          "Notification": {
+            "OvenUpperCavity_CycleSetExtraCookingTime": {
+              "Range": {
+                "Min": 0,
+                "Max": 5400,
+                "Step": 60,
+                "Default": 0
+              }
+            }
+          },
+          "Verification": {
+            
+          }
+        },
+        "OvenUpperCavity_CulinaryCtrSetId344": {
+          "Required": {
+            "OvenUpperCavity_CycleSetDoneness": {
+              "Default": "DonenessRare",
+              "Enumeration": [
+                "DonenessRare",
+                "DonenessMedium",
+                "DonenessWellDone"
+              ]
+            }
+          },
+          "Optional": {
+            "OvenUpperCavity_TimeSetDelayTime": {
+              "Range": {
+                "Min": 0,
+                "Max": 43200,
+                "Step": 60,
+                "Default": 0
+              }
+            }
+          },
+          "Notification": {
+            "OvenUpperCavity_CycleSetExtraCookingTime": {
+              "Range": {
+                "Min": 0,
+                "Max": 43200,
+                "Step": 60,
+                "Default": 0
+              }
+            }
+          },
+          "Verification": {
+            
+          }
+        },
+        "OvenUpperCavity_CulinaryCtrSetId349": {
+          "Required": {
+            "OvenUpperCavity_CycleSetDoneness": {
+              "Default": "DonenessRare",
+              "Enumeration": [
+                "DonenessRare",
+                "DonenessMedium",
+                "DonenessWellDone"
+              ]
+            }
+          },
+          "Optional": {
+            "OvenUpperCavity_TimeSetDelayTime": {
+              "Range": {
+                "Min": 0,
+                "Max": 43200,
+                "Step": 60,
+                "Default": 0
+              }
+            }
+          },
+          "Notification": {
+            "OvenUpperCavity_CycleSetExtraCookingTime": {
+              "Range": {
+                "Min": 0,
+                "Max": 43200,
+                "Step": 60,
+                "Default": 0
+              }
+            }
+          },
+          "Verification": {
+            
+          }
+        },
+        "OvenUpperCavity_CulinaryCtrSetId348": {
+          "Required": {
+            "OvenUpperCavity_CycleSetDoneness": {
+              "Default": "DonenessRare",
+              "Enumeration": [
+                "DonenessRare",
+                "DonenessMedium",
+                "DonenessWellDone"
+              ]
+            }
+          },
+          "Optional": {
+            "OvenUpperCavity_TimeSetDelayTime": {
+              "Range": {
+                "Min": 0,
+                "Max": 43200,
+                "Step": 60,
+                "Default": 0
+              }
+            }
+          },
+          "Notification": {
+            "OvenUpperCavity_CycleSetExtraCookingTime": {
+              "Range": {
+                "Min": 0,
+                "Max": 43200,
+                "Step": 60,
+                "Default": 0
+              }
+            }
+          },
+          "Verification": {
+            
+          }
+        },
+        "OvenUpperCavity_CulinaryCtrSetId347": {
+          "Required": {
+            "OvenUpperCavity_CycleSetDoneness": {
+              "Default": "DonenessRare",
+              "Enumeration": [
+                "DonenessRare",
+                "DonenessMedium",
+                "DonenessWellDone"
+              ]
+            }
+          },
+          "Optional": {
+            "OvenUpperCavity_TimeSetDelayTime": {
+              "Range": {
+                "Min": 0,
+                "Max": 43200,
+                "Step": 60,
+                "Default": 0
+              }
+            }
+          },
+          "Notification": {
+            "OvenUpperCavity_CycleSetExtraCookingTime": {
+              "Range": {
+                "Min": 0,
+                "Max": 43200,
+                "Step": 60,
+                "Default": 0
+              }
+            }
+          },
+          "Verification": {
+            
+          }
+        },
+        "OvenUpperCavity_CulinaryCtrSetId345": {
+          "Required": {
+            "OvenUpperCavity_CycleSetDoneness": {
+              "Default": "DonenessMedium",
+              "Enumeration": [
+                "DonenessRare",
+                "DonenessMedium",
+                "DonenessWellDone"
+              ]
+            }
+          },
+          "Optional": {
+            "OvenUpperCavity_TimeSetDelayTime": {
+              "Range": {
+                "Min": 0,
+                "Max": 43200,
+                "Step": 60,
+                "Default": 0
+              }
+            }
+          },
+          "Notification": {
+            "OvenUpperCavity_CycleSetExtraCookingTime": {
+              "Range": {
+                "Min": 0,
+                "Max": 43200,
+                "Step": 60,
+                "Default": 0
+              }
+            }
+          },
+          "Verification": {
+            
+          }
+        },
+        "OvenUpperCavity_CulinaryCtrSetId341": {
+          "Required": {
+            "OvenUpperCavity_TimeSetCookTimeSet": {
+              "Range": {
+                "Min": 1500,
+                "Max": 5400,
+                "Step": 60,
+                "Default": 1500
+              }
+            }
+          },
+          "Optional": {
+            "OvenUpperCavity_TimeSetDelayTime": {
+              "Range": {
+                "Min": 0,
+                "Max": 43200,
+                "Step": 60,
+                "Default": 0
+              }
+            }
+          },
+          "Notification": {
+            "OvenUpperCavity_CycleSetExtraCookingTime": {
+              "Range": {
+                "Min": 0,
+                "Max": 5400,
+                "Step": 60,
+                "Default": 0
+              }
+            }
+          },
+          "Verification": {
+            
+          }
+        },
+        "OvenUpperCavity_CulinaryCtrSetId346": {
+          "Required": {
+            "OvenUpperCavity_CycleSetDoneness": {
+              "Default": "DonenessRare",
+              "Enumeration": [
+                "DonenessRare",
+                "DonenessMedium",
+                "DonenessWellDone"
+              ]
+            }
+          },
+          "Optional": {
+            "OvenUpperCavity_TimeSetDelayTime": {
+              "Range": {
+                "Min": 0,
+                "Max": 43200,
+                "Step": 60,
+                "Default": 0
+              }
+            }
+          },
+          "Notification": {
+            "OvenUpperCavity_CycleSetExtraCookingTime": {
+              "Range": {
+                "Min": 0,
+                "Max": 43200,
+                "Step": 60,
+                "Default": 0
+              }
+            }
+          },
+          "Verification": {
+            
+          }
+        },
+        "OvenUpperCavity_CulinaryCtrSetId340": {
+          "Required": {
+            "OvenUpperCavity_TimeSetCookTimeSet": {
+              "Range": {
+                "Min": 1500,
+                "Max": 5400,
+                "Step": 60,
+                "Default": 1500
+              }
+            }
+          },
+          "Optional": {
+            "OvenUpperCavity_TimeSetDelayTime": {
+              "Range": {
+                "Min": 0,
+                "Max": 43200,
+                "Step": 60,
+                "Default": 0
+              }
+            }
+          },
+          "Notification": {
+            "OvenUpperCavity_CycleSetExtraCookingTime": {
+              "Range": {
+                "Min": 0,
+                "Max": 5400,
+                "Step": 60,
+                "Default": 0
+              }
+            }
+          },
+          "Verification": {
+            
+          }
+        },
+        "OvenUpperCavity_CulinaryCtrSetId342": {
+          "Required": {
+            "OvenUpperCavity_TimeSetCookTimeSet": {
+              "Range": {
+                "Min": 720,
+                "Max": 5400,
+                "Step": 60,
+                "Default": 720
+              }
+            }
+          },
+          "Optional": {
+            "OvenUpperCavity_TimeSetDelayTime": {
+              "Range": {
+                "Min": 0,
+                "Max": 43200,
+                "Step": 60,
+                "Default": 0
+              }
+            }
+          },
+          "Notification": {
+            "OvenUpperCavity_CycleSetExtraCookingTime": {
+              "Range": {
+                "Min": 0,
+                "Max": 5400,
+                "Step": 60,
+                "Default": 0
+              }
+            }
+          },
+          "Verification": {
+            
+          }
+        },
+        "OvenUpperCavity_CulinaryCtrSetId343": {
+          "Required": {
+            "OvenUpperCavity_TimeSetCookTimeSet": {
+              "Range": {
+                "Min": 2100,
+                "Max": 5400,
+                "Step": 60,
+                "Default": 2100
+              }
+            }
+          },
+          "Optional": {
+            "OvenUpperCavity_TimeSetDelayTime": {
+              "Range": {
+                "Min": 0,
+                "Max": 43200,
+                "Step": 60,
+                "Default": 0
+              }
+            }
+          },
+          "Notification": {
+            "OvenUpperCavity_CycleSetExtraCookingTime": {
+              "Range": {
+                "Min": 0,
+                "Max": 5400,
+                "Step": 60,
+                "Default": 0
+              }
+            }
+          },
+          "Verification": {
+            
+          }
+        },
+        "OvenUpperCavity_CulinaryCtrSetId333": {
+          "Required": {
+            "OvenUpperCavity_CycleSetDoneness": {
+              "Default": "DonenessRare",
+              "Enumeration": [
+                "DonenessRare",
+                "DonenessMedium",
+                "DonenessWellDone"
+              ]
+            }
+          },
+          "Optional": {
+            "OvenUpperCavity_TimeSetDelayTime": {
+              "Range": {
+                "Min": 0,
+                "Max": 43200,
+                "Step": 60,
+                "Default": 0
+              }
+            }
+          },
+          "Notification": {
+            "OvenUpperCavity_CycleSetExtraCookingTime": {
+              "Range": {
+                "Min": 0,
+                "Max": 43200,
+                "Step": 60,
+                "Default": 0
+              }
+            }
+          },
+          "Verification": {
+            
+          }
+        },
+        "OvenUpperCavity_CulinaryCtrSetId337": {
+          "Required": {
+            "OvenUpperCavity_CycleSetDoneness": {
+              "Default": "DonenessRare",
+              "Enumeration": [
+                "DonenessRare",
+                "DonenessMedium",
+                "DonenessWellDone"
+              ]
+            }
+          },
+          "Optional": {
+            "OvenUpperCavity_TimeSetDelayTime": {
+              "Range": {
+                "Min": 0,
+                "Max": 43200,
+                "Step": 60,
+                "Default": 0
+              }
+            }
+          },
+          "Notification": {
+            "OvenUpperCavity_CycleSetExtraCookingTime": {
+              "Range": {
+                "Min": 0,
+                "Max": 43200,
+                "Step": 60,
+                "Default": 0
+              }
+            }
+          },
+          "Verification": {
+            
+          }
+        },
+        "OvenUpperCavity_CulinaryCtrSetId336": {
+          "Required": {
+            "OvenUpperCavity_TimeSetCookTimeSet": {
+              "Range": {
+                "Min": 840,
+                "Max": 5400,
+                "Step": 60,
+                "Default": 840
+              }
+            }
+          },
+          "Optional": {
+            "OvenUpperCavity_TimeSetDelayTime": {
+              "Range": {
+                "Min": 0,
+                "Max": 43200,
+                "Step": 60,
+                "Default": 0
+              }
+            }
+          },
+          "Notification": {
+            "OvenUpperCavity_CycleSetExtraCookingTime": {
+              "Range": {
+                "Min": 0,
+                "Max": 5400,
+                "Step": 60,
+                "Default": 0
+              }
+            }
+          },
+          "Verification": {
+            
+          }
+        },
+        "OvenUpperCavity_CulinaryCtrSetId335": {
+          "Required": {
+            "OvenUpperCavity_TimeSetCookTimeSet": {
+              "Range": {
+                "Min": 960,
+                "Max": 5400,
+                "Step": 60,
+                "Default": 960
+              }
+            }
+          },
+          "Optional": {
+            "OvenUpperCavity_TimeSetDelayTime": {
+              "Range": {
+                "Min": 0,
+                "Max": 43200,
+                "Step": 60,
+                "Default": 0
+              }
+            }
+          },
+          "Notification": {
+            "OvenUpperCavity_CycleSetExtraCookingTime": {
+              "Range": {
+                "Min": 0,
+                "Max": 5400,
+                "Step": 60,
+                "Default": 0
+              }
+            }
+          },
+          "Verification": {
+            
+          }
+        },
+        "OvenUpperCavity_CulinaryCtrSetId331": {
+          "Required": {
+            "OvenUpperCavity_TimeSetCookTimeSet": {
+              "Range": {
+                "Min": 2100,
+                "Max": 5400,
+                "Step": 60,
+                "Default": 2100
+              }
+            }
+          },
+          "Optional": {
+            "OvenUpperCavity_TimeSetDelayTime": {
+              "Range": {
+                "Min": 0,
+                "Max": 43200,
+                "Step": 60,
+                "Default": 0
+              }
+            }
+          },
+          "Notification": {
+            "OvenUpperCavity_CycleSetExtraCookingTime": {
+              "Range": {
+                "Min": 0,
+                "Max": 5400,
+                "Step": 60,
+                "Default": 0
+              }
+            }
+          },
+          "Verification": {
+            
+          }
+        },
+        "OvenUpperCavity_CulinaryCtrSetId332": {
+          "Required": {
+            "OvenUpperCavity_TimeSetCookTimeSet": {
+              "Range": {
+                "Min": 600,
+                "Max": 5400,
+                "Step": 60,
+                "Default": 600
+              }
+            }
+          },
+          "Optional": {
+            "OvenUpperCavity_TimeSetDelayTime": {
+              "Range": {
+                "Min": 0,
+                "Max": 43200,
+                "Step": 60,
+                "Default": 0
+              }
+            }
+          },
+          "Notification": {
+            "OvenUpperCavity_CycleSetExtraCookingTime": {
+              "Range": {
+                "Min": 0,
+                "Max": 5400,
+                "Step": 60,
+                "Default": 0
+              }
+            }
+          },
+          "Verification": {
+            
+          }
+        },
+        "OvenUpperCavity_CulinaryCtrSetId334": {
+          "Required": {
+            "OvenUpperCavity_TimeSetCookTimeSet": {
+              "Range": {
+                "Min": 600,
+                "Max": 5400,
+                "Step": 60,
+                "Default": 600
+              }
+            }
+          },
+          "Optional": {
+            "OvenUpperCavity_TimeSetDelayTime": {
+              "Range": {
+                "Min": 0,
+                "Max": 43200,
+                "Step": 60,
+                "Default": 0
+              }
+            }
+          },
+          "Notification": {
+            "OvenUpperCavity_CycleSetExtraCookingTime": {
+              "Range": {
+                "Min": 0,
+                "Max": 5400,
+                "Step": 60,
+                "Default": 0
+              }
+            }
+          },
+          "Verification": {
+            
+          }
+        },
+        "OvenUpperCavity_CulinaryCtrSetId361": {
+          "Required": {
+            "OvenUpperCavity_TimeSetCookTimeSet": {
+              "Range": {
+                "Min": 3000,
+                "Max": 5400,
+                "Step": 60,
+                "Default": 3000
+              }
+            }
+          },
+          "Optional": {
+            "OvenUpperCavity_TimeSetDelayTime": {
+              "Range": {
+                "Min": 0,
+                "Max": 43200,
+                "Step": 60,
+                "Default": 0
+              }
+            }
+          },
+          "Notification": {
+            "OvenUpperCavity_CycleSetExtraCookingTime": {
+              "Range": {
+                "Min": 0,
+                "Max": 43200,
+                "Step": 60,
+                "Default": 0
+              }
+            }
+          },
+          "Verification": {
+            
+          }
+        },
+        "OvenUpperCavity_CulinaryCtrSetId359": {
+          "Required": {
+            "OvenUpperCavity_TimeSetCookTimeSet": {
+              "Range": {
+                "Min": 1200,
+                "Max": 5400,
+                "Step": 60,
+                "Default": 1200
+              }
+            }
+          },
+          "Optional": {
+            "OvenUpperCavity_TimeSetDelayTime": {
+              "Range": {
+                "Min": 0,
+                "Max": 43200,
+                "Step": 60,
+                "Default": 0
+              }
+            }
+          },
+          "Notification": {
+            "OvenUpperCavity_CycleSetExtraCookingTime": {
+              "Range": {
+                "Min": 0,
+                "Max": 43200,
+                "Step": 60,
+                "Default": 0
+              }
+            }
+          },
+          "Verification": {
+            
+          }
+        },
+        "OvenUpperCavity_CulinaryCtrSetId363": {
+          "Required": {
+            "OvenUpperCavity_TimeSetCookTimeSet": {
+              "Range": {
+                "Min": 2100,
+                "Max": 5400,
+                "Step": 60,
+                "Default": 2100
+              }
+            }
+          },
+          "Optional": {
+            "OvenUpperCavity_TimeSetDelayTime": {
+              "Range": {
+                "Min": 0,
+                "Max": 43200,
+                "Step": 60,
+                "Default": 0
+              }
+            }
+          },
+          "Notification": {
+            "OvenUpperCavity_CycleSetExtraCookingTime": {
+              "Range": {
+                "Min": 0,
+                "Max": 43200,
+                "Step": 60,
+                "Default": 0
+              }
+            }
+          },
+          "Verification": {
+            
+          }
+        },
+        "OvenUpperCavity_CulinaryCtrSetId365": {
+          "Required": {
+            "OvenUpperCavity_TimeSetCookTimeSet": {
+              "Range": {
+                "Min": 1800,
+                "Max": 5400,
+                "Step": 60,
+                "Default": 1800
+              }
+            }
+          },
+          "Optional": {
+            "OvenUpperCavity_TimeSetDelayTime": {
+              "Range": {
+                "Min": 0,
+                "Max": 43200,
+                "Step": 60,
+                "Default": 0
+              }
+            }
+          },
+          "Notification": {
+            "OvenUpperCavity_CycleSetExtraCookingTime": {
+              "Range": {
+                "Min": 0,
+                "Max": 43200,
+                "Step": 60,
+                "Default": 0
+              }
+            }
+          },
+          "Verification": {
+            
+          }
+        },
+        "OvenUpperCavity_CulinaryCtrSetId338": {
+          "Required": {
+            "OvenUpperCavity_TimeSetCookTimeSet": {
+              "Range": {
+                "Min": 2700,
+                "Max": 5400,
+                "Step": 60,
+                "Default": 2700
+              }
+            }
+          },
+          "Optional": {
+            "OvenUpperCavity_TimeSetDelayTime": {
+              "Range": {
+                "Min": 0,
+                "Max": 43200,
+                "Step": 60,
+                "Default": 0
+              }
+            }
+          },
+          "Notification": {
+            "OvenUpperCavity_CycleSetExtraCookingTime": {
+              "Range": {
+                "Min": 0,
+                "Max": 43200,
+                "Step": 60,
+                "Default": 0
+              }
+            }
+          },
+          "Verification": {
+            
+          }
+        },
+        "OvenUpperCavity_CulinaryCtrSetId339": {
+          "Required": {
+            "OvenUpperCavity_TimeSetCookTimeSet": {
+              "Range": {
+                "Min": 1500,
+                "Max": 5400,
+                "Step": 60,
+                "Default": 1500
+              }
+            }
+          },
+          "Optional": {
+            "OvenUpperCavity_TimeSetDelayTime": {
+              "Range": {
+                "Min": 0,
+                "Max": 43200,
+                "Step": 60,
+                "Default": 0
+              }
+            }
+          },
+          "Notification": {
+            "OvenUpperCavity_CycleSetExtraCookingTime": {
+              "Range": {
+                "Min": 0,
+                "Max": 43200,
+                "Step": 60,
+                "Default": 0
+              }
+            }
+          },
+          "Verification": {
+            
+          }
+        },
+        "OvenUpperCavity_CulinaryCtrSetId495": {
+          "Required": {
+            "OvenUpperCavity_TimeSetCookTimeSet": {
+              "Range": {
+                "Min": 900,
+                "Max": 5400,
+                "Step": 60,
+                "Default": 900
+              }
+            }
+          },
+          "Optional": {
+            "OvenUpperCavity_TimeSetDelayTime": {
+              "Range": {
+                "Min": 0,
+                "Max": 43200,
+                "Step": 60,
+                "Default": 0
+              }
+            }
+          },
+          "Notification": {
+            "OvenUpperCavity_CycleSetExtraCookingTime": {
+              "Range": {
+                "Min": 0,
+                "Max": 43200,
+                "Step": 60,
+                "Default": 0
+              }
+            }
+          },
+          "Verification": {
+            
+          }
+        },
+        "OvenUpperCavity_CulinaryCtrSetId392": {
+          "Required": {
+            "OvenUpperCavity_TimeSetCookTimeSet": {
+              "Range": {
+                "Min": 2100,
+                "Max": 5400,
+                "Step": 60,
+                "Default": 2100
+              }
+            }
+          },
+          "Optional": {
+            "OvenUpperCavity_TimeSetDelayTime": {
+              "Range": {
+                "Min": 0,
+                "Max": 43200,
+                "Step": 60,
+                "Default": 0
+              }
+            }
+          },
+          "Notification": {
+            "OvenUpperCavity_CycleSetExtraCookingTime": {
+              "Range": {
+                "Min": 0,
+                "Max": 43200,
+                "Step": 60,
+                "Default": 0
+              }
+            }
+          },
+          "Verification": {
+            
+          }
+        },
+        "OvenUpperCavity_CulinaryCtrSetId388": {
+          "Required": {
+            "OvenUpperCavity_TimeSetCookTimeSet": {
+              "Range": {
+                "Min": 1500,
+                "Max": 5400,
+                "Step": 60,
+                "Default": 1500
+              }
+            }
+          },
+          "Optional": {
+            "OvenUpperCavity_TimeSetDelayTime": {
+              "Range": {
+                "Min": 0,
+                "Max": 43200,
+                "Step": 60,
+                "Default": 0
+              }
+            }
+          },
+          "Notification": {
+            "OvenUpperCavity_CycleSetExtraCookingTime": {
+              "Range": {
+                "Min": 0,
+                "Max": 43200,
+                "Step": 60,
+                "Default": 0
+              }
+            }
+          },
+          "Verification": {
+            
+          }
+        },
+        "OvenUpperCavity_CulinaryCtrSetId385": {
+          "Required": {
+            "OvenUpperCavity_TimeSetCookTimeSet": {
+              "Range": {
+                "Min": 1500,
+                "Max": 5400,
+                "Step": 60,
+                "Default": 1500
+              }
+            }
+          },
+          "Optional": {
+            "OvenUpperCavity_TimeSetDelayTime": {
+              "Range": {
+                "Min": 0,
+                "Max": 43200,
+                "Step": 60,
+                "Default": 0
+              }
+            }
+          },
+          "Notification": {
+            "OvenUpperCavity_CycleSetExtraCookingTime": {
+              "Range": {
+                "Min": 0,
+                "Max": 43200,
+                "Step": 60,
+                "Default": 0
+              }
+            }
+          },
+          "Verification": {
+            
+          }
+        },
+        "OvenUpperCavity_CulinaryCtrSetId383": {
+          "Required": {
+            "OvenUpperCavity_TimeSetCookTimeSet": {
+              "Range": {
+                "Min": 1080,
+                "Max": 5400,
+                "Step": 60,
+                "Default": 1080
+              }
+            }
+          },
+          "Optional": {
+            "OvenUpperCavity_TimeSetDelayTime": {
+              "Range": {
+                "Min": 0,
+                "Max": 43200,
+                "Step": 60,
+                "Default": 0
+              }
+            }
+          },
+          "Notification": {
+            "OvenUpperCavity_CycleSetExtraCookingTime": {
+              "Range": {
+                "Min": 0,
+                "Max": 43200,
+                "Step": 60,
+                "Default": 0
+              }
+            }
+          },
+          "Verification": {
+            
+          }
+        },
+        "OvenUpperCavity_CulinaryCtrSetId386": {
+          "Required": {
+            "OvenUpperCavity_TimeSetCookTimeSet": {
+              "Range": {
+                "Min": 1200,
+                "Max": 5400,
+                "Step": 60,
+                "Default": 1200
+              }
+            }
+          },
+          "Optional": {
+            "OvenUpperCavity_TimeSetDelayTime": {
+              "Range": {
+                "Min": 0,
+                "Max": 43200,
+                "Step": 60,
+                "Default": 0
+              }
+            }
+          },
+          "Notification": {
+            "OvenUpperCavity_CycleSetExtraCookingTime": {
+              "Range": {
+                "Min": 0,
+                "Max": 43200,
+                "Step": 60,
+                "Default": 0
+              }
+            }
+          },
+          "Verification": {
+            
+          }
+        },
+        "OvenUpperCavity_CulinaryCtrSetId382": {
+          "Required": {
+            "OvenUpperCavity_TimeSetCookTimeSet": {
+              "Range": {
+                "Min": 1320,
+                "Max": 5400,
+                "Step": 60,
+                "Default": 1320
+              }
+            }
+          },
+          "Optional": {
+            "OvenUpperCavity_TimeSetDelayTime": {
+              "Range": {
+                "Min": 0,
+                "Max": 43200,
+                "Step": 60,
+                "Default": 0
+              }
+            }
+          },
+          "Notification": {
+            "OvenUpperCavity_CycleSetExtraCookingTime": {
+              "Range": {
+                "Min": 0,
+                "Max": 43200,
+                "Step": 60,
+                "Default": 0
+              }
+            }
+          },
+          "Verification": {
+            
+          }
+        },
+        "OvenUpperCavity_CulinaryCtrSetId391": {
+          "Required": {
+            "OvenUpperCavity_TimeSetCookTimeSet": {
+              "Range": {
+                "Min": 480,
+                "Max": 5400,
+                "Step": 60,
+                "Default": 480
+              }
+            }
+          },
+          "Optional": {
+            "OvenUpperCavity_TimeSetDelayTime": {
+              "Range": {
+                "Min": 0,
+                "Max": 43200,
+                "Step": 60,
+                "Default": 0
+              }
+            }
+          },
+          "Notification": {
+            "OvenUpperCavity_CycleSetExtraCookingTime": {
+              "Range": {
+                "Min": 0,
+                "Max": 43200,
+                "Step": 60,
+                "Default": 0
+              }
+            }
+          },
+          "Verification": {
+            
+          }
+        },
+        "OvenUpperCavity_CulinaryCtrSetId381": {
+          "Required": {
+            "OvenUpperCavity_TimeSetCookTimeSet": {
+              "Range": {
+                "Min": 2700,
+                "Max": 5400,
+                "Step": 60,
+                "Default": 2700
+              }
+            }
+          },
+          "Optional": {
+            "OvenUpperCavity_TimeSetDelayTime": {
+              "Range": {
+                "Min": 0,
+                "Max": 43200,
+                "Step": 60,
+                "Default": 0
+              }
+            }
+          },
+          "Notification": {
+            "OvenUpperCavity_CycleSetExtraCookingTime": {
+              "Range": {
+                "Min": 0,
+                "Max": 43200,
+                "Step": 60,
+                "Default": 0
+              }
+            }
+          },
+          "Verification": {
+            
+          }
+        },
+        "OvenUpperCavity_CulinaryCtrSetId384": {
+          "Required": {
+            "OvenUpperCavity_TimeSetCookTimeSet": {
+              "Range": {
+                "Min": 1500,
+                "Max": 5400,
+                "Step": 60,
+                "Default": 1500
+              }
+            }
+          },
+          "Optional": {
+            "OvenUpperCavity_TimeSetDelayTime": {
+              "Range": {
+                "Min": 0,
+                "Max": 43200,
+                "Step": 60,
+                "Default": 0
+              }
+            }
+          },
+          "Notification": {
+            "OvenUpperCavity_CycleSetExtraCookingTime": {
+              "Range": {
+                "Min": 0,
+                "Max": 43200,
+                "Step": 60,
+                "Default": 0
+              }
+            }
+          },
+          "Verification": {
+            
+          }
+        },
+        "OvenUpperCavity_CulinaryCtrSetId387": {
+          "Required": {
+            "OvenUpperCavity_TimeSetCookTimeSet": {
+              "Range": {
+                "Min": 1500,
+                "Max": 5400,
+                "Step": 60,
+                "Default": 1500
+              }
+            }
+          },
+          "Optional": {
+            "OvenUpperCavity_TimeSetDelayTime": {
+              "Range": {
+                "Min": 0,
+                "Max": 43200,
+                "Step": 60,
+                "Default": 0
+              }
+            }
+          },
+          "Notification": {
+            "OvenUpperCavity_CycleSetExtraCookingTime": {
+              "Range": {
+                "Min": 0,
+                "Max": 43200,
+                "Step": 60,
+                "Default": 0
+              }
+            }
+          },
+          "Verification": {
+            
+          }
+        },
+        "OvenUpperCavity_CulinaryCtrSetId366": {
+          "Required": {
+            "OvenUpperCavity_TimeSetCookTimeSet": {
+              "Range": {
+                "Min": 2100,
+                "Max": 5400,
+                "Step": 60,
+                "Default": 2100
+              }
+            }
+          },
+          "Optional": {
+            "OvenUpperCavity_TimeSetDelayTime": {
+              "Range": {
+                "Min": 0,
+                "Max": 43200,
+                "Step": 60,
+                "Default": 0
+              }
+            }
+          },
+          "Notification": {
+            "OvenUpperCavity_CycleSetExtraCookingTime": {
+              "Range": {
+                "Min": 0,
+                "Max": 43200,
+                "Step": 60,
+                "Default": 0
+              }
+            }
+          },
+          "Verification": {
+            
+          }
+        },
+        "OvenUpperCavity_CulinaryCtrSetId310": {
+          "Required": {
+            "OvenUpperCavity_TimeSetCookTimeSet": {
+              "Range": {
+                "Min": 1200,
+                "Max": 5400,
+                "Step": 60,
+                "Default": 1200
+              }
+            }
+          },
+          "Optional": {
+            "OvenUpperCavity_TimeSetDelayTime": {
+              "Range": {
+                "Min": 0,
+                "Max": 43200,
+                "Step": 60,
+                "Default": 0
+              }
+            }
+          },
+          "Notification": {
+            "OvenUpperCavity_CycleSetExtraCookingTime": {
+              "Range": {
+                "Min": 0,
+                "Max": 43200,
+                "Step": 60,
+                "Default": 0
+              }
+            }
+          },
+          "Verification": {
+            
+          }
+        },
+        "OvenUpperCavity_CulinaryCtrSetId311": {
+          "Required": {
+            "OvenUpperCavity_TimeSetCookTimeSet": {
+              "Range": {
+                "Min": 840,
+                "Max": 5400,
+                "Step": 60,
+                "Default": 840
+              }
+            }
+          },
+          "Optional": {
+            "OvenUpperCavity_TimeSetDelayTime": {
+              "Range": {
+                "Min": 0,
+                "Max": 43200,
+                "Step": 60,
+                "Default": 0
+              }
+            }
+          },
+          "Notification": {
+            "OvenUpperCavity_CycleSetExtraCookingTime": {
+              "Range": {
+                "Min": 0,
+                "Max": 43200,
+                "Step": 60,
+                "Default": 0
+              }
+            }
+          },
+          "Verification": {
+            
+          }
+        },
+        "OvenUpperCavity_CulinaryCtrSetId314": {
+          "Required": {
+            "OvenUpperCavity_TimeSetCookTimeSet": {
+              "Range": {
+                "Min": 1800,
+                "Max": 5400,
+                "Step": 60,
+                "Default": 1800
+              }
+            }
+          },
+          "Optional": {
+            "OvenUpperCavity_TimeSetDelayTime": {
+              "Range": {
+                "Min": 0,
+                "Max": 43200,
+                "Step": 60,
+                "Default": 0
+              }
+            }
+          },
+          "Notification": {
+            "OvenUpperCavity_CycleSetExtraCookingTime": {
+              "Range": {
+                "Min": 0,
+                "Max": 43200,
+                "Step": 60,
+                "Default": 0
+              }
+            }
+          },
+          "Verification": {
+            
+          }
+        },
+        "OvenUpperCavity_CulinaryCtrSetId351": {
+          "Required": {
+            "OvenUpperCavity_TimeSetCookTimeSet": {
+              "Range": {
+                "Min": 900,
+                "Max": 5400,
+                "Step": 60,
+                "Default": 900
+              }
+            }
+          },
+          "Optional": {
+            "OvenUpperCavity_TimeSetDelayTime": {
+              "Range": {
+                "Min": 0,
+                "Max": 43200,
+                "Step": 60,
+                "Default": 0
+              }
+            }
+          },
+          "Notification": {
+            "OvenUpperCavity_CycleSetExtraCookingTime": {
+              "Range": {
+                "Min": 0,
+                "Max": 43200,
+                "Step": 60,
+                "Default": 0
+              }
+            }
+          },
+          "Verification": {
+            
+          }
+        },
+        "OvenUpperCavity_CulinaryCtrSetId353": {
+          "Required": {
+            "OvenUpperCavity_TimeSetCookTimeSet": {
+              "Range": {
+                "Min": 600,
+                "Max": 5400,
+                "Step": 60,
+                "Default": 600
+              }
+            }
+          },
+          "Optional": {
+            "OvenUpperCavity_TimeSetDelayTime": {
+              "Range": {
+                "Min": 0,
+                "Max": 43200,
+                "Step": 60,
+                "Default": 0
+              }
+            }
+          },
+          "Notification": {
+            "OvenUpperCavity_CycleSetExtraCookingTime": {
+              "Range": {
+                "Min": 0,
+                "Max": 43200,
+                "Step": 60,
+                "Default": 0
+              }
+            }
+          },
+          "Verification": {
+            
+          }
+        },
+        "OvenUpperCavity_CulinaryCtrSetId352": {
+          "Required": {
+            "OvenUpperCavity_TimeSetCookTimeSet": {
+              "Range": {
+                "Min": 900,
+                "Max": 5400,
+                "Step": 60,
+                "Default": 900
+              }
+            }
+          },
+          "Optional": {
+            "OvenUpperCavity_TimeSetDelayTime": {
+              "Range": {
+                "Min": 0,
+                "Max": 43200,
+                "Step": 60,
+                "Default": 0
+              }
+            }
+          },
+          "Notification": {
+            "OvenUpperCavity_CycleSetExtraCookingTime": {
+              "Range": {
+                "Min": 0,
+                "Max": 43200,
+                "Step": 60,
+                "Default": 0
+              }
+            }
+          },
+          "Verification": {
+            
+          }
+        },
+        "OvenUpperCavity_CulinaryCtrSetId350": {
+          "Required": {
+            "OvenUpperCavity_TimeSetCookTimeSet": {
+              "Range": {
+                "Min": 480,
+                "Max": 5400,
+                "Step": 60,
+                "Default": 480
+              }
+            }
+          },
+          "Optional": {
+            "OvenUpperCavity_TimeSetDelayTime": {
+              "Range": {
+                "Min": 0,
+                "Max": 43200,
+                "Step": 60,
+                "Default": 0
+              }
+            }
+          },
+          "Notification": {
+            "OvenUpperCavity_CycleSetExtraCookingTime": {
+              "Range": {
+                "Min": 0,
+                "Max": 43200,
+                "Step": 60,
+                "Default": 0
+              }
+            }
+          },
+          "Verification": {
+            
+          }
+        },
+        "OvenUpperCavity_CulinaryCtrSetId322": {
+          "Required": {
+            "OvenUpperCavity_TimeSetCookTimeSet": {
+              "Range": {
+                "Min": 2400,
+                "Max": 5400,
+                "Step": 60,
+                "Default": 2400
+              }
+            }
+          },
+          "Optional": {
+            "OvenUpperCavity_TimeSetDelayTime": {
+              "Range": {
+                "Min": 0,
+                "Max": 43200,
+                "Step": 60,
+                "Default": 0
+              }
+            }
+          },
+          "Notification": {
+            "OvenUpperCavity_CycleSetExtraCookingTime": {
+              "Range": {
+                "Min": 0,
+                "Max": 43200,
+                "Step": 60,
+                "Default": 0
+              }
+            }
+          },
+          "Verification": {
+            
+          }
+        },
+        "OvenUpperCavity_CulinaryCtrSetId316": {
+          "Required": {
+            "OvenUpperCavity_TimeSetCookTimeSet": {
+              "Range": {
+                "Min": 720,
+                "Max": 5400,
+                "Step": 60,
+                "Default": 720
+              }
+            }
+          },
+          "Optional": {
+            "OvenUpperCavity_TimeSetDelayTime": {
+              "Range": {
+                "Min": 0,
+                "Max": 43200,
+                "Step": 60,
+                "Default": 0
+              }
+            }
+          },
+          "Notification": {
+            "OvenUpperCavity_CycleSetExtraCookingTime": {
+              "Range": {
+                "Min": 0,
+                "Max": 43200,
+                "Step": 60,
+                "Default": 0
+              }
+            }
+          },
+          "Verification": {
+            
+          }
+        },
+        "OvenUpperCavity_CulinaryCtrSetId329": {
+          "Required": {
+            "OvenUpperCavity_TimeSetCookTimeSet": {
+              "Range": {
+                "Min": 780,
+                "Max": 5400,
+                "Step": 60,
+                "Default": 780
+              }
+            }
+          },
+          "Optional": {
+            "OvenUpperCavity_TimeSetDelayTime": {
+              "Range": {
+                "Min": 0,
+                "Max": 43200,
+                "Step": 60,
+                "Default": 0
+              }
+            }
+          },
+          "Notification": {
+            "OvenUpperCavity_CycleSetExtraCookingTime": {
+              "Range": {
+                "Min": 0,
+                "Max": 43200,
+                "Step": 60,
+                "Default": 0
+              }
+            }
+          },
+          "Verification": {
+            
+          }
+        },
+        "OvenUpperCavity_CulinaryCtrSetId328": {
+          "Required": {
+            "OvenUpperCavity_TimeSetCookTimeSet": {
+              "Range": {
+                "Min": 960,
+                "Max": 5400,
+                "Step": 60,
+                "Default": 960
+              }
+            }
+          },
+          "Optional": {
+            "OvenUpperCavity_TimeSetDelayTime": {
+              "Range": {
+                "Min": 0,
+                "Max": 43200,
+                "Step": 60,
+                "Default": 0
+              }
+            }
+          },
+          "Notification": {
+            "OvenUpperCavity_CycleSetExtraCookingTime": {
+              "Range": {
+                "Min": 0,
+                "Max": 43200,
+                "Step": 60,
+                "Default": 0
+              }
+            }
+          },
+          "Verification": {
+            
+          }
+        },
+        "OvenUpperCavity_CulinaryCtrSetId330": {
+          "Required": {
+            "OvenUpperCavity_TimeSetCookTimeSet": {
+              "Range": {
+                "Min": 600,
+                "Max": 5400,
+                "Step": 60,
+                "Default": 600
+              }
+            }
+          },
+          "Optional": {
+            "OvenUpperCavity_TimeSetDelayTime": {
+              "Range": {
+                "Min": 0,
+                "Max": 43200,
+                "Step": 60,
+                "Default": 0
+              }
+            }
+          },
+          "Notification": {
+            "OvenUpperCavity_CycleSetExtraCookingTime": {
+              "Range": {
+                "Min": 0,
+                "Max": 43200,
+                "Step": 60,
+                "Default": 0
+              }
+            }
+          },
+          "Verification": {
+            
+          }
+        },
+        "OvenUpperCavity_CulinaryCtrSetId325": {
+          "Required": {
+            "OvenUpperCavity_TimeSetCookTimeSet": {
+              "Range": {
+                "Min": 1200,
+                "Max": 5400,
+                "Step": 60,
+                "Default": 1200
+              }
+            }
+          },
+          "Optional": {
+            "OvenUpperCavity_TimeSetDelayTime": {
+              "Range": {
+                "Min": 0,
+                "Max": 43200,
+                "Step": 60,
+                "Default": 0
+              }
+            }
+          },
+          "Notification": {
+            "OvenUpperCavity_CycleSetExtraCookingTime": {
+              "Range": {
+                "Min": 0,
+                "Max": 43200,
+                "Step": 60,
+                "Default": 0
+              }
+            }
+          },
+          "Verification": {
+            
+          }
+        },
+        "OvenUpperCavity_CulinaryCtrSetId327": {
+          "Required": {
+            "OvenUpperCavity_TimeSetCookTimeSet": {
+              "Range": {
+                "Min": 720,
+                "Max": 5400,
+                "Step": 60,
+                "Default": 720
+              }
+            }
+          },
+          "Optional": {
+            "OvenUpperCavity_TimeSetDelayTime": {
+              "Range": {
+                "Min": 0,
+                "Max": 43200,
+                "Step": 60,
+                "Default": 0
+              }
+            }
+          },
+          "Notification": {
+            "OvenUpperCavity_CycleSetExtraCookingTime": {
+              "Range": {
+                "Min": 0,
+                "Max": 43200,
+                "Step": 60,
+                "Default": 0
+              }
+            }
+          },
+          "Verification": {
+            
+          }
+        },
+        "OvenUpperCavity_CulinaryCtrSetId317": {
+          "Required": {
+            "OvenUpperCavity_TimeSetCookTimeSet": {
+              "Range": {
+                "Min": 1800,
+                "Max": 5400,
+                "Step": 60,
+                "Default": 1800
+              }
+            }
+          },
+          "Optional": {
+            "OvenUpperCavity_TimeSetDelayTime": {
+              "Range": {
+                "Min": 0,
+                "Max": 43200,
+                "Step": 60,
+                "Default": 0
+              }
+            }
+          },
+          "Notification": {
+            "OvenUpperCavity_CycleSetExtraCookingTime": {
+              "Range": {
+                "Min": 0,
+                "Max": 43200,
+                "Step": 60,
+                "Default": 0
+              }
+            }
+          },
+          "Verification": {
+            
+          }
+        },
+        "OvenUpperCavity_CulinaryCtrSetId318": {
+          "Required": {
+            "OvenUpperCavity_TimeSetCookTimeSet": {
+              "Range": {
+                "Min": 900,
+                "Max": 5400,
+                "Step": 60,
+                "Default": 900
+              }
+            }
+          },
+          "Optional": {
+            "OvenUpperCavity_TimeSetDelayTime": {
+              "Range": {
+                "Min": 0,
+                "Max": 43200,
+                "Step": 60,
+                "Default": 0
+              }
+            }
+          },
+          "Notification": {
+            "OvenUpperCavity_CycleSetExtraCookingTime": {
+              "Range": {
+                "Min": 0,
+                "Max": 43200,
+                "Step": 60,
+                "Default": 0
+              }
+            }
+          },
+          "Verification": {
+            
+          }
+        },
+        "OvenUpperCavity_CulinaryCtrSetId320": {
+          "Required": {
+            "OvenUpperCavity_TimeSetCookTimeSet": {
+              "Range": {
+                "Min": 1020,
+                "Max": 5400,
+                "Step": 60,
+                "Default": 1020
+              }
+            }
+          },
+          "Optional": {
+            "OvenUpperCavity_TimeSetDelayTime": {
+              "Range": {
+                "Min": 0,
+                "Max": 43200,
+                "Step": 60,
+                "Default": 0
+              }
+            }
+          },
+          "Notification": {
+            "OvenUpperCavity_CycleSetExtraCookingTime": {
+              "Range": {
+                "Min": 0,
+                "Max": 43200,
+                "Step": 60,
+                "Default": 0
+              }
+            }
+          },
+          "Verification": {
+            
+          }
+        }
+      },
+      "SetCycle": {
+        "eMEAManualFunctions": {
+          "OvenUpperCavity_CycleSetCommonModeCommonModeSteam": {
+            "Name": "modeEMEASAUNASteam",
+            "Attributes": {
+              "OvenUpperCavity_CycleSetCommonMode": [
+                "CommonModeSteam"
+              ]
+            }
+          },
+          "OvenUpperCavity_CycleSetCommonModeCommonModeTrueConvect": {
+            "Name": "modeEMEASAUNAForcedAir",
+            "Attributes": {
+              "OvenUpperCavity_CycleSetCommonMode": [
+                "CommonModeTrueConvect"
+              ]
+            }
+          },
+          "OvenUpperCavity_CycleSetCommonModeCommonModeSteamForcedAir": {
+            "Name": "modeEMEASAUNAForcedAirSteam",
+            "Attributes": {
+              "OvenUpperCavity_CycleSetCommonMode": [
+                "CommonModeSteamForcedAir"
+              ]
+            }
+          },
+          "modeCatEMEASAUNASPECIALFUNCTIONS": {
+            "OvenUpperCavity_CycleSetSteamBakeFoodSteamBakeFoodDefrost": {
+              "Name": "modeEMEASAUNASPECIALFUNCTIONSSteamDefrost",
+              "Attributes": {
+                "OvenUpperCavity_CycleSetSteamBakeFood": [
+                  "SteamBakeFoodDefrost"
+                ]
+              }
+            },
+            "OvenUpperCavity_CycleSetSteamBakeFoodSteamBakeFoodReheat": {
+              "Name": "modeEMEASAUNASPECIALFUNCTIONSSteamReheat",
+              "Attributes": {
+                "OvenUpperCavity_CycleSetSteamBakeFood": [
+                  "SteamBakeFoodReheat"
+                ]
+              }
+            },
+            "OvenUpperCavity_CycleSetCommonModeCommonModeBreadProof": {
+              "Name": "modeEMEASAUNASPECIALFUNCTIONSRising",
+              "Attributes": {
+                "OvenUpperCavity_CycleSetCommonMode": [
+                  "CommonModeBreadProof"
+                ]
+              }
+            },
+            "OvenUpperCavity_CycleSetCommonModeCommonModeDehydration": {
+              "Name": "modeEMEASAUNASPECIALFUNCTIONSPreservation",
+              "Attributes": {
+                "OvenUpperCavity_CycleSetCommonMode": [
+                  "CommonModeDehydration"
+                ]
+              }
+            },
+            "OvenUpperCavity_CycleSetCommonModeCommonModeYogurt": {
+              "Name": "modeEMEASAUNASPECIALFUNCTIONSYogurth",
+              "Attributes": {
+                "OvenUpperCavity_CycleSetCommonMode": [
+                  "CommonModeYogurt"
+                ]
+              }
+            },
+            "OvenUpperCavity_CycleSetCommonModeCommonModeSanitization": {
+              "Name": "modeEMEASAUNASPECIALFUNCTIONSDisinfection",
+              "Attributes": {
+                "OvenUpperCavity_CycleSetCommonMode": [
+                  "CommonModeSanitization"
+                ]
+              }
+            },
+            "OvenUpperCavity_CycleSetCommonModeCommonModeFinishing": {
+              "Name": "modeEMEASAUNASPECIALFUNCTIONSFinishing",
+              "Attributes": {
+                "OvenUpperCavity_CycleSetCommonMode": [
+                  "CommonModeFinishing"
+                ]
               }
             }
           }
         },
-        "Version": 1.1,
-        "RelationalHexConversion": {
-          "EncodingVersion": 2
+        "eMEA6thSenseFunctions": {
+          "foodCatEMEASAUNACASSEROLEBAKEDPASTA": {
+            "OvenUpperCavity_CulinaryCtrSetId323": {
+              "Name": "foodEMEASAUNACASSEROLEBAKEDPASTALasagna",
+              "Attributes": {
+                "OvenUpperCavity_CulinaryCtrSetId": [
+                  "323"
+                ]
+              }
+            },
+            "OvenUpperCavity_CulinaryCtrSetId324": {
+              "Name": "foodEMEASAUNACASSEROLEBAKEDPASTALasagnafrozen",
+              "Attributes": {
+                "OvenUpperCavity_CulinaryCtrSetId": [
+                  "324"
+                ]
+              }
+            }
+          },
+          "foodCatEMEASAUNARICECEREALS": {
+            "OvenUpperCavity_CulinaryCtrSetId355": {
+              "Name": "foodEMEASAUNARICECEREALSBrownRice",
+              "Attributes": {
+                "OvenUpperCavity_CulinaryCtrSetId": [
+                  "355"
+                ]
+              }
+            },
+            "OvenUpperCavity_CulinaryCtrSetId354": {
+              "Name": "foodEMEASAUNARICECEREALSBasmatiRice",
+              "Attributes": {
+                "OvenUpperCavity_CulinaryCtrSetId": [
+                  "354"
+                ]
+              }
+            },
+            "OvenUpperCavity_CulinaryCtrSetId356": {
+              "Name": "foodEMEASAUNARICECEREALSBurghul",
+              "Attributes": {
+                "OvenUpperCavity_CulinaryCtrSetId": [
+                  "356"
+                ]
+              }
+            },
+            "OvenUpperCavity_CulinaryCtrSetId357": {
+              "Name": "foodEMEASAUNARICECEREALSCousCous",
+              "Attributes": {
+                "OvenUpperCavity_CulinaryCtrSetId": [
+                  "357"
+                ]
+              }
+            }
+          },
+          "foodCatEMEASAUNAMEAT": {
+            "OvenUpperCavity_CulinaryCtrSetId341": {
+              "Name": "foodEMEASAUNAMEATChickenPieces",
+              "Attributes": {
+                "OvenUpperCavity_CulinaryCtrSetId": [
+                  "341"
+                ]
+              }
+            },
+            "OvenUpperCavity_CulinaryCtrSetId340": {
+              "Name": "foodEMEASAUNAMEATChickenFilletsSteamed",
+              "Attributes": {
+                "OvenUpperCavity_CulinaryCtrSetId": [
+                  "340"
+                ]
+              }
+            },
+            "OvenUpperCavity_CulinaryCtrSetId342": {
+              "Name": "foodEMEASAUNAMEATHotDog",
+              "Attributes": {
+                "OvenUpperCavity_CulinaryCtrSetId": [
+                  "342"
+                ]
+              }
+            },
+            "OvenUpperCavity_CulinaryCtrSetId343": {
+              "Name": "foodEMEASAUNAMEATMeatLoaf",
+              "Attributes": {
+                "OvenUpperCavity_CulinaryCtrSetId": [
+                  "343"
+                ]
+              }
+            }
+          },
+          "foodCatSAUNAFISHSEAFOOD": {
+            "OvenUpperCavity_CulinaryCtrSetId336": {
+              "Name": "foodEMEASAUNAFISHSteamedFishFillets",
+              "Attributes": {
+                "OvenUpperCavity_CulinaryCtrSetId": [
+                  "336"
+                ]
+              }
+            },
+            "OvenUpperCavity_CulinaryCtrSetId335": {
+              "Name": "foodEMEASAUNAFISHSteamedFishCutlets",
+              "Attributes": {
+                "OvenUpperCavity_CulinaryCtrSetId": [
+                  "335"
+                ]
+              }
+            },
+            "OvenUpperCavity_CulinaryCtrSetId331": {
+              "Name": "foodEMEASAUNAFISHFishGratinfrozen",
+              "Attributes": {
+                "OvenUpperCavity_CulinaryCtrSetId": [
+                  "331"
+                ]
+              }
+            },
+            "OvenUpperCavity_CulinaryCtrSetId332": {
+              "Name": "foodEMEASAUNAFISHMussels",
+              "Attributes": {
+                "OvenUpperCavity_CulinaryCtrSetId": [
+                  "332"
+                ]
+              }
+            },
+            "OvenUpperCavity_CulinaryCtrSetId334": {
+              "Name": "foodEMEASAUNAFISHShrimps",
+              "Attributes": {
+                "OvenUpperCavity_CulinaryCtrSetId": [
+                  "334"
+                ]
+              }
+            }
+          },
+          "foodCatEMEASAUNAVEGETABLES": {
+            "foodCatEMEASAUNAROASTEDVEGETABLES": {
+              "OvenUpperCavity_CulinaryCtrSetId361": {
+                "Name": "foodEMEASAUNAROASTEDVEGETABLESRoastedPotatoes",
+                "Attributes": {
+                  "OvenUpperCavity_CulinaryCtrSetId": [
+                    "361"
+                  ]
+                }
+              },
+              "OvenUpperCavity_CulinaryCtrSetId359": {
+                "Name": "foodEMEASAUNAROASTEDVEGETABLESFrenchFriesfrozen",
+                "Attributes": {
+                  "OvenUpperCavity_CulinaryCtrSetId": [
+                    "359"
+                  ]
+                }
+              },
+              "OvenUpperCavity_CulinaryCtrSetId363": {
+                "Name": "foodEMEASAUNAROASTEDVEGETABLESStuffedPeppers",
+                "Attributes": {
+                  "OvenUpperCavity_CulinaryCtrSetId": [
+                    "363"
+                  ]
+                }
+              },
+              "OvenUpperCavity_CulinaryCtrSetId365": {
+                "Name": "foodEMEASAUNAROASTEDVEGETABLESStuffedTomatoes",
+                "Attributes": {
+                  "OvenUpperCavity_CulinaryCtrSetId": [
+                    "365"
+                  ]
+                }
+              }
+            },
+            "foodCatEMEASAUNAGRATINVEGETABLES": {
+              "OvenUpperCavity_CulinaryCtrSetId338": {
+                "Name": "foodEMEASAUNAGRATINVEGETABLESPotatoesGratin",
+                "Attributes": {
+                  "OvenUpperCavity_CulinaryCtrSetId": [
+                    "338"
+                  ]
+                }
+              },
+              "OvenUpperCavity_CulinaryCtrSetId339": {
+                "Name": "foodEMEASAUNAGRATINVEGETABLESVegetablesGratinfrozen",
+                "Attributes": {
+                  "OvenUpperCavity_CulinaryCtrSetId": [
+                    "339"
+                  ]
+                }
+              }
+            },
+            "foodCatEMEASAUNASTEAMEDVEGETABLES": {
+              "OvenUpperCavity_CulinaryCtrSetId495": {
+                "Name": "foodEMEASAUNASTEAMEDVEGETABLESSteamedVegetablesfrozen",
+                "Attributes": {
+                  "OvenUpperCavity_CulinaryCtrSetId": [
+                    "495"
+                  ]
+                }
+              },
+              "OvenUpperCavity_CulinaryCtrSetId392": {
+                "Name": "foodEMEASAUNASTEAMEDVEGETABLESWholePotatoes",
+                "Attributes": {
+                  "OvenUpperCavity_CulinaryCtrSetId": [
+                    "392"
+                  ]
+                }
+              },
+              "OvenUpperCavity_CulinaryCtrSetId388": {
+                "Name": "foodEMEASAUNASTEAMEDVEGETABLESPeas",
+                "Attributes": {
+                  "OvenUpperCavity_CulinaryCtrSetId": [
+                    "388"
+                  ]
+                }
+              },
+              "OvenUpperCavity_CulinaryCtrSetId385": {
+                "Name": "foodEMEASAUNASTEAMEDVEGETABLESCarrots",
+                "Attributes": {
+                  "OvenUpperCavity_CulinaryCtrSetId": [
+                    "385"
+                  ]
+                }
+              },
+              "OvenUpperCavity_CulinaryCtrSetId383": {
+                "Name": "foodEMEASAUNASTEAMEDVEGETABLESBroccoli",
+                "Attributes": {
+                  "OvenUpperCavity_CulinaryCtrSetId": [
+                    "383"
+                  ]
+                }
+              },
+              "OvenUpperCavity_CulinaryCtrSetId386": {
+                "Name": "foodEMEASAUNASTEAMEDVEGETABLESCauliflower",
+                "Attributes": {
+                  "OvenUpperCavity_CulinaryCtrSetId": [
+                    "386"
+                  ]
+                }
+              },
+              "OvenUpperCavity_CulinaryCtrSetId382": {
+                "Name": "foodEMEASAUNASTEAMEDVEGETABLESAsparagus",
+                "Attributes": {
+                  "OvenUpperCavity_CulinaryCtrSetId": [
+                    "382"
+                  ]
+                }
+              },
+              "OvenUpperCavity_CulinaryCtrSetId391": {
+                "Name": "foodEMEASAUNASTEAMEDVEGETABLESSquash",
+                "Attributes": {
+                  "OvenUpperCavity_CulinaryCtrSetId": [
+                    "391"
+                  ]
+                }
+              },
+              "OvenUpperCavity_CulinaryCtrSetId381": {
+                "Name": "foodEMEASAUNASTEAMEDVEGETABLESArtichokes",
+                "Attributes": {
+                  "OvenUpperCavity_CulinaryCtrSetId": [
+                    "381"
+                  ]
+                }
+              },
+              "OvenUpperCavity_CulinaryCtrSetId384": {
+                "Name": "foodEMEASAUNASTEAMEDVEGETABLESBrusselSprouts",
+                "Attributes": {
+                  "OvenUpperCavity_CulinaryCtrSetId": [
+                    "384"
+                  ]
+                }
+              },
+              "OvenUpperCavity_CulinaryCtrSetId387": {
+                "Name": "foodEMEASAUNASTEAMEDVEGETABLESCornonCob",
+                "Attributes": {
+                  "OvenUpperCavity_CulinaryCtrSetId": [
+                    "387"
+                  ]
+                }
+              }
+            }
+          },
+          "foodCatEMEASAUNASALTYCAKES": {
+            "OvenUpperCavity_CulinaryCtrSetId366": {
+              "Name": "foodEMEASAUNASALTYCAKESQuicheLorraine",
+              "Attributes": {
+                "OvenUpperCavity_CulinaryCtrSetId": [
+                  "366"
+                ]
+              }
+            }
+          },
+          "foodCatEMEASAUNABREAD": {
+            "OvenUpperCavity_CulinaryCtrSetId310": {
+              "Name": "foodEMEASAUNABREADRolls",
+              "Attributes": {
+                "OvenUpperCavity_CulinaryCtrSetId": [
+                  "310"
+                ]
+              }
+            },
+            "OvenUpperCavity_CulinaryCtrSetId311": {
+              "Name": "foodEMEASAUNABREADRollsfrozen",
+              "Attributes": {
+                "OvenUpperCavity_CulinaryCtrSetId": [
+                  "311"
+                ]
+              }
+            },
+            "OvenUpperCavity_CulinaryCtrSetId314": {
+              "Name": "foodEMEASAUNABREADSandwichLoafInTin",
+              "Attributes": {
+                "OvenUpperCavity_CulinaryCtrSetId": [
+                  "314"
+                ]
+              }
+            }
+          },
+          "foodCatEMEASAUNAPIZZA": {
+            "OvenUpperCavity_CulinaryCtrSetId351": {
+              "Name": "foodEMEASAUNAPIZZAPizza",
+              "Attributes": {
+                "OvenUpperCavity_CulinaryCtrSetId": [
+                  "351"
+                ]
+              }
+            },
+            "OvenUpperCavity_CulinaryCtrSetId353": {
+              "Name": "foodEMEASAUNAPIZZAThinPizzafrozen",
+              "Attributes": {
+                "OvenUpperCavity_CulinaryCtrSetId": [
+                  "353"
+                ]
+              }
+            },
+            "OvenUpperCavity_CulinaryCtrSetId352": {
+              "Name": "foodEMEASAUNAPIZZAThickPizzafrozen",
+              "Attributes": {
+                "OvenUpperCavity_CulinaryCtrSetId": [
+                  "352"
+                ]
+              }
+            },
+            "OvenUpperCavity_CulinaryCtrSetId350": {
+              "Name": "foodEMEASAUNAPIZZAChilledPizza",
+              "Attributes": {
+                "OvenUpperCavity_CulinaryCtrSetId": [
+                  "350"
+                ]
+              }
+            }
+          },
+          "foodCatEMEASAUNACAKESPASTRIES": {
+            "OvenUpperCavity_CulinaryCtrSetId322": {
+              "Name": "foodEMEASAUNACAKESPASTRIESSpongeCakeInTin",
+              "Attributes": {
+                "OvenUpperCavity_CulinaryCtrSetId": [
+                  "322"
+                ]
+              }
+            },
+            "OvenUpperCavity_CulinaryCtrSetId316": {
+              "Name": "foodEMEASAUNACAKESPASTRIESCookies",
+              "Attributes": {
+                "OvenUpperCavity_CulinaryCtrSetId": [
+                  "316"
+                ]
+              }
+            },
+            "OvenUpperCavity_CulinaryCtrSetId317": {
+              "Name": "foodEMEASAUNACAKESPASTRIESFruitPie",
+              "Attributes": {
+                "OvenUpperCavity_CulinaryCtrSetId": [
+                  "317"
+                ]
+              }
+            },
+            "OvenUpperCavity_CulinaryCtrSetId318": {
+              "Name": "foodEMEASAUNACAKESPASTRIESFruitPiefrozen",
+              "Attributes": {
+                "OvenUpperCavity_CulinaryCtrSetId": [
+                  "318"
+                ]
+              }
+            },
+            "OvenUpperCavity_CulinaryCtrSetId320": {
+              "Name": "foodEMEASAUNACAKESPASTRIESMuffins",
+              "Attributes": {
+                "OvenUpperCavity_CulinaryCtrSetId": [
+                  "320"
+                ]
+              }
+            }
+          },
+          "foodCatEMEASAUNADESSERTS": {
+            "OvenUpperCavity_CulinaryCtrSetId325": {
+              "Name": "foodEMEASAUNADESSERTSBakedApples",
+              "Attributes": {
+                "OvenUpperCavity_CulinaryCtrSetId": [
+                  "325"
+                ]
+              }
+            },
+            "OvenUpperCavity_CulinaryCtrSetId327": {
+              "Name": "foodEMEASAUNADESSERTSFruitCompote",
+              "Attributes": {
+                "OvenUpperCavity_CulinaryCtrSetId": [
+                  "327"
+                ]
+              }
+            }
+          },
+          "foodCatEMEASAUNAEGGS": {
+            "OvenUpperCavity_CulinaryCtrSetId329": {
+              "Name": "foodEMEASAUNAEGGSMediumEgg",
+              "Attributes": {
+                "OvenUpperCavity_CulinaryCtrSetId": [
+                  "329"
+                ]
+              }
+            },
+            "OvenUpperCavity_CulinaryCtrSetId328": {
+              "Name": "foodEMEASAUNAEGGSHardEgg",
+              "Attributes": {
+                "OvenUpperCavity_CulinaryCtrSetId": [
+                  "328"
+                ]
+              }
+            },
+            "OvenUpperCavity_CulinaryCtrSetId330": {
+              "Name": "foodEMEASAUNAEGGSSoftEgg",
+              "Attributes": {
+                "OvenUpperCavity_CulinaryCtrSetId": [
+                  "330"
+                ]
+              }
+            }
+          }
+        },
+        "Default": "OvenUpperCavity_CycleSetCommonModeCommonModeSteam"
+      }
+    }
+  },
+
+  "Features": {
+      "Common": {
+       
+        "ControlLock": {
+          "Visible": true,
+          "AvailableIn": [
+            "US",
+            "CA"
+          ],
+          "StateAttributes": {
+            "State": "Sys_OperationSetControlLock"
+          }
+        }
+      },
+      "OvenUpperCavity": {
+        "SetOven": {
+          "Visible": true,
+          "AvailableIn": [
+            "US",
+            "CA"
+          ],
+          "StateAttributes": {
+            "State": "OvenUpperCavity_OpStatusState"
+          },
+          "StatusAttributes": [
+          ],
+          "SendCommandAttributes": [
+            "OvenUpperCavity_CycleSetTargetTemp",
+            "OvenUpperCavity_TimeSetCookTimeSet",
+            "OvenUpperCavity_TimeSetDelayTime",
+            "OvenUpperCavity_CycleSetPreheatOn",
+            "OvenUpperCavity_CycleSetSteamLevel"
+          ],
+          "SetOperationsMapping": {
+            "Operation": "OvenUpperCavity_OpSetOperations",
+            "CookTime": "OvenUpperCavity_TimeSetCookTimeSet",
+            "CookTemp": "OvenUpperCavity_CycleSetTargetTemp"
+          }
+        },
+        "CyclesHistory": {
+          "Visible": true,
+          "AvailableIn": [
+            "US",
+            "CA"
+          ]
         }
       }
-    ]
+    },
+      "Rulesets": {
+    }
   },
   "Alerts": {
-    "Key": "DDM_COOKING_BIO_SAUNA_TOURMALINE_V1",
+    "Key": "DDM_Cooking_Minerva_Combo_V1",
     "Alerts": [
       {
         "ApplianceAlerts": [
           {
-            "alertId": 1128,
+            "alertId": 64,
             "name": "PreheatComplete",
-            "attribute": "Sys_AlertStatusNotification",
+            "attribute": "LowerCavity_CavityEventNotification",
             "type": "push",
-            "category": "Cooking",
+            "category": "",
             "autodelete": false,
             "autodisarm": false,
             "autodisable": false,
@@ -4267,23 +4746,11 @@
             "enable": true
           },
           {
-            "alertId": 1131,
-            "name": "CookModeChanged",
-            "attribute": "OvenUpperCavity_CycleSetCommonMode",
+            "alertId": 66,
+            "name": "Preheat25",
+            "attribute": "LowerCavity_CavityEventNotification",
             "type": "push",
-            "category": "Cooking",
-            "autodelete": false,
-            "autodisarm": false,
-            "autodisable": false,
-            "visible": true,
-            "enable": true
-          },
-          {
-            "alertId": 1136,
-            "name": "CookTargetTempChanged",
-            "attribute": "OvenUpperCavity_CycleSetTargetTemp",
-            "type": "push",
-            "category": "Cooking",
+            "category": "",
             "autodelete": false,
             "autodisarm": false,
             "autodisable": false,
@@ -4291,11 +4758,11 @@
             "enable": false
           },
           {
-            "alertId": 1139,
+            "alertId": 67,
             "name": "CookTimeComplete",
-            "attribute": "OvenUpperCavity_OpStatusCookTimeState",
+            "attribute": "LowerCavity_CavityEventNotification",
             "type": "push",
-            "category": "Cooking",
+            "category": "",
             "autodelete": false,
             "autodisarm": false,
             "autodisable": false,
@@ -4303,11 +4770,35 @@
             "enable": true
           },
           {
-            "alertId": 1140,
+            "alertId": 68,
+            "name": "MeatProbeTempAchieved",
+            "attribute": "LowerCavity_CavityEventNotification",
+            "type": "push",
+            "category": "",
+            "autodelete": false,
+            "autodisarm": false,
+            "autodisable": false,
+            "visible": true,
+            "enable": true
+          },
+          {
+            "alertId": 69,
+            "name": "MeatProbeTargetChanged",
+            "attribute": "LowerCavity_CavityEventNotification",
+            "type": "push",
+            "category": "",
+            "autodelete": false,
+            "autodisarm": false,
+            "autodisable": false,
+            "visible": true,
+            "enable": false
+          },
+          {
+            "alertId": 70,
             "name": "CookTimerChanged",
-            "attribute": "OvenUpperCavity_TimeSetCookTimeSet",
+            "attribute": "LowerCavity_CavityEventNotification",
             "type": "push",
-            "category": "Cooking",
+            "category": "",
             "autodelete": false,
             "autodisarm": false,
             "autodisable": false,
@@ -4315,35 +4806,95 @@
             "enable": false
           },
           {
-            "alertId": 1145,
+            "alertId": 67,
+            "name": "CookTimeCompleteReminder",
+            "attribute": "LowerCavity_CavityEventNotification",
+            "type": "push",
+            "category": "",
+            "autodelete": false,
+            "autodisarm": false,
+            "autodisable": false,
+            "visible": true,
+            "enable": true
+          },
+          {
+            "alertId": 72,
+            "name": "CookCycleCancelled",
+            "attribute": "LowerCavity_CavityEventNotification",
+            "type": "push",
+            "category": "",
+            "autodelete": false,
+            "autodisarm": false,
+            "autodisable": false,
+            "visible": true,
+            "enable": false
+          },
+          {
+            "alertId": 73,
+            "name": "CookModeChanged",
+            "attribute": "LowerCavity_CavityEventNotification",
+            "type": "push",
+            "category": "",
+            "autodelete": false,
+            "autodisarm": false,
+            "autodisable": false,
+            "visible": true,
+            "enable": false
+          },
+          {
+            "alertId": 74,
+            "name": "CookTargetTempChanged",
+            "attribute": "LowerCavity_CavityEventNotification",
+            "type": "push",
+            "category": "",
+            "autodelete": false,
+            "autodisarm": false,
+            "autodisable": false,
+            "visible": true,
+            "enable": false
+          },
+          {
+            "alertId": 75,
+            "name": "SelfCleanComplete",
+            "attribute": "LowerCavity_CavityEventNotification",
+            "type": "push",
+            "category": "",
+            "autodelete": false,
+            "autodisarm": false,
+            "autodisable": false,
+            "visible": true,
+            "enable": true
+          },
+          {
+            "alertId": 57,
+            "name": "ControlLock",
+            "attribute": "SystemSettings_ControlLock",
+            "type": "push",
+            "category": "",
+            "autodelete": false,
+            "autodisarm": false,
+            "autodisable": false,
+            "visible": true,
+            "enable": false
+          },
+          {
+            "alertId": 59,
+            "name": "KitchenTimerEventNotification",
+            "attribute": "KitchenTimer1_TimerEventNotification",
+            "type": "push",
+            "category": "",
+            "autodelete": false,
+            "autodisarm": false,
+            "autodisable": false,
+            "visible": true,
+            "enable": false
+          },
+          {
+            "alertId": 60,
             "name": "RemoteStatus",
-            "attribute": "XCat_RemoteSetRemoteControlEnable",
+            "attribute": "Appliance_RemoteEnabledStatus",
             "type": "push",
-            "category": "Cooking",
-            "autodelete": false,
-            "autodisarm": false,
-            "autodisable": false,
-            "visible": true,
-            "enable": true
-          },
-          {
-            "alertId": 1146,
-            "name": "FlipTime",
-            "attribute": "Sys_AlertStatusNotification",
-            "type": "push",
-            "category": "Cooking",
-            "autodelete": false,
-            "autodisarm": false,
-            "autodisable": false,
-            "visible": true,
-            "enable": true
-          },
-          {
-            "alertId": 1149,
-            "name": "CookTimeAlmostComplete",
-            "attribute": "Sys_AlertStatusNotification",
-            "type": "push",
-            "category": "Cooking",
+            "category": "",
             "autodelete": false,
             "autodisarm": false,
             "autodisable": false,
@@ -4351,23 +4902,35 @@
             "enable": false
           },
           {
-            "alertId": 1152,
-            "name": "SteamAssistAddWater",
-            "attribute": "Sys_AlertStatusNotification",
+            "alertId": 644,
+            "name": "LowerCavityCulinaryInstructions",
+            "attribute": "LowerCavity_CulinaryCenterUserInstruction",
             "type": "push",
-            "category": "Cooking",
+            "category": "",
             "autodelete": false,
             "autodisarm": false,
             "autodisable": false,
             "visible": true,
             "enable": true
+          },
+          {
+            "alertId": 492,
+            "name": "OvenOnWhileAway",
+            "attribute": "Online",
+            "type": "push",
+            "category": "",
+            "autodelete": false,
+            "autodisarm": false,
+            "autodisable": false,
+            "visible": false,
+            "enable": false
           }
         ]
       }
     ]
   },
   "Services": {
-    "_id": "DDM_COOKING_BIO_SAUNA_TOURMALINE_V1",
+    "_id": "DDM_Cooking_Minerva_Combo_V1",
     "thirdPartyServices": [
       {
         "name": "Replenishment",
@@ -4376,17 +4939,23 @@
           {
             "name": "ADRS",
             "enabled": false,
-            "config": {}
+            "config": {
+
+            }
           },
           {
             "name": "Wallmart",
             "enabled": false,
-            "config": {}
+            "config": {
+
+            }
           },
           {
             "name": "Whirlpool",
             "enabled": false,
-            "config": {}
+            "config": {
+
+            }
           }
         ]
       },
@@ -4415,12 +4984,16 @@
           {
             "name": "National Grid",
             "enabled": false,
-            "config": {}
+            "config": {
+
+            }
           },
           {
             "name": "Genability",
             "enabled": false,
-            "config": {}
+            "config": {
+
+            }
           }
         ]
       },
@@ -4431,12 +5004,16 @@
           {
             "name": "Amazon Alexa",
             "enabled": false,
-            "config": {}
+            "config": {
+
+            }
           },
           {
             "name": "Google Home",
             "enabled": false,
-            "config": {}
+            "config": {
+
+            }
           }
         ]
       }
