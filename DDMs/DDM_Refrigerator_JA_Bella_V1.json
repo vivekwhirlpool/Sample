@@ -1458,7 +1458,7 @@
         "TargetTemp" : "Refrigerator_OpSetTargetTemp"
       },
       "PantryCavity": {
-        "TargetTemp" : "Pantry_OpSetTargetTemp"
+        "PantryType" : "Pantry_OpSetTargetTemp"
       },
 
       "Common": {
