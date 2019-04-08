@@ -3226,6 +3226,13 @@
             "US",
             "CA"
           ]
+        },
+        "ApplianceDocuments" : {
+          "Vsible": true,
+          "AvailableIn": [
+            "US",
+            "CA"
+          ]
         }
       },
       "OvenUpperCavity": {

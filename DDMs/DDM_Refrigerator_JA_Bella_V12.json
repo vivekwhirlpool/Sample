@@ -1271,7 +1271,7 @@
           "Sys_OpSetFavoriteFillUnitsFavoriteFillUnitsMilliLiters": {
             "Required": {
               "Sys_OpSetFavoriteFillAmount1": {
-                "Range" : {
+                "Range": {
                   "Min": 0,
                   "Max": 4000,
                   "Step": 1,
@@ -1279,7 +1279,7 @@
                 }
               },
               "Sys_OpSetFavoriteFillAmount2": {
-                "Range" : {
+                "Range": {
                   "Min": 0,
                   "Max": 4000,
                   "Step": 1,
@@ -1291,7 +1291,7 @@
           "Sys_OpSetFavoriteFillUnitsFavoriteFillUnitsCups": {
             "Required": {
               "Sys_OpSetFavoriteFillAmount1": {
-                "Range" : {
+                "Range": {
                   "Min": 0,
                   "Max": 16,
                   "StepCup": 0.125,
@@ -1300,7 +1300,7 @@
                 }
               },
               "Sys_OpSetFavoriteFillAmount2": {
-                "Range" : {
+                "Range": {
                   "Min": 0,
                   "Max": 16,
                   "StepCup": 0.125,
@@ -1313,7 +1313,7 @@
           "Sys_OpSetFavoriteFillUnitsFavoriteFillUnitsOunces": {
             "Required": {
               "Sys_OpSetFavoriteFillAmount1": {
-                "Range" : {
+                "Range": {
                   "Min": 0,
                   "Max": 135,
                   "StepOunce": 30,
@@ -1322,7 +1322,7 @@
                 }
               },
               "Sys_OpSetFavoriteFillAmount2": {
-                "Range" : {
+                "Range": {
                   "Min": 0,
                   "Max": 135,
                   "StepOunce": 30,
@@ -1387,7 +1387,7 @@
         },
         "SetCycle": {
           "Refrigerator_OpSetTempPreset": {
-
+            
           }
         }
       },
@@ -1408,7 +1408,7 @@
         },
         "SetCycle": {
           "Freezer_OpSetTempPreset": {
-
+            
           }
         }
       },
@@ -1441,7 +1441,7 @@
         },
         "SetCycle": {
           "Pantry_OpSetTempPreset": {
-
+            
           }
         }
       }
@@ -1449,32 +1449,31 @@
     "AttributesMapping": {
       "FreezerCavity": {
         "DoorOpen": "Freezer_OpStatusDoorOpen",
-        "OverTemp" : "Freezer_OpStatusOverTemp",
-        "TargetTemp" : "Freezer_OpSetTargetTemp"
+        "OverTemp": "Freezer_OpStatusOverTemp",
+        "TargetTemp": "Freezer_OpSetTargetTemp"
       },
       "RefrigeratorCavity": {
         "DoorOpen": "Refrigerator_OpStatusDoorOpen",
-        "OverTemp" : "Refrigerator_OpStatusOverTemp",
-        "TargetTemp" : "Refrigerator_OpSetTargetTemp"
+        "OverTemp": "Refrigerator_OpStatusOverTemp",
+        "TargetTemp": "Refrigerator_OpSetTargetTemp"
       },
       "PantryCavity": {
-        "PantryType" : "Pantry_OpSetTargetTemp"
+        "PantryType": "Pantry_OpSetTargetTemp"
       },
-
       "Common": {
-        "DoorOpenAlarm" : "Sys_AlertStatusDoorOpenAlarm",
-        "OpStatusState" : "Sys_OpStatusState",
-        "CoolingOn" : "Sys_OpStatusCoolingOn",
+        "DoorOpenAlarm": "Sys_AlertStatusDoorOpenAlarm",
+        "OpStatusState": "Sys_OpStatusState",
+        "CoolingOn": "Sys_OpStatusCoolingOn",
         "TempDisplayUnits": "Sys_DisplaySetTempUnits",
-        "NightLightBrightness" : "Sys_DisplaySetNightLightBrightness",
-        "WaterFilter" : "Sys_OpSetWaterFilter",
-        "MaxCool" : "Sys_OpSetMaxCool",
-        "MaxIce" : "Sys_OpSetMaxIce",
-        "SabbathModeEnabled" : "Sys_OpSetSabbathModeEnabled",
-        "ControlLock" : "Sys_OpSetControlLock",
-        "FavoriteFillAmount1" : "Sys_OpSetFavoriteFillAmount1",
-        "FavoriteFillAmount2" : "Sys_OpSetFavoriteFillAmount2",
-        "FavoriteFillUnits" : "Sys_OpSetFavoriteFillUnits"
+        "NightLightBrightness": "Sys_DisplaySetNightLightBrightness",
+        "WaterFilter": "Sys_OpSetWaterFilter",
+        "MaxCool": "Sys_OpSetMaxCool",
+        "MaxIce": "Sys_OpSetMaxIce",
+        "SabbathModeEnabled": "Sys_OpSetSabbathModeEnabled",
+        "ControlLock": "Sys_OpSetControlLock",
+        "FavoriteFillAmount1": "Sys_OpSetFavoriteFillAmount1",
+        "FavoriteFillAmount2": "Sys_OpSetFavoriteFillAmount2",
+        "FavoriteFillUnits": "Sys_OpSetFavoriteFillUnits"
       }
     },
     "Features": {
@@ -1535,6 +1534,13 @@
             "US",
             "CA"
           ]
+        },
+        "ApplianceDocuments": {
+          "Vsible": true,
+          "AvailableIn": [
+            "US",
+            "CA"
+          ]
         }
       },
       "RefrigeratorCavity": {
@@ -1579,7 +1585,9 @@
     "Key": "DDM_Refrigerator_JA_Bella_V12",
     "Alerts": [
       {
-        "GenericAlerts": [],
+        "GenericAlerts": [
+          
+        ],
         "ApplianceAlerts": [
           {
             "alertId": 85,

@@ -5550,6 +5550,13 @@
           "StateAttributes": {
             "State": "SystemSettings_DisplayBrightness"
           }
+        },
+        "ApplianceDocuments" : {
+          "Vsible": true,
+          "AvailableIn": [
+            "US",
+            "CA"
+          ]
         }
       },
       "MwoCavity": {
