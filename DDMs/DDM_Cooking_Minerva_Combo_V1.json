@@ -5351,7 +5351,8 @@
         "MWAmountUnits": "UpperCavity_MWAmountUnits",
         "MWFoodClass": "UpperCavity_MWFoodClass",
         "MWDoneness": "UpperCavity_MWDoneness",
-        "Amount": "UpperCavity_Amount"
+        "Amount": "UpperCavity_Amount",
+        "CookTimeSetTime" : "UpperCavity_CookTimeSetTime"
       },
       "OvenLowerCavity": {
         "CycleName": [
@@ -5622,7 +5623,7 @@
             "CA"
           ],
           "StateAttributes": {
-            "State": "SystemSettings_TempDisplayUnits",
+            "State": "LowerCavity_CavityHeatState",
             "MeatProbeTargetTemp": "LowerCavity_MeatProbeTargetTemp"
           },
           "StatusAttributes": [
@@ -5701,6 +5702,7 @@
             "LowerCavity_CavityOperations"
           ],
           "SetOperationsMapping": {
+            "CycleName": "LowerCavity_CavityModeOven",
             "Operation": "LowerCavity_CavityOperations",
             "TimerOperations": "LowerCavity_OvenTimerOperations",
             "MyCreationId": "LowerCavity_MyCreationID"

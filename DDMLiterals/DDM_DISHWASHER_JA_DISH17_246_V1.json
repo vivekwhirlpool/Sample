@@ -151,71 +151,61 @@
         "XCat_WifiSetRebootWifiCommModule.Label": "WiFi Set Reboot WiFi Comm Module",
         "XCat_WifiStatusFirmwareUpdate.Label": "WiFi Status Firmware Update",
         "XCat_WifiStatusRssiAntennaDiversity.Label": "WiFi Status RSSI Antenna Diversity",
-        "XCat_WifiStatusRssiDisplay.Label": "WiFi Status RSSI Display"
+        "XCat_WifiStatusRssiDisplay.Label": "WiFi Status RSSI Display",
+        "Cavity_CycleSetCycleIdCycleLightChina.Label": "Crystal",
+        "Cavity_CycleSetCycleIdCycleNormal.Label": "Normal",
+        "Cavity_CycleSetCycleIdCycleOneHourWash.Label": "1 Hour",
+        "Cavity_CycleSetCycleIdCyclePotsAndPans.Label": "Cookware",
+        "Cavity_CycleSetCycleIdCycleRinseOnly.Label": "Refresh",
+        "Cavity_CycleSetCycleIdCycleSensor.Label": "Sensor",
+        "Cavity_CycleSetDownloadAndGoDownloadGoGentle.Label": "Gentle",
+        "Cavity_CycleSetDownloadAndGoDownloadGoHeavy.Label": "Heavy",
+        "Cavity_CycleSetDownloadAndGoDownloadGoQuick.Label": "Quick Wash",
+        "Cavity_CycleSetDownloadAndGoDownloadGoSanitize.Label": "Sanitize Wash",
+        "Cavity_CycleSetDownloadAndGoDownloadGoSpecialtyItems.Label": "Specialty Items",
+        "WashMode.Label": "WASHING MODES",
+        "CustomCycle.Label": "CUSTOM CYCLES",
+        "DishCavity.Label" :"Dishwasher"
     },
     "AFCSelfHelpPack": {
         "F1,E2": {
             "ErrorCode": "F1E2",
-            "Name": "",
+            "Name": "General Fault",
             "Type": "General Fault",
-            "Description": "Your dishwasher has experienced an error that will require service to troubleshoot and diagnose the problem and repair as necessary.",
+            "Description": "The dishwasher has experienced an error that will require service to troubleshoot and repair as necessary.",
             "StepsToRepair": [
-                "Service is required. Call 866-333-4591 for Service"
+                "Please call 1-800-JENN-AIR (536-6247) for Service."
             ],
             "HelpPath": "NAR/JENNAIR/DDM_DISHWASHER_JA_DISH17_246_V1/AFCSelfHelpPack/eng/F01E02_P1.html",
             "VideoPath": "http://www.kaltura.com/tiny/lnrux"
         },
         "F2,E2": {
             "ErrorCode": "F2E2",
-            "Name": "",
+            "Name": "General Fault",
             "Type": "General Fault",
-            "Description": "Cycle power to the control to reset the dishwasher.",
+            "Description": "The dishwasher has experienced an error that will require a reset",
             "StepsToRepair": [
                 "Turn off power to the dishwasher by turning off the circuit breaker for one (1) minute.",
                 "Turn on power to the dishwasher by turning on the circuit breaker.",
                 "Monitor the dishwasher for one (1) minute to ensure the error code does not display again.",
-                "Verify dishwasher operation.  If the problem persists, call 866-333-4591 for Service"
+                "If the problem persists, call 1-800-JENN-AIR (536-6247) for Service."
             ],
             "HelpPath": "NAR/JENNAIR/DDM_DISHWASHER_JA_DISH17_246_V1/AFCSelfHelpPack/eng/F01E02_P1.html",
             "VideoPath": "http://www.kaltura.com/tiny/lnrux"
         },
         "F2,E3": {
             "ErrorCode": "F2E3",
-            "Name": "",
+            "Name": "General Fault",
             "Type": "General Fault",
-            "Description": "Your dishwasher has experienced an error that will require service to troubleshoot and diagnose the problem and repair as necessary.",
+            "Description": "The dishwasher has experienced an error that will require service to troubleshoot and repair as necessary.",
             "StepsToRepair": [
-                "Service is required. Call 866-333-4591 for Service"
+                "Please call 1-800-JENN-AIR (536-6247) for Service."
             ],
             "HelpPath": "NAR/JENNAIR/DDM_DISHWASHER_JA_DISH17_246_V1/AFCSelfHelpPack/eng/F01E02_P1.html",
             "VideoPath": "http://www.kaltura.com/tiny/lnrux"
         }
     },
     "MobileLiterals": {
-        "Manuals": {
-            "Warranty": {
-                "Title": "Warranty",
-                "FilePath": "NAR/JENNAIR/DDM_DISHWASHER_JA_DISH17_246_V1/Docs/eng/JA_DISH17_Warranty.pdf"
-            },
-            "UseCareGuide": {
-                "Title": "Use & Care Guide",
-                "FilePath": "NAR/JENNAIR/DDM_DISHWASHER_JA_DISH17_246_V1/Docs/eng/JA_DISH17_Use_Careguide.pdf"
-            },
-            "InstallationInstructions": {
-                "Title": "Installation Instructions",
-                "FilePath": "NAR/JENNAIR/DDM_DISHWASHER_JA_DISH17_246_V1/Docs/eng/JA_DISH17_InstallationInstructions.pdf"
-            },
-            "FCCInformationForm": {
-                "Title": "FCC Information Form",
-                "FilePath": "NAR/JENNAIR/DDM_DISHWASHER_JA_DISH17_246_V1/Docs/eng/JA_DISH17_FCC.pdf"
-            }
-        },
-        "NestSettings": {
-            "QuietWhileHome.Name": "Quiet While Home",
-            "QuietWhileHome.Description": "Your dishwasher will automatically go into Quiet Mode when Nest™ knows you’re home.",
-            "WashWhileAway.Name": "Wash While Away",
-            "WashWhileAway.Description": "When Nest™ detects you're away, your dishwasher will start the selected cycle.  Please note that it may take up to two hours for Nest™ to send the away signal."
-        },
         "SpecialtyCycles": {
             "Gentle.Name": "Gentle",
             "Gentle.Description": "",
@@ -311,87 +301,6 @@
                         "url": "https://www.servicebench.com/servicebenchv5/consumerApp/consumerRequestForward.action?token=ZHU6Y29uc3VtZXJQb3J0YWxQcm9kdWN0RGVzY3JpcHRpb247c2s6V0M7c2E6NDA&cparam"
                     }
                 ]
-            }
-        },
-        "SmartTip": [],
-        "cxcDetail": {
-            "US": {
-                "Country": "United States",
-                "cxcEmail": {
-                    "Development": "NAR_JennAirCustomerExperience@JennAir.com",
-                    "Test": "NAR_JennAirCustomerExperience@JennAir.com",
-                    "Staging": "NAR_JennAirCustomerExperience@JennAir.com",
-                    "Cuft": "NAR_JennAirCustomerExperience@JennAir.com",
-                    "Production": "NAR_JennAirCustomerExperience@JennAir.com"
-                },
-                "cxcPhone": {
-                    "Development": "1-800-536-6247",
-                    "Test": "1-800-536-6247",
-                    "Staging": "1-800-536-6247",
-                    "Cuft": "1-800-536-6247",
-                    "Production": "1-800-536-6247"
-                },
-                "cxcHours": {
-                    "Development": "Mon–Fri 8am–8pm EST",
-                    "Test": "Mon–Fri 8am–8pm EST",
-                    "Staging": "Mon–Fri 8am–8pm EST",
-                    "Cuft": "Mon–Fri 8am–8pm EST",
-                    "Production": "Mon–Fri 8am–8pm EST"
-                }
-            },
-            "CA": {
-                "Country": "Canada",
-                "cxcEmail": {
-                    "Development": "NAR_JennAirCustomerExperience@JennAir.com",
-                    "Test": "NAR_JennAirCustomerExperience@JennAir.com",
-                    "Staging": "NAR_JennAirCustomerExperience@JennAir.com",
-                    "Cuft": "NAR_JennAirCustomerExperience@JennAir.com",
-                    "Production": "NAR_JennAirCustomerExperience@JennAir.com"
-                },
-                "cxcPhone": {
-                    "Development": "1-800-536-6247",
-                    "Test": "1-800-536-6247",
-                    "Staging": "1-800-536-6247",
-                    "Cuft": "1-800-536-6247",
-                    "Production": "1-800-536-6247"
-                },
-                "cxcHours": {
-                    "Development": "Mon–Fri 8am–8pm EST",
-                    "Test": "Mon–Fri 8am–8pm EST",
-                    "Staging": "Mon–Fri 8am–8pm EST",
-                    "Cuft": "Mon–Fri 8am–8pm EST",
-                    "Production": "Mon–Fri 8am–8pm EST"
-                }
-            }
-        },
-        "Replenishment": {
-            "ReplenishmentSlot": {
-                "DisplayName": {
-                    "DishwasherSlot1Name": "Dishwasher Slot 1 Name",
-                    "DishwasherSlot2Name": "Dishwasher Slot 2 Name"
-                },
-                "UomDisplay": {
-                    "DishwasherSlot1UomDisplay": "Dishwasher Slot 1 UOM Display",
-                    "DishwasherSlot2UomDisplay": "Dishwasher Slot 2 UOM Display"
-                }
-            },
-            "ReplenishmentDelay": {
-                "DisplayName": {
-                    "DishwasherSlot1Delay0": "Delay 0",
-                    "DishwasherSlot1Delay2": "Delay 2",
-                    "DishwasherSlot1Delay4": "Delay 4",
-                    "DishwasherSlot1Delay6": "Delay 6",
-                    "DishwasherSlot2Delay0": "Delay 0",
-                    "DishwasherSlot2Delay2": "Delay 2",
-                    "DishwasherSlot2Delay4": "Delay 4",
-                    "DishwasherSlot2Delay6": "Delay 6"
-                }
-            },
-            "ReplenishmentUsage": {
-                "DisplayName": {
-                    "DishwasherSlot1UsageDefault": "Dishwasher Usage Slot 1 Default",
-                    "DishwasherSlot2UsageDefault": "Dishwasher Usage Slot 2 Default"
-                }
             }
         }
     },

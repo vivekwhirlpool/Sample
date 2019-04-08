@@ -264,7 +264,59 @@
         "OvenLowerCavity_CycleSetBreadProof.EnumValues.BreadProofStandard.Label": "Proof",
         "OvenLowerCavity_CycleSetBreadProof.EnumValues.BreadProofRapid.Label": "Rapid Proof",
         "OvenLowerCavity_CycleSetCleanOvenMode.EnumValues.CleanOvenIdle.Label": "Idle",
-        "OvenLowerCavity_CycleSetCleanOvenMode.EnumValues.CleanOvenStandard.Label": "Self-Clean"
+        "OvenLowerCavity_CycleSetCleanOvenMode.EnumValues.CleanOvenStandard.Label": "Self-Clean",
+        "OvenUpperCavity.Label" : "Right Oven",
+        "OvenLowerCavity.Label" : "Left Oven",
+                "OvenUpperCavity_CycleSetCommonModeCommonModeBake.Label": "Bake",
+        "ConvectBake.Label": "Convect Bake",
+        "OvenUpperCavity_CycleSetCommonModeCommonModeConvectBake.Label": "Convect Bake",
+        "OvenUpperCavity_CycleSetEasyConvectFoodEasyConvectFoodBakedGoods.Label": "Baked Goods",
+        "ConvectRoast.Label": "Convect Roast",
+        "OvenUpperCavity_CycleSetCommonModeCommonModeConvectRoast.Label": "Convect Roast",
+        "OvenUpperCavity_CycleSetEasyConvectFoodEasyConvectFoodMeat.Label": "Meat",
+        "OvenUpperCavity_CycleSetConvectBakeFoodConvectBakeFoodFrozenPizza.Label": "Convect Frozen Pizza",
+        "OvenUpperCavity_CycleSetCommonModeCommonModeConvectBroil.Label": "Convect Broil",
+        "OvenUpperCavity_CycleSetConvectBakeFoodConvectBakeFoodPastry.Label": "Convect Pastry",
+        "OvenUpperCavity_CycleSetCommonModeCommonModeBroil.Label": "Broil",
+        "OvenUpperCavity_CycleSetBreadProofBreadProofStandard.Label": "Proof",
+        "OvenUpperCavity_CycleSetBreadProofBreadProofRapid.Label": "Rapid Proof",
+        "OvenUpperCavity_CycleSetCommonModeCommonModeKeepWarm.Label": "Keep Warm",
+        "OvenUpperCavity_CycleSetCommonModeCommonModeConvectSlowRoast1.Label": "Convect Slow Roast LO",
+        "OvenUpperCavity_CycleSetCommonModeCommonModeConvectSlowRoast2.Label": "Convect Slow Roast MED",
+        "OvenUpperCavity_CycleSetCommonModeCommonModeConvectSlowRoast3.Label": "Convect Slow Roast HI",
+        "ProbeCook.Label": "Probe Cook",
+        "Manual.Label": "Manual",
+        "Auto.Label":"Auto",
+        "OvenLowerCavity_CycleSetCommonModeCommonModeBake.Label": "Bake",
+        "OvenLowerCavity_CycleSetCommonModeCommonModeConvectBake.Label": "Convect Bake",
+        "OvenLowerCavity_CycleSetEasyConvectFoodEasyConvectFoodBakedGoods.Label": "Baked Goods",
+        "OvenLowerCavity_CycleSetCommonModeCommonModeConvectRoast.Label": "Convect Roast",
+        "OvenLowerCavity_CycleSetEasyConvectFoodEasyConvectFoodMeat.Label": "Meat",
+        "OvenLowerCavity_CycleSetConvectBakeFoodConvectBakeFoodFrozenPizza.Label": "Convect Frozen Pizza",
+        "OvenLowerCavity_CycleSetCommonModeCommonModeConvectBroil.Label": "Convect Broil",
+        "OvenLowerCavity_CycleSetConvectBakeFoodConvectBakeFoodPastry.Label": "Convect Pastry",
+        "OvenLowerCavity_CycleSetCommonModeCommonModeBroil.Label": "Broil",
+        "OvenLowerCavity_CycleSetBreadProofBreadProofStandard.Label": "Proof",
+        "OvenLowerCavity_CycleSetBreadProofBreadProofRapid.Label": "Rapid Proof",
+        "OvenLowerCavity_CycleSetCommonModeCommonModeKeepWarm.Label": "Keep Warm",
+        "OvenLowerCavity_CycleSetCommonModeCommonModeConvectSlowRoast1.Label": "Convect Slow Roast LO",
+        "OvenLowerCavity_CycleSetCommonModeCommonModeConvectSlowRoast2.Label": "Convect Slow Roast MED",
+        "OvenLowerCavity_CycleSetCommonModeCommonModeConvectSlowRoast3.Label": "Convect Slow Roast HI",
+        "Steam.Label" : "Steam",
+        "EasySteamFoodBread.Label": "Bread",
+        "OvenUpperCavity_CycleSetEasySteamFoodEasySteamFoodBread.Label": "Bread",
+        "EasySteamFoodMeat.Label": "Meat",
+        "OvenUpperCavity_CycleSetEasySteamFoodEasySteamFoodMeat.Label": "Meat",
+        "EasySteamFoodPoultry.Label": "Poultry",
+        "OvenUpperCavity_CycleSetEasySteamFoodEasySteamFoodPoultry.Label": "Poultry",
+        "EasySteamFoodVegetable.Label": "Vegetable",
+        "OvenUpperCavity_CycleSetEasySteamFoodEasySteamFoodVegetable.Label": "Vegetable",
+        "EasySteamFoodDessert.Label": "Dessert",
+        "OvenUpperCavity_CycleSetEasySteamFoodEasySteamFoodDessert.Label": "Dessert",
+        "EasySteamFoodCasserole.Label": "Casserole",
+        "OvenUpperCavity_CycleSetEasySteamFoodEasySteamFoodCasserole.Label": "Casserole",
+        "EasySteamFoodSeafood.Label": "Seafood",
+        "OvenUpperCavity_CycleSetEasySteamFoodEasySteamFoodSeafood.Label": "Seafood"
     },
     "AFCSelfHelpPack": {
         "F0,E0": {
@@ -279,13 +331,13 @@
             "Name": "User Interface Board",
             "Description": "There may be a problem with the oven control, user interface board(s), or associated wiring.",
             "StepsToRepair": [
-                "Turn the temperature knob to the ''OFF'' position to cancel the error and resume product use.",
-                "If the problem persists, reset power to the product:",
-                "Power unit down by turning off the circuit breaker(s) for one (1) minute.",
-                "Power unit up by turning on the circuit breaker(s).",
-                "Restart the cycle and monitor the oven for one (1) minute to ensure the error code does not display again.",
+                "Turn the temperature knob to the \"OFF\" position to cancel the error and resume product use. ",
+                "If the problem persists, reset power to the product by following the subsequent steps",
+                "Power unit down by turning off the circuit breaker(s) for one (1) minute. ",
+                "Restart the cycle and monitor the oven for one (1) minute to ensure the error code does not display again. ",
                 "Verify oven operation.",
-                "If the problem persists, call 1-800-536-6247 for Service."
+                "If the problem persists, call 1-800-JENN-AIR (536-6247) for Service.",
+                ""
             ],
             "HelpPath": ""
         },
@@ -294,13 +346,13 @@
             "Name": "Control Relay Board",
             "Description": "There may be a problem with the oven control(s) or the associated wiring.",
             "StepsToRepair": [
-                "Turn the temperature knob to the ''OFF'' position to cancel the error and resume product use.",
-                "If the problem persists, reset power to the product:",
-                "Power unit down by turning off the circuit breaker(s) for one (1) minute.",
-                "Power unit up by turning on the circuit breaker(s).",
-                "Restart the cycle and monitor the oven for one (1) minute to ensure the error code does not display again.",
+                "Turn the temperature knob to the \"OFF\" position to cancel the error and resume product use. ",
+                "If the problem persists, reset power to the product by following the subsequent steps",
+                "Power unit down by turning off the circuit breaker(s) for one (1) minute. ",
+                "Restart the cycle and monitor the oven for one (1) minute to ensure the error code does not display again. ",
                 "Verify oven operation.",
-                "If the problem persists, call 1-800-536-6247 for Service."
+                "If the problem persists, call 1-800-JENN-AIR (536-6247) for Service.",
+                ""
             ],
             "HelpPath": ""
         },
@@ -309,13 +361,13 @@
             "Name": "Stuck Key",
             "Description": "There may be a problem with the user interface board(s).",
             "StepsToRepair": [
-                "Turn the temperature knob to the ''OFF'' position to cancel the error and resume product use.",
-                "If the problem persists, reset power to the product:",
-                "Power unit down by turning off the circuit breaker(s) for one (1) minute.",
-                "Power unit up by turning on the circuit breaker(s).",
-                "Restart the cycle and monitor the oven for one (1) minute to ensure the error code does not display again.",
+                "Turn the temperature knob to the \"OFF\" position to cancel the error and resume product use. ",
+                "If the problem persists, reset power to the product by following the subsequent steps",
+                "Power unit down by turning off the circuit breaker(s) for one (1) minute. ",
+                "Restart the cycle and monitor the oven for one (1) minute to ensure the error code does not display again. ",
                 "Verify oven operation.",
-                "If the problem persists, call 1-800-536-6247 for Service."
+                "If the problem persists, call 1-800-JENN-AIR (536-6247) for Service.",
+                ""
             ],
             "HelpPath": ""
         },
@@ -324,13 +376,13 @@
             "Name": "Oven Knob",
             "Description": "There may be a problem with the user interface board(s).",
             "StepsToRepair": [
-                "Turn the temperature knob to the ''OFF'' position to cancel the error and resume product use.",
-                "If the problem persists, reset power to the product:",
-                "Power unit down by turning off the circuit breaker(s) for one (1) minute.",
-                "Power unit up by turning on the circuit breaker(s).",
-                "Restart the cycle and monitor the oven for one (1) minute to ensure the error code does not display again.",
+                "Turn the temperature knob to the \"OFF\" position to cancel the error and resume product use. ",
+                "If the problem persists, reset power to the product by following the subsequent steps",
+                "Power unit down by turning off the circuit breaker(s) for one (1) minute. ",
+                "Restart the cycle and monitor the oven for one (1) minute to ensure the error code does not display again. ",
                 "Verify oven operation.",
-                "If the problem persists, call 1-800-536-6247 for Service."
+                "If the problem persists, call 1-800-JENN-AIR (536-6247) for Service.",
+                ""
             ],
             "HelpPath": ""
         },
@@ -339,13 +391,13 @@
             "Name": "Main Oven Sensor",
             "Description": "There may be a problem with the main oven temperature sensor, the control, or the associated wiring.",
             "StepsToRepair": [
-                "Turn the temperature knob to the ''OFF'' position to cancel the error and resume product use.",
-                "If the problem persists, reset power to the product:",
-                "Power unit down by turning off the circuit breaker(s) for one (1) minute.",
-                "Power unit up by turning on the circuit breaker(s).",
-                "Restart the cycle and monitor the oven for one (1) minute to ensure the error code does not display again.",
+                "Turn the temperature knob to the \"OFF\" position to cancel the error and resume product use. ",
+                "If the problem persists, reset power to the product by following the subsequent steps",
+                "Power unit down by turning off the circuit breaker(s) for one (1) minute. ",
+                "Restart the cycle and monitor the oven for one (1) minute to ensure the error code does not display again. ",
                 "Verify oven operation.",
-                "If the problem persists, call 1-800-536-6247 for Service."
+                "If the problem persists, call 1-800-JENN-AIR (536-6247) for Service.",
+                ""
             ],
             "HelpPath": ""
         },
@@ -354,13 +406,13 @@
             "Name": "Left Oven Sensor",
             "Description": "There may be a problem with the left oven temperature sensor, control, or the associated wiring.",
             "StepsToRepair": [
-                "Turn the temperature knob to the ''OFF'' position to cancel the error and resume product use.",
-                "If the problem persists, reset power to the product:",
-                "Power unit down by turning off the circuit breaker(s) for one (1) minute.",
-                "Power unit up by turning on the circuit breaker(s).",
-                "Restart the cycle and monitor the oven for one (1) minute to ensure the error code does not display again.",
+                "Turn the temperature knob to the \"OFF\" position to cancel the error and resume product use. ",
+                "If the problem persists, reset power to the product by following the subsequent steps",
+                "Power unit down by turning off the circuit breaker(s) for one (1) minute. ",
+                "Restart the cycle and monitor the oven for one (1) minute to ensure the error code does not display again. ",
                 "Verify oven operation.",
-                "If the problem persists, call 1-800-536-6247 for Service."
+                "If the problem persists, call 1-800-JENN-AIR (536-6247) for Service.",
+                ""
             ],
             "HelpPath": ""
         },
@@ -369,13 +421,13 @@
             "Name": "Meat Probe - for Main Oven Only",
             "Description": "There may be a problem with the main oven meat probe temperature sensor, the associated user interface board, or the associated wiring.",
             "StepsToRepair": [
-                "Turn the temperature knob to the ''OFF'' position to cancel the error and resume product use.",
-                "If the problem persists, reset power to the product:",
-                "Power unit down by turning off the circuit breaker(s) for one (1) minute.",
-                "Power unit up by turning on the circuit breaker(s).",
-                "Restart the cycle and monitor the oven for one (1) minute to ensure the error code does not display again.",
+                "Turn the temperature knob to the \"OFF\" position to cancel the error and resume product use. ",
+                "If the problem persists, reset power to the product by following the subsequent steps",
+                "Power unit down by turning off the circuit breaker(s) for one (1) minute. ",
+                "Restart the cycle and monitor the oven for one (1) minute to ensure the error code does not display again. ",
                 "Verify oven operation.",
-                "If the problem persists, call 1-800-536-6247 for Service."
+                "If the problem persists, call 1-800-JENN-AIR (536-6247) for Service.",
+                ""
             ],
             "HelpPath": ""
         },
@@ -384,13 +436,13 @@
             "Name": "Left Oven Meat Probe short-circuit",
             "Description": "There may be a problem with the left oven meat probe temperature sensor, the associated user interface board, or the associated wiring.",
             "StepsToRepair": [
-                "Turn the temperature knob to the ''OFF'' position to cancel the error and resume product use.",
-                "If the problem persists, reset power to the product:",
-                "Power unit down by turning off the circuit breaker(s) for one (1) minute.",
-                "Power unit up by turning on the circuit breaker(s).",
-                "Restart the cycle and monitor the oven for one (1) minute to ensure the error code does not display again.",
+                "Turn the temperature knob to the \"OFF\" position to cancel the error and resume product use. ",
+                "If the problem persists, reset power to the product by following the subsequent steps",
+                "Power unit down by turning off the circuit breaker(s) for one (1) minute. ",
+                "Restart the cycle and monitor the oven for one (1) minute to ensure the error code does not display again. ",
                 "Verify oven operation.",
-                "If the problem persists, call 1-800-536-6247 for Service."
+                "If the problem persists, call 1-800-JENN-AIR (536-6247) for Service.",
+                ""
             ],
             "HelpPath": ""
         },
@@ -399,13 +451,13 @@
             "Name": "Main Oven Door Latch Switch",
             "Description": "There may be a problem with the main oven door latch assembly, the door switch, or the associated wiring.",
             "StepsToRepair": [
-                "Turn the temperature knob to the ''OFF'' position to cancel the error and resume product use.",
-                "If the problem persists, reset power to the product:",
-                "Power unit down by turning off the circuit breaker(s) for one (1) minute.",
-                "Power unit up by turning on the circuit breaker(s).",
-                "Restart the cycle and monitor the oven for one (1) minute to ensure the error code does not display again.",
+                "Turn the temperature knob to the \"OFF\" position to cancel the error and resume product use. ",
+                "If the problem persists, reset power to the product by following the subsequent steps",
+                "Power unit down by turning off the circuit breaker(s) for one (1) minute. ",
+                "Restart the cycle and monitor the oven for one (1) minute to ensure the error code does not display again. ",
                 "Verify oven operation.",
-                "If the problem persists, call 1-800-536-6247 for Service."
+                "If the problem persists, call 1-800-JENN-AIR (536-6247) for Service.",
+                ""
             ],
             "HelpPath": ""
         },
@@ -414,28 +466,28 @@
             "Name": "Main Oven Door Latch Motor",
             "Description": "There may be a problem with the main oven door latch assembly or the associated wiring.",
             "StepsToRepair": [
-                "Turn the temperature knob to the ''OFF'' position to cancel the error and resume product use.",
-                "If the problem persists, reset power to the product:",
-                "Power unit down by turning off the circuit breaker(s) for one (1) minute.",
-                "Power unit up by turning on the circuit breaker(s).",
-                "Restart the cycle and monitor the oven for one (1) minute to ensure the error code does not display again.",
+                "Turn the temperature knob to the \"OFF\" position to cancel the error and resume product use. ",
+                "If the problem persists, reset power to the product by following the subsequent steps",
+                "Power unit down by turning off the circuit breaker(s) for one (1) minute. ",
+                "Restart the cycle and monitor the oven for one (1) minute to ensure the error code does not display again. ",
                 "Verify oven operation.",
-                "If the problem persists, call 1-800-536-6247 for Service."
+                "If the problem persists, call 1-800-JENN-AIR (536-6247) for Service.",
+                ""
             ],
             "HelpPath": ""
         },
         "F5,E3": {
             "ErrorCode": "F5E3",
-            "Name": "Left Oven Door Latch Switch ",
+            "Name": "Left Oven Door Latch Switch",
             "Description": "There may be a problem with the left oven door latch assembly, the door switch, or the associated wiring.",
             "StepsToRepair": [
-                "Turn the temperature knob to the ''OFF'' position to cancel the error and resume product use.",
-                "If the problem persists, reset power to the product:",
-                "Power unit down by turning off the circuit breaker(s) for one (1) minute.",
-                "Power unit up by turning on the circuit breaker(s).",
-                "Restart the cycle and monitor the oven for one (1) minute to ensure the error code does not display again.",
+                "Turn the temperature knob to the \"OFF\" position to cancel the error and resume product use. ",
+                "If the problem persists, reset power to the product by following the subsequent steps",
+                "Power unit down by turning off the circuit breaker(s) for one (1) minute. ",
+                "Restart the cycle and monitor the oven for one (1) minute to ensure the error code does not display again. ",
                 "Verify oven operation.",
-                "If the problem persists, call 1-800-536-6247 for Service."
+                "If the problem persists, call 1-800-JENN-AIR (536-6247) for Service.",
+                ""
             ],
             "HelpPath": ""
         },
@@ -444,13 +496,13 @@
             "Name": "Left Oven Door Latch Motor",
             "Description": "There may be a problem with the left oven door latch assembly or the associated wiring.",
             "StepsToRepair": [
-                "Turn the temperature knob to the ''OFF'' position to cancel the error and resume product use.",
-                "If the problem persists, reset power to the product:",
-                "Power unit down by turning off the circuit breaker(s) for one (1) minute.",
-                "Power unit up by turning on the circuit breaker(s).",
-                "Restart the cycle and monitor the oven for one (1) minute to ensure the error code does not display again.",
+                "Turn the temperature knob to the \"OFF\" position to cancel the error and resume product use. ",
+                "If the problem persists, reset power to the product by following the subsequent steps",
+                "Power unit down by turning off the circuit breaker(s) for one (1) minute. ",
+                "Restart the cycle and monitor the oven for one (1) minute to ensure the error code does not display again. ",
                 "Verify oven operation.",
-                "If the problem persists, call 1-800-536-6247 for Service."
+                "If the problem persists, call 1-800-JENN-AIR (536-6247) for Service.",
+                ""
             ],
             "HelpPath": ""
         },
@@ -474,13 +526,13 @@
             "Name": "Main Oven Over Temperature Limit",
             "Description": "There may be a problem with the main oven temperature sensor, main oven control, or the associated wiring.",
             "StepsToRepair": [
-                "Turn the temperature knob to the ''OFF'' position to cancel the error and resume product use.",
-                "If the problem persists, reset power to the product:",
-                "Power unit down by turning off the circuit breaker(s) for one (1) minute.",
-                "Power unit up by turning on the circuit breaker(s).",
-                "Restart the cycle and monitor the oven for one (1) minute to ensure the error code does not display again.",
+                "Turn the temperature knob to the \"OFF\" position to cancel the error and resume product use. ",
+                "If the problem persists, reset power to the product by following the subsequent steps",
+                "Power unit down by turning off the circuit breaker(s) for one (1) minute. ",
+                "Restart the cycle and monitor the oven for one (1) minute to ensure the error code does not display again. ",
                 "Verify oven operation.",
-                "If the problem persists, call 1-800-536-6247 for Service."
+                "If the problem persists, call 1-800-JENN-AIR (536-6247) for Service.",
+                ""
             ],
             "HelpPath": ""
         },
@@ -489,13 +541,13 @@
             "Name": "Left Oven Over Temperature Limit",
             "Description": "There may be a problem with the left oven temperature sensor, left oven control, or the associated wiring.",
             "StepsToRepair": [
-                "Turn the temperature knob to the ''OFF'' position to cancel the error and resume product use.",
-                "If the problem persists, reset power to the product:",
-                "Power unit down by turning off the circuit breaker(s) for one (1) minute.",
-                "Power unit up by turning on the circuit breaker(s).",
-                "Restart the cycle and monitor the oven for one (1) minute to ensure the error code does not display again.",
+                "Turn the temperature knob to the \"OFF\" position to cancel the error and resume product use. ",
+                "If the problem persists, reset power to the product by following the subsequent steps",
+                "Power unit down by turning off the circuit breaker(s) for one (1) minute. ",
+                "Restart the cycle and monitor the oven for one (1) minute to ensure the error code does not display again. ",
                 "Verify oven operation.",
-                "If the problem persists, call 1-800-536-6247 for Service."
+                "If the problem persists, call 1-800-JENN-AIR (536-6247) for Service.",
+                ""
             ],
             "HelpPath": ""
         },
@@ -504,13 +556,13 @@
             "Name": "Control Status",
             "Description": "There may be a problem with the main oven control.",
             "StepsToRepair": [
-                "Turn the temperature knob to the ''OFF'' position to cancel the error and resume product use.",
-                "If the problem persists, reset power to the product:",
-                "Power unit down by turning off the circuit breaker(s) for one (1) minute.",
-                "Power unit up by turning on the circuit breaker(s).",
-                "Restart the cycle and monitor the oven for one (1) minute to ensure the error code does not display again.",
+                "Turn the temperature knob to the \"OFF\" position to cancel the error and resume product use. ",
+                "If the problem persists, reset power to the product by following the subsequent steps",
+                "Power unit down by turning off the circuit breaker(s) for one (1) minute. ",
+                "Restart the cycle and monitor the oven for one (1) minute to ensure the error code does not display again. ",
                 "Verify oven operation.",
-                "If the problem persists, call 1-800-536-6247 for Service."
+                "If the problem persists, call 1-800-JENN-AIR (536-6247) for Service.",
+                ""
             ],
             "HelpPath": ""
         },
@@ -519,13 +571,13 @@
             "Name": "Main Oven Control Connection",
             "Description": "There may be a problem with the main control or the associated wiring.",
             "StepsToRepair": [
-                "Turn the temperature knob to the ''OFF'' position to cancel the error and resume product use.",
-                "If the problem persists, reset power to the product:",
-                "Power unit down by turning off the circuit breaker(s) for one (1) minute.",
-                "Power unit up by turning on the circuit breaker(s).",
-                "Restart the cycle and monitor the oven for one (1) minute to ensure the error code does not display again.",
+                "Turn the temperature knob to the \"OFF\" position to cancel the error and resume product use. ",
+                "If the problem persists, reset power to the product by following the subsequent steps",
+                "Power unit down by turning off the circuit breaker(s) for one (1) minute. ",
+                "Restart the cycle and monitor the oven for one (1) minute to ensure the error code does not display again. ",
                 "Verify oven operation.",
-                "If the problem persists, call 1-800-536-6247 for Service."
+                "If the problem persists, call 1-800-JENN-AIR (536-6247) for Service.",
+                ""
             ],
             "HelpPath": ""
         },
@@ -534,13 +586,13 @@
             "Name": "Left Oven Control Connection",
             "Description": "There may be a problem with the left oven control or the associated wiring.",
             "StepsToRepair": [
-                "Turn the temperature knob to the ''OFF'' position to cancel the error and resume product use.",
-                "If the problem persists, reset power to the product:",
-                "Power unit down by turning off the circuit breaker(s) for one (1) minute.",
-                "Power unit up by turning on the circuit breaker(s).",
-                "Restart the cycle and monitor the oven for one (1) minute to ensure the error code does not display again.",
+                "Turn the temperature knob to the \"OFF\" position to cancel the error and resume product use. ",
+                "If the problem persists, reset power to the product by following the subsequent steps",
+                "Power unit down by turning off the circuit breaker(s) for one (1) minute. ",
+                "Restart the cycle and monitor the oven for one (1) minute to ensure the error code does not display again. ",
                 "Verify oven operation.",
-                "If the problem persists, call 1-800-536-6247 for Service."
+                "If the problem persists, call 1-800-JENN-AIR (536-6247) for Service.",
+                ""
             ],
             "HelpPath": ""
         },
@@ -549,13 +601,13 @@
             "Name": "Boiler Over Temperature Limit",
             "Description": "There may be a problem with the boiler temperature sensor, the main oven control, or the associated wiring.",
             "StepsToRepair": [
-                "Turn the temperature knob to the ''OFF'' position to cancel the error and resume product use.",
-                "If the problem persists, reset power to the product:",
-                "Power unit down by turning off the circuit breaker(s) for one (1) minute.",
-                "Power unit up by turning on the circuit breaker(s).",
-                "Restart the cycle and monitor the oven for one (1) minute to ensure the error code does not display again.",
+                "Turn the temperature knob to the \"OFF\" position to cancel the error and resume product use. ",
+                "If the problem persists, reset power to the product by following the subsequent steps",
+                "Power unit down by turning off the circuit breaker(s) for one (1) minute. ",
+                "Restart the cycle and monitor the oven for one (1) minute to ensure the error code does not display again. ",
                 "Verify oven operation.",
-                "If the problem persists, call 1-800-536-6247 for Service."
+                "If the problem persists, call 1-800-JENN-AIR (536-6247) for Service.",
+                ""
             ],
             "HelpPath": ""
         },
@@ -564,13 +616,13 @@
             "Name": "Boiler Temperature Out of Range",
             "Description": "There may be a problem with the boiler temperature sensor, the main oven control, or the associated wiring.",
             "StepsToRepair": [
-                "Turn the temperature knob to the ''OFF'' position to cancel the error and resume product use.",
-                "If the problem persists, reset power to the product:",
-                "Power unit down by turning off the circuit breaker(s) for one (1) minute.",
-                "Power unit up by turning on the circuit breaker(s).",
-                "Restart the cycle and monitor the oven for one (1) minute to ensure the error code does not display again.",
+                "Turn the temperature knob to the \"OFF\" position to cancel the error and resume product use. ",
+                "If the problem persists, reset power to the product by following the subsequent steps",
+                "Power unit down by turning off the circuit breaker(s) for one (1) minute. ",
+                "Restart the cycle and monitor the oven for one (1) minute to ensure the error code does not display again. ",
                 "Verify oven operation.",
-                "If the problem persists, call 1-800-536-6247 for Service."
+                "If the problem persists, call 1-800-JENN-AIR (536-6247) for Service.",
+                ""
             ],
             "HelpPath": ""
         },
@@ -579,13 +631,13 @@
             "Name": "Main Oven Cooling Fan Speed Low",
             "Description": "There may be a problem with an airflow restriction, the main oven cooling fan, the main oven control, or the associated wiring.",
             "StepsToRepair": [
-                "Turn the temperature knob to the ''OFF'' position to cancel the error and resume product use.",
-                "If the problem persists, reset power to the product:",
-                "Power unit down by turning off the circuit breaker(s) for one (1) minute.",
-                "Power unit up by turning on the circuit breaker(s).",
-                "Restart the cycle and monitor the oven for one (1) minute to ensure the error code does not display again.",
+                "Turn the temperature knob to the \"OFF\" position to cancel the error and resume product use. ",
+                "If the problem persists, reset power to the product by following the subsequent steps",
+                "Power unit down by turning off the circuit breaker(s) for one (1) minute. ",
+                "Restart the cycle and monitor the oven for one (1) minute to ensure the error code does not display again. ",
                 "Verify oven operation.",
-                "If the problem persists, call 1-800-536-6247 for Service."
+                "If the problem persists, call 1-800-JENN-AIR (536-6247) for Service.",
+                ""
             ],
             "HelpPath": ""
         },
@@ -609,13 +661,13 @@
             "Name": "Main Oven Cooling Fan Speed High",
             "Description": "There may be a problem with an airflow restriction, the main oven cooling fan, the main oven control, or the associated wiring.",
             "StepsToRepair": [
-                "Turn the temperature knob to the ''OFF'' position to cancel the error and resume product use.",
-                "If the problem persists, reset power to the product:",
-                "Power unit down by turning off the circuit breaker(s) for one (1) minute.",
-                "Power unit up by turning on the circuit breaker(s).",
-                "Restart the cycle and monitor the oven for one (1) minute to ensure the error code does not display again.",
+                "Turn the temperature knob to the \"OFF\" position to cancel the error and resume product use. ",
+                "If the problem persists, reset power to the product by following the subsequent steps",
+                "Power unit down by turning off the circuit breaker(s) for one (1) minute. ",
+                "Restart the cycle and monitor the oven for one (1) minute to ensure the error code does not display again. ",
                 "Verify oven operation.",
-                "If the problem persists, call 1-800-536-6247 for Service."
+                "If the problem persists, call 1-800-JENN-AIR (536-6247) for Service.",
+                ""
             ],
             "HelpPath": ""
         },
@@ -624,13 +676,13 @@
             "Name": "Left Oven Cooling Fan Speed High",
             "Description": "There may be a problem with an airflow restriction, the left oven cooling fan, the left oven control, or the associated wiring.",
             "StepsToRepair": [
-                "Turn the temperature knob to the ''OFF'' position to cancel the error and resume product use.",
-                "If the problem persists, reset power to the product:",
-                "Power unit down by turning off the circuit breaker(s) for one (1) minute.",
-                "Power unit up by turning on the circuit breaker(s).",
-                "Restart the cycle and monitor the oven for one (1) minute to ensure the error code does not display again.",
+                "Turn the temperature knob to the \"OFF\" position to cancel the error and resume product use. ",
+                "If the problem persists, reset power to the product by following the subsequent steps",
+                "Power unit down by turning off the circuit breaker(s) for one (1) minute. ",
+                "Restart the cycle and monitor the oven for one (1) minute to ensure the error code does not display again. ",
                 "Verify oven operation.",
-                "If the problem persists, call 1-800-536-6247 for Service."
+                "If the problem persists, call 1-800-JENN-AIR (536-6247) for Service.",
+                ""
             ],
             "HelpPath": ""
         },
@@ -645,29 +697,6 @@
         }
     },
     "MobileLiterals": {
-        "Manuals": {
-            "UseCareGuide": {
-                "Title": "Use & Care Guide",
-                "FilePath": "NAR/JENNAIR/DDM_COOKING_U2_JADoubleSteam_V1/Docs/eng/UserCareGuide.pdf"
-            },
-            "InstallationInstructions": {
-                "Title": "Installation Instructions",
-                "FilePath": "NAR/JENNAIR/DDM_COOKING_U2_JADoubleSteam_V1/Docs/eng/InstallationInstruction.pdf"
-            },
-            "Warranty": {
-                "Title": "Warranty",
-                "FilePath": "NAR/JENNAIR/DDM_COOKING_U2_JADoubleSteam_V1/Docs/eng/Warranty.pdf"
-            },
-            "FccInformationForm": {
-                "Title": "FCC Information Form",
-                "FilePath": "NAR/JENNAIR/DDM_COOKING_U2_JADoubleSteam_V1/Docs/eng/FccInformation.pdf"
-            }
-        },
-        "NestSettings": {
-            "AwayOvenWarning.Name": "Off While Away",
-            "AwayOvenWarning.Description": "Receive a notification asking if you’d like to turn your oven off if Nest™ detects you're away while your oven is running.   Please note that it may take up to two hours for Nest™ to send the away signal."
-        },
-        "SpecialtyCycles": {},
         "SupplyItem": {
             "ExtendedWarranty": {},
             "ScheduleService": {
@@ -742,132 +771,6 @@
                 ]
             }
         },
-        "Set Oven": {
-            "MainMode": {
-                "OvenUpperCavity": {
-                    "Bake": {
-                        "Name": "Bake"
-                    },
-                    "Convect Bake": {
-                        "Name": "Convect Bake"
-                    },
-                    "Convect Roast": {
-                        "Name": "Convect Roast"
-                    },
-                    "Convect Frozen Pizza": {
-                        "Name": "Convect Frozen Pizza"
-                    },
-                    "Convect Broil": {
-                        "Name": "Convect Broil"
-                    },
-                    "Convect Pastry": {
-                        "Name": "Convect Pastry"
-                    },
-                    "Broil": {
-                        "Name": "Broil"
-                    },
-                    "Proof": {
-                        "Name": "Proof"
-                    },
-                    "Rapid Proof": {
-                        "Name": "Rapid Proof"
-                    },
-                    "Keep Warm": {
-                        "Name": "Keep Warm"
-                    },
-                    "Self-Clean": {
-                        "Name": "Self-Clean"
-                    },
-                    "Convect Slow Roast LO": {
-                        "Name": "Convect Slow Roast LO"
-                    },
-                    "Convect Slow Roast MED": {
-                        "Name": "Convect Slow Roast MED"
-                    },
-                    "Convect Slow Roast HI": {
-                        "Name": "Convect Slow Roast HI"
-                    }
-                },
-                "OvenLowerCavity": {
-                    "Bake": {
-                        "Name": "Bake"
-                    },
-                    "Convect Bake": {
-                        "Name": "Convect Bake"
-                    },
-                    "Convect Roast": {
-                        "Name": "Convect Roast"
-                    },
-                    "Convect Frozen Pizza": {
-                        "Name": "Convect Frozen Pizza"
-                    },
-                    "Convect Broil": {
-                        "Name": "Convect Broil"
-                    },
-                    "Convect Pastry": {
-                        "Name": "Convect Pastry"
-                    },
-                    "Broil": {
-                        "Name": "Broil"
-                    },
-                    "Proof": {
-                        "Name": "Proof"
-                    },
-                    "Rapid Proof": {
-                        "Name": "Rapid Proof"
-                    },
-                    "Keep Warm": {
-                        "Name": "Keep Warm"
-                    },
-                    "Self-Clean": {
-                        "Name": "Self-Clean"
-                    },
-                    "Convect Slow Roast LO": {
-                        "Name": "Convect Slow Roast LO"
-                    },
-                    "Convect Slow Roast MED": {
-                        "Name": "Convect Slow Roast MED"
-                    },
-                    "Convect Slow Roast HI": {
-                        "Name": "Convect Slow Roast HI"
-                    }
-                }
-            },
-            "CookingStyle": {
-                "Auto": {
-                    "Name": "Auto"
-                },
-                "Manual": {
-                    "Name": "Manual"
-                },
-                "Easy": {
-                    "Name": "Easy"
-                }
-            },
-            "CookingModeLabels": {
-                "Mode": {
-                    "Name": "Mode"
-                },
-                "CookingStyle": {
-                    "Name": "Cooking Style"
-                },
-                "Food": {
-                    "Name": "Food"
-                },
-                "CookTime": {
-                    "Name": "Cook Time"
-                },
-                "Temparature": {
-                    "Name": "Temparature"
-                },
-                "Delay": {
-                    "Name": "Add Delay"
-                },
-                "CycleName": {
-                    "Name": "Cycle Name"
-                }
-            }
-        },
         "Notifications": {
             "OvenOnWhileAway": {
                 "Name": "Oven On While Away",
@@ -908,57 +811,6 @@
             "ErrorNotification": {
                 "Name": "Error Notification",
                 "Description": "Select to receive a notification when an error code is generated."
-            }
-        },
-        "smartTip": [],
-        "cxcDetail": {
-            "US": {
-                "Country": "United States",
-                "cxcEmail": {
-                    "Development": "wcloud@mailinator.com",
-                    "Test": "wcloud@mailinator.com",
-                    "Staging": "wcloud@mailinator.com",
-                    "Cuft": "Connected_Appliances@Whirlpool.com",
-                    "Production": "Connected_Appliances@Whirlpool.com"
-                },
-                "cxcPhone": {
-                    "Development": "1-800-536-6247",
-                    "Test": "1-800-536-6247",
-                    "Staging": "1-800-536-6247",
-                    "Cuft": "1-800-536-6247",
-                    "Production": "1-800-536-6247"
-                },
-                "cxcHours": {
-                    "Development": ",Monday-Friday,8 AM-8 PM EST",
-                    "Test": " Monday-Friday,8 AM-8 PM EST",
-                    "Staging": " Monday-Friday,8 AM-8 PM EST",
-                    "Cuft": " Monday-Friday ,8 AM-8 PM ",
-                    "Production": " Monday-Friday,8 AM-8 PM EST"
-                }
-            },
-            "CA": {
-                "Country": "Canada",
-                "cxcEmail": {
-                    "Development": "Connected_Appliances@Whirlpool.com",
-                    "Test": "Connected_Appliances@Whirlpool.com",
-                    "Staging": "Connected_Appliances@Whirlpool.com",
-                    "Cuft": "Connected_Appliances@Whirlpool.com",
-                    "Production": "Connected_Appliances@Whirlpool.com"
-                },
-                "cxcPhone": {
-                    "Development": "1-800-536-6247",
-                    "Test": "1-800-536-6247",
-                    "Staging": "1-800-536-6247",
-                    "Cuft": "1-800-536-6247",
-                    "Production": "1-800-536-6247"
-                },
-                "cxcHours": {
-                    "Development": "M-F 8:00-8:00 EST",
-                    "Test": "M-F 8:00-8:00 EST",
-                    "Staging": "M-F 8:00-8:00 EST",
-                    "Cuft": "M-F 8:00-8:00 EST",
-                    "Production": "M-F 8:00-8:00 EST"
-                }
             }
         }
     },

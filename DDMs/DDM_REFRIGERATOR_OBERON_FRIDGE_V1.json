@@ -1259,12 +1259,14 @@
       "RefrigeratorCavity": {
         "CapabilityData": {
           "Refrigerator_OpSetTempPreset": {
-            "Refrigerator_OpSetTargetTemp": {
-              "TempRange": {
-                "Min": 6,
-                "Max": 56,
-                "StepF": 1,
-                "Default": 28
+            "Required": {
+              "Refrigerator_OpSetTargetTemp": {
+                "TempRange": {
+                  "Min": 6,
+                  "Max": 56,
+                  "StepF": 1,
+                  "Default": 28
+                }
               }
             }
           }
@@ -1279,32 +1281,19 @@
       "DeliDrawerCavity": {
         "CapabilityData": {
           "DeliDrawer_OpSetTempPreset": {
-            "Freezer_OpSetTempPreset": {
-              "Map": [
-                {
-                  "Value": 3,
-                  "Display": "Produce"
-                },
-                {
-                  "Value": 1,
-                  "Display": "Assorted"
-                },
-                {
-                  "Value": 4,
-                  "Display": "Beverage"
-                },
-                {
-                  "Value": 2,
-                  "Display": "Deli"
-                },
-                {
-                  "Value": 5,
-                  "Display": "Meat"
-                }
-              ]
+            "Required": {
+              "Freezer_OpSetTempPreset": {
+                "Enumeration": [
+                  "TempPresetProduce",
+                  "TempPresetAssorted",
+                  "TempPresetBeverage",
+                  "TempPresetDeli",
+                  "TempPresetMeat"
+                ],
+                "Default": "TempPresetProduce"
+              }
             }
           }
-
         },
         "SetCycle": {
 
@@ -1317,20 +1306,16 @@
       "CrisperDrawerCavity": {
         "CapabilityData": {
           "CrisperDrawer_OpSetTempPreset": {
-            "Pantry_OpSetTempPreset": {
-              "Map": [
-                {
-                  "Value": 3,
-                  "Display": "Produce"
-                },
-                {
-                  "Value": 1,
-                  "Display": "Assorted"
-                }
-              ]
+            "Required": {
+              "Pantry_OpSetTempPreset": {
+                "Enumeration": [
+                  "TempPresetProduce",
+                  "TempPresetAssorted"
+                ],
+                "Default": "TempPresetProduce"
+              }
             }
           }
-
         },
         "SetCycle": {
 
@@ -1391,16 +1376,7 @@
             "State": "Sys_OpSetMaxCool"
           }
         },
-        "IceMaker": {
-          "Visible": true,
-          "AvailableIn": [
-            "US"
-          ],
-          "StateAttributes": {
-            "State": "Sys_OpSetIceMakerOn"
-          }
-        },
-        "sabbath": {
+        "SabbathMode": {
           "Visible": true,
           "AvailableIn": [
             "US",
@@ -1417,7 +1393,44 @@
             "CA"
           ]
         },
-        "EnergyHistory": {
+        "ApplianceDocuments" : {
+          "Visible": true,
+          "AvailableIn": [
+            "US",
+            "CA"
+          ]
+        }
+      },
+      "RefrigeratorCavity": {
+        "ModifyRefrigerator": {
+          "Visible": true,
+          "AvailableIn": [
+            "US",
+            "CA"
+          ]
+        },
+        "CavityBrightness": {
+          "Visible": true,
+          "AvailableIn": [
+            "US",
+            "CA"
+          ],
+          "StateAttributes": {
+            "State": "Sys_DisplaySetCavityBrightness"
+          }
+        }
+      },
+      "DeliDrawerCavity": {
+        "ModifyDeliDrawer": {
+          "Visible": true,
+          "AvailableIn": [
+            "US",
+            "CA"
+          ]
+        }
+      },
+      "CrisperDrawerCavity": {
+        "ModifyCrisperDrawer": {
           "Visible": true,
           "AvailableIn": [
             "US",
@@ -1425,6 +1438,7 @@
           ]
         }
       }
+
     }
 
   },

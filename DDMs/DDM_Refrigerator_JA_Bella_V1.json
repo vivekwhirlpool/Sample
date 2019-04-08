@@ -1373,12 +1373,14 @@
       "RefrigeratorCavity": {
         "CapabilityData": {
           "Refrigerator_OpSetTempPreset": {
-            "Refrigerator_OpSetTargetTemp": {
-              "TempRange": {
-                "Min": 6,
-                "Max": 72,
-                "StepF": 1,
-                "Default": 28
+            "Required": {
+              "Refrigerator_OpSetTargetTemp": {
+                "TempRange": {
+                  "Min": 6,
+                  "Max": 72,
+                  "StepF": 1,
+                  "Default": 28
+                }
               }
             }
           }
@@ -1392,12 +1394,14 @@
       "FreezerCavity": {
         "CapabilityData": {
           "Freezer_OpSetTempPreset": {
-            "Freezer_OpSetTargetTemp": {
-              "TempRange": {
-                "Min": -211,
-                "Max": -150,
-                "StepF": 1,
-                "Default": 0
+            "Required": {
+              "Freezer_OpSetTargetTemp": {
+                "TempRange": {
+                  "Min": -211,
+                  "Max": -150,
+                  "StepF": 1,
+                  "Default": 0
+                }
               }
             }
           }
@@ -1411,25 +1415,27 @@
       "PantryCavity": {
         "CapabilityData": {
           "Pantry_OpSetTempPreset": {
-            "Pantry_OpSetTargetTemp": {
-              "Map": [
-                {
-                  "Value": 0,
-                  "Display": "Meat"
-                },
-                {
-                  "Value": 6,
-                  "Display": "Baverage"
-                },
-                {
-                  "Value": 17,
-                  "Display": "Assorted"
-                },
-                {
-                  "Value": 33,
-                  "Display": "Deli"
-                }
-              ]
+            "Required": {
+              "Pantry_OpSetTargetTemp": {
+                "Map": [
+                  {
+                    "Value": 0,
+                    "Display": "Meat"
+                  },
+                  {
+                    "Value": 6,
+                    "Display": "Beverage"
+                  },
+                  {
+                    "Value": 17,
+                    "Display": "Assorted"
+                  },
+                  {
+                    "Value": 33,
+                    "Display": "Deli"
+                  }
+                ]
+              }
             }
           }
         },
@@ -1452,7 +1458,7 @@
         "TargetTemp" : "Refrigerator_OpSetTargetTemp"
       },
       "PantryCavity": {
-        "TargetTemp" : "Pantry_OpSetTargetTemp"
+        "PantryType" : "Pantry_OpSetTargetTemp"
       },
 
       "Common": {
@@ -1473,16 +1479,6 @@
     },
     "Features": {
       "Common": {
-        "FilterStatus": {
-          "Visible": true,
-          "AvailableIn": [
-            "US",
-            "CA"
-          ],
-          "StateAttributes": {
-            "State": "Sys_OpSetWaterFilter"
-          }
-        },
         "ControlLock": {
           "Visible": true,
           "AvailableIn": [
@@ -1513,7 +1509,7 @@
             "State": "Sys_OpSetMaxIce"
           }
         },
-        "sabbath": {
+        "SabbathMode": {
           "Visible": true,
           "AvailableIn": [
             "US",
@@ -1539,20 +1535,6 @@
             "US",
             "CA"
           ]
-        },
-        "FavoriteFill1" : {
-          "Visible": true,
-          "AvailableIn": [
-            "US",
-            "CA"
-          ]
-        },
-        "FavoriteFill2" : {
-          "Visible": true,
-          "AvailableIn": [
-            "US",
-            "CA"
-          ]
         }
       },
       "RefrigeratorCavity": {
@@ -1561,10 +1543,7 @@
           "AvailableIn": [
             "US",
             "CA"
-          ],
-          "StateAttributes": {
-            "State": "Refrigerator_OpSetTempPreset"
-          }
+          ]
         }
       },
       "FreezerCavity": {
@@ -1573,10 +1552,7 @@
           "AvailableIn": [
             "US",
             "CA"
-          ],
-          "StateAttributes": {
-            "State": "Freezer_OpSetTempPreset"
-          }
+          ]
         }
       },
       "PantryCavity": {
@@ -1585,10 +1561,7 @@
           "AvailableIn": [
             "US",
             "CA"
-          ],
-          "StateAttributes": {
-            "State": "Pantry_OpSetTempPreset"
-          }
+          ]
         }
       }
     }

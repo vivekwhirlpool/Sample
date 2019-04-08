@@ -100,33 +100,17 @@
         "XCat_UtcOffset.Label": "UTC Offset",
         "XCat_WifiSetPublishApplianceState.Label": "WiFi Set Publish Appliance State",
         "XCat_WifiStatusRssiAntennaDiversity.Label": "WiFi Status RSSI Antenna Diversity",
-        "XCat_WifiStatusRssiDisplay.Label": "WiFi Status RSSI Display"
+        "XCat_WifiStatusRssiDisplay.Label": "WiFi Status RSSI Display",
+        "RefrigeratorCavity.Label" : "Refrigerator",
+        "FreezerCavity.Label" : "Freezer",
+        "PantryCavity.Label" :"Drawer",
+        "Pantry_OpSetTargetTemp.EnumValues.Meat.Label" : "Meat",
+        "Pantry_OpSetTargetTemp.EnumValues.Beverage.Label" : "Beverage",
+        "Pantry_OpSetTargetTemp.EnumValues.Assorted.Label" : "Assorted",
+        "Pantry_OpSetTargetTemp.EnumValues.Deli.Label" : "Deli"
     },
     "AFCSelfHelpPack": {},
     "MobileLiterals": {
-        "Manuals": {
-            "UseCareGuide": {
-                "Title": "Use & Care Guide",
-                "FilePath": "NAR/JENNAIR/DDM_Refrigerator_JA_Bella_V2/Docs/eng/Refrigerator_Use_and_Care_Guide.pdf"
-            },
-            "Warranty": {
-                "Title": "Warranty",
-                "FilePath": "NAR/JENNAIR/DDM_Refrigerator_JA_Bella_V2/Docs/eng/Refrigerator_Warranty.pdf"
-            },
-            "InstallationInstructions": {
-                "Title": "Installation Instructions",
-                "FilePath": "NAR/JENNAIR/DDM_Refrigerator_JA_Bella_V2/Docs/eng/Refrigerator_Installation_Instructions.pdf"
-            },
-            "FccInformationForm": {
-                "Title": "FCC Information Form",
-                "FilePath": "NAR/JENNAIR/DDM_Refrigerator_JA_Bella_V2/Docs/eng/Refrigerator_FCC.pdf"
-            }
-        },
-        "NestSettings": {
-            "SmartEnergy.Name": "Smart Energy",
-            "SmartEnergy.Description": "Use Smart Delay to delay your fridge from using the defrost cycle during peak energy hours."
-        },
-        "SpecialtyCycles": {},
         "Notifications": {
             "DoorOpenAlert": {
                 "Name": "Door Open Alert",
@@ -221,63 +205,6 @@
                         "url": "https://everydropwater.ca/en/filter2-refrigerator-water-filter-turn-model-edr2rxd1b"
                     }
                 ]
-            }
-        },
-        "SmartTip": [],
-        "cxcDetail": {
-            "US": {
-                "Country": "United States",
-                "cxcEmail": {
-                    "Development": "NAR_JennAirCustomerExperience@JennAir.com",
-                    "Test": "NAR_JennAirCustomerExperience@JennAir.com",
-                    "Staging": "NAR_JennAirCustomerExperience@JennAir.com",
-                    "Cuft": "NAR_JennAirCustomerExperience@JennAir.com",
-                    "Production": "NAR_JennAirCustomerExperience@JennAir.com"
-                },
-                "cxcPhone": {
-                    "Development": "1-800-536-6247",
-                    "Test": "1-800-536-6247",
-                    "Staging": "1-800-536-6247",
-                    "Cuft": "1-800-536-6247",
-                    "Production": "1-800-536-6247"
-                },
-                "cxcHours": {
-                    "Development": "Mon–Fri 8am–8pm EST",
-                    "Test": "Mon–Fri 8am–8pm EST",
-                    "Staging": "Mon–Fri 8am–8pm EST",
-                    "Cuft": "Mon–Fri 8am–8pm EST",
-                    "Production": "Mon–Fri 8am–8pm EST"
-                }
-            },
-            "CA": {
-                "Country": "Canada",
-                "cxcEmail": {
-                    "Development": "NAR_JennAirCustomerExperience@JennAir.com",
-                    "Test": "NAR_JennAirCustomerExperience@JennAir.com",
-                    "Staging": "NAR_JennAirCustomerExperience@JennAir.com",
-                    "Cuft": "NAR_JennAirCustomerExperience@JennAir.com",
-                    "Production": "NAR_JennAirCustomerExperience@JennAir.com"
-                },
-                "cxcPhone": {
-                    "Development": "1-800-536-6247",
-                    "Test": "1-800-536-6247",
-                    "Staging": "1-800-536-6247",
-                    "Cuft": "1-800-536-6247",
-                    "Production": "1-800-536-6247"
-                },
-                "cxcHours": {
-                    "Development": "Mon–Fri 8am–8pm EST",
-                    "Test": "Mon–Fri 8am–8pm EST",
-                    "Staging": "Mon–Fri 8am–8pm EST",
-                    "Cuft": "Mon–Fri 8am–8pm EST",
-                    "Production": "Mon–Fri 8am–8pm EST"
-                }
-            }
-        },
-        "Temperature": {
-            "Name": {
-                "FreezerTemperature": "Freezer Temperature",
-                "RefrigeratorTemperature": "Refrigerator Temperature"
             }
         }
     },
