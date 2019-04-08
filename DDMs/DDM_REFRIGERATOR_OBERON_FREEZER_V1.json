@@ -1287,7 +1287,7 @@
       },
       "Common": {
         "DoorOpenAlarm" : "Sys_AlertStatusDoorOpenAlarm",
-        "StatusState" : "Sys_OpStatusState",
+        "OpStatusState" : "Sys_OpStatusState",
         "TempDisplayUnits": "Sys_DisplaySetTempUnits",
         "CavityBrightness" : "Sys_DisplaySetCavityBrightness",
         "WaterFilter" : "Sys_OpSetWaterFilter",

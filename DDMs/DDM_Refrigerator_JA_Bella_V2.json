@@ -1463,7 +1463,7 @@
 
       "Common": {
         "DoorOpenAlarm" : "Sys_AlertStatusDoorOpenAlarm",
-        "StatusState" : "Sys_OpStatusState",
+        "OpStatusState" : "Sys_OpStatusState",
         "CoolingOn" : "Sys_OpStatusCoolingOn",
         "TempDisplayUnits": "Sys_DisplaySetTempUnits",
         "NightLightBrightness" : "Sys_DisplaySetNightLightBrightness",

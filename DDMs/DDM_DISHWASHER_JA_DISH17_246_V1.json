@@ -1744,8 +1744,7 @@
 
         "TimeRemaining": "Cavity_TimeStatusEstTimeRemaining",
         "MachineState" : "Cavity_OperationStatusMachineState",
-        "DoorOpenStatus" : "Cavity_OperationStatusDoorOpen",
-        "FilterStatus" : "Cavity_OperationStatusCleanFilter",
+        "DoorOpen" : "Cavity_OperationStatusDoorOpen",
         "CycleState" : "Cavity_CycleStatusCycleState",
         "OdometerStatus" : "Cavity_CycleStatusOdometer",
         "HeavyDutyCycleOdometerStatus" : "Cavity_CycleStatusHeavyDutyCycleOdometer",

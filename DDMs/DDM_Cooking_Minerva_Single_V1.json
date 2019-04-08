@@ -4429,7 +4429,7 @@
         "DoorOpen": "UpperCavity_CavityDoorStatus",
         "DoorLockStatus": "UpperCavity_DoorLockStatus",
         "CookTimeCompleteAction": "UpperCavity_CookTimeCompleteAction",
-        "TimerState": "UpperCavity_OvenTimerState",
+        "CookTimerState": "UpperCavity_OvenTimerState",
         "OpStatusState": "UpperCavity_CavityHeatState",
         "MeatProbeTargetTemp": "UpperCavity_MeatProbeTargetTemp",
         "MeatProbeTemp": "UpperCavity_MeatProbeTemp",

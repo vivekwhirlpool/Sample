@@ -5339,11 +5339,11 @@
         "CycleName": [
           "UpperCavity_CavityModeMicrowaveOven"
         ],
-        "TimeRemaining": "UpperCavity_CookTimeRemaining",
+        "CookTimeRemaining": "UpperCavity_CookTimeRemaining",
         "DoorOpen": "UpperCavity_DoorLockStatus",
         "OpStatusState": "UpperCavity_CavityHeatState",
         "DoorLockStatus": "UpperCavity_DoorLockStatus",
-        "LightOn": "UpperCavity_CavityLight",
+        "CavityLight": "UpperCavity_CavityLight",
         "UserInstruction": "UpperCavity_MicrowaveOvenUserInstruction",
         "MeatProbeTemp": "UpperCavity_MeatProbeTemp",
         "MWCookPower": "UpperCavity_MWCookPower",
@@ -5362,7 +5362,7 @@
         "DoorOpen": "LowerCavity_CavityDoorStatus",
         "DoorLockStatus": "LowerCavity_DoorLockStatus",
         "CookTimeCompleteAction": "LowerCavity_CookTimeCompleteAction",
-        "TimerState": "LowerCavity_OvenTimerState",
+        "CookTimerState": "LowerCavity_OvenTimerState",
         "OpStatusState": "LowerCavity_CavityHeatState",
         "MeatProbeTargetTemp": "LowerCavity_MeatProbeTargetTemp",
         "MeatProbeTemp": "LowerCavity_MeatProbeTemp",

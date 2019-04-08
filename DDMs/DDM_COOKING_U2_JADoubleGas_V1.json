@@ -3661,7 +3661,7 @@
         "DoorOpen": "OvenUpperCavity_OpStatusDoorOpen",
         "DoorLockStatus": "OvenUpperCavity_OpStatusDoorLocked",
         "CookTimeCompleteAction": "OvenUpperCavity_OpSetCookTimeCompleteAction",
-        "TimerState": "OvenUpperCavity_OpStatusCookTimeState",
+        "CookTimerState": "OvenUpperCavity_OpStatusCookTimeState",
         "MeatProbeTargetTemp": "OvenUpperCavity_CycleSetMeatProbeTargetTemp",
         "MeatProbeTemp": "OvenUpperCavity_DisplStatusMeatProbeDisplayTemp",
         "SabbathModeActive": "OvenUpperCavity_OpSetSabbathModeActive",
@@ -3691,7 +3691,7 @@
         "DoorOpen": "OvenLowerCavity_OpStatusDoorOpen",
         "DoorLockStatus": "OvenLowerCavity_OpStatusDoorLocked",
         "CookTimeCompleteAction": "OvenLowerCavity_OpSetCookTimeCompleteAction",
-        "TimerState": "OvenLowerCavity_OpStatusCookTimeState",
+        "CookTimerState": "OvenLowerCavity_OpStatusCookTimeState",
         "MeatProbeTargetTemp": "OvenLowerCavity_CycleSetMeatProbeTargetTemp",
         "MeatProbeTemp": "OvenLowerCavity_DisplStatusMeatProbeDisplayTemp",
         "SabbathModeActive": "OvenLowerCavity_OpSetSabbathModeActive",
@@ -3709,7 +3709,8 @@
       },
       "Common": {
         "RemoteEnabledStatus": "XCat_RemoteSetRemoteControlEnable",
-        "TempDisplayUnits": "Sys_DisplaySetTempUnits"
+        "TempDisplayUnits": "Sys_DisplaySetTempUnits",
+        "SabbathModeEnabled" : "Sys_OperationSetSabbathModeEnabled"
       }
     },
     "Features": {
