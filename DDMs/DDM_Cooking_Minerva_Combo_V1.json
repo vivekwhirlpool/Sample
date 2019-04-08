@@ -5351,7 +5351,8 @@
         "MWAmountUnits": "UpperCavity_MWAmountUnits",
         "MWFoodClass": "UpperCavity_MWFoodClass",
         "MWDoneness": "UpperCavity_MWDoneness",
-        "Amount": "UpperCavity_Amount"
+        "Amount": "UpperCavity_Amount",
+        "CookTimeSetTime" : "UpperCavity_CookTimeSetTime"
       },
       "OvenLowerCavity": {
         "CycleName": [
