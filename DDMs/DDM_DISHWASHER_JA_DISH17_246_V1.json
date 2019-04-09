@@ -1390,6 +1390,14 @@
                   "Default": 0
                 }
               }
+            },
+            "Incompatible": {
+              "Cavity_CycleSetOptionUpperRackOnly": [
+                "Cavity_CycleSetOptionLowerRackOnly"
+              ],
+              "Cavity_CycleSetOptionLowerRackOnly": [
+                "Cavity_CycleSetOptionUpperRackOnly"
+              ]
             }
           },
           "Cavity_CycleSetCycleIdCycleRinseOnly": {
@@ -1440,6 +1448,14 @@
                   "Default": 0
                 }
               }
+            },
+            "Incompatible": {
+              "Cavity_CycleSetOptionUpperRackOnly": [
+                "Cavity_CycleSetOptionLowerRackOnly"
+              ],
+              "Cavity_CycleSetOptionLowerRackOnly": [
+                "Cavity_CycleSetOptionUpperRackOnly"
+              ]
             }
           },
           "Cavity_CycleSetCycleIdCycleLightChina": {
@@ -1475,6 +1491,14 @@
                   "Default": 0
                 }
               }
+            },
+            "Incompatible": {
+              "Cavity_CycleSetOptionUpperRackOnly": [
+                "Cavity_CycleSetOptionLowerRackOnly"
+              ],
+              "Cavity_CycleSetOptionLowerRackOnly": [
+                "Cavity_CycleSetOptionUpperRackOnly"
+              ]
             }
           },
           "Cavity_CycleSetCycleIdCyclePotsAndPans": {
@@ -1531,6 +1555,14 @@
                   "Default": 0
                 }
               }
+            },
+            "Incompatible": {
+              "Cavity_CycleSetOptionUpperRackOnly": [
+                "Cavity_CycleSetOptionLowerRackOnly"
+              ],
+              "Cavity_CycleSetOptionLowerRackOnly": [
+                "Cavity_CycleSetOptionUpperRackOnly"
+              ]
             }
           },
           "Cavity_CycleSetCycleIdCycleSensor": {
@@ -1587,69 +1619,72 @@
                   "Default": 0
                 }
               }
+            },
+            "Incompatible": {
+              "Cavity_CycleSetOptionUpperRackOnly": [
+                "Cavity_CycleSetOptionLowerRackOnly"
+              ],
+              "Cavity_CycleSetOptionLowerRackOnly": [
+                "Cavity_CycleSetOptionUpperRackOnly"
+              ]
             }
           },
           "Cavity_CycleSetDownloadAndGoDownloadGoGentle": {
             "Required": {
-              "NonEditable": {
-                "Command": {
-                  "Cavity_CycleSetCycleId": "CycleLightChina"  
-                }
-              }
+              
             },
             "Optional": {
               
+            },
+            "NonEditable": {
+              "Cavity_CycleSetCycleId": "CycleLightChina"
             }
           },
           "Cavity_CycleSetDownloadAndGoDownloadGoHeavy": {
             "Required": {
-              "NonEditable": {
-                "Command": {
-                  "Cavity_CycleSetOptionSmartHeatedDry": "Enabled",
-                  "Cavity_CycleSetOptionHighTemp": "Enabled",
-                  "Cavity_CycleSetCycleId": "CyclePotsAndPans"  
-                }
-              }
+              
+            },
+            "NonEditable": {
+              "Cavity_CycleSetOptionSmartHeatedDry": "Enabled",
+              "Cavity_CycleSetOptionHighTemp": "Enabled",
+              "Cavity_CycleSetCycleId": "CyclePotsAndPans"
             }
           },
           "Cavity_CycleSetDownloadAndGoDownloadGoSpecialtyItems": {
             "Required": {
-              "NonEditable": {
-                "Command": {
-                  "Cavity_CycleSetOptionSmartHeatedDry": "Enabled",
-                  "Cavity_CycleSetOptionSaniRinse": "Enabled",
-                  "Cavity_CycleSetCycleId": "CycleNormal"  
-                }
-              }
+              
             },
             "Optional": {
               
+            },
+            "NonEditable": {
+              "Cavity_CycleSetOptionSmartHeatedDry": "Enabled",
+              "Cavity_CycleSetOptionSaniRinse": "Enabled",
+              "Cavity_CycleSetCycleId": "CycleNormal"
             }
           },
           "Cavity_CycleSetDownloadAndGoDownloadGoSanitize": {
             "Required": {
-              "NonEditable": {
-                "Command": {
-                  "Cavity_CycleSetOptionSmartHeatedDry": "Enabled",
-                  "Cavity_CycleSetOptionSaniRinse": "Enabled",
-                  "Cavity_CycleSetCycleId": "CycleNormal"  
-                }
-              }
+              
             },
             "Optional": {
               
+            },
+            "NonEditable": {
+              "Cavity_CycleSetOptionSmartHeatedDry": "Enabled",
+              "Cavity_CycleSetOptionSaniRinse": "Enabled",
+              "Cavity_CycleSetCycleId": "CycleNormal"
             }
           },
           "Cavity_CycleSetDownloadAndGoDownloadGoQuick": {
             "Required": {
-              "NonEditable": {
-                "Command": {
-                  "Cavity_CycleSetCycleId": "CycleOneHourWash"  
-                }
-              }
+              
             },
             "Optional": {
               
+            },
+            "NonEditable": {
+              "Cavity_CycleSetCycleId": "CycleOneHourWash"
             }
           }
         },
