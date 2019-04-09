@@ -4594,7 +4594,7 @@
           ]
         },
         "ApplianceDocuments" : {
-          "Vsible": true,
+          "Visible": true,
           "AvailableIn": [
             "US",
             "CA"
