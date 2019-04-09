@@ -1592,7 +1592,9 @@
           "Cavity_CycleSetDownloadAndGoDownloadGoGentle": {
             "Required": {
               "NonEditable": {
-                "Cavity_CycleSetCycleId": "CycleLightChina"
+                "Command": {
+                  "Cavity_CycleSetCycleId": "CycleLightChina"  
+                }
               }
             },
             "Optional": {
@@ -1602,18 +1604,22 @@
           "Cavity_CycleSetDownloadAndGoDownloadGoHeavy": {
             "Required": {
               "NonEditable": {
-                "Cavity_CycleSetOptionSmartHeatedDry": "Enabled",
-                "Cavity_CycleSetOptionHighTemp": "Enabled",
-                "Cavity_CycleSetCycleId": "CyclePotsAndPans"
+                "Command": {
+                  "Cavity_CycleSetOptionSmartHeatedDry": "Enabled",
+                  "Cavity_CycleSetOptionHighTemp": "Enabled",
+                  "Cavity_CycleSetCycleId": "CyclePotsAndPans"  
+                }
               }
             }
           },
           "Cavity_CycleSetDownloadAndGoDownloadGoSpecialtyItems": {
             "Required": {
               "NonEditable": {
-                "Cavity_CycleSetOptionSmartHeatedDry": "Enabled",
-                "Cavity_CycleSetOptionSaniRinse": "Enabled",
-                "Cavity_CycleSetCycleId": "CycleNormal"
+                "Command": {
+                  "Cavity_CycleSetOptionSmartHeatedDry": "Enabled",
+                  "Cavity_CycleSetOptionSaniRinse": "Enabled",
+                  "Cavity_CycleSetCycleId": "CycleNormal"  
+                }
               }
             },
             "Optional": {
@@ -1623,9 +1629,11 @@
           "Cavity_CycleSetDownloadAndGoDownloadGoSanitize": {
             "Required": {
               "NonEditable": {
-                "Cavity_CycleSetOptionSmartHeatedDry": "Enabled",
-                "Cavity_CycleSetOptionSaniRinse": "Enabled",
-                "Cavity_CycleSetCycleId": "CycleNormal"
+                "Command": {
+                  "Cavity_CycleSetOptionSmartHeatedDry": "Enabled",
+                  "Cavity_CycleSetOptionSaniRinse": "Enabled",
+                  "Cavity_CycleSetCycleId": "CycleNormal"  
+                }
               }
             },
             "Optional": {
@@ -1635,7 +1643,9 @@
           "Cavity_CycleSetDownloadAndGoDownloadGoQuick": {
             "Required": {
               "NonEditable": {
-                "Cavity_CycleSetCycleId": "CycleOneHourWash"
+                "Command": {
+                  "Cavity_CycleSetCycleId": "CycleOneHourWash"  
+                }
               }
             },
             "Optional": {
