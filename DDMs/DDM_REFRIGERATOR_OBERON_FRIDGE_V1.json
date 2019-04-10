@@ -1399,15 +1399,6 @@
             "US",
             "CA"
           ]
-        }
-      },
-      "RefrigeratorCavity": {
-        "ModifyRefrigerator": {
-          "Visible": true,
-          "AvailableIn": [
-            "US",
-            "CA"
-          ]
         },
         "CavityBrightness": {
           "Visible": true,
@@ -1418,6 +1409,15 @@
           "StateAttributes": {
             "State": "Sys_DisplaySetCavityBrightness"
           }
+        }
+      },
+      "RefrigeratorCavity": {
+        "ModifyRefrigerator": {
+          "Visible": true,
+          "AvailableIn": [
+            "US",
+            "CA"
+          ]
         }
       },
       "DeliDrawerCavity": {

@@ -1277,13 +1277,13 @@
     },
     "AttributesMapping": {
       "UpperZone": {
-        "DoorOpen": "Freezer_OpStatusDoorOpen",
-        "TargetTemp" : "Freezer_OpSetTempPreset"
-      },
-      "LowerZone": {
         "DoorOpen": "Refrigerator_OpStatusDoorOpen",
         "OverTemp" : "Refrigerator_OpStatusOverTemp",
         "TargetTemp" : "Refrigerator_OpSetTargetTemp"
+      },
+      "LowerZone": {
+        "DoorOpen": "Freezer_OpStatusDoorOpen",
+        "TargetTemp" : "Freezer_OpSetTempPreset"
       },
       "Common": {
         "DoorOpenAlarm" : "Sys_AlertStatusDoorOpenAlarm",
@@ -1353,15 +1353,6 @@
             "US",
             "CA"
           ]
-        }
-      },
-      "UpperZone": {
-        "ModifyUpperZone": {
-          "Visible": true,
-          "AvailableIn": [
-            "US",
-            "CA"
-          ]
         },
         "CavityBrightness": {
           "Visible": true,
@@ -1372,6 +1363,15 @@
           "StateAttributes": {
             "State": "Sys_DisplaySetCavityBrightness"
           }
+        }
+      },
+      "UpperZone": {
+        "ModifyUpperZone": {
+          "Visible": true,
+          "AvailableIn": [
+            "US",
+            "CA"
+          ]
         }
       },
       "LowerZone": {
