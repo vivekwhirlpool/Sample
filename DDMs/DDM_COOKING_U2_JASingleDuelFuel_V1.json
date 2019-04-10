@@ -3043,7 +3043,6 @@
         "CycleName": [
           "OvenUpperCavity_CycleSetCommonMode",
           "OvenUpperCavity_CycleSetConvectBakeFood",
-          "OvenUpperCavity_CycleSetEasySteamFood",
           "OvenUpperCavity_CycleSetEasyConvectFood",
           "OvenUpperCavity_CycleSetBreadProof"
         ],
