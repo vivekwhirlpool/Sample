@@ -1248,13 +1248,13 @@
       },
       {
         "IsTemplate": false,
-        "M2MAttributeName": "online",
+        "M2MAttributeName": "Online",
         "Instance": "",
         "IsTimeSeries": false,
         "DataType": "Boolean",
-        "AttributeName": "online",
+        "AttributeName": "Online",
         "DeviceIO": "RO",
-        "MappedAttributeName": "online",
+        "MappedAttributeName": "Online",
         "Default": "0",
         "Key": "0x00000000"
       },
