@@ -3795,20 +3795,6 @@
             "MeatProbeTargetTemp": "OvenUpperCavity_CycleSetMeatProbeTargetTemp"
           },
           "StatusAttributes": [
-            "OvenUpperCavity_CycleSetCommonMode",
-            "OvenUpperCavity_CycleSetConvectBakeFood",
-            "OvenUpperCavity_CycleSetEasyConvectFood",
-            "OvenUpperCavity_CycleSetBreadProof",
-            "OvenUpperCavity_CycleSetTargetTemp",
-            "OvenUpperCavity_TimeStatusDelayTimeRemaining",
-            "OvenUpperCavity_TimeStatusCookTimeRemaining",
-            "OvenUpperCavity_AlertStatusMeatProbePluggedIn",
-            "OvenUpperCavity_OpStatusCookTimeState",
-            "OvenUpperCavity_TimeSetCookTimeSet",
-            "OvenUpperCavity_CycleSetMeatProbeTargetTemp",
-            "OvenUpperCavity_DisplStatusMeatProbeDisplayTemp",
-            "OvenUpperCavity_TimeSetDelayTime",
-            "OvenUpperCavity_DisplStatusDisplayTemp"
           ],
           "SendCommandAttributes": [
             "OvenUpperCavity_CycleSetCommonMode",
@@ -3988,6 +3974,40 @@
 
           }
         }        
+      }
+    },
+    "ApplianceRulesets": {
+      "OvenUpperCavity": {
+        "Runtime": [
+          {
+            "ruleName": "Cancel the Running Cycle",
+            "description": "If Appliance is not idle, we can enable the cancel action",
+            "actions": {
+              "ActionCancelCommand": true
+            },
+            "condition": {
+              "type": "value",
+              "key": "OvenUpperCavity_OpStatusState",
+              "valueOperator": "!=",
+              "value": "0"
+            }
+          }
+        ],
+        "Preset": [
+          {
+            "ruleName": "Enable the StartCommand button",
+            "description": "Appliance can be started if the remote is enbled",
+            "actions": {
+              "ActionStartCommand": true
+            },
+            "condition": {
+              "type": "value",
+              "key": "XCat_RemoteSetRemoteControlEnable",
+              "valueOperator": "=",
+              "value": 1
+            }
+          }
+        ]
       }
     },
     "Rulesets": {

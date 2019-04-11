@@ -1919,7 +1919,21 @@
     },
     "ApplianceRulesets": {
       "DishCavity": {
-        "Runtime": [
+        "Runtime": [{
+          "ruleName": "Disable All Features when appliance is offline",
+          "description": "Disable All Features when appliance is offline",
+          "features": {
+            "QuietMode": false,
+            "SabbathMode" : false,
+            "SetDishWasher" : false
+          },
+          "condition": {
+            "type": "value",
+            "key": "Online",
+            "valueOperator": "=",
+            "value": 0
+          }
+        },
           {
             "ruleName": "Cancel the Running Cycle",
             "description": "If Appliance is not idle, we can enable the cancel action",
@@ -2001,9 +2015,7 @@
                 "value": "6"
               }
             }
-          }
-        ],
-        "Preset": [
+          },
           {
             "ruleName": "Enable the StartCommand button",
             "description": "Appliance can be started if the remote is enbled",
