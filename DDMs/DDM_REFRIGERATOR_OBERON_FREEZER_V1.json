@@ -1383,6 +1383,54 @@
           ]
         }
       }
+    },
+    "ApplianceRulesets": {
+      "UpperZone": {
+        "Runtime": [
+          {
+            "ruleName": "Disable All Features when appliance is offline",
+            "description": "Disable All Features when appliance is offline",
+            "features": {
+              "ModifyUpperZone": false,
+              "CavityBrightness" : false,
+              "SabbathMode" : false,
+              "ControlLock" : false,
+              "MaxCool" : false,
+              "IceMaker" : false
+
+            },
+            "condition": {
+              "type": "value",
+              "key": "Online",
+              "valueOperator": "=",
+              "value": 1
+            }
+          }
+        ]
+      },
+      "LowerZone": {
+        "Runtime": [
+          {
+            "ruleName": "Disable All Features when appliance is offline",
+            "description": "Disable All Features when appliance is offline",
+            "features": {
+              "ModifyLowerZone": false,
+              "CavityBrightness" : false,
+              "SabbathMode" : false,
+              "ControlLock" : false,
+              "MaxCool" : false,
+              "IceMaker" : false
+
+            },
+            "condition": {
+              "type": "value",
+              "key": "Online",
+              "valueOperator": "=",
+              "value": 1
+            }
+          }
+        ]
+      }
     }
   },
   "Alerts": {
