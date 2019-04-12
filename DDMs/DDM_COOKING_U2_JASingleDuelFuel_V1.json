@@ -3063,7 +3063,6 @@
         "DelayTimeSetTime": "OvenUpperCavity_TimeSetDelayTime",
         "CookTimeRemaining": "OvenUpperCavity_TimeStatusCookTimeRemaining",
         "OpStatusState": "OvenUpperCavity_OpStatusState",
-        "FillValveOnStatus": "OvenUpperCavity_OpStatusFillValveOn",
         "OpStatusCleanOven": "OvenUpperCavity_OpStatusCleanOven",
         "CulinaryVersion": "OvenUpperCavity_CulinaryCtrSetVersion",
         "CulinaryCtrSetId": "OvenUpperCavity_CulinaryCtrSetId",
