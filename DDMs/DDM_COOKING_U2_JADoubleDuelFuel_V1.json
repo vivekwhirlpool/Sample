@@ -4374,7 +4374,7 @@
               "type": "value",
               "key": "Online",
               "valueOperator": "=",
-              "value": 1
+              "value": 0
             }
           },
           {
@@ -4419,7 +4419,7 @@
               "type": "value",
               "key": "Online",
               "valueOperator": "=",
-              "value": 1
+              "value": 0
             }
           },
           {
