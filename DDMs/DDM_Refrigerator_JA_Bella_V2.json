@@ -1611,19 +1611,14 @@
             "ruleName": "Disable All Features when appliance is offline",
             "description": "Disable All Features when appliance is offline",
             "features": {
-              "ModifyRefrigerator": false,
-              "AutoNightLight" : false,
-              "SabbathMode" : false,
-              "ControlLock" : false,
-              "MaxCool" : false,
-              "MaxIce" : false
+              "ModifyRefrigerator": false
 
             },
             "condition": {
               "type": "value",
               "key": "Online",
               "valueOperator": "=",
-              "value": 1
+              "value": 0
             }
           }
         ]
@@ -1634,19 +1629,14 @@
             "ruleName": "Disable All Features when appliance is offline",
             "description": "Disable All Features when appliance is offline",
             "features": {
-              "ModifyFreezer": false,
-              "AutoNightLight" : false,
-              "SabbathMode" : false,
-              "ControlLock" : false,
-              "MaxCool" : false,
-              "MaxIce" : false
+              "ModifyFreezer": false
 
             },
             "condition": {
               "type": "value",
               "key": "Online",
               "valueOperator": "=",
-              "value": 1
+              "value": 0
             }
           }
         ]
@@ -1657,7 +1647,24 @@
             "ruleName": "Disable All Features when appliance is offline",
             "description": "Disable All Features when appliance is offline",
             "features": {
-              "ModifyPantry": false,
+              "ModifyPantry": false
+
+            },
+            "condition": {
+              "type": "value",
+              "key": "Online",
+              "valueOperator": "=",
+              "value": 0
+            }
+          }
+        ]
+      },
+      "Common" :  {
+        "Runtime": [
+          {
+            "ruleName": "Disable All Features when appliance is offline",
+            "description": "Disable All Features when appliance is offline",
+            "features": {
               "AutoNightLight" : false,
               "SabbathMode" : false,
               "ControlLock" : false,
@@ -1669,7 +1676,7 @@
               "type": "value",
               "key": "Online",
               "valueOperator": "=",
-              "value": 1
+              "value": 0
             }
           }
         ]
