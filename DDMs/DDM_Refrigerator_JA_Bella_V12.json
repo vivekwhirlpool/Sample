@@ -1579,6 +1579,77 @@
           }
         }
       }
+    },
+    "ApplianceRulesets": {
+      "RefrigeratorCavity": {
+        "Runtime": [
+          {
+            "ruleName": "Disable All Features when appliance is offline",
+            "description": "Disable All Features when appliance is offline",
+            "features": {
+              "ModifyRefrigerator": false,
+              "AutoNightLight" : false,
+              "SabbathMode" : false,
+              "ControlLock" : false,
+              "MaxCool" : false,
+              "MaxIce" : false
+
+            },
+            "condition": {
+              "type": "value",
+              "key": "Online",
+              "valueOperator": "=",
+              "value": 1
+            }
+          }
+        ]
+      },
+      "FreezerCavity": {
+        "Runtime": [
+          {
+            "ruleName": "Disable All Features when appliance is offline",
+            "description": "Disable All Features when appliance is offline",
+            "features": {
+              "ModifyFreezer": false,
+              "AutoNightLight" : false,
+              "SabbathMode" : false,
+              "ControlLock" : false,
+              "MaxCool" : false,
+              "MaxIce" : false
+
+            },
+            "condition": {
+              "type": "value",
+              "key": "Online",
+              "valueOperator": "=",
+              "value": 1
+            }
+          }
+        ]
+      },
+      "PantryCavity": {
+        "Runtime": [
+          {
+            "ruleName": "Disable All Features when appliance is offline",
+            "description": "Disable All Features when appliance is offline",
+            "features": {
+              "ModifyPantry": false,
+              "AutoNightLight" : false,
+              "SabbathMode" : false,
+              "ControlLock" : false,
+              "MaxCool" : false,
+              "MaxIce" : false
+
+            },
+            "condition": {
+              "type": "value",
+              "key": "Online",
+              "valueOperator": "=",
+              "value": 1
+            }
+          }
+        ]
+      }
     }
   },
   "Alerts": {
