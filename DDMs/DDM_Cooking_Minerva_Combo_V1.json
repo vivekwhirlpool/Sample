@@ -5724,6 +5724,71 @@
         }
       }
     },
+    "ApplianceRulesets": {
+      "OvenLowerCavity": {
+        "Runtime": [
+          {
+            "ruleName": "Disable All Features when appliance is offline",
+            "description": "Disable All Features when appliance is offline",
+            "features": {
+              "ChangeTempUnits": false,
+              "ControlLock" : false,
+              "RemoteStatus" : false,
+              "KitchenTimer" : false,
+              "ChangeSoundPowerOnOff" : false,
+              "ChangeNumberEntry" : false,
+              "ChangeClockTheme" : false,
+              "ChangeClockOnOffStatus" : false,
+              "ChangeApplianceLanguage" : false,
+              "ChangeSoundKeyAlert" : false,
+              "ChangeSoundKeyPress" : false,
+              "ChangeDisplayOnOffStatus" : false,
+              "ChangeBrightness" : false,
+              "ApplianceDocuments" : false,
+              "MeatProbeTemp" : false,
+              "MeatProbe" : false,
+              "AssistedCooking" : false,
+              "SetOven" : false,
+              "LightOnOff" : false,
+              "MyCreations" : false
+
+            },
+            "condition": {
+              "type": "value",
+              "key": "Online",
+              "valueOperator": "=",
+              "value": 1
+            }
+          },
+          {
+            "ruleName": "Cancel the Running Cycle",
+            "description": "If Appliance is not idle, we can enable the cancel action",
+            "actions": {
+              "ActionCancelCommand": true
+            },
+            "condition": {
+              "type": "value",
+              "key": "LowerCavity_CavityHeatState",
+              "valueOperator": "!=",
+              "value": "0"
+            }
+          },
+          {
+            "ruleName": "Disable the StartCommand button",
+            "description": "Appliance can not be started if the remote is disabled",
+            "actions": {
+              "ActionStartCommand": false
+            },
+            "condition": {
+              "type": "value",
+              "key": "Appliance_RemoteEnabledStatus",
+              "valueOperator": "!=",
+              "value": 1
+            }
+          }
+        ]
+      }
+    },
     "Rulesets": {
       "FaultCodeHistory": {
         "isLegacy": false,
