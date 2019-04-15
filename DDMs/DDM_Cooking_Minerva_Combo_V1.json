@@ -5339,11 +5339,11 @@
         "CycleName": [
           "UpperCavity_CavityModeMicrowaveOven"
         ],
-        "TimeRemaining": "UpperCavity_CookTimeRemaining",
+        "CookTimeRemaining": "UpperCavity_CookTimeRemaining",
         "DoorOpen": "UpperCavity_DoorLockStatus",
         "OpStatusState": "UpperCavity_CavityHeatState",
         "DoorLockStatus": "UpperCavity_DoorLockStatus",
-        "LightOn": "UpperCavity_CavityLight",
+        "CavityLight": "UpperCavity_CavityLight",
         "UserInstruction": "UpperCavity_MicrowaveOvenUserInstruction",
         "MeatProbeTemp": "UpperCavity_MeatProbeTemp",
         "MWCookPower": "UpperCavity_MWCookPower",
@@ -5362,7 +5362,7 @@
         "DoorOpen": "LowerCavity_CavityDoorStatus",
         "DoorLockStatus": "LowerCavity_DoorLockStatus",
         "CookTimeCompleteAction": "LowerCavity_CookTimeCompleteAction",
-        "TimerState": "LowerCavity_OvenTimerState",
+        "CookTimerState": "LowerCavity_OvenTimerState",
         "OpStatusState": "LowerCavity_CavityHeatState",
         "MeatProbeTargetTemp": "LowerCavity_MeatProbeTargetTemp",
         "MeatProbeTemp": "LowerCavity_MeatProbeTemp",
@@ -5550,6 +5550,13 @@
           "StateAttributes": {
             "State": "SystemSettings_DisplayBrightness"
           }
+        },
+        "ApplianceDocuments" : {
+          "Visible": true,
+          "AvailableIn": [
+            "US",
+            "CA"
+          ]
         }
       },
       "MwoCavity": {
@@ -5715,6 +5722,71 @@
             "CA"
           ]
         }
+      }
+    },
+    "ApplianceRulesets": {
+      "OvenLowerCavity": {
+        "Runtime": [
+          {
+            "ruleName": "Disable All Features when appliance is offline",
+            "description": "Disable All Features when appliance is offline",
+            "features": {
+              "ChangeTempUnits": false,
+              "ControlLock" : false,
+              "RemoteStatus" : false,
+              "KitchenTimer" : false,
+              "ChangeSoundPowerOnOff" : false,
+              "ChangeNumberEntry" : false,
+              "ChangeClockTheme" : false,
+              "ChangeClockOnOffStatus" : false,
+              "ChangeApplianceLanguage" : false,
+              "ChangeSoundKeyAlert" : false,
+              "ChangeSoundKeyPress" : false,
+              "ChangeDisplayOnOffStatus" : false,
+              "ChangeBrightness" : false,
+              "ApplianceDocuments" : false,
+              "MeatProbeTemp" : false,
+              "MeatProbe" : false,
+              "AssistedCooking" : false,
+              "SetOven" : false,
+              "LightOnOff" : false,
+              "MyCreations" : false
+
+            },
+            "condition": {
+              "type": "value",
+              "key": "Online",
+              "valueOperator": "=",
+              "value": 0
+            }
+          },
+          {
+            "ruleName": "Cancel the Running Cycle",
+            "description": "If Appliance is not idle, we can enable the cancel action",
+            "actions": {
+              "ActionCancelCommand": true
+            },
+            "condition": {
+              "type": "value",
+              "key": "LowerCavity_CavityHeatState",
+              "valueOperator": "!=",
+              "value": "0"
+            }
+          },
+          {
+            "ruleName": "Disable the StartCommand button",
+            "description": "Appliance can not be started if the remote is disabled",
+            "actions": {
+              "ActionStartCommand": false
+            },
+            "condition": {
+              "type": "value",
+              "key": "Appliance_RemoteEnabledStatus",
+              "valueOperator": "!=",
+              "value": 1
+            }
+          }
+        ]
       }
     },
     "Rulesets": {

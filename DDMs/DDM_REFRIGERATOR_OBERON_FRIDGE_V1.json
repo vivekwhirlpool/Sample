@@ -1342,7 +1342,7 @@
       },
       "Common": {
         "DoorOpenAlarm" : "Sys_AlertStatusDoorOpenAlarm",
-        "StatusState" : "Sys_OpStatusState",
+        "OpStatusState" : "Sys_OpStatusState",
         "TempDisplayUnits": "Sys_DisplaySetTempUnits",
         "CavityBrightness" : "Sys_DisplaySetCavityBrightness",
         "WaterFilter" : "Sys_OpSetWaterFilter",
@@ -1399,15 +1399,6 @@
             "US",
             "CA"
           ]
-        }
-      },
-      "RefrigeratorCavity": {
-        "ModifyRefrigerator": {
-          "Visible": true,
-          "AvailableIn": [
-            "US",
-            "CA"
-          ]
         },
         "CavityBrightness": {
           "Visible": true,
@@ -1418,6 +1409,15 @@
           "StateAttributes": {
             "State": "Sys_DisplaySetCavityBrightness"
           }
+        }
+      },
+      "RefrigeratorCavity": {
+        "ModifyRefrigerator": {
+          "Visible": true,
+          "AvailableIn": [
+            "US",
+            "CA"
+          ]
         }
       },
       "DeliDrawerCavity": {
@@ -1439,7 +1439,85 @@
         }
       }
 
+    },
+    "ApplianceRulesets": {
+      "RefrigeratorCavity": {
+        "Runtime": [
+          {
+            "ruleName": "Disable All Features when appliance is offline",
+            "description": "Disable All Features when appliance is offline",
+            "features": {
+              "ModifyRefrigerator": false
+            },
+            "condition": {
+              "type": "value",
+              "key": "Online",
+              "valueOperator": "=",
+              "value": 0
+            }
+          }
+        ]
+      },
+      "DeliDrawerCavity": {
+        "Runtime": [
+          {
+            "ruleName": "Disable All Features when appliance is offline",
+            "description": "Disable All Features when appliance is offline",
+            "features": {
+              "ModifyDeliDrawer": false
+            },
+            "condition": {
+              "type": "value",
+              "key": "Online",
+              "valueOperator": "=",
+              "value": 0
+            }
+          }
+        ]
+      },
+      "CrisperDrawerCavity": {
+        "Runtime": [
+          {
+            "ruleName": "Disable All Features when appliance is offline",
+            "description": "Disable All Features when appliance is offline",
+            "features": {
+              "ModifyCrisperDrawer": false
+
+            },
+            "condition": {
+              "type": "value",
+              "key": "Online",
+              "valueOperator": "=",
+              "value": 0
+            }
+          }
+        ]
+      },
+      "Common" :  {
+        "Runtime": [
+          {
+            "ruleName": "Disable All Features when appliance is offline",
+            "description": "Disable All Features when appliance is offline",
+            "features": {
+              "CavityBrightness" : false,
+              "SabbathMode" : false,
+              "ControlLock" : false,
+              "MaxCool" : false,
+              "IceMaker" : false
+
+            },
+            "condition": {
+              "type": "value",
+              "key": "Online",
+              "valueOperator": "=",
+              "value": 0
+            }
+          }
+        ]
+      }
+
     }
+
 
   },
   "Alerts": {

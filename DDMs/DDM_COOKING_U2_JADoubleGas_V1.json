@@ -3661,7 +3661,7 @@
         "DoorOpen": "OvenUpperCavity_OpStatusDoorOpen",
         "DoorLockStatus": "OvenUpperCavity_OpStatusDoorLocked",
         "CookTimeCompleteAction": "OvenUpperCavity_OpSetCookTimeCompleteAction",
-        "TimerState": "OvenUpperCavity_OpStatusCookTimeState",
+        "CookTimerState": "OvenUpperCavity_OpStatusCookTimeState",
         "MeatProbeTargetTemp": "OvenUpperCavity_CycleSetMeatProbeTargetTemp",
         "MeatProbeTemp": "OvenUpperCavity_DisplStatusMeatProbeDisplayTemp",
         "SabbathModeActive": "OvenUpperCavity_OpSetSabbathModeActive",
@@ -3691,7 +3691,7 @@
         "DoorOpen": "OvenLowerCavity_OpStatusDoorOpen",
         "DoorLockStatus": "OvenLowerCavity_OpStatusDoorLocked",
         "CookTimeCompleteAction": "OvenLowerCavity_OpSetCookTimeCompleteAction",
-        "TimerState": "OvenLowerCavity_OpStatusCookTimeState",
+        "CookTimerState": "OvenLowerCavity_OpStatusCookTimeState",
         "MeatProbeTargetTemp": "OvenLowerCavity_CycleSetMeatProbeTargetTemp",
         "MeatProbeTemp": "OvenLowerCavity_DisplStatusMeatProbeDisplayTemp",
         "SabbathModeActive": "OvenLowerCavity_OpSetSabbathModeActive",
@@ -3709,7 +3709,8 @@
       },
       "Common": {
         "RemoteEnabledStatus": "XCat_RemoteSetRemoteControlEnable",
-        "TempDisplayUnits": "Sys_DisplaySetTempUnits"
+        "TempDisplayUnits": "Sys_DisplaySetTempUnits",
+        "SabbathModeEnabled" : "Sys_OperationSetSabbathModeEnabled"
       }
     },
     "Features": {
@@ -3728,6 +3729,13 @@
           ]
         },
         "FaultCodes": {
+          "Visible": true,
+          "AvailableIn": [
+            "US",
+            "CA"
+          ]
+        },
+        "ApplianceDocuments" : {
           "Visible": true,
           "AvailableIn": [
             "US",
@@ -3787,20 +3795,6 @@
             "MeatProbeTargetTemp": "OvenUpperCavity_CycleSetMeatProbeTargetTemp"
           },
           "StatusAttributes": [
-            "OvenUpperCavity_CycleSetCommonMode",
-            "OvenUpperCavity_CycleSetConvectBakeFood",
-            "OvenUpperCavity_CycleSetEasyConvectFood",
-            "OvenUpperCavity_CycleSetBreadProof",
-            "OvenUpperCavity_CycleSetTargetTemp",
-            "OvenUpperCavity_TimeStatusDelayTimeRemaining",
-            "OvenUpperCavity_TimeStatusCookTimeRemaining",
-            "OvenUpperCavity_AlertStatusMeatProbePluggedIn",
-            "OvenUpperCavity_OpStatusCookTimeState",
-            "OvenUpperCavity_TimeSetCookTimeSet",
-            "OvenUpperCavity_CycleSetMeatProbeTargetTemp",
-            "OvenUpperCavity_DisplStatusMeatProbeDisplayTemp",
-            "OvenUpperCavity_TimeSetDelayTime",
-            "OvenUpperCavity_DisplStatusDisplayTemp"
           ],
           "SendCommandAttributes": [
             "OvenUpperCavity_CycleSetCommonMode",
@@ -3980,6 +3974,40 @@
 
           }
         }        
+      }
+    },
+    "ApplianceRulesets": {
+      "OvenUpperCavity": {
+        "Runtime": [
+          {
+            "ruleName": "Cancel the Running Cycle",
+            "description": "If Appliance is not idle, we can enable the cancel action",
+            "actions": {
+              "ActionCancelCommand": true
+            },
+            "condition": {
+              "type": "value",
+              "key": "OvenUpperCavity_OpStatusState",
+              "valueOperator": "!=",
+              "value": "0"
+            }
+          }
+        ],
+        "Preset": [
+          {
+            "ruleName": "Enable the StartCommand button",
+            "description": "Appliance can be started if the remote is enbled",
+            "actions": {
+              "ActionStartCommand": true
+            },
+            "condition": {
+              "type": "value",
+              "key": "XCat_RemoteSetRemoteControlEnable",
+              "valueOperator": "=",
+              "value": 1
+            }
+          }
+        ]
       }
     },
     "Rulesets": {

@@ -1254,7 +1254,7 @@
         "DataType": "Boolean",
         "AttributeName": "online",
         "DeviceIO": "RO",
-        "MappedAttributeName": "online",
+        "MappedAttributeName": "Online",
         "Default": "0",
         "Key": "0x00000000"
       },
@@ -1325,6 +1325,11 @@
   },
   "Personality": {
     "Key": "DDM_DISHWASHER_JA_DISH17_246_V1",
+    "Compatibility": {
+      "CustomCycles": [
+        "Cavity_CycleSetDownloadAndGo"
+      ]
+    },
     "CavityOrder": [
       "DishCavity"
     ],
@@ -1385,11 +1390,19 @@
                   "Default": 0
                 }
               }
+            },
+            "Incompatible": {
+              "Cavity_CycleSetOptionUpperRackOnly": [
+                "Cavity_CycleSetOptionLowerRackOnly"
+              ],
+              "Cavity_CycleSetOptionLowerRackOnly": [
+                "Cavity_CycleSetOptionUpperRackOnly"
+              ]
             }
           },
           "Cavity_CycleSetCycleIdCycleRinseOnly": {
             "Required": {
-
+              
             },
             "Optional": {
               "Cavity_TimeSetDelayTime": {
@@ -1435,6 +1448,14 @@
                   "Default": 0
                 }
               }
+            },
+            "Incompatible": {
+              "Cavity_CycleSetOptionUpperRackOnly": [
+                "Cavity_CycleSetOptionLowerRackOnly"
+              ],
+              "Cavity_CycleSetOptionLowerRackOnly": [
+                "Cavity_CycleSetOptionUpperRackOnly"
+              ]
             }
           },
           "Cavity_CycleSetCycleIdCycleLightChina": {
@@ -1470,6 +1491,14 @@
                   "Default": 0
                 }
               }
+            },
+            "Incompatible": {
+              "Cavity_CycleSetOptionUpperRackOnly": [
+                "Cavity_CycleSetOptionLowerRackOnly"
+              ],
+              "Cavity_CycleSetOptionLowerRackOnly": [
+                "Cavity_CycleSetOptionUpperRackOnly"
+              ]
             }
           },
           "Cavity_CycleSetCycleIdCyclePotsAndPans": {
@@ -1526,6 +1555,14 @@
                   "Default": 0
                 }
               }
+            },
+            "Incompatible": {
+              "Cavity_CycleSetOptionUpperRackOnly": [
+                "Cavity_CycleSetOptionLowerRackOnly"
+              ],
+              "Cavity_CycleSetOptionLowerRackOnly": [
+                "Cavity_CycleSetOptionUpperRackOnly"
+              ]
             }
           },
           "Cavity_CycleSetCycleIdCycleSensor": {
@@ -1582,59 +1619,72 @@
                   "Default": 0
                 }
               }
+            },
+            "Incompatible": {
+              "Cavity_CycleSetOptionUpperRackOnly": [
+                "Cavity_CycleSetOptionLowerRackOnly"
+              ],
+              "Cavity_CycleSetOptionLowerRackOnly": [
+                "Cavity_CycleSetOptionUpperRackOnly"
+              ]
             }
           },
           "Cavity_CycleSetDownloadAndGoDownloadGoGentle": {
             "Required": {
-              "NonEditable": {
-                "Cavity_CycleSetCycleId": "CycleLightChina"
-              }
+              
             },
             "Optional": {
-
+              
+            },
+            "NonEditable": {
+              "Cavity_CycleSetCycleId": "CycleLightChina"
             }
           },
           "Cavity_CycleSetDownloadAndGoDownloadGoHeavy": {
             "Required": {
-              "NonEditable": {
-                "Cavity_CycleSetOptionSmartHeatedDry": "Enabled",
-                "Cavity_CycleSetOptionHighTemp": "Enabled",
-                "Cavity_CycleSetCycleId": "CyclePotsAndPans"
-              }
+              
+            },
+            "NonEditable": {
+              "Cavity_CycleSetOptionSmartHeatedDry": "Enabled",
+              "Cavity_CycleSetOptionHighTemp": "Enabled",
+              "Cavity_CycleSetCycleId": "CyclePotsAndPans"
             }
           },
           "Cavity_CycleSetDownloadAndGoDownloadGoSpecialtyItems": {
             "Required": {
-              "NonEditable": {
-                "Cavity_CycleSetOptionSmartHeatedDry": "Enabled",
-                "Cavity_CycleSetOptionSaniRinse": "Enabled",
-                "Cavity_CycleSetCycleId": "CycleNormal"
-              }
+              
             },
             "Optional": {
-
+              
+            },
+            "NonEditable": {
+              "Cavity_CycleSetOptionSmartHeatedDry": "Enabled",
+              "Cavity_CycleSetOptionSaniRinse": "Enabled",
+              "Cavity_CycleSetCycleId": "CycleNormal"
             }
           },
           "Cavity_CycleSetDownloadAndGoDownloadGoSanitize": {
             "Required": {
-              "NonEditable": {
-                "Cavity_CycleSetOptionSmartHeatedDry": "Enabled",
-                "Cavity_CycleSetOptionSaniRinse": "Enabled",
-                "Cavity_CycleSetCycleId": "CycleNormal"
-              }
+              
             },
             "Optional": {
-
+              
+            },
+            "NonEditable": {
+              "Cavity_CycleSetOptionSmartHeatedDry": "Enabled",
+              "Cavity_CycleSetOptionSaniRinse": "Enabled",
+              "Cavity_CycleSetCycleId": "CycleNormal"
             }
           },
           "Cavity_CycleSetDownloadAndGoDownloadGoQuick": {
             "Required": {
-              "NonEditable": {
-                "Cavity_CycleSetCycleId": "CycleOneHourWash"
-              }
+              
             },
             "Optional": {
-
+              
+            },
+            "NonEditable": {
+              "Cavity_CycleSetCycleId": "CycleOneHourWash"
             }
           }
         },
@@ -1741,28 +1791,26 @@
           "Cavity_CycleSetCycleId",
           "Cavity_CycleSetDownloadAndGo"
         ],
-
         "TimeRemaining": "Cavity_TimeStatusEstTimeRemaining",
-        "MachineState" : "Cavity_OperationStatusMachineState",
-        "DoorOpenStatus" : "Cavity_OperationStatusDoorOpen",
-        "FilterStatus" : "Cavity_OperationStatusCleanFilter",
-        "CycleState" : "Cavity_CycleStatusCycleState",
-        "OdometerStatus" : "Cavity_CycleStatusOdometer",
-        "HeavyDutyCycleOdometerStatus" : "Cavity_CycleStatusHeavyDutyCycleOdometer",
-        "CycleCleanStatus" : "Cavity_CycleStatusCycleClean",
-        "CycleSanitizedStatus" : "Cavity_CycleStatusCycleSanitized",
-        "DelayTimeSetTime" : "Cavity_TimeSetDelayTime",
-        "UpperRackOnly" : "Cavity_CycleSetOptionUpperRackOnly",
-        "LowerRackOnly" : "Cavity_CycleSetOptionLowerRackOnly",
-        "SmartHeatedDry" : "Cavity_CycleSetOptionSmartHeatedDry",
-        "SaniRinse" : "Cavity_CycleSetOptionSaniRinse",
-        "SteamEnabled" : "Cavity_CycleSetOptionSteam",
-        "HighTemp" : "Cavity_CycleSetOptionHighTemp"
+        "MachineState": "Cavity_OperationStatusMachineState",
+        "DoorOpen": "Cavity_OperationStatusDoorOpen",
+        "CycleState": "Cavity_CycleStatusCycleState",
+        "OdometerStatus": "Cavity_CycleStatusOdometer",
+        "HeavyDutyCycleOdometerStatus": "Cavity_CycleStatusHeavyDutyCycleOdometer",
+        "CycleCleanStatus": "Cavity_CycleStatusCycleClean",
+        "CycleSanitizedStatus": "Cavity_CycleStatusCycleSanitized",
+        "DelayTimeSetTime": "Cavity_TimeSetDelayTime",
+        "UpperRackOnly": "Cavity_CycleSetOptionUpperRackOnly",
+        "LowerRackOnly": "Cavity_CycleSetOptionLowerRackOnly",
+        "SmartHeatedDry": "Cavity_CycleSetOptionSmartHeatedDry",
+        "SaniRinse": "Cavity_CycleSetOptionSaniRinse",
+        "SteamEnabled": "Cavity_CycleSetOptionSteam",
+        "HighTemp": "Cavity_CycleSetOptionHighTemp"
       },
       "Common": {
         "RemoteEnabledStatus": "XCat_RemoteSetRemoteControlEnable",
-        "QuietModeEnabled" : "Sys_OperationSetQuietModeEnabled",
-        "SabbathModeEnabled" : "Sys_OperationSetSabbathModeEnabled"
+        "QuietModeEnabled": "Sys_OperationSetQuietModeEnabled",
+        "SabbathModeEnabled": "Sys_OperationSetSabbathModeEnabled"
       }
     },
     "Features": {
@@ -1801,7 +1849,7 @@
             "CA"
           ]
         },
-        "ApplianceDocuments" : {
+        "ApplianceDocuments": {
           "Visible": true,
           "AvailableIn": [
             "US",
@@ -1864,14 +1912,28 @@
             "Cavity_CycleSetOptionUpperRackOnly"
           ],
           "SetOperationsMapping": {
-            "Operation" : "Cavity_OperationSetStartCommand"
+            "Operation": "Cavity_OperationSetStartCommand"
           }
         }
       }
     },
     "ApplianceRulesets": {
-      "DishCavity" : {
-        "Runtime": [
+      "DishCavity": {
+        "Runtime": [{
+          "ruleName": "Disable All Features when appliance is offline",
+          "description": "Disable All Features when appliance is offline",
+          "features": {
+            "QuietMode": false,
+            "SabbathMode" : false,
+            "SetDishWasher" : false
+          },
+          "condition": {
+            "type": "value",
+            "key": "Online",
+            "valueOperator": "=",
+            "value": 0
+          }
+        },
           {
             "ruleName": "Cancel the Running Cycle",
             "description": "If Appliance is not idle, we can enable the cancel action",
@@ -1890,7 +1952,7 @@
             "description": "Cavity_OperationStatusMachineState ==Standby, this is instruction sent to appliance",
             "actions": {
               "ActionCancelCommand": true,
-              "ActionStartCommand" : true
+              "ActionStartCommand": true
             },
             "condition": {
               "type": "value",
@@ -1904,9 +1966,9 @@
             "description": "Cavity_OperationStatusMachineState ==Drain, this is instruction sent to appliance",
             "actions": {
               "ActionCancelCommand": false,
-              "ActionStartCommand" : false,
-              "ActionModifyCommand" : false,
-              "ActionSendToApplianceCommand" : false
+              "ActionStartCommand": false,
+              "ActionModifyCommand": false,
+              "ActionSendToApplianceCommand": false
             },
             "condition": {
               "type": "value",
@@ -1920,9 +1982,9 @@
             "description": "Cavity_OperationStatusMachineState ==Drain, this is instruction sent to appliance",
             "actions": {
               "ActionCancelCommand": false,
-              "ActionStartCommand" : false,
-              "ActionModifyCommand" : false,
-              "ActionSendToApplianceCommand" : false
+              "ActionStartCommand": false,
+              "ActionModifyCommand": false,
+              "ActionSendToApplianceCommand": false
             },
             "condition": {
               "type": "value",
@@ -1953,13 +2015,7 @@
                 "value": "6"
               }
             }
-          }
-
-
-
-
-        ],
-        "Preset" : [
+          },
           {
             "ruleName": "Enable the StartCommand button",
             "description": "Appliance can be started if the remote is enbled",
@@ -1988,7 +2044,6 @@
           }
         ]
       }
-
     }
   },
   "Alerts": {

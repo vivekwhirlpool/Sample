@@ -7280,7 +7280,7 @@
         "DoorOpen": "UpperCavity_CavityDoorStatus",
         "DoorLockStatus": "UpperCavity_DoorLockStatus",
         "CookTimeCompleteAction": "UpperCavity_CookTimeCompleteAction",
-        "TimerState": "UpperCavity_OvenTimerState",
+        "CookTimerState": "UpperCavity_OvenTimerState",
         "OpStatusState": "UpperCavity_CavityHeatState",
         "MeatProbeTargetTemp": "UpperCavity_MeatProbeTargetTemp",
         "MeatProbeTemp": "UpperCavity_MeatProbeTemp",
@@ -7305,7 +7305,7 @@
         "DoorOpen": "LowerCavity_CavityDoorStatus",
         "DoorLockStatus": "LowerCavity_DoorLockStatus",
         "CookTimeCompleteAction": "LowerCavity_CookTimeCompleteAction",
-        "TimerState": "LowerCavity_OvenTimerState",
+        "CookTimerState": "LowerCavity_OvenTimerState",
         "OpStatusState": "LowerCavity_CavityHeatState",
         "MeatProbeTargetTemp": "LowerCavity_MeatProbeTargetTemp",
         "MeatProbeTemp": "LowerCavity_MeatProbeTemp",
@@ -7340,6 +7340,13 @@
     },
     "Features": {
       "Common": {
+        "ApplianceDocuments" : {
+          "Visible": true,
+          "AvailableIn": [
+            "US",
+            "CA"
+          ]
+        },
         "ChangeTempUnits": {
           "Visible": true,
           "AvailableIn": [
@@ -7751,6 +7758,135 @@
           ]
         }
       }
+    },
+    "ApplianceRulesets": {
+      "OvenUpperCavity": {
+        "Runtime": [
+          {
+            "ruleName": "Disable All Features when appliance is offline",
+            "description": "Disable All Features when appliance is offline",
+            "features": {
+              "ChangeTempUnits": false,
+              "ControlLock" : false,
+              "RemoteStatus" : false,
+              "KitchenTimer" : false,
+              "ChangeSoundPowerOnOff" : false,
+              "ChangeNumberEntry" : false,
+              "ChangeClockTheme" : false,
+              "ChangeClockOnOffStatus" : false,
+              "ChangeApplianceLanguage" : false,
+              "ChangeSoundKeyAlert" : false,
+              "ChangeSoundKeyPress" : false,
+              "ChangeDisplayOnOffStatus" : false,
+              "ChangeBrightness" : false,
+              "ApplianceDocuments" : false,
+              "MeatProbeTemp" : false,
+              "MeatProbe" : false,
+              "AssistedCooking" : false,
+              "SetOven" : false,
+              "LightOnOff" : false,
+              "MyCreations" : false
+
+            },
+            "condition": {
+              "type": "value",
+              "key": "Online",
+              "valueOperator": "=",
+              "value": 0
+            }
+          },
+          {
+            "ruleName": "Cancel the Running Cycle",
+            "description": "If Appliance is not idle, we can enable the cancel action",
+            "actions": {
+              "ActionCancelCommand": true
+            },
+            "condition": {
+              "type": "value",
+              "key": "UpperCavity_CavityHeatState",
+              "valueOperator": "!=",
+              "value": "0"
+            }
+          },
+          {
+            "ruleName": "Disable the StartCommand button",
+            "description": "Appliance can not be started if the remote is disabled",
+            "actions": {
+              "ActionStartCommand": false
+            },
+            "condition": {
+              "type": "value",
+              "key": "Appliance_RemoteEnabledStatus",
+              "valueOperator": "!=",
+              "value": 1
+            }
+          }
+        ]
+      },
+      "OvenLowerCavity": {
+        "Runtime": [
+          {
+            "ruleName": "Disable All Features when appliance is offline",
+            "description": "Disable All Features when appliance is offline",
+            "features": {
+              "ChangeTempUnits": false,
+              "ControlLock" : false,
+              "RemoteStatus" : false,
+              "KitchenTimer" : false,
+              "ChangeSoundPowerOnOff" : false,
+              "ChangeNumberEntry" : false,
+              "ChangeClockTheme" : false,
+              "ChangeClockOnOffStatus" : false,
+              "ChangeApplianceLanguage" : false,
+              "ChangeSoundKeyAlert" : false,
+              "ChangeSoundKeyPress" : false,
+              "ChangeDisplayOnOffStatus" : false,
+              "ChangeBrightness" : false,
+              "ApplianceDocuments" : false,
+              "MeatProbeTemp" : false,
+              "MeatProbe" : false,
+              "AssistedCooking" : false,
+              "SetOven" : false,
+              "LightOnOff" : false,
+              "MyCreations" : false
+
+            },
+            "condition": {
+              "type": "value",
+              "key": "Online",
+              "valueOperator": "=",
+              "value": 0
+            }
+          },
+          {
+            "ruleName": "Cancel the Running Cycle",
+            "description": "If Appliance is not idle, we can enable the cancel action",
+            "actions": {
+              "ActionCancelCommand": true
+            },
+            "condition": {
+              "type": "value",
+              "key": "LowerCavity_CavityHeatState",
+              "valueOperator": "!=",
+              "value": "0"
+            }
+          },
+          {
+            "ruleName": "Disable the StartCommand button",
+            "description": "Appliance can not be started if the remote is disabled",
+            "actions": {
+              "ActionStartCommand": false
+            },
+            "condition": {
+              "type": "value",
+              "key": "Appliance_RemoteEnabledStatus",
+              "valueOperator": "!=",
+              "value": 1
+            }
+          }
+        ]
+      }
+
     },
     "Rulesets": {
       "FaultCodeHistory": {

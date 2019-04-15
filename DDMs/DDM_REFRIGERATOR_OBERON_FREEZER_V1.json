@@ -1277,17 +1277,17 @@
     },
     "AttributesMapping": {
       "UpperZone": {
-        "DoorOpen": "Freezer_OpStatusDoorOpen",
-        "TargetTemp" : "Freezer_OpSetTempPreset"
-      },
-      "LowerZone": {
         "DoorOpen": "Refrigerator_OpStatusDoorOpen",
         "OverTemp" : "Refrigerator_OpStatusOverTemp",
         "TargetTemp" : "Refrigerator_OpSetTargetTemp"
       },
+      "LowerZone": {
+        "DoorOpen": "Freezer_OpStatusDoorOpen",
+        "TargetTemp" : "Freezer_OpSetTempPreset"
+      },
       "Common": {
         "DoorOpenAlarm" : "Sys_AlertStatusDoorOpenAlarm",
-        "StatusState" : "Sys_OpStatusState",
+        "OpStatusState" : "Sys_OpStatusState",
         "TempDisplayUnits": "Sys_DisplaySetTempUnits",
         "CavityBrightness" : "Sys_DisplaySetCavityBrightness",
         "WaterFilter" : "Sys_OpSetWaterFilter",
@@ -1353,15 +1353,6 @@
             "US",
             "CA"
           ]
-        }
-      },
-      "UpperZone": {
-        "ModifyUpperZone": {
-          "Visible": true,
-          "AvailableIn": [
-            "US",
-            "CA"
-          ]
         },
         "CavityBrightness": {
           "Visible": true,
@@ -1374,6 +1365,15 @@
           }
         }
       },
+      "UpperZone": {
+        "ModifyUpperZone": {
+          "Visible": true,
+          "AvailableIn": [
+            "US",
+            "CA"
+          ]
+        }
+      },
       "LowerZone": {
         "ModifyLowerZone": {
           "Visible": true,
@@ -1383,6 +1383,67 @@
           ]
         }
       }
+    },
+    "ApplianceRulesets": {
+      "UpperZone": {
+        "Runtime": [
+          {
+            "ruleName": "Disable All Features when appliance is offline",
+            "description": "Disable All Features when appliance is offline",
+            "features": {
+              "ModifyUpperZone": false
+
+            },
+            "condition": {
+              "type": "value",
+              "key": "Online",
+              "valueOperator": "=",
+              "value": 0
+            }
+          }
+        ]
+      },
+      "LowerZone": {
+        "Runtime": [
+          {
+            "ruleName": "Disable All Features when appliance is offline",
+            "description": "Disable All Features when appliance is offline",
+            "features": {
+              "ModifyLowerZone": false
+
+            },
+            "condition": {
+              "type": "value",
+              "key": "Online",
+              "valueOperator": "=",
+              "value": 0
+            }
+          }
+        ]
+      },
+      "Common" : {
+        "Runtime": [
+          {
+            "ruleName": "Disable All Features when appliance is offline",
+            "description": "Disable All Features when appliance is offline",
+            "features": {
+              "CavityBrightness" : false,
+              "SabbathMode" : false,
+              "ControlLock" : false,
+              "MaxCool" : false,
+              "IceMaker" : false
+
+            },
+            "condition": {
+              "type": "value",
+              "key": "Online",
+              "valueOperator": "=",
+              "value": 0
+            }
+          }
+        ]
+      }
+
     }
   },
   "Alerts": {
