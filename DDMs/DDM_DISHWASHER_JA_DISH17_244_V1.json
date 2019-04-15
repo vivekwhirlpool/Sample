@@ -1680,54 +1680,52 @@
           }
         },
         "SetCycle": {
-          "WashMode": {
-            "Cavity_CycleSetCycleIdCycleNormal": {
-              "Name": "Normal",
-              "Attributes": {
-                "Cavity_CycleSetCycleId": [
-                  "CycleNormal"
-                ]
-              }
-            },
-            "Cavity_CycleSetCycleIdCycleRinseOnly": {
-              "Name": "Refresh",
-              "Attributes": {
-                "Cavity_CycleSetCycleId": [
-                  "CycleRinseOnly"
-                ]
-              }
-            },
-            "Cavity_CycleSetCycleIdCycleOneHourWash": {
-              "Name": "OneHourWash",
-              "Attributes": {
-                "Cavity_CycleSetCycleId": [
-                  "CycleOneHourWash"
-                ]
-              }
-            },
-            "Cavity_CycleSetCycleIdCycleLightChina": {
-              "Name": "Crystal",
-              "Attributes": {
-                "Cavity_CycleSetCycleId": [
-                  "CycleLightChina"
-                ]
-              }
-            },
-            "Cavity_CycleSetCycleIdCyclePotsAndPans": {
-              "Name": "Cookware",
-              "Attributes": {
-                "Cavity_CycleSetCycleId": [
-                  "CyclePotsAndPans"
-                ]
-              }
-            },
-            "Cavity_CycleSetCycleIdCycleSensor": {
-              "Name": "Sensor",
-              "Attributes": {
-                "Cavity_CycleSetCycleId": [
-                  "CycleSensor"
-                ]
-              }
+          "Cavity_CycleSetCycleIdCycleNormal": {
+            "Name": "Normal",
+            "Attributes": {
+              "Cavity_CycleSetCycleId": [
+                "CycleNormal"
+              ]
+            }
+          },
+          "Cavity_CycleSetCycleIdCycleRinseOnly": {
+            "Name": "Refresh",
+            "Attributes": {
+              "Cavity_CycleSetCycleId": [
+                "CycleRinseOnly"
+              ]
+            }
+          },
+          "Cavity_CycleSetCycleIdCycleOneHourWash": {
+            "Name": "OneHourWash",
+            "Attributes": {
+              "Cavity_CycleSetCycleId": [
+                "CycleOneHourWash"
+              ]
+            }
+          },
+          "Cavity_CycleSetCycleIdCycleLightChina": {
+            "Name": "Crystal",
+            "Attributes": {
+              "Cavity_CycleSetCycleId": [
+                "CycleLightChina"
+              ]
+            }
+          },
+          "Cavity_CycleSetCycleIdCyclePotsAndPans": {
+            "Name": "Cookware",
+            "Attributes": {
+              "Cavity_CycleSetCycleId": [
+                "CyclePotsAndPans"
+              ]
+            }
+          },
+          "Cavity_CycleSetCycleIdCycleSensor": {
+            "Name": "Sensor",
+            "Attributes": {
+              "Cavity_CycleSetCycleId": [
+                "CycleSensor"
+              ]
             }
           },
           "CustomCycle": {
