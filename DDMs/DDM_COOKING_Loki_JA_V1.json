@@ -836,6 +836,90 @@
   },
   "Personality": {
     "Key": "DDM_COOKING_Loki_JA_V1",
+  
+    "BurnerPosition": {
+      "JEC4536H": {
+        "RatioWidth": 2,
+        "RatioHeight": 1,
+        "Burners": {
+          "Burner-2": {
+            "PercentageX": 0.027,
+            "PercentageY": 0.052,
+            "PercentageRadius": 0.1736
+          },
+          "Burner-3": {
+            "PercentageX": 36.84,
+            "PercentageY": 5.2,
+            "PercentageRadius": 34.73
+          },
+          "Burner-5": {
+            "PercentageX": 78.5,
+            "PercentageY": 32.6,
+            "PercentageRadius": 52.10
+          },
+          "Burner-6": {
+            "PercentageX": 2.1,
+            "PercentageY": 45.8,
+            "PercentageRadius": 17.36
+          }
+        }
+      },
+      "JEC4430H": {
+        "RatioWidth": 2,
+        "RatioHeight": 1,
+        "Burners": {
+          "Burner-2": {
+            "PercentageX": 0.027,
+            "PercentageY": 0.052,
+            "PercentageRadius": 0.1736
+          },
+          "Burner-3": {
+            "PercentageX": 36.84,
+            "PercentageY": 5.2,
+            "PercentageRadius": 34.73
+          },
+          "Burner-5": {
+            "PercentageX": 78.5,
+            "PercentageY": 32.6,
+            "PercentageRadius": 52.10
+          },
+          "Burner-6": {
+            "PercentageX": 2.1,
+            "PercentageY": 45.8,
+            "PercentageRadius": 17.36
+          }
+        }
+      },
+      "JEC4424H": {
+        "RatioWidth": 2,
+        "RatioHeight": 1,
+        "Burners": {
+          "Burner-2": {
+            "PercentageX": 0.027,
+            "PercentageY": 0.052,
+            "PercentageRadius": 0.1736
+          },
+          "Burner-3": {
+            "PercentageX": 36.84,
+            "PercentageY": 5.2,
+            "PercentageRadius": 34.73
+          },
+          "Burner-5": {
+            "PercentageX": 78.5,
+            "PercentageY": 32.6,
+            "PercentageRadius": 52.10
+          },
+          "Burner-6": {
+            "PercentageX": 2.1,
+            "PercentageY": 45.8,
+            "PercentageRadius": 17.36
+          }
+        }
+      }
+    },
+    "AttributesMapping": {
+      
+    },
     "Rulesets": [
       {
         "FaultCodeHistory": {
