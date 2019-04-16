@@ -1470,10 +1470,7 @@
         "MaxCool": "Sys_OpSetMaxCool",
         "MaxIce": "Sys_OpSetMaxIce",
         "SabbathModeEnabled": "Sys_OpSetSabbathModeEnabled",
-        "ControlLock": "Sys_OpSetControlLock",
-        "FavoriteFillAmount1": "Sys_OpSetFavoriteFillAmount1",
-        "FavoriteFillAmount2": "Sys_OpSetFavoriteFillAmount2",
-        "FavoriteFillUnits": "Sys_OpSetFavoriteFillUnits"
+        "ControlLock": "Sys_OpSetControlLock"
       }
     },
     "Features": {
