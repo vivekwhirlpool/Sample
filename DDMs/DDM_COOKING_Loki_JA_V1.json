@@ -839,80 +839,85 @@
   
     "BurnerPosition": {
       "JEC4536H": {
-        "RatioWidth": 2,
+        "RatioWidth": 1.9736,
         "RatioHeight": 1,
         "Burners": {
+          "Burner-1": {
+            "PercentageX": 0.04,
+            "PercentageY": 0.0526,
+            "PercentageRadius": 0.1644
+          },
           "Burner-2": {
-            "PercentageX": 0.027,
-            "PercentageY": 0.052,
-            "PercentageRadius": 0.1736
+            "PercentageX": 0.3613,
+            "PercentageY": 0.0526,
+            "PercentageRadius": 0.275
           },
           "Burner-3": {
-            "PercentageX": 36.84,
-            "PercentageY": 5.2,
-            "PercentageRadius": 34.73
+            "PercentageX": 0.7933,
+            "PercentageY": 0.0526,
+            "PercentageRadius": 0.1644
           },
-          "Burner-5": {
-            "PercentageX": 78.5,
-            "PercentageY": 32.6,
-            "PercentageRadius": 52.10
+          "Burner-4": {
+            "PercentageX": 0.04,
+            "PercentageY": 0.4815,
+            "PercentageRadius": 0.4394
           },
           "Burner-6": {
-            "PercentageX": 2.1,
-            "PercentageY": 45.8,
-            "PercentageRadius": 17.36
+            "PercentageX": 0.7653,
+            "PercentageY": 0.5368,
+            "PercentageRadius": 0.3842
           }
         }
       },
       "JEC4430H": {
-        "RatioWidth": 2,
+        "RatioWidth": 1.9736,
         "RatioHeight": 1,
         "Burners": {
           "Burner-2": {
-            "PercentageX": 0.027,
+            "PercentageX": 0.0266,
             "PercentageY": 0.052,
-            "PercentageRadius": 0.1736
+            "PercentageRadius": 0.175
           },
           "Burner-3": {
-            "PercentageX": 36.84,
-            "PercentageY": 5.2,
-            "PercentageRadius": 34.73
+            "PercentageX": 0.3684,
+            "PercentageY": 0.2,
+            "PercentageRadius": 0.25
           },
           "Burner-5": {
-            "PercentageX": 78.5,
-            "PercentageY": 32.6,
-            "PercentageRadius": 52.10
+            "PercentageX": 0.796,
+            "PercentageY": 0.326,
+            "PercentageRadius": 0.175
           },
           "Burner-6": {
-            "PercentageX": 2.1,
-            "PercentageY": 45.8,
-            "PercentageRadius": 17.36
+            "PercentageX": 0.0213,
+            "PercentageY": 0.4578,
+            "PercentageRadius": 0.25
           }
         }
       },
       "JEC4424H": {
-        "RatioWidth": 2,
+        "RatioWidth": 1.9736,
         "RatioHeight": 1,
         "Burners": {
           "Burner-2": {
-            "PercentageX": 0.027,
+            "PercentageX": 0.0266,
             "PercentageY": 0.052,
-            "PercentageRadius": 0.1736
+            "PercentageRadius": 0.2
           },
           "Burner-3": {
-            "PercentageX": 36.84,
-            "PercentageY": 5.2,
-            "PercentageRadius": 34.73
+            "PercentageX": 0.72,
+            "PercentageY": 0.052,
+            "PercentageRadius": 0.25
           },
           "Burner-5": {
-            "PercentageX": 78.5,
-            "PercentageY": 32.6,
-            "PercentageRadius": 52.10
+            "PercentageX": 0.0213,
+            "PercentageY": 0.5578,
+            "PercentageRadius": 0.2
           },
           "Burner-6": {
-            "PercentageX": 2.1,
-            "PercentageY": 45.8,
-            "PercentageRadius": 17.36
+            "PercentageX": 0.618,
+            "PercentageY": 0.5263,
+            "PercentageRadius": 0.2
           }
         }
       }
