@@ -1273,9 +1273,8 @@
         },
         "SetCycle": {
           "Refrigerator_OpSetTempPreset": {
-
+            
           }
-
         }
       },
       "DeliDrawerCavity": {
@@ -1296,11 +1295,9 @@
           }
         },
         "SetCycle": {
-
           "DeliDrawer_OpSetTempPreset": {
-
+            
           }
-
         }
       },
       "CrisperDrawerCavity": {
@@ -1318,39 +1315,36 @@
           }
         },
         "SetCycle": {
-
           "CrisperDrawer_OpSetTempPreset": {
-
+            
           }
-
         }
       }
-
     },
     "AttributesMapping": {
       "CrisperDrawerCavity": {
-        "DoorOpen": "Freezer_OpStatusDoorOpen",
-        "TargetTemp" : "Freezer_OpSetTempPreset"
+        "TargetTemp": "Pantry_OpSetTempPreset"
       },
       "RefrigeratorCavity": {
         "DoorOpen": "Refrigerator_OpStatusDoorOpen",
-        "OverTemp" : "Refrigerator_OpStatusOverTemp",
-        "TargetTemp" : "Refrigerator_OpSetTargetTemp"
+        "OverTemp": "Refrigerator_OpStatusOverTemp",
+        "TargetTemp": "Refrigerator_OpSetTargetTemp"
       },
       "DeliDrawerCavity": {
-        "TargetTemp" : "Pantry_OpSetTempPreset"
+        "DoorOpen": "Freezer_OpStatusDoorOpen",
+        "TargetTemp": "Freezer_OpSetTempPreset"
       },
       "Common": {
-        "DoorOpenAlarm" : "Sys_AlertStatusDoorOpenAlarm",
-        "OpStatusState" : "Sys_OpStatusState",
+        "DoorOpenAlarm": "Sys_AlertStatusDoorOpenAlarm",
+        "OpStatusState": "Sys_OpStatusState",
         "TempDisplayUnits": "Sys_DisplaySetTempUnits",
-        "CavityBrightness" : "Sys_DisplaySetCavityBrightness",
-        "WaterFilter" : "Sys_OpSetWaterFilter",
-        "MaxCool" : "Sys_OpSetMaxCool",
-        "MaxIce" : "Sys_OpSetMaxIce",
-        "VacationMode" : "Sys_OpSetVacationMode",
-        "SabbathModeEnabled" : "Sys_OpSetSabbathModeEnabled",
-        "ControlLock" : "Sys_OpSetControlLock"
+        "CavityBrightness": "Sys_DisplaySetCavityBrightness",
+        "WaterFilter": "Sys_OpSetWaterFilter",
+        "MaxCool": "Sys_OpSetMaxCool",
+        "MaxIce": "Sys_OpSetMaxIce",
+        "VacationMode": "Sys_OpSetVacationMode",
+        "SabbathModeEnabled": "Sys_OpSetSabbathModeEnabled",
+        "ControlLock": "Sys_OpSetControlLock"
       }
     },
     "Features": {
@@ -1393,7 +1387,7 @@
             "CA"
           ]
         },
-        "ApplianceDocuments" : {
+        "ApplianceDocuments": {
           "Visible": true,
           "AvailableIn": [
             "US",
@@ -1438,7 +1432,6 @@
           ]
         }
       }
-
     },
     "ApplianceRulesets": {
       "RefrigeratorCavity": {
@@ -1482,7 +1475,6 @@
             "description": "Disable All Features when appliance is offline",
             "features": {
               "ModifyCrisperDrawer": false
-
             },
             "condition": {
               "type": "value",
@@ -1493,18 +1485,17 @@
           }
         ]
       },
-      "Common" :  {
+      "Common": {
         "Runtime": [
           {
             "ruleName": "Disable All Features when appliance is offline",
             "description": "Disable All Features when appliance is offline",
             "features": {
-              "CavityBrightness" : false,
-              "SabbathMode" : false,
-              "ControlLock" : false,
-              "MaxCool" : false,
-              "IceMaker" : false
-
+              "CavityBrightness": false,
+              "SabbathMode": false,
+              "ControlLock": false,
+              "MaxCool": false,
+              "IceMaker": false
             },
             "condition": {
               "type": "value",
@@ -1515,10 +1506,7 @@
           }
         ]
       }
-
     }
-
-
   },
   "Alerts": {
     "Key": "DDM_REFRIGERATOR_OBERON_FRIDGE_V1",
