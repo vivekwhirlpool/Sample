@@ -923,7 +923,10 @@
       }
     },
     "AttributesMapping": {
-      
+      "Common": {
+        "CookElementState": "Cooktop_CycleStatusCookElementState",
+      	"CookElementPower": "Cooktop_CycleSetCookElementPower"
+      }
     },
     "Rulesets": [
       {
