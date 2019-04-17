@@ -923,7 +923,15 @@
       }
     },
     "AttributesMapping": {
-      
+      "CookTop" : {
+        "CooktopElementState": "Cooktop_CycleStatusCookElementState",
+        "CooktopElementPower": "Cooktop_CycleSetCookElementPower",
+        "CooktopElementSize": "Cooktop_CycleSetCookElementSize",
+        "OpStatusState": "Cooktop_OperationStatusState"
+      },
+      "Common": {
+        "ControlLock": "Sys_OperationSetControlLock"
+      }
     },
     "Rulesets": [
       {
