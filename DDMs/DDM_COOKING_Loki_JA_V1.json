@@ -836,7 +836,9 @@
   },
   "Personality": {
     "Key": "DDM_COOKING_Loki_JA_V1",
-  
+    "CavityOrder": [
+      "Cooktop"
+    ],
     "BurnerPosition": {
       "JEC4536H": {
         "RatioWidth": 1.9736,
@@ -923,11 +925,13 @@
       }
     },
     "AttributesMapping": {
-      "Common": {
+      "Cooktop" : {
         "CooktopElementState": "Cooktop_CycleStatusCookElementState",
         "CooktopElementPower": "Cooktop_CycleSetCookElementPower",
         "CooktopElementSize": "Cooktop_CycleSetCookElementSize",
-        "OpStatusState": "Cooktop_OperationStatusState",
+        "OpStatusState": "Cooktop_OperationStatusState"
+      },
+      "Common": {
         "ControlLock": "Sys_OperationSetControlLock"
       }
     },
