@@ -935,6 +935,43 @@
         "ControlLock": "Sys_OperationSetControlLock"
       }
     },
+    "Features": {
+      "Common": {
+        "ControlLock": {
+          "Visible": true,
+          "AvailableIn": [
+            "US",
+            "CA"
+          ],
+          "StateAttributes": {
+            "State": "Sys_OperationSetControlLock"
+          }
+        },
+        "Notifications": {
+          "Visible": true,
+          "AvailableIn": [
+            "US",
+            "CA"
+          ]
+        },
+        "FaultCodes": {
+          "Visible": true,
+          "AvailableIn": [
+            "US",
+            "CA"
+          ]
+        },
+        "ApplianceDocuments" : {
+          "Visible": true,
+          "AvailableIn": [
+            "US",
+            "CA"
+          ]
+        }
+      },
+      "Cooktop": {
+      }
+    },
     "Rulesets": [
       {
         "FaultCodeHistory": {
