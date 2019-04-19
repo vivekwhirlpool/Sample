@@ -4382,7 +4382,7 @@
               "OvenUpperCavity_CycleSetBreadProof": false
             },
             "features": {
-              "Notifications": false
+              "AssistedCooking": false
             },
             "actions": {
               "ActionSetCycleStartCommand": false,
