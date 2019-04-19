@@ -4393,7 +4393,7 @@
               "type": "value",
               "key": "OvenUpperCavity_OpStatusState",
               "valueOperator": "!=",
-              "value": "0"
+              "value": "StateIdle"
             }
           },
           {
