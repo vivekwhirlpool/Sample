@@ -1893,13 +1893,13 @@
           "SendCommandAttributes": [
             "Cavity_CycleSetDownloadAndGo",
             "Cavity_CycleSetCycleId",
-            "Cavity_TimeSetDelayTime",
             "Cavity_CycleSetOptionSaniRinse",
             "Cavity_CycleSetOptionSmartHeatedDry",
             "Cavity_CycleSetOptionLowerRackOnly",
             "Cavity_CycleSetOptionSteam",
             "Cavity_CycleSetOptionHighTemp",
-            "Cavity_CycleSetOptionUpperRackOnly"
+            "Cavity_CycleSetOptionUpperRackOnly",
+            "Cavity_TimeSetDelayTime"
           ],
           "SetOperationsMapping": {
             "Operation": "Cavity_OperationSetStartCommand"
