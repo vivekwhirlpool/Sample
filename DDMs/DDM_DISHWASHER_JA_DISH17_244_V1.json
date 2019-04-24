@@ -1350,6 +1350,13 @@
                 ],
                 "Default": "Disabled"
               },
+              "Cavity_CycleSetOptionBottleWashZone": {
+                "Enumeration": [
+                  "Disabled",
+                  "Enabled"
+                ],
+                "Default": "Disabled"
+              },
               "Cavity_CycleSetOptionSteam": {
                 "Enumeration": [
                   "Disabled",
@@ -1471,6 +1478,13 @@
                   "Enabled"
                 ],
                 "Default": "Enabled"
+              },
+              "Cavity_CycleSetOptionBottleWashZone": {
+                "Enumeration": [
+                  "Disabled",
+                  "Enabled"
+                ],
+                "Default": "Disabled"
               }
             },
             "Optional": {
@@ -1509,6 +1523,13 @@
                 "Default": "Enabled"
               },
               "Cavity_CycleSetOptionLowerRackOnly": {
+                "Enumeration": [
+                  "Disabled",
+                  "Enabled"
+                ],
+                "Default": "Disabled"
+              },
+              "Cavity_CycleSetOptionBottleWashZone": {
                 "Enumeration": [
                   "Disabled",
                   "Enabled"
@@ -1594,6 +1615,13 @@
                 "Default": "Disabled"
               },
               "Cavity_CycleSetOptionLowerRackOnly": {
+                "Enumeration": [
+                  "Disabled",
+                  "Enabled"
+                ],
+                "Default": "Disabled"
+              },
+              "Cavity_CycleSetOptionBottleWashZone": {
                 "Enumeration": [
                   "Disabled",
                   "Enabled"
