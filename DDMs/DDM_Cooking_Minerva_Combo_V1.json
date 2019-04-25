@@ -5731,26 +5731,33 @@
             "ruleName": "Disable All Features when appliance is offline",
             "description": "Disable All Features when appliance is offline",
             "features": {
-              "MeatProbeTemp" : false,
-              "MeatProbe" : false,
-              "AssistedCooking" : false,
-              "SetOven" : false,
-              "LightOnOff" : false,
-              "MyCreations" : false
-
+              "MeatProbeTemp" : true,
+              "MeatProbe" : true,
+              "AssistedCooking" : true,
+              "SetOven" : true,
+              "LightOnOff" : true,
+              "MyCreations" : true
+            },
+            "actions": {
+              "ActionCancelCommand": false,
+              "ActionStartCommand" : false,
+              "ActionModifyCommand" : false
             },
             "condition": {
               "type": "value",
               "key": "Online",
               "valueOperator": "=",
-              "value": 0
+              "value": 1
             }
           },
           {
             "ruleName": "Cancel the Running Cycle",
             "description": "If Appliance is not idle, we can enable the cancel action",
+
             "actions": {
-              "ActionCancelCommand": true
+              "ActionCancelCommand": true,
+              "ActionStartCommand" : false,
+              "ActionModifyCommand" : true
             },
             "condition": {
               "type": "value",
