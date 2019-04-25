@@ -3078,7 +3078,7 @@
     "Features": {
       "Common": {
         "LocalKitchenTimer": {
-          "Visible": true,
+          "Visible": false,
           "AvailableIn": [
             "US"
           ]
