@@ -1359,6 +1359,13 @@
                 ],
                 "Default": "Disabled"
               },
+              "Cavity_CycleSetOptionBottleWashZone": {
+                "Enumeration": [
+                  "Disabled",
+                  "Enabled"
+                ],
+                "Default": "Disabled"
+              },
               "Cavity_CycleSetOptionSteam": {
                 "Enumeration": [
                   "Disabled",
@@ -1402,7 +1409,7 @@
           },
           "Cavity_CycleSetCycleIdCycleRinseOnly": {
             "Required": {
-              
+
             },
             "Optional": {
               "Cavity_TimeSetDelayTime": {
@@ -1480,6 +1487,13 @@
                   "Enabled"
                 ],
                 "Default": "Enabled"
+              },
+              "Cavity_CycleSetOptionBottleWashZone": {
+                "Enumeration": [
+                  "Disabled",
+                  "Enabled"
+                ],
+                "Default": "Disabled"
               }
             },
             "Optional": {
@@ -1518,6 +1532,13 @@
                 "Default": "Enabled"
               },
               "Cavity_CycleSetOptionLowerRackOnly": {
+                "Enumeration": [
+                  "Disabled",
+                  "Enabled"
+                ],
+                "Default": "Disabled"
+              },
+              "Cavity_CycleSetOptionBottleWashZone": {
                 "Enumeration": [
                   "Disabled",
                   "Enabled"
@@ -1608,6 +1629,13 @@
                   "Enabled"
                 ],
                 "Default": "Disabled"
+              },
+              "Cavity_CycleSetOptionBottleWashZone": {
+                "Enumeration": [
+                  "Disabled",
+                  "Enabled"
+                ],
+                "Default": "Disabled"
               }
             },
             "Optional": {
@@ -1631,10 +1659,10 @@
           },
           "Cavity_CycleSetDownloadAndGoDownloadGoGentle": {
             "Required": {
-              
+
             },
             "Optional": {
-              
+
             },
             "NonEditable": {
               "Cavity_CycleSetCycleId": "CycleLightChina"
@@ -1642,7 +1670,7 @@
           },
           "Cavity_CycleSetDownloadAndGoDownloadGoHeavy": {
             "Required": {
-              
+
             },
             "NonEditable": {
               "Cavity_CycleSetOptionSmartHeatedDry": "Enabled",
@@ -1652,10 +1680,10 @@
           },
           "Cavity_CycleSetDownloadAndGoDownloadGoSpecialtyItems": {
             "Required": {
-              
+
             },
             "Optional": {
-              
+
             },
             "NonEditable": {
               "Cavity_CycleSetOptionSmartHeatedDry": "Enabled",
@@ -1665,10 +1693,10 @@
           },
           "Cavity_CycleSetDownloadAndGoDownloadGoSanitize": {
             "Required": {
-              
+
             },
             "Optional": {
-              
+
             },
             "NonEditable": {
               "Cavity_CycleSetOptionSmartHeatedDry": "Enabled",
@@ -1678,10 +1706,10 @@
           },
           "Cavity_CycleSetDownloadAndGoDownloadGoQuick": {
             "Required": {
-              
+
             },
             "Optional": {
-              
+
             },
             "NonEditable": {
               "Cavity_CycleSetCycleId": "CycleOneHourWash"
@@ -1901,13 +1929,13 @@
           "SendCommandAttributes": [
             "Cavity_CycleSetDownloadAndGo",
             "Cavity_CycleSetCycleId",
-            "Cavity_TimeSetDelayTime",
             "Cavity_CycleSetOptionSaniRinse",
             "Cavity_CycleSetOptionSmartHeatedDry",
             "Cavity_CycleSetOptionLowerRackOnly",
             "Cavity_CycleSetOptionSteam",
             "Cavity_CycleSetOptionHighTemp",
-            "Cavity_CycleSetOptionUpperRackOnly"
+            "Cavity_CycleSetOptionUpperRackOnly",
+            "Cavity_TimeSetDelayTime"
           ],
           "SetOperationsMapping": {
             "Operation": "Cavity_OperationSetStartCommand"

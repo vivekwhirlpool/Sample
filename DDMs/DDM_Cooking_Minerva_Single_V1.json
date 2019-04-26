@@ -4762,20 +4762,6 @@
             "ruleName": "Disable All Features when appliance is offline",
             "description": "Disable All Features when appliance is offline",
             "features": {
-              "ChangeTempUnits": false,
-              "ControlLock" : false,
-              "RemoteStatus" : false,
-              "KitchenTimer" : false,
-              "ChangeSoundPowerOnOff" : false,
-              "ChangeNumberEntry" : false,
-              "ChangeClockTheme" : false,
-              "ChangeClockOnOffStatus" : false,
-              "ChangeApplianceLanguage" : false,
-              "ChangeSoundKeyAlert" : false,
-              "ChangeSoundKeyPress" : false,
-              "ChangeDisplayOnOffStatus" : false,
-              "ChangeBrightness" : false,
-              "ApplianceDocuments" : false,
               "MeatProbeTemp" : false,
               "MeatProbe" : false,
               "AssistedCooking" : false,
@@ -4815,6 +4801,35 @@
               "key": "Appliance_RemoteEnabledStatus",
               "valueOperator": "!=",
               "value": 1
+            }
+          }
+        ]
+      },
+      "Common" : {
+        "Runtime": [
+          {
+            "ruleName": "Disable All Features when appliance is offline",
+            "description": "Disable All Features when appliance is offline",
+            "features": {
+              "ChangeTempUnits": false,
+              "ControlLock" : false,
+              "RemoteStatus" : false,
+              "KitchenTimer" : false,
+              "ChangeSoundPowerOnOff" : false,
+              "ChangeNumberEntry" : false,
+              "ChangeClockTheme" : false,
+              "ChangeClockOnOffStatus" : false,
+              "ChangeApplianceLanguage" : false,
+              "ChangeSoundKeyAlert" : false,
+              "ChangeSoundKeyPress" : false,
+              "ChangeDisplayOnOffStatus" : false,
+              "ChangeBrightness" : false
+            },
+            "condition": {
+              "type": "value",
+              "key": "Online",
+              "valueOperator": "=",
+              "value": 0
             }
           }
         ]
