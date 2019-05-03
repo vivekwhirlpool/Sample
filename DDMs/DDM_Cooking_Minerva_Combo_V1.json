@@ -5731,12 +5731,12 @@
             "ruleName": "Disable All Features when appliance is offline",
             "description": "Disable All Features when appliance is offline",
             "features": {
-              "MeatProbeTemp" : true,
-              "MeatProbe" : true,
-              "AssistedCooking" : true,
-              "SetOven" : true,
-              "LightOnOff" : true,
-              "MyCreations" : true
+              "MeatProbeTemp" : false,
+              "MeatProbe" : false,
+              "AssistedCooking" : false,
+              "SetOven" : false,
+              "LightOnOff" : false,
+              "MyCreations" : false
             },
             "actions": {
               "ActionCancelCommand": false,
