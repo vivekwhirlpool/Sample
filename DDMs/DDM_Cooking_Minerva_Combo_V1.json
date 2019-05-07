@@ -5739,9 +5739,9 @@
               "MyCreations" : true
             },
             "actions": {
-              "ActionCancelCommand": false,
-              "ActionStartCommand" : false,
-              "ActionModifyCommand" : false
+              "ActionCancelCommand": true,
+              "ActionStartCommand" : true,
+              "ActionModifyCommand" : true
             },
             "condition": {
               "type": "value",
