@@ -7529,6 +7529,7 @@
             "UpperCavity_CavityModeOven",
             "UpperCavity_CulinaryCenterID",
             "UpperCavity_CavityTargetTemp",
+            "UpperCavity_MeatProbeTargetTemp",
             "UpperCavity_CookTimeSetTime",
             "UpperCavity_OvenTimerOperations",
             "UpperCavity_CavityOperations"
@@ -7538,7 +7539,9 @@
             "TimerOperations": "UpperCavity_OvenTimerOperations",
             "CookTime": "UpperCavity_CookTimeSetTime",
             "CookTemp": "UpperCavity_CavityTargetTemp",
-            "ProfileId": "UpperCavity_CulinaryCenterID"
+            "ProfileId": "UpperCavity_CulinaryCenterID",
+            "CycleName" : "UpperCavity_CavityModeOven",
+            "MeatProbeTargetTemp": "UpperCavity_MeatProbeTargetTemp"
           }
         },
         "SetOven": {
@@ -7568,6 +7571,7 @@
           "SendCommandAttributes": [
             "UpperCavity_CavityModeOven",
             "UpperCavity_CavityTargetTemp",
+            "UpperCavity_MeatProbeTargetTemp",
             "UpperCavity_DelayTimeSetTime",
             "UpperCavity_CookTimeSetTime",
             "UpperCavity_OvenTimerOperations",
@@ -7657,6 +7661,7 @@
             "LowerCavity_CavityModeOven",
             "LowerCavity_CulinaryCenterID",
             "LowerCavity_CavityTargetTemp",
+            "LowerCavity_MeatProbeTargetTemp",
             "LowerCavity_CookTimeSetTime",
             "LowerCavity_OvenTimerOperations",
             "LowerCavity_CavityOperations"
@@ -7666,7 +7671,9 @@
             "TimerOperations": "LowerCavity_OvenTimerOperations",
             "CookTime": "LowerCavity_CookTimeSetTime",
             "CookTemp": "LowerCavity_CavityTargetTemp",
-            "ProfileId": "LowerCavity_CulinaryCenterID"
+            "ProfileId": "LowerCavity_CulinaryCenterID",
+            "CycleName" : "LowerCavity_CavityModeOven",
+            "MeatProbeTargetTemp": "LowerCavity_MeatProbeTargetTemp"
           }
         },
         "SetOven": {
@@ -7696,6 +7703,7 @@
           "SendCommandAttributes": [
             "LowerCavity_CavityModeOven",
             "LowerCavity_CavityTargetTemp",
+            "LowerCavity_MeatProbeTargetTemp",
             "LowerCavity_DelayTimeSetTime",
             "LowerCavity_CookTimeSetTime",
             "LowerCavity_OvenTimerOperations",
