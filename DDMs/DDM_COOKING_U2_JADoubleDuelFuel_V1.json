@@ -4387,7 +4387,7 @@
             "actions": {
               "ActionSetCycleStartCommand": false,
               "ActionSetCycleCancelCommand": true,
-              "ActionSetCycleModifyCommand": false
+              "ActionModifyCommand": false
             },
             "condition": {
               "type": "value",
