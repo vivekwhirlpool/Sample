@@ -4385,9 +4385,9 @@
               "AssistedCooking": false
             },
             "actions": {
-              "ActionSetCycleStartCommand": false,
-              "ActionCancelCommand": false,
-              "ActionModifyCommand": false
+              "ActionStartCommand": false,
+              "ActionCancelCommand": true,
+              "ActionModifyCommand": true
             },
             "condition": {
               "type": "value",
