@@ -4400,7 +4400,7 @@
             "ruleName": "Disable the StartCommand button",
             "description": "Appliance can not be started if the remote is disabled",
             "actions": {
-              "ActionSetCycleStartCommand": false
+              "ActionStartCommand": false
             },
             "condition": {
               "type": "value",
