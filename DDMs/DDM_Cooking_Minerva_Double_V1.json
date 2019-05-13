@@ -3020,7 +3020,7 @@
                   525,
                   550
                 ],
-                "Default": 350
+                "Default": 325
               }
             },
             "Optional": {
@@ -3755,7 +3755,7 @@
                   "StepF": 5,
                   "StepC": 3,
                   "Min": 130,
-                  "Max": 180,
+                  "Max": 185,
                   "Default": 160
                 }
               },
@@ -3802,7 +3802,7 @@
                   "StepF": 5,
                   "StepC": 3,
                   "Min": 130,
-                  "Max": 180,
+                  "Max": 185,
                   "Default": 160
                 }
               },
@@ -3849,7 +3849,7 @@
                   "StepF": 5,
                   "StepC": 3,
                   "Min": 130,
-                  "Max": 180,
+                  "Max": 185,
                   "Default": 160
                 }
               },
@@ -5176,7 +5176,7 @@
                   525,
                   550
                 ],
-                "Default": 350
+                "Default": 325
               }
             },
             "Optional": {
@@ -5911,7 +5911,7 @@
                   "StepF": 5,
                   "StepC": 3,
                   "Min": 130,
-                  "Max": 180,
+                  "Max": 185,
                   "Default": 160
                 }
               },
@@ -5958,7 +5958,7 @@
                   "StepF": 5,
                   "StepC": 3,
                   "Min": 130,
-                  "Max": 180,
+                  "Max": 185,
                   "Default": 160
                 }
               },
@@ -6005,7 +6005,7 @@
                   "StepF": 5,
                   "StepC": 3,
                   "Min": 130,
-                  "Max": 180,
+                  "Max": 185,
                   "Default": 160
                 }
               },
