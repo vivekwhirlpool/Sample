@@ -2560,14 +2560,6 @@
               }
             },
             "Optional": {
-              "OvenUpperCavity_CycleSetMeatProbeTargetTemp": {
-                "TempRange": {
-                  "Min": 544,
-                  "Max": 850,
-                  "StepF": 5,
-                  "Default": 711
-                }
-              },
               "OvenUpperCavity_TimeSetCookTimeSet": {
                 "Range": {
                   "Min": 0,
@@ -3438,14 +3430,6 @@
               }
             },
             "Optional": {
-              "OvenLowerCavity_CycleSetMeatProbeTargetTemp": {
-                "TempRange": {
-                  "Min": 544,
-                  "Max": 850,
-                  "StepF": 5,
-                  "Default": 711
-                }
-              },
               "OvenLowerCavity_TimeSetCookTimeSet": {
                 "Range": {
                   "Min": 0,
