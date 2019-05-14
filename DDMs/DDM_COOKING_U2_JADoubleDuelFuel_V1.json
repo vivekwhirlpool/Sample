@@ -2584,7 +2584,7 @@
                 "TempRange": {
                   "Min": 2322,
                   "Max": 2878,
-                  "Step": 50,
+                  "StepF": 50,
                   "Default": 2878
                 }
               },
