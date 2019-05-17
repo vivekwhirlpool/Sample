@@ -4633,7 +4633,7 @@
             "US"
           ],
           "StateAttributes": {
-            
+
           },
           "StatusAttributes": [
             "UpperCavity_CavityModeOven",
@@ -4653,6 +4653,7 @@
             "UpperCavity_CavityModeOven",
             "UpperCavity_CulinaryCenterID",
             "UpperCavity_CavityTargetTemp",
+            "UpperCavity_MeatProbeTargetTemp",
             "UpperCavity_CookTimeSetTime",
             "UpperCavity_OvenTimerOperations",
             "UpperCavity_CavityOperations"
@@ -4662,7 +4663,9 @@
             "TimerOperations": "UpperCavity_OvenTimerOperations",
             "CookTime": "UpperCavity_CookTimeSetTime",
             "CookTemp": "UpperCavity_CavityTargetTemp",
-            "ProfileId": "UpperCavity_CulinaryCenterID"
+            "ProfileId": "UpperCavity_CulinaryCenterID",
+            "CycleName" : "UpperCavity_CavityModeOven",
+            "MeatProbeTargetTemp": "UpperCavity_MeatProbeTargetTemp"
           }
         },
         "SetOven": {
