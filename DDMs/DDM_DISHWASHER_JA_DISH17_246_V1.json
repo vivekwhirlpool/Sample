@@ -1977,8 +1977,7 @@
             "ruleName": "Enable Cancel option if, An istruction already entered in Appliance",
             "description": "Cavity_OperationStatusMachineState ==Standby, this is instruction sent to appliance",
             "actions": {
-              "ActionCancelCommand": true,
-              "ActionStartCommand": true
+              "ActionCancelCommand": true
             },
             "condition": {
               "type": "value",
