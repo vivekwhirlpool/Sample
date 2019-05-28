@@ -96,26 +96,46 @@
     },
     "AFCSelfHelpPack": {},
     "MobileLiterals": {
+        "Manuals": {
+            "Warranty": {
+                "Title": "Warranty",
+                "FilePath": "NAR/JENNAIR/DDM_REFRIGERATOR_OBERON_FRIDGE_V1/Docs/eng/Refrigerator_Warranty.pdf"
+            },
+            "UseCareGuide": {
+                "Title": "Use & Care Guide",
+                "FilePath": "NAR/JENNAIR/DDM_REFRIGERATOR_OBERON_FRIDGE_V1/Docs/eng/Refrigerator_Use_and_Care_Guide.pdf"
+            },
+            "InstallationInstructions": {
+                "Title": "Installation Instructions",
+                "FilePath": "NAR/JENNAIR/DDM_REFRIGERATOR_OBERON_FRIDGE_V1/Docs/eng/Refrigerator_Installation_Instructions.pdf"
+            },
+            "FccInformationForm": {
+                "Title": "FCC Information Form",
+                "FilePath": "NAR/JENNAIR/DDM_REFRIGERATOR_OBERON_FRIDGE_V1/Docs/eng/Refrigerator_FCC.pdf"
+            }
+        },
+        "NestSettings": {},
+        "SpecialtyCycles": {},
         "Notifications": {
             "DoorOpenAlert": {
                 "Name": "Door Open",
-                "Description": "You will receive a notification when the door has been open for longer than 5 minutes."
+                "Description": "Receive a notification when the refrigerator door has been open for longer than 5 minutes."
             },
             "DoorCloseAlert": {
                 "Name": "Door Closed",
-                "Description": "You will receive a notification when the door has been closed after being open for longer than 5 minutes."
+                "Description": "Receive a notification when the door has been closed after being open for longer than 5 minutes."
             },
             "PowerOutAlert": {
                 "Name": "Power Outage",
-                "Description": "You will receive a notification for any power outage and restoration."
+                "Description": "Receive a notification for any power outage and restoration."
             },
             "WaterFilter": {
                 "Name": "Order Filter Alert",
-                "Description": "You will receive a notification when it is time to reorder your water filter for the refrigerator."
+                "Description": "Receive a notification when it is time to reorder your water filter for the refrigerator."
             },
             "OverTemp": {
-                "Name": "Over Temp Alarm",
-                "Description": "You will receive a notification if your refrigerator temperature rises over 50° F."
+                "Name": "Over Temperature Alert",
+                "Description": "Receive a notification if your refrigerator temperature rises over 50° F."
             }
         },
         "SupplyItem": {
@@ -208,6 +228,118 @@
                     }
                 ]
             }
-        }
+        },
+        "smartTip": [],
+        "cxcDetail": {
+            "US": {
+                "Country": "United States",
+                "cxcEmail": {
+                    "Development": "NAR_JennAirCustomerExperience@JennAir.com",
+                    "Test": "NAR_JennAirCustomerExperience@JennAir.com",
+                    "Staging": "NAR_JennAirCustomerExperience@JennAir.com",
+                    "Cuft": "NAR_JennAirCustomerExperience@JennAir.com",
+                    "Production": "NAR_JennAirCustomerExperience@JennAir.com"
+                },
+                "cxcPhone": {
+                    "Development": "1-800-536-6247",
+                    "Test": "1-800-536-6247",
+                    "Staging": "1-800-536-6247",
+                    "Cuft": "1-800-536-6247",
+                    "Production": "1-800-536-6247"
+                },
+                "cxcHours": {
+                    "Development": "Mon–Fri 8am–8pm EST",
+                    "Test": "Mon–Fri 8am–8pm EST",
+                    "Staging": "Mon–Fri 8am–8pm EST",
+                    "Cuft": "Mon–Fri 8am–8pm EST",
+                    "Production": "Mon–Fri 8am–8pm EST"
+                }
+            },
+            "CA": {
+                "Country": "Canada",
+                "cxcEmail": {
+                    "Development": "NAR_JennAirCustomerExperience@JennAir.com",
+                    "Test": "NAR_JennAirCustomerExperience@JennAir.com",
+                    "Staging": "NAR_JennAirCustomerExperience@JennAir.com",
+                    "Cuft": "NAR_JennAirCustomerExperience@JennAir.com",
+                    "Production": "NAR_JennAirCustomerExperience@JennAir.com"
+                },
+                "cxcPhone": {
+                    "Development": "1-800-536-6247",
+                    "Test": "1-800-536-6247",
+                    "Staging": "1-800-536-6247",
+                    "Cuft": "1-800-536-6247",
+                    "Production": "1-800-536-6247"
+                },
+                "cxcHours": {
+                    "Development": "Mon–Fri 8am–8pm EST",
+                    "Test": "Mon–Fri 8am–8pm EST",
+                    "Staging": "Mon–Fri 8am–8pm EST",
+                    "Cuft": "Mon–Fri 8am–8pm EST",
+                    "Production": "Mon–Fri 8am–8pm EST"
+                }
+            }
+        },
+        "Replenishment": {}
+    },
+    "NotificationMessages": {
+        "NotificationContents": [
+            {
+                "TemplateId": "FrigDoorCloseAlert1",
+                "SmsText": "Refrigerator door has been closed.",
+                "EmailText": "Refrigerator door has been closed.",
+                "PushText": "Refrigerator door has been closed.",
+                "AlertTitle": "Door Closed",
+                "Type": "maxIceDoor"
+            },
+            {
+                "TemplateId": "FrigDoorOpenAlert1",
+                "SmsText": "Refrigerator door alarm is sounding. Check that the door is closed and/or items aren’t blocking the door.",
+                "EmailText": "Refrigerator door alarm is sounding. Check that the door is closed and/or items aren’t blocking the door.",
+                "PushText": "Refrigerator door alarm is sounding. Check that the door is closed and/or items aren’t blocking the door.",
+                "AlertTitle": "Door Open",
+                "Type": "maxIceDoor"
+            },
+            {
+                "TemplateId": "FrigPowerOutAlert",
+                "SmsText": "Refrigerator lost power.",
+                "EmailText": "Refrigerator lost power.",
+                "PushText": "Refrigerator lost power.",
+                "AlertTitle": "Power Outage",
+                "Type": "system"
+            },
+            {
+                "TemplateId": "FrigOverTemp",
+                "SmsText": "Review the contents of your refrigerator - it is over temperature",
+                "EmailText": "Review the contents of your refrigerator - it is over temperature",
+                "PushText": "Review the contents of your refrigerator - it is over temperature",
+                "AlertTitle": "Over Temp Alarm",
+                "Type": "system"
+            },
+            {
+                "TemplateId": "FrigWaterFilter0",
+                "SmsText": "It's just about time to replace your referigerator's water filter, order now.Once the water filter is replaced, flush the water system as described in the Use & Care Guide before using the dispenser. You should also discard the initial (3) batches of ice.",
+                "EmailText": "It's just about time to replace your referigerator's water filter, order now.Once the water filter is replaced, flush the water system as described in the Use & Care Guide before using the dispenser. You should also discard the initial (3) batches of ice.", 
+                "PushText": "It's just about time to replace your referigerator's water filter, order now.Once the water filter is replaced, flush the water system as described in the Use & Care Guide before using the dispenser. You should also discard the initial (3) batches of ice.",
+                "AlertTitle": "Order Filter Alert",
+                "Type": "system"
+            },
+            {
+                "TemplateId": "FrigWaterFilter1",
+                "SmsText": "It's just about time to replace your referigerator's water filter, order now.Once the water filter is replaced, flush the water system as described in the Use & Care Guide before using the dispenser. You should also discard the initial (3) batches of ice.",
+                "EmailText": "It's just about time to replace your referigerator's water filter, order now.Once the water filter is replaced, flush the water system as described in the Use & Care Guide before using the dispenser. You should also discard the initial (3) batches of ice.", 
+                "PushText": "It's just about time to replace your referigerator's water filter, order now.Once the water filter is replaced, flush the water system as described in the Use & Care Guide before using the dispenser. You should also discard the initial (3) batches of ice.",
+                "AlertTitle": "Order Filter Alert",
+                "Type": "system"
+            },
+            {
+                "TemplateId": "FrigWaterFilter2",
+                "SmsText": "It's just about time to replace your referigerator's water filter, order now.Once the water filter is replaced, flush the water system as described in the Use & Care Guide before using the dispenser. You should also discard the initial (3) batches of ice.",
+                "EmailText": "It's just about time to replace your referigerator's water filter, order now.Once the water filter is replaced, flush the water system as described in the Use & Care Guide before using the dispenser. You should also discard the initial (3) batches of ice.", 
+                "PushText": "It's just about time to replace your referigerator's water filter, order now.Once the water filter is replaced, flush the water system as described in the Use & Care Guide before using the dispenser. You should also discard the initial (3) batches of ice.",
+                "AlertTitle": "Order Filter Alert",
+                "Type": "system"
+            }
+        ]
     }
 }
