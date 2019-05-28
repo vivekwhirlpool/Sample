@@ -598,6 +598,29 @@
         }
     },
     "MobileLiterals": {
+        "Manuals": {
+            "UseCareGuide": {
+                "Title": "Use & Care Guide",
+                "FilePath": "NAR/JENNAIR/DDM_COOKING_U2_JASingleSteam_V1/Docs/eng/UserCareGuide.pdf"
+            },
+            "InstallationInstructions": {
+                "Title": "Installation Instructions",
+                "FilePath": "NAR/JENNAIR/DDM_COOKING_U2_JASingleSteam_V1/Docs/eng/InstallationInstruction.pdf"
+            },
+            "Warranty": {
+                "Title": "Warranty",
+                "FilePath": "NAR/JENNAIR/DDM_COOKING_U2_JASingleSteam_V1/Docs/eng/Warranty.pdf"
+            },
+            "FccInformationForm": {
+                "Title": "FCC Information Form",
+                "FilePath": "NAR/JENNAIR/DDM_COOKING_U2_JASingleSteam_V1/Docs/eng/FccInformation.pdf"
+            }
+        },
+        "NestSettings": {
+            "AwayOvenWarning.Name": "Off While Away",
+            "AwayOvenWarning.Description": "Receive a notification asking if you’d like to turn your oven off if Nest™ detects you're away while your oven is running.   Please note that it may take up to two hours for Nest™ to send the away signal."
+        },
+        "SpecialtyCycles": {},
         "SupplyItem": {
             "ExtendedWarranty": {},
             "ScheduleService": {
@@ -672,6 +695,132 @@
                 ]
             }
         },
+        "Set Oven": {
+            "MainMode": {
+                "OvenUpperCavity": {
+                    "Bake": {
+                        "Name": "Bake"
+                    },
+                    "Convect Bake": {
+                        "Name": "Convect Bake"
+                    },
+                    "Convect Roast": {
+                        "Name": "Convect Roast"
+                    },
+                    "Convect Frozen Pizza": {
+                        "Name": "Convect Frozen Pizza"
+                    },
+                    "Convect Broil": {
+                        "Name": "Convect Broil"
+                    },
+                    "Convect Pastry": {
+                        "Name": "Convect Pastry"
+                    },
+                    "Broil": {
+                        "Name": "Broil"
+                    },
+                    "Proof": {
+                        "Name": "Proof"
+                    },
+                    "Rapid Proof": {
+                        "Name": "Rapid Proof"
+                    },
+                    "Keep Warm": {
+                        "Name": "Keep Warm"
+                    },
+                    "Self-Clean": {
+                        "Name": "Self-Clean"
+                    },
+                    "Convect Slow Roast LO": {
+                        "Name": "Convect Slow Roast LO"
+                    },
+                    "Convect Slow Roast MED": {
+                        "Name": "Convect Slow Roast MED"
+                    },
+                    "Convect Slow Roast HI": {
+                        "Name": "Convect Slow Roast HI"
+                    }
+                },
+                "OvenLowerCavity": {
+                    "Bake": {
+                        "Name": "Bake"
+                    },
+                    "Convect Bake": {
+                        "Name": "Convect Bake"
+                    },
+                    "Convect Roast": {
+                        "Name": "Convect Roast"
+                    },
+                    "Convect Frozen Pizza": {
+                        "Name": "Convect Frozen Pizza"
+                    },
+                    "Convect Broil": {
+                        "Name": "Convect Broil"
+                    },
+                    "Convect Pastry": {
+                        "Name": "Convect Pastry"
+                    },
+                    "Broil": {
+                        "Name": "Broil"
+                    },
+                    "Proof": {
+                        "Name": "Proof"
+                    },
+                    "Rapid Proof": {
+                        "Name": "Rapid Proof"
+                    },
+                    "Keep Warm": {
+                        "Name": "Keep Warm"
+                    },
+                    "Self-Clean": {
+                        "Name": "Self-Clean"
+                    },
+                    "Convect Slow Roast LO": {
+                        "Name": "Convect Slow Roast LO"
+                    },
+                    "Convect Slow Roast MED": {
+                        "Name": "Convect Slow Roast MED"
+                    },
+                    "Convect Slow Roast HI": {
+                        "Name": "Convect Slow Roast HI"
+                    }
+                }
+            },
+            "CookingStyle": {
+                "Auto": {
+                    "Name": "Auto"
+                },
+                "Manual": {
+                    "Name": "Manual"
+                },
+                "Easy": {
+                    "Name": "Easy"
+                }
+            },
+            "CookingModeLabels": {
+                "Mode": {
+                    "Name": "Mode"
+                },
+                "CookingStyle": {
+                    "Name": "Cooking Style"
+                },
+                "Food": {
+                    "Name": "Food"
+                },
+                "CookTime": {
+                    "Name": "Cook Time"
+                },
+                "Temparature": {
+                    "Name": "Temparature"
+                },
+                "Delay": {
+                    "Name": "Add Delay"
+                },
+                "CycleName": {
+                    "Name": "Cycle Name"
+                }
+            }
+        },
         "Notifications": {
             "OvenOnWhileAway": {
                 "Name": "Oven On While Away",
@@ -679,39 +828,90 @@
             },
             "CookCycleCanceled": {
                 "Name": "Cooking Mode Cancelled",
-                "Description": "Select to receive a notification when the cooking mode on the oven has been cancelled."
+                "Description": "Receive a notification when the cooking mode on the oven has been cancelled."
             },
             "CookModeChanged": {
-                "Name": "Cooking Mode Changed",
-                "Description": "Select to receive a notification when the cooking mode on the oven has changed."
+                "Name": "Cook Mode Changed",
+                "Description": "Receive a notification when the cooking mode on the oven has been changed."
             },
             "CookTargetTempChanged": {
                 "Name": "Oven Temperature Changed",
-                "Description": "Select to receive a notification when the oven temperature has been changed."
+                "Description": "Receive a notification when the oven temperature has been changed."
             },
             "CookTimeComplete": {
                 "Name": "Cook Time Complete",
-                "Description": "Select to receive a notification when cook time on the oven is complete."
+                "Description": "Receive a notification when cook time on the oven is complete."
             },
             "CookTimerChanged": {
                 "Name": "Cook Time Changed",
-                "Description": "Select to receive a notification when cook time on the oven has been changed."
+                "Description": "Receive a notification when cook time on the oven has been changed. "
             },
             "MeatProbeTempAchieved": {
-                "Name": "Probe Temperature Reached",
-                "Description": "Select to receive a notification when the target temperature on the meat probe has been reached."
+                "Name": "Probe Temperature Achieved",
+                "Description": "Receive a notification when the meat probe has reached its set temperature."
             },
             "PreheatComplete": {
                 "Name": "Preheat Complete",
-                "Description": "Select to receive a notification when the oven finishes preheating."
+                "Description": "Receive a notification when the oven finishes preheating."
             },
             "RemoteStatus": {
                 "Name": "Remote Control Status",
-                "Description": "Select to receive a notification when remote control has been enabled or disabled."
+                "Description": "Receive a notification when remote control has been enabled or disabled. "
             },
             "ErrorNotification": {
                 "Name": "Error Notification",
-                "Description": "Select to receive a notification when an error code is generated."
+                "Description": "Receive a notification when an error code is generated. "
+            }
+        },
+        "smartTip": [],
+        "cxcDetail": {
+            "US": {
+                "Country": "United States",
+                "cxcEmail": {
+                    "Development": "wcloud@mailinator.com",
+                    "Test": "wcloud@mailinator.com",
+                    "Staging": "wcloud@mailinator.com",
+                    "Cuft": "Connected_Appliances@Whirlpool.com",
+                    "Production": "Connected_Appliances@Whirlpool.com"
+                },
+                "cxcPhone": {
+                    "Development": "1-800-536-6247",
+                    "Test": "1-800-536-6247",
+                    "Staging": "1-800-536-6247",
+                    "Cuft": "1-800-536-6247",
+                    "Production": "1-800-536-6247"
+                },
+                "cxcHours": {
+                    "Development": ",Monday-Friday,8 AM-8 PM EST",
+                    "Test": " Monday-Friday,8 AM-8 PM EST",
+                    "Staging": " Monday-Friday,8 AM-8 PM EST",
+                    "Cuft": " Monday-Friday ,8 AM-8 PM ",
+                    "Production": " Monday-Friday,8 AM-8 PM EST"
+                }
+            },
+            "CA": {
+                "Country": "Canada",
+                "cxcEmail": {
+                    "Development": "Connected_Appliances@Whirlpool.com",
+                    "Test": "Connected_Appliances@Whirlpool.com",
+                    "Staging": "Connected_Appliances@Whirlpool.com",
+                    "Cuft": "Connected_Appliances@Whirlpool.com",
+                    "Production": "Connected_Appliances@Whirlpool.com"
+                },
+                "cxcPhone": {
+                    "Development": "1-800-536-6247",
+                    "Test": "1-800-536-6247",
+                    "Staging": "1-800-536-6247",
+                    "Cuft": "1-800-536-6247",
+                    "Production": "1-800-536-6247"
+                },
+                "cxcHours": {
+                    "Development": "M-F 8:00-8:00 EST",
+                    "Test": "M-F 8:00-8:00 EST",
+                    "Staging": "M-F 8:00-8:00 EST",
+                    "Cuft": "M-F 8:00-8:00 EST",
+                    "Production": "M-F 8:00-8:00 EST"
+                }
             }
         }
     },
@@ -725,54 +925,54 @@
             },
             {
                 "TemplateId": "CookCycleCanceled",
-                "EmailText": "Your oven cooking mode has been cancelled.",
-                "PushText": "Your oven cooking mode has been cancelled.",
-                "SmsText": "Your oven cooking mode has been cancelled.",
+                "EmailText": "Oven cook mode is cancelled.",
+                "PushText": "Oven cook mode is cancelled.",
+                "SmsText": "Oven cook mode is cancelled.",
                 "AlertTitle": "Cooking Mode Cancelled",
                 "Type": "cookMode"
             },
             {
                 "TemplateId": "CookModeChanged",
-                "EmailText": "Your oven cooking mode has been changed.",
-                "PushText": "Your oven cooking mode has been changed.",
+                "EmailText": "Oven cooking is changed.",
+                "PushText": "Oven cooking is changed.",
                 "AlertTitle": "Cooking Mode Changed",
                 "Type": "cookMode"
             },
             {
                 "TemplateId": "CookTargetTempChanged",
-                "EmailText": "Your oven temperature has been changed.",
-                "PushText": "Your oven temperature has been changed.",
-                "SmsText": "Your oven temperature has been changed.",
+                "EmailText": "Oven temperature is changed.",
+                "PushText": "Oven temperature is changed.",
+                "SmsText": "Oven temperature is changed.",
                 "AlertTitle": "Oven Temperature Changed",
                 "Type": "cookMode"
             },
             {
                 "TemplateId": "CookTimeComplete",
-                "EmailText": "Your oven cook time is complete.",
-                "PushText": "Your oven cook time is complete.",
+                "EmailText": "Oven cook time is complete.",
+                "PushText": "Oven cook time is complete.",
                 "AlertTitle": "Cook Time Complete",
                 "Type": "cookTimer"
             },
             {
                 "TemplateId": "CookTimerChanged",
-                "EmailText": "Your oven cook time has been changed.",
-                "PushText": "Your oven cook time has been changed.",
+                "EmailText": "Oven cook time is changed.",
+                "PushText": "Oven cook time is changed.",
                 "AlertTitle": "Cook Time Changed",
                 "Type": "cookTimer"
             },
             {
                 "TemplateId": "MeatProbeTempAchieved",
-                "EmailText": "Your probe target temperature has been reached.",
-                "PushText": "Your probe target temperature has been reached.",
-                "SmsText": "Your probe target temperature has been reached.",
+                "EmailText": "Oven meat probe temperature achieved",
+                "PushText": "Oven meat probe temperature achieved",
+                "SmsText": "Oven meat probe temperature achieved",
                 "AlertTitle": "Probe Temperature Reached",
                 "Type": "meatProbe"
             },
             {
                 "TemplateId": "PreheatComplete",
-                "EmailText": "Preheat complete. Press START COOK TIMER to begin and insert food.",
-                "PushText": "Preheat complete. Press START COOK TIMER to begin and insert food.",
-                "SmsText": "Preheat complete. Press START COOK TIMER to begin and insert food.",
+                "EmailText": "Oven preheat complete",
+                "PushText": "Oven preheat complete",
+                "SmsText": "Oven preheat complete",
                 "AlertTitle": "Preheat Complete",
                 "Type": "preheat"
             },
@@ -786,9 +986,9 @@
             },
             {
                 "TemplateId": "RemoteStatusEnabled",
-                "EmailText": "Remote Control has been enabled on your oven.",
-                "PushText": "Remote Control has been enabled on your oven.",
-                "SmsText": "Remote Control has been enabled on your oven.",
+                "EmailText": "Remote Control of your appliance is enabled.",
+                "PushText": "Remote Control of your appliance is enabled.",
+                "SmsText": "Remote Control of your appliance is enabled.",
                 "AlertTitle": "Remote Control Status",
                 "Type": "remoteControl"
             },

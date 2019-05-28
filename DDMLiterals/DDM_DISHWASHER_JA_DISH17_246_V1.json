@@ -206,6 +206,30 @@
         }
     },
     "MobileLiterals": {
+        "Manuals": {
+            "Warranty": {
+                "Title": "Warranty",
+                "FilePath": "NAR/JENNAIR/DDM_DISHWASHER_JA_DISH17_246_V1/Docs/eng/JA_DISH17_Warranty.pdf"
+            },
+            "UseCareGuide": {
+                "Title": "Use & Care Guide",
+                "FilePath": "NAR/JENNAIR/DDM_DISHWASHER_JA_DISH17_246_V1/Docs/eng/JA_DISH17_Use_Careguide.pdf"
+            },
+            "InstallationInstructions": {
+                "Title": "Installation Instructions",
+                "FilePath": "NAR/JENNAIR/DDM_DISHWASHER_JA_DISH17_246_V1/Docs/eng/JA_DISH17_InstallationInstructions.pdf"
+            },
+            "FCCInformationForm": {
+                "Title": "FCC Information Form",
+                "FilePath": "NAR/JENNAIR/DDM_DISHWASHER_JA_DISH17_246_V1/Docs/eng/JA_DISH17_FCC.pdf"
+            }
+        },
+        "NestSettings": {
+            "QuietWhileHome.Name": "Quiet While Home",
+            "QuietWhileHome.Description": "Your dishwasher will automatically go into Quiet Mode when Nest™ knows you’re home.",
+            "WashWhileAway.Name": "Wash While Away",
+            "WashWhileAway.Description": "When Nest™ detects you're away, your dishwasher will start the selected cycle.  Please note that it may take up to two hours for Nest™ to send the away signal."
+        },
         "SpecialtyCycles": {
             "Gentle.Name": "Gentle",
             "Gentle.Description": "",
@@ -231,23 +255,23 @@
         "Notifications": {
             "CycleComplete": {
                 "Name": "Cycle Complete",
-                "Description": "Select this option to receive a notification when the selected wash cycle has successfully completed."
+                "Description": "Receive a notification when the selected wash cycle has successfully completed."
             },
             "FilterStatus": {
-                "Name": "Filter Status",
-                "Description": "Select to receive a notification when it’s time to remove and clean the triple filtration system."
+                "Name": "Clean Filter Alert",
+                "Description": "Receive a notification when it’s time to clean your dishwasher's triple filtration system."
             },
             "SaniRinse": {
                 "Name": "Sanitize Rinse",
-                "Description": "Select to receive a notification at the end of a Sanitize Rinse cycle to confirm if the Sanitize Rinse temperature was reached."
+                "Description": "Receive notification for Sanitize Rinse Temperature."
             },
             "RemoteStatus": {
-                "Name": "Remote Enabled",
-                "Description": "Select to receive a notification when your appliance's Remote Enabled status has changed."
+                "Name": "Remote Control Status",
+                "Description": "Receive a notification when your appliance's Remote Enabled status has changed."
             },
             "AffreshNotification": {
                 "Name": "affresh® Status",
-                "Description": "Select to receive a notification when it’s time to run an affresh® cleaning cycle to remove mineral build-up and unsightly residue left by some detergents."
+                "Description": "Receive a notification when it’s time to run an affresh® cleaning cycle to keep your dishwasher clean"
             }
         },
         "SupplyItem": {
@@ -302,55 +326,136 @@
                     }
                 ]
             }
+        },
+        "SmartTip": [],
+        "cxcDetail": {
+            "US": {
+                "Country": "United States",
+                "cxcEmail": {
+                    "Development": "NAR_JennAirCustomerExperience@JennAir.com",
+                    "Test": "NAR_JennAirCustomerExperience@JennAir.com",
+                    "Staging": "NAR_JennAirCustomerExperience@JennAir.com",
+                    "Cuft": "NAR_JennAirCustomerExperience@JennAir.com",
+                    "Production": "NAR_JennAirCustomerExperience@JennAir.com"
+                },
+                "cxcPhone": {
+                    "Development": "1-800-536-6247",
+                    "Test": "1-800-536-6247",
+                    "Staging": "1-800-536-6247",
+                    "Cuft": "1-800-536-6247",
+                    "Production": "1-800-536-6247"
+                },
+                "cxcHours": {
+                    "Development": "Mon–Fri 8am–8pm EST",
+                    "Test": "Mon–Fri 8am–8pm EST",
+                    "Staging": "Mon–Fri 8am–8pm EST",
+                    "Cuft": "Mon–Fri 8am–8pm EST",
+                    "Production": "Mon–Fri 8am–8pm EST"
+                }
+            },
+            "CA": {
+                "Country": "Canada",
+                "cxcEmail": {
+                    "Development": "NAR_JennAirCustomerExperience@JennAir.com",
+                    "Test": "NAR_JennAirCustomerExperience@JennAir.com",
+                    "Staging": "NAR_JennAirCustomerExperience@JennAir.com",
+                    "Cuft": "NAR_JennAirCustomerExperience@JennAir.com",
+                    "Production": "NAR_JennAirCustomerExperience@JennAir.com"
+                },
+                "cxcPhone": {
+                    "Development": "1-800-536-6247",
+                    "Test": "1-800-536-6247",
+                    "Staging": "1-800-536-6247",
+                    "Cuft": "1-800-536-6247",
+                    "Production": "1-800-536-6247"
+                },
+                "cxcHours": {
+                    "Development": "Mon–Fri 8am–8pm EST",
+                    "Test": "Mon–Fri 8am–8pm EST",
+                    "Staging": "Mon–Fri 8am–8pm EST",
+                    "Cuft": "Mon–Fri 8am–8pm EST",
+                    "Production": "Mon–Fri 8am–8pm EST"
+                }
+            }
+        },
+        "Replenishment": {
+            "ReplenishmentSlot": {
+                "DisplayName": {
+                    "DishwasherSlot1Name": "Dishwasher Slot 1 Name",
+                    "DishwasherSlot2Name": "Dishwasher Slot 2 Name"
+                },
+                "UomDisplay": {
+                    "DishwasherSlot1UomDisplay": "Dishwasher Slot 1 UOM Display",
+                    "DishwasherSlot2UomDisplay": "Dishwasher Slot 2 UOM Display"
+                }
+            },
+            "ReplenishmentDelay": {
+                "DisplayName": {
+                    "DishwasherSlot1Delay0": "Delay 0",
+                    "DishwasherSlot1Delay2": "Delay 2",
+                    "DishwasherSlot1Delay4": "Delay 4",
+                    "DishwasherSlot1Delay6": "Delay 6",
+                    "DishwasherSlot2Delay0": "Delay 0",
+                    "DishwasherSlot2Delay2": "Delay 2",
+                    "DishwasherSlot2Delay4": "Delay 4",
+                    "DishwasherSlot2Delay6": "Delay 6"
+                }
+            },
+            "ReplenishmentUsage": {
+                "DisplayName": {
+                    "DishwasherSlot1UsageDefault": "Dishwasher Usage Slot 1 Default",
+                    "DishwasherSlot2UsageDefault": "Dishwasher Usage Slot 2 Default"
+                }
+            }
         }
     },
     "NotificationMessages": {
         "NotificationContents": [
             {
                 "TemplateId": "CycleComplete",
-                "SmsText": "Your dishes are clean!",
-                "EmailText": "Your dishes are clean!",
-                "PushText": "Your dishes are clean!",
+                "SmsText": "Dishwasher wash cycle complete.",
+                "EmailText": "Dishwasher wash cycle complete.",
+                "PushText": "Dishwasher wash cycle complete.",
                 "AlertTitle": "Cycle Complete",
                 "Type": "cycle"
             },
             {
                 "TemplateId": "AffreshNotification",
-                "SmsText": "It is recommended that you use affresh every month to keep your dishwasher clean and fresh.",
-                "EmailText": "It is recommended that you use affresh every month to keep your dishwasher clean and fresh.",
-                "PushText": "It is recommended that you use affresh every month to keep your dishwasher clean and fresh.",
+                "SmsText": "It's time to run an affresh® cleaning cycle on your dishwasher. It is recommended that you use affresh every month to keep your dishwasher clean and fresh.",
+                "EmailText": "It's time to run an affresh® cleaning cycle on your dishwasher. It is recommended that you use affresh every month to keep your dishwasher clean and fresh.",
+                "PushText": "It's time to run an affresh® cleaning cycle on your dishwasher. It is recommended that you use affresh every month to keep your dishwasher clean and fresh.",
                 "AlertTitle": "affresh® Status",
                 "Type": "affresh"
             },
             {
                 "TemplateId": "FilterStatus",
-                "SmsText": "For optimal cleaning performance it is recommended that you clean both your upper and lower filters of your dishwasher at this time.",
-                "EmailText": "For optimal cleaning performance it is recommended that you clean both your upper and lower filters of your dishwasher at this time.",
-                "PushText": "For optimal cleaning performance it is recommended that you clean both your upper and lower filters of your dishwasher at this time.",
+                "SmsText": "It's time to clean your dishwasher's triple filtration system in order to achieve optimal cleaning performance.",
+                "EmailText": "It's time to clean your dishwasher's triple filtration system in order to achieve optimal cleaning performance.",
+                "PushText": "It's time to clean your dishwasher's triple filtration system in order to achieve optimal cleaning performance.",
                 "AlertTitle": "Filter Status",
                 "Type": "dishFilter"
             },
             {
                 "TemplateId": "SaniRinse",
-                "SmsText": "Sanitizes according to NSF International Standard 184 for Residential Dishwashers. The Sanitize indicator at the end of cycle shows whether the Sani Rinse option was successful.",
-                "EmailText": "Sanitizes according to NSF International Standard 184 for Residential Dishwashers. The Sanitize indicator at the end of cycle shows whether the Sani Rinse option was successful.",
-                "PushText": "Sanitizes according to NSF International Standard 184 for Residential Dishwashers. The Sanitize indicator at the end of cycle shows whether the Sani Rinse option was successful.",
+                "SmsText": "Dishwasher sanitize rinse cycle complete. ",
+                "EmailText": "Dishwasher sanitize rinse cycle complete. ",
+                "PushText": "Dishwasher sanitize rinse cycle complete. ",
                 "AlertTitle": "Sanitize Rinse",
                 "Type": "saniRinse"
             },
             {
                 "TemplateId": "RemoteStatusEnabled",
-                "SmsText": "You can now control your Dishwasher remotely.",
-                "EmailText": "You can now control your Dishwasher remotely.",
-                "PushText": "You can now control your Dishwasher remotely.",
+                "SmsText": "Dishwasher Remote control is enabled. You can now control your dishwasher remotely.",
+                "EmailText": "Dishwasher Remote control is enabled. You can now control your dishwasher remotely.",
+                "PushText": "Dishwasher Remote control is enabled. You can now control your dishwasher remotely.",
                 "AlertTitle": "Remote Enabled",
                 "Type": "remoteControl"
             },
             {
                 "TemplateId": "RemoteStatusDisabled",
-                "SmsText": "Remote has been disabled on your Dishwasher. Please re-enable on the appliance if you would like to control your appliance remotely.",
-                "EmailText": "Remote has been disabled on your Dishwasher. Please re-enable on the appliance if you would like to control your appliance remotely.",
-                "PushText": "Remote has been disabled on your Dishwasher. Please re-enable on the appliance if you would like to control your appliance remotely.",
+                "SmsText": "Dishwasher Remote control on is disabled. You can re-enable on the appliance if you would like to control your appliance remotely.",
+                "EmailText": "Dishwasher Remote control on is disabled. You can re-enable on the appliance if you would like to control your appliance remotely.",
+                "PushText": "Dishwasher Remote control on is disabled. You can re-enable on the appliance if you would like to control your appliance remotely.",
                 "AlertTitle": "Remote Enabled",
                 "Type": "remoteControl"
             }
