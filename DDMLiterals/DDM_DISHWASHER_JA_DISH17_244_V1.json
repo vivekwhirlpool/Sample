@@ -165,7 +165,19 @@
     "Cavity_CycleSetDownloadAndGoDownloadGoSpecialtyItems.Label": "Specialty Items",
     "WashMode.Label": "WASHING MODES",
     "CustomCycle.Label": "CUSTOM CYCLES",
-    "DishCavity.Label": "Dishwasher"
+    "DishCavity.Label": "Dishwasher",
+    "Cavity_CycleSetDownloadAndGoDownloadGoGentle.Description" : "Limits cycle temperatures to 135F to help protect items prone to melting with varying soil levels.  If selected, Heat Dry is also shortened to limit heat input.",
+    "Cavity_CycleSetDownloadAndGoDownloadGoHeavy.Description" : "Provides extra wash time and heat to clean tougher items with baked-on food residue.",
+    "Cavity_CycleSetDownloadAndGoDownloadGoQuick.Description" : "Quick cleaning power. Perfect for cleaning food prep items (such as mixing bowls) and getting everything ready for an event.",
+    "Cavity_CycleSetDownloadAndGoDownloadGoSanitize.Description" : "Uses extra wash time and high temperatures (156F) to ensure important items come out clean",
+    "Cavity_CycleSetDownloadAndGoDownloadGoSpecialtyItems.Description" : "Senses the amount of wash time and heat needed to clean food residue. Great for items that may need a little more care.",
+    "Cavity_CycleSetOptionUpperRackOnly.Description": "Washes dishes on the top rack only. Can be used with any wash cycle.",
+    "Cavity_CycleSetOptionLowerRackOnly.Description": "Washes dishes on the bottom rack only. Can be used with any wash cycle.",
+    "Cavity_CycleSetOptionSaniRinse.Description": "The final rinse water is heated to 155°F (68.3°C), eliminating 99.999% of food soil bacteria",
+    "Cavity_CycleSetOptionSmartHeatedDry.Description": "Active drying that evenly dries with heat and a fan.",
+    "Cavity_CycleSetOptionBottleWashZone.Description": "Articulating nozzles deliver a high-powered spray into tall items, including vases and champagne flutes.",
+    "Cavity_CycleSetOptionSteam.Description": "Helps your stemware glisten by generating a cloud of steam before the final rinse cycle.",
+    "Cavity_CycleSetOptionHighTemp.Description": "Provides increased water temperature during washing for hard-to-remove soils."
   },
   "AFCSelfHelpPack": {
     "F1,E2": {

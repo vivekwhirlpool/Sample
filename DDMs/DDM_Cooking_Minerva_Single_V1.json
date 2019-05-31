@@ -2731,7 +2731,7 @@
                   550
                 ],
                 "Default": 325,
-                "Offset" : 0
+                "Offset": 0
               }
             },
             "Optional": {
@@ -2741,7 +2741,7 @@
                   "Max": 43200,
                   "Step": 60,
                   "Default": 0,
-                  "OffsetPercentage" : 0
+                  "OffsetPercentage": 0
                 }
               },
               "UpperCavity_DelayTimeSetTime": {
@@ -2784,7 +2784,7 @@
                   550
                 ],
                 "Default": 350,
-                "Offset" : 0
+                "Offset": 0
               }
             },
             "Optional": {
@@ -2794,7 +2794,7 @@
                   "Max": 43200,
                   "Step": 60,
                   "Default": 0,
-                  "OffsetPercentage" : -20
+                  "OffsetPercentage": -20
                 }
               },
               "UpperCavity_DelayTimeSetTime": {
@@ -2837,7 +2837,7 @@
                   550
                 ],
                 "Default": 325,
-                "Offset" : -20
+                "Offset": -20
               }
             },
             "Optional": {
@@ -2847,7 +2847,7 @@
                   "Max": 43200,
                   "Step": 60,
                   "Default": 0,
-                  "OffsetPercentage" : 0
+                  "OffsetPercentage": 0
                 }
               },
               "UpperCavity_DelayTimeSetTime": {
@@ -2877,7 +2877,7 @@
                   "StepF": 5,
                   "StepC": 3,
                   "Default": 550,
-                  "Offset" : 0
+                  "Offset": 0
                 }
               }
             },
@@ -2888,7 +2888,7 @@
                   "Max": 43200,
                   "Step": 60,
                   "Default": 0,
-                  "OffsetPercentage" : 0
+                  "OffsetPercentage": 0
                 }
               },
               "UpperCavity_DelayTimeSetTime": {
@@ -4464,7 +4464,7 @@
     },
     "Features": {
       "Common": {
-        "ApplianceDocuments" : {
+        "ApplianceDocuments": {
           "Visible": true,
           "AvailableIn": [
             "US",
@@ -4633,7 +4633,7 @@
             "US"
           ],
           "StateAttributes": {
-
+            
           },
           "StatusAttributes": [
             "UpperCavity_CavityModeOven",
@@ -4664,7 +4664,7 @@
             "CookTime": "UpperCavity_CookTimeSetTime",
             "CookTemp": "UpperCavity_CavityTargetTemp",
             "ProfileId": "UpperCavity_CulinaryCenterID",
-            "CycleName" : "UpperCavity_CavityModeOven",
+            "CycleName": "UpperCavity_CavityModeOven",
             "MeatProbeTargetTemp": "UpperCavity_MeatProbeTargetTemp"
           }
         },
@@ -4758,6 +4758,53 @@
         }
       }
     },
+    "CycleOrder": {
+      "OvenUpperCavity": [
+        "UpperCavity_CavityModeOvenCvtFrznPizza",
+        "UpperCavity_CavityModeOvenCvtPastry",
+        "UpperCavity_CavityModeOvenCvtSlowRoast12hrs",
+        "UpperCavity_CavityModeOvenCvtSlowRoast8hrs",
+        "UpperCavity_CavityModeOvenCvtSlowRoast4hrs",
+        "UpperCavity_CavityModeOvenTrueConvect",
+        "UpperCavity_CavityModeOvenConvectRoast",
+        "UpperCavity_CavityModeOvenConvectBroil",
+        "UpperCavity_CavityModeOvenConvectBake",
+        "UpperCavity_CavityModeOvenConvectBakeRapidPreheat",
+        "UpperCavity_CavityModeOvenConvertRecipe",
+        "UpperCavity_CavityModeOvenConvertRecipeCvtPastry",
+        "UpperCavity_CavityModeOvenConvertRecipeConvectRoast",
+        "UpperCavity_CavityModeOvenConvertRecipeConvectBake",
+        "UpperCavity_CavityModeOvenConvertRecipeConvectBroil",
+        "UpperCavity_CavityModeOvenBake",
+        "UpperCavity_CavityModeOvenNoPreheat1RackCooking",
+        "UpperCavity_CavityModeOvenBroil",
+        "UpperCavity_CavityModeOvenProbeCook",
+        "UpperCavity_CavityModeOvenPCFoodGuide",
+        "UpperCavity_CavityModeOvenPCFGPrecookedHam",
+        "UpperCavity_CavityModeOvenPCFGPorkMedium",
+        "UpperCavity_CavityModeOvenPCFGPorkWellDone",
+        "UpperCavity_CavityModeOvenPCFGChickenBreast",
+        "UpperCavity_CavityModeOvenPCFGChickenWhole",
+        "UpperCavity_CavityModeOvenPCFGTurkeyBreast",
+        "UpperCavity_CavityModeOvenPCFGTurkeyWhole",
+        "UpperCavity_CavityModeOvenPCFGBeefMediumRare",
+        "UpperCavity_CavityModeOvenPCFGBeefMedium",
+        "UpperCavity_CavityModeOvenPCFGBeefWellDone",
+        "UpperCavity_CavityModeOvenPCFGLambMediumRare",
+        "UpperCavity_CavityModeOvenPCFGLambMedium",
+        "UpperCavity_CavityModeOvenPCFGLambWellDone",
+        "UpperCavity_CavityModeOvenPCFGVealMediumRare",
+        "UpperCavity_CavityModeOvenPCFGVealMedium",
+        "UpperCavity_CavityModeOvenPCFGVealWellDone",
+        "UpperCavity_CavityModeOvenPCConvectRoast",
+        "UpperCavity_CavityModeOvenPCConvectBake",
+        "UpperCavity_CavityModeOvenPCBake",
+        "UpperCavity_CavityModeOvenKeepWarm",
+        "UpperCavity_CavityModeOvenRapidProof",
+        "UpperCavity_CavityModeOvenProof",
+        "UpperCavity_CavityModeOvenSabbath"
+      ]
+    },
     "ApplianceRulesets": {
       "OvenUpperCavity": {
         "Runtime": [
@@ -4765,13 +4812,12 @@
             "ruleName": "Disable All Features when appliance is offline",
             "description": "Disable All Features when appliance is offline",
             "features": {
-              "MeatProbeTemp" : false,
-              "MeatProbe" : false,
-              "AssistedCooking" : false,
-              "SetOven" : false,
-              "LightOnOff" : false,
-              "MyCreations" : false
-
+              "MeatProbeTemp": false,
+              "MeatProbe": false,
+              "AssistedCooking": false,
+              "SetOven": false,
+              "LightOnOff": false,
+              "MyCreations": false
             },
             "condition": {
               "type": "value",
@@ -4808,25 +4854,25 @@
           }
         ]
       },
-      "Common" : {
+      "Common": {
         "Runtime": [
           {
             "ruleName": "Disable All Features when appliance is offline",
             "description": "Disable All Features when appliance is offline",
             "features": {
               "ChangeTempUnits": false,
-              "ControlLock" : false,
-              "RemoteStatus" : false,
-              "KitchenTimer" : false,
-              "ChangeSoundPowerOnOff" : false,
-              "ChangeNumberEntry" : false,
-              "ChangeClockTheme" : false,
-              "ChangeClockOnOffStatus" : false,
-              "ChangeApplianceLanguage" : false,
-              "ChangeSoundKeyAlert" : false,
-              "ChangeSoundKeyPress" : false,
-              "ChangeDisplayOnOffStatus" : false,
-              "ChangeBrightness" : false
+              "ControlLock": false,
+              "RemoteStatus": false,
+              "KitchenTimer": false,
+              "ChangeSoundPowerOnOff": false,
+              "ChangeNumberEntry": false,
+              "ChangeClockTheme": false,
+              "ChangeClockOnOffStatus": false,
+              "ChangeApplianceLanguage": false,
+              "ChangeSoundKeyAlert": false,
+              "ChangeSoundKeyPress": false,
+              "ChangeDisplayOnOffStatus": false,
+              "ChangeBrightness": false
             },
             "condition": {
               "type": "value",

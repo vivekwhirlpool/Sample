@@ -4531,12 +4531,12 @@
         "CookTimeSetTime": "OvenUpperCavity_TimeSetCookTimeSet",
         "DelayTimeSetTime": "OvenUpperCavity_TimeSetDelayTime",
         "CookTimeRemaining": "OvenUpperCavity_TimeStatusCookTimeRemaining",
-        "OpStatusState" : "OvenUpperCavity_OpStatusState",
-        "FillValveOnStatus" : "OvenUpperCavity_OpStatusFillValveOn",
-        "OpStatusCleanOven" : "OvenUpperCavity_OpStatusCleanOven",
-        "CulinaryVersion" : "OvenUpperCavity_CulinaryCtrSetVersion",
-        "CulinaryCtrSetId" : "OvenUpperCavity_CulinaryCtrSetId",
-        "CustomCycleSetId" : "OvenUpperCavity_CustomCycleSetId"
+        "OpStatusState": "OvenUpperCavity_OpStatusState",
+        "FillValveOnStatus": "OvenUpperCavity_OpStatusFillValveOn",
+        "OpStatusCleanOven": "OvenUpperCavity_OpStatusCleanOven",
+        "CulinaryVersion": "OvenUpperCavity_CulinaryCtrSetVersion",
+        "CulinaryCtrSetId": "OvenUpperCavity_CulinaryCtrSetId",
+        "CustomCycleSetId": "OvenUpperCavity_CustomCycleSetId"
       },
       "OvenLowerCavity": {
         "CycleName": [
@@ -4561,14 +4561,14 @@
         "CookTimeSetTime": "OvenLowerCavity_TimeSetCookTimeSet",
         "DelayTimeSetTime": "OvenLowerCavity_TimeSetDelayTime",
         "CookTimeRemaining": "OvenLowerCavity_TimeStatusCookTimeRemaining",
-        "OpStatusState" : "OvenLowerCavity_OpStatusState",
-        "OpStatusCleanOven" : "OvenLowerCavity_OpStatusCleanOven",
-        "CustomCycleSetId" : "OvenLowerCavity_CustomCycleSetId"
+        "OpStatusState": "OvenLowerCavity_OpStatusState",
+        "OpStatusCleanOven": "OvenLowerCavity_OpStatusCleanOven",
+        "CustomCycleSetId": "OvenLowerCavity_CustomCycleSetId"
       },
       "Common": {
         "RemoteEnabledStatus": "XCat_RemoteSetRemoteControlEnable",
         "TempDisplayUnits": "Sys_DisplaySetTempUnits",
-       "SabbathModeEnabled" : "Sys_OperationSetSabbathModeEnabled"
+        "SabbathModeEnabled": "Sys_OperationSetSabbathModeEnabled"
       }
     },
     "Features": {
@@ -4593,7 +4593,7 @@
             "CA"
           ]
         },
-        "ApplianceDocuments" : {
+        "ApplianceDocuments": {
           "Visible": true,
           "AvailableIn": [
             "US",
@@ -4609,7 +4609,6 @@
           ],
           "StateAttributes": {
             "MeatProbeStatus": "OvenUpperCavity_AlertStatusMeatProbePluggedIn"
-
           },
           "StatusAttributes": [
             "OvenUpperCavity_CycleSetCommonMode",
@@ -4641,7 +4640,7 @@
             "CookTime": "OvenUpperCavity_TimeSetCookTimeSet",
             "CookTemp": "OvenUpperCavity_CycleSetTargetTemp",
             "ProfileId": "OvenUpperCavity_CulinaryCtrSetId",
-            "MeatProbeTargetTemp" : "OvenUpperCavity_CycleSetMeatProbeTargetTemp"
+            "MeatProbeTargetTemp": "OvenUpperCavity_CycleSetMeatProbeTargetTemp"
           }
         },
         "SetOven": {
@@ -4729,6 +4728,7 @@
             "TimerOperations": "OvenUpperCavity_TimeSetCookTimeOperations"
           },
           "StateAttributes": {
+
           }
         },
         "FavoriteCycles": {
@@ -4738,13 +4738,18 @@
             "US",
             "CA"
           ],
-          "StatusAttributes": [],
-          "StateAttributes": {},
+          "StatusAttributes": [
+
+          ],
+          "StateAttributes": {
+
+          },
           "SendCommandAttributes": [
+
           ],
           "SetOperationsMapping": {
             "Operation": "OvenUpperCavity_OpSetOperations",
-            "EnvelopeAction" : "Relational_EnvelopeAction"
+            "EnvelopeAction": "Relational_EnvelopeAction"
           }
         }
       },
@@ -4833,6 +4838,7 @@
             "TimerOperations": "OvenLowerCavity_TimeSetCookTimeOperations"
           },
           "StateAttributes": {
+
           }
         },
         "FavoriteCycles": {
@@ -4842,16 +4848,92 @@
             "US",
             "CA"
           ],
-          "StatusAttributes": [],
-          "StateAttributes": {},
-          "SendCommandAttributes": [],
+          "StatusAttributes": [
+
+          ],
+          "StateAttributes": {
+
+          },
+          "SendCommandAttributes": [
+
+          ],
           "SetOperationsMapping": {
             "Operation": "OvenLowerCavity_OpSetOperations",
-              "EnvelopeAction" : "Relational_EnvelopeAction"
-
+            "EnvelopeAction": "Relational_EnvelopeAction"
           }
         }
       }
+    },
+    "CycleOrder": {
+      "OvenUpperCavity": [
+        "OvenUpperCavity_CycleSetCommonModeCommonModeBake",
+        "ConvectBake",
+        "OvenUpperCavity_CycleSetCommonModeCommonModeConvectBake",
+        "OvenUpperCavity_CycleSetEasyConvectFoodEasyConvectFoodBakedGoods",
+        "ConvectRoast",
+        "OvenUpperCavity_CycleSetCommonModeCommonModeConvectRoast",
+        "OvenUpperCavity_CycleSetEasyConvectFoodEasyConvectFoodMeat",
+        "OvenUpperCavity_CycleSetConvectBakeFoodConvectBakeFoodFrozenPizza",
+        "OvenUpperCavity_CycleSetCommonModeCommonModeConvectBroil",
+        "OvenUpperCavity_CycleSetConvectBakeFoodConvectBakeFoodPastry",
+        "OvenUpperCavity_CycleSetCommonModeCommonModeBroil",
+        "OvenUpperCavity_CycleSetBreadProofBreadProofStandard",
+        "OvenUpperCavity_CycleSetBreadProofBreadProofRapid",
+        "OvenUpperCavity_CycleSetCommonModeCommonModeKeepWarm",
+        "OvenUpperCavity_CycleSetCommonModeCommonModeConvectSlowRoast1",
+        "OvenUpperCavity_CycleSetCommonModeCommonModeConvectSlowRoast2",
+        "OvenUpperCavity_CycleSetCommonModeCommonModeConvectSlowRoast3",
+        "ProbeCook",
+        "Manual",
+        "OvenUpperCavity_CycleSetCommonModeCommonModeBake",
+        "OvenUpperCavity_CycleSetCommonModeCommonModeConvectBake",
+        "OvenUpperCavity_CycleSetCommonModeCommonModeConvectRoast",
+        "Auto",
+        "OvenUpperCavity_CycleSetEasyConvectFoodEasyConvectFoodBakedGoods",
+        "OvenUpperCavity_CycleSetEasyConvectFoodEasyConvectFoodMeat",
+        "Steam",
+        "EasySteamFoodBread",
+        "OvenUpperCavity_CycleSetEasySteamFoodEasySteamFoodBread",
+        "EasySteamFoodMeat",
+        "OvenUpperCavity_CycleSetEasySteamFoodEasySteamFoodMeat",
+        "EasySteamFoodPoultry",
+        "OvenUpperCavity_CycleSetEasySteamFoodEasySteamFoodPoultry",
+        "EasySteamFoodVegetable",
+        "OvenUpperCavity_CycleSetEasySteamFoodEasySteamFoodVegetable",
+        "EasySteamFoodDessert",
+        "OvenUpperCavity_CycleSetEasySteamFoodEasySteamFoodDessert",
+        "EasySteamFoodCasserole",
+        "OvenUpperCavity_CycleSetEasySteamFoodEasySteamFoodCasserole",
+        "EasySteamFoodSeafood",
+        "OvenUpperCavity_CycleSetEasySteamFoodEasySteamFoodSeafood"
+      ],
+      "OvenLowerCavity": [
+        "OvenLowerCavity_CycleSetCommonModeCommonModeBake",
+        "ConvectBake",
+        "OvenLowerCavity_CycleSetCommonModeCommonModeConvectBake",
+        "OvenLowerCavity_CycleSetEasyConvectFoodEasyConvectFoodBakedGoods",
+        "ConvectRoast",
+        "OvenLowerCavity_CycleSetCommonModeCommonModeConvectRoast",
+        "OvenLowerCavity_CycleSetEasyConvectFoodEasyConvectFoodMeat",
+        "OvenLowerCavity_CycleSetConvectBakeFoodConvectBakeFoodFrozenPizza",
+        "OvenLowerCavity_CycleSetCommonModeCommonModeConvectBroil",
+        "OvenLowerCavity_CycleSetConvectBakeFoodConvectBakeFoodPastry",
+        "OvenLowerCavity_CycleSetCommonModeCommonModeBroil",
+        "OvenLowerCavity_CycleSetBreadProofBreadProofStandard",
+        "OvenLowerCavity_CycleSetBreadProofBreadProofRapid",
+        "OvenLowerCavity_CycleSetCommonModeCommonModeKeepWarm",
+        "OvenLowerCavity_CycleSetCommonModeCommonModeConvectSlowRoast1",
+        "OvenLowerCavity_CycleSetCommonModeCommonModeConvectSlowRoast2",
+        "OvenLowerCavity_CycleSetCommonModeCommonModeConvectSlowRoast3",
+        "ProbeCook",
+        "Manual",
+        "OvenLowerCavity_CycleSetCommonModeCommonModeBake",
+        "OvenLowerCavity_CycleSetCommonModeCommonModeConvectBake",
+        "OvenLowerCavity_CycleSetCommonModeCommonModeConvectRoast",
+        "Auto",
+        "OvenLowerCavity_CycleSetEasyConvectFoodEasyConvectFoodBakedGoods",
+        "OvenLowerCavity_CycleSetEasyConvectFoodEasyConvectFoodMeat"
+      ]
     },
     "Rulesets": {
       "OvenUpperCavity": {
@@ -4914,8 +4996,12 @@
           }
         }
       },
-      "MyCreationExcludedMode-UpperCavity": {},
-      "MyCreationExcludedMode-LowerCavity": {}
+      "MyCreationExcludedMode-UpperCavity": {
+
+      },
+      "MyCreationExcludedMode-LowerCavity": {
+
+      }
     }
   },
   "Alerts": {
@@ -5070,21 +5156,21 @@
             "name": "ADRS",
             "enabled": false,
             "config": {
-              
+
             }
           },
           {
             "name": "Wallmart",
             "enabled": false,
             "config": {
-              
+
             }
           },
           {
             "name": "Whirlpool",
             "enabled": false,
             "config": {
-              
+
             }
           }
         ]
@@ -5115,14 +5201,14 @@
             "name": "National Grid",
             "enabled": false,
             "config": {
-              
+
             }
           },
           {
             "name": "Genability",
             "enabled": false,
             "config": {
-              
+
             }
           }
         ]
@@ -5135,14 +5221,14 @@
             "name": "Amazon Alexa",
             "enabled": false,
             "config": {
-              
+
             }
           },
           {
             "name": "Google Home",
             "enabled": false,
             "config": {
-              
+
             }
           }
         ]

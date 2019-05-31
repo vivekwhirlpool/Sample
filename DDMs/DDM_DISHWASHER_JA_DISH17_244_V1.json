@@ -1935,6 +1935,22 @@
         }
       }
     },
+    "CycleOrder": {
+      "DishCavity": [
+        "Cavity_CycleSetCycleIdCycleNormal",
+        "Cavity_CycleSetCycleIdCycleRinseOnly",
+        "Cavity_CycleSetCycleIdCycleOneHourWash",
+        "Cavity_CycleSetCycleIdCycleLightChina",
+        "Cavity_CycleSetCycleIdCyclePotsAndPans",
+        "Cavity_CycleSetCycleIdCycleSensor",
+        "CustomCycle",
+        "Cavity_CycleSetDownloadAndGoDownloadGoHeavy",
+        "Cavity_CycleSetDownloadAndGoDownloadGoQuick",
+        "Cavity_CycleSetDownloadAndGoDownloadGoSpecialtyItems",
+        "Cavity_CycleSetDownloadAndGoDownloadGoSanitize",
+        "Cavity_CycleSetDownloadAndGoDownloadGoGentle"
+      ]
+    },
     "Rulesets": {
       
     }
