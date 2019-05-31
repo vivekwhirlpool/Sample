@@ -1943,6 +1943,22 @@
         }
       }
     },
+    "CycleOrder": {
+      "DishCavity": [
+        "Cavity_CycleSetCycleIdCycleNormal",
+        "Cavity_CycleSetCycleIdCycleRinseOnly",
+        "Cavity_CycleSetCycleIdCycleOneHourWash",
+        "Cavity_CycleSetCycleIdCycleLightChina",
+        "Cavity_CycleSetCycleIdCyclePotsAndPans",
+        "Cavity_CycleSetCycleIdCycleSensor",
+        "CustomCycle",
+        "Cavity_CycleSetDownloadAndGoDownloadGoHeavy",
+        "Cavity_CycleSetDownloadAndGoDownloadGoQuick",
+        "Cavity_CycleSetDownloadAndGoDownloadGoSpecialtyItems",
+        "Cavity_CycleSetDownloadAndGoDownloadGoSanitize",
+        "Cavity_CycleSetDownloadAndGoDownloadGoGentle"
+      ]
+    },
     "ApplianceRulesets": {
       "DishCavity": {
         "Runtime": [{
@@ -1988,22 +2004,6 @@
           },
           {
             "ruleName": "Disable Cancel, Mofidy, Start options if appliance is draining",
-            "description": "Cavity_OperationStatusMachineState ==Drain, this is instruction sent to appliance",
-            "actions": {
-              "ActionCancelCommand": false,
-              "ActionStartCommand": false,
-              "ActionModifyCommand": false,
-              "ActionSendToApplianceCommand": false
-            },
-            "condition": {
-              "type": "value",
-              "key": "Cavity_OperationStatusMachineState",
-              "valueOperator": "=",
-              "value": "8"
-            }
-          },
-          {
-            "ruleName": "Enable Mofidy, Start options if appliance is draining",
             "description": "Cavity_OperationStatusMachineState ==Drain, this is instruction sent to appliance",
             "actions": {
               "ActionCancelCommand": false,

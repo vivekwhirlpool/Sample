@@ -3645,7 +3645,7 @@
                                     550
                                 ],
                                 "Default": 325,
-                                "Offset" : 0
+                                "Offset": 0
                             }
                         },
                         "Optional": {
@@ -3655,7 +3655,7 @@
                                     "Max": 43200,
                                     "Step": 60,
                                     "Default": 0,
-                                    "OffsetPercentage" : 0
+                                    "OffsetPercentage": 0
                                 }
                             },
                             "LowerCavity_DelayTimeSetTime": {
@@ -3698,7 +3698,7 @@
                                     550
                                 ],
                                 "Default": 350,
-                                "Offset" : 0
+                                "Offset": 0
                             }
                         },
                         "Optional": {
@@ -3708,7 +3708,7 @@
                                     "Max": 43200,
                                     "Step": 60,
                                     "Default": 0,
-                                    "OffsetPercentage" : -20
+                                    "OffsetPercentage": -20
                                 }
                             },
                             "LowerCavity_DelayTimeSetTime": {
@@ -3751,7 +3751,7 @@
                                     550
                                 ],
                                 "Default": 325,
-                                "Offset" : -20
+                                "Offset": -20
                             }
                         },
                         "Optional": {
@@ -3761,7 +3761,7 @@
                                     "Max": 43200,
                                     "Step": 60,
                                     "Default": 0,
-                                    "OffsetPercentage" : 0
+                                    "OffsetPercentage": 0
                                 }
                             },
                             "LowerCavity_DelayTimeSetTime": {
@@ -3791,7 +3791,7 @@
                                     "StepF": 5,
                                     "StepC": 3,
                                     "Default": 550,
-                                    "Offset" : 0
+                                    "Offset": 0
                                 }
                             }
                         },
@@ -3802,7 +3802,7 @@
                                     "Max": 43200,
                                     "Step": 60,
                                     "Default": 0,
-                                    "OffsetPercentage" : 0
+                                    "OffsetPercentage": 0
                                 }
                             },
                             "LowerCavity_DelayTimeSetTime": {
@@ -5352,7 +5352,7 @@
                 "MWFoodClass": "UpperCavity_MWFoodClass",
                 "MWDoneness": "UpperCavity_MWDoneness",
                 "Amount": "UpperCavity_Amount",
-                "CookTimeSetTime" : "UpperCavity_CookTimeSetTime"
+                "CookTimeSetTime": "UpperCavity_CookTimeSetTime"
             },
             "OvenLowerCavity": {
                 "CycleName": [
@@ -5551,7 +5551,7 @@
                         "State": "SystemSettings_DisplayBrightness"
                     }
                 },
-                "ApplianceDocuments" : {
+                "ApplianceDocuments": {
                     "Visible": true,
                     "AvailableIn": [
                         "US",
@@ -5614,7 +5614,7 @@
                         "LowerCavity_CavityOperations"
                     ],
                     "SetOperationsMapping": {
-                        "CycleName" : "LowerCavity_CavityModeOven",
+                        "CycleName": "LowerCavity_CavityModeOven",
                         "ProfileId": "LowerCavity_CulinaryCenterID",
                         "MeatProbeTargetTemp": "LowerCavity_MeatProbeTargetTemp",
                         "CookTemp": "LowerCavity_CavityTargetTemp",
@@ -5724,6 +5724,53 @@
                 }
             }
         },
+        "CycleOrder": {
+            "OvenLowerCavity": [
+                "LowerCavity_CavityModeOvenCvtFrznPizza",
+                "LowerCavity_CavityModeOvenCvtPastry",
+                "LowerCavity_CavityModeOvenCvtSlowRoast12hrs",
+                "LowerCavity_CavityModeOvenCvtSlowRoast8hrs",
+                "LowerCavity_CavityModeOvenCvtSlowRoast4hrs",
+                "LowerCavity_CavityModeOvenTrueConvect",
+                "LowerCavity_CavityModeOvenConvectRoast",
+                "LowerCavity_CavityModeOvenConvectBroil",
+                "LowerCavity_CavityModeOvenConvectBake",
+                "LowerCavity_CavityModeOvenConvectBakeRapidPreheat",
+                "LowerCavity_CavityModeOvenConvertRecipe",
+                "LowerCavity_CavityModeOvenConvertRecipeCvtPastry",
+                "LowerCavity_CavityModeOvenConvertRecipeConvectRoast",
+                "LowerCavity_CavityModeOvenConvertRecipeConvectBake",
+                "LowerCavity_CavityModeOvenConvertRecipeConvectBroil",
+                "LowerCavity_CavityModeOvenBake",
+                "LowerCavity_CavityModeOvenNoPreheat1RackCooking",
+                "LowerCavity_CavityModeOvenBroil",
+                "LowerCavity_CavityModeOvenProbeCook",
+                "LowerCavity_CavityModeOvenPCFoodGuide",
+                "LowerCavity_CavityModeOvenPCFGPrecookedHam",
+                "LowerCavity_CavityModeOvenPCFGPorkMedium",
+                "LowerCavity_CavityModeOvenPCFGPorkWellDone",
+                "LowerCavity_CavityModeOvenPCFGChickenBreast",
+                "LowerCavity_CavityModeOvenPCFGChickenWhole",
+                "LowerCavity_CavityModeOvenPCFGTurkeyBreast",
+                "LowerCavity_CavityModeOvenPCFGTurkeyWhole",
+                "LowerCavity_CavityModeOvenPCFGBeefMediumRare",
+                "LowerCavity_CavityModeOvenPCFGBeefMedium",
+                "LowerCavity_CavityModeOvenPCFGBeefWellDone",
+                "LowerCavity_CavityModeOvenPCFGLambMediumRare",
+                "LowerCavity_CavityModeOvenPCFGLambMedium",
+                "LowerCavity_CavityModeOvenPCFGLambWellDone",
+                "LowerCavity_CavityModeOvenPCFGVealMediumRare",
+                "LowerCavity_CavityModeOvenPCFGVealMedium",
+                "LowerCavity_CavityModeOvenPCFGVealWellDone",
+                "LowerCavity_CavityModeOvenPCConvectRoast",
+                "LowerCavity_CavityModeOvenPCConvectBake",
+                "LowerCavity_CavityModeOvenPCBake",
+                "LowerCavity_CavityModeOvenKeepWarm",
+                "LowerCavity_CavityModeOvenRapidProof",
+                "LowerCavity_CavityModeOvenProof",
+                "LowerCavity_CavityModeOvenSabbath"
+            ]
+        },
         "ApplianceRulesets": {
             "OvenLowerCavity": {
                 "Runtime": [
@@ -5731,17 +5778,17 @@
                         "ruleName": "Disable All Features when appliance is offline",
                         "description": "Disable All Features when appliance is offline",
                         "features": {
-                            "MeatProbeTemp" : true,
-                            "MeatProbe" : true,
-                            "AssistedCooking" : true,
-                            "SetOven" : true,
-                            "LightOnOff" : true,
-                            "MyCreations" : true
+                            "MeatProbeTemp": true,
+                            "MeatProbe": true,
+                            "AssistedCooking": true,
+                            "SetOven": true,
+                            "LightOnOff": true,
+                            "MyCreations": true
                         },
                         "actions": {
                             "ActionCancelCommand": true,
-                            "ActionStartCommand" : true,
-                            "ActionModifyCommand" : true
+                            "ActionStartCommand": true,
+                            "ActionModifyCommand": true
                         },
                         "condition": {
                             "type": "value",
@@ -5753,11 +5800,10 @@
                     {
                         "ruleName": "Cancel the Running Cycle",
                         "description": "If Appliance is not idle, we can enable the cancel action",
-                        
                         "actions": {
                             "ActionCancelCommand": true,
-                            "ActionStartCommand" : false,
-                            "ActionModifyCommand" : true
+                            "ActionStartCommand": false,
+                            "ActionModifyCommand": true
                         },
                         "condition": {
                             "type": "value",
@@ -5781,25 +5827,25 @@
                     }
                 ]
             },
-            "Common" : {
+            "Common": {
                 "Runtime": [
                     {
                         "ruleName": "Disable All Features when appliance is offline",
                         "description": "Disable All Features when appliance is offline",
                         "features": {
                             "ChangeTempUnits": false,
-                            "ControlLock" : false,
-                            "RemoteStatus" : false,
-                            "KitchenTimer" : false,
-                            "ChangeSoundPowerOnOff" : false,
-                            "ChangeNumberEntry" : false,
-                            "ChangeClockTheme" : false,
-                            "ChangeClockOnOffStatus" : false,
-                            "ChangeApplianceLanguage" : false,
-                            "ChangeSoundKeyAlert" : false,
-                            "ChangeSoundKeyPress" : false,
-                            "ChangeDisplayOnOffStatus" : false,
-                            "ChangeBrightness" : false
+                            "ControlLock": false,
+                            "RemoteStatus": false,
+                            "KitchenTimer": false,
+                            "ChangeSoundPowerOnOff": false,
+                            "ChangeNumberEntry": false,
+                            "ChangeClockTheme": false,
+                            "ChangeClockOnOffStatus": false,
+                            "ChangeApplianceLanguage": false,
+                            "ChangeSoundKeyAlert": false,
+                            "ChangeSoundKeyPress": false,
+                            "ChangeDisplayOnOffStatus": false,
+                            "ChangeBrightness": false
                         },
                         "condition": {
                             "type": "value",

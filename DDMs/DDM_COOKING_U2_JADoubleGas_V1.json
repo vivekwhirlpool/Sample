@@ -3976,6 +3976,60 @@
         }        
       }
     },
+    "CycleOrder": {
+      "OvenUpperCavity": [
+        "OvenUpperCavity_CycleSetCommonModeCommonModeBake",
+        "ConvectBake",
+        "OvenUpperCavity_CycleSetCommonModeCommonModeConvectBake",
+        "OvenUpperCavity_CycleSetEasyConvectFoodEasyConvectFoodBakedGoods",
+        "ConvectRoast",
+        "OvenUpperCavity_CycleSetCommonModeCommonModeConvectRoast",
+        "OvenUpperCavity_CycleSetEasyConvectFoodEasyConvectFoodMeat",
+        "OvenUpperCavity_CycleSetConvectBakeFoodConvectBakeFoodFrozenPizza",
+        "OvenUpperCavity_CycleSetConvectBakeFoodConvectBakeFoodPastry",
+        "OvenUpperCavity_CycleSetCommonModeCommonModeBroil",
+        "OvenUpperCavity_CycleSetBreadProofBreadProofStandard",
+        "OvenUpperCavity_CycleSetBreadProofBreadProofRapid",
+        "OvenUpperCavity_CycleSetCommonModeCommonModeKeepWarm",
+        "OvenUpperCavity_CycleSetCommonModeCommonModeConvectSlowRoast1",
+        "OvenUpperCavity_CycleSetCommonModeCommonModeConvectSlowRoast2",
+        "OvenUpperCavity_CycleSetCommonModeCommonModeConvectSlowRoast3",
+        "ProbeCook",
+        "Manual",
+        "OvenUpperCavity_CycleSetCommonModeCommonModeBake",
+        "OvenUpperCavity_CycleSetCommonModeCommonModeConvectBake",
+        "OvenUpperCavity_CycleSetCommonModeCommonModeConvectRoast",
+        "Auto",
+        "OvenUpperCavity_CycleSetEasyConvectFoodEasyConvectFoodBakedGoods",
+        "OvenUpperCavity_CycleSetEasyConvectFoodEasyConvectFoodMeat"
+      ],
+      "OvenLowerCavity": [
+        "OvenLowerCavity_CycleSetCommonModeCommonModeBake",
+        "ConvectBake",
+        "OvenLowerCavity_CycleSetCommonModeCommonModeConvectBake",
+        "OvenLowerCavity_CycleSetEasyConvectFoodEasyConvectFoodBakedGoods",
+        "ConvectRoast",
+        "OvenLowerCavity_CycleSetCommonModeCommonModeConvectRoast",
+        "OvenLowerCavity_CycleSetEasyConvectFoodEasyConvectFoodMeat",
+        "OvenLowerCavity_CycleSetConvectBakeFoodConvectBakeFoodFrozenPizza",
+        "OvenLowerCavity_CycleSetConvectBakeFoodConvectBakeFoodPastry",
+        "OvenLowerCavity_CycleSetCommonModeCommonModeBroil",
+        "OvenLowerCavity_CycleSetBreadProofBreadProofStandard",
+        "OvenLowerCavity_CycleSetBreadProofBreadProofRapid",
+        "OvenLowerCavity_CycleSetCommonModeCommonModeKeepWarm",
+        "OvenLowerCavity_CycleSetCommonModeCommonModeConvectSlowRoast1",
+        "OvenLowerCavity_CycleSetCommonModeCommonModeConvectSlowRoast2",
+        "OvenLowerCavity_CycleSetCommonModeCommonModeConvectSlowRoast3",
+        "ProbeCook",
+        "Manual",
+        "OvenLowerCavity_CycleSetCommonModeCommonModeBake",
+        "OvenLowerCavity_CycleSetCommonModeCommonModeConvectBake",
+        "OvenLowerCavity_CycleSetCommonModeCommonModeConvectRoast",
+        "Auto",
+        "OvenLowerCavity_CycleSetEasyConvectFoodEasyConvectFoodBakedGoods",
+        "OvenLowerCavity_CycleSetEasyConvectFoodEasyConvectFoodMeat"
+      ]
+    },
     "ApplianceRulesets": {
       "OvenUpperCavity": {
         "Runtime": [

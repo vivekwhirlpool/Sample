@@ -101,13 +101,13 @@
         "XCat_WifiSetPublishApplianceState.Label": "WiFi Set Publish Appliance State",
         "XCat_WifiStatusRssiAntennaDiversity.Label": "WiFi Status RSSI Antenna Diversity",
         "XCat_WifiStatusRssiDisplay.Label": "WiFi Status RSSI Display",
-        "RefrigeratorCavity.Label" : "Refrigerator",
-        "FreezerCavity.Label" : "Freezer",
-        "PantryCavity.Label" :"Drawer",
-        "Pantry_OpSetTargetTemp.EnumValues.Meat.Label" : "Meat",
-        "Pantry_OpSetTargetTemp.EnumValues.Beverage.Label" : "Beverage",
-        "Pantry_OpSetTargetTemp.EnumValues.Assorted.Label" : "Assorted",
-        "Pantry_OpSetTargetTemp.EnumValues.Deli.Label" : "Deli"
+        "RefrigeratorCavity.Label": "Refrigerator",
+        "FreezerCavity.Label": "Freezer",
+        "PantryCavity.Label": "Drawer",
+        "Pantry_OpSetTargetTemp.EnumValues.Meat.Label": "Meat",
+        "Pantry_OpSetTargetTemp.EnumValues.Beverage.Label": "Beverage",
+        "Pantry_OpSetTargetTemp.EnumValues.Assorted.Label": "Assorted",
+        "Pantry_OpSetTargetTemp.EnumValues.Deli.Label": "Deli"
     },
     "AFCSelfHelpPack": {},
     "MobileLiterals": {
@@ -165,68 +165,64 @@
                 "Name": "Produce Preserver Starter Kit",
                 "Description": null,
                 "Disclaimer": null,
-                "SupplyLocations": [
-                    {
-                        "Merchant": "Jenn-Air®",
-                        "Country": "United States",
-                        "url": "http://jennair.com/accessories/details/P1FB6S1"
-                    },
-                    {
-                        "Merchant": "Jenn-Air®",
-                        "Country": "Canada",
-                        "url": "http://www.jennair.ca/appliances/uncategorized/p1kg6s1b-kitchenaid-produce-preserver-starter-kit/"
-                    }
+                "SupplyLocations": [{
+                    "Merchant": "Jenn-Air®",
+                    "Country": "United States",
+                    "url": "http://jennair.com/accessories/details/P1FB6S1"
+                },
+                {
+                    "Merchant": "Jenn-Air®",
+                    "Country": "Canada",
+                    "url": "http://www.jennair.ca/appliances/uncategorized/p1kg6s1b-kitchenaid-produce-preserver-starter-kit/"
+                }
                 ]
             },
             "ProducePreserverRefill": {
                 "Name": "Produce Preserver Refill",
                 "Description": null,
                 "Disclaimer": null,
-                "SupplyLocations": [
-                    {
-                        "Merchant": "Jenn-Air®",
-                        "Country": "United States",
-                        "url": "http://jennair.com/accessories/details/P1FB6S1"
-                    },
-                    {
-                        "Merchant": "Jenn-Air®",
-                        "Country": "Canada",
-                        "url": "http://www.jennair.ca/appliances/uncategorized/p1kg6r1b-kitchenaid-produce-preserver-keep-fresh-packets/"
-                    }
+                "SupplyLocations": [{
+                    "Merchant": "Jenn-Air®",
+                    "Country": "United States",
+                    "url": "http://jennair.com/accessories/details/P1FB6S1"
+                },
+                {
+                    "Merchant": "Jenn-Air®",
+                    "Country": "Canada",
+                    "url": "http://www.jennair.ca/appliances/uncategorized/p1kg6r1b-kitchenaid-produce-preserver-keep-fresh-packets/"
+                }
                 ]
             },
             "FreshflowAirFilter": {
                 "Name": "FreshFlow™ Air Filter",
                 "Description": null,
                 "Disclaimer": null,
-                "SupplyLocations": [
-                    {
-                        "Merchant": "Jenn-Air®",
-                        "Country": "United States",
-                        "url": "http://jennair.com/accessories/details/W10311524"
-                    },
-                    {
-                        "Merchant": "Jenn-Air®",
-                        "Country": "Canada",
-                        "url": "http://www.jennair.ca/?s=W10311524&lang=en"
-                    }
+                "SupplyLocations": [{
+                    "Merchant": "Jenn-Air®",
+                    "Country": "United States",
+                    "url": "http://jennair.com/accessories/details/W10311524"
+                },
+                {
+                    "Merchant": "Jenn-Air®",
+                    "Country": "Canada",
+                    "url": "http://www.jennair.ca/?s=W10311524&lang=en"
+                }
                 ]
             },
             "EverydropWaterFilter": {
                 "Name": "EveryDrop™ Water Filter",
                 "Description": null,
                 "Disclaimer": null,
-                "SupplyLocations": [
-                    {
-                        "Merchant": "Jenn-Air®",
-                        "Country": "United States",
-                        "url": "http://jennair.com/accessories/details/EDR2RXD1"
-                    },
-                    {
-                        "Merchant": "Jenn-Air®",
-                        "Country": "Canada",
-                        "url": "https://everydropwater.ca/en/filter2-refrigerator-water-filter-turn-model-edr2rxd1b"
-                    }
+                "SupplyLocations": [{
+                    "Merchant": "Jenn-Air®",
+                    "Country": "United States",
+                    "url": "http://jennair.com/accessories/details/EDR2RXD1"
+                },
+                {
+                    "Merchant": "Jenn-Air®",
+                    "Country": "Canada",
+                    "url": "https://everydropwater.ca/en/filter2-refrigerator-water-filter-turn-model-edr2rxd1b"
+                }
                 ]
             }
         },
@@ -289,101 +285,94 @@
         }
     },
     "NotificationMessages": {
-        "NotificationContents": [
-            {
-                "TemplateId": "DoorOpenAlert1",
-                "SmsText": "Refrigerator door alarm is sounding. Check that the door is closed and/or items aren’t blocking the door.",
-                "EmailText": "Refrigerator door alarm is sounding. Check that the door is closed and/or items aren’t blocking the door.",
-                "PushText": "Refrigerator door alarm is sounding. Check that the door is closed and/or items aren’t blocking the door.",
-                "AlertTitle": "Door Alert",
-                "Type": "maxIceDoor"
-            },
-            {
-                "TemplateId": "MaxCool1",
-                "SmsText": "Refrigerator started Max Cool temporarily reducing the refrigerator set temperature.Refrigerator exited Max Cool returning the refrigerator temperature to the prior set temperature.",
-                "EmailText": "Refrigerator started Max Cool temporarily reducing the refrigerator set temperature.Refrigerator exited Max Cool returning the refrigerator temperature to the prior set temperature.",
-                "PushText": "Refrigerator started Max Cool temporarily reducing the refrigerator set temperature.Refrigerator exited Max Cool returning the refrigerator temperature to the prior set temperature.",
-                "AlertTitle": "System Alert",
-                "Type": "system"
-            },
-            {
-                "TemplateId": "MaxCool2",
-                "SmsText": "Refrigerator started Max Cool temporarily reducing the refrigerator set temperature.Refrigerator exited Max Cool returning the refrigerator temperature to the prior set temperature.",
-                "EmailText": "Refrigerator started Max Cool temporarily reducing the refrigerator set temperature.Refrigerator exited Max Cool returning the refrigerator temperature to the prior set temperature.",
-                "PushText": "Refrigerator started Max Cool temporarily reducing the refrigerator set temperature.Refrigerator exited Max Cool returning the refrigerator temperature to the prior set temperature.",
-                "AlertTitle": "System Alert",
-                "Type": "system"
-            },
-            {
-                "TemplateId": "MaxIce1",
-                "SmsText": "Refrigerator started Max Ice temporarily reducing the freezer set temperature.Refrigerator exited Max Ice returning the freezer temperature to the prior set temperature.",
-                "EmailText": "Refrigerator started Max Ice temporarily reducing the freezer set temperature.Refrigerator exited Max Ice returning the freezer temperature to the prior set temperature.",
-                "PushText": "Refrigerator started Max Ice temporarily reducing the freezer set temperature.Refrigerator exited Max Ice returning the freezer temperature to the prior set temperature.",
-                "AlertTitle": "System Alert",
-                "Type": "system"
-            },
-            {
-                "TemplateId": "MaxIce2",
-                "SmsText": "Refrigerator started Max Ice temporarily reducing the freezer set temperature.Refrigerator exited Max Ice returning the freezer temperature to the prior set temperature.",
-                "EmailText": "Refrigerator started Max Ice temporarily reducing the freezer set temperature.Refrigerator exited Max Ice returning the freezer temperature to the prior set temperature.",
-                "PushText": "Refrigerator started Max Ice temporarily reducing the freezer set temperature.Refrigerator exited Max Ice returning the freezer temperature to the prior set temperature.",
-                "AlertTitle": "System Alert",
-                "Type": "system"
-            },
-            {
-                "TemplateId": "OverTemp1",
-                "SmsText": "Review the contents of your refrigerator - it is over temperature".,
-                "Review the contents of your freezer - it is over temperature.",
-                "EmailText": "Review the contents of your refrigerator - it is over temperature".,
-                "Review the contents of your freezer - it is over temperature.",
-                "PushText": "Review the contents of your refrigerator - it is over temperature".,
-                "Review the contents of your freezer - it is over temperature.",
-                "AlertTitle": "System Alert",
-                "Type": "system"
-            },
-            {
-                "TemplateId": "OverTemp2",
-                "SmsText": "Review the contents of your refrigerator - it is over temperature".,
-                "Review the contents of your freezer - it is over temperature.",
-                "EmailText": "Review the contents of your refrigerator - it is over temperature".,
-                "Review the contents of your freezer - it is over temperature.",
-                "PushText": "Review the contents of your refrigerator - it is over temperature".,
-                "Review the contents of your freezer - it is over temperature.",
-                "AlertTitle": "System Alert",
-                "Type": "system"
-            },
-            {
-                "TemplateId": "PreventativeMaintenanceAirFilter",
-                "SmsText": "It’s time to check the status of the refrigerator's air filter or produce preserver ",
-                "EmailText": "It’s time to check the status of the refrigerator's air filter or produce preserver ",
-                "PushText": "It’s time to check the status of the refrigerator's air filter or produce preserver ",
-                "AlertTitle": "Air Filter Alert",
-                "Type": "system"
-            },
-            {
-                "TemplateId": "WaterFilter0",
-                "SmsText": "It's just about time to replace your refrigerator's water filter, order now.Once the water filter is replaced, flush the water system as described in the Use & Care Guide before using the dispenser. You should also discard the initial (3) batches of ice.",
-                "EmailText": "It's just about time to replace your refrigerator's water filter, order now.Once the water filter is replaced, flush the water system as described in the Use & Care Guide before using the dispenser. You should also discard the initial (3) batches of ice.",
-                "PushText": "It's just about time to replace your refrigerator's water filter, order now.Once the water filter is replaced, flush the water system as described in the Use & Care Guide before using the dispenser. You should also discard the initial (3) batches of ice.",
-                "AlertTitle": "System Alert",
-                "Type": "system"
-            },
-            {
-                "TemplateId": "WaterFilter1",
-                "SmsText": "It's just about time to replace your refrigerator's water filter, order now.Once the water filter is replaced, flush the water system as described in the Use & Care Guide before using the dispenser. You should also discard the initial (3) batches of ice.",
-                "EmailText": "It's just about time to replace your refrigerator's water filter, order now.Once the water filter is replaced, flush the water system as described in the Use & Care Guide before using the dispenser. You should also discard the initial (3) batches of ice.",
-                "PushText": "It's just about time to replace your refrigerator's water filter, order now.Once the water filter is replaced, flush the water system as described in the Use & Care Guide before using the dispenser. You should also discard the initial (3) batches of ice.",
-                "AlertTitle": "Water Filter Alert",
-                "Type": "waterFilter"
-            },
-            {
-                "TemplateId": "WaterFilter2",
-                "SmsText": "It's just about time to replace your refrigerator's water filter, order now.Once the water filter is replaced, flush the water system as described in the Use & Care Guide before using the dispenser. You should also discard the initial (3) batches of ice.",
-                "EmailText": "It's just about time to replace your refrigerator's water filter, order now.Once the water filter is replaced, flush the water system as described in the Use & Care Guide before using the dispenser. You should also discard the initial (3) batches of ice.",
-                "PushText": "It's just about time to replace your refrigerator's water filter, order now.Once the water filter is replaced, flush the water system as described in the Use & Care Guide before using the dispenser. You should also discard the initial (3) batches of ice.",
-                "AlertTitle": "Water Filter Alert",
-                "Type": "waterFilter"
-            }
+        "NotificationContents": [{
+            "TemplateId": "DoorOpenAlert1",
+            "SmsText": "Refrigerator door alarm is sounding. Check that the door is closed and/or items aren’t blocking the door.",
+            "EmailText": "Refrigerator door alarm is sounding. Check that the door is closed and/or items aren’t blocking the door.",
+            "PushText": "Refrigerator door alarm is sounding. Check that the door is closed and/or items aren’t blocking the door.",
+            "AlertTitle": "Door Alert",
+            "Type": "maxIceDoor"
+        },
+        {
+            "TemplateId": "MaxCool1",
+            "SmsText": "Refrigerator started Max Cool temporarily reducing the refrigerator set temperature.Refrigerator exited Max Cool returning the refrigerator temperature to the prior set temperature.",
+            "EmailText": "Refrigerator started Max Cool temporarily reducing the refrigerator set temperature.Refrigerator exited Max Cool returning the refrigerator temperature to the prior set temperature.",
+            "PushText": "Refrigerator started Max Cool temporarily reducing the refrigerator set temperature.Refrigerator exited Max Cool returning the refrigerator temperature to the prior set temperature.",
+            "AlertTitle": "System Alert",
+            "Type": "system"
+        },
+        {
+            "TemplateId": "MaxCool2",
+            "SmsText": "Refrigerator started Max Cool temporarily reducing the refrigerator set temperature.Refrigerator exited Max Cool returning the refrigerator temperature to the prior set temperature.",
+            "EmailText": "Refrigerator started Max Cool temporarily reducing the refrigerator set temperature.Refrigerator exited Max Cool returning the refrigerator temperature to the prior set temperature.",
+            "PushText": "Refrigerator started Max Cool temporarily reducing the refrigerator set temperature.Refrigerator exited Max Cool returning the refrigerator temperature to the prior set temperature.",
+            "AlertTitle": "System Alert",
+            "Type": "system"
+        },
+        {
+            "TemplateId": "MaxIce1",
+            "SmsText": "Refrigerator started Max Ice temporarily reducing the freezer set temperature.Refrigerator exited Max Ice returning the freezer temperature to the prior set temperature.",
+            "EmailText": "Refrigerator started Max Ice temporarily reducing the freezer set temperature.Refrigerator exited Max Ice returning the freezer temperature to the prior set temperature.",
+            "PushText": "Refrigerator started Max Ice temporarily reducing the freezer set temperature.Refrigerator exited Max Ice returning the freezer temperature to the prior set temperature.",
+            "AlertTitle": "System Alert",
+            "Type": "system"
+        },
+        {
+            "TemplateId": "MaxIce2",
+            "SmsText": "Refrigerator started Max Ice temporarily reducing the freezer set temperature.Refrigerator exited Max Ice returning the freezer temperature to the prior set temperature.",
+            "EmailText": "Refrigerator started Max Ice temporarily reducing the freezer set temperature.Refrigerator exited Max Ice returning the freezer temperature to the prior set temperature.",
+            "PushText": "Refrigerator started Max Ice temporarily reducing the freezer set temperature.Refrigerator exited Max Ice returning the freezer temperature to the prior set temperature.",
+            "AlertTitle": "System Alert",
+            "Type": "system"
+        },
+        {
+            "TemplateId": "OverTemp1",
+            "SmsText": "Review the contents of your refrigerator - it is over temperature.",
+            "EmailText": "Review the contents of your refrigerator - it is over temperature.",
+            "PushText": "Review the contents of your refrigerator - it is over temperature.",
+            "AlertTitle": "System Alert",
+            "Type": "system"
+        },
+        {
+            "TemplateId": "OverTemp2",
+            "SmsText": "Review the contents of your refrigerator - it is over temperature.",
+            "EmailText": "Review the contents of your refrigerator - it is over temperature.",
+            "PushText": "Review the contents of your refrigerator - it is over temperature.",
+            "AlertTitle": "System Alert",
+            "Type": "system"
+        },
+        {
+            "TemplateId": "PreventativeMaintenanceAirFilter",
+            "SmsText": "It’s time to check the status of the refrigerator's air filter or produce preserver ",
+            "EmailText": "It’s time to check the status of the refrigerator's air filter or produce preserver ",
+            "PushText": "It’s time to check the status of the refrigerator's air filter or produce preserver ",
+            "AlertTitle": "Air Filter Alert",
+            "Type": "system"
+        },
+        {
+            "TemplateId": "WaterFilter0",
+            "SmsText": "It's just about time to replace your refrigerator's water filter, order now.Once the water filter is replaced, flush the water system as described in the Use & Care Guide before using the dispenser. You should also discard the initial (3) batches of ice.",
+            "EmailText": "It's just about time to replace your refrigerator's water filter, order now.Once the water filter is replaced, flush the water system as described in the Use & Care Guide before using the dispenser. You should also discard the initial (3) batches of ice.",
+            "PushText": "It's just about time to replace your refrigerator's water filter, order now.Once the water filter is replaced, flush the water system as described in the Use & Care Guide before using the dispenser. You should also discard the initial (3) batches of ice.",
+            "AlertTitle": "System Alert",
+            "Type": "system"
+        },
+        {
+            "TemplateId": "WaterFilter1",
+            "SmsText": "It's just about time to replace your refrigerator's water filter, order now.Once the water filter is replaced, flush the water system as described in the Use & Care Guide before using the dispenser. You should also discard the initial (3) batches of ice.",
+            "EmailText": "It's just about time to replace your refrigerator's water filter, order now.Once the water filter is replaced, flush the water system as described in the Use & Care Guide before using the dispenser. You should also discard the initial (3) batches of ice.",
+            "PushText": "It's just about time to replace your refrigerator's water filter, order now.Once the water filter is replaced, flush the water system as described in the Use & Care Guide before using the dispenser. You should also discard the initial (3) batches of ice.",
+            "AlertTitle": "Water Filter Alert",
+            "Type": "waterFilter"
+        },
+        {
+            "TemplateId": "WaterFilter2",
+            "SmsText": "It's just about time to replace your refrigerator's water filter, order now.Once the water filter is replaced, flush the water system as described in the Use & Care Guide before using the dispenser. You should also discard the initial (3) batches of ice.",
+            "EmailText": "It's just about time to replace your refrigerator's water filter, order now.Once the water filter is replaced, flush the water system as described in the Use & Care Guide before using the dispenser. You should also discard the initial (3) batches of ice.",
+            "PushText": "It's just about time to replace your refrigerator's water filter, order now.Once the water filter is replaced, flush the water system as described in the Use & Care Guide before using the dispenser. You should also discard the initial (3) batches of ice.",
+            "AlertTitle": "Water Filter Alert",
+            "Type": "waterFilter"
+        }
         ]
     }
 }
