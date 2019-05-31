@@ -4700,49 +4700,6 @@
                                 "Default": "StayOn"
                             }
                         }
-                    },
-                    "UpperCavity_CavityModeOvenSabbath": {
-                        "Required": {
-                            "UpperCavity_CavityTargetTemp": {
-                                "List": [
-                                    170,
-                                    200,
-                                    225,
-                                    250,
-                                    275,
-                                    300,
-                                    325,
-                                    350,
-                                    375,
-                                    400,
-                                    425,
-                                    450,
-                                    475,
-                                    500,
-                                    525,
-                                    550
-                                ],
-                                "Default": 350
-                            },
-                            "UpperCavity_CookTimeSetTime": {
-                                "Range": {
-                                    "Min": 0,
-                                    "Max": 86400,
-                                    "Step": 60,
-                                    "Default": 0
-                                }
-                            }
-                        },
-                        "Optional": {
-                            "UpperCavity_DelayTimeSetTime": {
-                                "Range": {
-                                    "Min": 0,
-                                    "Max": 43140,
-                                    "Step": 900,
-                                    "Default": 0
-                                }
-                            }
-                        }
                     }
                 },
                 "SetCycle": {
@@ -5102,14 +5059,6 @@
                             ]
                         },
                         "Name": "Proof"
-                    },
-                    "UpperCavity_CavityModeOvenSabbath": {
-                        "Attributes": {
-                            "UpperCavity_CavityModeOven": [
-                                "Sabbath"
-                            ]
-                        },
-                        "Name": "Sabbath"
                     },
                     "Default": "UpperCavity_CavityModeOvenBake"
                 }
@@ -6856,49 +6805,6 @@
                                 "Default": "StayOn"
                             }
                         }
-                    },
-                    "LowerCavity_CavityModeOvenSabbath": {
-                        "Required": {
-                            "LowerCavity_CavityTargetTemp": {
-                                "List": [
-                                    170,
-                                    200,
-                                    225,
-                                    250,
-                                    275,
-                                    300,
-                                    325,
-                                    350,
-                                    375,
-                                    400,
-                                    425,
-                                    450,
-                                    475,
-                                    500,
-                                    525,
-                                    550
-                                ],
-                                "Default": 350
-                            },
-                            "LowerCavity_CookTimeSetTime": {
-                                "Range": {
-                                    "Min": 0,
-                                    "Max": 86400,
-                                    "Step": 60,
-                                    "Default": 0
-                                }
-                            }
-                        },
-                        "Optional": {
-                            "LowerCavity_DelayTimeSetTime": {
-                                "Range": {
-                                    "Min": 0,
-                                    "Max": 43140,
-                                    "Step": 900,
-                                    "Default": 0
-                                }
-                            }
-                        }
                     }
                 },
                 "SetCycle": {
@@ -7258,14 +7164,6 @@
                             ]
                         },
                         "Name": "Proof"
-                    },
-                    "LowerCavity_CavityModeOvenSabbath": {
-                        "Attributes": {
-                            "LowerCavity_CavityModeOven": [
-                                "Sabbath"
-                            ]
-                        },
-                        "Name": "Sabbath"
                     },
                     "Default": "LowerCavity_CavityModeOvenBake"
                 }
@@ -7803,8 +7701,7 @@
                 "UpperCavity_CavityModeOvenPCBake",
                 "UpperCavity_CavityModeOvenKeepWarm",
                 "UpperCavity_CavityModeOvenRapidProof",
-                "UpperCavity_CavityModeOvenProof",
-                "UpperCavity_CavityModeOvenSabbath"
+                "UpperCavity_CavityModeOvenProof"
             ],
             "OvenLowerCavity": [
                 "LowerCavity_CavityModeOvenCvtFrznPizza",
@@ -7848,8 +7745,7 @@
                 "LowerCavity_CavityModeOvenPCBake",
                 "LowerCavity_CavityModeOvenKeepWarm",
                 "LowerCavity_CavityModeOvenRapidProof",
-                "LowerCavity_CavityModeOvenProof",
-                "LowerCavity_CavityModeOvenSabbath"
+                "LowerCavity_CavityModeOvenProof"
             ]
         },
         "ApplianceRulesets": {
