@@ -393,17 +393,17 @@
       "Name": "Internal User Interface Error",
       "Description": "The oven is experiencing a problem and needs to be reset.",
       "StepsToRepair": 
-      [
-        
-      ],
+      [ "Press \"Reset\" on the oven display.",
+      "If the problem persists, call 1-800-JENN-AIR (536-6247) for Service."
+       ],
       "HelpPath": ""
     },
-    "F1,E1": {
+    "F1,E1": { 
       "ErrorCode": "F1E1",
       "Name": "Internal Oven Control Error",
       "Description": "The oven is experiencing a problem and can no longer be used.",
       "StepsToRepair":  [
-        
+        "Please call 1-800-JENN-AIR (536-6247) for Service."
       ],
       "HelpPath": ""
     },
@@ -412,7 +412,8 @@
       "Name": "Keypad Disconnected",
       "Description": "The oven is experiencing a problem and needs to be reset.",
       "StepsToRepair": [
-        
+        "Press \"Reset\" on the oven display.",
+        "If the problem persists, call 1-800-JENN-AIR (536-6247) for Service."
       ],
       "HelpPath": ""
     },
@@ -421,7 +422,8 @@
       "Name": "Stuck / Shorted Key",
       "Description": "The oven is experiencing a problem and needs to be reset.",
       "StepsToRepair": [
-        
+        "Press \"Reset\" on the oven display.",
+        "If the problem persists, call 1-800-JENN-AIR (536-6247) for Service."
       ],
       "HelpPath": ""
     },
@@ -430,7 +432,7 @@
       "Name": "Main Oven Sensor Open or Shorted",
       "Description": "The oven is experiencing a problem and can no longer be used.",
       "StepsToRepair": [
-        
+        "Please call 1-800-JENN-AIR (536-6247) for Service."
       ],
       "HelpPath": ""
     },
@@ -439,7 +441,7 @@
       "Name": "Meat Probe Connector Jack or Meat Probe Shorted",
       "Description": "The oven is experiencing a problem and can no longer be used.",
       "StepsToRepair": [
-        
+        "Please call 1-800-JENN-AIR (536-6247) for Service."
       ],
       "HelpPath": ""
     },
@@ -448,7 +450,7 @@
       "Name": "Door & Latch Switches Do Not Agree",
       "Description": "The oven is experiencing a problem and can no longer be used.",
       "StepsToRepair": [
-        
+        "Please call 1-800-JENN-AIR (536-6247) for Service."
       ],
       "HelpPath": ""
     },
@@ -457,7 +459,7 @@
       "Name": "Door Latch Motor Not Operational",
       "Description": "The oven is experiencing a problem and can no longer be used.",
       "StepsToRepair": [
-        
+        "Please call 1-800-JENN-AIR (536-6247) for Service."
       ],
       "HelpPath": ""
     },
@@ -466,7 +468,8 @@
       "Name": "User Interface Lost Contact",
       "Description": "The oven is experiencing a problem and needs to be reset.",
       "StepsToRepair": [
-        
+        "Press \"Reset\" on the oven display.",
+        "If the problem persists, call 1-800-JENN-AIR (536-6247) for Service."
       ],
       "HelpPath": ""
     },
@@ -475,7 +478,7 @@
       "Name": "Over Temperature When Oven is Heating",
       "Description": "The oven is experiencing a problem and can no longer be used.",
       "StepsToRepair": [
-        
+        "If the problem persists, call 1-800-JENN-AIR (536-6247) for Service."
       ],
       "HelpPath": ""
     },
@@ -484,7 +487,7 @@
       "Name": "User Interface / Control State Status Mismatch",
       "Description": "The oven is experiencing a problem and can no longer be used.",
       "StepsToRepair": [
-        
+        "Please call 1-800-JENN-AIR (536-6247) for Service."
       ],
       "HelpPath": ""
     },
@@ -493,7 +496,8 @@
       "Name": "Oven Control - Lost Communication Contact",
       "Description": "The oven is experiencing a problem and needs to be reset.",
       "StepsToRepair": [
-        
+        "Press \"Reset\" on the oven display.",
+        "If the problem persists, call 1-800-JENN-AIR (536-6247) for Service."
       ],
       "HelpPath": ""
     },
@@ -502,7 +506,8 @@
       "Name": "Oven Control - Lost Communication Contact",
       "Description": "The oven is experiencing a problem and needs to be reset.",
       "StepsToRepair": [
-        
+        "Press \"Reset\" on the oven display.",
+        "If the problem persists, call 1-800-JENN-AIR (536-6247) for Service."
       ],
       "HelpPath": ""
     },
@@ -511,7 +516,7 @@
       "Name": "Product Mis-Wire",
       "Description": "The oven is experiencing a problem and can no longer be used.",
       "StepsToRepair": [
-        
+        "Please call 1-800-JENN-AIR (536-6247) for Service."
       ],
       "HelpPath": ""
     }

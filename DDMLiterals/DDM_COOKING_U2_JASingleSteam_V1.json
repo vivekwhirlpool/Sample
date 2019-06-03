@@ -220,383 +220,361 @@
         "OvenUpperCavity_CycleSetEasySteamFoodEasySteamFoodSeafood.Label": "Seafood"
     },
     "AFCSelfHelpPack": {
-        "F0,E0": {
-            "ErrorCode": "F0E0",
-            "Name": "System Check - No Error",
-            "Description": "Appliance system has been checked and shows no error.",
-            "StepsToRepair": [],
-            "HelpPath": ""
-        },
-        "F1,E0": {
-            "ErrorCode": "F1E0",
-            "Name": "User Interface Board",
-            "Description": "There may be a problem with the oven control, user interface board(s), or associated wiring.",
-            "StepsToRepair": [
-                "Turn the temperature knob to the \"OFF\" position to cancel the error and resume product use. ",
-                "If the problem persists, reset power to the product by following the subsequent steps",
-                "Power unit down by turning off the circuit breaker(s) for one (1) minute. ",
-                "Restart the cycle and monitor the oven for one (1) minute to ensure the error code does not display again. ",
-                "Verify oven operation.",
-                "If the problem persists, call 1-800-JENN-AIR (536-6247) for Service.",
-                ""
-            ],
-            "HelpPath": ""
-        },
-        "F1,E1": {
-            "ErrorCode": "F1E1",
-            "Name": "Control Relay Board",
-            "Description": "There may be a problem with the oven control(s) or the associated wiring.",
-            "StepsToRepair": [
-                "Turn the temperature knob to the \"OFF\" position to cancel the error and resume product use. ",
-                "If the problem persists, reset power to the product by following the subsequent steps",
-                "Power unit down by turning off the circuit breaker(s) for one (1) minute. ",
-                "Restart the cycle and monitor the oven for one (1) minute to ensure the error code does not display again. ",
-                "Verify oven operation.",
-                "If the problem persists, call 1-800-JENN-AIR (536-6247) for Service.",
-                ""
-            ],
-            "HelpPath": ""
-        },
-        "F2,E1": {
-            "ErrorCode": "F2E1",
-            "Name": "Stuck Key",
-            "Description": "There may be a problem with the user interface board(s).",
-            "StepsToRepair": [
-                "Turn the temperature knob to the \"OFF\" position to cancel the error and resume product use. ",
-                "If the problem persists, reset power to the product by following the subsequent steps",
-                "Power unit down by turning off the circuit breaker(s) for one (1) minute. ",
-                "Restart the cycle and monitor the oven for one (1) minute to ensure the error code does not display again. ",
-                "Verify oven operation.",
-                "If the problem persists, call 1-800-JENN-AIR (536-6247) for Service.",
-                ""
-            ],
-            "HelpPath": ""
-        },
-        "F2,E2": {
-            "ErrorCode": "F2E2",
-            "Name": "Oven Knob",
-            "Description": "There may be a problem with the user interface board(s).",
-            "StepsToRepair": [
-                "Turn the temperature knob to the \"OFF\" position to cancel the error and resume product use. ",
-                "If the problem persists, reset power to the product by following the subsequent steps",
-                "Power unit down by turning off the circuit breaker(s) for one (1) minute. ",
-                "Restart the cycle and monitor the oven for one (1) minute to ensure the error code does not display again. ",
-                "Verify oven operation.",
-                "If the problem persists, call 1-800-JENN-AIR (536-6247) for Service.",
-                ""
-            ],
-            "HelpPath": ""
-        },
-        "F3,E0": {
-            "ErrorCode": "F3E0",
-            "Name": "Main Oven Sensor",
-            "Description": "There may be a problem with the main oven temperature sensor, the control, or the associated wiring.",
-            "StepsToRepair": [
-                "Turn the temperature knob to the \"OFF\" position to cancel the error and resume product use. ",
-                "If the problem persists, reset power to the product by following the subsequent steps",
-                "Power unit down by turning off the circuit breaker(s) for one (1) minute. ",
-                "Restart the cycle and monitor the oven for one (1) minute to ensure the error code does not display again. ",
-                "Verify oven operation.",
-                "If the problem persists, call 1-800-JENN-AIR (536-6247) for Service.",
-                ""
-            ],
-            "HelpPath": ""
-        },
-        "F3,E1": {
-            "ErrorCode": "F3E1",
-            "Name": "Left Oven Sensor",
-            "Description": "There may be a problem with the left oven temperature sensor, control, or the associated wiring.",
-            "StepsToRepair": [
-                "Turn the temperature knob to the \"OFF\" position to cancel the error and resume product use. ",
-                "If the problem persists, reset power to the product by following the subsequent steps",
-                "Power unit down by turning off the circuit breaker(s) for one (1) minute. ",
-                "Restart the cycle and monitor the oven for one (1) minute to ensure the error code does not display again. ",
-                "Verify oven operation.",
-                "If the problem persists, call 1-800-JENN-AIR (536-6247) for Service.",
-                ""
-            ],
-            "HelpPath": ""
-        },
-        "F3,E3": {
-            "ErrorCode": "F3E3",
-            "Name": "Meat Probe - for Main Oven Only",
-            "Description": "There may be a problem with the main oven meat probe temperature sensor, the associated user interface board, or the associated wiring.",
-            "StepsToRepair": [
-                "Turn the temperature knob to the \"OFF\" position to cancel the error and resume product use. ",
-                "If the problem persists, reset power to the product by following the subsequent steps",
-                "Power unit down by turning off the circuit breaker(s) for one (1) minute. ",
-                "Restart the cycle and monitor the oven for one (1) minute to ensure the error code does not display again. ",
-                "Verify oven operation.",
-                "If the problem persists, call 1-800-JENN-AIR (536-6247) for Service.",
-                ""
-            ],
-            "HelpPath": ""
-        },
-        "F3,E9": {
-            "ErrorCode": "F3E9",
-            "Name": "Left Oven Meat Probe short-circuit",
-            "Description": "There may be a problem with the left oven meat probe temperature sensor, the associated user interface board, or the associated wiring.",
-            "StepsToRepair": [
-                "Turn the temperature knob to the \"OFF\" position to cancel the error and resume product use. ",
-                "If the problem persists, reset power to the product by following the subsequent steps",
-                "Power unit down by turning off the circuit breaker(s) for one (1) minute. ",
-                "Restart the cycle and monitor the oven for one (1) minute to ensure the error code does not display again. ",
-                "Verify oven operation.",
-                "If the problem persists, call 1-800-JENN-AIR (536-6247) for Service.",
-                ""
-            ],
-            "HelpPath": ""
-        },
-        "F5,E0": {
-            "ErrorCode": "F5E0",
-            "Name": "Main Oven Door Latch Switch",
-            "Description": "There may be a problem with the main oven door latch assembly, the door switch, or the associated wiring.",
-            "StepsToRepair": [
-                "Turn the temperature knob to the \"OFF\" position to cancel the error and resume product use. ",
-                "If the problem persists, reset power to the product by following the subsequent steps",
-                "Power unit down by turning off the circuit breaker(s) for one (1) minute. ",
-                "Restart the cycle and monitor the oven for one (1) minute to ensure the error code does not display again. ",
-                "Verify oven operation.",
-                "If the problem persists, call 1-800-JENN-AIR (536-6247) for Service.",
-                ""
-            ],
-            "HelpPath": ""
-        },
-        "F5,E1": {
-            "ErrorCode": "F5E1",
-            "Name": "Main Oven Door Latch Motor",
-            "Description": "There may be a problem with the main oven door latch assembly or the associated wiring.",
-            "StepsToRepair": [
-                "Turn the temperature knob to the \"OFF\" position to cancel the error and resume product use. ",
-                "If the problem persists, reset power to the product by following the subsequent steps",
-                "Power unit down by turning off the circuit breaker(s) for one (1) minute. ",
-                "Restart the cycle and monitor the oven for one (1) minute to ensure the error code does not display again. ",
-                "Verify oven operation.",
-                "If the problem persists, call 1-800-JENN-AIR (536-6247) for Service.",
-                ""
-            ],
-            "HelpPath": ""
-        },
-        "F5,E3": {
-            "ErrorCode": "F5E3",
-            "Name": "Left Oven Door Latch Switch",
-            "Description": "There may be a problem with the left oven door latch assembly, the door switch, or the associated wiring.",
-            "StepsToRepair": [
-                "Turn the temperature knob to the \"OFF\" position to cancel the error and resume product use. ",
-                "If the problem persists, reset power to the product by following the subsequent steps",
-                "Power unit down by turning off the circuit breaker(s) for one (1) minute. ",
-                "Restart the cycle and monitor the oven for one (1) minute to ensure the error code does not display again. ",
-                "Verify oven operation.",
-                "If the problem persists, call 1-800-JENN-AIR (536-6247) for Service.",
-                ""
-            ],
-            "HelpPath": ""
-        },
-        "F5,E4": {
-            "ErrorCode": "F5E4",
-            "Name": "Left Oven Door Latch Motor",
-            "Description": "There may be a problem with the left oven door latch assembly or the associated wiring.",
-            "StepsToRepair": [
-                "Turn the temperature knob to the \"OFF\" position to cancel the error and resume product use. ",
-                "If the problem persists, reset power to the product by following the subsequent steps",
-                "Power unit down by turning off the circuit breaker(s) for one (1) minute. ",
-                "Restart the cycle and monitor the oven for one (1) minute to ensure the error code does not display again. ",
-                "Verify oven operation.",
-                "If the problem persists, call 1-800-JENN-AIR (536-6247) for Service.",
-                ""
-            ],
-            "HelpPath": ""
-        },
-        "F6,E0": {
-            "ErrorCode": "F6E0",
-            "Name": "User Interface Connection",
-            "Description": "There may be a problem with the oven control(s), the user interface board(s), or the associated wiring.",
-            "StepsToRepair": [
-                "Turn the temperature knob to the ''OFF'' position to cancel the error and resume product use.",
-                "If the problem persists, reset power to the product:",
-                "Power unit down by turning off the circuit breaker(s) for one (1) minute.",
-                "Power unit up by turning on the circuit breaker(s).",
-                "Restart the cycle and monitor the oven for one (1) minute to ensure the error code does not display again.",
-                "Verify oven operation.",
-                "If the problem persists, call 1-800-536-6247 for Service."
-            ],
-            "HelpPath": ""
-        },
-        "F6,E1": {
-            "ErrorCode": "F6E1",
-            "Name": "Main Oven Over Temperature Limit",
-            "Description": "There may be a problem with the main oven temperature sensor, main oven control, or the associated wiring.",
-            "StepsToRepair": [
-                "Turn the temperature knob to the \"OFF\" position to cancel the error and resume product use. ",
-                "If the problem persists, reset power to the product by following the subsequent steps",
-                "Power unit down by turning off the circuit breaker(s) for one (1) minute. ",
-                "Restart the cycle and monitor the oven for one (1) minute to ensure the error code does not display again. ",
-                "Verify oven operation.",
-                "If the problem persists, call 1-800-JENN-AIR (536-6247) for Service.",
-                ""
-            ],
-            "HelpPath": ""
-        },
-        "F6,E3": {
-            "ErrorCode": "F6E3",
-            "Name": "Left Oven Over Temperature Limit",
-            "Description": "There may be a problem with the left oven temperature sensor, left oven control, or the associated wiring.",
-            "StepsToRepair": [
-                "Turn the temperature knob to the \"OFF\" position to cancel the error and resume product use. ",
-                "If the problem persists, reset power to the product by following the subsequent steps",
-                "Power unit down by turning off the circuit breaker(s) for one (1) minute. ",
-                "Restart the cycle and monitor the oven for one (1) minute to ensure the error code does not display again. ",
-                "Verify oven operation.",
-                "If the problem persists, call 1-800-JENN-AIR (536-6247) for Service.",
-                ""
-            ],
-            "HelpPath": ""
-        },
-        "F6,E4": {
-            "ErrorCode": "F6E4",
-            "Name": "Control Status",
-            "Description": "There may be a problem with the main oven control.",
-            "StepsToRepair": [
-                "Turn the temperature knob to the \"OFF\" position to cancel the error and resume product use. ",
-                "If the problem persists, reset power to the product by following the subsequent steps",
-                "Power unit down by turning off the circuit breaker(s) for one (1) minute. ",
-                "Restart the cycle and monitor the oven for one (1) minute to ensure the error code does not display again. ",
-                "Verify oven operation.",
-                "If the problem persists, call 1-800-JENN-AIR (536-6247) for Service.",
-                ""
-            ],
-            "HelpPath": ""
-        },
-        "F6,E6": {
-            "ErrorCode": "F6E6",
-            "Name": "Main Oven Control Connection",
-            "Description": "There may be a problem with the main control or the associated wiring.",
-            "StepsToRepair": [
-                "Turn the temperature knob to the \"OFF\" position to cancel the error and resume product use. ",
-                "If the problem persists, reset power to the product by following the subsequent steps",
-                "Power unit down by turning off the circuit breaker(s) for one (1) minute. ",
-                "Restart the cycle and monitor the oven for one (1) minute to ensure the error code does not display again. ",
-                "Verify oven operation.",
-                "If the problem persists, call 1-800-JENN-AIR (536-6247) for Service.",
-                ""
-            ],
-            "HelpPath": ""
-        },
-        "F6,E9": {
-            "ErrorCode": "F6E9",
-            "Name": "Left Oven Control Connection",
-            "Description": "There may be a problem with the left oven control or the associated wiring.",
-            "StepsToRepair": [
-                "Turn the temperature knob to the \"OFF\" position to cancel the error and resume product use. ",
-                "If the problem persists, reset power to the product by following the subsequent steps",
-                "Power unit down by turning off the circuit breaker(s) for one (1) minute. ",
-                "Restart the cycle and monitor the oven for one (1) minute to ensure the error code does not display again. ",
-                "Verify oven operation.",
-                "If the problem persists, call 1-800-JENN-AIR (536-6247) for Service.",
-                ""
-            ],
-            "HelpPath": ""
-        },
-        "F7,E1": {
-            "ErrorCode": "F7E1",
-            "Name": "Boiler Over Temperature Limit",
-            "Description": "There may be a problem with the boiler temperature sensor, the main oven control, or the associated wiring.",
-            "StepsToRepair": [
-                "Turn the temperature knob to the \"OFF\" position to cancel the error and resume product use. ",
-                "If the problem persists, reset power to the product by following the subsequent steps",
-                "Power unit down by turning off the circuit breaker(s) for one (1) minute. ",
-                "Restart the cycle and monitor the oven for one (1) minute to ensure the error code does not display again. ",
-                "Verify oven operation.",
-                "If the problem persists, call 1-800-JENN-AIR (536-6247) for Service.",
-                ""
-            ],
-            "HelpPath": ""
-        },
-        "F7,E2": {
-            "ErrorCode": "F7E2",
-            "Name": "Boiler Temperature Out of Range",
-            "Description": "There may be a problem with the boiler temperature sensor, the main oven control, or the associated wiring.",
-            "StepsToRepair": [
-                "Turn the temperature knob to the \"OFF\" position to cancel the error and resume product use. ",
-                "If the problem persists, reset power to the product by following the subsequent steps",
-                "Power unit down by turning off the circuit breaker(s) for one (1) minute. ",
-                "Restart the cycle and monitor the oven for one (1) minute to ensure the error code does not display again. ",
-                "Verify oven operation.",
-                "If the problem persists, call 1-800-JENN-AIR (536-6247) for Service.",
-                ""
-            ],
-            "HelpPath": ""
-        },
-        "F8,E0": {
-            "ErrorCode": "F8E0",
-            "Name": "Main Oven Cooling Fan Speed Low",
-            "Description": "There may be a problem with an airflow restriction, the main oven cooling fan, the main oven control, or the associated wiring.",
-            "StepsToRepair": [
-                "Turn the temperature knob to the \"OFF\" position to cancel the error and resume product use. ",
-                "If the problem persists, reset power to the product by following the subsequent steps",
-                "Power unit down by turning off the circuit breaker(s) for one (1) minute. ",
-                "Restart the cycle and monitor the oven for one (1) minute to ensure the error code does not display again. ",
-                "Verify oven operation.",
-                "If the problem persists, call 1-800-JENN-AIR (536-6247) for Service.",
-                ""
-            ],
-            "HelpPath": ""
-        },
-        "F8,E1": {
-            "ErrorCode": "F8E1",
-            "Name": "Left Oven Cooling Fan Speed Low",
-            "Description": "There may be a problem with an airflow restriction, the left oven cooling fan, the left oven control, or the associated wiring.",
-            "StepsToRepair": [
-                "Turn the temperature knob to the ''OFF'' position to cancel the error and resume product use.",
-                "If the problem persists, reset power to the product:",
-                "Power unit down by turning off the circuit breaker(s) for one (1) minute.",
-                "Power unit up by turning on the circuit breaker(s).",
-                "Restart the cycle and monitor the oven for one (1) minute to ensure the error code does not display again.",
-                "Verify oven operation.",
-                "If the problem persists, call 1-800-536-6247 for Service."
-            ],
-            "HelpPath": ""
-        },
-        "F8,E2": {
-            "ErrorCode": "F8E2",
-            "Name": "Main Oven Cooling Fan Speed High",
-            "Description": "There may be a problem with an airflow restriction, the main oven cooling fan, the main oven control, or the associated wiring.",
-            "StepsToRepair": [
-                "Turn the temperature knob to the \"OFF\" position to cancel the error and resume product use. ",
-                "If the problem persists, reset power to the product by following the subsequent steps",
-                "Power unit down by turning off the circuit breaker(s) for one (1) minute. ",
-                "Restart the cycle and monitor the oven for one (1) minute to ensure the error code does not display again. ",
-                "Verify oven operation.",
-                "If the problem persists, call 1-800-JENN-AIR (536-6247) for Service.",
-                ""
-            ],
-            "HelpPath": ""
-        },
-        "F8,E3": {
-            "ErrorCode": "F8E3",
-            "Name": "Left Oven Cooling Fan Speed High",
-            "Description": "There may be a problem with an airflow restriction, the left oven cooling fan, the left oven control, or the associated wiring.",
-            "StepsToRepair": [
-                "Turn the temperature knob to the \"OFF\" position to cancel the error and resume product use. ",
-                "If the problem persists, reset power to the product by following the subsequent steps",
-                "Power unit down by turning off the circuit breaker(s) for one (1) minute. ",
-                "Restart the cycle and monitor the oven for one (1) minute to ensure the error code does not display again. ",
-                "Verify oven operation.",
-                "If the problem persists, call 1-800-JENN-AIR (536-6247) for Service.",
-                ""
-            ],
-            "HelpPath": ""
-        },
-        "F9,E0": {
-            "ErrorCode": "F9E0",
-            "Name": "Power Input",
-            "Description": "The electrical outlet in the home may be miswired.",
-            "StepsToRepair": [
-                "Contact a qualified electrician to verify the electrical supply."
-            ],
-            "HelpPath": ""
-        }
+    "F0,E0": {
+      "ErrorCode": "F0E0",
+      "Name": "System Check - No Error",
+      "Description": "Appliance system has been checked and shows no error.",
+      "StepsToRepair": [
+      ],
+      "HelpPath": ""
     },
+    "F1,E0": {
+      "ErrorCode": "F1E0",
+      "Name": "User Interface Board",
+      "Description": "There may be a problem with the oven control, user interface board(s), or associated wiring.",
+      "StepsToRepair": [
+        "Turn the temperature knob to the \"OFF\" position to cancel the error and resume product use. ",
+        "If the problem persists, reset power to the product by following the subsequent steps",
+        "Power unit down by turning off the circuit breaker(s) for one (1) minute. ",
+        "Restart the cycle and monitor the oven for one (1) minute to ensure the error code does not display again. ",
+        "Verify oven operation.",
+        "If the problem persists, call 1-800-JENN-AIR (536-6247) for Service."
+      ],
+      "HelpPath": ""
+    },
+    "F1,E1": {
+      "ErrorCode": "F1E1",
+      "Name": "Control Relay Board",
+      "Description": "There may be a problem with the oven control(s) or the associated wiring.",
+      "StepsToRepair": [
+        "Turn the temperature knob to the \"OFF\" position to cancel the error and resume product use. ",
+        "If the problem persists, reset power to the product by following the subsequent steps",
+        "Power unit down by turning off the circuit breaker(s) for one (1) minute. ",
+        "Restart the cycle and monitor the oven for one (1) minute to ensure the error code does not display again.",
+        "Verify oven operation.",
+        "If the problem persists, call 1-800-JENN-AIR (536-6247) for Service."
+      ],
+      "HelpPath": ""
+    },
+    "F2,E1": {
+      "ErrorCode": "F2E1",
+      "Name": "Stuck Key",
+      "Description": "There may be a problem with the user interface board(s).",
+      "StepsToRepair": [
+        "Turn the temperature knob to the \"OFF\" position to cancel the error and resume product use. ",
+        "If the problem persists, reset power to the product by following the subsequent steps",
+        "Power unit down by turning off the circuit breaker(s) for one (1) minute. ",
+        "Restart the cycle and monitor the oven for one (1) minute to ensure the error code does not display again. ",
+        "Restart the cycle and monitor the oven for one (1) minute to ensure the error code does not display again.",
+        "Verify oven operation.",
+        "If the problem persists, call 1-800-536-6247 for Service."
+      ],
+      "HelpPath": ""
+    },
+    "F2,E2": {
+      "ErrorCode": "F2E2",
+      "Name": "Oven Knob",
+      "Description": "There may be a problem with the user interface board(s).",
+      "StepsToRepair": [
+        "Turn the temperature knob to the \"OFF\" position to cancel the error and resume product use. ",
+        "If the problem persists, reset power to the product by following the subsequent steps",
+        "Power unit down by turning off the circuit breaker(s) for one (1) minute. ",
+        "Restart the cycle and monitor the oven for one (1) minute to ensure the error code does not display again. ",
+        "Verify oven operation.",
+        "If the problem persists, call 1-800-JENN-AIR (536-6247) for Service."
+      ],
+      "HelpPath": ""
+    },
+    "F3,E0": {
+      "ErrorCode": "F3E0",
+      "Name": "Main Oven Sensor",
+      "Description": "There may be a problem with the main oven temperature sensor, the control, or the associated wiring.",
+      "StepsToRepair": [
+        "Turn the temperature knob to the \"OFF\" position to cancel the error and resume product use. ",
+        "If the problem persists, reset power to the product by following the subsequent steps",
+        "Power unit down by turning off the circuit breaker(s) for one (1) minute. ",
+        "Restart the cycle and monitor the oven for one (1) minute to ensure the error code does not display again. ",
+        "Verify oven operation.",
+        "If the problem persists, call 1-800-JENN-AIR (536-6247) for Service."
+      ],
+      "HelpPath": ""
+    },
+    "F3,E1": {
+      "ErrorCode": "F3E1",
+      "Name": "Left Oven Sensor",
+      "Description": "There may be a problem with the left oven temperature sensor, control, or the associated wiring.",
+      "StepsToRepair": [
+        "Turn the temperature knob to the \"OFF\" position to cancel the error and resume product use. ",
+        "If the problem persists, reset power to the product by following the subsequent steps",
+        "Power unit down by turning off the circuit breaker(s) for one (1) minute. ",
+        "Restart the cycle and monitor the oven for one (1) minute to ensure the error code does not display again. ",
+        "Verify oven operation.",
+        "If the problem persists, call 1-800-JENN-AIR (536-6247) for Service."
+      ],
+      "HelpPath": ""
+    },
+    "F3,E3": {
+      "ErrorCode": "F3E3",
+      "Name": "Meat Probe - for Main Oven Only",
+      "Description": "There may be a problem with the main oven meat probe temperature sensor, the associated user interface board, or the associated wiring.",
+      "StepsToRepair": [
+        "Turn the temperature knob to the \"OFF\" position to cancel the error and resume product use. ",
+        "If the problem persists, reset power to the product by following the subsequent steps",
+        "Power unit down by turning off the circuit breaker(s) for one (1) minute. ",
+        "Restart the cycle and monitor the oven for one (1) minute to ensure the error code does not display again. ",
+        "Verify oven operation.",
+        "If the problem persists, call 1-800-JENN-AIR (536-6247) for Service."
+      ],
+      "HelpPath": ""
+    },
+    "F3,E9": {
+      "ErrorCode": "F3E9",
+      "Name": "Left Oven Meat Probe short-circuit",
+      "Description": "There may be a problem with the left oven meat probe temperature sensor, the associated user interface board, or the associated wiring.",
+      "StepsToRepair": [
+        "Turn the temperature knob to the \"OFF\" position to cancel the error and resume product use. ",
+        "If the problem persists, reset power to the product by following the subsequent steps",
+        "Power unit down by turning off the circuit breaker(s) for one (1) minute. ",
+        "Restart the cycle and monitor the oven for one (1) minute to ensure the error code does not display again. ",
+        "Verify oven operation.",
+        "If the problem persists, call 1-800-JENN-AIR (536-6247) for Service."
+      ],
+      "HelpPath": ""
+    },
+    "F5,E0": {
+      "ErrorCode": "F5E0",
+      "Name": "Main Oven Door Latch Switch",
+      "Description": "There may be a problem with the main oven door latch assembly, the door switch, or the associated wiring.",
+      "StepsToRepair": [
+        "Turn the temperature knob to the \"OFF\" position to cancel the error and resume product use. ",
+        "If the problem persists, reset power to the product by following the subsequent steps",
+        "Power unit down by turning off the circuit breaker(s) for one (1) minute. ",
+        "Restart the cycle and monitor the oven for one (1) minute to ensure the error code does not display again. ",
+        "Verify oven operation.",
+        "If the problem persists, call 1-800-JENN-AIR (536-6247) for Service."
+      ],
+      "HelpPath": ""
+    },
+    "F5,E1": {
+      "ErrorCode": "F5E1",
+      "Name": "Main Oven Door Latch Motor",
+      "Description": "There may be a problem with the main oven door latch assembly or the associated wiring.",
+      "StepsToRepair": [
+        "Turn the temperature knob to the \"OFF\" position to cancel the error and resume product use. ",
+        "If the problem persists, reset power to the product by following the subsequent steps",
+        "Power unit down by turning off the circuit breaker(s) for one (1) minute. ",
+        "Restart the cycle and monitor the oven for one (1) minute to ensure the error code does not display again. ",
+        "Verify oven operation.",
+        "If the problem persists, call 1-800-JENN-AIR (536-6247) for Service."
+      ],
+      "HelpPath": ""
+    },
+    "F5,E3": {
+      "ErrorCode": "F5E3",
+      "Name": "Left Oven Door Latch Switch",
+      "Description": "There may be a problem with the left oven door latch assembly, the door switch, or the associated wiring.",
+      "StepsToRepair": [
+        "Turn the temperature knob to the \"OFF\" position to cancel the error and resume product use. ",
+        "If the problem persists, reset power to the product by following the subsequent steps",
+        "Power unit down by turning off the circuit breaker(s) for one (1) minute. ",
+        "Restart the cycle and monitor the oven for one (1) minute to ensure the error code does not display again. ",
+        "Verify oven operation.",
+        "If the problem persists, call 1-800-JENN-AIR (536-6247) for Service."
+      ],
+      "HelpPath": ""
+    },
+    "F5,E4": {
+      "ErrorCode": "F5E4",
+      "Name": "Left Oven Door Latch Motor",
+      "Description": "There may be a problem with the left oven door latch assembly or the associated wiring.",
+      "StepsToRepair": [
+        "Turn the temperature knob to the \"OFF\" position to cancel the error and resume product use. ",
+        "If the problem persists, reset power to the product by following the subsequent steps",
+        "Power unit down by turning off the circuit breaker(s) for one (1) minute. ",
+        "Restart the cycle and monitor the oven for one (1) minute to ensure the error code does not display again. ",
+        "Verify oven operation.",
+        "If the problem persists, call 1-800-JENN-AIR (536-6247) for Service."
+      ],
+      "HelpPath": ""
+    },
+    "F6,E0": {
+      "ErrorCode": "F6E0",
+      "Name": "User Interface Connection",
+      "Description": "There may be a problem with the oven control(s), the user interface board(s), or the associated wiring.",
+      "StepsToRepair": [
+        "Turn the temperature knob to the \"OFF\" position to cancel the error and resume product use. ",
+        "If the problem persists, reset power to the product by following the subsequent steps",
+        "Power unit down by turning off the circuit breaker(s) for one (1) minute. ",
+        "Restart the cycle and monitor the oven for one (1) minute to ensure the error code does not display again. ",
+        "Verify oven operation.",
+        "If the problem persists, call 1-800-JENN-AIR (536-6247) for Service."
+      ],
+      "HelpPath": ""
+    },
+    "F6,E1": {
+      "ErrorCode": "F6E1",
+      "Name": "Main Oven Over Temperature Limit",
+      "Description": "There may be a problem with the main oven temperature sensor, main oven control, or the associated wiring.",
+      "StepsToRepair": [
+        "Turn the temperature knob to the \"OFF\" position to cancel the error and resume product use. ",
+        "If the problem persists, reset power to the product by following the subsequent steps",
+        "Power unit down by turning off the circuit breaker(s) for one (1) minute. ",
+        "Restart the cycle and monitor the oven for one (1) minute to ensure the error code does not display again. ",
+        "Verify oven operation.",
+        "If the problem persists, call 1-800-JENN-AIR (536-6247) for Service."
+      ],
+      "HelpPath": ""
+    },
+    "F6,E3": {
+      "ErrorCode": "F6E3",
+      "Name": "Left Oven Over Temperature Limit",
+      "Description": "There may be a problem with the left oven temperature sensor, left oven control, or the associated wiring.",
+      "StepsToRepair": [
+        "Turn the temperature knob to the \"OFF\" position to cancel the error and resume product use. ",
+        "If the problem persists, reset power to the product by following the subsequent steps",
+        "Power unit down by turning off the circuit breaker(s) for one (1) minute. ",
+        "Restart the cycle and monitor the oven for one (1) minute to ensure the error code does not display again. ",
+        "Verify oven operation.",
+        "If the problem persists, call 1-800-JENN-AIR (536-6247) for Service."
+      ],
+      "HelpPath": ""
+    },
+    "F6,E4": {
+      "ErrorCode": "F6E4",
+      "Name": "Control Status",
+      "Description": "There may be a problem with the main oven control.",
+      "StepsToRepair": [
+        "Turn the temperature knob to the \"OFF\" position to cancel the error and resume product use. ",
+        "If the problem persists, reset power to the product by following the subsequent steps",
+        "Power unit down by turning off the circuit breaker(s) for one (1) minute. ",
+        "Restart the cycle and monitor the oven for one (1) minute to ensure the error code does not display again. ",
+        "Verify oven operation.",
+        "If the problem persists, call 1-800-JENN-AIR (536-6247) for Service."
+      ],
+      "HelpPath": ""
+    },
+    "F6,E6": {
+      "ErrorCode": "F6E6",
+      "Name": "Main Oven Control Connection",
+      "Description": "There may be a problem with the main control or the associated wiring.",
+      "StepsToRepair": [
+        "Turn the temperature knob to the \"OFF\" position to cancel the error and resume product use. ",
+        "If the problem persists, reset power to the product by following the subsequent steps",
+        "Power unit down by turning off the circuit breaker(s) for one (1) minute. ",
+        "Restart the cycle and monitor the oven for one (1) minute to ensure the error code does not display again. ",
+        "Verify oven operation.",
+        "If the problem persists, call 1-800-JENN-AIR (536-6247) for Service."
+      ],
+      "HelpPath": ""
+    },
+    "F6,E9": {
+      "ErrorCode": "F6E9",
+      "Name": "Left Oven Control Connection",
+      "Description": "There may be a problem with the left oven control or the associated wiring.",
+      "StepsToRepair": [
+        "Turn the temperature knob to the \"OFF\" position to cancel the error and resume product use. ",
+        "If the problem persists, reset power to the product by following the subsequent steps",
+        "Power unit down by turning off the circuit breaker(s) for one (1) minute. ",
+        "Restart the cycle and monitor the oven for one (1) minute to ensure the error code does not display again. ",
+        "Verify oven operation.",
+        "If the problem persists, call 1-800-JENN-AIR (536-6247) for Service."
+      ],
+      "HelpPath": ""
+    },
+    "F7,E1": {
+      "ErrorCode": "F7E1",
+      "Name": "Boiler Over Temperature Limit",
+      "Description": "There may be a problem with the boiler temperature sensor, the main oven control, or the associated wiring.",
+      "StepsToRepair": [
+        "Turn the temperature knob to the \"OFF\" position to cancel the error and resume product use. ",
+        "If the problem persists, reset power to the product by following the subsequent steps",
+        "Power unit down by turning off the circuit breaker(s) for one (1) minute. ",
+        "Restart the cycle and monitor the oven for one (1) minute to ensure the error code does not display again. ",
+        "Verify oven operation.",
+        "If the problem persists, call 1-800-JENN-AIR (536-6247) for Service."
+      ],
+      "HelpPath": ""
+    },
+    "F7,E2": {
+      "ErrorCode": "F7E2",
+      "Name": "Boiler Temperature Out of Range",
+      "Description": "There may be a problem with the boiler temperature sensor, the main oven control, or the associated wiring.",
+      "StepsToRepair": [
+        "Turn the temperature knob to the \"OFF\" position to cancel the error and resume product use. ",
+        "If the problem persists, reset power to the product by following the subsequent steps",
+        "Power unit down by turning off the circuit breaker(s) for one (1) minute. ",
+        "Restart the cycle and monitor the oven for one (1) minute to ensure the error code does not display again. ",
+        "Verify oven operation.",
+        "If the problem persists, call 1-800-JENN-AIR (536-6247) for Service."
+      ],
+      "HelpPath": ""
+    },
+    "F8,E0": {
+      "ErrorCode": "F8E0",
+      "Name": "Main Oven Cooling Fan Speed Low",
+      "Description": "There may be a problem with an airflow restriction, the main oven cooling fan, the main oven control, or the associated wiring.",
+      "StepsToRepair": [
+        "Turn the temperature knob to the \"OFF\" position to cancel the error and resume product use. ",
+        "If the problem persists, reset power to the product by following the subsequent steps",
+        "Power unit down by turning off the circuit breaker(s) for one (1) minute. ",
+        "Restart the cycle and monitor the oven for one (1) minute to ensure the error code does not display again. ",
+        "Verify oven operation.",
+        "If the problem persists, call 1-800-JENN-AIR (536-6247) for Service."
+      ],
+      "HelpPath": ""
+    },
+    "F8,E1": {
+      "ErrorCode": "F8E1",
+      "Name": "Left Oven Cooling Fan Speed Low",
+      "Description": "There may be a problem with an airflow restriction, the left oven cooling fan, the left oven control, or the associated wiring.",
+      "StepsToRepair": [
+        "Turn the temperature knob to the \"OFF\" position to cancel the error and resume product use. ",
+        "If the problem persists, reset power to the product by following the subsequent steps",
+        "Power unit down by turning off the circuit breaker(s) for one (1) minute. ",
+        "Restart the cycle and monitor the oven for one (1) minute to ensure the error code does not display again. ",
+        "Verify oven operation.",
+        "If the problem persists, call 1-800-JENN-AIR (536-6247) for Service."
+      ],
+      "HelpPath": ""
+    },
+    "F8,E2": {
+      "ErrorCode": "F8E2",
+      "Name": "Main Oven Cooling Fan Speed High",
+      "Description": "There may be a problem with an airflow restriction, the main oven cooling fan, the main oven control, or the associated wiring.",
+      "StepsToRepair": [
+        "Turn the temperature knob to the \"OFF\" position to cancel the error and resume product use. ",
+        "If the problem persists, reset power to the product by following the subsequent steps",
+        "Power unit down by turning off the circuit breaker(s) for one (1) minute. ",
+        "Restart the cycle and monitor the oven for one (1) minute to ensure the error code does not display again. ",
+        "Verify oven operation.",
+        "If the problem persists, call 1-800-JENN-AIR (536-6247) for Service."
+      ],
+      "HelpPath": ""
+    },
+    "F8,E3": {
+      "ErrorCode": "F8E3",
+      "Name": "Left Oven Cooling Fan Speed High",
+      "Description": "There may be a problem with an airflow restriction, the left oven cooling fan, the left oven control, or the associated wiring.",
+      "StepsToRepair": [
+        "Turn the temperature knob to the \"OFF\" position to cancel the error and resume product use. ",
+        "If the problem persists, reset power to the product by following the subsequent steps",
+        "Power unit down by turning off the circuit breaker(s) for one (1) minute. ",
+        "Restart the cycle and monitor the oven for one (1) minute to ensure the error code does not display again. ",
+        "Verify oven operation.",
+        "If the problem persists, call 1-800-JENN-AIR (536-6247) for Service."
+      ],
+      "HelpPath": ""
+    },
+    "F9,E0": {
+      "ErrorCode": "F9E0",
+      "Name": "Power Input",
+      "Description": "The electrical outlet in the home may be miswired.",
+      "StepsToRepair": [
+        "Contact a qualified electrician to verify the electrical supply."
+      ],
+      "HelpPath": ""
+    }
+  },
     "MobileLiterals": {
         "Manuals": {
             "UseCareGuide": {

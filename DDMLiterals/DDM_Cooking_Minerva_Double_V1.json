@@ -569,126 +569,168 @@
             "ErrorCode": "F1E0",
             "Name": "Internal User Interface Error",
             "Description": "The oven is experiencing a problem and needs to be reset.",
-            "StepsToRepair": [],
+            "StepsToRepair": [
+            "Press \"Reset\" on the oven display.",
+            "If the problem persists, call 1-800-JENN-AIR (536-6247) for Service."
+            ],
             "HelpPath": ""
         },
         "F1,E1": {
             "ErrorCode": "F1E1",
             "Name": "Internal Oven Control Error",
             "Description": "The oven is experiencing a problem and can no longer be used.",
-            "StepsToRepair": [],
+            "StepsToRepair": [
+            "Please call 1-800-JENN-AIR (536-6247) for Service."
+            ],
             "HelpPath": ""
         },
         "F2,E0": {
             "ErrorCode": "F2E0",
             "Name": "Keypad Disconnected",
             "Description": "The oven is experiencing a problem and needs to be reset.",
-            "StepsToRepair": [],
+            "StepsToRepair": [
+            "Press \"Reset\" on the oven display.",
+            "If the problem persists, call 1-800-JENN-AIR (536-6247) for Service."
+            ],
             "HelpPath": ""
         },
         "F2,E1": {
             "ErrorCode": "F2E1",
             "Name": "Stuck / Shorted Key",
             "Description": "The oven is experiencing a problem and needs to be reset.",
-            "StepsToRepair": [],
+            "StepsToRepair": [
+            "Press \"Reset\" on the oven display.",
+            "If the problem persists, call 1-800-JENN-AIR (536-6247) for Service."
+            ],
             "HelpPath": ""
         },
         "F3,E0": {
             "ErrorCode": "F3E0",
             "Name": "Main Oven Sensor Open or Shorted",
             "Description": "The upper oven is experiencing a problem and can no longer be used. ",
-            "StepsToRepair": [],
+            "StepsToRepair": [
+            "Please call 1-800-JENN-AIR (536-6247) for Service."
+            ],
             "HelpPath": ""
         },
         "F3,E1": {
             "ErrorCode": "F3E1",
             "Name": "Bottom Oven Sensor Open or Shorted",
             "Description": "The lower oven is experiencing a problem and can no longer be used. ",
-            "StepsToRepair": [],
+            "StepsToRepair": [
+            "Please call 1-800-JENN-AIR (536-6247) for Service."
+            ],
             "HelpPath": ""
         },
         "F3,E3": {
             "ErrorCode": "F3E3",
             "Name": "Meat Probe Connector Jack or Meat Probe Shorted",
             "Description": "The meat probe feature is experiencing a problem and can no longer be used. Other features will work normally. ",
-            "StepsToRepair": [],
+            "StepsToRepair": [
+            "Please call 1-800-JENN-AIR (536-6247) for Service."
+            ],
             "HelpPath": ""
         },
         "F5,E0": {
             "ErrorCode": "F5E0",
             "Name": "Door & Latch Switches Do Not Agree",
             "Description": "The upper oven is experiencing a problem and can no longer be used. ",
-            "StepsToRepair": [],
+            "StepsToRepair": [
+            "Please call 1-800-JENN-AIR (536-6247) for Service."
+            ],
             "HelpPath": ""
         },
         "F5,E1": {
             "ErrorCode": "F5E1",
             "Name": "Door Latch Motor Not Operational",
             "Description": "The upper oven is experiencing a problem and can no longer be used. ",
-            "StepsToRepair": [],
+            "StepsToRepair": [
+            "Please call 1-800-JENN-AIR (536-6247) for Service."
+            ],
             "HelpPath": ""
         },
         "F5,E3": {
             "ErrorCode": "F5E3",
             "Name": "Door & Latch Motor Not Operational (Lower Oven)",
             "Description": "The lower oven is experiencing a problem and can no longer be used. ",
-            "StepsToRepair": [],
+            "StepsToRepair": [
+            "Please call 1-800-JENN-AIR (536-6247) for Service."
+            ],
             "HelpPath": ""
         },
         "F5,E4": {
             "ErrorCode": "F5E4",
             "Name": "Door & Latch Motor Not Operational (Lower Oven)",
-            "Description": "The lower oven is experiencing a problem and can no longer be used. ",
-            "StepsToRepair": [],
+            "Description": "The lower oven is experiencing a problem and can no longer be used.",
+            "StepsToRepair": [
+            "Please call 1-800-JENN-AIR (536-6247) for Service."
+            ],
             "HelpPath": ""
         },
         "F6,E0": {
             "ErrorCode": "F6E0",
             "Name": "User Interface Lost Contact",
             "Description": "The oven is experiencing a problem and needs to be reset.",
-            "StepsToRepair": [],
+            "StepsToRepair": [
+            "Press \"Reset\" on the oven display.",
+            "If the problem persists, call 1-800-JENN-AIR (536-6247) for Service."
+            ],
             "HelpPath": ""
         },
         "F6,E1": {
             "ErrorCode": "F6E1",
             "Name": "Over Temperature When Oven is Heating",
             "Description": "The upper oven is experiencing a problem and can no longer be used. ",
-            "StepsToRepair": [],
+            "StepsToRepair": [
+            "Please call 1-800-JENN-AIR (536-6247) for Service."
+            ],
             "HelpPath": ""
         },
         "F6,E3": {
             "ErrorCode": "F6E3",
             "Name": "Over Temperature When Oven is Heating (Lower Oven)",
             "Description": "The lower oven is experiencing a problem and can no longer be used.",
-            "StepsToRepair": [],
+            "StepsToRepair": [
+            "Please call 1-800-JENN-AIR (536-6247) for Service."
+            ],
             "HelpPath": ""
         },
         "F6,E4": {
             "ErrorCode": "F6E4",
             "Name": "User Interface / Control State Status Mismatch",
             "Description": "The oven is experiencing a problem and can no longer be used.",
-            "StepsToRepair": [],
+            "StepsToRepair": [
+            "Please call 1-800-JENN-AIR (536-6247) for Service."
+            ],
             "HelpPath": ""
         },
         "F6,E6": {
             "ErrorCode": "F6E6",
             "Name": "Oven Control - Lost Communication Contact",
             "Description": "The oven is experiencing a problem and needs to be reset.",
-            "StepsToRepair": [],
+            "StepsToRepair": [
+            "Press \"Reset\" on the oven display.",
+            "If the problem persists, call 1-800-JENN-AIR (536-6247) for Service."
+            ],
             "HelpPath": ""
         },
         "F6,E9": {
             "ErrorCode": "F6E9",
             "Name": "Oven Control - Lost Communication Contact",
             "Description": "The oven is experiencing a problem and needs to be reset.",
-            "StepsToRepair": [],
+            "StepsToRepair": [
+            "Press \"Reset\" on the oven display.",
+            "If the problem persists, call 1-800-JENN-AIR (536-6247) for Service."
+            ],
             "HelpPath": ""
         },
         "F9,E0": {
             "ErrorCode": "F9E0",
             "Name": "Product Mis-Wire",
             "Description": "The oven is experiencing a problem and can no longer be used.",
-            "StepsToRepair": [],
+            "StepsToRepair": [
+            "Please call 1-800-JENN-AIR (536-6247) for Service."
+            ],
             "HelpPath": ""
         }
     },
