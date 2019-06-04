@@ -1,7 +1,7 @@
 {
   "_id": "DDM_LAUNDRY_JANUS_WASHER_INDIGO_WHIRLPOOL_DVT_V1",
   "_rev": "36-ba52b0280a8c32cedcbd9e6d6b50eb9e",
-  "ddm": {
+  "DDM": {
     "_id": "DDM_LAUNDRY_JANUS_WASHER_INDIGO_WHIRLPOOL_DVT_V1",
     "ddmName": "DDM_LAUNDRY_JANUS_WASHER_INDIGO_WHIRLPOOL_DVT_V1",
     "modelNo": "WFW9620HW0,WFW9620HC0,WFW9620HBK0,test, WFW9620H",
@@ -13,7 +13,8 @@
     "ccuriVersion": "19",
     "ccURI": "API144_LAUNDRY_V19"
   },
-  "dataModel": {
+  "DataModel": {
+    "Key": "DDM_LAUNDRY_JANUS_WASHER_INDIGO_WHIRLPOOL_DVT_V1",
     "attributes": [
       {
         "IsTemplate": false,
@@ -1621,8 +1622,9 @@
     ],
     "id": "DDM_LAUNDRY_JANUS_WASHER_INDIGO_WHIRLPOOL_DVT_V1"
   },
-  "personality": {
-    "capability": [
+  "Personality": {
+    "Key": "DDM_LAUNDRY_JANUS_WASHER_INDIGO_WHIRLPOOL_DVT_V1",
+    "Capability": [
       {
         "UtilityCycleSelection": [
           "WashCycleDrainSpin",
@@ -4354,7 +4356,7 @@
         ]
       }
     ],
-    "ruleSet": [
+    "Rulesets": [
       {
         "History_Ignore_Attributes": {
           "Sys_AlertStatusCustomerFaultCode": [
@@ -4648,7 +4650,7 @@
     "rev": null,
     "id": "DDM_LAUNDRY_JANUS_WASHER_INDIGO_WHIRLPOOL_DVT_V1"
   },
-  "alerts": {
+  "Alerts": {
     "_id": "DDM_LAUNDRY_JANUS_WASHER_INDIGO_WHIRLPOOL_DVT_V1",
     "alerts": [
       {
@@ -4755,7 +4757,7 @@
       }
     ]
   },
-  "thirdParty": {
+  "Services": {
     "_id": "DDM_LAUNDRY_JANUS_WASHER_INDIGO_WHIRLPOOL_DVT_V1",
     "thirdPartyServices": [
       {
