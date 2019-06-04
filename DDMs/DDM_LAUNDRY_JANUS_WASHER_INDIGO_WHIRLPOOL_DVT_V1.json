@@ -15,6 +15,9 @@
   },
   "DataModel": {
     "Key": "DDM_LAUNDRY_JANUS_WASHER_INDIGO_WHIRLPOOL_DVT_V1",
+    "CavityOrder": [
+      "My Cavity"
+    ],
     "attributes": [
       {
         "IsTemplate": false,
