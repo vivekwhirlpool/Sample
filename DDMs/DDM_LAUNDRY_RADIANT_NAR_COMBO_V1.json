@@ -1759,6 +1759,9 @@
   },
   "Personality": {
     "Key": "DDM_LAUNDRY_RADIANT_NAR_COMBO_V1",
+    "CavityOrder": [
+      "My Cavity"
+    ],
     "Capability": [
       {
         "UtilityCycleSelection": [
