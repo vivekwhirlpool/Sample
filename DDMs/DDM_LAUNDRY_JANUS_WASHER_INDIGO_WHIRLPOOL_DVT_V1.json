@@ -1627,9 +1627,6 @@
 		"WashCavity": {
 			"CapabilityData": [
 				{
-					"WashCavity_CycleSetCycleSelectWashCycleNone": {}
-				},
-				{
 					"WashCavity_CycleSetCycleSelectWashCycleNormal": {
 						"WashCavity_CycleSetTemperature": {
 							"Default": "WashTempWarm",
