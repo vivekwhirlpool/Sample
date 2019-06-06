@@ -3902,8 +3902,12 @@
 						}
 					}
 				}
+			},
+			"SystemCavity": {
+				"CapabilityData": {},
+				"SetCycle": {}
 			}
-		},
+	},
 		"AttributesMapping": {
 			"WashCavity": {
 				"DoorOpen": "Cavity_OpStatusDoorOpen"
