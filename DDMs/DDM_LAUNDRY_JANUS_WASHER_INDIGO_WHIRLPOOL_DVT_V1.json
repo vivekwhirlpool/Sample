@@ -1169,6 +1169,7 @@
 				"AttributeName": "SpinSpeed",
 				"DeviceIO": "RW",
 				"MappedAttributeName": "WashCavity_CycleSetSpinSpeed",
+				"Default": "0",
 				"EnumValues": {
 					"0": "SpinSpeedOff",
 					"2": "SpinSpeedLow",
@@ -1176,7 +1177,6 @@
 					"4": "SpinSpeedHigh",
 					"5": "SpinSpeedExtraHigh"
 				},
-				"Default": "0",
 				"Key": "0x05050015"
 			},
 			{
@@ -1188,6 +1188,7 @@
 				"AttributeName": "Temperature",
 				"DeviceIO": "RW",
 				"MappedAttributeName": "WashCavity_CycleSetTemperature",
+				"Default": "0",
 				"EnumValues": {
 					"0": "WashTempCold",
 					"1": "WashTempCool",
@@ -1195,7 +1196,6 @@
 					"3": "WashTempHot",
 					"4": "WashTempExtraHot"
 				},
-				"Default": "0",
 				"Key": "0x05050018"
 			},
 			{
@@ -1622,6 +1622,10 @@
 	},
 	"Personality": {
 		"Key": "DDM_LAUNDRY_JANUS_WASHER_INDIGO_WHIRLPOOL_DVT_V1",
+		"CavityOrder": [
+			"WashCavity",
+			"SystemCavity"
+		],
 		"Capability": {
 			"WashCavity": {
 				"CapabilityData": {
@@ -2166,7 +2170,6 @@
 								"Default": "WashTempHot"
 							},
 							"WashCavity_CycleSetSpinSpeed": {
-
 								"Enumeration": [
 									"SpinSpeedOff",
 									"SpinSpeedLow",
@@ -2177,28 +2180,28 @@
 								"Default": "SpinSpeedHigh"
 							},
 							"WashCavity_CycleSetSoilLevel": {
-								"Default": "SoilLevelLight",
 								"Enumeration": [
 									"SoilLevelLight",
 									"SoilLevelNormal",
 									"SoilLevelHeavy"
-								]
+								],
+								"Default": "SoilLevelLight"
 							},
 							"WashCavity_CycleSetPresoakTimed": {
-								"Default": 0,
 								"List": [
 									0,
 									1800,
 									3600,
 									28800
-								]
+								],
+								"Default": 0
 							},
 							"Cavity_CycleSetSteamEnable": {
-								"Default": false,
 								"Bool": [
 									false,
 									true
-								]
+								],
+								"Default": false
 							},
 							"WashCavity_CycleSetExtraRinseSelect": {
 								"Default": 0,
