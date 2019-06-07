@@ -2166,14 +2166,15 @@
 								"Default": "WashTempHot"
 							},
 							"WashCavity_CycleSetSpinSpeed": {
-								"Default": "SpinSpeedHigh",
+
 								"Enumeration": [
 									"SpinSpeedOff",
 									"SpinSpeedLow",
 									"SpinSpeedMedium",
 									"SpinSpeedHigh",
 									"SpinSpeedExtraHigh"
-								]
+								],
+								"Default": "SpinSpeedHigh"
 							},
 							"WashCavity_CycleSetSoilLevel": {
 								"Default": "SoilLevelLight",
