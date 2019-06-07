@@ -15,24 +15,23 @@
 	},
 	"DataModel": {
 		"Key": "DDM_LAUNDRY_JANUS_WASHER_INDIGO_WHIRLPOOL_DVT_V1",
-		"attributes": [
-			{
-				"IsTemplate": false,
-				"M2MAttributeName": "XCat_PersistentInfoVersion",
-				"Instance": "XCat_PersistentInfo",
-				"IsTimeSeries": false,
-				"DataType": "BEIntegerUnsigned16Bit",
-				"AttributeName": "Version",
-				"RangeValues": {
-					"StepSize": 1,
-					"Min": 19,
-					"Max": 19
-				},
-				"DeviceIO": "RO",
-				"MappedAttributeName": "XCat_PersistentInfoVersion",
-				"Default": 19,
-				"Key": "0x01010001"
+		"attributes": [{
+			"IsTemplate": false,
+			"M2MAttributeName": "XCat_PersistentInfoVersion",
+			"Instance": "XCat_PersistentInfo",
+			"IsTimeSeries": false,
+			"DataType": "BEIntegerUnsigned16Bit",
+			"AttributeName": "Version",
+			"RangeValues": {
+				"StepSize": 1,
+				"Min": 19,
+				"Max": 19
 			},
+			"DeviceIO": "RO",
+			"MappedAttributeName": "XCat_PersistentInfoVersion",
+			"Default": 19,
+			"Key": "0x01010001"
+		},
 			{
 				"IsTemplate": false,
 				"M2MAttributeName": "XCat_PersistentInfoSaid",
@@ -1170,7 +1169,6 @@
 				"AttributeName": "SpinSpeed",
 				"DeviceIO": "RW",
 				"MappedAttributeName": "WashCavity_CycleSetSpinSpeed",
-				"Default": "0",
 				"EnumValues": {
 					"0": "SpinSpeedOff",
 					"2": "SpinSpeedLow",
@@ -1178,6 +1176,7 @@
 					"4": "SpinSpeedHigh",
 					"5": "SpinSpeedExtraHigh"
 				},
+				"Default": "0",
 				"Key": "0x05050015"
 			},
 			{
@@ -1189,7 +1188,6 @@
 				"AttributeName": "Temperature",
 				"DeviceIO": "RW",
 				"MappedAttributeName": "WashCavity_CycleSetTemperature",
-				"Default": "0",
 				"EnumValues": {
 					"0": "WashTempCold",
 					"1": "WashTempCool",
@@ -1197,6 +1195,7 @@
 					"3": "WashTempHot",
 					"4": "WashTempExtraHot"
 				},
+				"Default": "0",
 				"Key": "0x05050018"
 			},
 			{
@@ -1632,47 +1631,47 @@
 					"WashCavity_CycleSetCycleSelectWashCycleNormal": {
 						"Required": {
 							"WashCavity_CycleSetTemperature": {
-								"Default": "WashTempWarm",
 								"Enumeration": [
 									"WashTempCold",
 									"WashTempCool",
 									"WashTempWarm",
 									"WashTempHot",
 									"WashTempExtraHot"
-								]
+								],
+								"Default": "WashTempWarm"
 							},
 							"WashCavity_CycleSetSpinSpeed": {
-								"Default": "SpinSpeedExtraHigh",
 								"Enumeration": [
 									"SpinSpeedOff",
 									"SpinSpeedMedium",
 									"SpinSpeedHigh",
 									"SpinSpeedExtraHigh"
-								]
+								],
+								"Default": "SpinSpeedExtraHigh"
 							},
 							"WashCavity_CycleSetSoilLevel": {
-								"Default": "SoilLevelNormal",
 								"Enumeration": [
 									"SoilLevelLight",
 									"SoilLevelNormal",
 									"SoilLevelHeavy"
-								]
+								],
+								"Default": "SoilLevelNormal"
 							},
 							"WashCavity_CycleSetPresoakTimed": {
-								"Default": 0,
 								"List": [
 									0,
 									1800,
 									3600,
 									28800
-								]
+								],
+								"Default": 0
 							},
 							"Cavity_CycleSetSteamEnable": {
-								"Default": false,
 								"Bool": [
 									false,
 									true
-								]
+								],
+								"Default": false
 							},
 							"WashCavity_CycleSetExtraRinseSelect": {
 								"Default": 0,
@@ -1681,60 +1680,58 @@
 								"Step": 1
 							},
 							"WashCavity_CycleSetFresheningSelect": {
-								"Default": "FresheningNone",
 								"Enumeration": [
 									"FresheningNone",
 									"FresheningFanFresh"
-								]
+								],
+								"Default": "FresheningNone"
 							}
-						},
-						"Optional": {},
-						"NonEditable": {}
+						}
 					},
 					"WashCavity_CycleSetCycleSelectWashCycleQuickWash": {
 						"Required": {
 							"WashCavity_CycleSetTemperature": {
-								"Default": "WashTempWarm",
 								"Enumeration": [
 									"WashTempCold",
 									"WashTempCool",
 									"WashTempWarm",
 									"WashTempHot",
 									"WashTempExtraHot"
-								]
+								],
+								"Default": "WashTempWarm"
 							},
 							"WashCavity_CycleSetSpinSpeed": {
-								"Default": "SpinSpeedExtraHigh",
 								"Enumeration": [
 									"SpinSpeedOff",
 									"SpinSpeedMedium",
 									"SpinSpeedHigh",
 									"SpinSpeedExtraHigh"
-								]
+								],
+								"Default": "SpinSpeedExtraHigh"
 							},
 							"WashCavity_CycleSetSoilLevel": {
-								"Default": "SoilLevelLight",
 								"Enumeration": [
 									"SoilLevelLight",
 									"SoilLevelNormal",
 									"SoilLevelHeavy"
-								]
+								],
+								"Default": "SoilLevelLight"
 							},
 							"WashCavity_CycleSetPresoakTimed": {
-								"Default": 0,
 								"List": [
 									0,
 									1800,
 									3600,
 									28800
-								]
+								],
+								"Default": 0
 							},
 							"Cavity_CycleSetSteamEnable": {
-								"Default": false,
 								"Bool": [
 									false,
 									true
-								]
+								],
+								"Default": false
 							},
 							"WashCavity_CycleSetExtraRinseSelect": {
 								"Default": 0,
@@ -1743,60 +1740,60 @@
 								"Step": 1
 							},
 							"WashCavity_CycleSetFresheningSelect": {
-								"Default": "FresheningNone",
 								"Enumeration": [
 									"FresheningNone",
 									"FresheningFanFresh"
-								]
+								],
+								"Default": "FresheningNone"
 							}
-						},
-						"NonEditable": {}
+						}
+
 					},
 					"WashCycleWrinkleControl": {
 						"Required": {
 							"WashCavity_CycleSetTemperature": {
-								"Default": "WashTempCold",
 								"Enumeration": [
 									"WashTempCold",
 									"WashTempCool",
 									"WashTempWarm",
 									"WashTempHot",
 									"WashTempExtraHot"
-								]
+								],
+								"Default": "WashTempCold"
 							},
 							"WashCavity_CycleSetSpinSpeed": {
-								"Default": "SpinSpeedLow",
 								"Enumeration": [
 									"SpinSpeedOff",
 									"SpinSpeedLow",
 									"SpinSpeedMedium",
 									"SpinSpeedHigh",
 									"SpinSpeedExtraHigh"
-								]
+								],
+								"Default": "SpinSpeedLow"
 							},
 							"WashCavity_CycleSetSoilLevel": {
-								"Default": "SoilLevelLight",
 								"Enumeration": [
 									"SoilLevelLight",
 									"SoilLevelNormal",
 									"SoilLevelHeavy"
-								]
+								],
+								"Default": "SoilLevelLight"
 							},
 							"WashCavity_CycleSetPresoakTimed": {
-								"Default": 0,
 								"List": [
 									0,
 									1800,
 									3600,
 									28800
-								]
+								],
+								"Default": 0
 							},
 							"Cavity_CycleSetSteamEnable": {
-								"Default": false,
 								"Bool": [
 									false,
 									true
-								]
+								],
+								"Default": false
 							},
 							"WashCavity_CycleSetExtraRinseSelect": {
 								"Default": 0,
@@ -1805,58 +1802,58 @@
 								"Step": 1
 							},
 							"WashCavity_CycleSetFresheningSelect": {
-								"Default": "FresheningNone",
 								"Enumeration": [
 									"FresheningNone",
 									"FresheningFanFresh"
-								]
+								],
+								"Default": "FresheningNone"
 							}
 						}
 					},
 					"WashCycleHeavyDuty": {
 						"Required": {
 							"WashCavity_CycleSetTemperature": {
-								"Default": "WashTempHot",
 								"Enumeration": [
 									"WashTempCold",
 									"WashTempCool",
 									"WashTempWarm",
 									"WashTempHot",
 									"WashTempExtraHot"
-								]
+								],
+								"Default": "WashTempHot"
 							},
 							"WashCavity_CycleSetSpinSpeed": {
-								"Default": "SpinSpeedExtraHigh",
 								"Enumeration": [
 									"SpinSpeedOff",
 									"SpinSpeedMedium",
 									"SpinSpeedHigh",
 									"SpinSpeedExtraHigh"
-								]
+								],
+								"Default": "SpinSpeedExtraHigh"
 							},
 							"WashCavity_CycleSetSoilLevel": {
-								"Default": "SoilLevelNormal",
 								"Enumeration": [
 									"SoilLevelLight",
 									"SoilLevelNormal",
 									"SoilLevelHeavy"
-								]
+								],
+								"Default": "SoilLevelNormal"
 							},
 							"WashCavity_CycleSetPresoakTimed": {
-								"Default": 0,
 								"List": [
 									0,
 									1800,
 									3600,
 									28800
-								]
+								],
+								"Default": 0
 							},
 							"Cavity_CycleSetSteamEnable": {
-								"Default": false,
 								"Bool": [
 									false,
 									true
-								]
+								],
+								"Default": false
 							},
 							"WashCavity_CycleSetExtraRinseSelect": {
 								"Default": 0,
@@ -1865,51 +1862,51 @@
 								"Step": 1
 							},
 							"WashCavity_CycleSetFresheningSelect": {
-								"Default": "FresheningNone",
 								"Enumeration": [
 									"FresheningNone",
 									"FresheningFanFresh"
-								]
+								],
+								"Default": "FresheningNone"
 							}
 						}
 					},
 					"WashCycleColdWash": {
 						"Required": {
 							"WashCavity_CycleSetTemperature": {
-								"Default": "WashTempCold",
 								"Enumeration": [
 									"WashTempCold",
 									"WashTempCool",
 									"WashTempWarm",
 									"WashTempHot",
 									"WashTempExtraHot"
-								]
+								],
+								"Default": "WashTempCold"
 							},
 							"WashCavity_CycleSetSpinSpeed": {
-								"Default": "SpinSpeedExtraHigh",
 								"Enumeration": [
 									"SpinSpeedOff",
 									"SpinSpeedMedium",
 									"SpinSpeedHigh",
 									"SpinSpeedExtraHigh"
-								]
+								],
+								"Default": "SpinSpeedExtraHigh"
 							},
 							"WashCavity_CycleSetSoilLevel": {
-								"Default": "SoilLevelHeavy",
 								"Enumeration": [
 									"SoilLevelLight",
 									"SoilLevelNormal",
 									"SoilLevelHeavy"
-								]
+								],
+								"Default": "SoilLevelHeavy"
 							},
 							"WashCavity_CycleSetPresoakTimed": {
-								"Default": 0,
 								"List": [
 									0,
 									1800,
 									3600,
 									28800
-								]
+								],
+								"Default": 0
 							},
 							"WashCavity_CycleSetExtraRinseSelect": {
 								"Default": 0,
@@ -1918,45 +1915,45 @@
 								"Step": 1
 							},
 							"WashCavity_CycleSetFresheningSelect": {
-								"Default": "FresheningNone",
 								"Enumeration": [
 									"FresheningNone",
 									"FresheningFanFresh"
-								]
+								],
+								"Default": "FresheningNone"
 							}
 						}
 					},
 					"WashCycleSanitize": {
 						"Required": {
 							"WashCavity_CycleSetTemperature": {
-								"Default": "WashTempExtraHot",
 								"Enumeration": [
 									"WashTempExtraHot"
-								]
+								],
+								"Default": "WashTempExtraHot"
 							},
 							"WashCavity_CycleSetSpinSpeed": {
-								"Default": "SpinSpeedExtraHigh",
 								"Enumeration": [
 									"SpinSpeedOff",
 									"SpinSpeedMedium",
 									"SpinSpeedHigh",
 									"SpinSpeedExtraHigh"
-								]
+								],
+								"Default": "SpinSpeedExtraHigh"
 							},
 							"WashCavity_CycleSetSoilLevel": {
-								"Default": "SoilLevelLight",
 								"Enumeration": [
 									"SoilLevelLight",
 									"SoilLevelNormal",
 									"SoilLevelHeavy"
-								]
+								],
+								"Default": "SoilLevelLight"
 							},
 							"Cavity_CycleSetSteamEnable": {
-								"Default": false,
 								"Bool": [
 									false,
 									true
-								]
+								],
+								"Default": false
 							},
 							"WashCavity_CycleSetExtraRinseSelect": {
 								"Default": 0,
@@ -1965,59 +1962,59 @@
 								"Step": 1
 							},
 							"WashCavity_CycleSetFresheningSelect": {
-								"Default": "FresheningNone",
 								"Enumeration": [
 									"FresheningNone",
 									"FresheningFanFresh"
-								]
+								],
+								"Default": "FresheningNone"
 							}
 						}
 					},
 					"WashCavity_CycleSetCycleSelectWashCycleColorsBrights": {
 						"Required": {
 							"WashCavity_CycleSetTemperature": {
-								"Default": "WashTempWarm",
 								"Enumeration": [
 									"WashTempCold",
 									"WashTempCool",
 									"WashTempWarm",
 									"WashTempHot",
 									"WashTempExtraHot"
-								]
+								],
+								"Default": "WashTempWarm"
 							},
 							"WashCavity_CycleSetSpinSpeed": {
-								"Default": "SpinSpeedHigh",
 								"Enumeration": [
 									"SpinSpeedOff",
 									"SpinSpeedLow",
 									"SpinSpeedMedium",
 									"SpinSpeedHigh",
 									"SpinSpeedExtraHigh"
-								]
+								],
+								"Default": "SpinSpeedHigh"
 							},
 							"WashCavity_CycleSetSoilLevel": {
-								"Default": "SoilLevelLight",
 								"Enumeration": [
 									"SoilLevelLight",
 									"SoilLevelNormal",
 									"SoilLevelHeavy"
-								]
+								],
+								"Default": "SoilLevelLight"
 							},
 							"WashCavity_CycleSetPresoakTimed": {
-								"Default": 0,
 								"List": [
 									0,
 									1800,
 									3600,
 									28800
-								]
+								],
+								"Default": 0
 							},
 							"Cavity_CycleSetSteamEnable": {
-								"Default": false,
 								"Bool": [
 									false,
 									true
-								]
+								],
+								"Default": false
 							},
 							"WashCavity_CycleSetExtraRinseSelect": {
 								"Default": 0,
@@ -2026,59 +2023,59 @@
 								"Step": 1
 							},
 							"WashCavity_CycleSetFresheningSelect": {
-								"Default": "FresheningNone",
 								"Enumeration": [
 									"FresheningNone",
 									"FresheningFanFresh"
-								]
+								],
+								"Default": "FresheningNone"
 							}
 						}
 					},
 					"WashCavity_CycleSetCycleSelectWashCycleWhatToColorsBrightsHowToQuick": {
 						"Required": {
 							"WashCavity_CycleSetTemperature": {
-								"Default": "WashTempWarm",
 								"Enumeration": [
 									"WashTempCold",
 									"WashTempCool",
 									"WashTempWarm",
 									"WashTempHot",
 									"WashTempExtraHot"
-								]
+								],
+								"Default": "WashTempWarm"
 							},
 							"WashCavity_CycleSetSpinSpeed": {
-								"Default": "SpinSpeedHigh",
 								"Enumeration": [
 									"SpinSpeedOff",
 									"SpinSpeedLow",
 									"SpinSpeedMedium",
 									"SpinSpeedHigh",
 									"SpinSpeedExtraHigh"
-								]
+								],
+								"Default": "SpinSpeedHigh"
 							},
 							"WashCavity_CycleSetSoilLevel": {
-								"Default": "SoilLevelLight",
 								"Enumeration": [
 									"SoilLevelLight",
 									"SoilLevelNormal",
 									"SoilLevelHeavy"
-								]
+								],
+								"Default": "SoilLevelLight"
 							},
 							"WashCavity_CycleSetPresoakTimed": {
-								"Default": 0,
 								"List": [
 									0,
 									1800,
 									3600,
 									28800
-								]
+								],
+								"Default": 0
 							},
 							"Cavity_CycleSetSteamEnable": {
-								"Default": false,
 								"Bool": [
 									false,
 									true
-								]
+								],
+								"Default": false
 							},
 							"WashCavity_CycleSetExtraRinseSelect": {
 								"Default": 0,
@@ -2087,59 +2084,59 @@
 								"Step": 1
 							},
 							"WashCavity_CycleSetFresheningSelect": {
-								"Default": "FresheningNone",
 								"Enumeration": [
 									"FresheningNone",
 									"FresheningFanFresh"
-								]
+								],
+								"Default": "FresheningNone"
 							}
 						}
 					},
 					"WashCycleWhatToColorsBrightsHowToWrinkleControl": {
 						"Required": {
 							"WashCavity_CycleSetTemperature": {
-								"Default": "WashTempCold",
 								"Enumeration": [
 									"WashTempCold",
 									"WashTempCool",
 									"WashTempWarm",
 									"WashTempHot",
 									"WashTempExtraHot"
-								]
+								],
+								"Default": "WashTempCold"
 							},
 							"WashCavity_CycleSetSpinSpeed": {
-								"Default": "SpinSpeedLow",
 								"Enumeration": [
 									"SpinSpeedOff",
 									"SpinSpeedLow",
 									"SpinSpeedMedium",
 									"SpinSpeedHigh",
 									"SpinSpeedExtraHigh"
-								]
+								],
+								"Default": "SpinSpeedLow"
 							},
 							"WashCavity_CycleSetSoilLevel": {
-								"Default": "SoilLevelLight",
 								"Enumeration": [
 									"SoilLevelLight",
 									"SoilLevelNormal",
 									"SoilLevelHeavy"
-								]
+								],
+								"Default": "SoilLevelLight"
 							},
 							"WashCavity_CycleSetPresoakTimed": {
-								"Default": 0,
 								"List": [
 									0,
 									1800,
 									3600,
 									28800
-								]
+								],
+								"Default": 0
 							},
 							"Cavity_CycleSetSteamEnable": {
-								"Default": false,
 								"Bool": [
 									false,
 									true
-								]
+								],
+								"Default": false
 							},
 							"WashCavity_CycleSetExtraRinseSelect": {
 								"Default": 0,
@@ -2148,25 +2145,25 @@
 								"Step": 1
 							},
 							"WashCavity_CycleSetFresheningSelect": {
-								"Default": "FresheningNone",
 								"Enumeration": [
 									"FresheningNone",
 									"FresheningFanFresh"
-								]
+								],
+								"Default": "FresheningNone"
 							}
 						}
 					},
 					"WashCycleWhatToColorsBrightsHowToHeavyDuty": {
 						"Required": {
 							"WashCavity_CycleSetTemperature": {
-								"Default": "WashTempHot",
 								"Enumeration": [
 									"WashTempCold",
 									"WashTempCool",
 									"WashTempWarm",
 									"WashTempHot",
 									"WashTempExtraHot"
-								]
+								],
+								"Default": "WashTempHot"
 							},
 							"WashCavity_CycleSetSpinSpeed": {
 								"Default": "SpinSpeedHigh",
@@ -2209,52 +2206,52 @@
 								"Step": 1
 							},
 							"WashCavity_CycleSetFresheningSelect": {
-								"Default": "FresheningNone",
 								"Enumeration": [
 									"FresheningNone",
 									"FresheningFanFresh"
-								]
+								],
+								"Default": "FresheningNone"
 							}
 						}
 					},
 					"WashCycleWhatToColorsBrightsHowToColdWash": {
 						"Required": {
 							"WashCavity_CycleSetTemperature": {
-								"Default": "WashTempCold",
 								"Enumeration": [
 									"WashTempCold",
 									"WashTempCool",
 									"WashTempWarm",
 									"WashTempHot",
 									"WashTempExtraHot"
-								]
+								],
+								"Default": "WashTempCold"
 							},
 							"WashCavity_CycleSetSpinSpeed": {
-								"Default": "SpinSpeedHigh",
 								"Enumeration": [
 									"SpinSpeedOff",
 									"SpinSpeedLow",
 									"SpinSpeedMedium",
 									"SpinSpeedHigh",
 									"SpinSpeedExtraHigh"
-								]
+								],
+								"Default": "SpinSpeedHigh"
 							},
 							"WashCavity_CycleSetSoilLevel": {
-								"Default": "SoilLevelLight",
 								"Enumeration": [
 									"SoilLevelLight",
 									"SoilLevelNormal",
 									"SoilLevelHeavy"
-								]
+								],
+								"Default": "SoilLevelLight"
 							},
 							"WashCavity_CycleSetPresoakTimed": {
-								"Default": 0,
 								"List": [
 									0,
 									1800,
 									3600,
 									28800
-								]
+								],
+								"Default": 0
 							},
 							"WashCavity_CycleSetExtraRinseSelect": {
 								"Default": 0,
@@ -2263,46 +2260,46 @@
 								"Step": 1
 							},
 							"WashCavity_CycleSetFresheningSelect": {
-								"Default": "FresheningNone",
 								"Enumeration": [
 									"FresheningNone",
 									"FresheningFanFresh"
-								]
+								],
+								"Default": "FresheningNone"
 							}
 						}
 					},
 					"WashCycleWhatToColorsBrightsHowToSanitize": {
 						"Required": {
 							"WashCavity_CycleSetTemperature": {
-								"Default": "WashTempExtraHot",
 								"Enumeration": [
 									"WashTempExtraHot"
-								]
+								],
+								"Default": "WashTempExtraHot"
 							},
 							"WashCavity_CycleSetSpinSpeed": {
-								"Default": "SpinSpeedExtraHigh",
 								"Enumeration": [
 									"SpinSpeedOff",
 									"SpinSpeedLow",
 									"SpinSpeedMedium",
 									"SpinSpeedHigh",
 									"SpinSpeedExtraHigh"
-								]
+								],
+								"Default": "SpinSpeedExtraHigh"
 							},
 							"WashCavity_CycleSetSoilLevel": {
-								"Default": "SoilLevelLight",
 								"Enumeration": [
 									"SoilLevelLight",
 									"SoilLevelNormal",
 									"SoilLevelHeavy"
-								]
+								],
+								"Default": "SoilLevelLight"
 							},
 							"Cavity_CycleSetSteamEnable": {
-								"Default": false,
 								"Bool": [
 									false,
 									true
-								]
+								],
+								"Default": false
 							},
 							"WashCavity_CycleSetExtraRinseSelect": {
 								"Default": 0,
@@ -2311,59 +2308,59 @@
 								"Step": 1
 							},
 							"WashCavity_CycleSetFresheningSelect": {
-								"Default": "FresheningNone",
 								"Enumeration": [
 									"FresheningNone",
 									"FresheningFanFresh"
-								]
+								],
+								"Default": "FresheningNone"
 							}
 						}
 					},
 					"WashCycleWhites": {
 						"Required": {
 							"WashCavity_CycleSetTemperature": {
-								"Default": "WashTempWarm",
 								"Enumeration": [
 									"WashTempCold",
 									"WashTempCool",
 									"WashTempWarm",
 									"WashTempHot",
 									"WashTempExtraHot"
-								]
+								],
+								"Default": "WashTempWarm"
 							},
 							"WashCavity_CycleSetSpinSpeed": {
-								"Default": "SpinSpeedHigh",
 								"Enumeration": [
 									"SpinSpeedOff",
 									"SpinSpeedLow",
 									"SpinSpeedMedium",
 									"SpinSpeedHigh",
 									"SpinSpeedExtraHigh"
-								]
+								],
+								"Default": "SpinSpeedHigh"
 							},
 							"WashCavity_CycleSetSoilLevel": {
-								"Default": "SoilLevelHeavy",
 								"Enumeration": [
 									"SoilLevelLight",
 									"SoilLevelNormal",
 									"SoilLevelHeavy"
-								]
+								],
+								"Default": "SoilLevelHeavy"
 							},
 							"WashCavity_CycleSetPresoakTimed": {
-								"Default": 0,
 								"List": [
 									0,
 									1800,
 									3600,
 									28800
-								]
+								],
+								"Default": 0
 							},
 							"Cavity_CycleSetSteamEnable": {
-								"Default": false,
 								"Bool": [
 									false,
 									true
-								]
+								],
+								"Default": false
 							},
 							"WashCavity_CycleSetExtraRinseSelect": {
 								"Default": 0,
@@ -2372,59 +2369,59 @@
 								"Step": 1
 							},
 							"WashCavity_CycleSetFresheningSelect": {
-								"Default": "FresheningNone",
 								"Enumeration": [
 									"FresheningNone",
 									"FresheningFanFresh"
-								]
+								],
+								"Default": "FresheningNone"
 							}
 						}
 					},
 					"WashCycleWhatToWhitesHowToQuick": {
 						"Required": {
 							"WashCavity_CycleSetTemperature": {
-								"Default": "WashTempWarm",
 								"Enumeration": [
 									"WashTempCold",
 									"WashTempCool",
 									"WashTempWarm",
 									"WashTempHot",
 									"WashTempExtraHot"
-								]
+								],
+								"Default": "WashTempWarm"
 							},
 							"WashCavity_CycleSetSpinSpeed": {
-								"Default": "SpinSpeedHigh",
 								"Enumeration": [
 									"SpinSpeedOff",
 									"SpinSpeedLow",
 									"SpinSpeedMedium",
 									"SpinSpeedHigh",
 									"SpinSpeedExtraHigh"
-								]
+								],
+								"Default": "SpinSpeedHigh"
 							},
 							"WashCavity_CycleSetSoilLevel": {
-								"Default": "SoilLevelLight",
 								"Enumeration": [
 									"SoilLevelLight",
 									"SoilLevelNormal",
 									"SoilLevelHeavy"
-								]
+								],
+								"Default": "SoilLevelLight"
 							},
 							"WashCavity_CycleSetPresoakTimed": {
-								"Default": 0,
 								"List": [
 									0,
 									1800,
 									3600,
 									28800
-								]
+								],
+								"Default": 0
 							},
 							"Cavity_CycleSetSteamEnable": {
-								"Default": false,
 								"Bool": [
 									false,
 									true
-								]
+								],
+								"Default": false
 							},
 							"WashCavity_CycleSetExtraRinseSelect": {
 								"Default": 0,
@@ -2433,59 +2430,59 @@
 								"Step": 1
 							},
 							"WashCavity_CycleSetFresheningSelect": {
-								"Default": "FresheningNone",
 								"Enumeration": [
 									"FresheningNone",
 									"FresheningFanFresh"
-								]
+								],
+								"Default": "FresheningNone"
 							}
 						}
 					},
 					"WashCycleWhatToWhitesHowToWrinkleControl": {
 						"Required": {
 							"WashCavity_CycleSetTemperature": {
-								"Default": "WashTempCold",
 								"Enumeration": [
 									"WashTempCold",
 									"WashTempCool",
 									"WashTempWarm",
 									"WashTempHot",
 									"WashTempExtraHot"
-								]
+								],
+								"Default": "WashTempCold"
 							},
 							"WashCavity_CycleSetSpinSpeed": {
-								"Default": "SpinSpeedLow",
 								"Enumeration": [
 									"SpinSpeedOff",
 									"SpinSpeedLow",
 									"SpinSpeedMedium",
 									"SpinSpeedHigh",
 									"SpinSpeedExtraHigh"
-								]
+								],
+								"Default": "SpinSpeedLow"
 							},
 							"WashCavity_CycleSetSoilLevel": {
-								"Default": "SoilLevelLight",
 								"Enumeration": [
 									"SoilLevelLight",
 									"SoilLevelNormal",
 									"SoilLevelHeavy"
-								]
+								],
+								"Default": "SoilLevelLight"
 							},
 							"WashCavity_CycleSetPresoakTimed": {
-								"Default": 0,
 								"List": [
 									0,
 									1800,
 									3600,
 									28800
-								]
+								],
+								"Default": 0
 							},
 							"Cavity_CycleSetSteamEnable": {
-								"Default": false,
 								"Bool": [
 									false,
 									true
-								]
+								],
+								"Default": false
 							},
 							"WashCavity_CycleSetExtraRinseSelect": {
 								"Default": 0,
@@ -2494,59 +2491,59 @@
 								"Step": 1
 							},
 							"WashCavity_CycleSetFresheningSelect": {
-								"Default": "FresheningNone",
 								"Enumeration": [
 									"FresheningNone",
 									"FresheningFanFresh"
-								]
+								],
+								"Default": "FresheningNone"
 							}
 						}
 					},
 					"WashCycleWhatToWhitesHowToHeavyDuty": {
 						"Required": {
 							"WashCavity_CycleSetTemperature": {
-								"Default": "WashTempHot",
 								"Enumeration": [
 									"WashTempCold",
 									"WashTempCool",
 									"WashTempWarm",
 									"WashTempHot",
 									"WashTempExtraHot"
-								]
+								],
+								"Default": "WashTempHot"
 							},
 							"WashCavity_CycleSetSpinSpeed": {
-								"Default": "SpinSpeedHigh",
 								"Enumeration": [
 									"SpinSpeedOff",
 									"SpinSpeedLow",
 									"SpinSpeedMedium",
 									"SpinSpeedHigh",
 									"SpinSpeedExtraHigh"
-								]
+								],
+								"Default": "SpinSpeedHigh"
 							},
 							"WashCavity_CycleSetSoilLevel": {
-								"Default": "SoilLevelHeavy",
 								"Enumeration": [
 									"SoilLevelLight",
 									"SoilLevelNormal",
 									"SoilLevelHeavy"
-								]
+								],
+								"Default": "SoilLevelHeavy"
 							},
 							"WashCavity_CycleSetPresoakTimed": {
-								"Default": 0,
 								"List": [
 									0,
 									1800,
 									3600,
 									28800
-								]
+								],
+								"Default": 0
 							},
 							"Cavity_CycleSetSteamEnable": {
-								"Default": false,
 								"Bool": [
 									false,
 									true
-								]
+								],
+								"Default": false
 							},
 							"WashCavity_CycleSetExtraRinseSelect": {
 								"Default": 0,
@@ -2555,52 +2552,52 @@
 								"Step": 1
 							},
 							"WashCavity_CycleSetFresheningSelect": {
-								"Default": "FresheningNone",
 								"Enumeration": [
 									"FresheningNone",
 									"FresheningFanFresh"
-								]
+								],
+								"Default": "FresheningNone"
 							}
 						}
 					},
 					"WashCycleWhatToWhitesHowToColdWash": {
 						"Required": {
 							"WashCavity_CycleSetTemperature": {
-								"Default": "WashTempCold",
 								"Enumeration": [
 									"WashTempCold",
 									"WashTempCool",
 									"WashTempWarm",
 									"WashTempHot",
 									"WashTempExtraHot"
-								]
+								],
+								"Default": "WashTempCold"
 							},
 							"WashCavity_CycleSetSpinSpeed": {
-								"Default": "SpinSpeedHigh",
 								"Enumeration": [
 									"SpinSpeedOff",
 									"SpinSpeedLow",
 									"SpinSpeedMedium",
 									"SpinSpeedHigh",
 									"SpinSpeedExtraHigh"
-								]
+								],
+								"Default": "SpinSpeedHigh"
 							},
 							"WashCavity_CycleSetSoilLevel": {
-								"Default": "SoilLevelHeavy",
 								"Enumeration": [
 									"SoilLevelLight",
 									"SoilLevelNormal",
 									"SoilLevelHeavy"
-								]
+								],
+								"Default": "SoilLevelHeavy"
 							},
 							"WashCavity_CycleSetPresoakTimed": {
-								"Default": 0,
 								"List": [
 									0,
 									1800,
 									3600,
 									28800
-								]
+								],
+								"Default": 0
 							},
 							"WashCavity_CycleSetExtraRinseSelect": {
 								"Default": 0,
@@ -2609,46 +2606,46 @@
 								"Step": 1
 							},
 							"WashCavity_CycleSetFresheningSelect": {
-								"Default": "FresheningNone",
 								"Enumeration": [
 									"FresheningNone",
 									"FresheningFanFresh"
-								]
+								],
+								"Default": "FresheningNone"
 							}
 						}
 					},
 					"WashCycleWhatToWhitesHowToSanitize": {
 						"Required": {
 							"WashCavity_CycleSetTemperature": {
-								"Default": "WashTempExtraHot",
 								"Enumeration": [
 									"WashTempExtraHot"
-								]
+								],
+								"Default": "WashTempExtraHot"
 							},
 							"WashCavity_CycleSetSpinSpeed": {
-								"Default": "SpinSpeedExtraHigh",
 								"Enumeration": [
 									"SpinSpeedOff",
 									"SpinSpeedLow",
 									"SpinSpeedMedium",
 									"SpinSpeedHigh",
 									"SpinSpeedExtraHigh"
-								]
+								],
+								"Default": "SpinSpeedExtraHigh"
 							},
 							"WashCavity_CycleSetSoilLevel": {
-								"Default": "SoilLevelLight",
 								"Enumeration": [
 									"SoilLevelLight",
 									"SoilLevelNormal",
 									"SoilLevelHeavy"
-								]
+								],
+								"Default": "SoilLevelLight"
 							},
 							"Cavity_CycleSetSteamEnable": {
-								"Default": false,
 								"Bool": [
 									false,
 									true
-								]
+								],
+								"Default": false
 							},
 							"WashCavity_CycleSetExtraRinseSelect": {
 								"Default": 0,
@@ -2657,59 +2654,59 @@
 								"Step": 1
 							},
 							"WashCavity_CycleSetFresheningSelect": {
-								"Default": "FresheningNone",
 								"Enumeration": [
 									"FresheningNone",
 									"FresheningFanFresh"
-								]
+								],
+								"Default": "FresheningNone"
 							}
 						}
 					},
 					"WashCycleTowels": {
 						"Required": {
 							"WashCavity_CycleSetTemperature": {
-								"Default": "WashTempWarm",
 								"Enumeration": [
 									"WashTempCold",
 									"WashTempCool",
 									"WashTempWarm",
 									"WashTempHot",
 									"WashTempExtraHot"
-								]
+								],
+								"Default": "WashTempWarm"
 							},
 							"WashCavity_CycleSetSpinSpeed": {
-								"Default": "SpinSpeedExtraHigh",
 								"Enumeration": [
 									"SpinSpeedOff",
 									"SpinSpeedLow",
 									"SpinSpeedMedium",
 									"SpinSpeedHigh",
 									"SpinSpeedExtraHigh"
-								]
+								],
+								"Default": "SpinSpeedExtraHigh"
 							},
 							"WashCavity_CycleSetSoilLevel": {
-								"Default": "SoilLevelHeavy",
 								"Enumeration": [
 									"SoilLevelLight",
 									"SoilLevelNormal",
 									"SoilLevelHeavy"
-								]
+								],
+								"Default": "SoilLevelHeavy"
 							},
 							"WashCavity_CycleSetPresoakTimed": {
-								"Default": 0,
 								"List": [
 									0,
 									1800,
 									3600,
 									28800
-								]
+								],
+								"Default": 0
 							},
 							"Cavity_CycleSetSteamEnable": {
-								"Default": false,
 								"Bool": [
 									false,
 									true
-								]
+								],
+								"Default": false
 							},
 							"WashCavity_CycleSetExtraRinseSelect": {
 								"Default": 0,
@@ -2718,59 +2715,59 @@
 								"Step": 1
 							},
 							"WashCavity_CycleSetFresheningSelect": {
-								"Default": "FresheningNone",
 								"Enumeration": [
 									"FresheningNone",
 									"FresheningFanFresh"
-								]
+								],
+								"Default": "FresheningNone"
 							}
 						}
 					},
 					"WashCycleWhatToTowelsHowToQuick": {
 						"Required": {
 							"WashCavity_CycleSetTemperature": {
-								"Default": "WashTempWarm",
 								"Enumeration": [
 									"WashTempCold",
 									"WashTempCool",
 									"WashTempWarm",
 									"WashTempHot",
 									"WashTempExtraHot"
-								]
+								],
+								"Default": "WashTempWarm"
 							},
 							"WashCavity_CycleSetSpinSpeed": {
-								"Default": "SpinSpeedExtraHigh",
 								"Enumeration": [
 									"SpinSpeedOff",
 									"SpinSpeedLow",
 									"SpinSpeedMedium",
 									"SpinSpeedHigh",
 									"SpinSpeedExtraHigh"
-								]
+								],
+								"Default": "SpinSpeedExtraHigh"
 							},
 							"WashCavity_CycleSetSoilLevel": {
-								"Default": "SoilLevelLight",
 								"Enumeration": [
 									"SoilLevelLight",
 									"SoilLevelNormal",
 									"SoilLevelHeavy"
-								]
+								],
+								"Default": "SoilLevelLight"
 							},
 							"WashCavity_CycleSetPresoakTimed": {
-								"Default": 0,
 								"List": [
 									0,
 									1800,
 									3600,
 									28800
-								]
+								],
+								"Default": 0
 							},
 							"Cavity_CycleSetSteamEnable": {
-								"Default": false,
 								"Bool": [
 									false,
 									true
-								]
+								],
+								"Default": false
 							},
 							"WashCavity_CycleSetExtraRinseSelect": {
 								"Default": 0,
@@ -2779,59 +2776,59 @@
 								"Step": 1
 							},
 							"WashCavity_CycleSetFresheningSelect": {
-								"Default": "FresheningNone",
 								"Enumeration": [
 									"FresheningNone",
 									"FresheningFanFresh"
-								]
+								],
+								"Default": "FresheningNone"
 							}
 						}
 					},
 					"WashCycleWhatToTowelsHowToWrinkleControl": {
 						"Required": {
 							"WashCavity_CycleSetTemperature": {
-								"Default": "WashTempCold",
 								"Enumeration": [
 									"WashTempCold",
 									"WashTempCool",
 									"WashTempWarm",
 									"WashTempHot",
 									"WashTempExtraHot"
-								]
+								],
+								"Default": "WashTempCold"
 							},
 							"WashCavity_CycleSetSpinSpeed": {
-								"Default": "SpinSpeedLow",
 								"Enumeration": [
 									"SpinSpeedOff",
 									"SpinSpeedLow",
 									"SpinSpeedMedium",
 									"SpinSpeedHigh",
 									"SpinSpeedExtraHigh"
-								]
+								],
+								"Default": "SpinSpeedLow"
 							},
 							"WashCavity_CycleSetSoilLevel": {
-								"Default": "SoilLevelLight",
 								"Enumeration": [
 									"SoilLevelLight",
 									"SoilLevelNormal",
 									"SoilLevelHeavy"
-								]
+								],
+								"Default": "SoilLevelLight"
 							},
 							"WashCavity_CycleSetPresoakTimed": {
-								"Default": 0,
 								"List": [
 									0,
 									1800,
 									3600,
 									28800
-								]
+								],
+								"Default": 0
 							},
 							"Cavity_CycleSetSteamEnable": {
-								"Default": false,
 								"Bool": [
 									false,
 									true
-								]
+								],
+								"Default": false
 							},
 							"WashCavity_CycleSetExtraRinseSelect": {
 								"Default": 0,
@@ -2840,59 +2837,59 @@
 								"Step": 1
 							},
 							"WashCavity_CycleSetFresheningSelect": {
-								"Default": "FresheningNone",
 								"Enumeration": [
 									"FresheningNone",
 									"FresheningFanFresh"
-								]
+								],
+								"Default": "FresheningNone"
 							}
 						}
 					},
 					"WashCycleWhatToTowelsHowToHeavyDuty": {
 						"Required": {
 							"WashCavity_CycleSetTemperature": {
-								"Default": "WashTempHot",
 								"Enumeration": [
 									"WashTempCold",
 									"WashTempCool",
 									"WashTempWarm",
 									"WashTempHot",
 									"WashTempExtraHot"
-								]
+								],
+								"Default": "WashTempHot"
 							},
 							"WashCavity_CycleSetSpinSpeed": {
-								"Default": "SpinSpeedExtraHigh",
 								"Enumeration": [
 									"SpinSpeedOff",
 									"SpinSpeedLow",
 									"SpinSpeedMedium",
 									"SpinSpeedHigh",
 									"SpinSpeedExtraHigh"
-								]
+								],
+								"Default": "SpinSpeedExtraHigh"
 							},
 							"WashCavity_CycleSetSoilLevel": {
-								"Default": "SoilLevelHeavy",
 								"Enumeration": [
 									"SoilLevelLight",
 									"SoilLevelNormal",
 									"SoilLevelHeavy"
-								]
+								],
+								"Default": "SoilLevelHeavy"
 							},
 							"WashCavity_CycleSetPresoakTimed": {
-								"Default": 0,
 								"List": [
 									0,
 									1800,
 									3600,
 									28800
-								]
+								],
+								"Default": 0
 							},
 							"Cavity_CycleSetSteamEnable": {
-								"Default": false,
 								"Bool": [
 									false,
 									true
-								]
+								],
+								"Default": false
 							},
 							"WashCavity_CycleSetExtraRinseSelect": {
 								"Default": 0,
@@ -2901,52 +2898,52 @@
 								"Step": 1
 							},
 							"WashCavity_CycleSetFresheningSelect": {
-								"Default": "FresheningNone",
 								"Enumeration": [
 									"FresheningNone",
 									"FresheningFanFresh"
-								]
+								],
+								"Default": "FresheningNone"
 							}
 						}
 					},
 					"WashCycleWhatToTowelsHowToColdWash": {
 						"Required": {
 							"WashCavity_CycleSetTemperature": {
-								"Default": "WashTempCold",
 								"Enumeration": [
 									"WashTempCold",
 									"WashTempCool",
 									"WashTempWarm",
 									"WashTempHot",
 									"WashTempExtraHot"
-								]
+								],
+								"Default": "WashTempCold"
 							},
 							"WashCavity_CycleSetSpinSpeed": {
-								"Default": "SpinSpeedExtraHigh",
 								"Enumeration": [
 									"SpinSpeedOff",
 									"SpinSpeedLow",
 									"SpinSpeedMedium",
 									"SpinSpeedHigh",
 									"SpinSpeedExtraHigh"
-								]
+								],
+								"Default": "SpinSpeedExtraHigh"
 							},
 							"WashCavity_CycleSetSoilLevel": {
-								"Default": "SoilLevelHeavy",
 								"Enumeration": [
 									"SoilLevelLight",
 									"SoilLevelNormal",
 									"SoilLevelHeavy"
-								]
+								],
+								"Default": "SoilLevelHeavy"
 							},
 							"WashCavity_CycleSetPresoakTimed": {
-								"Default": 0,
 								"List": [
 									0,
 									1800,
 									3600,
 									28800
-								]
+								],
+								"Default": 0
 							},
 							"WashCavity_CycleSetExtraRinseSelect": {
 								"Default": 0,
@@ -2955,46 +2952,46 @@
 								"Step": 1
 							},
 							"WashCavity_CycleSetFresheningSelect": {
-								"Default": "FresheningNone",
 								"Enumeration": [
 									"FresheningNone",
 									"FresheningFanFresh"
-								]
+								],
+								"Default": "FresheningNone"
 							}
 						}
 					},
 					"WashCycleWhatToTowelsHowToSanitize": {
 						"Required": {
 							"WashCavity_CycleSetTemperature": {
-								"Default": "WashTempExtraHot",
 								"Enumeration": [
 									"WashTempExtraHot"
-								]
+								],
+								"Default": "WashTempExtraHot"
 							},
 							"WashCavity_CycleSetSpinSpeed": {
-								"Default": "SpinSpeedExtraHigh",
 								"Enumeration": [
 									"SpinSpeedOff",
 									"SpinSpeedLow",
 									"SpinSpeedMedium",
 									"SpinSpeedHigh",
 									"SpinSpeedExtraHigh"
-								]
+								],
+								"Default": "SpinSpeedExtraHigh"
 							},
 							"WashCavity_CycleSetSoilLevel": {
-								"Default": "SoilLevelLight",
 								"Enumeration": [
 									"SoilLevelLight",
 									"SoilLevelNormal",
 									"SoilLevelHeavy"
-								]
+								],
+								"Default": "SoilLevelLight"
 							},
 							"Cavity_CycleSetSteamEnable": {
-								"Default": false,
 								"Bool": [
 									false,
 									true
-								]
+								],
+								"Default": false
 							},
 							"WashCavity_CycleSetExtraRinseSelect": {
 								"Default": 0,
@@ -3003,59 +3000,59 @@
 								"Step": 1
 							},
 							"WashCavity_CycleSetFresheningSelect": {
-								"Default": "FresheningNone",
 								"Enumeration": [
 									"FresheningNone",
 									"FresheningFanFresh"
-								]
+								],
+								"Default": "FresheningNone"
 							}
 						}
 					},
 					"WashCycleDelicates": {
 						"Required": {
 							"WashCavity_CycleSetTemperature": {
-								"Default": "WashTempWarm",
 								"Enumeration": [
 									"WashTempCold",
 									"WashTempCool",
 									"WashTempWarm",
 									"WashTempHot",
 									"WashTempExtraHot"
-								]
+								],
+								"Default": "WashTempWarm"
 							},
 							"WashCavity_CycleSetSpinSpeed": {
-								"Default": "SpinSpeedLow",
 								"Enumeration": [
 									"SpinSpeedOff",
 									"SpinSpeedLow",
 									"SpinSpeedMedium",
 									"SpinSpeedHigh",
 									"SpinSpeedExtraHigh"
-								]
+								],
+								"Default": "SpinSpeedLow"
 							},
 							"WashCavity_CycleSetSoilLevel": {
-								"Default": "SoilLevelNormal",
 								"Enumeration": [
 									"SoilLevelLight",
 									"SoilLevelNormal",
 									"SoilLevelHeavy"
-								]
+								],
+								"Default": "SoilLevelNormal"
 							},
 							"WashCavity_CycleSetPresoakTimed": {
-								"Default": 0,
 								"List": [
 									0,
 									1800,
 									3600,
 									28800
-								]
+								],
+								"Default": 0
 							},
 							"Cavity_CycleSetSteamEnable": {
-								"Default": false,
 								"Bool": [
 									false,
 									true
-								]
+								],
+								"Default": false
 							},
 							"WashCavity_CycleSetExtraRinseSelect": {
 								"Default": 0,
@@ -3064,59 +3061,59 @@
 								"Step": 1
 							},
 							"WashCavity_CycleSetFresheningSelect": {
-								"Default": "FresheningNone",
 								"Enumeration": [
 									"FresheningNone",
 									"FresheningFanFresh"
-								]
+								],
+								"Default": "FresheningNone"
 							}
 						}
 					},
 					"WashCycleWhatToDelicatesHowToQuick": {
 						"Required": {
 							"WashCavity_CycleSetTemperature": {
-								"Default": "WashTempWarm",
 								"Enumeration": [
 									"WashTempCold",
 									"WashTempCool",
 									"WashTempWarm",
 									"WashTempHot",
 									"WashTempExtraHot"
-								]
+								],
+								"Default": "WashTempWarm"
 							},
 							"WashCavity_CycleSetSpinSpeed": {
-								"Default": "SpinSpeedLow",
 								"Enumeration": [
 									"SpinSpeedOff",
 									"SpinSpeedLow",
 									"SpinSpeedMedium",
 									"SpinSpeedHigh",
 									"SpinSpeedExtraHigh"
-								]
+								],
+								"Default": "SpinSpeedLow"
 							},
 							"WashCavity_CycleSetSoilLevel": {
-								"Default": "SoilLevelLight",
 								"Enumeration": [
 									"SoilLevelLight",
 									"SoilLevelNormal",
 									"SoilLevelHeavy"
-								]
+								],
+								"Default": "SoilLevelLight"
 							},
 							"WashCavity_CycleSetPresoakTimed": {
-								"Default": 0,
 								"List": [
 									0,
 									1800,
 									3600,
 									28800
-								]
+								],
+								"Default": 0
 							},
 							"Cavity_CycleSetSteamEnable": {
-								"Default": false,
 								"Bool": [
 									false,
 									true
-								]
+								],
+								"Default": false
 							},
 							"WashCavity_CycleSetExtraRinseSelect": {
 								"Default": 0,
@@ -3125,59 +3122,59 @@
 								"Step": 1
 							},
 							"WashCavity_CycleSetFresheningSelect": {
-								"Default": "FresheningNone",
 								"Enumeration": [
 									"FresheningNone",
 									"FresheningFanFresh"
-								]
+								],
+								"Default": "FresheningNone"
 							}
 						}
 					},
 					"WashCycleWhatToDelicatesHowToWrinkleControl": {
 						"Required": {
 							"WashCavity_CycleSetTemperature": {
-								"Default": "WashTempCold",
 								"Enumeration": [
 									"WashTempCold",
 									"WashTempCool",
 									"WashTempWarm",
 									"WashTempHot",
 									"WashTempExtraHot"
-								]
+								],
+								"Default": "WashTempCold"
 							},
 							"WashCavity_CycleSetSpinSpeed": {
-								"Default": "SpinSpeedLow",
 								"Enumeration": [
 									"SpinSpeedOff",
 									"SpinSpeedLow",
 									"SpinSpeedMedium",
 									"SpinSpeedHigh",
 									"SpinSpeedExtraHigh"
-								]
+								],
+								"Default": "SpinSpeedLow"
 							},
 							"WashCavity_CycleSetSoilLevel": {
-								"Default": "SoilLevelLight",
 								"Enumeration": [
 									"SoilLevelLight",
 									"SoilLevelNormal",
 									"SoilLevelHeavy"
-								]
+								],
+								"Default": "SoilLevelLight"
 							},
 							"WashCavity_CycleSetPresoakTimed": {
-								"Default": 0,
 								"List": [
 									0,
 									1800,
 									3600,
 									28800
-								]
+								],
+								"Default": 0
 							},
 							"Cavity_CycleSetSteamEnable": {
-								"Default": false,
 								"Bool": [
 									false,
 									true
-								]
+								],
+								"Default": false
 							},
 							"WashCavity_CycleSetExtraRinseSelect": {
 								"Default": 0,
@@ -3186,59 +3183,59 @@
 								"Step": 1
 							},
 							"WashCavity_CycleSetFresheningSelect": {
-								"Default": "FresheningNone",
 								"Enumeration": [
 									"FresheningNone",
 									"FresheningFanFresh"
-								]
+								],
+								"Default": "FresheningNone"
 							}
 						}
 					},
 					"WashCycleWhatToDelicatesHowToHeavyDuty": {
 						"Required": {
 							"WashCavity_CycleSetTemperature": {
-								"Default": "WashTempHot",
 								"Enumeration": [
 									"WashTempCold",
 									"WashTempCool",
 									"WashTempWarm",
 									"WashTempHot",
 									"WashTempExtraHot"
-								]
+								],
+								"Default": "WashTempHot"
 							},
 							"WashCavity_CycleSetSpinSpeed": {
-								"Default": "SpinSpeedLow",
 								"Enumeration": [
 									"SpinSpeedOff",
 									"SpinSpeedLow",
 									"SpinSpeedMedium",
 									"SpinSpeedHigh",
 									"SpinSpeedExtraHigh"
-								]
+								],
+								"Default": "SpinSpeedLow"
 							},
 							"WashCavity_CycleSetSoilLevel": {
-								"Default": "SoilLevelNormal",
 								"Enumeration": [
 									"SoilLevelLight",
 									"SoilLevelNormal",
 									"SoilLevelHeavy"
-								]
+								],
+								"Default": "SoilLevelNormal"
 							},
 							"WashCavity_CycleSetPresoakTimed": {
-								"Default": 0,
 								"List": [
 									0,
 									1800,
 									3600,
 									28800
-								]
+								],
+								"Default": 0
 							},
 							"Cavity_CycleSetSteamEnable": {
-								"Default": false,
 								"Bool": [
 									false,
 									true
-								]
+								],
+								"Default": false
 							},
 							"WashCavity_CycleSetExtraRinseSelect": {
 								"Default": 0,
@@ -3247,52 +3244,52 @@
 								"Step": 1
 							},
 							"WashCavity_CycleSetFresheningSelect": {
-								"Default": "FresheningNone",
 								"Enumeration": [
 									"FresheningNone",
 									"FresheningFanFresh"
-								]
+								],
+								"Default": "FresheningNone"
 							}
 						}
 					},
 					"WashCycleWhatToDelicatesHowToColdWash": {
 						"Required": {
 							"WashCavity_CycleSetTemperature": {
-								"Default": "WashTempCold",
 								"Enumeration": [
 									"WashTempCold",
 									"WashTempCool",
 									"WashTempWarm",
 									"WashTempHot",
 									"WashTempExtraHot"
-								]
+								],
+								"Default": "WashTempCold"
 							},
 							"WashCavity_CycleSetSpinSpeed": {
-								"Default": "SpinSpeedLow",
 								"Enumeration": [
 									"SpinSpeedOff",
 									"SpinSpeedLow",
 									"SpinSpeedMedium",
 									"SpinSpeedHigh",
 									"SpinSpeedExtraHigh"
-								]
+								],
+								"Default": "SpinSpeedLow"
 							},
 							"WashCavity_CycleSetSoilLevel": {
-								"Default": "SoilLevelNormal",
 								"Enumeration": [
 									"SoilLevelLight",
 									"SoilLevelNormal",
 									"SoilLevelHeavy"
-								]
+								],
+								"Default": "SoilLevelNormal"
 							},
 							"WashCavity_CycleSetPresoakTimed": {
-								"Default": 0,
 								"List": [
 									0,
 									1800,
 									3600,
 									28800
-								]
+								],
+								"Default": 0
 							},
 							"WashCavity_CycleSetExtraRinseSelect": {
 								"Default": 0,
@@ -3301,46 +3298,46 @@
 								"Step": 1
 							},
 							"WashCavity_CycleSetFresheningSelect": {
-								"Default": "FresheningNone",
 								"Enumeration": [
 									"FresheningNone",
 									"FresheningFanFresh"
-								]
+								],
+								"Default": "FresheningNone"
 							}
 						}
 					},
 					"WashCycleWhatToDelicatesHowToSanitize": {
 						"Required": {
 							"WashCavity_CycleSetTemperature": {
-								"Default": "WashTempExtraHot",
 								"Enumeration": [
 									"WashTempExtraHot"
-								]
+								],
+								"Default": "WashTempExtraHot"
 							},
 							"WashCavity_CycleSetSpinSpeed": {
-								"Default": "SpinSpeedExtraHigh",
 								"Enumeration": [
 									"SpinSpeedOff",
 									"SpinSpeedLow",
 									"SpinSpeedMedium",
 									"SpinSpeedHigh",
 									"SpinSpeedExtraHigh"
-								]
+								],
+								"Default": "SpinSpeedExtraHigh"
 							},
 							"WashCavity_CycleSetSoilLevel": {
-								"Default": "SoilLevelLight",
 								"Enumeration": [
 									"SoilLevelLight",
 									"SoilLevelNormal",
 									"SoilLevelHeavy"
-								]
+								],
+								"Default": "SoilLevelLight"
 							},
 							"Cavity_CycleSetSteamEnable": {
-								"Default": false,
 								"Bool": [
 									false,
 									true
-								]
+								],
+								"Default": false
 							},
 							"WashCavity_CycleSetExtraRinseSelect": {
 								"Default": 0,
@@ -3349,59 +3346,59 @@
 								"Step": 1
 							},
 							"WashCavity_CycleSetFresheningSelect": {
-								"Default": "FresheningNone",
 								"Enumeration": [
 									"FresheningNone",
 									"FresheningFanFresh"
-								]
+								],
+								"Default": "FresheningNone"
 							}
 						}
 					},
 					"WashCycleBulky": {
 						"Required": {
 							"WashCavity_CycleSetTemperature": {
-								"Default": "WashTempWarm",
 								"Enumeration": [
 									"WashTempCold",
 									"WashTempCool",
 									"WashTempWarm",
 									"WashTempHot",
 									"WashTempExtraHot"
-								]
+								],
+								"Default": "WashTempWarm"
 							},
 							"WashCavity_CycleSetSpinSpeed": {
-								"Default": "SpinSpeedHigh",
 								"Enumeration": [
 									"SpinSpeedOff",
 									"SpinSpeedLow",
 									"SpinSpeedMedium",
 									"SpinSpeedHigh",
 									"SpinSpeedExtraHigh"
-								]
+								],
+								"Default": "SpinSpeedHigh"
 							},
 							"WashCavity_CycleSetSoilLevel": {
-								"Default": "SoilLevelNormal",
 								"Enumeration": [
 									"SoilLevelLight",
 									"SoilLevelNormal",
 									"SoilLevelHeavy"
-								]
+								],
+								"Default": "SoilLevelNormal"
 							},
 							"WashCavity_CycleSetPresoakTimed": {
-								"Default": 0,
 								"List": [
 									0,
 									1800,
 									3600,
 									28800
-								]
+								],
+								"Default": 0
 							},
 							"Cavity_CycleSetSteamEnable": {
-								"Default": false,
 								"Bool": [
 									false,
 									true
-								]
+								],
+								"Default": false
 							},
 							"WashCavity_CycleSetExtraRinseSelect": {
 								"Default": 0,
@@ -3410,59 +3407,59 @@
 								"Step": 1
 							},
 							"WashCavity_CycleSetFresheningSelect": {
-								"Default": "FresheningNone",
 								"Enumeration": [
 									"FresheningNone",
 									"FresheningFanFresh"
-								]
+								],
+								"Default": "FresheningNone"
 							}
 						}
 					},
 					"WashCycleWhatToBulkyHowToQuick": {
 						"Required": {
 							"WashCavity_CycleSetTemperature": {
-								"Default": "WashTempWarm",
 								"Enumeration": [
 									"WashTempCold",
 									"WashTempCool",
 									"WashTempWarm",
 									"WashTempHot",
 									"WashTempExtraHot"
-								]
+								],
+								"Default": "WashTempWarm"
 							},
 							"WashCavity_CycleSetSpinSpeed": {
-								"Default": "SpinSpeedHigh",
 								"Enumeration": [
 									"SpinSpeedOff",
 									"SpinSpeedLow",
 									"SpinSpeedMedium",
 									"SpinSpeedHigh",
 									"SpinSpeedExtraHigh"
-								]
+								],
+								"Default": "SpinSpeedHigh"
 							},
 							"WashCavity_CycleSetSoilLevel": {
-								"Default": "SoilLevelLight",
 								"Enumeration": [
 									"SoilLevelLight",
 									"SoilLevelNormal",
 									"SoilLevelHeavy"
-								]
+								],
+								"Default": "SoilLevelLight"
 							},
 							"WashCavity_CycleSetPresoakTimed": {
-								"Default": 0,
 								"List": [
 									0,
 									1800,
 									3600,
 									28800
-								]
+								],
+								"Default": 0
 							},
 							"Cavity_CycleSetSteamEnable": {
-								"Default": false,
 								"Bool": [
 									false,
 									true
-								]
+								],
+								"Default": false
 							},
 							"WashCavity_CycleSetExtraRinseSelect": {
 								"Default": 0,
@@ -3471,59 +3468,59 @@
 								"Step": 1
 							},
 							"WashCavity_CycleSetFresheningSelect": {
-								"Default": "FresheningNone",
 								"Enumeration": [
 									"FresheningNone",
 									"FresheningFanFresh"
-								]
+								],
+								"Default": "FresheningNone"
 							}
 						}
 					},
 					"WashCycleWhatToBulkyHowToWrinkleControl": {
 						"Required": {
 							"WashCavity_CycleSetTemperature": {
-								"Default": "WashTempCold",
 								"Enumeration": [
 									"WashTempCold",
 									"WashTempCool",
 									"WashTempWarm",
 									"WashTempHot",
 									"WashTempExtraHot"
-								]
+								],
+								"Default": "WashTempCold"
 							},
 							"WashCavity_CycleSetSpinSpeed": {
-								"Default": "SpinSpeedLow",
 								"Enumeration": [
 									"SpinSpeedOff",
 									"SpinSpeedLow",
 									"SpinSpeedMedium",
 									"SpinSpeedHigh",
 									"SpinSpeedExtraHigh"
-								]
+								],
+								"Default": "SpinSpeedLow"
 							},
 							"WashCavity_CycleSetSoilLevel": {
-								"Default": "SoilLevelLight",
 								"Enumeration": [
 									"SoilLevelLight",
 									"SoilLevelNormal",
 									"SoilLevelHeavy"
-								]
+								],
+								"Default": "SoilLevelLight"
 							},
 							"WashCavity_CycleSetPresoakTimed": {
-								"Default": 0,
 								"List": [
 									0,
 									1800,
 									3600,
 									28800
-								]
+								],
+								"Default": 0
 							},
 							"Cavity_CycleSetSteamEnable": {
-								"Default": false,
 								"Bool": [
 									false,
 									true
-								]
+								],
+								"Default": false
 							},
 							"WashCavity_CycleSetExtraRinseSelect": {
 								"Default": 0,
@@ -3532,59 +3529,59 @@
 								"Step": 1
 							},
 							"WashCavity_CycleSetFresheningSelect": {
-								"Default": "FresheningNone",
 								"Enumeration": [
 									"FresheningNone",
 									"FresheningFanFresh"
-								]
+								],
+								"Default": "FresheningNone"
 							}
 						}
 					},
 					"WashCycleWhatToBulkyHowToHeavyDuty": {
 						"Required": {
 							"WashCavity_CycleSetTemperature": {
-								"Default": "WashTempHot",
 								"Enumeration": [
 									"WashTempCold",
 									"WashTempCool",
 									"WashTempWarm",
 									"WashTempHot",
 									"WashTempExtraHot"
-								]
+								],
+								"Default": "WashTempHot"
 							},
 							"WashCavity_CycleSetSpinSpeed": {
-								"Default": "SpinSpeedHigh",
 								"Enumeration": [
 									"SpinSpeedOff",
 									"SpinSpeedLow",
 									"SpinSpeedMedium",
 									"SpinSpeedHigh",
 									"SpinSpeedExtraHigh"
-								]
+								],
+								"Default": "SpinSpeedHigh"
 							},
 							"WashCavity_CycleSetSoilLevel": {
-								"Default": "SoilLevelNormal",
 								"Enumeration": [
 									"SoilLevelLight",
 									"SoilLevelNormal",
 									"SoilLevelHeavy"
-								]
+								],
+								"Default": "SoilLevelNormal"
 							},
 							"WashCavity_CycleSetPresoakTimed": {
-								"Default": 0,
 								"List": [
 									0,
 									1800,
 									3600,
 									28800
-								]
+								],
+								"Default": 0
 							},
 							"Cavity_CycleSetSteamEnable": {
-								"Default": false,
 								"Bool": [
 									false,
 									true
-								]
+								],
+								"Default": false
 							},
 							"WashCavity_CycleSetExtraRinseSelect": {
 								"Default": 0,
@@ -3593,52 +3590,52 @@
 								"Step": 1
 							},
 							"WashCavity_CycleSetFresheningSelect": {
-								"Default": "FresheningNone",
 								"Enumeration": [
 									"FresheningNone",
 									"FresheningFanFresh"
-								]
+								],
+								"Default": "FresheningNone"
 							}
 						}
 					},
 					"WashCycleWhatToBulkyHowToColdWash": {
 						"Required": {
 							"WashCavity_CycleSetTemperature": {
-								"Default": "WashTempCold",
 								"Enumeration": [
 									"WashTempCold",
 									"WashTempCool",
 									"WashTempWarm",
 									"WashTempHot",
 									"WashTempExtraHot"
-								]
+								],
+								"Default": "WashTempCold"
 							},
 							"WashCavity_CycleSetSpinSpeed": {
-								"Default": "SpinSpeedHigh",
 								"Enumeration": [
 									"SpinSpeedOff",
 									"SpinSpeedLow",
 									"SpinSpeedMedium",
 									"SpinSpeedHigh",
 									"SpinSpeedExtraHigh"
-								]
+								],
+								"Default": "SpinSpeedHigh"
 							},
 							"WashCavity_CycleSetSoilLevel": {
-								"Default": "SoilLevelNormal",
 								"Enumeration": [
 									"SoilLevelLight",
 									"SoilLevelNormal",
 									"SoilLevelHeavy"
-								]
+								],
+								"Default": "SoilLevelNormal"
 							},
 							"WashCavity_CycleSetPresoakTimed": {
-								"Default": 0,
 								"List": [
 									0,
 									1800,
 									3600,
 									28800
-								]
+								],
+								"Default": 0
 							},
 							"WashCavity_CycleSetExtraRinseSelect": {
 								"Default": 0,
@@ -3647,25 +3644,25 @@
 								"Step": 1
 							},
 							"WashCavity_CycleSetFresheningSelect": {
-								"Default": "FresheningNone",
 								"Enumeration": [
 									"FresheningNone",
 									"FresheningFanFresh"
-								]
+								],
+								"Default": "FresheningNone"
 							}
 						}
 					},
 					"WashCycleDrainSpin": {
 						"Required": {
 							"WashCavity_CycleSetSpinSpeed": {
-								"Default": "SpinSpeedExtraHigh",
 								"Enumeration": [
 									"SpinSpeedOff",
 									"SpinSpeedLow",
 									"SpinSpeedMedium",
 									"SpinSpeedHigh",
 									"SpinSpeedExtraHigh"
-								]
+								],
+								"Default": "SpinSpeedExtraHigh"
 							},
 							"WashCavity_CycleSetExtraRinseSelect": {
 								"Default": 0,
@@ -3674,11 +3671,11 @@
 								"Step": 1
 							},
 							"WashCavity_CycleSetFresheningSelect": {
-								"Default": "FresheningNone",
 								"Enumeration": [
 									"FresheningNone",
 									"FresheningFanFresh"
-								]
+								],
+								"Default": "FresheningNone"
 							}
 						}
 					},
@@ -4034,214 +4031,199 @@
 		},
 		"ApplianceRulesets": {
 			"WashCavity": {
-				"Runtime": [
-					{
-						"ruleName": "Disable All Features when appliance is offline",
-						"description": "Disable All Features when appliance is offline",
-						"features": {
-							"SetCycle": false
-						},
-						"condition": {
-							"type": "value",
-							"key": "Online",
-							"valueOperator": "=",
-							"value": 0
-						}
+				"Runtime": [{
+					"ruleName": "Disable All Features when appliance is offline",
+					"description": "Disable All Features when appliance is offline",
+					"features": {
+						"SetCycle": false
+					},
+					"condition": {
+						"type": "value",
+						"key": "Online",
+						"valueOperator": "=",
+						"value": 0
 					}
-				]
+				}]
 			},
 			"Common": {
-				"Runtime": [
-					{
-						"ruleName": "Disable All Features when appliance is offline",
-						"description": "Disable All Features when appliance is offline",
-						"features": {
-							"ControlLock": false
-						},
-						"condition": {
-							"type": "value",
-							"key": "Online",
-							"valueOperator": "=",
-							"value": 0
-						}
+				"Runtime": [{
+					"ruleName": "Disable All Features when appliance is offline",
+					"description": "Disable All Features when appliance is offline",
+					"features": {
+						"ControlLock": false
+					},
+					"condition": {
+						"type": "value",
+						"key": "Online",
+						"valueOperator": "=",
+						"value": 0
 					}
-				]
+				}]
 			}
 		}
 	},
 	"Alerts": {
 		"Key": "DDM_LAUNDRY_JANUS_WASHER_INDIGO_WHIRLPOOL_DVT_V1",
-		"alerts": [
-			{
-				"GenericAlerts": [
-					{
-						"alertId": 1188,
-						"name": "LaundryTips",
-						"attribute": "LaundryTips",
-						"type": "push",
-						"category": "FabricCare",
-						"autodelete": false,
-						"autodisarm": false,
-						"autodisable": false,
-						"visible": true,
-						"enable": true
-					}
-				],
-				"ApplianceAlerts": [
-					{
-						"alertId": 1189,
-						"name": "MachineState",
-						"attribute": "Cavity_CycleStatusMachineState",
-						"type": "push",
-						"category": "FabricCare",
-						"autodelete": false,
-						"autodisarm": false,
-						"autodisable": false,
-						"visible": true,
-						"enable": true
-					},
-					{
-						"alertId": 1190,
-						"name": "BulkDispense1Level",
-						"attribute": "WashCavity_OpStatusBulkDispense1Level",
-						"type": "push",
-						"category": "FabricCare",
-						"autodelete": false,
-						"autodisarm": false,
-						"autodisable": false,
-						"visible": true,
-						"enable": true
-					},
-					{
-						"alertId": 1191,
-						"name": "BulkDispense2Level",
-						"attribute": "WashCavity_OpStatusBulkDispense2Level",
-						"type": "push",
-						"category": "FabricCare",
-						"autodelete": false,
-						"autodisarm": false,
-						"autodisable": false,
-						"visible": true,
-						"enable": true
-					},
-					{
-						"alertId": 1192,
-						"name": "CustomerFaultCode",
-						"attribute": "Sys_AlertStatusCustomerFaultCode",
-						"type": "push",
-						"category": "FabricCare",
-						"autodelete": false,
-						"autodisarm": false,
-						"autodisable": false,
-						"visible": true,
-						"enable": true
-					},
-					{
-						"alertId": 1193,
-						"name": "CleanReminder",
-						"attribute": "WashCavity_CycleStatusCleanReminder",
-						"type": "push",
-						"category": "FabricCare",
-						"autodelete": false,
-						"autodisarm": false,
-						"autodisable": false,
-						"visible": true,
-						"enable": true
-					},
-					{
-						"alertId": 1194,
-						"name": "ControlLock",
-						"attribute": "Sys_OpSetControlLock",
-						"type": "push",
-						"category": "FabricCare",
-						"autodelete": false,
-						"autodisarm": false,
-						"autodisable": false,
-						"visible": true,
-						"enable": false
-					},
-					{
-						"alertId": 1195,
-						"name": "LaundryOnWhileAway",
-						"attribute": "Online",
-						"type": "push",
-						"category": "FabricCare",
-						"autodelete": false,
-						"autodisarm": false,
-						"autodisable": false,
-						"visible": false,
-						"enable": false
-					}
-				]
-			}
-		]
+		"alerts": [{
+			"GenericAlerts": [{
+				"alertId": 1188,
+				"name": "LaundryTips",
+				"attribute": "LaundryTips",
+				"type": "push",
+				"category": "FabricCare",
+				"autodelete": false,
+				"autodisarm": false,
+				"autodisable": false,
+				"visible": true,
+				"enable": true
+			}],
+			"ApplianceAlerts": [{
+				"alertId": 1189,
+				"name": "MachineState",
+				"attribute": "Cavity_CycleStatusMachineState",
+				"type": "push",
+				"category": "FabricCare",
+				"autodelete": false,
+				"autodisarm": false,
+				"autodisable": false,
+				"visible": true,
+				"enable": true
+			},
+				{
+					"alertId": 1190,
+					"name": "BulkDispense1Level",
+					"attribute": "WashCavity_OpStatusBulkDispense1Level",
+					"type": "push",
+					"category": "FabricCare",
+					"autodelete": false,
+					"autodisarm": false,
+					"autodisable": false,
+					"visible": true,
+					"enable": true
+				},
+				{
+					"alertId": 1191,
+					"name": "BulkDispense2Level",
+					"attribute": "WashCavity_OpStatusBulkDispense2Level",
+					"type": "push",
+					"category": "FabricCare",
+					"autodelete": false,
+					"autodisarm": false,
+					"autodisable": false,
+					"visible": true,
+					"enable": true
+				},
+				{
+					"alertId": 1192,
+					"name": "CustomerFaultCode",
+					"attribute": "Sys_AlertStatusCustomerFaultCode",
+					"type": "push",
+					"category": "FabricCare",
+					"autodelete": false,
+					"autodisarm": false,
+					"autodisable": false,
+					"visible": true,
+					"enable": true
+				},
+				{
+					"alertId": 1193,
+					"name": "CleanReminder",
+					"attribute": "WashCavity_CycleStatusCleanReminder",
+					"type": "push",
+					"category": "FabricCare",
+					"autodelete": false,
+					"autodisarm": false,
+					"autodisable": false,
+					"visible": true,
+					"enable": true
+				},
+				{
+					"alertId": 1194,
+					"name": "ControlLock",
+					"attribute": "Sys_OpSetControlLock",
+					"type": "push",
+					"category": "FabricCare",
+					"autodelete": false,
+					"autodisarm": false,
+					"autodisable": false,
+					"visible": true,
+					"enable": false
+				},
+				{
+					"alertId": 1195,
+					"name": "LaundryOnWhileAway",
+					"attribute": "Online",
+					"type": "push",
+					"category": "FabricCare",
+					"autodelete": false,
+					"autodisarm": false,
+					"autodisable": false,
+					"visible": false,
+					"enable": false
+				}
+			]
+		}]
 	},
 	"Services": {
 		"_id": "DDM_LAUNDRY_JANUS_WASHER_INDIGO_WHIRLPOOL_DVT_V1",
-		"thirdPartyServices": [
-			{
-				"name": "Replenishment",
+		"thirdPartyServices": [{
+			"name": "Replenishment",
+			"enabled": false,
+			"serviceProvider": [{
+				"name": "ADRS",
 				"enabled": false,
-				"serviceProvider": [
-					{
-						"name": "ADRS",
-						"enabled": false,
-						"config": {}
-					},
-					{
-						"name": "Wallmart",
-						"enabled": false,
-						"config": {}
-					},
-					{
-						"name": "Whirlpool",
-						"enabled": false,
-						"config": {}
-					}
-				]
+				"config": {}
 			},
+				{
+					"name": "Wallmart",
+					"enabled": false,
+					"config": {}
+				},
+				{
+					"name": "Whirlpool",
+					"enabled": false,
+					"config": {}
+				}
+			]
+		},
 			{
 				"name": "Thermostat",
 				"enabled": true,
-				"serviceProvider": [
-					{
-						"name": "Nest",
-						"enabled": true,
-						"config": [
-							{
-								"Key": "FanFresh",
-								"Type": "home_away",
-								"value": true,
-								"commandName": "",
-								"commandValue": ""
-							},
-							{
-								"Key": "QuietWhileHome",
-								"Type": "home_away",
-								"value": true,
-								"commandName": "",
-								"commandValue": ""
-							},
-							{
-								"Key": "SmartEnergy",
-								"Type": "rush_hour_rewards",
-								"value": true,
-								"commandName": "",
-								"commandValue": ""
-							}
-						]
-					}
-				]
+				"serviceProvider": [{
+					"name": "Nest",
+					"enabled": true,
+					"config": [{
+						"Key": "FanFresh",
+						"Type": "home_away",
+						"value": true,
+						"commandName": "",
+						"commandValue": ""
+					},
+						{
+							"Key": "QuietWhileHome",
+							"Type": "home_away",
+							"value": true,
+							"commandName": "",
+							"commandValue": ""
+						},
+						{
+							"Key": "SmartEnergy",
+							"Type": "rush_hour_rewards",
+							"value": true,
+							"commandName": "",
+							"commandValue": ""
+						}
+					]
+				}]
 			},
 			{
 				"name": "Energy Management",
 				"enabled": false,
-				"serviceProvider": [
-					{
-						"name": "National Grid",
-						"enabled": false,
-						"config": {}
-					},
+				"serviceProvider": [{
+					"name": "National Grid",
+					"enabled": false,
+					"config": {}
+				},
 					{
 						"name": "Genability",
 						"enabled": true,
@@ -4252,440 +4234,432 @@
 			{
 				"name": "VoiceIntegration",
 				"enabled": true,
-				"serviceProvider": [
-					{
-						"name": "Amazon Alexa",
-						"enabled": false,
-						"config": {}
-					},
+				"serviceProvider": [{
+					"name": "Amazon Alexa",
+					"enabled": false,
+					"config": {}
+				},
 					{
 						"name": "GoogleSmartHome",
 						"enabled": true,
 						"config": {
 							"room": "",
 							"customData": {},
-							"devices": [
-								{
-									"name": "JANUS WASHER",
-									"nicknames": [
-										"WASHER"
-									],
-									"type": "action.devices.types.WASHER",
-									"traits": [
-										"action.devices.traits.OnOff",
-										"action.devices.traits.StartStop",
-										"action.devices.traits.Toggles",
-										"action.devices.traits.RunCycle"
-									],
-									"customData": {},
-									"defaultData": {
-										"pausable": true,
-										"availableToggles": [
-											{
-												"name": "quiet",
-												"name_values": [
-													{
-														"name_synonym": [
-															"quiet",
-															"silent"
-														],
-														"lang": "en"
+							"devices": [{
+								"name": "JANUS WASHER",
+								"nicknames": [
+									"WASHER"
+								],
+								"type": "action.devices.types.WASHER",
+								"traits": [
+									"action.devices.traits.OnOff",
+									"action.devices.traits.StartStop",
+									"action.devices.traits.Toggles",
+									"action.devices.traits.RunCycle"
+								],
+								"customData": {},
+								"defaultData": {
+									"pausable": true,
+									"availableToggles": [{
+										"name": "quiet",
+										"name_values": [{
+											"name_synonym": [
+												"quiet",
+												"silent"
+											],
+											"lang": "en"
+										}]
+									}]
+								},
+								"mapper": [{
+									"operation": "shift",
+									"spec": {
+										"attributes": {
+											"Online": {
+												"value": {
+													"0": {
+														"#false": "online"
+													},
+													"1": {
+														"#true": "online"
 													}
-												]
-											}
-										]
-									},
-									"mapper": [
-										{
-											"operation": "shift",
-											"spec": {
-												"attributes": {
-													"Online": {
-														"value": {
-															"0": {
-																"#false": "online"
-															},
-															"1": {
-																"#true": "online"
-															}
-														}
+												}
+											},
+											"Sys_OpSetAlertToneVolume": {
+												"value": {
+													"0": {
+														"#true": "currentToggleSettings.quiet"
 													},
-													"Sys_OpSetAlertToneVolume": {
-														"value": {
-															"0": {
-																"#true": "currentToggleSettings.quiet"
-															},
-															"1": {
-																"#false": "currentToggleSettings.quiet"
-															}
-														}
-													},
-													"Sys_OpSetKeyPressToneVolume": {
-														"value": {
-															"0": {
-																"#true": "currentToggleSettings.quiet"
-															},
-															"1": {
-																"#false": "currentToggleSettings.quiet"
-															}
-														}
-													},
-													"WashCavity_CycleSetCycleSelect": {
-														"value": {
-															"0": {
-																"#No Cycle ": "currentRunCycle[0].currentCycle",
-																"#None": "currentRunCycle[0].nextCycle",
-																"#en": "currentRunCycle[0].lang"
-															},
-															"1": {
-																"#Wash Normal": "currentRunCycle[0].currentCycle",
-																"#None": "currentRunCycle[0].nextCycle",
-																"#en": "currentRunCycle[0].lang"
-															},
-															"2": {
-																"#Heavy duty Heavy Duty": "currentRunCycle[0].currentCycle",
-																"#None": "currentRunCycle[0].nextCycle",
-																"#en": "currentRunCycle[0].lang"
-															},
-															"3": {
-																"#Sanitize Wash": "currentRunCycle[0].currentCycle",
-																"#None": "currentRunCycle[0].nextCycle",
-																"#en": "currentRunCycle[0].lang"
-															},
-															"4": {
-																"#Wash QuickWash": "currentRunCycle[0].currentCycle",
-																"#None": "currentRunCycle[0].nextCycle",
-																"#en": "currentRunCycle[0].lang"
-															},
-															"5": {
-																"#Wash Delicates": "currentRunCycle[0].currentCycle",
-																"#None": "currentRunCycle[0].nextCycle",
-																"#en": "currentRunCycle[0].lang"
-															},
-															"8": {
-																"#Drain Spin": "currentRunCycle[0].currentCycle",
-																"#None": "currentRunCycle[0].nextCycle",
-																"#en": "currentRunCycle[0].lang"
-															},
-															"10": {
-																"#Whites": "currentRunCycle[0].currentCycle",
-																"#None": "currentRunCycle[0].nextCycle",
-																"#en": "currentRunCycle[0].lang"
-															},
-															"11": {
-																"#Towels Wash": "currentRunCycle[0].currentCycle",
-																"#None": "currentRunCycle[0].nextCycle",
-																"#en": "currentRunCycle[0].lang"
-															},
-															"16": {
-																"#Wash Wrinkle Control": "currentRunCycle[0].currentCycle",
-																"#None": "currentRunCycle[0].nextCycle",
-																"#en": "currentRunCycle[0].lang"
-															},
-															"18": {
-																"#Wash Cold Wash": "currentRunCycle[0].currentCycle",
-																"#None": "currentRunCycle[0].nextCycle",
-																"#en": "currentRunCycle[0].lang"
-															},
-															"20": {
-																"#Wash Clean Washer": "currentRunCycle[0].currentCycle",
-																"#None": "currentRunCycle[0].nextCycle",
-																"#en": "currentRunCycle[0].lang"
-															},
-															"22": {
-																"#Wash Bulky": "currentRunCycle[0].currentCycle",
-																"#None": "currentRunCycle[0].nextCycle",
-																"#en": "currentRunCycle[0].lang"
-															},
-															"24": {
-																"#Colors Brights": "currentRunCycle[0].currentCycle",
-																"#None": "currentRunCycle[0].nextCycle",
-																"#en": "currentRunCycle[0].lang"
-															},
-															"44": {
-																"#Brights Cold Wash": "currentRunCycle[0].currentCycle",
-																"#None": "currentRunCycle[0].nextCycle",
-																"#en": "currentRunCycle[0].lang"
-															},
-															"46": {
-																"#Brights Heavy Duty": "currentRunCycle[0].currentCycle",
-																"#None": "currentRunCycle[0].nextCycle",
-																"#en": "currentRunCycle[0].lang"
-															},
-															"47": {
-																"#Colors Brights Quick": "currentRunCycle[0].currentCycle",
-																"#None": "currentRunCycle[0].nextCycle",
-																"#en": "currentRunCycle[0].lang"
-															},
-															"48": {
-																"Colors Brights Sanitize": "currentRunCycle[0].currentCycle",
-																"#None": "currentRunCycle[0].nextCycle",
-																"#en": "currentRunCycle[0].lang"
-															},
-															"49": {
-																"#Colors Brights Wrinkle Control": "currentRunCycle[0].currentCycle",
-																"#None": "currentRunCycle[0].nextCycle",
-																"#en": "currentRunCycle[0].lang"
-															},
-															"50": {
-																"#Bulky Cold Wash": "currentRunCycle[0].currentCycle",
-																"#None": "currentRunCycle[0].nextCycle",
-																"#en": "currentRunCycle[0].lang"
-															},
-															"52": {
-																"#Bulky Heavy Duty": "currentRunCycle[0].currentCycle",
-																"#None": "currentRunCycle[0].nextCycle",
-																"#en": "currentRunCycle[0].lang"
-															},
-															"53": {
-																"#Bulky Quick": "currentRunCycle[0].currentCycle",
-																"#None": "currentRunCycle[0].nextCycle",
-																"#en": "currentRunCycle[0].lang"
-															},
-															"54": {
-																"#Bulky Wrinkle Control": "currentRunCycle[0].currentCycle",
-																"#None": "currentRunCycle[0].nextCycle",
-																"#en": "currentRunCycle[0].lang"
-															},
-															"65": {
-																"#Delicates Cold Wash": "currentRunCycle[0].currentCycle",
-																"#None": "currentRunCycle[0].nextCycle",
-																"#en": "currentRunCycle[0].lang"
-															},
-															"67": {
-																"#Delicates Heavy Duty": "currentRunCycle[0].currentCycle",
-																"#None": "currentRunCycle[0].nextCycle",
-																"#en": "currentRunCycle[0].lang"
-															},
-															"68": {
-																"#Delicates Quick": "currentRunCycle[0].currentCycle",
-																"#None": "currentRunCycle[0].nextCycle",
-																"#en": "currentRunCycle[0].lang"
-															},
-															"69": {
-																"#WashCycle Delicates Sanitize": "currentRunCycle[0].currentCycle",
-																"#None": "currentRunCycle[0].nextCycle",
-																"#en": "currentRunCycle[0].lang"
-															},
-															"70": {
-																"#Delicates Wrinkle Control": "currentRunCycle[0].currentCycle",
-																"#None": "currentRunCycle[0].nextCycle",
-																"#en": "currentRunCycle[0].lang"
-															},
-															"82": {
-																"#Towels Cold Wash": "currentRunCycle[0].currentCycle",
-																"#None": "currentRunCycle[0].nextCycle",
-																"#en": "currentRunCycle[0].lang"
-															},
-															"84": {
-																"#Towels Heavy Duty": "currentRunCycle[0].currentCycle",
-																"#None": "currentRunCycle[0].nextCycle",
-																"#en": "currentRunCycle[0].lang"
-															},
-															"85": {
-																"#Towels Quick": "currentRunCycle[0].currentCycle",
-																"#None": "currentRunCycle[0].nextCycle",
-																"#en": "currentRunCycle[0].lang"
-															},
-															"86": {
-																"#Towels Sanitize": "currentRunCycle[0].currentCycle",
-																"#None": "currentRunCycle[0].nextCycle",
-																"#en": "currentRunCycle[0].lang"
-															},
-															"87": {
-																"#Towels Wrinkle Control": "currentRunCycle[0].currentCycle",
-																"#None": "currentRunCycle[0].nextCycle",
-																"#en": "currentRunCycle[0].lang"
-															},
-															"88": {
-																"#Whites Cold Wash": "currentRunCycle[0].currentCycle",
-																"#None": "currentRunCycle[0].nextCycle",
-																"#en": "currentRunCycle[0].lang"
-															},
-															"90": {
-																"#Whites Heavy Duty": "currentRunCycle[0].currentCycle",
-																"#None": "currentRunCycle[0].nextCycle",
-																"#en": "currentRunCycle[0].lang"
-															},
-															"91": {
-																"#Whites Quick": "currentRunCycle[0].currentCycle",
-																"#None": "currentRunCycle[0].nextCycle",
-																"#en": "currentRunCycle[0].lang"
-															},
-															"92": {
-																"#Whites Quick": "currentRunCycle[0].currentCycle",
-																"#None": "currentRunCycle[0].nextCycle",
-																"#en": "currentRunCycle[0].lang"
-															},
-															"93": {
-																"#Whites Wrinkle Control": "currentRunCycle[0].currentCycle",
-																"#None": "currentRunCycle[0].nextCycle",
-																"#en": "currentRunCycle[0].lang"
-															}
-														}
-													},
-													"Cavity_TimeStatusEstTimeRemaining": {
-														"value": "currentTotalRemainingTime"
-													},
-													"Cavity_CycleStatusMachineState": {
-														"value": {
-															"0": {
-																"#false": [
-																	"isRunning",
-																	"isPaused"
-																]
-															},
-															"1": {
-																"#false": [
-																	"isRunning",
-																	"isPaused"
-																]
-															},
-															"4": {
-																"#false": "isRunning",
-																"#true": "isPaused"
-															},
-															"5": {
-																"#false": "isRunning",
-																"#true": "isPaused"
-															},
-															"6": {
-																"#false": "isRunning",
-																"#true": "isPaused"
-															},
-															"7": {
-																"#true": "isRunning",
-																"#false": "isPaused"
-															},
-															"8": {
-																"#true": "isRunning",
-																"#false": "isPaused"
-															},
-															"10": {
-																"#false": [
-																	"isRunning",
-																	"isPaused"
-																]
-															},
-															"11": {
-																"#false": [
-																	"isRunning",
-																	"isPaused"
-																]
-															},
-															"17": {
-																"#false": [
-																	"isRunning",
-																	"isPaused"
-																]
-															}
-														}
-													},
-													"Cavity_OpSetOperations": {
-														"value": {
-															"0": {
-																"#false": "on"
-															},
-															"1": {
-																"#false": "on"
-															},
-															"2": {
-																"#true": "on"
-															},
-															"5": {
-																"#true": "on"
-															},
-															"6": {
-																"#true": "on"
-															}
-														}
+													"1": {
+														"#false": "currentToggleSettings.quiet"
 													}
-												},
-												"start": {
-													"true": {
-														"#2": "Cavity_OpSetOperations"
+												}
+											},
+											"Sys_OpSetKeyPressToneVolume": {
+												"value": {
+													"0": {
+														"#true": "currentToggleSettings.quiet"
 													},
-													"false": {
-														"#1": "Cavity_OpSetOperations"
+													"1": {
+														"#false": "currentToggleSettings.quiet"
 													}
-												},
-												"on": {
-													"true": {
-														"#2": "Cavity_OpSetOperations"
+												}
+											},
+											"WashCavity_CycleSetCycleSelect": {
+												"value": {
+													"0": {
+														"#No Cycle ": "currentRunCycle[0].currentCycle",
+														"#None": "currentRunCycle[0].nextCycle",
+														"#en": "currentRunCycle[0].lang"
 													},
-													"false": {
-														"#1": "Cavity_OpSetOperations"
-													}
-												},
-												"pause": {
-													"true": {
-														"#5": "Cavity_OpSetOperations"
+													"1": {
+														"#Wash Normal": "currentRunCycle[0].currentCycle",
+														"#None": "currentRunCycle[0].nextCycle",
+														"#en": "currentRunCycle[0].lang"
 													},
-													"false": {
-														"#6": "Cavity_OpSetOperations"
-													}
-												},
-												"currentTotalRemainingTime": "Cavity_TimeStatusEstTimeRemaining",
-												"isRunning": {
-													"true": {
-														"#7": "Cavity_CycleStatusMachineState"
+													"2": {
+														"#Heavy duty Heavy Duty": "currentRunCycle[0].currentCycle",
+														"#None": "currentRunCycle[0].nextCycle",
+														"#en": "currentRunCycle[0].lang"
 													},
-													"false": {
-														"#0": "Cavity_CycleStatusMachineState"
-													}
-												},
-												"isPaused": {
-													"true": {
-														"#6": "Cavity_CycleStatusMachineState"
+													"3": {
+														"#Sanitize Wash": "currentRunCycle[0].currentCycle",
+														"#None": "currentRunCycle[0].nextCycle",
+														"#en": "currentRunCycle[0].lang"
 													},
-													"false": {
-														"#0": "Cavity_CycleStatusMachineState"
+													"4": {
+														"#Wash QuickWash": "currentRunCycle[0].currentCycle",
+														"#None": "currentRunCycle[0].nextCycle",
+														"#en": "currentRunCycle[0].lang"
+													},
+													"5": {
+														"#Wash Delicates": "currentRunCycle[0].currentCycle",
+														"#None": "currentRunCycle[0].nextCycle",
+														"#en": "currentRunCycle[0].lang"
+													},
+													"8": {
+														"#Drain Spin": "currentRunCycle[0].currentCycle",
+														"#None": "currentRunCycle[0].nextCycle",
+														"#en": "currentRunCycle[0].lang"
+													},
+													"10": {
+														"#Whites": "currentRunCycle[0].currentCycle",
+														"#None": "currentRunCycle[0].nextCycle",
+														"#en": "currentRunCycle[0].lang"
+													},
+													"11": {
+														"#Towels Wash": "currentRunCycle[0].currentCycle",
+														"#None": "currentRunCycle[0].nextCycle",
+														"#en": "currentRunCycle[0].lang"
+													},
+													"16": {
+														"#Wash Wrinkle Control": "currentRunCycle[0].currentCycle",
+														"#None": "currentRunCycle[0].nextCycle",
+														"#en": "currentRunCycle[0].lang"
+													},
+													"18": {
+														"#Wash Cold Wash": "currentRunCycle[0].currentCycle",
+														"#None": "currentRunCycle[0].nextCycle",
+														"#en": "currentRunCycle[0].lang"
+													},
+													"20": {
+														"#Wash Clean Washer": "currentRunCycle[0].currentCycle",
+														"#None": "currentRunCycle[0].nextCycle",
+														"#en": "currentRunCycle[0].lang"
+													},
+													"22": {
+														"#Wash Bulky": "currentRunCycle[0].currentCycle",
+														"#None": "currentRunCycle[0].nextCycle",
+														"#en": "currentRunCycle[0].lang"
+													},
+													"24": {
+														"#Colors Brights": "currentRunCycle[0].currentCycle",
+														"#None": "currentRunCycle[0].nextCycle",
+														"#en": "currentRunCycle[0].lang"
+													},
+													"44": {
+														"#Brights Cold Wash": "currentRunCycle[0].currentCycle",
+														"#None": "currentRunCycle[0].nextCycle",
+														"#en": "currentRunCycle[0].lang"
+													},
+													"46": {
+														"#Brights Heavy Duty": "currentRunCycle[0].currentCycle",
+														"#None": "currentRunCycle[0].nextCycle",
+														"#en": "currentRunCycle[0].lang"
+													},
+													"47": {
+														"#Colors Brights Quick": "currentRunCycle[0].currentCycle",
+														"#None": "currentRunCycle[0].nextCycle",
+														"#en": "currentRunCycle[0].lang"
+													},
+													"48": {
+														"Colors Brights Sanitize": "currentRunCycle[0].currentCycle",
+														"#None": "currentRunCycle[0].nextCycle",
+														"#en": "currentRunCycle[0].lang"
+													},
+													"49": {
+														"#Colors Brights Wrinkle Control": "currentRunCycle[0].currentCycle",
+														"#None": "currentRunCycle[0].nextCycle",
+														"#en": "currentRunCycle[0].lang"
+													},
+													"50": {
+														"#Bulky Cold Wash": "currentRunCycle[0].currentCycle",
+														"#None": "currentRunCycle[0].nextCycle",
+														"#en": "currentRunCycle[0].lang"
+													},
+													"52": {
+														"#Bulky Heavy Duty": "currentRunCycle[0].currentCycle",
+														"#None": "currentRunCycle[0].nextCycle",
+														"#en": "currentRunCycle[0].lang"
+													},
+													"53": {
+														"#Bulky Quick": "currentRunCycle[0].currentCycle",
+														"#None": "currentRunCycle[0].nextCycle",
+														"#en": "currentRunCycle[0].lang"
+													},
+													"54": {
+														"#Bulky Wrinkle Control": "currentRunCycle[0].currentCycle",
+														"#None": "currentRunCycle[0].nextCycle",
+														"#en": "currentRunCycle[0].lang"
+													},
+													"65": {
+														"#Delicates Cold Wash": "currentRunCycle[0].currentCycle",
+														"#None": "currentRunCycle[0].nextCycle",
+														"#en": "currentRunCycle[0].lang"
+													},
+													"67": {
+														"#Delicates Heavy Duty": "currentRunCycle[0].currentCycle",
+														"#None": "currentRunCycle[0].nextCycle",
+														"#en": "currentRunCycle[0].lang"
+													},
+													"68": {
+														"#Delicates Quick": "currentRunCycle[0].currentCycle",
+														"#None": "currentRunCycle[0].nextCycle",
+														"#en": "currentRunCycle[0].lang"
+													},
+													"69": {
+														"#WashCycle Delicates Sanitize": "currentRunCycle[0].currentCycle",
+														"#None": "currentRunCycle[0].nextCycle",
+														"#en": "currentRunCycle[0].lang"
+													},
+													"70": {
+														"#Delicates Wrinkle Control": "currentRunCycle[0].currentCycle",
+														"#None": "currentRunCycle[0].nextCycle",
+														"#en": "currentRunCycle[0].lang"
+													},
+													"82": {
+														"#Towels Cold Wash": "currentRunCycle[0].currentCycle",
+														"#None": "currentRunCycle[0].nextCycle",
+														"#en": "currentRunCycle[0].lang"
+													},
+													"84": {
+														"#Towels Heavy Duty": "currentRunCycle[0].currentCycle",
+														"#None": "currentRunCycle[0].nextCycle",
+														"#en": "currentRunCycle[0].lang"
+													},
+													"85": {
+														"#Towels Quick": "currentRunCycle[0].currentCycle",
+														"#None": "currentRunCycle[0].nextCycle",
+														"#en": "currentRunCycle[0].lang"
+													},
+													"86": {
+														"#Towels Sanitize": "currentRunCycle[0].currentCycle",
+														"#None": "currentRunCycle[0].nextCycle",
+														"#en": "currentRunCycle[0].lang"
+													},
+													"87": {
+														"#Towels Wrinkle Control": "currentRunCycle[0].currentCycle",
+														"#None": "currentRunCycle[0].nextCycle",
+														"#en": "currentRunCycle[0].lang"
+													},
+													"88": {
+														"#Whites Cold Wash": "currentRunCycle[0].currentCycle",
+														"#None": "currentRunCycle[0].nextCycle",
+														"#en": "currentRunCycle[0].lang"
+													},
+													"90": {
+														"#Whites Heavy Duty": "currentRunCycle[0].currentCycle",
+														"#None": "currentRunCycle[0].nextCycle",
+														"#en": "currentRunCycle[0].lang"
+													},
+													"91": {
+														"#Whites Quick": "currentRunCycle[0].currentCycle",
+														"#None": "currentRunCycle[0].nextCycle",
+														"#en": "currentRunCycle[0].lang"
+													},
+													"92": {
+														"#Whites Quick": "currentRunCycle[0].currentCycle",
+														"#None": "currentRunCycle[0].nextCycle",
+														"#en": "currentRunCycle[0].lang"
+													},
+													"93": {
+														"#Whites Wrinkle Control": "currentRunCycle[0].currentCycle",
+														"#None": "currentRunCycle[0].nextCycle",
+														"#en": "currentRunCycle[0].lang"
 													}
-												},
-												"updateToggleSettings": {
-													"quiet": {
-														"true": {
-															"#0": [
-																"Sys_OpSetAlertToneVolume",
-																"Sys_OpSetKeyPressToneVolume"
-															]
-														},
-														"false": {
-															"#1": [
-																"Sys_OpSetAlertToneVolume",
-																"Sys_OpSetKeyPressToneVolume"
-															]
-														}
+												}
+											},
+											"Cavity_TimeStatusEstTimeRemaining": {
+												"value": "currentTotalRemainingTime"
+											},
+											"Cavity_CycleStatusMachineState": {
+												"value": {
+													"0": {
+														"#false": [
+															"isRunning",
+															"isPaused"
+														]
+													},
+													"1": {
+														"#false": [
+															"isRunning",
+															"isPaused"
+														]
+													},
+													"4": {
+														"#false": "isRunning",
+														"#true": "isPaused"
+													},
+													"5": {
+														"#false": "isRunning",
+														"#true": "isPaused"
+													},
+													"6": {
+														"#false": "isRunning",
+														"#true": "isPaused"
+													},
+													"7": {
+														"#true": "isRunning",
+														"#false": "isPaused"
+													},
+													"8": {
+														"#true": "isRunning",
+														"#false": "isPaused"
+													},
+													"10": {
+														"#false": [
+															"isRunning",
+															"isPaused"
+														]
+													},
+													"11": {
+														"#false": [
+															"isRunning",
+															"isPaused"
+														]
+													},
+													"17": {
+														"#false": [
+															"isRunning",
+															"isPaused"
+														]
+													}
+												}
+											},
+											"Cavity_OpSetOperations": {
+												"value": {
+													"0": {
+														"#false": "on"
+													},
+													"1": {
+														"#false": "on"
+													},
+													"2": {
+														"#true": "on"
+													},
+													"5": {
+														"#true": "on"
+													},
+													"6": {
+														"#true": "on"
 													}
 												}
 											}
 										},
-										{
-											"operation": "modify-overwrite-beta",
-											"spec": {
-												"online": "=toBoolean",
-												"isRunning": "=toBoolean",
-												"isPaused": "=toBoolean",
-												"on": "=toBoolean",
-												"currentTotalRemainingTime": "=toInteger",
-												"currentToggleSettings": {
-													"*": "=toBoolean"
+										"start": {
+											"true": {
+												"#2": "Cavity_OpSetOperations"
+											},
+											"false": {
+												"#1": "Cavity_OpSetOperations"
+											}
+										},
+										"on": {
+											"true": {
+												"#2": "Cavity_OpSetOperations"
+											},
+											"false": {
+												"#1": "Cavity_OpSetOperations"
+											}
+										},
+										"pause": {
+											"true": {
+												"#5": "Cavity_OpSetOperations"
+											},
+											"false": {
+												"#6": "Cavity_OpSetOperations"
+											}
+										},
+										"currentTotalRemainingTime": "Cavity_TimeStatusEstTimeRemaining",
+										"isRunning": {
+											"true": {
+												"#7": "Cavity_CycleStatusMachineState"
+											},
+											"false": {
+												"#0": "Cavity_CycleStatusMachineState"
+											}
+										},
+										"isPaused": {
+											"true": {
+												"#6": "Cavity_CycleStatusMachineState"
+											},
+											"false": {
+												"#0": "Cavity_CycleStatusMachineState"
+											}
+										},
+										"updateToggleSettings": {
+											"quiet": {
+												"true": {
+													"#0": [
+														"Sys_OpSetAlertToneVolume",
+														"Sys_OpSetKeyPressToneVolume"
+													]
+												},
+												"false": {
+													"#1": [
+														"Sys_OpSetAlertToneVolume",
+														"Sys_OpSetKeyPressToneVolume"
+													]
 												}
 											}
-										},
-										{
-											"operation": "modify-overwrite-beta",
-											"spec": {
-												"Cavity_OpSetOperations": "=toInteger"
-											}
-										},
-										{
-											"operation": "default",
-											"spec": {}
 										}
-									]
-								}
-							]
+									}
+								},
+									{
+										"operation": "modify-overwrite-beta",
+										"spec": {
+											"online": "=toBoolean",
+											"isRunning": "=toBoolean",
+											"isPaused": "=toBoolean",
+											"on": "=toBoolean",
+											"currentTotalRemainingTime": "=toInteger",
+											"currentToggleSettings": {
+												"*": "=toBoolean"
+											}
+										}
+									},
+									{
+										"operation": "modify-overwrite-beta",
+										"spec": {
+											"Cavity_OpSetOperations": "=toInteger"
+										}
+									},
+									{
+										"operation": "default",
+										"spec": {}
+									}
+								]
+							}]
 						}
 					}
 				]
@@ -4693,13 +4667,11 @@
 			{
 				"name": "localizeDateTime",
 				"enabled": true,
-				"serviceProvider": [
-					{
-						"name": "WCloud",
-						"enabled": true,
-						"config": ""
-					}
-				]
+				"serviceProvider": [{
+					"name": "WCloud",
+					"enabled": true,
+					"config": ""
+				}]
 			}
 		]
 	}
