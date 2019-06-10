@@ -2894,7 +2894,7 @@
           ]
         }
       },
-      "WashCavity": {
+      "DryCavity": {
         "SetCycle": {
           "Visible": true,
           "AvailableIn": [
