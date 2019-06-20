@@ -76,7 +76,7 @@
 				"M2MAttributeName": "XCat_PowerStatusPowerOutage",
 				"Instance": "XCat_PowerStatus",
 				"IsTimeSeries": false,
-				"DataType": "Boolean",
+				"DataType": "Bool",
 				"AttributeName": "PowerOutage",
 				"DeviceIO": "RO",
 				"MappedAttributeName": "XCat_PowerStatusPowerOutage",
@@ -189,7 +189,7 @@
 				"M2MAttributeName": "XCat_RemoteSetRemoteControlEnable",
 				"Instance": "XCat_RemoteSet",
 				"IsTimeSeries": false,
-				"DataType": "Boolean",
+				"DataType": "Bool",
 				"AttributeName": "RemoteControlEnable",
 				"DeviceIO": "RW",
 				"MappedAttributeName": "XCat_RemoteSetRemoteControlEnable",
@@ -234,7 +234,7 @@
 				"M2MAttributeName": "XCat_WifiSetPublishApplianceState",
 				"Instance": "XCat_WifiSet",
 				"IsTimeSeries": false,
-				"DataType": "Boolean",
+				"DataType": "Bool",
 				"AttributeName": "PublishApplianceState",
 				"DeviceIO": "WO",
 				"MappedAttributeName": "XCat_WifiSetPublishApplianceState",
@@ -246,7 +246,7 @@
 				"M2MAttributeName": "XCat_WifiSetRebootWifiCommModule",
 				"Instance": "XCat_WifiSet",
 				"IsTimeSeries": false,
-				"DataType": "Boolean",
+				"DataType": "Bool",
 				"AttributeName": "RebootWifiCommModule",
 				"DeviceIO": "RW",
 				"MappedAttributeName": "XCat_WifiSetRebootWifiCommModule",
@@ -258,7 +258,7 @@
 				"M2MAttributeName": "XCat_WifiSetDeprovisionWifiCommModule",
 				"Instance": "XCat_WifiSet",
 				"IsTimeSeries": false,
-				"DataType": "Boolean",
+				"DataType": "Bool",
 				"AttributeName": "DeprovisionWifiCommModule",
 				"DeviceIO": "RW",
 				"MappedAttributeName": "XCat_WifiSetDeprovisionWifiCommModule",
@@ -270,7 +270,7 @@
 				"M2MAttributeName": "XCat_WifiSetDisableWifiCommModule",
 				"Instance": "XCat_WifiSet",
 				"IsTimeSeries": false,
-				"DataType": "Boolean",
+				"DataType": "Bool",
 				"AttributeName": "DisableWifiCommModule",
 				"DeviceIO": "RW",
 				"MappedAttributeName": "XCat_WifiSetDisableWifiCommModule",
@@ -299,7 +299,7 @@
 				"M2MAttributeName": "XCat_SmartGridSetSmartGridEnable",
 				"Instance": "XCat_SmartGridSet",
 				"IsTimeSeries": false,
-				"DataType": "Boolean",
+				"DataType": "Bool",
 				"AttributeName": "SmartGridEnable",
 				"DeviceIO": "RW",
 				"MappedAttributeName": "XCat_SmartGridSetSmartGridEnable",
@@ -435,7 +435,7 @@
 				"M2MAttributeName": "Sys_DisplaySetEnable24Hour",
 				"Instance": "Sys_DisplaySet",
 				"IsTimeSeries": false,
-				"DataType": "Boolean",
+				"DataType": "Bool",
 				"AttributeName": "Enable24Hour",
 				"DeviceIO": "RW",
 				"MappedAttributeName": "Sys_DisplaySetEnable24Hour",
@@ -464,7 +464,7 @@
 				"M2MAttributeName": "Sys_OpSetControlLock",
 				"Instance": "Sys_OpSet",
 				"IsTimeSeries": false,
-				"DataType": "Boolean",
+				"DataType": "Bool",
 				"AttributeName": "ControlLock",
 				"DeviceIO": "RW",
 				"MappedAttributeName": "Sys_OpSetControlLock",
@@ -548,7 +548,7 @@
 				"M2MAttributeName": "Cavity_OpStatusDoorLocked",
 				"Instance": "Cavity_OpStatus",
 				"IsTimeSeries": false,
-				"DataType": "Boolean",
+				"DataType": "Bool",
 				"AttributeName": "DoorLocked",
 				"DeviceIO": "RO",
 				"MappedAttributeName": "Cavity_OpStatusDoorLocked",
@@ -560,7 +560,7 @@
 				"M2MAttributeName": "Cavity_OpStatusDoorOpen",
 				"Instance": "Cavity_OpStatus",
 				"IsTimeSeries": false,
-				"DataType": "Boolean",
+				"DataType": "Bool",
 				"AttributeName": "DoorOpen",
 				"DeviceIO": "RO",
 				"MappedAttributeName": "Cavity_OpStatusDoorOpen",
@@ -572,7 +572,7 @@
 				"M2MAttributeName": "Cavity_ChangeStatusSteamChangeable",
 				"Instance": "Cavity_ChangeStatus",
 				"IsTimeSeries": false,
-				"DataType": "Boolean",
+				"DataType": "Bool",
 				"AttributeName": "SteamChangeable",
 				"DeviceIO": "RO",
 				"MappedAttributeName": "Cavity_ChangeStatusSteamChangeable",
@@ -663,7 +663,7 @@
 				"M2MAttributeName": "Cavity_CycleSetSteamEnable",
 				"Instance": "Cavity_CycleSet",
 				"IsTimeSeries": false,
-				"DataType": "Boolean",
+				"DataType": "Bool",
 				"AttributeName": "SteamEnable",
 				"DeviceIO": "RW",
 				"MappedAttributeName": "Cavity_CycleSetSteamEnable",
@@ -737,7 +737,7 @@
 				"M2MAttributeName": "WashCavity_ChangeStatusBulkDispense1",
 				"Instance": "WashCavity_ChangeStatus",
 				"IsTimeSeries": false,
-				"DataType": "Boolean",
+				"DataType": "Bool",
 				"AttributeName": "BulkDispense1",
 				"DeviceIO": "RO",
 				"MappedAttributeName": "WashCavity_ChangeStatusBulkDispense1",
@@ -749,7 +749,7 @@
 				"M2MAttributeName": "WashCavity_ChangeStatusBulkDispense2",
 				"Instance": "WashCavity_ChangeStatus",
 				"IsTimeSeries": false,
-				"DataType": "Boolean",
+				"DataType": "Bool",
 				"AttributeName": "BulkDispense2",
 				"DeviceIO": "RO",
 				"MappedAttributeName": "WashCavity_ChangeStatusBulkDispense2",
@@ -761,7 +761,7 @@
 				"M2MAttributeName": "WashCavity_ChangeStatusBulkDispense1Concentration",
 				"Instance": "WashCavity_ChangeStatus",
 				"IsTimeSeries": false,
-				"DataType": "Boolean",
+				"DataType": "Bool",
 				"AttributeName": "BulkDispense1Concentration",
 				"DeviceIO": "RO",
 				"MappedAttributeName": "WashCavity_ChangeStatusBulkDispense1Concentration",
@@ -773,7 +773,7 @@
 				"M2MAttributeName": "WashCavity_ChangeStatusBulkDispense2Concentration",
 				"Instance": "WashCavity_ChangeStatus",
 				"IsTimeSeries": false,
-				"DataType": "Boolean",
+				"DataType": "Bool",
 				"AttributeName": "BulkDispense2Concentration",
 				"DeviceIO": "RO",
 				"MappedAttributeName": "WashCavity_ChangeStatusBulkDispense2Concentration",
@@ -785,7 +785,7 @@
 				"M2MAttributeName": "WashCavity_ChangeStatusExtraRinse",
 				"Instance": "WashCavity_ChangeStatus",
 				"IsTimeSeries": false,
-				"DataType": "Boolean",
+				"DataType": "Bool",
 				"AttributeName": "ExtraRinse",
 				"DeviceIO": "RO",
 				"MappedAttributeName": "WashCavity_ChangeStatusExtraRinse",
@@ -797,7 +797,7 @@
 				"M2MAttributeName": "WashCavity_ChangeStatusFreshening",
 				"Instance": "WashCavity_ChangeStatus",
 				"IsTimeSeries": false,
-				"DataType": "Boolean",
+				"DataType": "Bool",
 				"AttributeName": "Freshening",
 				"DeviceIO": "RO",
 				"MappedAttributeName": "WashCavity_ChangeStatusFreshening",
@@ -809,7 +809,7 @@
 				"M2MAttributeName": "WashCavity_ChangeStatusPresoakTimed",
 				"Instance": "WashCavity_ChangeStatus",
 				"IsTimeSeries": false,
-				"DataType": "Boolean",
+				"DataType": "Bool",
 				"AttributeName": "PresoakTimed",
 				"DeviceIO": "RO",
 				"MappedAttributeName": "WashCavity_ChangeStatusPresoakTimed",
@@ -821,7 +821,7 @@
 				"M2MAttributeName": "WashCavity_ChangeStatusSoilLevel",
 				"Instance": "WashCavity_ChangeStatus",
 				"IsTimeSeries": false,
-				"DataType": "Boolean",
+				"DataType": "Bool",
 				"AttributeName": "SoilLevel",
 				"DeviceIO": "RO",
 				"MappedAttributeName": "WashCavity_ChangeStatusSoilLevel",
@@ -833,7 +833,7 @@
 				"M2MAttributeName": "WashCavity_ChangeStatusSpinSpeed",
 				"Instance": "WashCavity_ChangeStatus",
 				"IsTimeSeries": false,
-				"DataType": "Boolean",
+				"DataType": "Bool",
 				"AttributeName": "SpinSpeed",
 				"DeviceIO": "RO",
 				"MappedAttributeName": "WashCavity_ChangeStatusSpinSpeed",
@@ -845,7 +845,7 @@
 				"M2MAttributeName": "WashCavity_ChangeStatusTemperature",
 				"Instance": "WashCavity_ChangeStatus",
 				"IsTimeSeries": false,
-				"DataType": "Boolean",
+				"DataType": "Bool",
 				"AttributeName": "Temperature",
 				"DeviceIO": "RO",
 				"MappedAttributeName": "WashCavity_ChangeStatusTemperature",
@@ -857,7 +857,7 @@
 				"M2MAttributeName": "WashCavity_ChangeStatusCycleSelect",
 				"Instance": "WashCavity_ChangeStatus",
 				"IsTimeSeries": false,
-				"DataType": "Boolean",
+				"DataType": "Bool",
 				"AttributeName": "CycleSelect",
 				"DeviceIO": "RO",
 				"MappedAttributeName": "WashCavity_ChangeStatusCycleSelect",
@@ -869,7 +869,7 @@
 				"M2MAttributeName": "WashCavity_CycleStatusAddGarment",
 				"Instance": "WashCavity_CycleStatus",
 				"IsTimeSeries": false,
-				"DataType": "Boolean",
+				"DataType": "Bool",
 				"AttributeName": "AddGarment",
 				"DeviceIO": "RO",
 				"MappedAttributeName": "WashCavity_CycleStatusAddGarment",
@@ -881,7 +881,7 @@
 				"M2MAttributeName": "WashCavity_CycleStatusCleanDetection",
 				"Instance": "WashCavity_CycleStatus",
 				"IsTimeSeries": false,
-				"DataType": "Boolean",
+				"DataType": "Bool",
 				"AttributeName": "CleanDetection",
 				"DeviceIO": "RO",
 				"MappedAttributeName": "WashCavity_CycleStatusCleanDetection",
@@ -893,7 +893,7 @@
 				"M2MAttributeName": "WashCavity_CycleStatusCleanReminder",
 				"Instance": "WashCavity_CycleStatus",
 				"IsTimeSeries": false,
-				"DataType": "Boolean",
+				"DataType": "Bool",
 				"AttributeName": "CleanReminder",
 				"DeviceIO": "RO",
 				"MappedAttributeName": "WashCavity_CycleStatusCleanReminder",
@@ -905,7 +905,7 @@
 				"M2MAttributeName": "WashCavity_CycleStatusDrying",
 				"Instance": "WashCavity_CycleStatus",
 				"IsTimeSeries": false,
-				"DataType": "Boolean",
+				"DataType": "Bool",
 				"AttributeName": "Drying",
 				"DeviceIO": "RO",
 				"MappedAttributeName": "WashCavity_CycleStatusDrying",
@@ -917,7 +917,7 @@
 				"M2MAttributeName": "WashCavity_CycleStatusSensing",
 				"Instance": "WashCavity_CycleStatus",
 				"IsTimeSeries": false,
-				"DataType": "Boolean",
+				"DataType": "Bool",
 				"AttributeName": "Sensing",
 				"DeviceIO": "RO",
 				"MappedAttributeName": "WashCavity_CycleStatusSensing",
@@ -929,7 +929,7 @@
 				"M2MAttributeName": "WashCavity_CycleStatusWashing",
 				"Instance": "WashCavity_CycleStatus",
 				"IsTimeSeries": false,
-				"DataType": "Boolean",
+				"DataType": "Bool",
 				"AttributeName": "Washing",
 				"DeviceIO": "RO",
 				"MappedAttributeName": "WashCavity_CycleStatusWashing",
@@ -1347,7 +1347,7 @@
 				"M2MAttributeName": "GetApplianceVersionNumber",
 				"Instance": "",
 				"IsTimeSeries": false,
-				"DataType": "Boolean",
+				"DataType": "Bool",
 				"AttributeName": "GetApplianceVersionNumber",
 				"DeviceIO": "WO",
 				"MappedAttributeName": "GetApplianceVersionNumber",
@@ -1398,7 +1398,7 @@
 				"M2MAttributeName": "ControlLockChangedByAppliance",
 				"Instance": "",
 				"IsTimeSeries": false,
-				"DataType": "Boolean",
+				"DataType": "Bool",
 				"AttributeName": "ControlLockChangedByAppliance",
 				"DeviceIO": "WO",
 				"MappedAttributeName": "ControlLockChangedByAppliance",
@@ -1549,7 +1549,7 @@
 				"M2MAttributeName": "online",
 				"Instance": "",
 				"IsTimeSeries": false,
-				"DataType": "Boolean",
+				"DataType": "Bool",
 				"AttributeName": "online",
 				"DeviceIO": "RO",
 				"MappedAttributeName": "online",
@@ -1753,7 +1753,7 @@
 								"Default": 0
 							},
 							"Cavity_CycleSetSteamEnable": {
-								"Boolean": [
+								"Bool": [
 									false,
 									true
 								],
@@ -1815,7 +1815,7 @@
 								"Default": 0
 							},
 							"Cavity_CycleSetSteamEnable": {
-								"Boolean": [
+								"Bool": [
 									false,
 									true
 								],
@@ -1878,7 +1878,7 @@
 								"Default": 0
 							},
 							"Cavity_CycleSetSteamEnable": {
-								"Boolean": [
+								"Bool": [
 									false,
 									true
 								],
@@ -1940,7 +1940,7 @@
 								"Default": 0
 							},
 							"Cavity_CycleSetSteamEnable": {
-								"Boolean": [
+								"Bool": [
 									false,
 									true
 								],
@@ -2044,7 +2044,7 @@
 								"Default": "SoilLevelLight"
 							},
 							"Cavity_CycleSetSteamEnable": {
-								"Boolean": [
+								"Bool": [
 									false,
 									true
 								],
@@ -2107,7 +2107,7 @@
 								"Default": 0
 							},
 							"Cavity_CycleSetSteamEnable": {
-								"Boolean": [
+								"Bool": [
 									false,
 									true
 								],
@@ -2170,7 +2170,7 @@
 								"Default": 0
 							},
 							"Cavity_CycleSetSteamEnable": {
-								"Boolean": [
+								"Bool": [
 									false,
 									true
 								],
@@ -2233,7 +2233,7 @@
 								"Default": 0
 							},
 							"Cavity_CycleSetSteamEnable": {
-								"Boolean": [
+								"Bool": [
 									false,
 									true
 								],
@@ -2296,7 +2296,7 @@
 								"Default": 0
 							},
 							"Cavity_CycleSetSteamEnable": {
-								"Boolean": [
+								"Bool": [
 									false,
 									true
 								],
@@ -2402,7 +2402,7 @@
 								"Default": "SoilLevelLight"
 							},
 							"Cavity_CycleSetSteamEnable": {
-								"Boolean": [
+								"Bool": [
 									false,
 									true
 								],
@@ -2465,7 +2465,7 @@
 								"Default": 0
 							},
 							"Cavity_CycleSetSteamEnable": {
-								"Boolean": [
+								"Bool": [
 									false,
 									true
 								],
@@ -2528,7 +2528,7 @@
 								"Default": 0
 							},
 							"Cavity_CycleSetSteamEnable": {
-								"Boolean": [
+								"Bool": [
 									false,
 									true
 								],
@@ -2591,7 +2591,7 @@
 								"Default": 0
 							},
 							"Cavity_CycleSetSteamEnable": {
-								"Boolean": [
+								"Bool": [
 									false,
 									true
 								],
@@ -2654,7 +2654,7 @@
 								"Default": 0
 							},
 							"Cavity_CycleSetSteamEnable": {
-								"Boolean": [
+								"Bool": [
 									false,
 									true
 								],
@@ -2760,7 +2760,7 @@
 								"Default": "SoilLevelLight"
 							},
 							"Cavity_CycleSetSteamEnable": {
-								"Boolean": [
+								"Bool": [
 									false,
 									true
 								],
@@ -2823,7 +2823,7 @@
 								"Default": 0
 							},
 							"Cavity_CycleSetSteamEnable": {
-								"Boolean": [
+								"Bool": [
 									false,
 									true
 								],
@@ -2886,7 +2886,7 @@
 								"Default": 0
 							},
 							"Cavity_CycleSetSteamEnable": {
-								"Boolean": [
+								"Bool": [
 									false,
 									true
 								],
@@ -2949,7 +2949,7 @@
 								"Default": 0
 							},
 							"Cavity_CycleSetSteamEnable": {
-								"Boolean": [
+								"Bool": [
 									false,
 									true
 								],
@@ -3012,7 +3012,7 @@
 								"Default": 0
 							},
 							"Cavity_CycleSetSteamEnable": {
-								"Boolean": [
+								"Bool": [
 									false,
 									true
 								],
@@ -3118,7 +3118,7 @@
 								"Default": "SoilLevelLight"
 							},
 							"Cavity_CycleSetSteamEnable": {
-								"Boolean": [
+								"Bool": [
 									false,
 									true
 								],
@@ -3181,7 +3181,7 @@
 								"Default": 0
 							},
 							"Cavity_CycleSetSteamEnable": {
-								"Boolean": [
+								"Bool": [
 									false,
 									true
 								],
@@ -3244,7 +3244,7 @@
 								"Default": 0
 							},
 							"Cavity_CycleSetSteamEnable": {
-								"Boolean": [
+								"Bool": [
 									false,
 									true
 								],
@@ -3307,7 +3307,7 @@
 								"Default": 0
 							},
 							"Cavity_CycleSetSteamEnable": {
-								"Boolean": [
+								"Bool": [
 									false,
 									true
 								],
@@ -3370,7 +3370,7 @@
 								"Default": 0
 							},
 							"Cavity_CycleSetSteamEnable": {
-								"Boolean": [
+								"Bool": [
 									false,
 									true
 								],
@@ -3476,7 +3476,7 @@
 								"Default": "SoilLevelLight"
 							},
 							"Cavity_CycleSetSteamEnable": {
-								"Boolean": [
+								"Bool": [
 									false,
 									true
 								],
@@ -3539,7 +3539,7 @@
 								"Default": 0
 							},
 							"Cavity_CycleSetSteamEnable": {
-								"Boolean": [
+								"Bool": [
 									false,
 									true
 								],
@@ -3602,7 +3602,7 @@
 								"Default": 0
 							},
 							"Cavity_CycleSetSteamEnable": {
-								"Boolean": [
+								"Bool": [
 									false,
 									true
 								],
@@ -3665,7 +3665,7 @@
 								"Default": 0
 							},
 							"Cavity_CycleSetSteamEnable": {
-								"Boolean": [
+								"Bool": [
 									false,
 									true
 								],
@@ -3728,7 +3728,7 @@
 								"Default": 0
 							},
 							"Cavity_CycleSetSteamEnable": {
-								"Boolean": [
+								"Bool": [
 									false,
 									true
 								],
