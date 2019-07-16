@@ -1305,13 +1305,12 @@
         "IsTimeSeries": false,
         "DataType": "BEIntegerUnsigned16Bit",
         "AttributeName": "ManualDryTime",
-        "List": [
-          1800,
-          3600,
-          7200,
-          10800,
-          14400
-        ],
+
+        "RangeValues": {
+          "StepSize": 1,
+          "Min": 0,
+          "Max": 14400
+        },
         "DeviceIO": "RW",
         "MappedAttributeName": "DryCavity_CycleSetManualDryTime",
         "Default": 3600,
